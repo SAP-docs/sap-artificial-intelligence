@@ -120,12 +120,12 @@ Contribute to Our Documentation
 
 At SAP, we endeavor to make sure that our documentation works for you. If you feel that something is missing or that something doesn't quite hit the mark, you can now provide feedback and suggest changes directly from SAP Help Portal. You can do so in one of two ways:
 
--   Click *Edit* in the toolbar to open the document in GitHub. There, you can suggest a change and subnit a pull request for us to review.
+-   Click *Edit* in the toolbar to open the document in GitHub. There, you can suggest a change and submit a pull request for us to review.
 
 -   Click *Feedback* in the toolbar to create a GitHub issue and tell us how we can improve the documentation for you.
 
 
-For more information, including guidelines on how to contribute, see [Open Documentation Initative](https://help.sap.com/docs/open-documentation-initiative/contribution-guidelines/readme.html).
+For more information, including guidelines on how to contribute, see [Open Documentation Initiative](https://help.sap.com/docs/open-documentation-initiative/contribution-guidelines/readme.html).
 
 
 
@@ -211,7 +211,9 @@ Stop or Delete Multiple Executions or Deployments
 </td>
 <td valign="top">
 
-Multiple executions or deployments can be stopped or deleted at the same time. For more information, see [Stop Multiple Executions](stop-multiple-executions-78d9a92.md), [Delete Multiple Executions](delete-multiple-executions-f91741a.md), [Stop Multiple Deployments](stop-multiple-deployments-d25b6b4.md) or [Delete Multiple Deployments](delete-multiple-deployments-148dc64.md) .
+Multiple executions or deployments can be stopped or deleted at the same time.
+
+See [Stop Multiple Executions](stop-multiple-executions-78d9a92.md), [Delete Multiple Executions](delete-multiple-executions-f91741a.md), [Stop Multiple Deployments](stop-multiple-deployments-d25b6b4.md), or [Delete Multiple Deployments](delete-multiple-deployments-148dc64.md).
 
 
 
@@ -297,7 +299,9 @@ Manual GitOps Sync
 </td>
 <td valign="top">
 
-The sync between GitOps and applications can be triggered manually, in addition to automatic syncs. For more information, see [Create an Application](create-an-application-6825db6.md).
+The sync between GitOps and applications can be triggered manually, in addition to automatic syncs.
+
+See [Create an Application](create-an-application-6825db6.md).
 
 
 
@@ -383,7 +387,9 @@ Scheduling
 </td>
 <td valign="top">
 
-Main tenants can create and manage schedules for the automation of workflow executions. For more information, see [Schedules](schedules-06a6cde.md).
+Main tenants can create and manage schedules for the automation of workflow executions.
+
+See [Schedules](schedules-06a6cde.md).
 
 
 

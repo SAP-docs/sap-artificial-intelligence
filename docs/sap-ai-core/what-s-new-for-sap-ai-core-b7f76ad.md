@@ -122,12 +122,12 @@ Contribute to Our Documentation
 
 At SAP, we endeavor to make sure that our documentation works for you. If you feel that something is missing or that something doesn't quite hit the mark, you can now provide feedback and suggest changes directly from SAP Help Portal. You can do so in one of two ways:
 
--   Click *Edit* in the toolbar to open the document in GitHub. There, you can suggest a change and subnit a pull request for us to review.
+-   Click *Edit* in the toolbar to open the document in GitHub. There, you can suggest a change and submit a pull request for us to review.
 
 -   Click *Feedback* in the toolbar to create a GitHub issue and tell us how we can improve the documentation for you.
 
 
-For more information, including guidelines on how to contribute, see [Open Documentation Initative](https://help.sap.com/docs/open-documentation-initiative/contribution-guidelines/readme.html).
+For more information, including guidelines on how to contribute, see [Open Documentation Initiative](https://help.sap.com/docs/open-documentation-initiative/contribution-guidelines/readme.html).
 
 
 
@@ -1511,7 +1511,7 @@ Enhanced Serving Template Parameters
 </td>
 <td valign="top">
 
-The `executables.ai.sap.com/cascade-update-deployments` parameter can be used in the serving template, to update associated deployments automatically. For more information, [Serving Tempates](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/20a8667ef19e4de59a4469cb542a7457.html?version=CLOUD) and [Change Serving Template and Update Deployments](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/9555fe1f83e64aee9b12f7b7008674d6.html?version=CLOUD) .
+The `executables.ai.sap.com/cascade-update-deployments` parameter can be used in the serving template, to update associated deployments automatically. For more information, [Serving Templates](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/20a8667ef19e4de59a4469cb542a7457.html?version=CLOUD) and [Change Serving Template and Update Deployments](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/9555fe1f83e64aee9b12f7b7008674d6.html?version=CLOUD) .
 
 
 
