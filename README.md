@@ -1,4 +1,4 @@
-[![REUSE status]()]()
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-docs/sap-artificial-intelligence)](https://api.reuse.software/info/github.com/SAP-docs/sap-artificial-intelligence)
 
 # Contributions to SAP AI Core and SAP AI Launchpad
 
