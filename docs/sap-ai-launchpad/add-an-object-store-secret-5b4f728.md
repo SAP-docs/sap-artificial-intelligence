@@ -1,0 +1,85 @@
+<!-- loio5b4f728c8f21403697728687f96e03c6 -->
+
+<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
+
+# Add an Object Store Secret
+
+As an administrator, you can add object store secrets for use within your AI processes.
+
+
+
+<a name="loio5b4f728c8f21403697728687f96e03c6__prereq_jxh_cq2_fob"/>
+
+## Prerequisites
+
+You have the `aicore_admin_objectstoresecret_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+
+You have access to the hyperscaler object store over the Internet.
+
+
+
+## Context
+
+You can use the *SAP AI Core Administration* app to add secrets for multiple object stores. The object stores must already exist with valid credentials.
+
+Supported cloud object stores include Amazon S3 \(S3\), Alicloud Object Storage Service \(OSS\), Azure and SAP HANA Cloud, data lake \(WebHDFS\).
+
+
+
+<a name="loio5b4f728c8f21403697728687f96e03c6__steps_ply_fmq_yes"/>
+
+## Procedure
+
+1.  In the *Workspaces* app, choose the AI API connection and resource group.
+
+2.  Open the *SAP AI Core Administration* app and choose *Object Store Secrets*.
+
+    The *Object Store Secrets* screen appears with a tile for each existing secret.
+
+3.  Choose *Add* to enter reference details for a new secret.
+
+4.  Complete the fields in the *Add Object Store Secret* dialog box as follows:
+
+    1.  Confirm the resource group. To change the resource group, choose <span class="SAP-icons"></span> \(Change Value\).
+
+    2.  Enter a name for the secret.
+
+        Secret names must comply with the following criteria:
+
+        -   Contain only lowercase alphanumeric characters, hyphens \(-\), or periods \(.\)
+
+        -   Start with an alphanumeric character
+
+        -   End with an alphanumeric character
+
+
+    3.  Choose the type of object store, from the drop down menu.
+
+    4.  Enter the path prefix. The path prefix is used to differentiate between different projects which are stored in the same location.
+
+    5.  Complete the information requested in the dialog box.
+
+        > ### Note:  
+        > The type of object store determines what fields are required for the object store secret.
+
+        For S3:
+
+        -   Choose ***Verify SSL*** to apply the SSL security protocol to data transferred from the object store.
+        -   Choose ***Use HTTPS*** to apply the HTTPS communication protocol to data transferred from the object store.
+
+    6.  Enter the secret in `JSON` format. For more information, see [Register Your Object Store Secret](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/b083d73f672c428faac3048b74733546.html "SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS (Alicloud Object Storage Service), SAP HANA Cloud, Data Lake and Azure Blob Storage.") :arrow_upper_right:
+
+
+5.  Choose *Add* to save the secret details.
+
+
+
+
+<a name="loio5b4f728c8f21403697728687f96e03c6__result_ybj_xql_w5b"/>
+
+## Results
+
+The new secret appears on the *Object Store Secrets* screen.
+
+The saved secret enables read-access to the nominated hyperscaler object store, enabling stored files to be used in your launchpad processes.
+
