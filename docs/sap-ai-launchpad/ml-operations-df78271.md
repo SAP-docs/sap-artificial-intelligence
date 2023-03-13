@@ -189,6 +189,9 @@ Configurations combine artifacts \(such as datasets or models\) with executables
 An execution is a training process or batch inferencing process for an AI scenario. The behavior of an execution is determined by the code pieces in the workflow executable.
 -   **[Deployments](deployments-0543c2c.md "A deployment runs a model for serving (inferencing) purposes. You use deployments to make online predictions.")**  
 A deployment runs a model for serving \(inferencing\) purposes. You use deployments to make online predictions.
+-   **[Schedules](schedules-06a6cde.md "Set up a periodic scheduling of workflow executions to automate execution creation, and define its parameters such as the recurrence
+		period and recurrence duration. Users can update a schedule to change its recurrence period of operation and job.")**  
+Set up a periodic scheduling of workflow executions to automate execution creation, and define its parameters such as the recurrence period and recurrence duration. Users can update a schedule to change its recurrence period of operation and job.
 -   **[Datasets](datasets-e299ed5.md " A dataset is a type of artifact which is registered in your AI runtime. A registered dataset references files that are stored in your
 		connected hyperscaler object store.")**  
  A dataset is a type of artifact which is registered in your AI runtime. A registered dataset references files that are stored in your connected hyperscaler object store.

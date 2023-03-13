@@ -45,14 +45,14 @@ You edit a secret when its credentials \(user name and access token\) change.
 
     1.  Edit the path prefix, if required. The path prefix is used to differentiate between different projects which are stored in the same location.
 
-    2.  For ***S3*** object stores:
+    2.  Complete the information requested in the dialog box.
 
-        -   Edit the bucket, endpoint, and region. The region is determined by your global account and indicates where your AI data is held.
+        For S3:
 
         -   Choose ***Verify SSL*** to apply the SSL security protocol to data transferred from the object store.
         -   Choose ***Use HTTPS*** to apply the HTTPS communication protocol to data transferred from the object store.
 
-    3.  Enter the secret in `JSON` format.
+    3.  Enter the secret in `JSON` format. For more information, see [Register Your Object Store Secret](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/b083d73f672c428faac3048b74733546.html)
 
 
 5.  Choose *Edit* to save the changes to the secret.

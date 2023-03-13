@@ -113,6 +113,99 @@ SAP AI Core
 </td>
 <td valign="top">
 
+Contribute to Our Documentation
+
+
+
+</td>
+<td valign="top">
+
+At SAP, we endeavor to make sure that our documentation works for you. If you feel that something is missing or that something doesn't quite hit the mark, you can now provide feedback and suggest changes directly from SAP Help Portal. You can do so in one of two ways:
+
+-   Click *Edit* in the toolbar to open the document in GitHub. There, you can suggest a change and subnit a pull request for us to review.
+
+-   Click *Feedback* in the toolbar to create a GitHub issue and tell us how we can improve the documentation for you.
+
+
+For more information, including guidelines on how to contribute, see [Open Documentation Initative](https://help.sap.com/docs/open-documentation-initiative/contribution-guidelines/readme.html).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+General Availability
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+
+
+</td>
+<td valign="top">
+
+2023-03-13
+
+
+
+</td>
+<td valign="top">
+
+2023-03-13
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Bulk PATCH Endpoint to STOP or DELETE Multiple Executions or Deployments
 
 

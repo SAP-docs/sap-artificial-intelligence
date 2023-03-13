@@ -22,7 +22,7 @@ You have access to the hyperscaler object store over the Internet.
 
 You can use the *SAP AI Core Administration* app to add secrets for multiple object stores. The object stores must already exist with valid credentials.
 
-Supported cloud object stores include Amazon S3 \(S3\), Alicloud Object Storage Service \(OSS\), Azure and SAP HANA Cloud, data lake \(WebHDFS\).
+Supported cloud object stores include Amazon S3 \(S3\), Alicloud Object Storage Service \(OSS\), and SAP HANA Cloud, data lake \(WebHDFS\).
 
 
 
@@ -67,7 +67,7 @@ Supported cloud object stores include Amazon S3 \(S3\), Alicloud Object Storage 
         -   Choose ***Verify SSL*** to apply the SSL security protocol to data transferred from the object store.
         -   Choose ***Use HTTPS*** to apply the HTTPS communication protocol to data transferred from the object store.
 
-    6.  Enter the secret in `JSON` format. For more information, see [Register Your Object Store Secret](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/b083d73f672c428faac3048b74733546.html "SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS (Alicloud Object Storage Service), SAP HANA Cloud, Data Lake and Azure Blob Storage.") :arrow_upper_right:
+    6.  Enter the secret in `JSON` format. For more information, see [Register Your Object Store Secret](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/b083d73f672c428faac3048b74733546.html).
 
 
 5.  Choose *Add* to save the secret details.

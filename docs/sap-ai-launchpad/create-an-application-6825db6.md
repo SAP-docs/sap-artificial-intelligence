@@ -51,10 +51,48 @@ The source Git repository required for the application has been added. See [Add 
 The new application is created.
 
 > ### Note:  
-> The timing for the initial synchronization is determined by the sync policy for the application.
+> The timing for the initial synchronization is determined by the sync policy for the application. For SAP AI Core, syncs take place at ~3 minute intervals
 
 **Related Information**  
 
 
 [Create an Application to Sync your Folders](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/fd1aa517b21e495caa691259da38a5d0.html)
+
+ <a name="task_xgh_453_nwb"/>
+
+<!-- task\_xgh\_453\_nwb -->
+
+## Sync an Application Manually
+
+
+
+<a name="task_xgh_453_nwb__prereq_rlb_mv3_nwb"/>
+
+## Prerequisites
+
+You have successfully created an application.
+
+
+
+<a name="task_xgh_453_nwb__context_jtr_p53_nwb"/>
+
+## Context
+
+For the SAP AI Core runtime only, automatic syncs take place at ~3 minute intervals, and it is possible to start the sync manually.
+
+
+
+<a name="task_xgh_453_nwb__steps_zd3_rv3_nwb"/>
+
+## Procedure
+
+1.  Navigate to the application's details. See [View an Application](view-an-application-edb1aa0.md).
+
+2.  Choose *Sync* in the header.
+
+    A dialogue box appears, confirming that your application is being synced.
+
+    > ### Tip:  
+    > Choose *refresh* to update the application details.
+
 

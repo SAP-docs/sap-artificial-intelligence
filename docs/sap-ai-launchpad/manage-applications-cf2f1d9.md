@@ -18,11 +18,11 @@ After you have added a Git repository, you'll need to create an application to s
 > ### Note:  
 > Users with the `aicore_admin_applications_viewer` role \(or a role collection that contains it\), can view an application's details but not make changes.
 
--   **[View an Application](view-an-application-edb1aa0.md "You can investigate details for an application used within your instance of SAP AI Core. ")**  
-You can investigate details for an application used within your instance of SAP AI Core.
 -   **[Create an Application](create-an-application-6825db6.md "As a system administrator, you create applications which sync with Git repositories used
 		in your AI processes. ")**  
 As a system administrator, you create applications which sync with Git repositories used in your AI processes.
+-   **[View an Application](view-an-application-edb1aa0.md "You can investigate details for an application used within your instance of SAP AI Core. ")**  
+You can investigate details for an application used within your instance of SAP AI Core.
 -   **[Edit an Application](edit-an-application-1c156f4.md "As a system administrator, you can edit applications which sync with Git repositories
 		used in your AI processes. ")**  
 As a system administrator, you can edit applications which sync with Git repositories used in your AI processes.

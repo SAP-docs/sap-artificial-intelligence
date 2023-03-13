@@ -111,6 +111,271 @@ Available as of
 </td>
 <td valign="top">
 
+Contribute to Our Documentation
+
+
+
+</td>
+<td valign="top">
+
+At SAP, we endeavor to make sure that our documentation works for you. If you feel that something is missing or that something doesn't quite hit the mark, you can now provide feedback and suggest changes directly from SAP Help Portal. You can do so in one of two ways:
+
+-   Click *Edit* in the toolbar to open the document in GitHub. There, you can suggest a change and subnit a pull request for us to review.
+
+-   Click *Feedback* in the toolbar to create a GitHub issue and tell us how we can improve the documentation for you.
+
+
+For more information, including guidelines on how to contribute, see [Open Documentation Initative](https://help.sap.com/docs/open-documentation-initiative/contribution-guidelines/readme.html).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+General Availability
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+
+
+</td>
+<td valign="top">
+
+2023-03-13
+
+
+
+</td>
+<td valign="top">
+
+2023-03-13
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP AI Launchpad 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Stop or Delete Multiple Executions or Deployments
+
+
+
+</td>
+<td valign="top">
+
+Multiple executions or deployments can be stopped or deleted at the same time. For more information, see [Stop Multiple Executions](stop-multiple-executions-78d9a92.md), [Delete Multiple Executions](delete-multiple-executions-f91741a.md), [Stop Multiple Deployments](stop-multiple-deployments-d25b6b4.md) or [Delete Multiple Deployments](delete-multiple-deployments-148dc64.md) .
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+General Availability
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+
+
+</td>
+<td valign="top">
+
+2023-03-10
+
+
+
+</td>
+<td valign="top">
+
+2023-03-10
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP AI Launchpad 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Scheduling
+
+
+
+</td>
+<td valign="top">
+
+Main tenants can create and manage schedules for the automation of workflow executions. For more information, see [Schedules](schedules-06a6cde.md).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+General Availability
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+
+
+</td>
+<td valign="top">
+
+2023-03-10
+
+
+
+</td>
+<td valign="top">
+
+2023-03-10
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP AI Launchpad 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Deployments - Duration
 
 
@@ -468,7 +733,7 @@ Search Behavior for Configurations and Artifacts
 </td>
 <td valign="top">
 
-Case-sensitivity has changed when searching for configurations and artifacts \(such as models and datasets\). If your runtime is SAP AI Core, then these seaches are no longer case-sensitive. For other runtimes, search entries may be case-sensitive.
+Case-sensitivity has changed when searching for configurations and artifacts \(such as models and datasets\). If your runtime is SAP AI Core, then these searches are no longer case-sensitive. For other runtimes, search entries may be case-sensitive.
 
 See [Create an Execution](create-an-execution-6c90fc7.md) or [Find a Configuration](find-a-configuration-3f1d78d.md) 
 
@@ -2242,7 +2507,7 @@ Update a Deployment with a Chosen Configuration
 </td>
 <td valign="top">
 
-You can update a deployment with your choice of configuration.You can choose to apply a new configuration, or re-use an older or previously used configuration.
+You can update a deployment with your choice of configuration. You can choose to apply a new configuration, or re-use an older or previously used configuration.
 
 See [Update a Deployment](update-a-deployment-bce2b16.md).
 

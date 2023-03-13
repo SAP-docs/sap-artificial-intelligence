@@ -251,8 +251,12 @@ You can view the details for an execution, and investigate details for each oper
  You check the status details for an execution to see detailed code logs for a running execution. The status details include detailed status and workflow information.
 -   **[Stop an Execution](stop-an-execution-9554f1c.md "Stopping an execution releases the computing resources acquired in the AI runtime in which the execution is present (such as SAP AI Core).")**  
 Stopping an execution releases the computing resources acquired in the AI runtime in which the execution is present \(such as SAP AI Core\).
+-   **[Stop Multiple Executions](stop-multiple-executions-78d9a92.md "")**  
+
 -   **[Delete an Execution](delete-an-execution-51814db.md "You delete an execution to remove it from your instance. Deletion does not impact the associated model or result sets.")**  
 You delete an execution to remove it from your instance. Deletion does not impact the associated model or result sets.
+-   **[Delete Multiple Executions](delete-multiple-executions-f91741a.md "")**  
+
 -   **[View the Metric Resource for an Execution](view-the-metric-resource-for-an-execution-d85dd44.md "Use metric data to determine a model's quality (accuracy, precision, or any other
 		custom metric value).")**  
 Use metric data to determine a model's quality \(accuracy, precision, or any other custom metric value\).
