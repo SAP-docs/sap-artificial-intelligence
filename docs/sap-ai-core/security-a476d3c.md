@@ -276,7 +276,7 @@ SAP AI Core supports the user roles outlined in [Roles and Authorizations](secur
 
 <!-- loioe7909866a6294b4ab9974dcebc8336f4 -->
 
-#### Roles and Authorizations
+### Roles and Authorizations
 
 SAP AI Core provides default role collections that you can assign to users. The role collections determine which actions a user is able to carry out in SAP AI Core. You can also create your own role collections and assign the required roles to them.
 
