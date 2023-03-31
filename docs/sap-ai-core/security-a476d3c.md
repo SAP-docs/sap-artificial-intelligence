@@ -276,7 +276,7 @@ SAP AI Core supports the user roles outlined in [Roles and Authorizations](secur
 
 <!-- loioe7909866a6294b4ab9974dcebc8336f4 -->
 
-#### Roles and Authorizations
+### Roles and Authorizations
 
 SAP AI Core provides default role collections that you can assign to users. The role collections determine which actions a user is able to carry out in SAP AI Core. You can also create your own role collections and assign the required roles to them.
 
@@ -890,6 +890,7 @@ Creation of a Docker image is the responsibility of the tenant, we strongly reco
 
 <!-- loiod1cd77fb7da34eacb0fdece7e5262069 -->
 
+
 ### AI Content Security
 
 AI content covers workflow templates and serving templates, docker images used in the templates. Docker image contains the ML algorithms or code along with the ML Libraries or Frameworks and other dependent packages. Standard Secure Software Development Practices should be followed covering the AI content.
@@ -1061,6 +1062,10 @@ We recommend that you enable the relevant and applicable Kubernetes security fea
 
 <!-- loio2b4c76d85b614dcc931bbe55902f6d6a -->
 
+### Configuration Data and Secrets
+
+Workloads may implement access to network resources other than object stores. To access such network resources, workloads need to have credentials at runtime. SAP AI Core allows users to inject secrets in form of generic secrets. They can be created and managed by AI Core's REST APIs and consumed in a secure way in a workload. We recommend to only use this mechanism for sensitive information. Technically, it is also possible to inject parameters via configurations or labels. We discourage to use this for sensitive information. Different standards of confidentiality apply for these ways of injecting information into workloads (e.g. they are return in cleartext in GET requests).
+
 ### Output Encoding
 
 To avoid breaking the business functionality, SAP AI Core does not sanitize any user input. Consumers or applications that consume the AI API are expected to perform necessary output encoding based on the usage context to prevent XSS attacks.
@@ -1112,3 +1117,6 @@ Example resource group mappings are outlined in the figure below:
 
 ![Example resource group mappings.](images/Image_AI_Core_Security_Resource_Group_Mappings_3f54dda.png)
 
+### Tenant Isolation of Workloads
+
+Workloads are running in a sandbox environment and can not access workflows of other tenants or resource groups. Only TCP is supporte for in- or outbound traffic from a workload. We strongly discourage for workloads to open Sockets on UDP ports, since they would not be usable, yet may pose a theoretical security problem for the workload. 
