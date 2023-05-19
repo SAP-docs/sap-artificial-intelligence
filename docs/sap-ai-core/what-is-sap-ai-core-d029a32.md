@@ -2,7 +2,7 @@
 
 # What Is SAP AI Core?
 
-Hello world
+Hello world!
 
 Learn more about the SAP AI Core service on SAP Business Technology Platform \(SAP BTP\).
 
