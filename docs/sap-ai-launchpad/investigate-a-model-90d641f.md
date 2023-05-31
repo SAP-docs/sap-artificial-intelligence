@@ -36,7 +36,7 @@ You can create a chart to visualize the performance of an individual model, or c
 
 2.  In the *ML Operations* app, choose *Models*.
 
-    The *Models* screen appears listing all of the models for the selected resource group. Models are listed by name, and with additional details such as description, ID, scenario, execution ID, labels, created on timestamp, and changed on timestamp.
+    The *Models* screen appears listing all of the models for the selected resource group. Models are listed by name, and with additional details such as description, ID, scenario, URL, execution ID, labels, created on timestamp, and changed on timestamp.
 
     > ### Remember:  
     > You use a model ID to uniquely identify a model. This ID is used in your configuration as a value for a placeholder \(input artifact\) of a serving executable \(a pipeline to deploy an AI model\).

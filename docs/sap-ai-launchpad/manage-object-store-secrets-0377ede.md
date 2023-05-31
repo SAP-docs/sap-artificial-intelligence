@@ -8,7 +8,7 @@ A cloud object store enables you to store files that you use in your launchpad p
 
 Cloud storage credentials are managed using secrets. Secrets are a means of allowing and controlling connections across directories and tools, without compromising your credentials.
 
-Various hyperscaler object stores are supported, including Amazon S3, Alicloud Object Storage Service \(OSS\), and SAP HANA Cloud, data lake \(WebHDFS\).
+Various hyperscaler object stores are supported, including Amazon S3, Alicloud Object Storage Service \(OSS\), Azure and SAP HANA Cloud, data lake \(WebHDFS\).
 
 -   **[Add an Object Store Secret](add-an-object-store-secret-5b4f728.md "As an administrator, you can add object store secrets for use within your AI processes. ")**  
 As an administrator, you can add object store secrets for use within your AI processes.

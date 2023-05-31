@@ -30,8 +30,8 @@ spec:
 	- extendCredentials:
 		shared:
 			serviceUrls:
-				AI_SVC_URL: https://api.ai.internalprod.eu-central-1.aws.ml.hana.ondemand.com
-	extendCatalog:
+				AI_API_URL: https://api.ai.internalprod.eu-central-1.aws.ml.hana.ondemand.com
+	  extendCatalog:
 		name: sample-service
 		id: sample-service-broker-id
 		description: sample service
@@ -162,7 +162,7 @@ Key reference for password from registered Secret.
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="5">
+<td valign="top" rowspan="6">
 
 capabilities
 
@@ -224,7 +224,7 @@ Consumers can create executions \(default: true\).
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="2">
+<td valign="top" rowspan="3">
 
 logs
 
@@ -257,6 +257,26 @@ deployments
 <td valign="top">
 
 Consumers can access deployment logs.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+by default
+
+
+
+</td>
+<td valign="top">
+
+Consumer has access to:
+
+-   Create, read artifacts & configurations
+-   Download, upload and delete datasets
+-   Create, read, update & delete object store secrets
 
 
 
@@ -302,4 +322,9 @@ Used to extend service catalog.
 </td>
 </tr>
 </table>
+
+> ### Restriction:  
+> Updating of Service Custom Resource is not Supported
+> 
+> Once a service custom resource has synced successfully, updates of any parameters in templates will not take any effect.
 

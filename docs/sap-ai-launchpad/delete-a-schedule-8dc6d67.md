@@ -32,6 +32,9 @@ Deleting a schedule only deletes the schedule itself. It does not delete executi
 
     The schedule will be deleted.
 
+    > ### Note:  
+    > Deleting a schedule does not delete the executions created by the schedule.
+
 
 **Related Information**  
 

@@ -30,7 +30,7 @@ You can assign role collections to specific users to allow access to SAP AI Laun
 
 6.  Choose the role collections as required.
 
-    SAP AI Launchpad provides standard or default role collections. The default role collections bundle the roles required for likely SAP AI Launchpad tasks and and app functions. However, if these role collections do not suit your organizational needs, you can create your own role collections.
+    SAP AI Launchpad provides standard or default role collections. The default role collections bundle the roles required for likely SAP AI Launchpad tasks and app functions. However, if these role collections do not suit your organizational needs, you can create your own role collections.
 
     **Default Role Collections**
 

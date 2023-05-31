@@ -2,7 +2,7 @@
 
 # Choose a Resource Plan
 
-You can configure SAP AI Core to use different infrastructure resources for different tasks, based on task demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.
+You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.
 
 
 
@@ -12,9 +12,9 @@ You can configure SAP AI Core to use different infrastructure resources for diff
 
 Resource plans are used to select resources in workflow and serving templates. Different steps of a workflow can have different resource plans.
 
-In general, if your workload needs or profits from GPU acceleration, you should use one of the GPU-enabled resource plans. Otherwise, choose the resource plan based on the anticipated CPU and memory need of your workloads.
+In general, if your workload needs GPU acceleration, you should use one of the GPU-enabled resource plans. Otherwise, choose a resource plan based on the anticipated CPU and memory need of your workloads.
 
-Within SAP AI Core, the resource plan is selected via the `ai.sap.com/resourcePlan` label at pod level. It maps the resource plan selected by a user and uses the string value, which can be any of the following resource plan IDs:
+Within SAP AI Core, the resource plan is selected via the `ai.sap.com/resourcePlan` label at pod level. It maps the selected resource plan and takes a string value, which can be any of the following resource plan IDs:
 
 **Resource Plan Specifications for AWS**
 
@@ -53,7 +53,7 @@ Memory GBs
 
 Code to Allocate Resources
 
-\(to Add to Workflow Templates\)
+in Workflow Templates
 
 
 
@@ -332,17 +332,17 @@ Basic-8x
 
 [List Executables](list-executables-6af8e60.md "An executable is a template that is instantiated for a purpose, such as training a model or creating a deployment. You can list all of the executables in a resource group and get details of specific executables from a resource group. Serving templates are mapped to deployment executables.")
 
-[Deploy Models](deploy-models-dd16e8e.md "Utilize your model and retrieve a URL to use for inferencing.")
+[Deploy Models](deploy-models-dd16e8e.md "")
 
-[Inference](inference-e348ecf.md "Use the URL from your model deployment to access the results of your model.")
+[Inferencing](inferencing-e348ecf.md "")
 
-[Update a Deployment](update-a-deployment-9789ddd.md "You can update a deployment with a new configuration while retaining the inference URL.")
+[Update a Deployment](update-a-deployment-9789ddd.md "")
 
-[Stop Deployments](stop-deployments-b7d2577.md#loiob7d2577088c84417bbab370173d38cd8 "Stopping a deployment releases the SAP AI Core runtime computing resources that it used.")
+[Stop Deployments](stop-deployments-b7d2577.md " ")
 
-[Delete Deployments](delete-deployments-0193d17.md#loio0193d17a7bdb4ae08a9c8301d1d8c1b8 "Deleting a deployment releases the SAP AI Core resources that it used.")
+[Delete Deployments](delete-deployments-0193d17.md " ")
 
-[Efficiency Features](efficiency-features-9fad26a.md "Discover features of SAP AI Core that improve model server efficiency and help manage resource consumption.")
+[Efficiency Features](efficiency-features-9fad26a.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
 
 [Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md "Information about API processing and metrics, are stored and accessed in the deployment and execution logs.")
 
@@ -352,5 +352,5 @@ Basic-8x
 
 ## Service Usage Reporting
 
-Usage consumption of services is reported in the SAP BTP cockpit on the *Overview* page for your global account and on the *Overview* and *Usage Analytics* pages of your subaccount. The usage report lists usage in billable measures and nonbillable measures. Your final monthly bill is based on the billable measure only. The nonbillable measures display usage for reporting purposes only.
+Usage consumption of services is reported in the SAP BTP cockpit on the *Overview* page for your global account and on the *Overview* and *Usage Analytics* pages of your subaccount. The usage report lists usage in billable measures and nonbillable measures. Your final monthly bill is based on the billable measure only. Nonbillable measures sre displayed for reporting purposes only.
 

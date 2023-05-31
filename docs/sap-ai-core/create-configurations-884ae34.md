@@ -10,7 +10,7 @@ A configuration is a collection of parameters, artifact references, and executab
 
 ## Using Postman
 
-1.  Create a new POST request and enter the URL `{{apiurl}}/v2/lm/configurations`
+1.  Send a POST request to the endpoint `{{apiurl}}/v2/lm/configurations`
 
 2.  On the *Authorization* tab, set the type to *Bearer Token*.
 
@@ -40,15 +40,15 @@ A configuration is a collection of parameters, artifact references, and executab
     </tr>
     <tr>
     <td valign="top">
-
-     `ai-resource-group` 
+    
+         `ai-resource-group` 
 
 
     
     </td>
     <td valign="top">
-
-     *<Name of your resourceGroup\>* \(in the example, `default` is used\)
+    
+         *<Name of your resourceGroup\>* \(in the example, `default` is used\)
 
 
     
@@ -56,15 +56,15 @@ A configuration is a collection of parameters, artifact references, and executab
     </tr>
     <tr>
     <td valign="top">
-
-     `Content-Type` 
+    
+         `Content-Type` 
 
 
     
     </td>
     <td valign="top">
-
-     ***application/json*** 
+    
+         ***application/json*** 
 
 
     
@@ -107,8 +107,7 @@ A configuration is a collection of parameters, artifact references, and executab
 ## Using curl
 
 ```
-curl --request POST "[/pandoc/div/div/horizontalrule/codeblock/span/code
-     {"filepath"}) $AI_API_URL/v2/lm/configurations (code]" --header "Authorization: Bearer $TOKEN" --header "ai-resource-group: $RESOURCE_GROUP" --header "Content-Type: application/json" \
+curl --request POST "$AI_API_URL/v2/lm/configurations" --header "Authorization: Bearer $TOKEN" --header "ai-resource-group: $RESOURCE_GROUP" --header "Content-Type: application/json" \
 -d '{ 
     "name": "dummy-configuration", 
     "executableId": "'"$EXECUTABLE"'", 
@@ -141,21 +140,23 @@ curl --request POST "[/pandoc/div/div/horizontalrule/codeblock/span/code
 **Related Information**  
 
 
-[Choose a Resource Plan](choose-a-resource-plan-57f4f19.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on task demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
+[Choose a Resource Plan](choose-a-resource-plan-57f4f19.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
 
 [Workflow Templates](workflow-templates-83523ab.md "Here, you can find a minimal workflow example template, that can be adapted to meet the requirements of your workflow.")
 
-[List Scenarios](list-scenarios-deedde5.md "A scenario is a group of related executables for a use case within the user's tenant. A scenario can have multiple versions that further correspond to the different versions of executables.")
+[List Scenarios](list-scenarios-deedde5.md "")
 
-[List Executables](list-executables-80895a4.md "An executable is a template that is instantiated for a purpose, such as training a model or creating a deployment. You can list all of the executables in a scenario and get details of specific executables from a scenario. Workflow templates are mapped to training executables.")
+[List Executables](list-executables-80895a4.md "")
 
 [List Configurations](list-configurations-8074b2a.md "")
 
-[Start Training](start-training-54b44e4.md "Start training and check the status of the execution.")
+[Start Training](start-training-54b44e4.md "")
 
-[Stop Training Instances](stop-training-instances-3d85344.md#loio3d853443027449d9a33723165b19b25a "")
+[Stop Training Instances](stop-training-instances-3d85344.md "")
 
-[Delete Training Instances](delete-training-instances-612ce17.md#loio612ce172e609432a840a22eb211ecf7b "Deleting a training instance releases the SAP AI Core resources that it used.")
+[Delete Training Instances](delete-training-instances-612ce17.md "")
+
+[Efficiency Features](efficiency-features-4cb76f7.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
 
 [Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "Information about API processing and metrics, are stored and accessed in the deployment and execution logs.")
 

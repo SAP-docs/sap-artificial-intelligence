@@ -6,7 +6,7 @@ As a system administrator, you create applications which sync with Git repositor
 
 
 
-<a name="loio6825db6930ce4da6a1aa2e9e965a32c4__prereq_jxh_bpc_rob"/>
+<a name="loio6825db6930ce4da6a1aa2e9e965a32c4__prereq_kth_t4g_4xb"/>
 
 ## Prerequisites
 
@@ -15,6 +15,8 @@ You have the `aicore_admin_applications_editor` role or a role collection that c
 The source Git repository required for the application has been added. See [Add a Git Repository](add-a-git-repository-c8cd251.md).
 
 
+
+<a name="loio6825db6930ce4da6a1aa2e9e965a32c4__steps_ugb_54g_4xb"/>
 
 ## Procedure
 
@@ -44,7 +46,7 @@ The source Git repository required for the application has been added. See [Add 
 
 
 
-<a name="loio6825db6930ce4da6a1aa2e9e965a32c4__result_trn_hbr_1tb"/>
+<a name="loio6825db6930ce4da6a1aa2e9e965a32c4__result_n11_v4g_4xb"/>
 
 ## Results
 
@@ -58,15 +60,15 @@ The new application is created.
 
 [Create an Application to Sync your Folders](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/fd1aa517b21e495caa691259da38a5d0.html)
 
- <a name="task_xgh_453_nwb"/>
+ <a name="task_jdm_nrg_4xb"/>
 
-<!-- task\_xgh\_453\_nwb -->
+<!-- task\_jdm\_nrg\_4xb -->
 
 ## Sync an Application Manually
 
 
 
-<a name="task_xgh_453_nwb__prereq_rlb_mv3_nwb"/>
+<a name="task_jdm_nrg_4xb__d27e781"/>
 
 ## Prerequisites
 
@@ -74,7 +76,7 @@ You have successfully created an application.
 
 
 
-<a name="task_xgh_453_nwb__context_jtr_p53_nwb"/>
+<a name="task_jdm_nrg_4xb__d27e787"/>
 
 ## Context
 
@@ -82,7 +84,7 @@ For the SAP AI Core runtime only, automatic syncs take place at ~3 minute interv
 
 
 
-<a name="task_xgh_453_nwb__steps_zd3_rv3_nwb"/>
+<a name="task_jdm_nrg_4xb__d27e795"/>
 
 ## Procedure
 

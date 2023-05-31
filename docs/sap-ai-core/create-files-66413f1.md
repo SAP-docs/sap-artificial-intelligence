@@ -1,8 +1,11 @@
 <!-- loio66413f1d9fbf4758a0d739eaf1c95dc7 -->
 
-# Create Artifacts
+# Create Files
 
-Create an artifact to connect a dataset or model, to make it available for use in SAP AI Core.
+> ### Restriction:  
+> The `objectStore name`, `data path` and `scenarioId` refer to pre-existing values. For the `objectStore name` and `data path` values, you must use the values that you used when registering the object storage, following the naming convention outlined in the diagram below. In example output codeblocks, these values are represented by `ai://default/data`.
+
+ ![](images/solution11image1_d2bc541.png) 
 
 
 
@@ -23,9 +26,6 @@ Create an artifact to connect a dataset or model, to make it available for use i
     }
     ```
 
-    > ### Note:  
-    > The `objectStore name`, `data path` and `scenarioId` refer to pre-existing values.
-
 
 The response body contains the ID of your new artifact.
 
@@ -44,8 +44,7 @@ The response body contains the ID of your new artifact.
 ## Using curl
 
 ```
-curl --location --request POST "[/pandoc/div/div/horizontalrule/codeblock/span/code
-     {"filepath"}) $API_URL/v2/lm/artifacts (code]" \
+curl --location --request POST "$API_URL/v2/lm/artifacts" \
 --header "Authorization: Bearer $TOKEN" \
 --header "Content-Type: application/json" \
 --header "AI-Resource-Group: <Resource group>" \
@@ -58,9 +57,6 @@ curl --location --request POST "[/pandoc/div/div/horizontalrule/codeblock/span/c
 }
 ```
 
-> ### Note:  
-> The `objectStore name`, `data path` and `scenarioId` refer to pre-existing values.
-
 The response body contains the ID of your new artifact.
 
 ```
@@ -71,10 +67,10 @@ The response body contains the ID of your new artifact.
 }
 ```
 
-**Parent topic:** [Manage Artifacts](manage-artifacts-386ba71.md "An artifact is a reference to data or a file that is produced or consumed by an execution or deployment. They are managed through SAP AI Core and your connected object store.")
+**Parent topic:** [Manage Files](manage-files-386ba71.md "An artifact refers to data or a file that is produced or consumed by executions or deployments. They are managed through SAP AI Core and your connected object store.")
 
 **Related Information**  
 
 
-[List Artifacts](list-artifacts-1d613e0.md "Retrieve a list of existing artifacts.")
+[List Files](list-files-1d613e0.md "")
 

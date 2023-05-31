@@ -31,7 +31,7 @@ You have the `artifact.register` role, or you have been assigned a role collecti
 
 2.  In the *ML Operations* app, choose *Result Sets*.
 
-    The *Result Sets* screen appears listing the result sets for the selected resource group. Result sets are listed by name, and with additional details such as description, ID, scenario, execution ID, labels, created on timestamp, and changed on timestamp.
+    The *Result Sets* screen appears listing the result sets for the selected resource group. Result sets are listed by name, and with additional details such as description, ID, scenario, URL, execution ID, labels, created on timestamp, and changed on timestamp.
 
 3.  **Optional:** View the labels associated with any corresponding artifact by choosing <span class="SAP-icons"></span> \(Labels\) in the corresponding row.
 

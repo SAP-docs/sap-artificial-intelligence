@@ -6,7 +6,7 @@
 
 ## Procedure
 
-1.  On the *Instances and Subscriptions* page, find the instance that you created previously and choose *Create Service Key* from the dropdown.
+1.  On the *Instances and Subscriptions* page, find your new instance and choose *Create Service Key* from the dropdown.
 
     ![](images/View_Service_Instances_7ff0ecc.png)
 
@@ -23,7 +23,7 @@
 
 ## Results
 
-You now have your service key, which you can use to connect to SAP AI Core from an external HTTP client such as SAP AI Launchpad, Postman or curl. The service key contains the access credentials for authorizing API calls to the AI API via `AI_API_URL`.
+You now have your service key, which provides URLs and credentials for accessing the SAP AI Core instance through SAP AI Launchpad Postman, or curl.
 
 ![](images/Service_Key_Credentials_1e1342e.png)
 
@@ -38,4 +38,10 @@ You now have your service key, which you can use to connect to SAP AI Core from 
     -   `AI_API_URL`: Unified AI API to handle ML artifacts \(such as training, data, models, and deployments\) across multiple hyperscalers.
 
 
+
+**Parent topic:** [Initial Setup](initial-setup-38c4599.md "You provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Platform. After provisioning, you will have your service key, which provides URLs and credentials for accessing the SAP AI Core instance through SAP AI Launchpad Postman, or curl.")
+
+**Next:** [Create a Service Instance](create-a-service-instance-34761f9.md "")
+
+**Previous:** [SAP AI Core Starter Tutorials](sap-ai-core-starter-tutorials-9795b63.md "")
 

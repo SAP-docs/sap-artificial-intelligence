@@ -474,24 +474,6 @@ Optional duration in seconds that the pod needs to terminate gracefully, may be 
 
 </td>
 </tr>
-<tr>
-<td valign="top">
-
-`activeDeadlineSeconds` \(optional\)
-
-int64
-
-
-
-</td>
-<td valign="top">
-
-Optional duration in seconds that the pod may be active on the node relative to StartTime before the system will actively try to mark it failed and kill associated containers. Value must be a positive integer.
-
-
-
-</td>
-</tr>
 </table>
 
 > ### Example:  

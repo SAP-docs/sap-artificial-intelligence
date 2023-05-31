@@ -22,10 +22,10 @@ You have the `mloperations_editor` or `execution_schedules_editor role`, or you 
 
     The delete schedule dialog box appears, with option to *Review* your steps.
 
-3.  Go to the relevant step and make your changes. ![](images/Edit_Schedule_Step_2e48e11.png)
+3.  Navigate to the relevant step and make your changes. ![](images/Edit_Schedule_Step_2e48e11.png)
 
 4.  Confirm your changes on the *Review* page.
 
-5.  Press *Edit* to save your edits..![](images/Edit_Schedule_Wizard_a6e273b.png)
+5.  Press *Edit* to save your edits.![](images/Edit_Schedule_Wizard_a6e273b.png)
 
 

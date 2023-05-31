@@ -25,8 +25,6 @@ When you compare metrics, multiple model/ execution metrics are compared against
 
 2.  Select the models for comparison and choose *View Metrics*.
 
-    ![Metrics selected in the All Metrics page.](images/Image_AIL_MLOps_Models_CM_1_abe3cce.jpg)
-
     The *Metrics Comparison View* appears for the selected models.
 
 3.  Investigate the metric details.

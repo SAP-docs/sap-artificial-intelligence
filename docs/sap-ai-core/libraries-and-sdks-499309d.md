@@ -2,53 +2,144 @@
 
 # Libraries and SDKs
 
-Additional libraries and SDKs for use with SAP AI Core.
+Explore additional libraries and SDKs that you can use with SAP AI Core.
 
-**Related Information**  
+**Libraries and SDKs Available with SAP AI Core**
 
 
-[Metrics Tracking with AI API](metrics-tracking-with-ai-api-9a335bd.md "You can use AI API to track and fetch metrics for executions and models. In addition, metrics can be compared using the SAP AI Launchpad interface.")
+<table>
+<tr>
+<th valign="top">
 
- <a name="loiod6268f9d4d73456c88315e227b2cd598"/>
+Resource
 
-<!-- loiod6268f9d4d73456c88315e227b2cd598 -->
 
-##  SAP AI Core SDK
 
-The SAP AI Core SDK is a Python-based SDK that lets you access SAP AI Core using Python methods and data structures.
+</th>
+<th valign="top">
 
-It can be used to interact with SAP AI Core, and provides access to all public lifecycle and administration APIs.
+Description
 
-For more information, see [PyPi](https://pypi.org/project/ai-core-sdk/) and [API Business Hub](https://api.sap.com/package/SAPAICore/overview).
 
- <a name="loioc2fdc26b019545c882241b03c5270436"/>
 
-<!-- loioc2fdc26b019545c882241b03c5270436 -->
+</th>
+<th valign="top">
 
-## AI API Client SDK
+More Information
+
+
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP AI Core SDK 
+
+
+
+</td>
+<td valign="top">
+
+The SAP AI Core SDK is a Python-based SDK that lets you access SAP AI Core using Python methods and data structures. It can be used to interact with SAP AI Core, and provides access to all public lifecycle and administration APIs.
+
+
+
+</td>
+<td valign="top">
+
+-   [SAP AI Core SDK](https://pypi.org/project/ai-core-sdk/)
+
+-   [API Business Hub](https://api.sap.com/package/SAPAICore/overview)
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+AI API Client SDK
+
+
+
+</td>
+<td valign="top">
 
 The AI API client SDK is a Python-based SDK that enables you to access the AI API using Python methods and data structures.
 
 
 
-For more information, see [PyPi](https://pypi.org/project/ai-api-client-sdk/) and [AI API](https://help.sap.com/doc/2cefe221fddf410aab23dce890b5c603/CLOUD/en-US/index.html).
+</td>
+<td valign="top">
 
- <a name="loioe271137d497a4afb9bf6e9d760c16830"/>
+-   [AI API Client SDK](https://pypi.org/project/ai-api-client-sdk/)
 
-<!-- loioe271137d497a4afb9bf6e9d760c16830 -->
+-   [AI API](https://help.sap.com/doc/2cefe221fddf410aab23dce890b5c603/CLOUD/en-US/index.html)
 
-## Metaflow Python Library for SAP AI Core
 
-Download the software development kit \(SDK\) for SAP AI Core from the Python Package Index \(PyPI\). This Python library is a plugin that lets you generate workflow templates that can be executed in SAP AI Core.
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Metaflow Python Library for SAP AI Core 
+
+
+
+</td>
+<td valign="top">
+
+You can download the software development kit \(SDK\) for SAP AI Core from the Python Package Index \(PyPI\). This Python library is a plugin that lets you generate workflow templates that can be executed in SAP AI Core
 
 Metaflow is an open source tool to boost the productivity of data scientists. The Metaflow Python library for SAP AI Core extends Metaflow's capabilities so that machine learning pipelines can be run on Argo Workflows \(which are also used in SAP AI Core\).
 
-For more information, see [PyPi](https://pypi.org/project/sap-ai-core-metaflow/).
+
+
+</td>
+<td valign="top">
+
+-   [PyPi Metaflow](https://pypi.org/project/sap-ai-core-metaflow/)
+
+-   [Metaflow](https://metaflow.org/)
+
+-   [What are Argo workflows?](https://argoproj.github.io/argo-workflows/)
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Content Package for Large Language Models
+
+
+
+</td>
+<td valign="top">
+
+The content package for large language models for SAP AI Core simplifies the deployment of large language models with integrated and automated workflows.
+
+
+
+</td>
+<td valign="top">
+
+ [Content package for large language models for SAP AI Core](https://pypi.org/project/sap-ai-core-llm/) 
+
+
+
+</td>
+</tr>
+</table>
 
 **Related Information**  
 
 
-[Metaflow](https://metaflow.org/)
-
-[What are Argo Workflows?](https://argoproj.github.io/argo-workflows/)
+[Metrics Tracking with AI API](metrics-tracking-with-ai-api-9a335bd.md "You can use AI API to track and fetch metrics for executions and models. In addition, metrics can be compared using the SAP AI Launchpad interface.")
 

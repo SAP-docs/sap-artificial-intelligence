@@ -224,7 +224,7 @@ See [Table 2](store-metric-data-ab04f04.md#loioab04f048da444d13bae08214c9d40e12_
 
 ## `labels`
 
-A label is a classifying phrase/name applied to a metric. A set of labels can be used to provide each instance of a metric record with extra information.
+A label is a classifying phrase or name applied to a metric. A set of labels can be used to provide each instance of a metric record with extra information.
 
 **Label Attributes**
 
@@ -459,7 +459,7 @@ Maxlength: 256
 
 ## `customInfo`
 
-Custom info key/value pairs that enable large amounts of metadata, typically associated with an execution, to be captured. Custom info provides rendering/semantic information regarding a metric for a consuming application or complex metrics in JSON format.
+Custom info key/value pairs that enable the capture of large amounts of metadata, typically associated with an execution. Custom info provides rendering or semantic information regarding a metric for a consuming application or complex metrics in JSON format.
 
 A set of such custom info objects can be associated with a `MetricResource`.
 

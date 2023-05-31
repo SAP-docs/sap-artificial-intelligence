@@ -2,11 +2,7 @@
 
 # Get Metrics
 
-Use AI API to track metrics for executions.
-
 The following demonstrates how you can manually track metrics information, and patch and delete metrics.
-
-The following demonstrates how you can retrieve metrics information, in SAP AI Launchpad.
 
 
 
@@ -14,176 +10,174 @@ The following demonstrates how you can retrieve metrics information, in SAP AI L
 
 ## Get Metrics Using Postman
 
-You can get metrics by sending a GET request to the endpoint `{{apiurl}}/v2/lm/metrics` with the following query parameters and headers:
+1.  Prepare a GET request to the endpoint `{{apiurl}}/v2/lm/metrics` with the following query parameters and headers:
 
-**Query Parameters**
+    **Query Parameters**
 
 
-<table>
-<tr>
-<th valign="top">
+    <table>
+    <tr>
+    <th valign="top">
 
-Parameter
+    Parameter
 
 
+    
+    </th>
+    <th valign="top">
 
-</th>
-<th valign="top">
+    Required
 
-Required
 
+    
+    </th>
+    <th valign="top">
 
+    Data Type
 
-</th>
-<th valign="top">
 
-Data Type
+    
+    </th>
+    <th valign="top">
 
+    Description
 
 
-</th>
-<th valign="top">
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        `executionIds`
 
-Description
 
+    
+    </td>
+    <td valign="top">
+    
+        Yes
 
 
-</th>
-</tr>
-<tr>
-<td valign="top">
+    
+    </td>
+    <td valign="top">
+    
+        Array of String
 
-`executionIds`
 
+    
+    </td>
+    <td valign="top">
+    
+        ID of execution for which to list metrics information.
 
 
-</td>
-<td valign="top">
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        `$select`
 
-Yes
 
+    
+    </td>
+    <td valign="top">
+    
+        No
 
 
-</td>
-<td valign="top">
+    
+    </td>
+    <td valign="top">
+    
+        Array of String
 
-Array of String
 
+    
+    </td>
+    <td valign="top">
+    
+        Projects only the resources that are specified in the $select parameter, and executionId.
 
+    The supported values of $select are ***metrics***, ***tags*** and ***customInfo*** or any combination of these and ***\****.
 
-</td>
-<td valign="top">
+    If the value is ***\****, all metric resource data is returned.
 
-ID of execution for which to list metrics information.
 
+    
+    </td>
+    </tr>
+    </table>
+    
+    **Header**
 
 
-</td>
-</tr>
-<tr>
-<td valign="top">
+    <table>
+    <tr>
+    <th valign="top">
 
-`$select`
+    Field
 
 
+    
+    </th>
+    <th valign="top">
 
-</td>
-<td valign="top">
+    Required
 
-No
 
+    
+    </th>
+    <th valign="top">
 
+    Data Type
 
-</td>
-<td valign="top">
 
-Array of String
+    
+    </th>
+    <th valign="top">
 
+    Description
 
 
-</td>
-<td valign="top">
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        `AI-Resource-Group`
 
-Projects only the resources that are specified in the $select parameter, and executionId.
 
-The supported values of $select are ***metrics***, ***tags*** and ***customInfo*** or any combination of these and ***\****.
+    
+    </td>
+    <td valign="top">
+    
+        Yes
 
-If the value is ***\****, all metric resource data is returned.
 
+    
+    </td>
+    <td valign="top">
+    
+        String
 
 
-</td>
-</tr>
-</table>
+    
+    </td>
+    <td valign="top">
+    
+        ID of the resource group that contains the execution.
 
-**Header**
 
-
-<table>
-<tr>
-<th valign="top">
-
-Field
-
-
-
-</th>
-<th valign="top">
-
-Required
-
-
-
-</th>
-<th valign="top">
-
-Data Type
-
-
-
-</th>
-<th valign="top">
-
-Description
-
-
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-`AI-Resource-Group`
-
-
-
-</td>
-<td valign="top">
-
-Yes
-
-
-
-</td>
-<td valign="top">
-
-String
-
-
-
-</td>
-<td valign="top">
-
-ID of the resource group that contains the execution.
-
-
-
-</td>
-</tr>
-</table>
-
-1.  Create a new HTTP request with the endpoint.
-
+    
+    </td>
+    </tr>
+    </table>
+    
 2.  On the *Authorization* tab, set the type to *Bearer Token*.
 
 3.  Set the token value to ***\{\{token\}\}***.
@@ -194,7 +188,7 @@ ID of the resource group that contains the execution.
 
     ![](images/ExecutionID_9107e43.png)
 
-5.  Set the *Header*.
+5.  Set the resource group *Header*.
 
     ![](images/ResourceGroup_ad676da.png)
 
@@ -224,31 +218,15 @@ ID of the resource group that contains the execution.
     </tr>
     <tr>
     <td valign="top">
-
-    `customInfo`
+    
+        `customInfo`
 
 
     
     </td>
     <td valign="top">
-
-    Array of dictionary. Each dictionary is a contains custom information in string.
-
-
     
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-
-    `executionId`
-
-
-    
-    </td>
-    <td valign="top">
-
-    ID of the execution, which the metrics belong to.
+        Array of dictionary. Each dictionary is a contains custom information in string.
 
 
     
@@ -256,15 +234,15 @@ ID of the resource group that contains the execution.
     </tr>
     <tr>
     <td valign="top">
-
-    `metrics`
+    
+        `executionId`
 
 
     
     </td>
     <td valign="top">
-
-    Array of dictionary of metric.
+    
+        ID of the execution, which the metrics belong to.
 
 
     
@@ -272,15 +250,31 @@ ID of the resource group that contains the execution.
     </tr>
     <tr>
     <td valign="top">
-
-    `tags`
+    
+        `metrics`
 
 
     
     </td>
     <td valign="top">
+    
+        Array of dictionary of metric.
 
-     
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        `tags`
+
+
+    
+    </td>
+    <td valign="top">
+    
+         
 
 
     
@@ -310,7 +304,7 @@ curl --location -g --request GET '$AI_API_URL/v2/lm/metrics?$select=metrics,tags
 ```
 
 > ### Note:  
-> It is possible to use any one of the allowed values or combination of the allowed values\(metrics, tags,customInfo\) or \* in the $select parameter.
+> It is possible to use any one of the allowed values or combination of the allowed values \(metrics, tags,customInfo\) or \* in the $select parameter.
 
 > ### Output Code:  
 > ```json
@@ -559,106 +553,104 @@ curl --location -g --request GET '$AI_API_URL/v2/lm/metrics?$select=tags,customI
 
 ## Patch Metrics Using Postman
 
-You can patch metrics by sending a PATCH request to the endpoint `{{apiurl}}/v2/lm/metrics` with the following headers:
+1.  Prepare a PATCH request to the endpoint `{{apiurl}}/v2/lm/metrics` with the following headers:
 
-**Header**
-
-
-<table>
-<tr>
-<th valign="top">
-
-Field
+    **Header**
 
 
+    <table>
+    <tr>
+    <th valign="top">
 
-</th>
-<th valign="top">
-
-Required
-
-
-
-</th>
-<th valign="top">
-
-Data Type
+    Field
 
 
+    
+    </th>
+    <th valign="top">
 
-</th>
-<th valign="top">
-
-Description
-
-
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-`AI-Resource-Group`
+    Required
 
 
+    
+    </th>
+    <th valign="top">
 
-</td>
-<td valign="top">
-
-Yes
-
-
-
-</td>
-<td valign="top">
-
-String
+    Data Type
 
 
+    
+    </th>
+    <th valign="top">
 
-</td>
-<td valign="top">
-
-ID of the resource group that contains the execution.
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`Content-Type`
+    Description
 
 
-
-</td>
-<td valign="top">
-
-Yes
-
-
-
-</td>
-<td valign="top">
-
-value = `application/merge-patch+json`
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        `AI-Resource-Group`
 
 
+    
+    </td>
+    <td valign="top">
+    
+        Yes
 
-</td>
-<td valign="top">
 
- 
+    
+    </td>
+    <td valign="top">
+    
+        String
 
 
+    
+    </td>
+    <td valign="top">
+    
+        ID of the resource group that contains the execution.
 
-</td>
-</tr>
-</table>
 
-1.  Create a new HTTP request with the endpoint.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+        `Content-Type`
 
+
+    
+    </td>
+    <td valign="top">
+    
+        Yes
+
+
+    
+    </td>
+    <td valign="top">
+    
+        value = `application/merge-patch+json`
+
+
+    
+    </td>
+    <td valign="top">
+    
+         
+
+
+    
+    </td>
+    </tr>
+    </table>
+    
 2.  On the *Authorization* tab, set the type to *Bearer Token*.
 
 3.  Set the token value to ***\{\{token\}\}***.
@@ -720,8 +712,7 @@ value = `application/merge-patch+json`
 
 ```
 
-curl --location --request GET '[/pandoc/div/div/horizontalrule/codeblock/span/code
-     {"filepath"}) $AI_API_URL/v2/lm/metrics?executionId=e1c49497ccf6dde8 (code]' \
+curl --location --request GET '$AI_API_URL/v2/lm/metrics?executionId=e1c49497ccf6dde8' \
 --header 'AI-Resource-Group: default' \
 --header 'Authorization: Bearer $TOKEN'
 \

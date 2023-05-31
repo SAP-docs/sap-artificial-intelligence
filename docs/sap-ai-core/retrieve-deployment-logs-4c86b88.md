@@ -10,7 +10,7 @@ You can retrieve the logs for a specific deployment or execution by submitting a
 
 -   `GET /v2/lm/deployments/{deploymentId}/logs`
 
--   `GET /v2/lm/executions/{executionsId}/logs`
+-   `GET /v2/lm/executions/{executionId}/logs`
 
 
 Query parameters include:
@@ -19,7 +19,7 @@ Query parameters include:
 
 -   `end` : the end time for a query as a string, in RFC 3339-compliant datetime format. Defaults to the current time. Example: `2021-05-19T00:00:14.347Z`
 
--   `$top` : the maximum number of entries returned. The default value is 1000; the maximum is 5000.
+-   `$top` : the maximum number of entries returned. The default value is 1000; the upper limit is 5000.
 
 -   `$order` : the sort order of logs, either `asc` \(for ascending, earliest in the order will appear at the top of the list\) or `desc` \(for descending, most recent in the order will appear at the top of the list\). Note the default value is `asc`.
 
@@ -37,7 +37,7 @@ For example:
 
 <a name="loio4c86b886f6ec440b99b7284f4b17e735__section_nhw_gwq_yqb"/>
 
-## Get Deployment Logs Using Postman
+## Using Postman
 
 1.  Create a new GET request and enter the URL `{{apiurl}}/v2/lm/deployments/{{deploymentid}}/logs`.
 
@@ -71,15 +71,15 @@ For example:
     </tr>
     <tr>
     <td valign="top">
-
-    `ai-resource-group`
+    
+        `ai-resource-group`
 
 
     
     </td>
     <td valign="top">
-
-     *<Name of your resourceGroup\>* \(in the example, `default` is used\)
+    
+         *<Name of your resourceGroup\>* \(in the example, `default` is used\)
 
 
     
@@ -94,11 +94,10 @@ For example:
 
 <a name="loio4c86b886f6ec440b99b7284f4b17e735__section_hzh_31l_jwb"/>
 
-## Get Deployment Logs Using curl
+## Using curl
 
 ```
-curl --request GET "[/pandoc/div/div/horizontalrule/codeblock/span/code
-     {"filepath"}) $AI_API_URL/v2/lm/deployments/$DEPLOYMENT_ID/logs?start=2021-05-19T00:00:14.347Z (code]" --header "Authorization: Bearer $TOKEN" --header "ai-resource-group: $RESOURCE_GROUP"
+curl --request GET "$AI_API_URL/v2/lm/deployments/$DEPLOYMENT_ID/logs?start=2021-05-19T00:00:14.347Z" --header "Authorization: Bearer $TOKEN" --header "ai-resource-group: $RESOURCE_GROUP"
 ```
 
 
@@ -146,23 +145,23 @@ For example, see the following JSON output from the API.
 **Related Information**  
 
 
-[Choose a Resource Plan](choose-a-resource-plan-8deca74.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on task demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
+[Choose a Resource Plan](choose-a-resource-plan-8deca74.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
 
 [Serving Templates](serving-templates-20a8667.md "You use serving templates to manage your serving instances at the level of the main tenant. Serving templates define how a model is to be deployed.")
 
 [List Executables](list-executables-6af8e60.md "An executable is a template that is instantiated for a purpose, such as training a model or creating a deployment. You can list all of the executables in a resource group and get details of specific executables from a resource group. Serving templates are mapped to deployment executables.")
 
-[Deploy Models](deploy-models-dd16e8e.md "Utilize your model and retrieve a URL to use for inferencing.")
+[Deploy Models](deploy-models-dd16e8e.md "")
 
-[Inference](inference-e348ecf.md "Use the URL from your model deployment to access the results of your model.")
+[Inferencing](inferencing-e348ecf.md "")
 
-[Update a Deployment](update-a-deployment-9789ddd.md "You can update a deployment with a new configuration while retaining the inference URL.")
+[Update a Deployment](update-a-deployment-9789ddd.md "")
 
-[Stop Deployments](stop-deployments-b7d2577.md#loiob7d2577088c84417bbab370173d38cd8 "Stopping a deployment releases the SAP AI Core runtime computing resources that it used.")
+[Stop Deployments](stop-deployments-b7d2577.md " ")
 
-[Delete Deployments](delete-deployments-0193d17.md#loio0193d17a7bdb4ae08a9c8301d1d8c1b8 "Deleting a deployment releases the SAP AI Core resources that it used.")
+[Delete Deployments](delete-deployments-0193d17.md " ")
 
-[Efficiency Features](efficiency-features-9fad26a.md "Discover features of SAP AI Core that improve model server efficiency and help manage resource consumption.")
+[Efficiency Features](efficiency-features-9fad26a.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
 
 [Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "Information about API processing and metrics, are stored and accessed in the deployment and execution logs.")
 

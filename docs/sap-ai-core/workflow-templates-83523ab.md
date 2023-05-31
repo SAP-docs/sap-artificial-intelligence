@@ -4,7 +4,7 @@
 
 Here, you can find a minimal workflow example template, that can be adapted to meet the requirements of your workflow.
 
-Workflow templates allow you to manage your training pipelines at the level of the main tenant. Templates are stored in your git repository, where you can version them as required. Workflows in SAP AI Core are executed using the Argo Workflows open source project. Argo Workflows is an open-source, container-native workflow engine for orchestrating parallel jobs on Kubernetes. Argo Workflows is implemented as a Kubernetes CRD \(Custom Resource Definition\).
+Workflow templates allow you to manage your training pipelines at the main tenant level. Templates are stored in your git repository, where you can version them as required. Workflows in SAP AI Core are executed using the Argo Workflows open source project. Argo Workflows is an open-source, container-native workflow engine for orchestrating parallel jobs on Kubernetes. Argo Workflows is implemented as a Kubernetes CRD \(Custom Resource Definition\).
 
 Workflow templates are mapped as `executables`. Mapping requires certain attributes in the `metadata` section of your template. The AI API uses the `annotations` and `labels` in the template to locate scenarios and executables.
 
@@ -23,15 +23,15 @@ In SAP AI Core, Argo Workflows is used to:
 
 The workflows are executed in batch mode.
 
-For the model training code, SAP AI Core is language agnostic, however the relevant programming language must be specified in the workflow parameters, and any imported packages must be specified in `requirements.txt`.
+For the model training code, SAP AI Core is language agnostic, however the relevant programming language must be specified in the workflow parameters. Any imported packages must be specified in a separate file called `requirements.txt`, stored in the same directory.
 
-In SAP AI Core, workflow templates are mapped as `executables`. Mapping requires certain attributes in the `metadata` section of your template.
+In SAP AI Core, workflow templates are mapped as `executables`. Mapping requires certain attributes in the `metadata` section of your template. A workflow can produce multiple output artifacts, but only an output artifact with a `globalName` is considered to be the final output artifact of the workflow.
 
-To get started, copy the generic workflow template below and add your own values as required. You can use any text editor with a YAML plugin to create the templates. Workflows support the following parameters:
+To get started, copy the generic workflow template below and add your own values as required. You can use any text editor with a YAML plugin to create your templates. Workflows support the following parameters:
 
 
 
-**Workflow Template Output Artifact Parameters**
+**Workflow Template Parameters**
 
 
 <table>
@@ -68,7 +68,7 @@ name \(mandatory\)
 </td>
 <td valign="top">
 
-\-
+–
 
 
 
@@ -98,14 +98,14 @@ labels \(mandatory\)
 </td>
 <td valign="top">
 
-You must specify the chosen `resourcePlan`. The value is the string value of the selected resource plan selected \(see [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md)\).
+You must specify the chosen `resourcePlan`. The value is the string value of the selected resource plan. For more information, see [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md).
 
 
 
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="7">
+<td valign="top" rowspan="8">
 
 annotations
 
@@ -137,7 +137,7 @@ A description of the scenario to which this executable belongs.
 </td>
 <td valign="top">
 
-Scenario name, which is necessary for the AI API to discover a scenario.
+The scenario name, which is necessary for the AI API to discover a scenario.
 
 
 
@@ -146,16 +146,14 @@ Scenario name, which is necessary for the AI API to discover a scenario.
 <tr>
 <td valign="top">
 
-`executables.ai.sap.com/description`
-
-\(optional\)
+`executables.ai.sap.com/description` \(optional\)
 
 
 
 </td>
 <td valign="top">
 
-Description of an executable.
+The description of an executable.
 
 
 
@@ -171,7 +169,7 @@ Description of an executable.
 </td>
 <td valign="top">
 
-Name of the executable.
+The name of the executable.
 
 
 
@@ -226,6 +224,24 @@ The name under which the output artifact is registered in the AI API.
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+`artifacts.ai.sap.com/<argo_artifact_name>.description` \(optional\)
+
+`artifacts.ai.sap.com/<argo_artifact_name>.labels: | {"ext.ai.sap.com/customkey1":"customvalue1", "ext.ai.sap.com/customkey2":"customvalue2"}` \(optional\)
+
+
+
+</td>
+<td valign="top">
+
+You can add further metadata for an artifact using these annotations.
+
+
+
+</td>
+</tr>
+<tr>
 <td valign="top" rowspan="2">
 
 `labels`
@@ -266,7 +282,14 @@ The compatibility version of this executable. You can use the compatibility vers
 </tr>
 </table>
 
+> ### Note:  
+> In the artifact-related parameters above, `<argo_artifact_name>` refers to the `globalName` of an output artifact.
 
+
+
+<a name="loio83523ab8b49245bcbc9f1bf0969e32d8__section_dgg_cpd_q5b"/>
+
+## Generic Workflow Template
 
 ```
 apiVersion: argoproj.io/v1alpha1
@@ -280,6 +303,9 @@ metadata:
     executables.ai.sap.com/name: "text-clf-train-tutorial-exec"
     artifacts.ai.sap.com/text-data.kind: "dataset"
     artifacts.ai.sap.com/text-model-tutorial.kind: "model"
+    artifacts.ai.sap.com/text-model-tutorial.description: "artifact description"
+    artifacts.ai.sap.com/text-model-tutorial.labels: | 
+        {"ext.ai.sap.com/customkey1":"customvalue1", "ext.ai.sap.com/customkey2":"customvalue2"}
   labels:
     scenarios.ai.sap.com/id: "text-clf-tutorial"
     executables.ai.sap.com/id: "text-clf-train-tutorial"
@@ -288,6 +314,11 @@ spec:
   imagePullSecrets:
     - name: <name of your Docker registry secret>
   entrypoint: text-clf-sk-training
+  arguments:
+    parameters: # placeholder for string like inputs
+      - name: DEPTH # identifier local to this workflow
+        description: description of the parameter
+        default: test
   templates:
     - name: text-clf-sk-training
       metadata:
@@ -314,7 +345,7 @@ spec:
 ```
 
 > ### Note:  
-> For every container in the template, the `command: ["/bin/sh", "-c"]` field is mandatory. The contents of the argument can be ammended, but must not be empty. The `CMD` and `ENDPOINT` specified in the Dockerfile of a container are ignored.
+> For every container in the template, the `command: ["/bin/sh", "-c"]` field is mandatory. The contents of the argument can be amended, but must not be empty. The `CMD` and `ENDPOINT` specified in the Dockerfile of a container are ignored.
 
 
 
@@ -333,33 +364,27 @@ spec:
 **Related Information**  
 
 
-[Choose a Resource Plan](choose-a-resource-plan-57f4f19.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on task demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
+[Choose a Resource Plan](choose-a-resource-plan-57f4f19.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
 
-[List Scenarios](list-scenarios-deedde5.md "A scenario is a group of related executables for a use case within the user's tenant. A scenario can have multiple versions that further correspond to the different versions of executables.")
+[List Scenarios](list-scenarios-deedde5.md "")
 
-[List Executables](list-executables-80895a4.md "An executable is a template that is instantiated for a purpose, such as training a model or creating a deployment. You can list all of the executables in a scenario and get details of specific executables from a scenario. Workflow templates are mapped to training executables.")
+[List Executables](list-executables-80895a4.md "")
 
-[Create Configurations](create-configurations-884ae34.md "A configuration is a collection of parameters, artifact references, and executables that are used to run an execution or deployment.")
+[Create Configurations](create-configurations-884ae34.md "")
 
 [List Configurations](list-configurations-8074b2a.md "")
 
-[Start Training](start-training-54b44e4.md "Start training and check the status of the execution.")
+[Start Training](start-training-54b44e4.md "")
 
-[Stop Training Instances](stop-training-instances-3d85344.md#loio3d853443027449d9a33723165b19b25a "")
+[Stop Training Instances](stop-training-instances-3d85344.md "")
 
-[Delete Training Instances](delete-training-instances-612ce17.md#loio612ce172e609432a840a22eb211ecf7b "Deleting a training instance releases the SAP AI Core resources that it used.")
+[Delete Training Instances](delete-training-instances-612ce17.md "")
+
+[Efficiency Features](efficiency-features-4cb76f7.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
 
 [Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "Information about API processing and metrics, are stored and accessed in the deployment and execution logs.")
 
 [Training Schedules](training-schedules-2b702f8.md "")
-
-[Argo Workflows](https://argoproj.github.io/argo-workflows/)
-
-[Register Your Docker Registry Secret](register-your-docker-registry-secret-a7cf5e1.md "Your Docker credentials are managed using secrets. Secrets are allow and control connections across directories and tools, without compromising your credentials.")
-
-[Stop Multiple Training Instances](stop-training-instances-3d85344.md#loio09b4810ad29445d19025836ed1ac5151 "")
-
-[Delete Multiple Training Instances](delete-training-instances-612ce17.md#loioc1c3cc3e3f88417ba785ab8e29564e82 "")
 
  <a name="concept_vwr_y1k_lwb"/>
 
@@ -383,7 +408,11 @@ Meta:
 **Related Information**  
 
 
-[Stop Multiple Training Instances](stop-training-instances-3d85344.md#loio09b4810ad29445d19025836ed1ac5151 "")
+[Argo Workflows](https://argoproj.github.io/argo-workflows/)
 
-[Delete Multiple Training Instances](delete-training-instances-612ce17.md#loioc1c3cc3e3f88417ba785ab8e29564e82 "")
+[Register Your Docker Registry Secret](register-your-docker-registry-secret-a7cf5e1.md "Docker packages and runs applications in remote containers. Connect SAP AI Core to a Docker repository and manage access using a Docker registry secret.")
+
+[Stop Multiple Training Instances](stop-multiple-training-instances-09b4810.md "")
+
+[Delete Multiple Training Instances](delete-multiple-training-instances-c1c3cc3.md "")
 

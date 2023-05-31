@@ -4,31 +4,21 @@
 
 
 
-<a name="loio86002d926eba4fb9ba0a80e342af7295__prereq_pzq_c14_5pb"/>
-
-## Prerequisites
-
--   The subaccount is in the SAP Business Technology Platform, Cloud Foundry environment with enabled Cloud Foundry capabilities. For more information, see [Enable Cloud Foundry](enable-cloud-foundry-cf0d5d2.md).
-
--   Your SAP BTP administrator has set the entitlement to a subaccount so that you can provision SAP AI Core. For more information, see [Managing Entitlements and Quotas Using the Cockpit](https://help.sap.com/docs/btp/sap-business-technology-platform/managing-entitlements-and-quotas-using-cockpit).
-
-
-
 ## Procedure
 
-1.  On the page for your global account, choose *Entity Assignments*.
+1.  SAP BTP cockpit, navigate to your global account, and choose *Entitlements* and then *Entity Assignments*.
 
-2.  Select your subaccount from the *Select Entities* box and click *Go*.
+2.  From the *Select Entities* box, select your subaccount and click *Select*.
 
-3.  Choose *Configure Entitlememts*.
+3.  Choose *Configure Entitlements*.
 
     ![](images/Configure_Entitlements_Button_a0bbbf0.png)
 
-4.  Click *Add Service Plans*.
+4.  Choose *Add Service Plans*.
 
     ![](images/Add_Service_Plans_Button_d42d394.png)
 
-5.  Select SAP AI Core and select the checkbox of your chosen plan, to add it to your service plan.
+5.  Select SAP AI Core and pick a service plan.
 
     ![](images/Add_Standard_Plan_a1d54a9.png)
 
@@ -36,4 +26,15 @@
 
     ![](images/Save_Standard_Plan_58d9353.png)
 
+
+**Parent topic:** [Initial Setup](initial-setup-38c4599.md "You provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Platform. After provisioning, you will have your service key, which provides URLs and credentials for accessing the SAP AI Core instance through SAP AI Launchpad Postman, or curl.")
+
+**Next:** [Create a Space](create-a-space-4c1190c.md "")
+
+**Previous:** [Create a Service Instance](create-a-service-instance-34761f9.md "")
+
+**Related Information**  
+
+
+[Service Plans](service-plans-c7244c6.md "The SAP AI Core service plan you choose determines pricing, conditions of use, resources, available services, and hosts.")
 

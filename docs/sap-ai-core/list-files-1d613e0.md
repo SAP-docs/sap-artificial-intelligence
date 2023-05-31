@@ -1,8 +1,6 @@
 <!-- loio1d613e0d1518435fb07b32a70c35345d -->
 
-# List Artifacts
-
-Retrieve a list of existing artifacts.
+# List Files
 
 
 
@@ -10,7 +8,7 @@ Retrieve a list of existing artifacts.
 
 ## Using Postman
 
-1.  Create a new GET request and enter the URL `{{apiurl}}/v2/lm/artifacts`
+1.  Send a GET request to the endpoint `{{apiurl}}/v2/lm/artifacts`
 
 2.  On the *Authorization* tab, set the type to *Bearer Token*.
 
@@ -40,15 +38,15 @@ Retrieve a list of existing artifacts.
     </tr>
     <tr>
     <td valign="top">
-
-     `ai-resource-group` 
+    
+         `ai-resource-group` 
 
 
     
     </td>
     <td valign="top">
-
-     *<Name of your resourceGroup\>* \(in the example, `default` is used\)
+    
+         *<Name of your resourceGroup\>* \(in the example, `default` is used\)
 
 
     
@@ -67,8 +65,7 @@ Retrieve a list of existing artifacts.
 ## Using curl
 
 ```
-curl --request GET "[/pandoc/div/div/horizontalrule/codeblock/span/code
-     {"filepath"}) $AI_API_URL/v2/lm/artifacts (code]" --header "Authorization: Bearer $TOKEN" --header "ai-resource-group: $RESOURCE_GROUP"
+curl --request GET "$AI_API_URL/v2/lm/artifacts" --header "Authorization: Bearer $TOKEN" --header "ai-resource-group: $RESOURCE_GROUP"
 ```
 
 > ### Output Code:  
@@ -112,10 +109,10 @@ curl --request GET "[/pandoc/div/div/horizontalrule/codeblock/span/code
 > }
 > ```
 
-**Parent topic:** [Manage Artifacts](manage-artifacts-386ba71.md "An artifact is a reference to data or a file that is produced or consumed by an execution or deployment. They are managed through SAP AI Core and your connected object store.")
+**Parent topic:** [Manage Files](manage-files-386ba71.md "An artifact refers to data or a file that is produced or consumed by executions or deployments. They are managed through SAP AI Core and your connected object store.")
 
 **Related Information**  
 
 
-[Create Artifacts](create-artifacts-66413f1.md "Create an artifact to connect a dataset or model, to make it available for use in SAP AI Core.")
+[Create Files](create-files-66413f1.md "")
 

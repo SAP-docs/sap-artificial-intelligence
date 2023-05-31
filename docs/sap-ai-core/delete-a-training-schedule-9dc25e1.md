@@ -39,5 +39,5 @@ Send a DELETE request to the endpoint `{{apiurl}}/v2/lm/executionSchedules/{{exe
 
 [List Executions Created by a Training Schedule](list-executions-created-by-a-training-schedule-2c1ecfb.md "")
 
-[Change an Exisitng Training Schedule](change-an-exisitng-training-schedule-18caf4b.md "")
+[Change an Existing Training Schedule](change-an-existing-training-schedule-18caf4b.md "")
 

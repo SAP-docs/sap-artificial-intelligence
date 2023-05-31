@@ -1,6 +1,14 @@
 <!-- loiob6681769f191490f8832d3fbb6794e89 -->
 
-# Register Your Git Repository and Secrets
+# Add a Git Repository
+
+You can use your own git repository to version control your SAP AI Core templates. The GitOps onboarding to SAP AI Core instances involves setting up your git repository and synchronizing your content.
+
+
+
+<a name="loiob6681769f191490f8832d3fbb6794e89__section_tx5_1c3_dxb"/>
+
+## Context
 
 Git repositories are managed by creating personal access tokens registering them in SAP AI Core. Personal access tokens are a means of allowing and controlling connections to GitHub repositories without compromising your credentials.
 
@@ -10,8 +18,9 @@ Git repositories are managed by creating personal access tokens registering them
 
 ## Prerequisites
 
--   You have generated a personal access token for your git repository.
--   If you want to onboard a git repository hosted on GitLab, make sure that the repository URL contains the .git suffix.
+-   You have access to a git repository over the Internet.
+-   You have generated a personal access token for your git repository. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+-   If you want to onboard a git repository hosted on GitLab, make sure that the repository URL contains the `.git` suffix.
 -   Secrets are not permitted in your repository. If secrets are used, it is not possible to synchronize content.
 
 > ### Note:  
@@ -23,7 +32,7 @@ Git repositories are managed by creating personal access tokens registering them
 
 ## Using Postman
 
-Use the `{{apiurl}}/v2/admin/repositories` endpoint to register your git repository and credentials:
+Send a POST request to the endpoint `{{apiurl}}/v2/admin/repositories` and include your credentials in JSON format in the *raw* body:
 
 ![](images/NewGitRepoPostman_d8c07ff.png)
 
@@ -33,11 +42,10 @@ Use the `{{apiurl}}/v2/admin/repositories` endpoint to register your git reposit
 
 ## Using curl
 
-Use the <code><code>{{apiurl}}/v2/admin/repositories</code></code> endpoint to register your git repository and credentials:
+Submit a POST request to the endpoint <code><code>{{apiurl}}/v2/admin/repositories</code></code> and include your credentials:
 
 ```
-curl --location --request POST "[/pandoc/div/div/horizontalrule/codeblock/span/code
-     {"filepath"}) $AI_API_URL/v2/admin/repositories (code]" \
+curl --location --request POST "$AI_API_URL/v2/admin/repositories" \
 --header "Authorization: Bearer $TOKEN" \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -58,8 +66,4 @@ You specify your unique git repository details as follows:
 
 -   `password`: git personal access token. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 
-
-**Parent topic:** [Manage Your Git Repository](manage-your-git-repository-2cd2996.md "You can use your own git repository to version control your SAP AI Core templates. The GitOps onboarding to SAP AI Core instances involves setting up your git repository and synchronizing your content.")
-
-**Previous:** [Create an Application to Sync Your Folders](create-an-application-to-sync-your-folders-80dbecf.md "After you have registered your git repository and created any required secrets, you need to create an application to sync the templates in your repository. It will take some time for your application to sync with the git repository, but you can check the status of the application to see when synchronization is complete.")
 

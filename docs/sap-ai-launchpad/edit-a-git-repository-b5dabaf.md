@@ -6,7 +6,7 @@ As a system administrator, you can edit Git repositories which are used within y
 
 
 
-<a name="loiob5dabaf48571485385e647a6e809a64d__prereq_jxh_cob_rob"/>
+<a name="loiob5dabaf48571485385e647a6e809a64d__prereq_vfl_y1g_4xb"/>
 
 ## Prerequisites
 
@@ -15,6 +15,8 @@ You have the `aicore_admin_repositories_editor` role or a role collection that c
 You have access to the Git repository over the Internet.
 
 
+
+<a name="loiob5dabaf48571485385e647a6e809a64d__context_wv1_1bg_4xb"/>
 
 ## Context
 
@@ -25,7 +27,7 @@ You change details for a Git repository if, for example, the name you have defin
 
 
 
-<a name="loiob5dabaf48571485385e647a6e809a64d__steps_n1x_q1p_xsb"/>
+<a name="loiob5dabaf48571485385e647a6e809a64d__steps_rpx_bbg_4xb"/>
 
 ## Procedure
 
@@ -64,7 +66,7 @@ You change details for a Git repository if, for example, the name you have defin
 
 
 
-<a name="loiob5dabaf48571485385e647a6e809a64d__result_upp_yr4_xsb"/>
+<a name="loiob5dabaf48571485385e647a6e809a64d__result_zzj_5bg_4xb"/>
 
 ## Results
 

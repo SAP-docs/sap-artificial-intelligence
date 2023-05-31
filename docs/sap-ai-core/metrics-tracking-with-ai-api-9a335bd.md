@@ -70,11 +70,9 @@ or
 </tr>
 </table>
 
--   **[Get Metrics](get-metrics-44d73d4.md "Use
-		AI API to track metrics
-		for
-		executions.")**  
-Use AI API to track metrics for executions.
+-   **[Get Metrics](get-metrics-44d73d4.md "The
+		following demonstrates how you can manually track metrics information, and patch and delete metrics.")**  
+The following demonstrates how you can manually track metrics information, and patch and delete metrics.
 -   **[Query Metric Data](query-metric-data-f25046f.md "")**  
 
 -   **[Store Metric Data](store-metric-data-ab04f04.md "")**  

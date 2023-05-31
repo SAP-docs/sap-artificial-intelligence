@@ -10,7 +10,7 @@
 
     ![](images/Enable_Cloud_Foundry_Button_d0dbc30.png)
 
-2.  Enter the basic information for your environment instance and click *Create*.
+2.  Enter the basic information for your Cloud Foundry environment instance and click *Create*.
 
     ![](images/Enable_Cloud_Foundry_Dialog_91c344a.png)
 

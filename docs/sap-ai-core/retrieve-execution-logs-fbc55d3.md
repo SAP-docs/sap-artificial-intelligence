@@ -10,7 +10,7 @@ You can retrieve the logs for a specific deployment or execution by submitting a
 
 -   `GET /v2/lm/deployments/{deploymentId}/logs`
 
--   `GET /v2/lm/executions/{executionsId}/logs`
+-   `GET /v2/lm/executions/{executionId}/logs`
 
 
 Query parameters include:
@@ -19,7 +19,7 @@ Query parameters include:
 
 -   `end` : the end time for a query as a string, in RFC 3339-compliant datetime format. Defaults to the current time. Example: `2021-05-19T00:00:14.347Z`
 
--   `$top` : the maximum number of entries returned. The default value is 1000; the maximum is 5000.
+-   `$top` : the maximum number of entries returned. The default value is 1000; the upper limit is 5000.
 
 -   `$order` : the sort order of logs, either `asc` \(for ascending, earliest in the order will appear at the top of the list\) or `desc` \(for descending, most recent in the order will appear at the top of the list\). Note the default value is `asc`.
 
@@ -39,7 +39,7 @@ For example:
 
 ## Using Postman
 
-1.  Create a new GET request and enter the URL `{{apiurl}}/v2/lm/executions/{{executionId}}/logs`.
+1.  Send a GET request to the endpoint `{{apiurl}}/v2/lm/executions/{{executionId}}/logs`.
 
     ![](images/Get_Execution_Logs_with_Postman_fba5a3b.png)
 
@@ -71,15 +71,15 @@ For example:
     </tr>
     <tr>
     <td valign="top">
-
-    *ai-resource-group*
+    
+        *ai-resource-group*
 
 
     
     </td>
     <td valign="top">
-
-    <Name of your resource group\> \(in the example, default is used\)
+    
+        <Name of your resource group\> \(in the example, default is used\)
 
 
     
@@ -97,8 +97,7 @@ For example:
 ## Using curl
 
 ```
-curl --request GET "[/pandoc/div/div/horizontalrule/codeblock/span/code
-     {"filepath"}) $AI_API_URL/v2/lm/executions/$EXCUTION_ID/logs?start=2021-05-19T00:00:14.347Z (code]" --header "Authorization: Bearer $TOKEN" --header "ai-resource-group: $RESOURCE_GROUP"
+curl --request GET "$AI_API_URL/v2/lm/executions/$EXCUTION_ID/logs?start=2021-05-19T00:00:14.347Z" --header "Authorization: Bearer $TOKEN" --header "ai-resource-group: $RESOURCE_GROUP"
 ```
 
 
@@ -146,23 +145,25 @@ For example, see the following JSON output from the API.
 **Related Information**  
 
 
-[Choose a Resource Plan](choose-a-resource-plan-57f4f19.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on task demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
+[Choose a Resource Plan](choose-a-resource-plan-57f4f19.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
 
 [Workflow Templates](workflow-templates-83523ab.md "Here, you can find a minimal workflow example template, that can be adapted to meet the requirements of your workflow.")
 
-[List Scenarios](list-scenarios-deedde5.md "A scenario is a group of related executables for a use case within the user's tenant. A scenario can have multiple versions that further correspond to the different versions of executables.")
+[List Scenarios](list-scenarios-deedde5.md "")
 
-[List Executables](list-executables-80895a4.md "An executable is a template that is instantiated for a purpose, such as training a model or creating a deployment. You can list all of the executables in a scenario and get details of specific executables from a scenario. Workflow templates are mapped to training executables.")
+[List Executables](list-executables-80895a4.md "")
 
-[Create Configurations](create-configurations-884ae34.md "A configuration is a collection of parameters, artifact references, and executables that are used to run an execution or deployment.")
+[Create Configurations](create-configurations-884ae34.md "")
 
 [List Configurations](list-configurations-8074b2a.md "")
 
-[Start Training](start-training-54b44e4.md "Start training and check the status of the execution.")
+[Start Training](start-training-54b44e4.md "")
 
-[Stop Training Instances](stop-training-instances-3d85344.md#loio3d853443027449d9a33723165b19b25a "")
+[Stop Training Instances](stop-training-instances-3d85344.md "")
 
-[Delete Training Instances](delete-training-instances-612ce17.md#loio612ce172e609432a840a22eb211ecf7b "Deleting a training instance releases the SAP AI Core resources that it used.")
+[Delete Training Instances](delete-training-instances-612ce17.md "")
+
+[Efficiency Features](efficiency-features-4cb76f7.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
 
 [Training Schedules](training-schedules-2b702f8.md "")
 

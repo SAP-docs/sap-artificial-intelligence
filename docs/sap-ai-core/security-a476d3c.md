@@ -276,7 +276,7 @@ SAP AI Core supports the user roles outlined in [Roles and Authorizations](secur
 
 <!-- loioe7909866a6294b4ab9974dcebc8336f4 -->
 
-### Roles and Authorizations
+#### Roles and Authorizations
 
 SAP AI Core provides default role collections that you can assign to users. The role collections determine which actions a user is able to carry out in SAP AI Core. You can also create your own role collections and assign the required roles to them.
 
@@ -890,7 +890,6 @@ Creation of a Docker image is the responsibility of the tenant, we strongly reco
 
 <!-- loiod1cd77fb7da34eacb0fdece7e5262069 -->
 
-
 ### AI Content Security
 
 AI content covers workflow templates and serving templates, docker images used in the templates. Docker image contains the ML algorithms or code along with the ML Libraries or Frameworks and other dependent packages. Standard Secure Software Development Practices should be followed covering the AI content.
@@ -1058,13 +1057,29 @@ We recommend that you enable the relevant and applicable Kubernetes security fea
 
 [Security Best Practices for Kubernetes Deployment](https://kubernetes.io/blog/2016/08/security-best-practices-kubernetes-deployment/)
 
- <a name="loio2b4c76d85b614dcc931bbe55902f6d6a"/>
+ <a name="loio869b2b16c76b488e8fdbbff20522f63d"/>
 
-<!-- loio2b4c76d85b614dcc931bbe55902f6d6a -->
+<!-- loio869b2b16c76b488e8fdbbff20522f63d -->
 
 ### Configuration Data and Secrets
 
-Workloads may implement access to network resources other than object stores. To access such network resources, workloads need to have credentials at runtime. SAP AI Core allows users to inject secrets in form of generic secrets. They can be created and managed by AI Core's REST APIs and consumed in a secure way in a workload. We recommend to only use this mechanism for sensitive information. Technically, it is also possible to inject parameters via configurations or labels. We discourage to use this for sensitive information. Different standards of confidentiality apply for these ways of injecting information into workloads (e.g. they are return in cleartext in GET requests).
+Workloads can access network resources other than object stores, using credentials at runtime. The ways of including this information at runtime have differing confidentiality standards.
+
+-   Recommended for **sensitive** information:
+
+     SAP AI Core allows users to include secrets in form of generic secrets, that are created and managed by the SAP AI Core's REST APIs, and consumed securely in a workload.
+
+-   For **none sensitive** information:
+
+    None sensitive parameters can be included using configurations or labels.
+
+    > ### Note:  
+    > These parameters could be returned in cleartext in, for example, GET requests.
+
+
+ <a name="loio2b4c76d85b614dcc931bbe55902f6d6a"/>
+
+<!-- loio2b4c76d85b614dcc931bbe55902f6d6a -->
 
 ### Output Encoding
 
@@ -1112,11 +1127,14 @@ Each main tenant and resource group is mapped to an own namespace. The main tena
 
 -   Runtime entities such as Executions, Deployments, Configurations and Artifacts belong to resource groups and cannot be shared across resource groups.
 
+-   Generic secrets that are created within a resource group can only be used for workloads within the resource group.
 
-Example resource group mappings are outlined in the figure below:
 
-![Example resource group mappings.](images/Image_AI_Core_Security_Resource_Group_Mappings_3f54dda.png)
+ <a name="loiob13304130ebd43c183c9bb96bc9ff65a"/>
+
+<!-- loiob13304130ebd43c183c9bb96bc9ff65a -->
 
 ### Tenant Isolation of Workloads
 
-Workloads are running in a sandbox environment and can not access workflows of other tenants or resource groups. Only TCP is supporte for in- or outbound traffic from a workload. We strongly discourage for workloads to open Sockets on UDP ports, since they would not be usable, yet may pose a theoretical security problem for the workload. 
+Workloads run in a sandbox environment and can not access workflows of other tenants or resource groups. Only TCP is supported for in or outbound traffic from a workload. Opening workloads to open Sockets on UDP ports is strongly discouraged. They are not usable, but may pose a theoretical security problem for the workload.
+

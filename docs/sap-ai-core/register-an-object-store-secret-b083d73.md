@@ -1,10 +1,18 @@
 <!-- loiob083d73f672c428faac3048b74733546 -->
 
-# Register Your Object Store Secret
+# Register an Object Store Secret
+
+Connect SAP AI Core to a cloud object store and manage access using an object store secret. The connected storage stores your dataset, models and other cache files of the Metaflow Library for SAP AI Core.
+
+Your cloud storage credentials are managed using secrets. Secrets are a means of allowing and controlling connections across directories and tools, without compromising your credentials.
+
+
+
+<a name="loiob083d73f672c428faac3048b74733546__section_spp_3c3_dxb"/>
+
+## Context
 
 SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS \(Alicloud Object Storage Service\), SAP HANA Cloud, Data Lake and Azure Blob Storage.
-
-You can register object store secrets for SAP AI Core. See the specification for more information about supported object stores.
 
 
 
@@ -12,7 +20,7 @@ You can register object store secrets for SAP AI Core. See the specification for
 
 ## Using Postman
 
-1.  Open the AI API collection and create a new *POST create objectstoresecret* request, using the URL `{{apiurl}}/v2/admin/objectStoreSecrets`.
+1.  Send a POST request,to the endpoint `{{apiurl}}/v2/admin/objectStoreSecrets`.
 2.  As the request body, select the *raw* radiobutton and enter your object store secret details.
 
     > ### Note:  
@@ -82,7 +90,7 @@ You can register object store secrets for SAP AI Core. See the specification for
         		"REGION": "<region name>",                  //optional
         		"CLIENT_ID": "<azure client id>",           //optional
         		"CLIENT_SECRET": "<azure client secret>",   //optional
-        		"STORAGE_ACCESS_KEY": "sas_token",          //optional
+        		"STORAGE_ACCESS_KEY": "sas_token",          //required
         		"TENANT_ID": "azure tenant id",             //optional
         		"SUBSCRIPTION_ID": "subscription id",       //optional
         	}
@@ -92,7 +100,7 @@ You can register object store secrets for SAP AI Core. See the specification for
 
 3.  Send the request.
 
-    The following indicates how an S3 request is made for an object store.
+    The following shows request using S3.
 
      ![](images/POST_create_objectstoresecret_4548dd0.png) 
 
@@ -111,8 +119,7 @@ You can register object store secrets for SAP AI Core. See the specification for
     -   For Amazon S3:
 
         ```
-        curl --location --request POST "[/pandoc/div/div/horizontalrule/orderedlist/li/bulletlist/li/codeblock/span/code
-             {"filepath"}) $AI_API_URL/v2/admin/objectStoreSecrets (code]" \
+        curl --location --request POST "$AI_API_URL/v2/admin/objectStoreSecrets" \
         --header "Authorization: Bearer $TOKEN" \
         --header 'Content-Type: application/json' \
         --header 'AI-Resource-Group: <Resource group>' \
@@ -134,8 +141,7 @@ You can register object store secrets for SAP AI Core. See the specification for
     -   For OSS \(Alicloud Object Storage Service\):
 
         ```json
-        curl --location --request POST "[/pandoc/div/div/horizontalrule/orderedlist/li/bulletlist/li/codeblock/span/code
-             {"filepath"}) $AI_API_URL/v2/admin/objectStoreSecrets (code]" \
+        curl --location --request POST "$AI_API_URL/v2/admin/objectStoreSecrets" \
         --header "Authorization: Bearer $TOKEN" \
         --header 'Content-Type: application/json' \
         --header 'AI-Resource-Group: <Resource group>' \
@@ -157,8 +163,7 @@ You can register object store secrets for SAP AI Core. See the specification for
     -   For SAP HANA Cloud, Data Lake:
 
         ```json
-        curl --location --request POST "[/pandoc/div/div/horizontalrule/orderedlist/li/bulletlist/li/codeblock/span/code
-             {"filepath"}) $AI_API_URL/v2/admin/objectStoreSecrets (code]" \
+        curl --location --request POST "$AI_API_URL/v2/admin/objectStoreSecrets" \
         --header "Authorization: Bearer $TOKEN" \
         --header 'Content-Type: application/json' \
         --header 'AI-Resource-Group: <Resource group>' \
@@ -179,8 +184,7 @@ You can register object store secrets for SAP AI Core. See the specification for
     -   For Azure Blob Storage:
 
         ```json
-        curl --location --request POST "[/pandoc/div/div/horizontalrule/orderedlist/li/bulletlist/li/codeblock/span/code
-             {"filepath"}) $AI_API_URL/v2/admin/objectStoreSecrets (code]" \
+        curl --location --request POST "$AI_API_URL/v2/admin/objectStoreSecrets" \
         --header "Authorization: Bearer $TOKEN" \
         --header 'Content-Type: application/json' \
         --header 'AI-Resource-Group: <Resource group>' \
@@ -193,7 +197,7 @@ You can register object store secrets for SAP AI Core. See the specification for
         			"REGION": "<region name>",                  //optional
         			"CLIENT_ID": "<azure client id>",           //optional
         			"CLIENT_SECRET": "<azure client secret>",   //optional
-        			"STORAGE_ACCESS_KEY": "sas_token",          //optional
+        			"STORAGE_ACCESS_KEY": "sas_token",          //required
         			"TENANT_ID": "azure tenant id",             //optional
         			"SUBSCRIPTION_ID": "subscription id",       //optional
         	}
@@ -205,13 +209,13 @@ You can register object store secrets for SAP AI Core. See the specification for
 
 
 > ### Note:  
-> You can create multiple secrets using different values for `name`, for input artifacts only, but you must create a default first.
+> For input artifacts only
+> 
+> You can create multiple secrets using different values for `name`, but you must create a default first.
 
 > ### Tip:  
 > The `pathPrefix` is useful if you share the same bucket for different projects. You can set the name of your project folder to ***my-ml-project1***, for example. All data will then be stored in that folder.
 
 > ### Note:  
 > If the `AI-Resource-Group` header is not specified, the *<Resource Group\>* is assigned the value `"default"` automatically.
-
-**Parent topic:** [Manage Object Store Secrets](manage-object-store-secrets-f10b532.md "Connect SAP AI Core to a cloud object store and manage access using an object store secret. The connected storage is used as storage for your dataset, models and other cache files of the Metaflow Library for SAP AI Core.")
 

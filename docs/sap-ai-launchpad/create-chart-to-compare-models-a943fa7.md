@@ -31,9 +31,7 @@ You can create multiple charts and view them in the *Visual Board*.
 
 1.  In the *ML Operations* app, choose *Models*.
 
-    ![All Models screen, with key navigation features highlighted.](images/Image_AIL_FE_AlL_MLOps_Models_4768c15.png)
-
-    The *All Models* screen appears listing all of the models for the selected resource group. Models are listed by name, and with additional details such as description, ID, scenario, execution ID, labels, created on timestamp, and changed on timestamp.
+    The *All Models* screen appears listing all of the models for the selected resource group. Models are listed by name, and with additional details such as description, ID, scenario, URL, execution ID, labels, created on timestamp, and changed on timestamp.
 
 2.  **Optional:** If you have a large list of models, you can further filter the list by choosing <span class="SAP-icons"></span> \(Filter\).
 

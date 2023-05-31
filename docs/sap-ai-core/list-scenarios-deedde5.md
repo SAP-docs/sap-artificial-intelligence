@@ -10,7 +10,7 @@ A scenario is a group of related executables for a use case within the user's te
 
 ## List Scenarios with Postman
 
-1.  Create a new GET request and enter the URL `{{apiurl}}/v2/lm/scenarios`
+1.  Send GET request to the endpoint `{{apiurl}}/v2/lm/scenarios`
 
 2.  On the *Authorization* tab, set the type to *Bearer Token*.
 
@@ -40,15 +40,15 @@ A scenario is a group of related executables for a use case within the user's te
     </tr>
     <tr>
     <td valign="top">
-
-     `ai-resource-group` 
+    
+         `ai-resource-group` 
 
 
     
     </td>
     <td valign="top">
-
-     *<Name of your resourceGroup\>* \(in the example, `default` is used\)
+    
+         *<Name of your resourceGroup\>* \(in the example, `default` is used\)
 
 
     
@@ -116,11 +116,9 @@ curl --request GET "" --header "Authorization: Bearer $TOKEN" --header "ai-resou
 
 ## Get Scenario Versions with Postman
 
-1.  1.  Create a new GET request and enter the URL `{{apiurl}}/v2/lm/scenarios/{{scenarioid}}/versions`
+Create a new GET request and enter the URL `{{apiurl}}/v2/lm/scenarios/{{scenarioid}}/versions`
 
-
-     ![](images/Get_Scenario_Versions_30552b8.png)
-
+![](images/Get_Scenario_Versions_30552b8.png)
 
 
 
@@ -128,9 +126,10 @@ curl --request GET "" --header "Authorization: Bearer $TOKEN" --header "ai-resou
 
 ## Get Scenario Versions with curl
 
+Submit the following:
+
 ```
-curl --location --request GET '[/pandoc/div/div/horizontalrule/codeblock/span/code
-     {"filepath"}) $API_URL/v2/lm/scenarios/$SCENARIO_ID/versions (code]' \
+curl --location --request GET '$API_URL/v2/lm/scenarios/$SCENARIO_ID/versions' \
 ```
 
 **Parent topic:** [Train Your Model](train-your-model-a9ceb06.md "You execute a training workflow to train your AI learning model.")
@@ -138,21 +137,23 @@ curl --location --request GET '[/pandoc/div/div/horizontalrule/codeblock/span/co
 **Related Information**  
 
 
-[Choose a Resource Plan](choose-a-resource-plan-57f4f19.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on task demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
+[Choose a Resource Plan](choose-a-resource-plan-57f4f19.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
 
 [Workflow Templates](workflow-templates-83523ab.md "Here, you can find a minimal workflow example template, that can be adapted to meet the requirements of your workflow.")
 
-[List Executables](list-executables-80895a4.md "An executable is a template that is instantiated for a purpose, such as training a model or creating a deployment. You can list all of the executables in a scenario and get details of specific executables from a scenario. Workflow templates are mapped to training executables.")
+[List Executables](list-executables-80895a4.md "")
 
-[Create Configurations](create-configurations-884ae34.md "A configuration is a collection of parameters, artifact references, and executables that are used to run an execution or deployment.")
+[Create Configurations](create-configurations-884ae34.md "")
 
 [List Configurations](list-configurations-8074b2a.md "")
 
-[Start Training](start-training-54b44e4.md "Start training and check the status of the execution.")
+[Start Training](start-training-54b44e4.md "")
 
-[Stop Training Instances](stop-training-instances-3d85344.md#loio3d853443027449d9a33723165b19b25a "")
+[Stop Training Instances](stop-training-instances-3d85344.md "")
 
-[Delete Training Instances](delete-training-instances-612ce17.md#loio612ce172e609432a840a22eb211ecf7b "Deleting a training instance releases the SAP AI Core resources that it used.")
+[Delete Training Instances](delete-training-instances-612ce17.md "")
+
+[Efficiency Features](efficiency-features-4cb76f7.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
 
 [Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "Information about API processing and metrics, are stored and accessed in the deployment and execution logs.")
 

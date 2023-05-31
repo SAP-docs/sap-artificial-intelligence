@@ -70,5 +70,5 @@ The new resource group is created. Executions, deployments, configurations, and 
 **Related Information**  
 
 
-[Create a Resource Group](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/01753f4dcb454401b539ecc4def641be.html "You can create resource groups to isolate ML workloads.") :arrow_upper_right:
+[Create a Resource Group](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/01753f4dcb454401b539ecc4def641be.html "") :arrow_upper_right:
 

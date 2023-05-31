@@ -12,6 +12,9 @@ You can compare up to five runs, either by comparing metric data or by creating 
 
 -   Charts provide a visual representation of a run and resulting model quality. You can choose the chart settings and chart type to graphically compare runs. Chart types include line, bar, column, heat map, and scattered charts. The chart types available for use depend on your source data and chart settings. You can preview a chart before you add it to your chart view.
 
+> ### Note:  
+> You can only make comparisons if the metrics capabilities extension in implemented in your AI runtime. For more information, see [API Runtime Implementations](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/about-ai-api).
+
 -   **[Create Chart to Compare Runs](create-chart-to-compare-runs-e963d2f.md "You can create charts for runs to visually compare quality criteria and
 		values.")**  
 You can create charts for runs to visually compare quality criteria and values.

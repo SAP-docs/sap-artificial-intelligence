@@ -33,7 +33,7 @@ Use the *ML Operations* app to search for a dataset.
 
     The *Datasets* screen appears listing all of the datasets registered to your resource group for your runtime.
 
-    Datasets are listed by name, and with additional details such as description, ID, scenario, execution ID, labels, created on timestamp, and changed on timestamp.
+    Datasets are listed by name, and with additional details such as description, ID, scenario, URL, execution ID, labels, created on timestamp, and changed on timestamp.
 
 2.  **Optional:** Search the list by entering a dataset name or part of the dataset description in the :mag: field.
 

@@ -111,6 +111,178 @@ Available as of
 </td>
 <td valign="top">
 
+Object Storage
+
+
+
+</td>
+<td valign="top">
+
+Management of Azure object storage is supported through the *ML Operations* app.
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+General Availability
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+
+
+</td>
+<td valign="top">
+
+2023-03-20
+
+
+
+</td>
+<td valign="top">
+
+2023-03-20
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP AI Launchpad 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Artifacts
+
+
+
+</td>
+<td valign="top">
+
+Artifact details and listings pages include the artifact URL.
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+General Availability
+
+
+
+</td>
+<td valign="top">
+
+Changed
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+
+
+</td>
+<td valign="top">
+
+2023-03-20
+
+
+
+</td>
+<td valign="top">
+
+2023-03-20
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP AI Launchpad 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Contribute to Our Documentation
 
 
@@ -302,6 +474,94 @@ Manual GitOps Sync
 The sync between GitOps and applications can be triggered manually, in addition to automatic syncs.
 
 See [Create an Application](create-an-application-6825db6.md).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+General Availability
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+
+
+</td>
+<td valign="top">
+
+2023-03-10
+
+
+
+</td>
+<td valign="top">
+
+2023-03-10
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ SAP AI Launchpad 
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generic Secrets
+
+
+
+</td>
+<td valign="top">
+
+Generic secrets for the SAP AI Core runtime can be created and managed through the *SAP AI Core Administration* app.
+
+See [Manage Generic Secrets in SAP AI Core](manage-generic-secrets-in-sap-ai-core-678fd23.md).
 
 
 

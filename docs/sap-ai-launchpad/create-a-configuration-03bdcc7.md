@@ -40,16 +40,22 @@ You have either the `mloperations_editor` or `scenario_configuration_editor` rol
 
 4.  Choose *Next* to display the *Input Parameters* step.
 
-5.  Enter an alphanumeric value for the *Input Parameter*, as required by placeholder \(*<Parameter\>*\) of the selected executable.
+5.  Enter an alphanumeric value for the *Input Parameter*, as required by placeholder \(*<Parameter\>*\) of the selected executable. Where default values have been set, these will be prefilled, but can be changed manually.
 
     > ### Restriction:  
     > A configuration can contain up to 1000 input parameters. An input parameter value can't exceed 5000 characters.
 
     ![](images/Image_AI_Launchpad_CC_3_bd68061.png)
 
+    > ### Tip:  
+    > The *Reset* button clears the mandatory fields and enters default values, where they are asigned. The *Enable Description* swtich show descriptions and types, where available.
+
 6.  Choose *Next* to display the *Input Artifacts* step.
 
-7.  Select the required artifacts from the list of available artifacts. The artifact is required as an input artifact for the selected executable.
+7.  Select the required artifacts from the list of available artifacts. Where possible, the artifacts available have been prefiltered by type. The artifact is required as an input artifact for the selected executable.
+
+    > ### Tip:  
+    > Use the *Enable Description* switch to view artifact description as popovers..
 
     ![](images/create-a-configuration_2565523.png)
 

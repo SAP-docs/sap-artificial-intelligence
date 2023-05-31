@@ -30,38 +30,30 @@ It is possible to train the same model multiple times, with varying parameters \
 -   **[Choose a Resource Plan](choose-a-resource-plan-57f4f19.md "You can configure SAP AI Core to use different infrastructure
 		resources for
 		different
-		tasks, based on task demand.
+		tasks, based on demand.
 		SAP AI Core provides several preconfigured infrastructure bundles called
-			“resource plans” for this purpose. ")**  
-You can configure SAP AI Core to use different infrastructure resources for different tasks, based on task demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.
--   **[Workflow Templates](workflow-templates-83523ab.md "
-    Here,
-    you can find a minimal workflow example template, that
-    can be adapted to meet the requirements of your workflow. ")**  
+			“resource plans” for this purpose.")**  
+You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.
+-   **[Workflow Templates](workflow-templates-83523ab.md " Here, you can find a minimal workflow example template, that can be adapted to meet
+    the requirements of your workflow. ")**  
  Here, you can find a minimal workflow example template, that can be adapted to meet the requirements of your workflow.
--   **[List Scenarios](list-scenarios-deedde5.md "A scenario is a group of
-                                    related executables for a use case within the user's tenant. A
-                                    scenario can have multiple versions that further correspond to
-                                    the different versions of executables. ")**  
-A scenario is a group of related executables for a use case within the user's tenant. A scenario can have multiple versions that further correspond to the different versions of executables.
--   **[List Executables](list-executables-80895a4.md "An executable is a
-                                    template that is instantiated for a purpose, such as training a
-                                    model or creating a deployment. You can list all of the executables in a scenario and get details
-      of specific executables from a scenario. Workflow templates are mapped to training executables.")**  
-An executable is a template that is instantiated for a purpose, such as training a model or creating a deployment. You can list all of the executables in a scenario and get details of specific executables from a scenario. Workflow templates are mapped to training executables.
--   **[Create Configurations](create-configurations-884ae34.md "A configuration is a
-                                    collection of parameters, artifact references, and executables
-                                    that are used to run an execution or deployment.")**  
-A configuration is a collection of parameters, artifact references, and executables that are used to run an execution or deployment.
+-   **[List Scenarios](list-scenarios-deedde5.md "")**  
+
+-   **[List Executables](list-executables-80895a4.md "")**  
+
+-   **[Create Configurations](create-configurations-884ae34.md "")**  
+
 -   **[List Configurations](list-configurations-8074b2a.md "")**  
 
--   **[Start Training](start-training-54b44e4.md "Start training and check the status of the execution.")**  
-Start training and check the status of the execution.
--   **[Stop Training Instances](stop-training-instances-3d85344.md#loio3d853443027449d9a33723165b19b25a "")**  
+-   **[Start Training](start-training-54b44e4.md "")**  
 
--   **[Delete Training Instances](delete-training-instances-612ce17.md#loio612ce172e609432a840a22eb211ecf7b "Deleting a training instance releases the SAP AI Core resources
-		that it used. ")**  
-Deleting a training instance releases the SAP AI Core resources that it used.
+-   **[Stop Training Instances](stop-training-instances-3d85344.md "")**  
+
+-   **[Delete Training Instances](delete-training-instances-612ce17.md "")**  
+
+-   **[Efficiency Features](efficiency-features-4cb76f7.md "Discover features of the SAP AI Core runtime that improve
+		efficiency and help manage resource consumption.")**  
+Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.
 -   **[Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "Information about API processing and metrics, are stored and accessed in the deployment and execution logs. ")**  
 Information about API processing and metrics, are stored and accessed in the deployment and execution logs.
 -   **[Training Schedules](training-schedules-2b702f8.md "")**  
@@ -72,11 +64,7 @@ Information about API processing and metrics, are stored and accessed in the dep
 **Related Information**  
 
 
-[Administration](administration-7937fc1.md "Creating secrets for your tools, means that you can connect external programs and tools without compromising your account. The tools can be used to incorporate version control, cloud storage and portable containers.")
-
 [Connect Your Data](connect-your-data-9508bdb.md "Use cloud storage with SAP AI Core to store AI assets such as datasets and model files. You use Artifacts in SAP AI Core to reference to your AI Assets.")
 
 [Use Your Model](use-your-model-7f93e8f.md "You deploy your AI learning model to run inferences against it.")
-
-[Metrics](metrics-36f8bec.md "The AI API provides the ability to track metrics, and to customize or filter which metrics are reported.")
 

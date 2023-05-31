@@ -1,6 +1,6 @@
 <!-- loio18caf4b12bbe474a85626cec00de4455 -->
 
-# Change an Exisitng Training Schedule
+# Change an Existing Training Schedule
 
 
 
@@ -15,8 +15,7 @@ You can not change the name field.
 Submit a PATCH request:
 
 ```
-curl --location --request PATCH [/pandoc/div/div/horizontalrule/codeblock/span/code
-     {"filepath"}) $AI_API_URL/v2/lm/executions?executionScheduleId=$EXECUTION_SCHEDULE (code]
+curl --location --request PATCH $AI_API_URL/v2/lm/executions?executionScheduleId=$EXECUTION_SCHEDULE
 --header “Authorization: Bearer $TOKEN” \
 --header “ai-resource-group: $RESOURCE_GROUP” \
 --data-raw '{ "cron": "0 0 * * *"
@@ -33,9 +32,44 @@ You can change the cron definition, start, end, and configuration of an existing
 
 You can not change the name field.
 
-Submit your changes in a PATCH request to `{{apiurl}}/v2/lm/executionSchedules/{{executionScheduleId}}`.
+Send your changes in a PATCH request to `{{apiurl}}/v2/lm/executionSchedules/{{executionScheduleId}}`.
 
 ![](images/change_d88001c.png)
+
+
+
+<a name="loio18caf4b12bbe474a85626cec00de4455__section_tgw_jhz_gxb"/>
+
+## Pause or Resume a Training Schedule
+
+The `status` parameter pauses or resumes a schedule:
+
+-   *<INACTIVE\>*: pauses a schedule.
+-   *<ACTIVE\>*: resumes a schedule.
+
+
+
+### Using Postman
+
+Send a PATCH request to `{{apiurl}}/v2/lm/executionSchedules/{{executionScheduleId}}` with the body:
+
+```
+{
+ "status": "INACTIVE"
+}
+```
+
+
+
+### Using curl
+
+```
+curl --location --request PATCH $AI_API_URL/v2/lm/executions?executionScheduleId=$EXECUTION_SCHEDULE
+--header “Authorization: Bearer $TOKEN” \
+--header “ai-resource-group: $RESOURCE_GROUP” \
+--data-raw '{ "status": "INACTIVE"
+}'
+```
 
 **Parent topic:** [Training Schedules](training-schedules-2b702f8.md "")
 

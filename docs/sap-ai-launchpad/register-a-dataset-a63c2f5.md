@@ -69,7 +69,7 @@ The dataset that you have registered now appears in the list of datasets for the
 **Related Information**  
 
 
-[Create Artifacts](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/66413f1d9fbf4758a0d739eaf1c95dc7.html "Create an artifact to connect a dataset or model, to make it available for use in SAP AI Core.") :arrow_upper_right:
+[Create Files](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/66413f1d9fbf4758a0d739eaf1c95dc7.html "") :arrow_upper_right:
 
 [Manage Object Store Secrets](manage-object-store-secrets-0377ede.md "You can connect your AI processes with a cloud object store, and manage access using an object store secret.")
 

@@ -16,6 +16,10 @@ Consumers can create service instances using SAP AI Core to use available conten
 8.  SAP AI Core creates a resource group for the consumer with *<resourceGroupId\>* == `serviceInstanceId`.
 9.  The consumer creates a service key and starts using the service.
 
+    > ### Note:  
+    > The service provider main tenant is allowed to provision only 1 Service.
+
+
 SAP AI Core deploys a generic service broker instance for the main tenant as follows:
 
 ![](images/AICoreStructure_31f91a8.png)

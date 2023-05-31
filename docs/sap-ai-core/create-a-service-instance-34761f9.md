@@ -6,7 +6,7 @@
 
 ## Procedure
 
-1.  On the overview page for your subaccount, choose *Service Marketplace*.
+1.  SAP BTP cockpit, navigate to your global account, and choose *Service Marketplace*.
 
     You will see a tile for SAP AI Core.
 
@@ -20,7 +20,7 @@
 
     ![](images/Create_Instance_720c94d.png)
 
-4.  Uploading a JSON file is optional. Choose *Next* to proceed.
+4.  Parameters can be uploaded using a JSON file, this is optional. Choose *Next* to proceed.
 
     ![](images/Configure_Parameters_a1fe56a.png)
 
@@ -38,4 +38,10 @@
 When your service instance is created, you can view it on the *Instances and Subscriptions* page of your subaccount.
 
 ![](images/Instances_and_Subscriptions_Page_e198958.png)
+
+**Parent topic:** [Initial Setup](initial-setup-38c4599.md "You provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Platform. After provisioning, you will have your service key, which provides URLs and credentials for accessing the SAP AI Core instance through SAP AI Launchpad Postman, or curl.")
+
+**Next:** [Add a Service Plan](add-a-service-plan-86002d9.md "")
+
+**Previous:** [Create a Service Key](create-a-service-key-7323ff4.md "")
 

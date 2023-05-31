@@ -2,7 +2,7 @@
 
 # Choose a Resource Plan
 
-You can configure SAP AI Core to use different infrastructure resources for different tasks, based on task demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.
+You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.
 
 
 
@@ -12,9 +12,9 @@ You can configure SAP AI Core to use different infrastructure resources for diff
 
 Resource plans are used to select resources in workflow and serving templates. Different steps of a workflow can have different resource plans.
 
-In general, if your workload needs or profits from GPU acceleration, you should use one of the GPU-enabled resource plans. Otherwise, choose the resource plan based on the anticipated CPU and memory need of your workloads.
+In general, if your workload needs GPU acceleration, you should use one of the GPU-enabled resource plans. Otherwise, choose a resource plan based on the anticipated CPU and memory need of your workloads.
 
-Within SAP AI Core, the resource plan is selected via the `ai.sap.com/resourcePlan` label at pod level. It maps the resource plan selected by a user and uses the string value, which can be any of the following resource plan IDs:
+Within SAP AI Core, the resource plan is selected via the `ai.sap.com/resourcePlan` label at pod level. It maps the selected resource plan and takes a string value, which can be any of the following resource plan IDs:
 
 **Resource Plan Specifications for AWS**
 
@@ -53,7 +53,7 @@ Memory GBs
 
 Code to Allocate Resources
 
-\(to Add to Workflow Templates\)
+in Workflow Templates
 
 
 
@@ -330,19 +330,21 @@ Basic-8x
 
 [Workflow Templates](workflow-templates-83523ab.md "Here, you can find a minimal workflow example template, that can be adapted to meet the requirements of your workflow.")
 
-[List Scenarios](list-scenarios-deedde5.md "A scenario is a group of related executables for a use case within the user's tenant. A scenario can have multiple versions that further correspond to the different versions of executables.")
+[List Scenarios](list-scenarios-deedde5.md "")
 
-[List Executables](list-executables-80895a4.md "An executable is a template that is instantiated for a purpose, such as training a model or creating a deployment. You can list all of the executables in a scenario and get details of specific executables from a scenario. Workflow templates are mapped to training executables.")
+[List Executables](list-executables-80895a4.md "")
 
-[Create Configurations](create-configurations-884ae34.md "A configuration is a collection of parameters, artifact references, and executables that are used to run an execution or deployment.")
+[Create Configurations](create-configurations-884ae34.md "")
 
 [List Configurations](list-configurations-8074b2a.md "")
 
-[Start Training](start-training-54b44e4.md "Start training and check the status of the execution.")
+[Start Training](start-training-54b44e4.md "")
 
-[Stop Training Instances](stop-training-instances-3d85344.md#loio3d853443027449d9a33723165b19b25a "")
+[Stop Training Instances](stop-training-instances-3d85344.md "")
 
-[Delete Training Instances](delete-training-instances-612ce17.md#loio612ce172e609432a840a22eb211ecf7b "Deleting a training instance releases the SAP AI Core resources that it used.")
+[Delete Training Instances](delete-training-instances-612ce17.md "")
+
+[Efficiency Features](efficiency-features-4cb76f7.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
 
 [Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "Information about API processing and metrics, are stored and accessed in the deployment and execution logs.")
 
@@ -354,5 +356,5 @@ Basic-8x
 
 ## Service Usage Reporting
 
-Usage consumption of services is reported in the SAP BTP cockpit on the *Overview* page for your global account and on the *Overview* and *Usage Analytics* pages of your subaccount. The usage report lists usage in billable measures and nonbillable measures. Your final monthly bill is based on the billable measure only. The nonbillable measures display usage for reporting purposes only.
+Usage consumption of services is reported in the SAP BTP cockpit on the *Overview* page for your global account and on the *Overview* and *Usage Analytics* pages of your subaccount. The usage report lists usage in billable measures and nonbillable measures. Your final monthly bill is based on the billable measure only. Nonbillable measures sre displayed for reporting purposes only.
 

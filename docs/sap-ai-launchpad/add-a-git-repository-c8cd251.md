@@ -6,19 +6,27 @@ As a system administrator, you can add Git repositories which can be used within
 
 
 
-<a name="loioc8cd25115c124444a6f9a28f1cb8228d__prereq_jxh_cq2_rob"/>
+<a name="loioc8cd25115c124444a6f9a28f1cb8228d__prereq_lq4_g1p_kxb"/>
 
 ## Prerequisites
 
+-   You have access to a git repository over the Internet.
+-   You have generated a personal access token for your git repository. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+-   If you want to onboard a git repository hosted on GitLab, make sure that the repository URL contains the `.git` suffix.
+-   Secrets are not permitted in your repository. If secrets are used, it is not possible to synchronize content.
+
 You have the `aicore_admin_repositories_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
 
-You have created the required AI API connection using the *Workspaces* app. See [Add Connection to SAP AI Core](add-connection-to-sap-ai-core-71dfe2c.md).
+> ### Note:  
+> When you synchronize resources, make sure that there are no naming collisions. This is particularly important if you use multiple repositories or applications in one tenant. If you experience difficulties during synchronization, we recommend that you use only one repository or application per tenant.
 
-You have access to the Git repository over the Internet.
 
 
+<a name="loioc8cd25115c124444a6f9a28f1cb8228d__context_s5h_dbp_kxb"/>
 
 ## Context
+
+Git repositories are managed by creating personal access tokens registering them in SAP AI Core. Personal access tokens are a means of allowing and controlling connections to GitHub repositories without compromising your credentials.
 
 You can add multiple Git repositories for a selected connection. The Git repository must already exist with valid authentication details.
 
@@ -26,6 +34,8 @@ You can add multiple Git repositories for a selected connection. The Git reposit
 > SAP AI Core supports the use of Git repositories; the use of other private or open source repositories is not supported.
 
 
+
+<a name="loioc8cd25115c124444a6f9a28f1cb8228d__steps_qxg_svf_4xb"/>
 
 ## Procedure
 
@@ -62,7 +72,7 @@ You can add multiple Git repositories for a selected connection. The Git reposit
 
 
 
-<a name="loioc8cd25115c124444a6f9a28f1cb8228d__result_upp_yr4_xsb"/>
+<a name="loioc8cd25115c124444a6f9a28f1cb8228d__result_ktq_tvf_4xb"/>
 
 ## Results
 

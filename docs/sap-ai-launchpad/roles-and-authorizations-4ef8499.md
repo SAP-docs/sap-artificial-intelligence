@@ -6,7 +6,7 @@ SAP AI Launchpad provides default role collections that you can assign to users.
 
 
 
-SAP AI Launchpad provides standard or default role collections. The default role collections bundle the roles required for likely SAP AI Launchpad tasks and and app functions. However, if these role collections do not suit your organizational needs, you can create your own role collections.
+SAP AI Launchpad provides standard or default role collections. The default role collections bundle the roles required for likely SAP AI Launchpad tasks and app functions. However, if these role collections do not suit your organizational needs, you can create your own role collections.
 
 **Default Role Collections**
 
@@ -971,6 +971,70 @@ Viewer role *SAP AI Core Administration* app
 <td valign="top">
 
 Editor role *SAP AI Core Administration* app
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`execution_schedules_editor`
+
+
+
+</td>
+<td valign="top">
+
+Edit execution schedules
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`execution_schedules_viewer`
+
+
+
+</td>
+<td valign="top">
+
+View execution schedules
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+aicore\_admin\_genericsecret\_editor
+
+
+
+</td>
+<td valign="top">
+
+Create, edit or delete generic secrets in the SAP AI Core runtime through the *SAP AI Core Administration* app
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+aicore\_admin\_genericsecret\_viewer
+
+
+
+</td>
+<td valign="top">
+
+View generic secrets in the SAP AI Core runtime through the *SAP AI Core Administration* app
 
 
 

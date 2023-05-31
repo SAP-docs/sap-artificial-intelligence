@@ -44,5 +44,5 @@ The deployment is stopped, and the computing resources that your deployment was 
 **Related Information**  
 
 
-[Stop Deployments](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/b7d2577088c84417bbab370173d38cd8.html#loiob7d2577088c84417bbab370173d38cd8 "Stopping a deployment releases the SAP AI Core runtime computing resources that it used.") :arrow_upper_right:
+[Stop Deployments](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/b7d2577088c84417bbab370173d38cd8.html "") :arrow_upper_right:
 

@@ -4,11 +4,13 @@
 
 A generic secret gives SAP AI Core authorization to utilize your resource group without exposing your credentials.
 
+Generic Secrets are used in addition to store sensitive information when system secrets are not applicable, for example in integration use cases where SAP AI Core is an orchestration layer.
+
 SAP AI Core lets you optionally use generic secrets at two levels: at the main-tenant scope or on a resource-group level.
 
 Generic secrets are different to system secrets \(such as object store, Docker registry, and so on\) and can be used to store sensitive information, either for the main tenant or for each resource group via an API. The latter can be attached to containers in executions or deployments as environment variables or volume mounts.
 
-To create a generic secret in a resource group, send a POST request as shown below. Note that the API expects sensitive data to be Base64-encoded. You can easily encode your data in Base64 format using the following command on linux or macOS: `echo -n 'my-sensitive-data' | base64`
+To create a generic secret in a resource group, send a POST request to the endpoint `{{apiurl}}/v2/admin/secrets`. Note that the API expects sensitive data to be Base64-encoded. You can easily encode your data in Base64 format using the following command on Linux or MacOS: `echo -n 'my-sensitive-data' | base64`
 
 
 
@@ -16,8 +18,8 @@ To create a generic secret in a resource group, send a POST request as shown bel
 
 ## Using Postman
 
-1.  Create a new POST request and enter the URL ***\{\{apiurl\}\}/v2/admin/secrets***.
-2.  As the request body, select the *raw* radiobutton and enter the following:
+1.  Send a POST request and enter the URL `{{apiurl}}/v2/admin/secrets`.
+2.  As the request body, select the *raw* radiobutton and enter your credentials in JSON format.:
 
     ```
     {
@@ -32,7 +34,7 @@ To create a generic secret in a resource group, send a POST request as shown bel
     -   `name`: Set the name of your generic secret.
     -   `data`: Enter a JSON string that represents your generic secret.
 
-3.  Specify the scope of the request via the header `AI-Tenant-Scope` or `AI-Resource-Group`:
+3.  Specify the scope of the request via the header `AI-Tenant-Scope` and `AI-Resource-Group`:
 
     -   ***AI-Tenant-Scope*** : ***true***. The operation will be performed at the main tenant level.
     -   ***AI-Resource-Group*** : ****<resource-group-name\>****. The operation will be performed at the resource-group level.
@@ -51,11 +53,13 @@ To create a generic secret in a resource group, send a POST request as shown bel
 
 ## Using curl
 
-Submit a POST request to the endpoint `v2/admin/secrets` and include the name of your generic secret and credentials. Specify the scope through the `AI-Tenant-Scope` or `AI-Resource-Group`. The following code shows a request with the resource-group scope, indicated by `AI-Resource-Group: default`. For a creation request at main-tenant level, replace `AI-Resource-Group: default` with `AI-Tenant-Scope: true`.
+Submit a POST request to the endpoint `v2/admin/secrets` and include the name of your generic secret and credentials. Specify the scope through the `AI-Tenant-Scope` and `AI-Resource-Group`:
+
+-   ***AI-Tenant-Scope*** : ***true***. The operation will be performed at the main tenant level.
+-   ***AI-Resource-Group*** : ****<resource-group-name\>****. The operation will be performed at the resource-group level.
 
 ```
-curl --location --request POST "[/pandoc/div/div/horizontalrule/codeblock/span/code
-     {"filepath"}) $AI_API_URL/v2/admin/secrets (code]" \
+curl --location --request POST "$AI_API_URL/v2/admin/secrets" \
 --header "Authorization: Bearer $TOKEN" \
 --header 'Content-Type: application/json' \
 --header 'AI-Resource-Group: default' \
@@ -66,19 +70,4 @@ curl --location --request POST "[/pandoc/div/div/horizontalrule/codeblock/span/c
 			}
 }'					
 ```
-
-**Parent topic:** [Manage Resource Groups](manage-resource-groups-8aae6cb.md "A resource group represents a unique workspace environment, where users can create or add entities such as configurations, executions, deployments, and artifacts.")
-
-**Related Information**  
-
-
-[Create a Resource Group](create-a-resource-group-01753f4.md "You can create resource groups to isolate ML workloads.")
-
-[List All Generic Secrets](list-all-generic-secrets-05a3713.md "Locate a generic secret, without revealing sensitive information.")
-
-[Update a Generic Secret](update-a-generic-secret-b5d5970.md "Generic secrets can be amended.")
-
-[Delete a Generic Secret](delete-a-generic-secret-d5d5187.md "Manage the lifespan of your generic secrets.")
-
-[Consume Generic Secrets in Executions or Deployments](consume-generic-secrets-in-executions-or-deployments-185a324.md "Utilize generic secrets in executions or deployments.")
 

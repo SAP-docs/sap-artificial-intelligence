@@ -55,6 +55,8 @@ You have either the `mloperations_viewer` or `scenario_configuration_viewer` rol
     2.  When a configuration is used for deploying a model, choose *Create Deployment* to deploy the model.
 
 
+7.  **Optional:** Choose an artifact to redirect to a list of artifacts, prefiltered based on attributed of the chosen artifact.
+
 
 **Related Information**  
 

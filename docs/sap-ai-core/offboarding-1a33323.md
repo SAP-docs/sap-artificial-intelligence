@@ -13,5 +13,5 @@ metadata:
 
 ```
 
-With the codeph strategy annotation, service providers can delete service custom resources from the git repository and proceed for offboarding. For successful service offboarding, all the consumer service instances should be deleted.
+With the serviceDeletionStrategy annotation, service providers can delete service custom resources from the git repository and proceed for offboarding. For successful service offboarding, all the consumer service instances should be deleted.
 

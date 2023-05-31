@@ -14,7 +14,7 @@ An executable is a template that is instantiated for a purpose, such as training
 
      ![](images/Edit_Environment_Variable_-_scenarioid_0003c60.png) 
 
-2.  Create a new GET request and enter the URL `{{apiurl}}/v2/lm/scenarios/{{scenarioid}}/executables`
+2.  Send a GET request to the endpoint `{{apiurl}}/v2/lm/scenarios/{{scenarioid}}/executables`
 
 3.  On the *Authorization* tab, set the type to *Bearer Token*.
 
@@ -44,15 +44,15 @@ An executable is a template that is instantiated for a purpose, such as training
     </tr>
     <tr>
     <td valign="top">
-
-     `ai-resource-group` 
+    
+         `ai-resource-group` 
 
 
     
     </td>
     <td valign="top">
-
-     *<Name of your resourceGroup\>*`default` is used\)
+    
+         *<Name of your resourceGroup\>*`default` is used\)
 
 
     
@@ -66,7 +66,7 @@ An executable is a template that is instantiated for a purpose, such as training
 
 
 > ### Note:  
-> The *<modifiedAt\>* \(in the example, field denotes the timestamp of the latest successful sync. The output ***1970-01-01T00:00:00+00:00*** indicates an error.
+> The *<modifiedAt\>* field denotes the timestamp of the latest successful sync. The output ***1970-01-01T00:00:00+00:00*** indicates an error.
 
 
 
@@ -75,8 +75,7 @@ An executable is a template that is instantiated for a purpose, such as training
 ## List Executables with curl
 
 ```
-curl --request GET "[/pandoc/div/div/horizontalrule/codeblock/span/code
-     {"filepath"}) $AI_API_URL/v2/lm/scenarios (code]" --header "Authorization: Bearer $TOKEN" --header "ai-resource-group: $RESOURCE_GROUP"
+curl --request GET "$AI_API_URL/v2/lm/scenarios" --header "Authorization: Bearer $TOKEN" --header "ai-resource-group: $RESOURCE_GROUP"
 ```
 
 > ### Output Code:  
@@ -102,7 +101,9 @@ curl --request GET "[/pandoc/div/div/horizontalrule/codeblock/span/code
 >          "parameters":[
 >             {
 >                "name":"modelName",
->                "type":"string"
+>                "type":"string",
+>                 "default": "value",
+>                 "description": "description of the parameter"
 >             }
 >          ],
 >          "scenarioId":"ae0bd260-41ef-4162-81b0-861bd78a8516",
@@ -115,7 +116,19 @@ curl --request GET "[/pandoc/div/div/horizontalrule/codeblock/span/code
 >          "id":"pytf-serving-tracking",
 >          "inputArtifacts":[
 >             {
->                "name":"model_uri"
+>                "name":"textmodel",
+>                "kind": "model",
+>                "description": "artifact description",
+>                "labels": [
+>                   {
+>                     "key": "ext.ai.sap.com/customkey1",
+>                     "value": "customvalue1"
+>                   },
+>                   {
+>                    "key": "ext.ai.sap.com/customkey2",
+>                    "value": "customvalue2"
+>                  }
+>                ]
 >             }
 >          ],
 >          "labels":[
@@ -152,7 +165,19 @@ curl --request GET "[/pandoc/div/div/horizontalrule/codeblock/span/code
 >          "name":"churnntextclassexecutablename",
 >          "outputArtifacts":[
 >             {
->                "name":"churn-pickle"
+>                "name":"churn-pickle",
+>                "kind": "model",
+>                "description": "artifact description",
+>                "labels": [
+>                  {
+>                    "key": "ext.ai.sap.com/customkey1",
+>                    "value": "customvalue1"
+>                  },
+>                  {
+>                   "key": "ext.ai.sap.com/customkey2",
+>                   "value": "customvalue2"
+>                 }
+>               ]
 >             },
 >             {
 >                "name":"pytf-model"
@@ -219,7 +244,7 @@ curl --request GET "[/pandoc/div/div/horizontalrule/codeblock/span/code
 
     ![](images/Add_Environment_Variable_executableid_6120596.png)
 
-2.  Create a new GET request and enter the URL `{{apiurl}}/v2/lm/scenarios/{{scenarioid}}/executables/{{executableid}}`
+2.  Send a GET request to the endpoint `{{apiurl}}/v2/lm/scenarios/{{scenarioid}}/executables/{{executableid}}`
 
 3.  On the *Authorization* tab, set the type to *Bearer Token*.
 
@@ -249,15 +274,15 @@ curl --request GET "[/pandoc/div/div/horizontalrule/codeblock/span/code
     </tr>
     <tr>
     <td valign="top">
-
-     `ai-resource-group` 
+    
+         `ai-resource-group` 
 
 
     
     </td>
     <td valign="top">
-
-     *<Name of your resourceGroup\>* \(in the example, `default` is used\)
+    
+         *<Name of your resourceGroup\>* \(in the example, `default` is used\)
 
 
     
@@ -278,8 +303,7 @@ curl --request GET "[/pandoc/div/div/horizontalrule/codeblock/span/code
 ## Get Executable Details with curl
 
 ```
-curl --request GET "[/pandoc/div/div/horizontalrule/codeblock/span/code
-     {"filepath"}) $AI_API_URL/v2/lm/scenarios (code]" --header "Authorization: Bearer $TOKEN" --header "ai-resource-group: $RESOURCE_GROUP" 
+curl --request GET "$AI_API_URL/v2/lm/scenarios" --header "Authorization: Bearer $TOKEN" --header "ai-resource-group: $RESOURCE_GROUP" 
 ```
 
 > ### Output Code:  
@@ -329,21 +353,23 @@ curl --request GET "[/pandoc/div/div/horizontalrule/codeblock/span/code
 **Related Information**  
 
 
-[Choose a Resource Plan](choose-a-resource-plan-57f4f19.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on task demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
+[Choose a Resource Plan](choose-a-resource-plan-57f4f19.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
 
 [Workflow Templates](workflow-templates-83523ab.md "Here, you can find a minimal workflow example template, that can be adapted to meet the requirements of your workflow.")
 
-[List Scenarios](list-scenarios-deedde5.md "A scenario is a group of related executables for a use case within the user's tenant. A scenario can have multiple versions that further correspond to the different versions of executables.")
+[List Scenarios](list-scenarios-deedde5.md "")
 
-[Create Configurations](create-configurations-884ae34.md "A configuration is a collection of parameters, artifact references, and executables that are used to run an execution or deployment.")
+[Create Configurations](create-configurations-884ae34.md "")
 
 [List Configurations](list-configurations-8074b2a.md "")
 
-[Start Training](start-training-54b44e4.md "Start training and check the status of the execution.")
+[Start Training](start-training-54b44e4.md "")
 
-[Stop Training Instances](stop-training-instances-3d85344.md#loio3d853443027449d9a33723165b19b25a "")
+[Stop Training Instances](stop-training-instances-3d85344.md "")
 
-[Delete Training Instances](delete-training-instances-612ce17.md#loio612ce172e609432a840a22eb211ecf7b "Deleting a training instance releases the SAP AI Core resources that it used.")
+[Delete Training Instances](delete-training-instances-612ce17.md "")
+
+[Efficiency Features](efficiency-features-4cb76f7.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
 
 [Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "Information about API processing and metrics, are stored and accessed in the deployment and execution logs.")
 

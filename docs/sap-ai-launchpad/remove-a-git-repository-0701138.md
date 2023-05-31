@@ -6,7 +6,7 @@ As a system administrator, you can remove a Git repository from use within your 
 
 
 
-<a name="loio0701138c4c22499596f2666e0b251e88__prereq_jxh_cab_rob"/>
+<a name="loio0701138c4c22499596f2666e0b251e88__prereq_y2z_m2g_4xb"/>
 
 ## Prerequisites
 
@@ -16,11 +16,15 @@ You have access to the Git repository over the Internet.
 
 
 
+<a name="loio0701138c4c22499596f2666e0b251e88__context_bqm_42g_4xb"/>
+
 ## Context
 
 You remove a Git repository from a connection if its URL is invalid or contains errors, or if the repo is no longer required. Once a Git repository is removed, it can no longer be selected as a source repository for an application.
 
 
+
+<a name="loio0701138c4c22499596f2666e0b251e88__steps_g35_p2g_4xb"/>
 
 ## Procedure
 
@@ -41,7 +45,7 @@ You remove a Git repository from a connection if its URL is invalid or contains 
 
 
 
-<a name="loio0701138c4c22499596f2666e0b251e88__result_gap_yr4_xsb"/>
+<a name="loio0701138c4c22499596f2666e0b251e88__result_cnx_q2g_4xb"/>
 
 ## Results
 

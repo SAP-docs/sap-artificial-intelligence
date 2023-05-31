@@ -33,6 +33,9 @@ During a run, metrics \(standard model evaluation metrics and associated labels,
 
 2.  Select the *Metrics* tab to check the metrics and values which were captured when training the model.
 
+    > ### Note:  
+    > The *Metrics* tab is only visible if the metrics capabilities extension in implemented in your AI runtime. For more information, see [API Runtime Implementations](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/about-ai-api).
+
     Metric details are displayed, as follows:
 
     -   *Name*: Quality criteria. For example, accuracy or mean absolute error \(MSE\).

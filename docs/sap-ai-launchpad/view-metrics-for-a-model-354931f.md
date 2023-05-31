@@ -34,6 +34,9 @@ Metric data is common to both the generated models and executions. You can view 
 
 2.  To view the model metrics, select the *Metrics* tab.
 
+    > ### Note:  
+    > The *Metrics* tab is only visible if the metrics capabilities extension in implemented in your AI runtime. For more information, see [API Runtime Implementations](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/about-ai-api).
+
     Metrics details are displayed, as follows:
 
     -   *Name*: Quality criteria \(model evaluation metrics\). For example, accuracy or mean absolute error \(MSE\).

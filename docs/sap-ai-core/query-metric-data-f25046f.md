@@ -2,6 +2,8 @@
 
 # Query Metric Data
 
+
+
 You can query metrics by submitting a GET request to the endpoint `/v2/lm/metrics`. To fetch the tracking data, you can use the following parameters:
 
 -   `AI-Resource-Group` \(header\) - string – UUID

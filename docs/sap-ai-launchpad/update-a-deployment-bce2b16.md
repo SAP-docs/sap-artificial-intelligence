@@ -55,5 +55,5 @@ The updated deployment retains the inference URL. If you use a new deployment co
 **Related Information**  
 
 
-[Update a Deployment](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/9789ddda860e4056b12efa892e6e4e1b.html "You can update a deployment with a new configuration while retaining the inference URL.") :arrow_upper_right:
+[Update a Deployment](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/9789ddda860e4056b12efa892e6e4e1b.html "") :arrow_upper_right:
 

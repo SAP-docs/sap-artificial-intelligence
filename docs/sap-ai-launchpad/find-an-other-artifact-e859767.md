@@ -31,7 +31,7 @@ You have the `scenario_artifact_viewer` role, or you are assigned to a role coll
 
 2.  In the *ML Operations* app, choose *Other Artifacts*.
 
-    The *Other Artifacts* screen appears listing all associated artifacts. Each artifact has a unique *ID*.
+    The *Other Artifacts* screen appears listing all associated artifacts. Other artifacts are listed by name, and with additional details such as description, ID, scenario, URL, execution ID, labels, created on timestamp, and changed on timestamp. Each artifact has a unique *ID*.
 
 3.  **Optional:** Search the list by entering an artifact name or part of its description in the :mag: field.
 

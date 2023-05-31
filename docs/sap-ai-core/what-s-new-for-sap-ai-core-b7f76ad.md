@@ -113,6 +113,268 @@ SAP AI Core
 </td>
 <td valign="top">
 
+LLM Package
+
+
+
+</td>
+<td valign="top">
+
+The content package for large language models for SAP AI Core simplifies the deployment of large language models with integrated and automated workflows.
+
+For more information, see [PyPi LLM](https://pypi.org/project/sap-ai-core-llm/).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+General Availability
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+
+
+</td>
+<td valign="top">
+
+2023-05-31
+
+
+
+</td>
+<td valign="top">
+
+2023-05-31
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Dataset API
+
+
+
+</td>
+<td valign="top">
+
+You can upload, download, and delete artifacts using the SAP AI Core Dataset API, when direct access to files in the object store is not possible or desirable. Currently, Postman and curl interfaces are supported. For more information, see [Manage Files Using the Dataset API](manage-files-using-the-dataset-api-ba8ac5c.md#loioba8ac5c1b8644a9a978bd1a3cf870660).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+General Availability
+
+
+
+</td>
+<td valign="top">
+
+New
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+
+
+</td>
+<td valign="top">
+
+2023-04-24
+
+
+
+</td>
+<td valign="top">
+
+2023-05-02
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Metadata in Response to List Executables
+
+
+
+</td>
+<td valign="top">
+
+When you use the endpoint to list executables, the response body now contains metadata about the parameters and artifacts. For parameters, the `description` and `default` values are returned. For artifacts, the `kind`, `description`, and `labels` can be added using annotations. At SAP, we endeavor to make sure that our documentation works for you. If you feel that something is missing or that something doesn't quite hit the mark, you can now provide feedback and suggest changes directly from SAP Help Portal. You can do so in one of two ways:
+
+For more information, see [List Executables When Training a Model](list-executables-80895a4.md), [List Executables When Using a Model](list-executables-6af8e60.md), [Workflow Templates](workflow-templates-83523ab.md), and [Serving Templates](serving-templates-20a8667.md).
+
+
+
+</td>
+<td valign="top">
+
+Info only
+
+
+
+</td>
+<td valign="top">
+
+General Availability
+
+
+
+</td>
+<td valign="top">
+
+Changed
+
+
+
+</td>
+<td valign="top">
+
+Technology
+
+
+
+</td>
+<td valign="top">
+
+Not applicable
+
+
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+
+
+</td>
+<td valign="top">
+
+2023-04-02
+
+
+
+</td>
+<td valign="top">
+
+2023-04-02
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Contribute to Our Documentation
 
 
@@ -120,9 +382,7 @@ Contribute to Our Documentation
 </td>
 <td valign="top">
 
-At SAP, we endeavor to make sure that our documentation works for you. If you feel that something is missing or that something doesn't quite hit the mark, you can now provide feedback and suggest changes directly from SAP Help Portal. You can do so in one of two ways:
-
--   Click *Edit* in the toolbar to open the document in GitHub. There, you can suggest a change and submit a pull request for us to review.
+-   Click *Edit*At SAP, we endeavor to make sure that our documentation works for you. If you feel that something is missing or that in the toolbar to open the document in GitHub. There, you can suggest a change and submit a pull request for us to review.
 
 -   Click *Feedback* in the toolbar to create a GitHub issue and tell us how we can improve the documentation for you.
 
@@ -387,7 +647,7 @@ WebHDFS Artifacts
 </td>
 <td valign="top">
 
-WebHDFS artifacts supported. For more information, see [Register Your Object Store Secret](register-your-object-store-secret-b083d73.md).
+WebHDFS artifacts supported. For more information, see [Register an Object Store Secret](register-an-object-store-secret-b083d73.md).
 
 
 
@@ -817,7 +1077,7 @@ Azure Blob Storage Supported
 </td>
 <td valign="top">
 
-You can now register Azure Blob Storage secrets and use them for Model Serving. For more information, see [Register Your Object Store Secret](register-your-object-store-secret-b083d73.md).
+You can now register Azure Blob Storage secrets and use them for Model Serving. For more information, see [Register an Object Store Secret](register-an-object-store-secret-b083d73.md).
 
 
 
@@ -1425,7 +1685,7 @@ Supported Object Stores
 </td>
 <td valign="top">
 
- SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS, and Hana Data Lake \(HDL\). For more information, [Register Your Object Store Secret](register-your-object-store-secret-b083d73.md)..
+ SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS, and HANA Data Lake \(HDL\). For more information, see [Register an Object Store Secret](register-an-object-store-secret-b083d73.md)..
 
 
 

@@ -33,14 +33,18 @@ The key tasks for the *SAP AI Core Administration* app include:
 
 -   **[Manage Repositories](manage-repositories-a63b907.md "You can maintain a list of Git repositories for use within your AI processes. ")**  
 You can maintain a list of Git repositories for use within your AI processes.
+-   **[Manage Object Store Secrets](manage-object-store-secrets-0377ede.md "You can connect your AI processes with a cloud object store, and manage access using an object store secret.")**  
+You can connect your AI processes with a cloud object store, and manage access using an object store secret.
 -   **[Manage Applications](manage-applications-cf2f1d9.md "You can maintain a list of applications used within your AI processes.")**  
 You can maintain a list of applications used within your AI processes.
 -   **[Manage Docker Registry Secrets](manage-docker-registry-secrets-6fb7cc0.md "You can maintain a list of Docker registry secrets for use within your AI processes. ")**  
 You can maintain a list of Docker registry secrets for use within your AI processes.
 -   **[Manage Resource Groups](manage-resource-groups-7217afb.md "")**  
 
--   **[Manage Object Store Secrets](manage-object-store-secrets-0377ede.md "You can connect your AI processes with a cloud object store, and manage access using an object store secret.")**  
-You can connect your AI processes with a cloud object store, and manage access using an object store secret.
+-   **[Manage Generic Secrets in SAP AI Core](manage-generic-secrets-in-sap-ai-core-678fd23.md " Main Tenant users of theSAP AI Core runtime can create, edit and
+		delete generic secrets at both the main tenant and resource group levels of SAP AI Core, through the SAP AI Core
+                                    Administration app.")**  
+ Main Tenant users of theSAP AI Core runtime can create, edit and delete generic secrets at both the main tenant and resource group levels of SAP AI Core, through the *SAP AI Core Administration* app.
 
 **Related Information**  
 

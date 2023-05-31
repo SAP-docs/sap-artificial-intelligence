@@ -49,5 +49,5 @@ The execution is stopped, and the computing resources acquired for the execution
 **Related Information**  
 
 
-[Stop Training Instances](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/3d853443027449d9a33723165b19b25a.html#loio3d853443027449d9a33723165b19b25a "") :arrow_upper_right:
+[Stop Training Instances](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/3d853443027449d9a33723165b19b25a.html "") :arrow_upper_right:
 

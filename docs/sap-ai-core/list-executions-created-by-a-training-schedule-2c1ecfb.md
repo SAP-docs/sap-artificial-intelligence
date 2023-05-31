@@ -11,8 +11,7 @@
 Get a list of executions created by a training schedule by submitting a GET request:
 
 ```
-curl --location -- request GET “[/pandoc/div/div/horizontalrule/codeblock/span/code
-     {"filepath"}) $AI_API_URL/v2/lm/executionSchedules/$EXECUTION_SCHEDULE (code]” \\
+curl --location -- request GET “$AI_API_URL/v2/lm/executionSchedules/$EXECUTION_SCHEDULE” \\
 --header “Authorization: Bearer $TOKEN” \
 --header “ai-resource-group: $RESOURCE_GROUP”
 ```
@@ -34,7 +33,7 @@ Get a list of executions created by a training schedule by submitting a GET requ
 
 [Create a Training Schedule](create-a-training-schedule-bd409a9.md "")
 
-[Change an Exisitng Training Schedule](change-an-exisitng-training-schedule-18caf4b.md "")
+[Change an Existing Training Schedule](change-an-existing-training-schedule-18caf4b.md "")
 
 [Delete a Training Schedule](delete-a-training-schedule-9dc25e1.md "")
 

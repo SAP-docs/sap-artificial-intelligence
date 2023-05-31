@@ -172,5 +172,5 @@ Learn how to update to the SAP AI Core standard plan, after exploring the produc
 
 [SAP BTP Service Description Guide](https://www.sap.com/about/agreements/policies/cloud-platform.html)
 
-[Choose a Resource Plan](choose-a-resource-plan-57f4f19.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on task demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
+[Choose a Resource Plan](choose-a-resource-plan-57f4f19.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
 
