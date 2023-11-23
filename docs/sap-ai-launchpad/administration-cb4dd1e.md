@@ -16,7 +16,7 @@ You'll find the *SAP AI Core Administration* app in SAP AI Launchpad in the left
 
 After selecting a connection in *Workspaces* app, the *SAP AI Core Administration* app is active. You can then manage Git repositories, applications, and Docker registry secrets which are connected to your underlying SAP AI Core runtime.
 
- ![Overview of the AI Core Administration app.](images/Image_AIL_admin_app_e4320bb.png)
+![Overview of the AI Core Administration app.](images/Image_AIL_admin_app_e4320bb.png)
 
 
 

@@ -44,7 +44,7 @@ Deployments can have any of the following statuses:
 
 The following figure shows how deployment statuses change following the initial status of *Pending*:
 
-   
+  
   
 **Deployment Status Flow**
 

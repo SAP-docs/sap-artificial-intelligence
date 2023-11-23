@@ -8,15 +8,17 @@ As a system administrator, you can add Docker registry secrets for use within yo
 
 
 
-<a name="loiod346abdf6dfd48239e7503464ad38c27__prereq_jxh_cq2_rob"/>
+<a name="loiod346abdf6dfd48239e7503464ad38c27__prereq_g1f_qgx_rxb"/>
 
 ## Prerequisites
 
-You have the `aicore_admin_dockerregistrysecret_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have the `aicore_admin_dockerregistrysecret_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
 You have access to the Docker registry over the Internet.
 
 
+
+<a name="loiod346abdf6dfd48239e7503464ad38c27__context_cjl_qgx_rxb"/>
 
 ## Context
 
@@ -24,7 +26,7 @@ You can use the *SAP AI Core Administration* app to add multiple secrets. The Do
 
 
 
-<a name="loiod346abdf6dfd48239e7503464ad38c27__steps_pwc_fmq_yes"/>
+<a name="loiod346abdf6dfd48239e7503464ad38c27__steps_nmq_qgx_rxb"/>
 
 ## Procedure
 
@@ -38,7 +40,7 @@ You can use the *SAP AI Core Administration* app to add multiple secrets. The Do
 
 4.  Complete the fields in the *Add a Docker Registry Secret* dialog box as follows:
 
-    1.  Enter a name for the secret.
+    1.  Enter a name for the secret. This is your choice of identifier for your secret.
 
         Secret names must comply with the following criteria:
 
@@ -67,7 +69,7 @@ You can use the *SAP AI Core Administration* app to add multiple secrets. The Do
 
 
 
-<a name="loiod346abdf6dfd48239e7503464ad38c27__result_yup_yr4_gsb"/>
+<a name="loiod346abdf6dfd48239e7503464ad38c27__result_plw_qgx_rxb"/>
 
 ## Results
 

@@ -39,14 +39,10 @@ Please use the following component\(s\) for your incident:
 
 Component Name
 
-
-
 </th>
 <th valign="top">
 
 Component Description
-
-
 
 </th>
 </tr>
@@ -55,14 +51,10 @@ Component Description
 
 `CA-ML-AILP`
 
-
-
 </td>
 <td valign="top">
 
 AI Launchpad
-
-
 
 </td>
 </tr>

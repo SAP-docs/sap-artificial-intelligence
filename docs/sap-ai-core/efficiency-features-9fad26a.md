@@ -72,6 +72,8 @@ The minumum number of reserved nodes is 0.
 
 
 
+
+
 ### Reserve Nodes Using Postman
 
 1.  Send a PATCH request to the endpoint`{{apiurl}}/v2/admin/resources/nodes`
@@ -120,7 +122,6 @@ curl --request PATCH $AI_API_URL/v2/admin/resources/nodes \
             "name": "train.l",
             "request": 1
         }
-        ...
     ]
 }'
 
@@ -128,6 +129,8 @@ curl --request PATCH $AI_API_URL/v2/admin/resources/nodes \
 
 > ### Remember:  
 > All reserved nodes are charged at the same rate as nodes used during model training and serving.
+
+
 
 
 
@@ -146,27 +149,20 @@ curl --request GET $AI_API_URL/v2/resources/nodes
 > ### Output Code:  
 > ```
 > {
->     "resourcePlans": [
->         {
->             "infer.l": {
->                 "provisioned": 1,
->                 "requested": 1
->             }
+>     "resourcePlans": {
+>         "infer.l": {
+>             "provisioned": 1,
+>             "requested": 1
 >         },
->         {
->             "infer.m": {
->                 "provisioned": 1,
->                 "requested": 1
->             }
+>         "infer.m": {
+>             "provisioned": 1,
+>             "requested": 1
 >         },
->         {
->             "train.l": {
->                 "provisioned": 1,
->                 "requested": 1
->             }
+>         "train.l": {
+>             "provisioned": 1,
+>             "requested": 1
 >         }
->         ...
->     ]
+>     }
 > }
 > ```
 
@@ -185,12 +181,12 @@ To update the number of nodes reserved, repeat the reservation procedure, with u
 
 To delete reserved nodes, repeat the reservation procedure, with quantities in the `request` field set to *0*.
 
-**Parent topic:** [Use Your Model](use-your-model-7f93e8f.md "You deploy your AI learning model to run inferences against it.")
+**Parent topic:**[Use Your Model](use-your-model-7f93e8f.md "You deploy your AI learning model to run inferences against it.")
 
 **Related Information**  
 
 
-[Choose a Resource Plan](choose-a-resource-plan-8deca74.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
+[Choose a Resource Plan](choose-a-resource-plan-abd672f.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
 
 [Serving Templates](serving-templates-20a8667.md "You use serving templates to manage your serving instances at the level of the main tenant. Serving templates define how a model is to be deployed.")
 
@@ -206,7 +202,7 @@ To delete reserved nodes, repeat the reservation procedure, with quantities in t
 
 [Delete Deployments](delete-deployments-0193d17.md " ")
 
-[Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md "Information about API processing and metrics, are stored and accessed in the deployment and execution logs.")
+[Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md "accessed in the deployment and execution logs.")
 
 [Service Plans](service-plans-c7244c6.md "The SAP AI Core service plan you choose determines pricing, conditions of use, resources, available services, and hosts.")
 

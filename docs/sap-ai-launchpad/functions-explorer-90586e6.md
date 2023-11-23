@@ -33,7 +33,7 @@ A run is a training process that generates a model or models. A run is an instan
 -   **[Deployments](deployments-585b091.md "You use deployments to make online predictions.")**  
 You use deployments to make online predictions.
 
- <a name="reference_l1x_ytp_prb"/>
+<a name="reference_l1x_ytp_prb"/>
 
 <!-- reference\_l1x\_ytp\_prb -->
 
@@ -43,7 +43,7 @@ You use deployments to make online predictions.
 
 The *Functions Explorer* app has a number of standard role collections which group commonly required roles. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md). You can also create your own role collections and assign roles to them based on your organizational requirements.
 
- <a name="task_p2t_ftp_prb"/>
+<a name="task_p2t_ftp_prb"/>
 
 <!-- task\_p2t\_ftp\_prb -->
 

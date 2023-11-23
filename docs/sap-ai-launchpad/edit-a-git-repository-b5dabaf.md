@@ -10,7 +10,7 @@ As a system administrator, you can edit Git repositories which are used within y
 
 ## Prerequisites
 
-You have the `aicore_admin_repositories_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have the `aicore_admin_repositories_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
 You have access to the Git repository over the Internet.
 
@@ -23,7 +23,7 @@ You have access to the Git repository over the Internet.
 You change details for a Git repository if, for example, the name you have defined is not unique or its authentication details have changed.
 
 > ### Note:  
-> You cannot change the URL for the Git repository. If the URL is no longer valid or contains errors, you'll need to remove the Git repository and re-create it with the correct reference details. See [Remove a Git Repository](remove-a-git-repository-0701138.md).
+> You cannot change the URL for the Git repository. If the URL is no longer valid or contains errors, you'll need to remove the Git repository and re-create it with the correct reference details. See [Remove a Git Repository](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/remove-git-repository).
 
 
 

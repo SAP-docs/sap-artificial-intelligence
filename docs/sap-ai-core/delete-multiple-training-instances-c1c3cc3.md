@@ -101,23 +101,10 @@ Update the request body to:
 
 > ### Output Code:  
 > ```
-> {
->   "executions": [
->     {
->       "id": "aa97b177-9383-4934-8543-0f91a7a0283a",
->       "message": "Deployment modification scheduled"
->     },
->     {
-> 
->       "id": "qweq32131-qwee-1231-8543-0f91a7a2e2e",
->       "message": "Deployment modification scheduled"
->     }
->   ]
-> }
 > 
 > ```
 
-**Parent topic:** [Delete Training Instances](delete-training-instances-612ce17.md "")
+**Parent topic:**[Delete Training Instances](delete-training-instances-612ce17.md "")
 
 **Related Information**  
 

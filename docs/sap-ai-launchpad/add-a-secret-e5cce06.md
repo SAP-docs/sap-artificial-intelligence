@@ -6,16 +6,16 @@
 
 
 
-<a name="loioe5cce06c8662434abaee27e77b748259__prereq_jxh_cq2_fob"/>
+<a name="loioe5cce06c8662434abaee27e77b748259__prereq_bsm_2mx_rxb"/>
 
 ## Prerequisites
 
--   You have the `aicore_admin_genericsecret_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+-   You have the `aicore_admin_genericsecret_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 -   You are using the SAP AI Core runtime.
 
 
 
-<a name="loioe5cce06c8662434abaee27e77b748259__context_hx4_j3b_pwb"/>
+<a name="loioe5cce06c8662434abaee27e77b748259__context_k5q_fmx_rxb"/>
 
 ## Context
 
@@ -23,7 +23,7 @@ You can use the *SAP AI Core Administration* app to add generic secrets.
 
 
 
-<a name="loioe5cce06c8662434abaee27e77b748259__steps_ply_fmq_yes"/>
+<a name="loioe5cce06c8662434abaee27e77b748259__steps_qcc_gmx_rxb"/>
 
 ## Procedure
 
@@ -70,7 +70,7 @@ You can use the *SAP AI Core Administration* app to add generic secrets.
 
 
 
-<a name="loioe5cce06c8662434abaee27e77b748259__result_ybj_xql_w5b"/>
+<a name="loioe5cce06c8662434abaee27e77b748259__result_s1w_gmx_rxb"/>
 
 ## Results
 

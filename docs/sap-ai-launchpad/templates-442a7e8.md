@@ -25,7 +25,7 @@ To use a template, you must create its instance \(either a run or a deployment\)
 > Templates are re-usable. The same template can be used for either training or deploying a model.
 
 > ### Example:  
-> Consider a scenario, such as a product review classification \(involving positive or negative reviews\). The run template ***Product\_Review\_Training*** has placeholders, as follows:
+> Consider a scenario, such as a product review classification \(involving positive or negative reviews\). The run template `Product_Review_Training` has placeholders, as follows:
 > 
 > Input parameters:
 > 

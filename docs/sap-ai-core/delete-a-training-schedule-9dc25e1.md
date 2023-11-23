@@ -30,7 +30,7 @@ Send a DELETE request to the endpoint `{{apiurl}}/v2/lm/executionSchedules/{{exe
 
 ![](images/delete_1de7882.png)
 
-**Parent topic:** [Training Schedules](training-schedules-2b702f8.md "")
+**Parent topic:**[Training Schedules](training-schedules-2b702f8.md "")
 
 **Related Information**  
 

@@ -6,13 +6,13 @@ Any artifact that cannot be categorized as a dataset, model, or result set is re
 
 An artifact is a reference to a file stored in hyperscaler object storage.
 
- SAP AI Launchpad can be used with multiple hyperscaler object stores, such as Amazon S3, OSS, and WebHDFS.
+SAP AI Launchpad can be used with multiple hyperscaler object stores, such as Amazon S3, OSS, and WebHDFS.
 
 Artifacts are unique to a resource group.
 
 **About Other Artifacts Registration**
 
- 
+
 
 -   An artifact can be manually registered using SAP AI Launchpad \(see [Register an Other Artifact](register-an-other-artifact-c02fca9.md)\). You register an artifact using the *ML Operations* app. After you register an artifact, you'll see it listed with all other artifacts in the app.
 

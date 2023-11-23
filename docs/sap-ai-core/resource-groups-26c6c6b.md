@@ -2,13 +2,13 @@
 
 # Resource Groups
 
- SAP AI Core tenants use resource groups to isolate related ML resources and workloads. Scenarios, executables, and Docker registry secrets are shared across all resource groups.
+SAP AI Core tenants use resource groups to isolate related ML resources and workloads. Scenarios, executables, and Docker registry secrets are shared across all resource groups.
 
 Resource groups represent a virtual collection of related resources within the scope of one SAP AI Core tenant. When your tenant is onboarded, a default resource group is created immediately. Further resource groups can be created, or deleted by your tenant administrator with the AI API. Tenants can map the resource groups based on the corresponding usage scenarios.
 
 If your SAP AI Core tenant uses resource groups to isolate the scenario consumer tenant and the resource groups are subsequently deleted, the scenario consumers will be deprovisioned. SAP AI Core is not aware of the scenario consumer of the tenant. The standard XUSAA multitenancy model is followed.
 
-**Parent topic:** [Concepts](concepts-4c6b2da.md "In this section, we'll explore some of the concepts surrounding SAP AI Core.")
+**Parent topic:**[Concepts](concepts-4c6b2da.md "In this section, we'll explore some of the concepts surrounding SAP AI Core.")
 
 **Related Information**  
 
@@ -19,7 +19,7 @@ If your SAP AI Core tenant uses resource groups to isolate the scenario consumer
 
 [Terminology](terminology-05f41ee.md "")
 
- <a name="loioc9518c0d0ec44e2e9f767089028ff48c"/>
+<a name="loioc9518c0d0ec44e2e9f767089028ff48c"/>
 
 <!-- loioc9518c0d0ec44e2e9f767089028ff48c -->
 
@@ -27,7 +27,7 @@ If your SAP AI Core tenant uses resource groups to isolate the scenario consumer
 
 Resources that are available for tenants and resource groups differ based on the available scope.
 
-![](images/Multitenancy_Resource_Scope_b15f28a.png) 
+![](images/Multitenancy_Resource_Scope_b15f28a.png)
 
 
 
@@ -56,7 +56,7 @@ User authentication and authorization is based on the SAP AI Core tenant. The te
 
 Executables at tenant level are shared across all of the resource groups. At resource group level, the object store is registered by setting the resource group header.
 
- SAP AI Core tenants must consider security aspects in the design of AI functions.
+SAP AI Core tenants must consider security aspects in the design of AI functions.
 
 > ### Recommendation:  
 > Do not use the same object store bucket with the same AWS IAM user for multiple resource groups.

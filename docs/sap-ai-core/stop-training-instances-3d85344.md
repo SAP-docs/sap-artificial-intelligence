@@ -12,7 +12,7 @@ You can stop a running execution by submitting a PATCH request to `$AI_API_URL/v
 -   **[Stop Multiple Training Instances](stop-multiple-training-instances-09b4810.md "")**  
 
 
-**Parent topic:** [Train Your Model](train-your-model-a9ceb06.md "You execute a training workflow to train your AI learning model.")
+**Parent topic:**[Train Your Model](train-your-model-a9ceb06.md "You execute a training workflow to train your AI learning model.")
 
 **Related Information**  
 
@@ -29,13 +29,15 @@ You can stop a running execution by submitting a PATCH request to `$AI_API_URL/v
 
 [List Configurations](list-configurations-8074b2a.md "")
 
+[Using Artifact Signatures](using-artifact-signatures-2f02a1d.md "Artifact signatures in the form of a hash can be added to output artifacts from executions.")
+
 [Start Training](start-training-54b44e4.md "")
 
 [Delete Training Instances](delete-training-instances-612ce17.md "")
 
 [Efficiency Features](efficiency-features-4cb76f7.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
 
-[Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "Information about API processing and metrics, are stored and accessed in the deployment and execution logs.")
+[Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "accessed in the deployment and execution logs.")
 
 [Training Schedules](training-schedules-2b702f8.md "")
 

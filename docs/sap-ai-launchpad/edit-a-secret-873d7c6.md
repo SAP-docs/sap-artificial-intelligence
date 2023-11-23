@@ -8,28 +8,28 @@ As a system administrator, you can edit Docker registry secrets used within your
 
 
 
-<a name="loio873d7c6a1fe8429592b2b2efe74227b2__prereq_jxh_cq2_rob"/>
+<a name="loio873d7c6a1fe8429592b2b2efe74227b2__prereq_jt1_tgx_rxb"/>
 
 ## Prerequisites
 
-You have the `aicore_admin_dockerregistrysecret_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have the `aicore_admin_dockerregistrysecret_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
 You have access to the Docker registry over the Internet.
 
 
 
-<a name="loio873d7c6a1fe8429592b2b2efe74227b2__context_kcb_pxq_ysb"/>
+<a name="loio873d7c6a1fe8429592b2b2efe74227b2__context_b1h_tgx_rxb"/>
 
 ## Context
 
 You edit a secret when its credentials \(user name and access token\) change.
 
 > ### Note:  
-> You cannot change the name for a secret. If the name is no longer valid or contains errors, you'll need to remove the secret and re-create it with the correct details. See [Remove a Secret](remove-a-secret-5161312.md).
+> You cannot change the name for a secret. If the name is no longer valid or contains errors, you'll need to remove the secret and re-create it with the correct details. See [Remove a Secret](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/5161312a87b34805868b00404e7640d4.html).
 
 
 
-<a name="loio873d7c6a1fe8429592b2b2efe74227b2__steps_pwc_fmq_yes"/>
+<a name="loio873d7c6a1fe8429592b2b2efe74227b2__steps_kcm_tgx_rxb"/>
 
 ## Procedure
 
@@ -60,7 +60,7 @@ You edit a secret when its credentials \(user name and access token\) change.
 
 
 
-<a name="loio873d7c6a1fe8429592b2b2efe74227b2__result_upp_yr4_xsb"/>
+<a name="loio873d7c6a1fe8429592b2b2efe74227b2__result_bjs_tgx_rxb"/>
 
 ## Results
 

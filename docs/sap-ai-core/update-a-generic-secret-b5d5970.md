@@ -24,12 +24,12 @@ To update a generic secret, use the PATCH endpoint as shown below. The PATCH ope
     > ```
 
 3.  Specify the scope of the request via the header `AI-Tenant-Scope` and specify the scope via the or `AI-Resource-Group`:
-    -   ***AI-Tenant-Scope*** : ***true***. The operation will be performed at the main tenant level.
-    -   ***AI-Resource-Group*** : ****<resource-group-name\>****. The operation will be performed at the resource-group level.
+    -   `AI-Tenant-Scope` : `true`. The operation will be performed at the main tenant level.
+    -   `AI-Resource-Group` : <code><i class="varname">&lt;resource-group-name&gt;</i></code>. The operation will be performed at the resource-group level.
 
 4.  Send the request.
 
- ![](images/Update_Generic_Secrets_in_Postman_414a8c7.png)
+![](images/Update_Generic_Secrets_in_Postman_414a8c7.png)
 
 
 

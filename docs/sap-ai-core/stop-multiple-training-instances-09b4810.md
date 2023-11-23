@@ -117,7 +117,7 @@ curl --request PATCH  - /executions \
 > 
 > ```
 
-**Parent topic:** [Stop Training Instances](stop-training-instances-3d85344.md "")
+**Parent topic:**[Stop Training Instances](stop-training-instances-3d85344.md "")
 
 **Related Information**  
 

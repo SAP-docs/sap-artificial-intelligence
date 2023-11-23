@@ -36,7 +36,7 @@ Send a DELETE request to `{{apiurl}}/v2/lm/executions/{{executionid}}`. The head
 
 ![](images/Deleting_an_Execution_with_Postman_0a61fa8.png)
 
-**Parent topic:** [Delete Training Instances](delete-training-instances-612ce17.md "")
+**Parent topic:**[Delete Training Instances](delete-training-instances-612ce17.md "")
 
 **Related Information**  
 

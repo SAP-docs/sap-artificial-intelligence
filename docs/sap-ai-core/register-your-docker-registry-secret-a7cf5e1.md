@@ -6,6 +6,14 @@ Docker packages and runs applications in remote containers. Connect SAP AI Core 
 
 
 
+<a name="loioa7cf5e1496eb4ea8beca79671f49ff66__section_t3r_qmc_gyb"/>
+
+## Prerequisites
+
+You have completed the Initial Setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
+
+
+
 <a name="loioa7cf5e1496eb4ea8beca79671f49ff66__section_jnm_xnf_mvb"/>
 
 ## Context
@@ -32,12 +40,12 @@ Your Docker registry secret lets you authorize SAP AI Core to pull your **privat
     }
     ```
 
-    -   `name`: Set the name of your Docker registry secret.
+    -   `name`: Set the name of your Docker registry secret. This is your choice of identifier for your secret. In the example, the name is `"mydockerregistry"`.
     -   `data`: Enter a JSON string that represents your Docker registry secret.
 
 3.  Send the request:
 
-     ![](images/Register_Docker_Registry_Secret_with_Postman_7eccfad.png) 
+    ![](images/Register_Docker_Registry_Secret_with_Postman_7eccfad.png)
 
 4.  After your Docker registry secret has been created, reference it in your template as an image pull secret.
 

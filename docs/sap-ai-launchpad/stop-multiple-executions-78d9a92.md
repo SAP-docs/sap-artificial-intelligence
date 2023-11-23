@@ -25,9 +25,11 @@ You have the `mloperations_editor` or `scenario_execution_editor` role, or you a
 
 
 
+<a name="loio78d9a92e88154b4fa0a8c2a2fc06bb81__steps_nb4_lm3_wxb"/>
+
 ## Procedure
 
-1.  Choose a resource group. For more information, see [Set Resource Group](set-resource-group-0c07728.md#loio0c077289f29d4147921fb07ab0f68b7f).
+1.  Choose a resource group. For more information, see [Set Resource Group](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/0c077289f29d4147921fb07ab0f68b7f.html).
 
 2.  In the *ML Operations* app, choose *Executions*.
 
@@ -40,7 +42,7 @@ You have the `mloperations_editor` or `scenario_execution_editor` role, or you a
 
 
 
-<a name="loio78d9a92e88154b4fa0a8c2a2fc06bb81__result_rsd_sc4_4wb"/>
+<a name="loio78d9a92e88154b4fa0a8c2a2fc06bb81__result_qqs_mm3_wxb"/>
 
 ## Results
 

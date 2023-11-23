@@ -60,7 +60,7 @@
 
 <a name="loio5ccde4d02118436c9facf4208ae0633e__section_bcq_yqk_vsb"/>
 
-## ***GET*** execution has the status UNKNOWN for a long time
+## `GET` execution has the status UNKNOWN for a long time
 
 
 
@@ -83,7 +83,7 @@
 2.  To identify errors automatically in your templates, use the Argo linter.
 3.  Check that you have created Docker folders, to store artifacts that will be created during an execution.
 
-**Parent topic:** [Troubleshooting](troubleshooting-3da90ba.md "For troubleshooting information, see the following sections:")
+**Parent topic:**[Troubleshooting](troubleshooting-3da90ba.md "For troubleshooting information, see the following sections:")
 
 **Related Information**  
 

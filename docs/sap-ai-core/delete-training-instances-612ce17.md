@@ -12,7 +12,7 @@ Deleting a training instance releases the SAP AI Core resources that it used.
 -   **[Delete Multiple Training Instances](delete-multiple-training-instances-c1c3cc3.md "")**  
 
 
-**Parent topic:** [Train Your Model](train-your-model-a9ceb06.md "You execute a training workflow to train your AI learning model.")
+**Parent topic:**[Train Your Model](train-your-model-a9ceb06.md "You execute a training workflow to train your AI learning model.")
 
 **Related Information**  
 
@@ -29,13 +29,15 @@ Deleting a training instance releases the SAP AI Core resources that it used.
 
 [List Configurations](list-configurations-8074b2a.md "")
 
+[Using Artifact Signatures](using-artifact-signatures-2f02a1d.md "Artifact signatures in the form of a hash can be added to output artifacts from executions.")
+
 [Start Training](start-training-54b44e4.md "")
 
 [Stop Training Instances](stop-training-instances-3d85344.md "")
 
 [Efficiency Features](efficiency-features-4cb76f7.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
 
-[Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "Information about API processing and metrics, are stored and accessed in the deployment and execution logs.")
+[Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "accessed in the deployment and execution logs.")
 
 [Training Schedules](training-schedules-2b702f8.md "")
 

@@ -82,7 +82,7 @@ When you try to create a configuration, you are told that an executable cannot b
     ```
 
 
-**Parent topic:** [Troubleshooting](troubleshooting-3da90ba.md "For troubleshooting information, see the following sections:")
+**Parent topic:**[Troubleshooting](troubleshooting-3da90ba.md "For troubleshooting information, see the following sections:")
 
 **Related Information**  
 

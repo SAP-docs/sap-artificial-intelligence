@@ -17,51 +17,37 @@ SAP AI Launchpad provides standard or default role collections. The default role
 
 Relevance
 
-
-
 </th>
 <th valign="top">
 
 Default Role Collection
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Includes Roles
-
-
 
 </th>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
 
- `ailaunchpad_connections_editor` 
-
-
+`ailaunchpad_connections_editor` 
 
 </td>
 <td valign="top">
 
 Provides roles to view, create, edit, and delete connections to your AI runtime \(for example, SAP AI Core\)
-
-
 
 </td>
 <td valign="top">
@@ -70,60 +56,44 @@ Provides roles to view, create, edit, and delete connections to your AI runtime 
 
 `connections_editor`
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
 
- `ailaunchpad_allow_all_resourcegroups` 
-
-
+`ailaunchpad_allow_all_resourcegroups` 
 
 </td>
 <td valign="top">
 
 Provides access to all resource groups
 
-
-
 </td>
 <td valign="top">
 
- `allow_all_resourcegroups` 
-
-
+`allow_all_resourcegroups` 
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- *ML Operations* app
-
-
+*ML Operations* app
 
 </td>
 <td valign="top">
 
- `ailaunchpad_mloperations_viewer` 
-
-
+`ailaunchpad_mloperations_viewer` 
 
 </td>
 <td valign="top">
 
 Provides roles to view all contents of scenarios and resource groups
-
-
 
 </td>
 <td valign="top">
@@ -132,30 +102,22 @@ Provides roles to view all contents of scenarios and resource groups
 
 `mloperations_viewer`
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- *ML Operations* app
-
-
+*ML Operations* app
 
 </td>
 <td valign="top">
 
- `ailaunchpad_mloperations_editor` 
-
-
+`ailaunchpad_mloperations_editor` 
 
 </td>
 <td valign="top">
 
 Provides roles to view all contents of scenarios, and to view and edit contents of resource groups
-
-
 
 </td>
 <td valign="top">
@@ -166,37 +128,27 @@ Provides roles to view all contents of scenarios, and to view and edit contents 
 
 `artifact.register`
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 *SAP AI Core Administration* app
-
-
 
 </td>
 <td valign="top">
 
 `ailaunchpad_aicore_admin_viewer`
 
-
-
 </td>
 <td valign="top">
 
 Provides roles to view authentications required for AI workflows involving SAP AI Core \(AI runtime\)
 
-
-
 </td>
 <td valign="top">
 
- `aicore_admin_viewer_all` 
-
-
+`aicore_admin_viewer_all` 
 
 </td>
 </tr>
@@ -205,51 +157,37 @@ Provides roles to view authentications required for AI workflows involving SAP A
 
 *SAP AI Core Administration* app
 
-
-
 </td>
 <td valign="top">
 
 `ailaunchpad_aicore_admin_editor`
-
-
 
 </td>
 <td valign="top">
 
 Provides roles to edit authentications required for AI workflows involving SAP AI Core \(AI runtime\)
 
-
-
 </td>
 <td valign="top">
 
- `aicore_admin_editor_all` 
-
-
+`aicore_admin_editor_all` 
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- *Functions Explorer* app
-
-
+*Functions Explorer* app
 
 </td>
 <td valign="top">
 
- `ailaunchpad_functions_explorer_viewer_v2` 
-
-
+`ailaunchpad_functions_explorer_viewer_v2` 
 
 </td>
 <td valign="top">
 
 Provides roles to view scenarios and all ML resources of a scenario
-
-
 
 </td>
 <td valign="top">
@@ -274,30 +212,22 @@ Provides roles to view scenarios and all ML resources of a scenario
 
 `scenario_metric_viewer`
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- *Functions Explorer* 
-
-
+*Functions Explorer* 
 
 </td>
 <td valign="top">
 
- `ailaunchpad_functions_explorer_editor_v2` 
-
-
+`ailaunchpad_functions_explorer_editor_v2` 
 
 </td>
 <td valign="top">
 
 Edit scenarios and all ML resources of a scenario
-
-
 
 </td>
 <td valign="top">
@@ -321,8 +251,6 @@ Edit scenarios and all ML resources of a scenario
 `scenario_job_editor`
 
 `scenario_artifact_editor`
-
-
 
 </td>
 </tr>
@@ -341,14 +269,10 @@ If you want to create your own role collections, you can assign roles to them ba
 
 Role
 
-
-
 </th>
 <th valign="top">
 
 Allows Users To
-
-
 
 </th>
 </tr>
@@ -357,14 +281,10 @@ Allows Users To
 
 `allow_connections`
 
-
-
 </td>
 <td valign="top">
 
 Manage custom access to runtime connections in SAP AI Launchpad
-
-
 
 </td>
 </tr>
@@ -373,14 +293,10 @@ Manage custom access to runtime connections in SAP AI Launchpad
 
 `connections_viewer`
 
-
-
 </td>
 <td valign="top">
 
 View runtime connections in SAP AI Launchpad
-
-
 
 </td>
 </tr>
@@ -389,14 +305,10 @@ View runtime connections in SAP AI Launchpad
 
 `connections_editor`
 
-
-
 </td>
 <td valign="top">
 
 Edit runtime connections in SAP AI Launchpad
-
-
 
 </td>
 </tr>
@@ -405,14 +317,10 @@ Edit runtime connections in SAP AI Launchpad
 
 `viewer`
 
-
-
 </td>
 <td valign="top">
 
 Access SAP AI Launchpad \(default role for all users\)
-
-
 
 </td>
 </tr>
@@ -421,14 +329,10 @@ Access SAP AI Launchpad \(default role for all users\)
 
 `aicore_admin_repositories_viewer`
 
-
-
 </td>
 <td valign="top">
 
 View Git repositories in the *SAP AI Core Administration* app
-
-
 
 </td>
 </tr>
@@ -437,14 +341,10 @@ View Git repositories in the *SAP AI Core Administration* app
 
 `aicore_admin_repositories_editor`
 
-
-
 </td>
 <td valign="top">
 
 Add, edit, or remove Git repositories in the *SAP AI Core Administration* app
-
-
 
 </td>
 </tr>
@@ -453,14 +353,10 @@ Add, edit, or remove Git repositories in the *SAP AI Core Administration* app
 
 `aicore_admin_applications_viewer`
 
-
-
 </td>
 <td valign="top">
 
 View applications in the *SAP AI Core Administration* app
-
-
 
 </td>
 </tr>
@@ -469,14 +365,10 @@ View applications in the *SAP AI Core Administration* app
 
 `aicore_admin_applications_editor`
 
-
-
 </td>
 <td valign="top">
 
 Create, edit, or delete applications in the *SAP AI Core Administration* app
-
-
 
 </td>
 </tr>
@@ -485,14 +377,10 @@ Create, edit, or delete applications in the *SAP AI Core Administration* app
 
 `aicore_admin_dockerregistrysecret_viewer`
 
-
-
 </td>
 <td valign="top">
 
 View Docker registry secrets in the *SAP AI Core Administration* app
-
-
 
 </td>
 </tr>
@@ -501,14 +389,10 @@ View Docker registry secrets in the *SAP AI Core Administration* app
 
 `aicore_admin_dockerregistrysecret_editor`
 
-
-
 </td>
 <td valign="top">
 
 Add, edit, or remove Docker registry secrets in the *SAP AI Core Administration* app
-
-
 
 </td>
 </tr>
@@ -517,14 +401,10 @@ Add, edit, or remove Docker registry secrets in the *SAP AI Core Administration*
 
 `aicore_admin_resourcegroup_viewer`
 
-
-
 </td>
 <td valign="top">
 
 View resource groups in the *SAP AI Core Administration* app
-
-
 
 </td>
 </tr>
@@ -533,14 +413,10 @@ View resource groups in the *SAP AI Core Administration* app
 
 `aicore_admin_resourcegroup_editor`
 
-
-
 </td>
 <td valign="top">
 
 Create, edit, or delete resource groups in the *SAP AI Core Administration* app
-
-
 
 </td>
 </tr>
@@ -549,14 +425,10 @@ Create, edit, or delete resource groups in the *SAP AI Core Administration* app
 
 `aicore_admin_objectstoresecret_viewer`
 
-
-
 </td>
 <td valign="top">
 
 View object store secrets in the *SAP AI Core Administration* app
-
-
 
 </td>
 </tr>
@@ -565,14 +437,10 @@ View object store secrets in the *SAP AI Core Administration* app
 
 `aicore_admin_objectstoresecret_editor`
 
-
-
 </td>
 <td valign="top">
 
 Add, edit, or remove object store secrets in the *SAP AI Core Administration* app
-
-
 
 </td>
 </tr>
@@ -581,14 +449,10 @@ Add, edit, or remove object store secrets in the *SAP AI Core Administration* ap
 
 `scenario_metadata_viewer`
 
-
-
 </td>
 <td valign="top">
 
 View scenarios and scenario versions
-
-
 
 </td>
 </tr>
@@ -597,14 +461,10 @@ View scenarios and scenario versions
 
 `scenario_executable_viewer`
 
-
-
 </td>
 <td valign="top">
 
 View executables of a scenario
-
-
 
 </td>
 </tr>
@@ -613,14 +473,10 @@ View executables of a scenario
 
 `scenario_configuration_viewer`
 
-
-
 </td>
 <td valign="top">
 
 View configurations of a scenario
-
-
 
 </td>
 </tr>
@@ -629,14 +485,10 @@ View configurations of a scenario
 
 `scenario_configuration_editor`
 
-
-
 </td>
 <td valign="top">
 
 Edit configurations of a scenario
-
-
 
 </td>
 </tr>
@@ -645,14 +497,10 @@ Edit configurations of a scenario
 
 `scenario_deployment_viewer`
 
-
-
 </td>
 <td valign="top">
 
 View deployments of a scenario
-
-
 
 </td>
 </tr>
@@ -661,14 +509,10 @@ View deployments of a scenario
 
 `scenario_deployment_editor`
 
-
-
 </td>
 <td valign="top">
 
 Edit deployments of a scenario
-
-
 
 </td>
 </tr>
@@ -677,14 +521,10 @@ Edit deployments of a scenario
 
 `scenario_deployment_predictor`
 
-
-
 </td>
 <td valign="top">
 
 Invoke deployments of a scenario
-
-
 
 </td>
 </tr>
@@ -693,14 +533,10 @@ Invoke deployments of a scenario
 
 `scenario_execution_viewer`
 
-
-
 </td>
 <td valign="top">
 
 View executions of a scenario
-
-
 
 </td>
 </tr>
@@ -709,14 +545,10 @@ View executions of a scenario
 
 `scenario_execution_editor`
 
-
-
 </td>
 <td valign="top">
 
 Edit executions of a scenario
-
-
 
 </td>
 </tr>
@@ -725,14 +557,10 @@ Edit executions of a scenario
 
 `scenario_artifact_viewer`
 
-
-
 </td>
 <td valign="top">
 
 View artifacts of a scenario
-
-
 
 </td>
 </tr>
@@ -741,14 +569,10 @@ View artifacts of a scenario
 
 `scenario_artifact_editor`
 
-
-
 </td>
 <td valign="top">
 
 Edit artifacts of a scenario
-
-
 
 </td>
 </tr>
@@ -757,14 +581,10 @@ Edit artifacts of a scenario
 
 `scenario_metric_viewer`
 
-
-
 </td>
 <td valign="top">
 
 View tracking metrics of an execution
-
-
 
 </td>
 </tr>
@@ -773,14 +593,10 @@ View tracking metrics of an execution
 
 `resourcegroup_viewer`
 
-
-
 </td>
 <td valign="top">
 
 View resource groups
-
-
 
 </td>
 </tr>
@@ -789,14 +605,10 @@ View resource groups
 
 `allow_all_resourcegroups`
 
-
-
 </td>
 <td valign="top">
 
 Template for allowing access to all resource groups for a connection
-
-
 
 </td>
 </tr>
@@ -805,14 +617,10 @@ Template for allowing access to all resource groups for a connection
 
 `functions_explorer`
 
-
-
 </td>
 <td valign="top">
 
 Template for viewing functions explorer for SAP AI Launchpad
-
-
 
 </td>
 </tr>
@@ -821,14 +629,10 @@ Template for viewing functions explorer for SAP AI Launchpad
 
 `operations_manager`
 
-
-
 </td>
 <td valign="top">
 
 Template for viewing operations manager for SAP AI Launchpad
-
-
 
 </td>
 </tr>
@@ -837,14 +641,10 @@ Template for viewing operations manager for SAP AI Launchpad
 
 `scenario_job_viewer`
 
-
-
 </td>
 <td valign="top">
 
 View jobs of a scenario
-
-
 
 </td>
 </tr>
@@ -853,14 +653,10 @@ View jobs of a scenario
 
 `scenario_job_editor`
 
-
-
 </td>
 <td valign="top">
 
 Edit jobs of a scenario
-
-
 
 </td>
 </tr>
@@ -869,14 +665,10 @@ Edit jobs of a scenario
 
 `mloperations_viewer`
 
-
-
 </td>
 <td valign="top">
 
 Viewer role for *ML Operations* app
-
-
 
 </td>
 </tr>
@@ -885,14 +677,10 @@ Viewer role for *ML Operations* app
 
 `mloperations_editor`
 
-
-
 </td>
 <td valign="top">
 
 Editor role for *ML Operations* app
-
-
 
 </td>
 </tr>
@@ -901,14 +689,10 @@ Editor role for *ML Operations* app
 
 `artifact_register`
 
-
-
 </td>
 <td valign="top">
 
 Register artifacts in *ML Operations* app
-
-
 
 </td>
 </tr>
@@ -917,14 +701,10 @@ Register artifacts in *ML Operations* app
 
 `mlfunctions_viewer`
 
-
-
 </td>
 <td valign="top">
 
 Viewer role *Functions Explorer* app
-
-
 
 </td>
 </tr>
@@ -933,14 +713,10 @@ Viewer role *Functions Explorer* app
 
 `mlfunctions_editor`
 
-
-
 </td>
 <td valign="top">
 
 Editor role *Functions Explorer* app
-
-
 
 </td>
 </tr>
@@ -949,14 +725,10 @@ Editor role *Functions Explorer* app
 
 `aicore_admin_viewer_all`
 
-
-
 </td>
 <td valign="top">
 
 Viewer role *SAP AI Core Administration* app
-
-
 
 </td>
 </tr>
@@ -965,14 +737,10 @@ Viewer role *SAP AI Core Administration* app
 
 `aicore_admin_editor_all`
 
-
-
 </td>
 <td valign="top">
 
 Editor role *SAP AI Core Administration* app
-
-
 
 </td>
 </tr>
@@ -981,14 +749,10 @@ Editor role *SAP AI Core Administration* app
 
 `execution_schedules_editor`
 
-
-
 </td>
 <td valign="top">
 
 Edit execution schedules
-
-
 
 </td>
 </tr>
@@ -997,14 +761,10 @@ Edit execution schedules
 
 `execution_schedules_viewer`
 
-
-
 </td>
 <td valign="top">
 
 View execution schedules
-
-
 
 </td>
 </tr>
@@ -1013,14 +773,10 @@ View execution schedules
 
 aicore\_admin\_genericsecret\_editor
 
-
-
 </td>
 <td valign="top">
 
 Create, edit or delete generic secrets in the SAP AI Core runtime through the *SAP AI Core Administration* app
-
-
 
 </td>
 </tr>
@@ -1029,14 +785,10 @@ Create, edit or delete generic secrets in the SAP AI Core runtime through the *S
 
 aicore\_admin\_genericsecret\_viewer
 
-
-
 </td>
 <td valign="top">
 
 View generic secrets in the SAP AI Core runtime through the *SAP AI Core Administration* app
-
-
 
 </td>
 </tr>

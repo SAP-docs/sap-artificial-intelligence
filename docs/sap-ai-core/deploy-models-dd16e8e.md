@@ -88,7 +88,7 @@
 
 ## Optional Parameters
 
-The duration of a deployment can be limited using the `ttl` parameter. It takes an integer for quantity, and a single letter to specify units of time. Only minutes \(***m***\), hours \(***h***\) and days \(***d***\), are supported, and values must be natural numbers. For example, `"ttl": "5h"` gives the deployment a duration of 5 hours. ***4.5h*** and ***4h30m*** are not valid inputs. If no value is passed, the duration of the deployment if indefinite. Once the duration expires, the deployment is stopped and deleted.
+The duration of a deployment can be limited using the `ttl` parameter. It takes an integer for quantity, and a single letter to specify units of time. Only minutes \(`m`\), hours \(`h`\) and days \(`d`\), are supported, and values must be natural numbers. For example, `"ttl": "5h"` gives the deployment a duration of 5 hours. `4.5h` and `4h30m` are not valid inputs. If no value is passed, the duration of the deployment if indefinite. Once the duration expires, the deployment is stopped and deleted.
 
 
 
@@ -98,14 +98,14 @@ The duration of a deployment can be limited using the `ttl` parameter. It takes 
 
 Each tenant is assigned a default quota that limits the number of deployments and replicas per deployment. If you reach this quota, your deployment will not be created, and you will be notified. You can free up your quota by deleting existing deployments.
 
-Alternatively, you can request a quota increase by creating a ticket. The `component` name is ***CA-ML-AIC*** and ticket title is ***Request to Increase Quota***.
+Alternatively, you can request a quota increase by creating a ticket. The `component` name is `CA-ML-AIC` and ticket title is `Request to Increase Quota`.
 
-**Parent topic:** [Use Your Model](use-your-model-7f93e8f.md "You deploy your AI learning model to run inferences against it.")
+**Parent topic:**[Use Your Model](use-your-model-7f93e8f.md "You deploy your AI learning model to run inferences against it.")
 
 **Related Information**  
 
 
-[Choose a Resource Plan](choose-a-resource-plan-8deca74.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
+[Choose a Resource Plan](choose-a-resource-plan-abd672f.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
 
 [Serving Templates](serving-templates-20a8667.md "You use serving templates to manage your serving instances at the level of the main tenant. Serving templates define how a model is to be deployed.")
 
@@ -121,7 +121,7 @@ Alternatively, you can request a quota increase by creating a ticket. The `compo
 
 [Efficiency Features](efficiency-features-9fad26a.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
 
-[Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md "Information about API processing and metrics, are stored and accessed in the deployment and execution logs.")
+[Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md "accessed in the deployment and execution logs.")
 
 [Support.](https://itsm.services.sap/itsupport)
 

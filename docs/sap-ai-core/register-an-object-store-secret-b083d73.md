@@ -8,6 +8,14 @@ Your cloud storage credentials are managed using secrets. Secrets are a means of
 
 
 
+<a name="loiob083d73f672c428faac3048b74733546__section_t3r_qmc_gyb"/>
+
+## Prerequisites
+
+You have completed the Initial Setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
+
+
+
 <a name="loiob083d73f672c428faac3048b74733546__section_spp_3c3_dxb"/>
 
 ## Context
@@ -102,7 +110,7 @@ SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS 
 
     The following shows request using S3.
 
-     ![](images/POST_create_objectstoresecret_4548dd0.png) 
+    ![](images/POST_create_objectstoresecret_4548dd0.png)
 
 
 
@@ -214,8 +222,11 @@ SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS 
 > You can create multiple secrets using different values for `name`, but you must create a default first.
 
 > ### Tip:  
-> The `pathPrefix` is useful if you share the same bucket for different projects. You can set the name of your project folder to ***my-ml-project1***, for example. All data will then be stored in that folder.
+> The `pathPrefix` is useful if you share the same bucket for different projects. You can set the name of your project folder to `my-ml-project1`, for example. All data will then be stored in that folder.
 
 > ### Note:  
 > If the `AI-Resource-Group` header is not specified, the *<Resource Group\>* is assigned the value `"default"` automatically.
+
+> ### Restriction:  
+> When using an SAP HANA Data Lake object store with output artifacts pointing to a directory, you cannot use `archive: none: {}` in your workflow templates to disable artifact archiving. For more information, see [Workflow Templates](workflow-templates-83523ab.md).
 

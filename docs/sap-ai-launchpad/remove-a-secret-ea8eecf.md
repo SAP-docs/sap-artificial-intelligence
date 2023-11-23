@@ -4,16 +4,16 @@
 
 
 
-<a name="loioea8eecfbbc764b5aa77cdcc86b73c7b4__prereq_zoo_cq2_rob"/>
+<a name="loioea8eecfbbc764b5aa77cdcc86b73c7b4__prereq_zzz_kmx_rxb"/>
 
 ## Prerequisites
 
--   You have the `aicore_admin_genericsecret_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+-   You have the `aicore_admin_genericsecret_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 -   You are using the SAP AI Core runtime.
 
 
 
-<a name="loioea8eecfbbc764b5aa77cdcc86b73c7b4__context_pmy_k2c_pwb"/>
+<a name="loioea8eecfbbc764b5aa77cdcc86b73c7b4__context_gmb_mmx_rxb"/>
 
 ## Context
 
@@ -21,7 +21,7 @@ You remove a secret if the name is no longer valid or contains errors, or if the
 
 
 
-<a name="loioea8eecfbbc764b5aa77cdcc86b73c7b4__steps_zoe_kgy_ysb"/>
+<a name="loioea8eecfbbc764b5aa77cdcc86b73c7b4__steps_ojm_mmx_rxb"/>
 
 ## Procedure
 
@@ -42,7 +42,7 @@ You remove a secret if the name is no longer valid or contains errors, or if the
 
 
 
-<a name="loioea8eecfbbc764b5aa77cdcc86b73c7b4__result_zoo_yr4_xsb"/>
+<a name="loioea8eecfbbc764b5aa77cdcc86b73c7b4__result_r5b_nmx_rxb"/>
 
 ## Results
 

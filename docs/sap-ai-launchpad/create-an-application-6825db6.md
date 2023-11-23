@@ -10,9 +10,9 @@ As a system administrator, you create applications which sync with Git repositor
 
 ## Prerequisites
 
-You have the `aicore_admin_applications_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have the `aicore_admin_applications_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
-The source Git repository required for the application has been added. See [Add a Git Repository](add-a-git-repository-c8cd251.md).
+The source Git repository required for the application has been added. See [Add a Git Repository](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/add-git-repository).
 
 
 
@@ -36,7 +36,7 @@ The source Git repository required for the application has been added. See [Add 
 
     3.  Enter a path in the repository. The path is used to differentiate between folders within the repository.
 
-    4.  Enter a revision value to indicate the specific branch or tag in the repository. For example, ***HEAD***.
+    4.  Enter a revision value to indicate the specific branch or tag in the repository. For example, `HEAD`.
 
 
 5.  Choose *Create* to create the application for the selected repository.
@@ -60,7 +60,7 @@ The new application is created.
 
 [Create an Application to Sync your Folders](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/fd1aa517b21e495caa691259da38a5d0.html)
 
- <a name="task_jdm_nrg_4xb"/>
+<a name="task_jdm_nrg_4xb"/>
 
 <!-- task\_jdm\_nrg\_4xb -->
 
@@ -68,7 +68,7 @@ The new application is created.
 
 
 
-<a name="task_jdm_nrg_4xb__d27e781"/>
+<a name="task_jdm_nrg_4xb__d12e798"/>
 
 ## Prerequisites
 
@@ -76,7 +76,7 @@ You have successfully created an application.
 
 
 
-<a name="task_jdm_nrg_4xb__d27e787"/>
+<a name="task_jdm_nrg_4xb__d12e804"/>
 
 ## Context
 
@@ -84,11 +84,11 @@ For the SAP AI Core runtime only, automatic syncs take place at ~3 minute interv
 
 
 
-<a name="task_jdm_nrg_4xb__d27e795"/>
+<a name="task_jdm_nrg_4xb__d12e812"/>
 
 ## Procedure
 
-1.  Navigate to the application's details. See [View an Application](view-an-application-edb1aa0.md).
+1.  Navigate to the application's details. See [View an Application](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/view-application).
 
 2.  Choose *Sync* in the header.
 

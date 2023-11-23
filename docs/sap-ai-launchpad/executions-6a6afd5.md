@@ -43,11 +43,11 @@ Executions can have any of the following statuses:
 
 The following figure shows how execution states can change following the initial status of *Pending*:
 
-   
+  
   
 **Execution Status Flow**
 
- ![](images/Execution_Status_Flow_0029ead.png "Execution Status Flow") 
+![](images/Execution_Status_Flow_0029ead.png "Execution Status Flow")
 
 When an execution leaves the *Running* status, the computing resources that were used by the AI runtime are released.
 
@@ -60,21 +60,15 @@ When an execution leaves the *Running* status, the computing resources that were
 
 Status
 
-
-
 </th>
 <th valign="top">
 
 Stop Execution
 
-
-
 </th>
 <th valign="top">
 
 Delete Execution
-
-
 
 </th>
 </tr>
@@ -83,21 +77,15 @@ Delete Execution
 
 Unknown
 
-
-
 </td>
 <td valign="top">
 
 Not enabled
 
-
-
 </td>
 <td valign="top">
 
 Enabled
-
-
 
 </td>
 </tr>
@@ -106,21 +94,15 @@ Enabled
 
 Pending
 
-
-
 </td>
 <td valign="top">
 
 Enabled
 
-
-
 </td>
 <td valign="top">
 
 Not enabled
-
-
 
 </td>
 </tr>
@@ -129,21 +111,15 @@ Not enabled
 
 Running
 
-
-
 </td>
 <td valign="top">
 
 Enabled
 
-
-
 </td>
 <td valign="top">
 
 Not enabled
-
-
 
 </td>
 </tr>
@@ -152,21 +128,15 @@ Not enabled
 
 Completed
 
-
-
 </td>
 <td valign="top">
 
 Not enabled
 
-
-
 </td>
 <td valign="top">
 
 Enabled
-
-
 
 </td>
 </tr>
@@ -175,21 +145,15 @@ Enabled
 
 Stopping
 
-
-
 </td>
 <td valign="top">
 
 Not enabled
 
-
-
 </td>
 <td valign="top">
 
 Not enabled
-
-
 
 </td>
 </tr>
@@ -198,21 +162,15 @@ Not enabled
 
 Stopped
 
-
-
 </td>
 <td valign="top">
 
 Not enabled
 
-
-
 </td>
 <td valign="top">
 
 Enabled
-
-
 
 </td>
 </tr>
@@ -221,21 +179,15 @@ Enabled
 
 Dead
 
-
-
 </td>
 <td valign="top">
 
 Not enabled
 
-
-
 </td>
 <td valign="top">
 
 Enabled
-
-
 
 </td>
 </tr>

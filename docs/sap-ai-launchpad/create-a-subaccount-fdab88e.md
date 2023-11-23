@@ -37,7 +37,7 @@ You create a subaccount within your global account. The subaccount is added as a
         This will become part of the URL for accessing the applications that you subscribe to from this subaccount.
 
         > ### Note:  
-        > The subdomain can contain only letters \(uppercase and lowercase\), digits, and hyphens \(-\). Hyphens are not permitted at the start or end of the name. The subdomain must be unique across all subaccounts in the same region. You cannot differentiate subdomains by uppercase and lowercase characters alone. For example, ***SUBDOMAIN*** and ***subdomain*** are considered to be the same.
+        > The subdomain can contain only letters \(uppercase and lowercase\), digits, and hyphens \(-\). Hyphens are not permitted at the start or end of the name. The subdomain must be unique across all subaccounts in the same region. You cannot differentiate subdomains by uppercase and lowercase characters alone. For example, `SUBDOMAIN` and `subdomain` are considered to be the same.
 
     3.  Enter the desired region for your subaccount.
 

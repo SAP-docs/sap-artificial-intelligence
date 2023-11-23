@@ -10,7 +10,7 @@ As a system administrator, you can remove a Git repository from use within your 
 
 ## Prerequisites
 
-You have the `aicore_admin_repositories_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have the `aicore_admin_repositories_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
 You have access to the Git repository over the Internet.
 

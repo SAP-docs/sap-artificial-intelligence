@@ -6,15 +6,17 @@ As a administrator, you remove an object store secret when the name is no longer
 
 
 
-<a name="loio775b3068af37416caa3ac4122389ac66__prereq_zoo_cq2_rob"/>
+<a name="loio775b3068af37416caa3ac4122389ac66__prereq_fkm_s3z_qxb"/>
 
 ## Prerequisites
 
-You have the `aicore_admin_objectstoresecret_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have the `aicore_admin_objectstoresecret_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
 You have access to the hyperscaler object store over the Internet.
 
 
+
+<a name="loio775b3068af37416caa3ac4122389ac66__context_vkt_s3z_qxb"/>
 
 ## Context
 
@@ -22,7 +24,7 @@ You remove a secret if the name is no longer valid or contains errors, or if the
 
 
 
-<a name="loio775b3068af37416caa3ac4122389ac66__steps_zoe_kgy_ysb"/>
+<a name="loio775b3068af37416caa3ac4122389ac66__steps_nxz_s3z_qxb"/>
 
 ## Procedure
 
@@ -41,7 +43,7 @@ You remove a secret if the name is no longer valid or contains errors, or if the
 
 
 
-<a name="loio775b3068af37416caa3ac4122389ac66__result_zoo_yr4_xsb"/>
+<a name="loio775b3068af37416caa3ac4122389ac66__result_mgf_t3z_qxb"/>
 
 ## Results
 

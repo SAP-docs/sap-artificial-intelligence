@@ -24,79 +24,59 @@ You can get started with SAP AI Launchpad using the standard procedures for SAP 
     <th valign="top">
 
     Browser
-
-
     
     </th>
     <th valign="top">
 
     Versions
-
-
     
     </th>
     </tr>
     <tr>
     <td valign="top">
-
+    
     Google Chrome
-
-
     
     </td>
     <td valign="top">
-
+    
     Latest version
-
-
     
     </td>
     </tr>
     <tr>
     <td valign="top">
-
+    
     Mozilla Firefox
-
-
     
     </td>
     <td valign="top">
-
+    
     Extended Support Release \(ESR\) and latest version
-
-
     
     </td>
     </tr>
     <tr>
     <td valign="top">
-
+    
     Microsoft Edge \(chromium-based\) 
-
-
     
     </td>
     <td valign="top">
-
+    
     Latest Current Branch for Business
-
-
     
     </td>
     </tr>
     <tr>
     <td valign="top">
-
+    
     Safari
-
-
     
     </td>
     <td valign="top">
-
+    
     Latest two versions \(for macOS only\)
-
-
     
     </td>
     </tr>

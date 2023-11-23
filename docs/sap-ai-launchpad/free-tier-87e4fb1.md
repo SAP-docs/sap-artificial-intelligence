@@ -13,20 +13,33 @@ You can use the free tier option and benefit from the following advantages:
 
 **Free Tier Scope**
 
--   SAP customers in all regions, except mainland China, are eligible to access the free tier option.
+-   For region information, see
+
+-   For region information, see [SAP Discovery Centre](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-launchpad?region=all).
+
+-   .
 
 -   Support for the free tier option is provided by the SAP Community.
 
 -   The free tier option is subject to usage limits. See [Service Plans](service-plans-ec1717d.md).
 
 
- <a name="task_tgn_r35_gab"/>
+<a name="task_tgn_r35_gab"/>
 
 <!-- task\_tgn\_r35\_gab -->
 
 ## Enabling Free Tier
 
-Enable the free tier option to use SAP AI Launchpad for trial and testing purposes.
+Enable the free tier option to use SAP AI Launchpad with usage limits, to familiarize yourself with the service.
+
+
+
+<a name="task_tgn_r35_gab__prereq_asd_w25_txb"/>
+
+## Prerequisites
+
+> ### Restriction:  
+> SAP AI Launchpad free tier is only available in SAP BTP free tier, not SAP BTP trial.
 
 
 

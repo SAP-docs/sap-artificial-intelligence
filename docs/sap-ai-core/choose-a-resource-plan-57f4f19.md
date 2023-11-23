@@ -25,28 +25,20 @@ Within SAP AI Core, the resource plan is selected via the `ai.sap.com/resourcePl
 
 Resource Plan IDs
 
-
-
 </th>
 <th valign="top">
 
 GPUs
-
-
 
 </th>
 <th valign="top">
 
 CPU Cores
 
-
-
 </th>
 <th valign="top">
 
 Memory GBs
-
-
 
 </th>
 <th valign="top">
@@ -55,8 +47,6 @@ Code to Allocate Resources
 
 in Workflow Templates
 
-
-
 </th>
 </tr>
 <tr>
@@ -64,35 +54,25 @@ in Workflow Templates
 
 Train-L
 
-
-
 </td>
 <td valign="top">
 
 1 V100
-
-
 
 </td>
 <td valign="top">
 
 7
 
-
-
 </td>
 <td valign="top">
 
 55
 
-
-
 </td>
 <td valign="top">
 
 `ai.sap.com/resourcePlan: train.l`
-
-
 
 </td>
 </tr>
@@ -101,35 +81,25 @@ Train-L
 
 Infer-S
 
-
-
 </td>
 <td valign="top">
 
 1 T4
-
-
 
 </td>
 <td valign="top">
 
 3
 
-
-
 </td>
 <td valign="top">
 
 10
 
-
-
 </td>
 <td valign="top">
 
 `ai.sap.com/resourcePlan: infer.s`
-
-
 
 </td>
 </tr>
@@ -138,35 +108,25 @@ Infer-S
 
 Infer-M
 
-
-
 </td>
 <td valign="top">
 
 1 T4
-
-
 
 </td>
 <td valign="top">
 
 7
 
-
-
 </td>
 <td valign="top">
 
 26
 
-
-
 </td>
 <td valign="top">
 
 `ai.sap.com/resourcePlan: infer.m`
-
-
 
 </td>
 </tr>
@@ -175,35 +135,25 @@ Infer-M
 
 Infer-L
 
-
-
 </td>
 <td valign="top">
 
 1 T4
-
-
 
 </td>
 <td valign="top">
 
 15
 
-
-
 </td>
 <td valign="top">
 
 58
 
-
-
 </td>
 <td valign="top">
 
 `ai.sap.com/resourcePlan: infer.l`
-
-
 
 </td>
 </tr>
@@ -212,35 +162,25 @@ Infer-L
 
 Starter
 
-
-
 </td>
 <td valign="top">
 
 –
-
-
 
 </td>
 <td valign="top">
 
 1
 
-
-
 </td>
 <td valign="top">
 
 3
 
-
-
 </td>
 <td valign="top">
 
 `ai.sap.com/resourcePlan: starter`
-
-
 
 </td>
 </tr>
@@ -249,35 +189,25 @@ Starter
 
 Basic
 
-
-
 </td>
 <td valign="top">
 
 –
-
-
 
 </td>
 <td valign="top">
 
 3
 
-
-
 </td>
 <td valign="top">
 
 11
 
-
-
 </td>
 <td valign="top">
 
 `ai.sap.com/resourcePlan: basic`
-
-
 
 </td>
 </tr>
@@ -286,44 +216,37 @@ Basic
 
 Basic-8x
 
-
-
 </td>
 <td valign="top">
 
 –
-
-
 
 </td>
 <td valign="top">
 
 31
 
-
-
 </td>
 <td valign="top">
 
 116
-
-
 
 </td>
 <td valign="top">
 
 `ai.sap.com/resourcePlan: basic.8x`
 
-
-
 </td>
 </tr>
 </table>
 
+> ### Restriction:  
+> For the Free Tier service plan, only the Starter resource plan is available. Specifying other plans will result in error. For the Standard service plan, all resource plans are available. For more information, see [Free Tier](free-tier-4533adc.md) and [Service Plans](service-plans-c7244c6.md).
+
 > ### Note:  
 > There are limits to the default disk storage size for all of these nodes. Datasets that are loaded to the nodes will consume disk space. If you have large data sets \(larger than 30 GB\), or have large models, you may have to increase the disk size. To do so, use the persistent volume claim in Argo Workflows to specify the required disk size \(see [Volumes](https://argoproj.github.io/argo-workflows/walk-through/volumes/)\).
 
-**Parent topic:** [Train Your Model](train-your-model-a9ceb06.md "You execute a training workflow to train your AI learning model.")
+**Parent topic:**[Train Your Model](train-your-model-a9ceb06.md "You execute a training workflow to train your AI learning model.")
 
 **Related Information**  
 
@@ -338,6 +261,8 @@ Basic-8x
 
 [List Configurations](list-configurations-8074b2a.md "")
 
+[Using Artifact Signatures](using-artifact-signatures-2f02a1d.md "Artifact signatures in the form of a hash can be added to output artifacts from executions.")
+
 [Start Training](start-training-54b44e4.md "")
 
 [Stop Training Instances](stop-training-instances-3d85344.md "")
@@ -346,15 +271,15 @@ Basic-8x
 
 [Efficiency Features](efficiency-features-4cb76f7.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
 
-[Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "Information about API processing and metrics, are stored and accessed in the deployment and execution logs.")
+[Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "accessed in the deployment and execution logs.")
 
 [Training Schedules](training-schedules-2b702f8.md "")
 
- <a name="loiocf3a9a5bb3f1476caf3099281da96a67"/>
+<a name="loiocf3a9a5bb3f1476caf3099281da96a67"/>
 
 <!-- loiocf3a9a5bb3f1476caf3099281da96a67 -->
 
 ## Service Usage Reporting
 
-Usage consumption of services is reported in the SAP BTP cockpit on the *Overview* page for your global account and on the *Overview* and *Usage Analytics* pages of your subaccount. The usage report lists usage in billable measures and nonbillable measures. Your final monthly bill is based on the billable measure only. Nonbillable measures sre displayed for reporting purposes only.
+Usage consumption of services is reported in the SAP BTP cockpit on the *Overview* page for your global account and on the *Overview* and *Usage Analytics* pages of your subaccount. The usage report lists usage in billable measures and non billable measures. Your final monthly bill is based on the billable measure only. Non billable measures are displayed for reporting purposes only.
 

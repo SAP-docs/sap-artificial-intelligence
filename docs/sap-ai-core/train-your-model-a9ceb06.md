@@ -23,9 +23,12 @@ The execution service includes:
 -   Bring your own hyperscaler-backed object store buckets.
 
 
-The execution engine in SAP AI Core leverages the [Argo Workflows](https://argoproj.github.io/workflows) open source project. It supports container-native workflows and pipelines modeled as direct acyclic graphs or steps. The Argo Workflows are used to ingest data, perform preprocessing and postprocessing, and train models and execute batch inference pipelines. SAP AI Core also leverages the parallel processing of steps in the form of a [DAG \( Directed Acyclic Graph\) structure](https://argoproj.github.io/argo-workflows/workflow-concepts/#dag) in workflow templates. For information about how using parallel nodes may affect your costs, see [Metering and Pricing](metering-and-pricing-b5c7215.md).
+The execution engine in SAP AI Core leverages the [Argo Workflows](https://argoproj.github.io/workflows/) open source project. It supports container-native workflows and pipelines modeled as direct acyclic graphs or steps. The Argo Workflows are used to ingest data, perform preprocessing and postprocessing, and train models and execute batch inference pipelines. SAP AI Core also leverages the parallel processing of steps in the form of a [DAG \( Directed Acyclic Graph\) structure](https://argoproj.github.io/argo-workflows/workflow-concepts/#dag) in workflow templates. For information about how using parallel nodes may affect your costs, see [Metering and Pricing](metering-and-pricing-b5c7215.md).
 
-It is possible to train the same model multiple times, with varying parameters \(for parameters compatible with the workflow, only\) and evaluate them in SAP AI Launchpad.
+> ### Note:  
+> Argo Workflow isn’t optimized for time critical tasks. Each step must be scheduled onto a node in the cluster, and the cluster initialized. The time this takes depends on the load of the workflow controller and the node availability in the cluster. Therefore, it isn’t recommended to use multistep Argo Workflows for time-critical tasks.
+
+It’s possible to train the same model multiple times, with varying parameters \(for parameters compatible with the workflow, only\) and evaluate them in SAP AI Launchpad.
 
 -   **[Choose a Resource Plan](choose-a-resource-plan-57f4f19.md "You can configure SAP AI Core to use different infrastructure
 		resources for
@@ -45,6 +48,8 @@ You can configure SAP AI Core to use different infrastructure resources for diff
 
 -   **[List Configurations](list-configurations-8074b2a.md "")**  
 
+-   **[Using Artifact Signatures](using-artifact-signatures-2f02a1d.md "Artifact signatures in the form of a hash can be added to output artifacts from executions.")**  
+Artifact signatures in the form of a hash can be added to output artifacts from executions.
 -   **[Start Training](start-training-54b44e4.md "")**  
 
 -   **[Stop Training Instances](stop-training-instances-3d85344.md "")**  
@@ -54,12 +59,12 @@ You can configure SAP AI Core to use different infrastructure resources for diff
 -   **[Efficiency Features](efficiency-features-4cb76f7.md "Discover features of the SAP AI Core runtime that improve
 		efficiency and help manage resource consumption.")**  
 Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.
--   **[Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "Information about API processing and metrics, are stored and accessed in the deployment and execution logs. ")**  
-Information about API processing and metrics, are stored and accessed in the deployment and execution logs.
+-   **[Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "accessed in the deployment and execution logs. ")**  
+accessed in the deployment and execution logs.
 -   **[Training Schedules](training-schedules-2b702f8.md "")**  
 
 
-**Parent topic:** [ML Operations](ml-operations-7f5aa9b.md "This section guides you through the end-to-end AI lifecycle of SAP AI Core.")
+**Parent topic:**[ML Operations](ml-operations-7f5aa9b.md "This section guides you through the end-to-end AI lifecycle of SAP AI Core.")
 
 **Related Information**  
 

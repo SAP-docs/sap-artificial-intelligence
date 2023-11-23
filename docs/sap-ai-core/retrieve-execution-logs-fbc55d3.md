@@ -2,7 +2,7 @@
 
 # Retrieve Execution Logs
 
-Information about API processing and metrics, are stored and accessed in the deployment and execution logs.
+accessed in the deployment and execution logs.
 
 
 
@@ -45,7 +45,7 @@ For example:
 
 2.  On the *Authorization* tab, set the type to *Bearer Token*.
 
-3.  Set the token value to ***\{\{token\}\}***.
+3.  Set the token value to `{{token}}`.
 
 4.  On the *Header* tab, add the following entry:
 
@@ -57,31 +57,23 @@ For example:
     <th valign="top">
 
     Key
-
-
     
     </th>
     <th valign="top">
 
     Value
-
-
     
     </th>
     </tr>
     <tr>
     <td valign="top">
     
-        *ai-resource-group*
-
-
+    *ai-resource-group*
     
     </td>
     <td valign="top">
     
-        <Name of your resource group\> \(in the example, default is used\)
-
-
+    <Name of your resource group\> \(in the example, default is used\)
     
     </td>
     </tr>
@@ -140,7 +132,7 @@ For example, see the following JSON output from the API.
 > } 
 > ```
 
-**Parent topic:** [Train Your Model](train-your-model-a9ceb06.md "You execute a training workflow to train your AI learning model.")
+**Parent topic:**[Train Your Model](train-your-model-a9ceb06.md "You execute a training workflow to train your AI learning model.")
 
 **Related Information**  
 
@@ -157,6 +149,8 @@ For example, see the following JSON output from the API.
 
 [List Configurations](list-configurations-8074b2a.md "")
 
+[Using Artifact Signatures](using-artifact-signatures-2f02a1d.md "Artifact signatures in the form of a hash can be added to output artifacts from executions.")
+
 [Start Training](start-training-54b44e4.md "")
 
 [Stop Training Instances](stop-training-instances-3d85344.md "")
@@ -167,5 +161,5 @@ For example, see the following JSON output from the API.
 
 [Training Schedules](training-schedules-2b702f8.md "")
 
-[Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md "Information about API processing and metrics, are stored and accessed in the deployment and execution logs.")
+[Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md "accessed in the deployment and execution logs.")
 

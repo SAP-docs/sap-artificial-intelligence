@@ -15,9 +15,9 @@
     ![](images/Enable_Cloud_Foundry_Dialog_91c344a.png)
 
 
-**Parent topic:** [Initial Setup](initial-setup-38c4599.md "You provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Platform. After provisioning, you will have your service key, which provides URLs and credentials for accessing the SAP AI Core instance through SAP AI Launchpad Postman, or curl.")
+**Parent topic:**[Initial Setup](initial-setup-38c4599.md "You provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Platform. After provisioning, you will have your service key, which provides URLs and credentials for accessing the SAP AI Core instance")
 
-**Next:** [Create a Subaccount](create-a-subaccount-3e3ae83.md "")
+**Next:**[Create a Subaccount](create-a-subaccount-3e3ae83.md "")
 
-**Previous:** [Create a Space](create-a-space-4c1190c.md "")
+**Previous:**[Create a Space](create-a-space-4c1190c.md "")
 

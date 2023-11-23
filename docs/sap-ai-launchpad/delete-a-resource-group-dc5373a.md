@@ -6,13 +6,15 @@ As an administrator, you delete resource groups which contain errors or which ar
 
 
 
-<a name="loiodc5373a8566a47f29ed121f798bd036d__prereq_zyh_bpc_rob"/>
+<a name="loiodc5373a8566a47f29ed121f798bd036d__prereq_ukc_cwt_qxb"/>
 
 ## Prerequisites
 
-You have the `aicore_admin_resourcegroup_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have the `aicore_admin_resourcegroup_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
 
+
+<a name="loiodc5373a8566a47f29ed121f798bd036d__context_e2l_cwt_qxb"/>
 
 ## Context
 
@@ -23,7 +25,7 @@ You delete a resource group if it is invalid or contains errors, or if it is no 
 
 
 
-<a name="loiodc5373a8566a47f29ed121f798bd036d__steps_tns_4gl_hvb"/>
+<a name="loiodc5373a8566a47f29ed121f798bd036d__steps_wmr_cwt_qxb"/>
 
 ## Procedure
 
@@ -44,12 +46,12 @@ You delete a resource group if it is invalid or contains errors, or if it is no 
 
 
 
-<a name="loiodc5373a8566a47f29ed121f798bd036d__result_trn_her_1tb"/>
+<a name="loiodc5373a8566a47f29ed121f798bd036d__result_zl1_dwt_qxb"/>
 
 ## Results
 
 The resource group is deleted, and any object store secrets added to the resource group are also deleted.
 
 > ### Note:  
-> Runtime enitities created using the deleted resource group, such as executions and deployments, remain in the launchpad for reference purposes. However, when the associated resource group is deleted, the entities will no longer contain a reference to the deleted resource group.
+> Runtime entities created using the deleted resource group, such as executions and deployments, remain in the launchpad for reference purposes. However, when the associated resource group is deleted, the entities will no longer contain a reference to the deleted resource group.
 

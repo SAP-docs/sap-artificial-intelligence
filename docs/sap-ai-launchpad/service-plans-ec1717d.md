@@ -24,21 +24,15 @@ The following service plans are available:
 
 Service Plan
 
-
-
 </th>
 <th valign="top">
 
 Details
 
-
-
 </th>
 <th valign="top">
 
 Account Type
-
-
 
 </th>
 </tr>
@@ -47,38 +41,27 @@ Account Type
 
 Free tier
 
-
-
 </td>
 <td valign="top">
 
--   Used for trial and testing purposes
+-   Get to know SAP AI Launchpad using a free service, with limitations.
+-   Only community support is available for free tier service plans and these are not subject to SLAs.
 
--   You can have one free tier option per enterprise account
+-   Limitations:
 
--   Limited to one connection only, irrespective of AI runtime
--   Region
+    -   You can have one free tier option per enterprise account
 
-    -   **AWS**: Europe \(Frankfurt\)
+    -   Limited to one connection only, irrespective of AI runtime
 
-    -   **AWS**: Europe \(Frankfurt\) EU Access
-
-    -   **AWS**: Japan \(Tokyo\)
-
-    -   **AWS**: US East \(VA\)
-
+-   For region information, see [SAP Discovery Centre](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-launchpad?region=all).
 
 
 See [Free Tier](free-tier-87e4fb1.md) and the tutorial [Get an Account on SAP BTP to Try Out Free Tier Service Plans](https://developers.sap.com/tutorials/btp-free-tier-account.html).
-
-
 
 </td>
 <td valign="top">
 
 Enterprise
-
-
 
 </td>
 </tr>
@@ -87,8 +70,6 @@ Enterprise
 
 Standard
 
-
-
 </td>
 <td valign="top">
 
@@ -96,42 +77,29 @@ Standard
 
 -   A fixed price is charged each month for every subaccount \(tenant\)
 
--   Region
-
-    -   **AWS**: Europe \(Frankfurt\)
-
-    -   **AWS**: Europe \(Frankfurt\) EU Access
-
-    -   **AWS**: Japan \(Tokyo\)
-
-    -   **AWS**: US East \(VA\)
-
+-   For region information, see [SAP Discovery Centre](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core?region=all&tab=feature&commercialModel=cpea).
 
 
 See [Metering and Pricing](metering-and-pricing-b363ad6.md).
-
-
 
 </td>
 <td valign="top">
 
 Enterprise
 
-
-
 </td>
 </tr>
 </table>
 
--   **[Free Tier](free-tier-87e4fb1.md "The free tier is an instance of SAP AI Launchpad that lets you
-		explore the available features and capabilities without cost.")**  
+-   **[Free Tier](free-tier-87e4fb1.md "The free tier is an instance of SAP AI Launchpad that lets you explore
+		the available features and capabilities without cost.")**  
 The free tier is an instance of SAP AI Launchpad that lets you explore the available features and capabilities without cost.
 -   **[Metering and Pricing](metering-and-pricing-b363ad6.md "")**  
 
 -   **[Update from Free Tier to Standard Plan](update-from-free-tier-to-standard-plan-7e32a70.md "Learn how to update from a free tier option to a standard plan for  SAP AI Launchpad.")**  
 Learn how to update from a free tier option to a standard plan for SAP AI Launchpad.
 
- <a name="concept_nlk_qlt_16b"/>
+<a name="concept_nlk_qlt_16b"/>
 
 <!-- concept\_nlk\_qlt\_16b -->
 

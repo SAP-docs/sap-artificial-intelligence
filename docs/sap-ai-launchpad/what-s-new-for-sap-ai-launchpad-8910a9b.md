@@ -13,93 +13,195 @@
 
 Technical Component
 
-
-
 </th>
 <th valign="top">
 
 Environment
-
-
 
 </th>
 <th valign="top">
 
 Title
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Action
 
-
-
 </th>
 <th valign="top">
 
 Lifecycle
-
-
 
 </th>
 <th valign="top">
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Line of Business
-
-
 
 </th>
 <th valign="top">
 
 Modular Business Process
 
-
-
 </th>
 <th valign="top">
 
 Product
-
-
 
 </th>
 <th valign="top">
 
 Latest Revision
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
 
 
+
+</td>
+<td valign="top">
+
+Metadata in *Configurations* view
+
+</td>
+<td valign="top">
+
+The *Configurations* view now contains metadata information, including the description for parameters and artifacts, as well as the default values associated with the parameters.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2023-05-30
+
+</td>
+<td valign="top">
+
+2023-05-30
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Enum values in *Create Configuration* view
+
+</td>
+<td valign="top">
+
+The *Create Configuration* view now includes a list of accepted enum values as a dropdown and specifies whether a parameter or input artifact is mandatory or optional. Where possible, input artifacts are filtered by type.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2023-05-30
+
+</td>
+<td valign="top">
+
+2023-05-30
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -113,79 +215,57 @@ Available as of
 
 Object Storage
 
-
-
 </td>
 <td valign="top">
 
 Management of Azure object storage is supported through the *ML Operations* app.
-
-
 
 </td>
 <td valign="top">
 
 Info only
 
-
-
 </td>
 <td valign="top">
 
 General Availability
-
-
 
 </td>
 <td valign="top">
 
 New
 
-
-
 </td>
 <td valign="top">
 
 Technology
-
-
 
 </td>
 <td valign="top">
 
 Not applicable
 
-
-
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2023-03-20
 
-
-
 </td>
 <td valign="top">
 
 2023-03-20
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -199,79 +279,57 @@ SAP Business Technology Platform
 
 Artifacts
 
-
-
 </td>
 <td valign="top">
 
 Artifact details and listings pages include the artifact URL.
-
-
 
 </td>
 <td valign="top">
 
 Info only
 
-
-
 </td>
 <td valign="top">
 
 General Availability
-
-
 
 </td>
 <td valign="top">
 
 Changed
 
-
-
 </td>
 <td valign="top">
 
 Technology
-
-
 
 </td>
 <td valign="top">
 
 Not applicable
 
-
-
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2023-03-20
 
-
-
 </td>
 <td valign="top">
 
 2023-03-20
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -285,8 +343,6 @@ SAP Business Technology Platform
 
 Contribute to Our Documentation
 
-
-
 </td>
 <td valign="top">
 
@@ -299,72 +355,52 @@ At SAP, we endeavor to make sure that our documentation works for you. If you fe
 
 For more information, including guidelines on how to contribute, see [Open Documentation Initiative](https://help.sap.com/docs/open-documentation-initiative/contribution-guidelines/readme.html).
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 New
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2023-03-13
 
-
-
 </td>
 <td valign="top">
 
 2023-03-13
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -378,8 +414,6 @@ SAP Business Technology Platform
 
 Stop or Delete Multiple Executions or Deployments
 
-
-
 </td>
 <td valign="top">
 
@@ -387,72 +421,52 @@ Multiple executions or deployments can be stopped or deleted at the same time.
 
 See [Stop Multiple Executions](stop-multiple-executions-78d9a92.md), [Delete Multiple Executions](delete-multiple-executions-f91741a.md), [Stop Multiple Deployments](stop-multiple-deployments-d25b6b4.md), or [Delete Multiple Deployments](delete-multiple-deployments-148dc64.md).
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 New
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2023-03-10
 
-
-
 </td>
 <td valign="top">
 
 2023-03-10
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -466,8 +480,6 @@ SAP Business Technology Platform
 
 Manual GitOps Sync
 
-
-
 </td>
 <td valign="top">
 
@@ -475,72 +487,52 @@ The sync between GitOps and applications can be triggered manually, in addition 
 
 See [Create an Application](create-an-application-6825db6.md).
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 New
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 2023-03-10
 
-
-
 </td>
 <td valign="top">
 
 2023-03-10
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -554,8 +546,6 @@ Not applicable
 
 Generic Secrets
 
-
-
 </td>
 <td valign="top">
 
@@ -563,72 +553,52 @@ Generic secrets for the SAP AI Core runtime can be created and managed through t
 
 See [Manage Generic Secrets in SAP AI Core](manage-generic-secrets-in-sap-ai-core-678fd23.md).
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 New
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 2023-03-10
 
-
-
 </td>
 <td valign="top">
 
 2023-03-10
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -642,8 +612,6 @@ Not applicable
 
 Scheduling
 
-
-
 </td>
 <td valign="top">
 
@@ -651,72 +619,52 @@ Main tenants can create and manage schedules for the automation of workflow exec
 
 See [Schedules](schedules-06a6cde.md).
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 New
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2023-03-10
 
-
-
 </td>
 <td valign="top">
 
 2023-03-10
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -730,8 +678,6 @@ SAP Business Technology Platform
 
 Deployments - Duration
 
-
-
 </td>
 <td valign="top">
 
@@ -739,72 +685,52 @@ If your runtime supports deployment durations, you'll be able to set durations f
 
 See [Create a Deployment](create-a-deployment-33b34e9.md).
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 Changed
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-11-28
 
-
-
 </td>
 <td valign="top">
 
 2022-11-28
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -818,79 +744,57 @@ SAP Business Technology Platform
 
 Resource Groups
 
-
-
 </td>
 <td valign="top">
 
 Users can use the *SAP AI Core Administration* app to manage resource groups. See [Manage Resource Groups](manage-resource-groups-7217afb.md).
-
-
 
 </td>
 <td valign="top">
 
 Info only
 
-
-
 </td>
 <td valign="top">
 
 General Availability
-
-
 
 </td>
 <td valign="top">
 
 New
 
-
-
 </td>
 <td valign="top">
 
 Technology
-
-
 
 </td>
 <td valign="top">
 
 Not applicable
 
-
-
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-11-28
 
-
-
 </td>
 <td valign="top">
 
 2022-11-28
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -904,8 +808,6 @@ SAP Business Technology Platform
 
 Deployments - Model Replicas and Resource Plan
 
-
-
 </td>
 <td valign="top">
 
@@ -913,72 +815,52 @@ Deployments - Model Replicas and Resource Plan
 
 See [View a Deployment](view-a-deployment-d6f793e.md).
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 New
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-10-18
 
-
-
 </td>
 <td valign="top">
 
 2022-10-18
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -992,8 +874,6 @@ SAP Business Technology Platform
 
 Free Tier Service Plan
 
-
-
 </td>
 <td valign="top">
 
@@ -1001,72 +881,52 @@ To try SAP AI Launchpad for free, you can use a free tier service plan. A free t
 
 See [Service Plans](service-plans-ec1717d.md) and [Free Tier](free-tier-87e4fb1.md).
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 Announcement
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-10-18
 
-
-
 </td>
 <td valign="top">
 
 2022-10-18
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -1080,8 +940,6 @@ SAP Business Technology Platform
 
 Search Behavior for Configurations and Artifacts
 
-
-
 </td>
 <td valign="top">
 
@@ -1089,72 +947,52 @@ Case-sensitivity has changed when searching for configurations and artifacts \(s
 
 See [Create an Execution](create-an-execution-6c90fc7.md) or [Find a Configuration](find-a-configuration-3f1d78d.md) 
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 Changed
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-10-18
 
-
-
 </td>
 <td valign="top">
 
 2022-10-18
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -1168,79 +1006,57 @@ SAP Business Technology Platform
 
 Object Store Secrets
 
-
-
 </td>
 <td valign="top">
 
 Users can use the *SAP AI Core Administration* app to manage object store secrets. See [Manage Object Store Secrets](manage-object-store-secrets-0377ede.md).
-
-
 
 </td>
 <td valign="top">
 
 Info only
 
-
-
 </td>
 <td valign="top">
 
 General Availability
-
-
 
 </td>
 <td valign="top">
 
 New
 
-
-
 </td>
 <td valign="top">
 
 Technology
-
-
 
 </td>
 <td valign="top">
 
 Not applicable
 
-
-
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-10-04
 
-
-
 </td>
 <td valign="top">
 
 2022-10-04
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -1254,8 +1070,6 @@ SAP Business Technology Platform
 
 Artifact Registration
 
-
-
 </td>
 <td valign="top">
 
@@ -1263,72 +1077,52 @@ Users can use the *ML Operations* app to register artifacts \(such as models or 
 
 See [Register a Dataset](register-a-dataset-a63c2f5.md), [Register a Model](register-a-model-8162c5d.md), [Register a Result Set](register-a-result-set-0efde3f.md), and [Register an Other Artifact](register-an-other-artifact-c02fca9.md).
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 New
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-10-04
 
-
-
 </td>
 <td valign="top">
 
 2022-10-04
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -1342,79 +1136,57 @@ SAP Business Technology Platform
 
 Executions and Deployments - Filter Enhancements
 
-
-
 </td>
 <td valign="top">
 
- *ML Operations* users can filter executions and deployments. Users can apply a filter using execution ID or deployment ID, or by specifying a configuration ID or status, or by selecting a scenario and further choosing scenario attributes, such as version and executable. See [View an Execution](view-an-execution-33bae6d.md) and [View a Deployment](view-a-deployment-d6f793e.md).
-
-
+*ML Operations* users can filter executions and deployments. Users can apply a filter using execution ID or deployment ID, or by specifying a configuration ID or status, or by selecting a scenario and further choosing scenario attributes, such as version and executable. See [View an Execution](view-an-execution-33bae6d.md) and [View a Deployment](view-a-deployment-d6f793e.md).
 
 </td>
 <td valign="top">
 
 Info only
 
-
-
 </td>
 <td valign="top">
 
 General Availability
-
-
 
 </td>
 <td valign="top">
 
 New
 
-
-
 </td>
 <td valign="top">
 
 Technology
-
-
 
 </td>
 <td valign="top">
 
 Not applicable
 
-
-
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-09-19
 
-
-
 </td>
 <td valign="top">
 
 2022-09-19
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -1428,8 +1200,6 @@ SAP Business Technology Platform
 
 Configurations - Filter Enhancements
 
-
-
 </td>
 <td valign="top">
 
@@ -1437,72 +1207,52 @@ Users can filter configurations by entering a configuration ID, or by selecting 
 
 In the *ML Operations* app, see [View a Configuration](view-a-configuration-d3de4a4.md).
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 Changed
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-09-19
 
-
-
 </td>
 <td valign="top">
 
 2022-09-19
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -1516,8 +1266,6 @@ SAP Business Technology Platform
 
 Preferred Language Setting
 
-
-
 </td>
 <td valign="top">
 
@@ -1525,72 +1273,52 @@ Users can choose a preferred language when using SAP AI Launchpad apps. The pref
 
 See [Change Language Setting](change-language-setting-85a79eb.md).
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 New
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-09-02
 
-
-
 </td>
 <td valign="top">
 
 2022-09-02
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -1604,8 +1332,6 @@ SAP Business Technology Platform
 
 Update a Deployment - Pending Status
 
-
-
 </td>
 <td valign="top">
 
@@ -1615,72 +1341,52 @@ In the *Functions Explorer* app, see [Update a Deployment](update-a-deployment-c
 
 In the *ML Operations* app, see [Update a Deployment](update-a-deployment-bce2b16.md).
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 Changed
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-08-20
 
-
-
 </td>
 <td valign="top">
 
 2022-08-20
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -1694,8 +1400,6 @@ SAP Business Technology Platform
 
 Custom Connections - *Workspaces* app
 
-
-
 </td>
 <td valign="top">
 
@@ -1703,72 +1407,52 @@ Connections in the *Workspaces* app can be customized, so that only applicable c
 
 See [Create Role Collection](create-role-collection-9cdb1ea.md) and [Custom Access for Connections](custom-access-for-connections-8ba6a92.md).
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 New
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-07-30
 
-
-
 </td>
 <td valign="top">
 
 2022-07-30
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -1782,8 +1466,6 @@ SAP Business Technology Platform
 
 Configurations - AI API Alignment
 
-
-
 </td>
 <td valign="top">
 
@@ -1793,72 +1475,52 @@ In the *ML Operations* app, see [Create a Configuration](create-a-configuration-
 
 In the *Functions Explorer* app, see [Create a Configuration](create-a-configuration-03bdcc7.md) and [Create a Configuration](create-a-configuration-03fa29f.md).
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 Changed
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-07-30
 
-
-
 </td>
 <td valign="top">
 
 2022-07-30
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -1872,8 +1534,6 @@ SAP Business Technology Platform
 
 Docker Registry Secrets - Enhancements
 
-
-
 </td>
 <td valign="top">
 
@@ -1881,72 +1541,52 @@ The *SAP AI Core Administration* app now supports managing Docker registry secre
 
 See [Add a Secret](add-a-secret-d346abd.md) and [Edit a Secret](edit-a-secret-873d7c6.md).
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 Changed
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-07-30
 
-
-
 </td>
 <td valign="top">
 
 2022-07-30
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -1960,8 +1600,6 @@ SAP Business Technology Platform
 
 Metrics Visualization Charts
 
-
-
 </td>
 <td valign="top">
 
@@ -1971,72 +1609,52 @@ See [Create Chart to Compare Models](create-chart-to-compare-models-a943fa7.md) 
 
 See [Create Chart to Compare Models](create-chart-to-compare-models-377db35.md) and [Create Chart to Compare Runs](create-chart-to-compare-runs-e963d2f.md).
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 New
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-07-04
 
-
-
 </td>
 <td valign="top">
 
 2022-07-04
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -2050,8 +1668,6 @@ SAP Business Technology Platform
 
 Functions Explorer Enhancements
 
-
-
 </td>
 <td valign="top">
 
@@ -2064,72 +1680,52 @@ Based on user feedback, the Functions Explorer app has been enhanced. App naviga
 
 See [Functions Explorer](functions-explorer-90586e6.md).
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 Changed
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-07-04
 
-
-
 </td>
 <td valign="top">
 
 2022-07-04
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -2143,8 +1739,6 @@ SAP Business Technology Platform
 
 Service Key Upload
 
-
-
 </td>
 <td valign="top">
 
@@ -2152,72 +1746,52 @@ Service key data can be uploaded as a `.TXT` or `JSON` file to simplify connecti
 
 See [Add Connection to SAP AI Core](add-connection-to-sap-ai-core-71dfe2c.md) and [Edit a Connection](manage-a-connection-555c83b.md#loio79c1de643cd5478194cae46505e84026).
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 New
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-06-04
 
-
-
 </td>
 <td valign="top">
 
 2022-06-04
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -2231,8 +1805,6 @@ SAP Business Technology Platform
 
 Resource Groups
 
-
-
 </td>
 <td valign="top">
 
@@ -2240,28 +1812,20 @@ Resource group information has been enhanced to simplify connection creation. Re
 
 See [Set Resource Group](set-resource-group-0c07728.md#loio0c077289f29d4147921fb07ab0f68b7f).
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 Changed
-
-
 
 </td>
 <td valign="top">
@@ -2273,37 +1837,27 @@ Changed
 
 Not applicable
 
-
-
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-06-04
 
-
-
 </td>
 <td valign="top">
 
 2022-06-04
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -2317,38 +1871,28 @@ SAP Business Technology Platform
 
 Meta API
 
-
-
 </td>
 <td valign="top">
 
- SAP AI Launchpad now uses the `Meta API` \(from AI API\), to identify the capabilities implemented in the underlying runtime/ service. SAP AI Launchpad uses this information to enable or disable features in the user interface as applicable to the service/ runtime. Metadata for capabilities can be refreshed manually by users.
+SAP AI Launchpad now uses the `Meta API` \(from AI API\), to identify the capabilities implemented in the underlying runtime/ service. SAP AI Launchpad uses this information to enable or disable features in the user interface as applicable to the service/ runtime. Metadata for capabilities can be refreshed manually by users.
 
 See [Custom Runtime Capabilities Using the Meta API](custom-runtime-capabilities-using-the-meta-api-ac3d92b.md) and [AI API Runtime Implementations](https://help.sap.com/docs/AI_CORE/52b4adb30e6744709d6226d2b0659dea/dbacc5fee07c4e43a656f5d1203654c7.html).
-
-
 
 </td>
 <td valign="top">
 
 Info only
 
-
-
 </td>
 <td valign="top">
 
 General Availability
-
-
 
 </td>
 <td valign="top">
 
 New
 
-
-
 </td>
 <td valign="top">
 
@@ -2359,37 +1903,27 @@ New
 
 Not applicable
 
-
-
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-06-04
 
-
-
 </td>
 <td valign="top">
 
 2022-06-04
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -2401,81 +1935,59 @@ SAP Business Technology Platform
 </td>
 <td valign="top">
 
- *ML Operations* App Usability Improvements
-
-
+*ML Operations* App Usability Improvements
 
 </td>
 <td valign="top">
 
 In response to user feedback, various overview screens for operations have been enhanced in the *ML Operations* app. Additional details are included, such as changed on timestamps, as well as IDs for related operations. For example, see [View a Scenario](view-a-scenario-6ef1b9a.md).
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 Changed
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-05-21
 
-
-
 </td>
 <td valign="top">
 
 2022-05-21
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -2487,9 +1999,7 @@ SAP Business Technology Platform
 </td>
 <td valign="top">
 
- *SAP AI Core Administration* app
-
-
+*SAP AI Core Administration* app
 
 </td>
 <td valign="top">
@@ -2500,72 +2010,52 @@ See [Manage Repositories](manage-repositories-a63b907.md), [Manage Applications]
 
 New roles and role collections are available for SAP AI Core system administrators. See [Roles and Authorizations](roles-and-authorizations-4ef8499.md) 
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 New
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-04-09
 
-
-
 </td>
 <td valign="top">
 
 2022-04-09
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -2579,81 +2069,59 @@ SAP Business Technology Platform
 
 Compare Metrics
 
-
-
 </td>
 <td valign="top">
 
- SAP AI Launchpad supports metrics comparison for up to five executions or models. You can compare metrics in both the *ML Operations* and *Functions Explorer* apps.
+SAP AI Launchpad supports metrics comparison for up to five executions or models. You can compare metrics in both the *ML Operations* and *Functions Explorer* apps.
 
 See [Compare Model Metrics](compare-model-metrics-4b4415e.md), and [Compare Model Metrics](compare-model-metrics-e357639.md) 
-
-
 
 </td>
 <td valign="top">
 
 Info only
 
-
-
 </td>
 <td valign="top">
 
 General Availability
-
-
 
 </td>
 <td valign="top">
 
 New
 
-
-
 </td>
 <td valign="top">
 
 Technology
-
-
 
 </td>
 <td valign="top">
 
 Not applicable
 
-
-
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-04-09
 
-
-
 </td>
 <td valign="top">
 
 2022-04-09
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -2667,92 +2135,70 @@ SAP Business Technology Platform
 
 Role Collection and Role Changes
 
-
-
 </td>
 <td valign="top">
 
 Two role collections have been deprecated and replaced:
 
--    `ailaunchpad_functions_explorer_viewer_v2` replaces `ailaunchpad_functions_explorer_viewer` 
+-   `ailaunchpad_functions_explorer_viewer_v2` replaces `ailaunchpad_functions_explorer_viewer` 
 
 -   is replaced with `ailaunchpad_functions_explorer_editor_v2` replaces `ailaunchpad_functions_explorer_editor` 
 
 
 Two new roles are now available:
 
--    `mlfunctions_viewer` 
+-   `mlfunctions_viewer` 
 
--    `mlfunctions_editor` 
+-   `mlfunctions_editor` 
 
 See [Roles and Authorizations](roles-and-authorizations-4ef8499.md) 
-
-
 
 </td>
 <td valign="top">
 
 Info only
 
-
-
 </td>
 <td valign="top">
 
 General Availability
-
-
 
 </td>
 <td valign="top">
 
 Changed
 
-
-
 </td>
 <td valign="top">
 
 Technology
-
-
 
 </td>
 <td valign="top">
 
 Not applicable
 
-
-
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-04-09
 
-
-
 </td>
 <td valign="top">
 
 2022-04-09
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -2766,8 +2212,6 @@ SAP Business Technology Platform
 
 Deployments in Functions Explorer
 
-
-
 </td>
 <td valign="top">
 
@@ -2775,72 +2219,52 @@ You can manage deployments within the *Functions Explorer* app.
 
 See [Deployments](deployments-585b091.md).
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 New
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-04-09
 
-
-
 </td>
 <td valign="top">
 
 2022-04-09
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -2854,8 +2278,6 @@ SAP Business Technology Platform
 
 Update a Deployment with a Chosen Configuration
 
-
-
 </td>
 <td valign="top">
 
@@ -2863,72 +2285,52 @@ You can update a deployment with your choice of configuration. You can choose to
 
 See [Update a Deployment](update-a-deployment-bce2b16.md).
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 New
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-02-17
 
-
-
 </td>
 <td valign="top">
 
 2022-02-17
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -2942,8 +2344,6 @@ SAP Business Technology Platform
 
 Execution and Deployment Logs
 
-
-
 </td>
 <td valign="top">
 
@@ -2951,72 +2351,52 @@ Execution and deployment logs can be downloaded in the *ML Operations* app. You 
 
 See [View Execution Logs](view-execution-logs-afec746.md) and [View Deployment Logs](view-deployment-logs-4f9682e.md).
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 New
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-02-17
 
-
-
 </td>
 <td valign="top">
 
 2022-02-17
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -3030,79 +2410,57 @@ SAP Business Technology Platform
 
 Filter and Search
 
-
-
 </td>
 <td valign="top">
 
 Filter and search have been enabled for more pages in the *Functions Explorer* app. Users can search for the required model, dataset, or configuration using the ID or description. They can also filter a job list by specifying attribute values or conditions.
-
-
 
 </td>
 <td valign="top">
 
 Info only
 
-
-
 </td>
 <td valign="top">
 
 General Availability
-
-
 
 </td>
 <td valign="top">
 
 Changed
 
-
-
 </td>
 <td valign="top">
 
 Technology
-
-
 
 </td>
 <td valign="top">
 
 Not applicable
 
-
-
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-01-20
 
-
-
 </td>
 <td valign="top">
 
 2022-01-20
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Launchpad 
-
-
+SAP AI Launchpad 
 
 </td>
 <td valign="top">
@@ -3116,8 +2474,6 @@ SAP Business Technology Platform
 
 Additional Column Listings
 
-
-
 </td>
 <td valign="top">
 
@@ -3125,63 +2481,45 @@ In the *ML Operations* app, you can now view the scenario details and artifact d
 
 In the *Functions Explorer* app, you can now view the scenario details and description as additional columns. This information is provided for the models and datasets.
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 General Availability
 
-
-
 </td>
 <td valign="top">
 
 Changed
-
-
 
 </td>
 <td valign="top">
 
 Technology
 
-
-
 </td>
 <td valign="top">
 
 Not applicable
-
-
 
 </td>
 <td valign="top">
 
 SAP Business Technology Platform
 
-
-
 </td>
 <td valign="top">
 
 2022-01-20
 
-
-
 </td>
 <td valign="top">
 
 2022-01-20
-
-
 
 </td>
 </tr>

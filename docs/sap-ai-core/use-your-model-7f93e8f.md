@@ -25,7 +25,7 @@ The serving templates are used to create model servers. When a model server is u
 
 Restrict the number of nodes used for processing by specifying parameters minReplicas and maxReplicas.
 
--   **[Choose a Resource Plan](choose-a-resource-plan-8deca74.md "You can configure SAP AI Core to use different infrastructure
+-   **[Choose a Resource Plan](choose-a-resource-plan-abd672f.md "You can configure SAP AI Core to use different infrastructure
 		resources for
 		different
 		tasks, based on demand.
@@ -47,16 +47,16 @@ An executable is a template that is instantiated for a purpose, such as training
 -   **[Update a Deployment](update-a-deployment-9789ddd.md "")**  
 
 -   **[Stop Deployments](stop-deployments-b7d2577.md " ")**  
- 
+
 -   **[Delete Deployments](delete-deployments-0193d17.md " ")**  
- 
+
 -   **[Efficiency Features](efficiency-features-9fad26a.md "Discover features of the SAP AI Core runtime that improve efficiency
 		and help manage resource consumption.")**  
 Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.
--   **[Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md "Information about API processing and metrics, are stored and accessed in the deployment and execution logs. ")**  
-Information about API processing and metrics, are stored and accessed in the deployment and execution logs.
+-   **[Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md "accessed in the deployment and execution logs. ")**  
+accessed in the deployment and execution logs.
 
-**Parent topic:** [ML Operations](ml-operations-7f5aa9b.md "This section guides you through the end-to-end AI lifecycle of SAP AI Core.")
+**Parent topic:**[ML Operations](ml-operations-7f5aa9b.md "This section guides you through the end-to-end AI lifecycle of SAP AI Core.")
 
 **Related Information**  
 

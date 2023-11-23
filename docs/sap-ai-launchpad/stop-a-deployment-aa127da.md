@@ -6,7 +6,7 @@ Stopping a deployment releases the computing resources acquired in the runtime i
 
 
 
-<a name="loioaa127da70b224c1c854fc4b1d3144647__prereq_b54_nld_jpb"/>
+<a name="loioaa127da70b224c1c854fc4b1d3144647__prereq_yt5_srb_wxb"/>
 
 ## Prerequisites
 
@@ -14,7 +14,7 @@ You have the `mloperations_editor` or `scenario_deployment_editor` role, or you 
 
 
 
-<a name="loioaa127da70b224c1c854fc4b1d3144647__context_zoe_rnd_jpb"/>
+<a name="loioaa127da70b224c1c854fc4b1d3144647__context_pqc_trb_wxb"/>
 
 ## Context
 
@@ -22,7 +22,7 @@ You can stop a deployment if it has a *Running* or *Pending* status. For deploym
 
 
 
-<a name="loioaa127da70b224c1c854fc4b1d3144647__steps_z33_xqd_jpb"/>
+<a name="loioaa127da70b224c1c854fc4b1d3144647__steps_nh3_trb_wxb"/>
 
 ## Procedure
 
@@ -35,7 +35,7 @@ You can stop a deployment if it has a *Running* or *Pending* status. For deploym
 
 
 
-<a name="loioaa127da70b224c1c854fc4b1d3144647__result_rr1_4nd_jpb"/>
+<a name="loioaa127da70b224c1c854fc4b1d3144647__result_jkn_trb_wxb"/>
 
 ## Results
 

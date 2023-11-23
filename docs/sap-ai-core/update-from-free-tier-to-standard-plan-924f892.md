@@ -32,7 +32,7 @@ Learn how to update to the SAP AI Core standard plan, after exploring the produc
     > Updating to a standard plan does not change user permissions.
 
 
- <a name="concept_nlk_qlt_15b"/>
+<a name="concept_nlk_qlt_15b"/>
 
 <!-- concept\_nlk\_qlt\_15b -->
 

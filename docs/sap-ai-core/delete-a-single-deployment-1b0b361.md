@@ -51,7 +51,7 @@ Check the status of the deployment by submitting a GET request to `{{apiurl}}/v2
     ```
 
 
-**Parent topic:** [Delete Deployments](delete-deployments-0193d17.md " ")
+**Parent topic:**[Delete Deployments](delete-deployments-0193d17.md " ")
 
 **Related Information**  
 

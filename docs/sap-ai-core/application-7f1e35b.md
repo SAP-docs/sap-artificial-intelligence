@@ -16,15 +16,15 @@ After you have deleted or created an application, templates are not synced.
 
 1.  Delete the synced application using the endpoint:
 
-    ***DELETE***`{{apiurl}}/v2/admin/applications/{{appName}}`
+    `DELETE``{{apiurl}}/v2/admin/applications/{{appName}}`
 
 2.  Offboard the associated GitHub repository using the endpoint:
 
-    ***DELETE***`{{apiurl}}/v2/admin/repositories/{{repositoryName}}`
+    `DELETE``{{apiurl}}/v2/admin/repositories/{{repositoryName}}`
 
 3.  Onboard the associated GitHub repository using a personal access token instead of your GitHub password. For more information, see [Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 
-    ***POST***`{{apiurl}}/v2/admin/repositories`
+    `POST``{{apiurl}}/v2/admin/repositories`
 
     > ### Sample Code:  
     > Body:
@@ -40,7 +40,7 @@ After you have deleted or created an application, templates are not synced.
 
 4.  Create the application using the endpoint:
 
-    ***POST***`{{apiurl}}/v2/admin/applications` 
+    `POST``{{apiurl}}/v2/admin/applications` 
 
 5.  Check the ArgoCD applications to determine if the repository has been synchronized correctly for the tenant. For example, check that there are no duplicated workflow names. The value of the `name` parameter is considered as an executable ID.
 
@@ -57,7 +57,7 @@ After you have deleted or created an application, templates are not synced.
 7.  Check if the workflow templates contain the correct scenario label.
 8.  Get your application sync status using the endpoint:
 
-    ***GET***`{{apiurl}}/v2/admin/applications/{{appName}}/status`
+    `GET``{{apiurl}}/v2/admin/applications/{{appName}}/status`
 
     The status will any return errors in your templates. When your templates are updated, the application will resync automatically after approximately three minutes.
 
@@ -74,15 +74,15 @@ After you have deleted or created an application, templates are not synced.
 
 1.  Delete the synced application using the endpoint:
 
-    ***DELETE***`{{apiurl}}/v2/admin/repositories/{{appName}}`
+    `DELETE``{{apiurl}}/v2/admin/repositories/{{appName}}`
 
 2.  Offboard the associated GitHub repository using the endpoint:
 
-    ***DELETE***`{{apiurl}}/v2/admin/repositories/{{repositoryName}}`
+    `DELETE``{{apiurl}}/v2/admin/repositories/{{repositoryName}}`
 
 3.  Onboard the associated GitHub repository using a personal access token instead of your GitHub password. For more information, see [Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 
-    ***POST***`{{apiurl}}/v2/admin/repositories`
+    `POST``{{apiurl}}/v2/admin/repositories`
 
     > ### Sample Code:  
     > Body:
@@ -98,7 +98,7 @@ After you have deleted or created an application, templates are not synced.
 
 4.  Create the application using the endpoint:
 
-    ***POST*** `{{apiurl}}/v2/admin/applications`
+    `POST` `{{apiurl}}/v2/admin/applications`
 
 5.  Check the ArgoCD applications to determineif the repository has been synchronized correctly for the tenant. For example, check that there are no duplicated workflow names. The value of the `name` parameter is considered as an executable ID.
 
@@ -115,7 +115,7 @@ After you have deleted or created an application, templates are not synced.
 7.  Check that the scenario label is correct in the workflow templates.
 8.  Get your application sync status using the endpoint:
 
-    ***GET***`{{apiurl}}/v2/admin/applications/{{appName}}/status`
+    `GET``{{apiurl}}/v2/admin/applications/{{appName}}/status`
 
     The status will any return errors in your templates. When your templates are updated, the application will resync automatically after approximately three minutes.
 
@@ -132,17 +132,17 @@ After you have deleted or created an application, templates are not synced.
 
 1.  Delete the synced application using the endpoint:
 
-    ***DELETE***`{{apiurl}}/v2/admin/applications/{{appName}}`
+    `DELETE``{{apiurl}}/v2/admin/applications/{{appName}}`
 
 2.  Offboard the associated GitHub repository using the endpoint:
 
-    ***DELETE***
+    `DELETE`
 
     `{{apiurl}}/v2/admin/repositories/{{repositoryName}}`
 
 3.  Onboard the associated GitHub repository using a personal access token instead of your GitHub password. For more information, see [Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 
-    ***POST***`{{apiurl}}/v2/admin/repositories`
+    `POST``{{apiurl}}/v2/admin/repositories`
 
     > ### Sample Code:  
     > Body:
@@ -158,7 +158,7 @@ After you have deleted or created an application, templates are not synced.
 
 4.  Create the application using the endpoint:
 
-    ***POST*** `{{apiurl}}/v2/admin/applications`
+    `POST` `{{apiurl}}/v2/admin/applications`
 
 5.  Check the ArgoCD applications to determineif the repository has been synchronized correctly for the tenant. For example, check that there are no duplicated workflow names. The value of the `name` parameter is considered as an executable ID.
 
@@ -175,7 +175,7 @@ After you have deleted or created an application, templates are not synced.
 7.  Check if the workflow templates contain the correct scenario label.
 8.  Get your application sync status using the endpoint:
 
-    ***GET***`{{apiurl}}/v2/admin/applications/{{appName}}/status`
+    `GET``{{apiurl}}/v2/admin/applications/{{appName}}/status`
 
     The status will any return errors in your templates. When your templates are updated, the application will resync automatically after approximately three minutes.
 
@@ -206,7 +206,7 @@ The repository URL cannot be found in your onboarded repositories.
 
 ### Check the following:
 
-Make sure that the repository specified in your application has been successfully onboarded by using ***GET*** `{{apiurl}}/v2/admin/applications` and checking that the repository url has ***"status": "COMPLETED"***
+Make sure that the repository specified in your application has been successfully onboarded by using `GET` `{{apiurl}}/v2/admin/applications` and checking that the repository url has ***"status": "COMPLETED"***
 
 
 
@@ -222,7 +222,7 @@ The revision you specified in your application doesn’t exist in your repositor
 
 Delete your application and create a new one using the correct revision. The revision number is found in GitHub here: ![](images/git_revision_eeb085b.png)
 
-Alternatively, enter ***HEAD*** to refer to the latest commit.
+Alternatively, enter `HEAD` to refer to the latest commit.
 
 
 
@@ -281,7 +281,7 @@ Delete your application and create a new one, specifying a path. Check its statu
 
 `{{apiurl}}/admin/applications/{{appName}}/refresh`
 
-**Parent topic:** [Troubleshooting](troubleshooting-3da90ba.md "For troubleshooting information, see the following sections:")
+**Parent topic:**[Troubleshooting](troubleshooting-3da90ba.md "For troubleshooting information, see the following sections:")
 
 **Related Information**  
 

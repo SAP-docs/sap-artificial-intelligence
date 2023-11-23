@@ -45,28 +45,20 @@ A metric is a key/value pair where the value is numeric. Metrics can have option
 
 Attribute Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Constraints
-
-
 
 </th>
 </tr>
@@ -75,21 +67,15 @@ Constraints
 
 Name \(mandatory\)
 
-
-
 </td>
 <td valign="top">
 
 Name of the metric
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
@@ -98,8 +84,6 @@ Pattern: \[\\w-\]\{1,64\}
 
 Maxlength: 256
 
-
-
 </td>
 </tr>
 <tr>
@@ -107,21 +91,15 @@ Maxlength: 256
 
 Value \(mandatory\)
 
-
-
 </td>
 <td valign="top">
 
 Numeric value of the metric
 
-
-
 </td>
 <td valign="top">
 
 Number
-
-
 
 </td>
 <td valign="top">
@@ -135,21 +113,15 @@ Number
 
 Timestamp
 
-
-
 </td>
 <td valign="top">
 
 Time when the metric was created or logged in RFC3339 format
 
-
-
 </td>
 <td valign="top">
 
 String \($date-time\)
-
-
 
 </td>
 <td valign="top">
@@ -163,28 +135,20 @@ String \($date-time\)
 
 Step
 
-
-
 </td>
 <td valign="top">
 
 Step is an optional integer that represents any measurement of training progress \(number of training iterations, number of epochs, and so on\) for the metric
-
-
 
 </td>
 <td valign="top">
 
 Integer
 
-
-
 </td>
 <td valign="top">
 
 Minimum: 0
-
-
 
 </td>
 </tr>
@@ -193,21 +157,15 @@ Minimum: 0
 
 Labels
 
-
-
 </td>
 <td valign="top">
 
 A list of name-value object pairs associated with some metric.
 
-
-
 </td>
 <td valign="top">
 
 See [Table 2](store-metric-data-ab04f04.md#loioab04f048da444d13bae08214c9d40e12__table_tcs_wpf_ynb) 
-
-
 
 </td>
 <td valign="top">
@@ -235,28 +193,20 @@ A label is a classifying phrase or name applied to a metric. A set of labels can
 
 Attribute Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Constraints
-
-
 
 </th>
 </tr>
@@ -265,21 +215,15 @@ Constraints
 
 Name \(mandatory\)
 
-
-
 </td>
 <td valign="top">
 
 Name of the label
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
@@ -287,8 +231,6 @@ String
 Minlength: 1
 
 Maxlength: 256
-
-
 
 </td>
 </tr>
@@ -297,21 +239,15 @@ Maxlength: 256
 
 Value \(mandatory\)
 
-
-
 </td>
 <td valign="top">
 
 Value of the label
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
@@ -319,8 +255,6 @@ String
 Minlength: 1
 
 Maxlength: 256
-
-
 
 </td>
 </tr>
@@ -362,28 +296,20 @@ A tag is a name/value pair that is used to support segregation at execution leve
 
 Attribute Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Constraints
-
-
 
 </th>
 </tr>
@@ -392,21 +318,15 @@ Constraints
 
 Name \(mandatory\)
 
-
-
 </td>
 <td valign="top">
 
 Name of the tag
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
@@ -414,8 +334,6 @@ String
 Minlength: 1
 
 Maxlength: 256
-
-
 
 </td>
 </tr>
@@ -424,21 +342,15 @@ Maxlength: 256
 
 Value \(mandatory\)
 
-
-
 </td>
 <td valign="top">
 
 Value of the tag
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
@@ -446,8 +358,6 @@ String
 Minlength: 1
 
 Maxlength: 256
-
-
 
 </td>
 </tr>
@@ -472,28 +382,20 @@ A set of such custom info objects can be associated with a `MetricResource`.
 
 Attribute Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 <th valign="top">
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Constraints
-
-
 
 </th>
 </tr>
@@ -502,21 +404,15 @@ Constraints
 
 Name \(mandatory\)
 
-
-
 </td>
 <td valign="top">
 
 Name of the CustomInfo
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
@@ -524,8 +420,6 @@ String
 Minlength: 1
 
 Maxlength: 256
-
-
 
 </td>
 </tr>
@@ -534,21 +428,15 @@ Maxlength: 256
 
 Value \(mandatory\)
 
-
-
 </td>
 <td valign="top">
 
 Value of the CustomInfo
 
-
-
 </td>
 <td valign="top">
 
 String
-
-
 
 </td>
 <td valign="top">
@@ -556,8 +444,6 @@ String
 Minlength: 1
 
 Maxlength: 256
-
-
 
 </td>
 </tr>
@@ -621,14 +507,10 @@ Maxlength: 256
 
 Response Code
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -637,14 +519,10 @@ Description
 
 204
 
-
-
 </td>
 <td valign="top">
 
 Metrics was successfully updated/created
-
-
 
 </td>
 </tr>
@@ -653,14 +531,10 @@ Metrics was successfully updated/created
 
 400
 
-
-
 </td>
 <td valign="top">
 
 The specification of the resource was incorrect
-
-
 
 </td>
 </tr>
@@ -692,14 +566,10 @@ The specification of the resource was incorrect
 
 Response Code
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -708,14 +578,10 @@ Description
 
 413
 
-
-
 </td>
 <td valign="top">
 
 Request entity is larger than limits defined by server.
-
-
 
 </td>
 </tr>

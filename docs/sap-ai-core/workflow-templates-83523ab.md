@@ -40,21 +40,15 @@ To get started, copy the generic workflow template below and add your own values
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -63,21 +57,15 @@ Description
 
 name \(mandatory\)
 
-
-
 </td>
 <td valign="top">
 
 –
 
-
-
 </td>
 <td valign="top">
 
 The executable ID. The executable ID must be unique among all executables available within the SAP AI Core main tenant.
-
-
 
 </td>
 </tr>
@@ -86,21 +74,15 @@ The executable ID. The executable ID must be unique among all executables availa
 
 labels \(mandatory\)
 
-
-
 </td>
 <td valign="top">
 
 `ai.sap.com/resourcePlan`
 
-
-
 </td>
 <td valign="top">
 
 You must specify the chosen `resourcePlan`. The value is the string value of the selected resource plan. For more information, see [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md).
-
-
 
 </td>
 </tr>
@@ -109,21 +91,15 @@ You must specify the chosen `resourcePlan`. The value is the string value of the
 
 annotations
 
-
-
 </td>
 <td valign="top">
 
 `scenarios.ai.sap.com/description` \(optional\)
 
-
-
 </td>
 <td valign="top">
 
 A description of the scenario to which this executable belongs.
-
-
 
 </td>
 </tr>
@@ -132,14 +108,10 @@ A description of the scenario to which this executable belongs.
 
 `scenarios.ai.sap.com/name` \(mandatory\)
 
-
-
 </td>
 <td valign="top">
 
 The scenario name, which is necessary for the AI API to discover a scenario.
-
-
 
 </td>
 </tr>
@@ -148,14 +120,10 @@ The scenario name, which is necessary for the AI API to discover a scenario.
 
 `executables.ai.sap.com/description` \(optional\)
 
-
-
 </td>
 <td valign="top">
 
 The description of an executable.
-
-
 
 </td>
 </tr>
@@ -164,14 +132,10 @@ The description of an executable.
 
 `executables.ai.sap.com/name` \(mandatory\)
 
-
-
 </td>
 <td valign="top">
 
 The name of the executable.
-
-
 
 </td>
 </tr>
@@ -180,14 +144,10 @@ The name of the executable.
 
 `artifacts.ai.sap.com/<argo_artifact_name>.suffix`
 
-
-
 </td>
 <td valign="top">
 
 A suffix added to the file or folder of the output artifact on the object store.
-
-
 
 </td>
 </tr>
@@ -196,14 +156,10 @@ A suffix added to the file or folder of the output artifact on the object store.
 
 `artifacts.ai.sap.com/<argo_artifact_name>.kind`
 
-
-
 </td>
 <td valign="top">
 
 The type of output artifact \(for example, a dataset or model\).
-
-
 
 </td>
 </tr>
@@ -212,14 +168,10 @@ The type of output artifact \(for example, a dataset or model\).
 
 `artifacts.ai.sap.com/<argo_artifact_name>.name`
 
-
-
 </td>
 <td valign="top">
 
 The name under which the output artifact is registered in the AI API.
-
-
 
 </td>
 </tr>
@@ -230,14 +182,10 @@ The name under which the output artifact is registered in the AI API.
 
 `artifacts.ai.sap.com/<argo_artifact_name>.labels: | {"ext.ai.sap.com/customkey1":"customvalue1", "ext.ai.sap.com/customkey2":"customvalue2"}` \(optional\)
 
-
-
 </td>
 <td valign="top">
 
 You can add further metadata for an artifact using these annotations.
-
-
 
 </td>
 </tr>
@@ -246,21 +194,15 @@ You can add further metadata for an artifact using these annotations.
 
 `labels`
 
-
-
 </td>
 <td valign="top">
 
 `scenarios.ai.sap.com/id` \(mandatory\)
 
-
-
 </td>
 <td valign="top">
 
 The scenario ID to which the workflow template belongs.
-
-
 
 </td>
 </tr>
@@ -269,14 +211,10 @@ The scenario ID to which the workflow template belongs.
 
 `ai.sap.com/version` \(mandatory\)
 
-
-
 </td>
 <td valign="top">
 
 The compatibility version of this executable. You can use the compatibility versions to offer executables in different variants for different AI service consumers.
-
-
 
 </td>
 </tr>
@@ -347,6 +285,23 @@ spec:
 > ### Note:  
 > For every container in the template, the `command: ["/bin/sh", "-c"]` field is mandatory. The contents of the argument can be amended, but must not be empty. The `CMD` and `ENDPOINT` specified in the Dockerfile of a container are ignored.
 
+A `user ID` is required to run the docker image. This can be specified by the user, or can be unspecified. Choosing and specifying a user is optional, and the only constraint is that the `user ID` must not be *<0\>*, the *<root\>* user, for security reasons.
+
+If no user is specified, user *<65534\>*, *<nobody\>* will be assigned automatically.
+
+If a user is specified, it must be included in the docker image **and** the workflow template.
+
+Whether a specified user or *<nobody\>*, the user needs permissions to access the files while the application is running, which can be checked and changed using the `chown` and `chmod` commands.
+
+> ### Tip:  
+> You can check that the container is working as expected before submitting it to SAP AI Core by running `docker run -it --user 65534:65543 <docker-image>` locally.
+
+> ### Note:  
+> The `archive: none: {}` option in the `outputs artifacts` sections disables automatic archiving for the artifact. If archiving is enabled, the output artifacts are archived to a `tar-gzip` file before they are uploaded to the object store. If archiving is disabled through `archive: none: {}`, the artifact will be uploaded to the object store in its current format. If the output artifact points to a directory, the directory will be uploaded “as is” to the object store. However, object stores in SAP HANA Cloud, data lake do not support this. In this case, remove `archive: none: {}` and archive the directory to a single `tar-gzip` file before it is uploaded to the object store.
+
+> ### Note:  
+> When multiple containers are defined in a single WorkflowTemplate, for example when using Sidecar or Container Set, one of the containers must be named \`main\`. To fetch logs of another container in the same template using the a GET request to the endpoint `/logs`, the name of the container must have the \`readable-\` prefix. The execution can still run without the \`readable-\` prefix, but logs will be inaccessible through the endpoint.. For more information, see [Argo Sidecar](https://argoproj.github.io/argo-workflows/walk-through/sidecars) and [Argo Container Set](https://argoproj.github.io/argo-workflows/container-set-template/).
+
 
 
 <a name="loio83523ab8b49245bcbc9f1bf0969e32d8__section_m4l_4cy_3wX"/>
@@ -359,7 +314,7 @@ spec:
 
 `{{apiurl}}/admin/applications/{{appName}}/refresh`
 
-**Parent topic:** [Train Your Model](train-your-model-a9ceb06.md "You execute a training workflow to train your AI learning model.")
+**Parent topic:**[Train Your Model](train-your-model-a9ceb06.md "You execute a training workflow to train your AI learning model.")
 
 **Related Information**  
 
@@ -374,6 +329,8 @@ spec:
 
 [List Configurations](list-configurations-8074b2a.md "")
 
+[Using Artifact Signatures](using-artifact-signatures-2f02a1d.md "Artifact signatures in the form of a hash can be added to output artifacts from executions.")
+
 [Start Training](start-training-54b44e4.md "")
 
 [Stop Training Instances](stop-training-instances-3d85344.md "")
@@ -382,11 +339,11 @@ spec:
 
 [Efficiency Features](efficiency-features-4cb76f7.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
 
-[Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "Information about API processing and metrics, are stored and accessed in the deployment and execution logs.")
+[Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "accessed in the deployment and execution logs.")
 
 [Training Schedules](training-schedules-2b702f8.md "")
 
- <a name="concept_vwr_y1k_lwb"/>
+<a name="concept_vwr_y1k_lwb"/>
 
 <!-- concept\_vwr\_y1k\_lwb -->
 

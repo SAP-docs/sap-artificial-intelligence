@@ -8,24 +8,20 @@ Use the *ML Operations* app to search for a dataset.
 
 
 
-<a name="loiode82cedb8c3f4326b1929ed12b407822__prereq_z4l_wdj_prb"/>
+<a name="loiode82cedb8c3f4326b1929ed12b407822__prereq_u5h_c2d_5xb"/>
 
 ## Prerequisites
 
 -   You have files which are stored in hyperscaler object storage and which have been registered as a dataset.
 
--   You have the `scenario_artifact_viewer` role or you are assigned a role collection that contains it. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+-   You have the `scenario_artifact_viewer` role or you are assigned a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
--   You have specified the resource group as described at [Set Resource Group](set-resource-group-0c07728.md#loio0c077289f29d4147921fb07ab0f68b7f).
-
-
-
-
-## Context
+-   You have specified the resource group as described at [Set Resource Group](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/0c077289f29d4147921fb07ab0f68b7f.html).
 
 
 
-<a name="loiode82cedb8c3f4326b1929ed12b407822__steps_bz2_xdj_prb"/>
+
+<a name="loiode82cedb8c3f4326b1929ed12b407822__steps_zbh_d2d_5xb"/>
 
 ## Procedure
 

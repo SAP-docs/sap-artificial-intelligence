@@ -6,15 +6,15 @@ You delete an execution to remove it from your instance. Deletion does not impac
 
 
 
-<a name="loio51814db984784518a3d19f0bd3e84ae5__prereq_b54_nld_jpb"/>
+<a name="loio51814db984784518a3d19f0bd3e84ae5__prereq_y55_qm3_wxb"/>
 
 ## Prerequisites
 
-You have the `mloperations_editor` or `scenario_execution_editor` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have the `mloperations_editor` or `scenario_execution_editor` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
 
 
-<a name="loio51814db984784518a3d19f0bd3e84ae5__context_rxd_rnd_jpb"/>
+<a name="loio51814db984784518a3d19f0bd3e84ae5__context_gt1_rm3_wxb"/>
 
 ## Context
 
@@ -22,11 +22,11 @@ You can delete an execution if it has the status *Completed*, *Dead*, *Stopped*,
 
 
 
-<a name="loio51814db984784518a3d19f0bd3e84ae5__steps_a1l_ynd_jpb"/>
+<a name="loio51814db984784518a3d19f0bd3e84ae5__steps_ffh_rm3_wxb"/>
 
 ## Procedure
 
-1.  Navigate to the execution's details. See [View an Execution](view-an-execution-33bae6d.md).
+1.  Navigate to the execution's details. See [View an Execution](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/33bae6da5df340d892828b2c673efaea.html).
 
 2.  Choose *Delete* in the header. A *Warning* dialog box appears.
 
@@ -35,7 +35,7 @@ You can delete an execution if it has the status *Completed*, *Dead*, *Stopped*,
 
 
 
-<a name="loio51814db984784518a3d19f0bd3e84ae5__result_rr1_4nd_jpb"/>
+<a name="loio51814db984784518a3d19f0bd3e84ae5__result_p24_rm3_wxb"/>
 
 ## Results
 

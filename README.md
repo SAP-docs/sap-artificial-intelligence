@@ -15,8 +15,8 @@ We recommend using the SAP AI Core or SAP AI Launchpad documentation on SAP Help
 
 1. Open the [SAP AI Core](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/d029a32c22fb45fbb607e6a2c48c8a0e.html?version=CLOUD) or [SAP AI Launchpad](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/760889ab809841c8a8905ca492f902cb.html?version=CLOUD) documentation.
 1. From here, you can:
-    * Choose *Edit* to suggest a change to the current page you see in the Help Portal viewer.
-    * Choose *Feedback* to open a GitHub issue in this repository.
+    * Choose *Feedback* > *Edit page* to suggest a change for the current page you see in the Help Portal viewer, or
+    * Choose *Feedback* > *Create issue* to open a GitHub issue in this repository.
 
 If you only make a small contribution, that's the quickest way to propose a change. For larger contributions, we recommend forking this repository to work locally. The filenames in the [docs](docs) directory are created based on the title of the page on SAP Help Portal.
 

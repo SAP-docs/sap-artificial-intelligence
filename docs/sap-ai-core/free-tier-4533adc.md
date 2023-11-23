@@ -2,7 +2,7 @@
 
 # Free Tier
 
-The free tier service plan allows one instance of SAP AI Core that lets you explore the available features and capabilities without cost.
+Enable the free tier option to get to know SAP AI Core with usage limits, to familiarize yourself with the service. Note that usage is limited with this option.
 
 You can use the free tier option and benefit from the following advantages:
 
@@ -13,7 +13,7 @@ You can use the free tier option and benefit from the following advantages:
 
 **Free Tier Scope**
 
--   SAP customers in all regions, except mainland China, are eligible to access the free tier option.
+-   For region information, see [SAP Discovery center](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core?region=all&tab=feature&commercialModel=cpea).
 
 -   Only community support is available for free tier service plans and these are not subject to SLAs.
 
@@ -28,13 +28,22 @@ You can use the free tier option and benefit from the following advantages:
 
 [Service Plans](service-plans-c7244c6.md "The SAP AI Core service plan you choose determines pricing, conditions of use, resources, available services, and hosts.")
 
- <a name="task_tgn_r35_15b"/>
+<a name="task_tgn_r35_15b"/>
 
 <!-- task\_tgn\_r35\_15b -->
 
 ## Enabling Free Tier
 
 Enable free tier to experience SAP AI Core for trial and testing purposes. Alternatively, follow the tutorial [here.](https://developers.sap.com/tutorials/ai-core-launchpad-provisioning.html)
+
+
+
+<a name="task_tgn_r35_15b__prereq_asd_w25_txb"/>
+
+## Prerequisites
+
+> ### Restriction:  
+> SAP AI Core free tier is only available in SAP BTP free tier, not SAP BTP trial.
 
 
 

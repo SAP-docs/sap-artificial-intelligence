@@ -10,7 +10,7 @@ If you change a serving template, you can automatically update the deployments t
 
 ## Prerequisites
 
-The `executables.ai.sap.com/cascade-update-deployments` parameter is present and set to ***true*** in the serving template. This allows any change to the serving template to trigger an automatic update of the associated deployments.
+The `executables.ai.sap.com/cascade-update-deployments` parameter is present and set to `true` in the serving template. This allows any change to the serving template to trigger an automatic update of the associated deployments.
 
 
 

@@ -57,7 +57,7 @@ Check the status of the deployment by submitting a GET request to `{{apiurl}}/v2
     ```
 
 
-**Parent topic:** [Stop Deployments](stop-deployments-b7d2577.md " ")
+**Parent topic:**[Stop Deployments](stop-deployments-b7d2577.md " ")
 
 **Related Information**  
 

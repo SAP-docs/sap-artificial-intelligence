@@ -16,7 +16,7 @@ The following is an example of a serving executable.
 -   The scenario name is included in the menu path.
 -   The executable name, executable ID, description, and version are displayed in the header.
 
--   The *Deployable* field indicates whether the executable is intended for training or serving purposes. A ***Yes*** value indicates that the executable is intended for deployment \(serving\).
+-   The *Deployable* field indicates whether the executable is intended for training or serving purposes. A `Yes` value indicates that the executable is intended for deployment \(serving\).
 
 -   The *Input Artifacts* section contains the dataset.
 

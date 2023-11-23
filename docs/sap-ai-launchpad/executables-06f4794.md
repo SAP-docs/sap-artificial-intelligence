@@ -6,8 +6,6 @@ An executable is used to define training or serving pipelines for an AI use case
 
 > ### Example:  
 > In SAP AI Core, an executable can be a template. For more information, see [Templates](https://help.sap.com/viewer/808d9d442fb0484e9b818924feeb9add/LATEST/en-US/8a1f91a18cf0473e8689789f1636675a.html).
-> 
-> In SAP AI Core, an executable can be a template. For more information, see [Templates](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/LATEST/en-US/8a1f91a18cf0473e8689789f1636675a.html).
 
 -   An executable that is used to train an AI model is called a workflow executable.
 
@@ -28,7 +26,7 @@ Executables contain any number of placeholders, such as parameters \(for hyperpa
 > ### Example:  
 > Consider a scenario, such as a Product Review Classification, involving positive or negative reviews.
 > 
-> This scenario has a workflow executable named ***Product\_Review\_Train*** with the following placeholders:
+> This scenario has a workflow executable named `Product_Review_Train` with the following placeholders:
 > 
 > -   Input parameters
 > 

@@ -33,7 +33,7 @@ For more information, see [Roles and Authorizations](roles-and-authorizations-4e
     ![Template details for a deployment template, with key features highlighted.](images/Image_AIL_FE_All_Dep_Details_2d4660b.png)
 
     > ### Tip:  
-    > Check the value of the *Deployable* field to confirm whether the template is a run or deployment template. Deployment templates are deployable \(***Yes***\).
+    > Check the value of the *Deployable* field to confirm whether the template is a run or deployment template. Deployment templates are deployable \(`Yes`\).
 
 4.  **Optional:** Select the *Available Configurations* tab to show the configurations associated with this template. See [Find a Configuration](find-a-configuration-642037f.md).
 

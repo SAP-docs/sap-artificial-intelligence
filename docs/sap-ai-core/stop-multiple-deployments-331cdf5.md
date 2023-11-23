@@ -115,7 +115,7 @@ Send a bulk PATCH request to: `- /deployments`
 > 
 > ```
 
-**Parent topic:** [Stop Deployments](stop-deployments-b7d2577.md " ")
+**Parent topic:**[Stop Deployments](stop-deployments-b7d2577.md " ")
 
 **Related Information**  
 

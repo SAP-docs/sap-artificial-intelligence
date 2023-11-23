@@ -41,7 +41,7 @@ Deployments are used to make online predictions.
     2.  In the *Select Deployment Template* step, select the deployment template from the list and choose *Next*.
     3.  In the *Select Configuration* step, select the required configuration. The details for the selected configuration are displayed in the right pane.
 
-         ![Create Deployment Wizard, step 3.](images/Image_AIL_FE_AlL_Dep_Wiz_3_6e96673.png)
+        ![Create Deployment Wizard, step 3.](images/Image_AIL_FE_AlL_Dep_Wiz_3_6e96673.png)
 
         > ### Tip:  
         > If there is no configuration which matches your data requirements, you can choose *create a configuration*. You will be redirected to create a configuration, and the deployment you have started will be lost. When you have saved the new configuration, you can re-create the deployment with the new configuration.

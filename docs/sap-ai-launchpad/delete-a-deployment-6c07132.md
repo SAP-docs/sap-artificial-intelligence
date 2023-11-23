@@ -6,7 +6,7 @@ You delete a deployment to remove it from your instance.
 
 
 
-<a name="loio6c07132751534c5288c29466b5d38f2c__prereq_b54_nld_jpb"/>
+<a name="loio6c07132751534c5288c29466b5d38f2c__prereq_h3l_bsb_wxb"/>
 
 ## Prerequisites
 
@@ -14,7 +14,7 @@ You have either the `mloperations_editor` or `scenario_deployment_editor` role, 
 
 
 
-<a name="loio6c07132751534c5288c29466b5d38f2c__context_rxd_rnd_jpb"/>
+<a name="loio6c07132751534c5288c29466b5d38f2c__context_nwp_bsb_wxb"/>
 
 ## Context
 
@@ -24,7 +24,7 @@ You can delete a deployment if it has the status *Dead*, *Stopped*, or *Unknown*
 
 
 
-<a name="loio6c07132751534c5288c29466b5d38f2c__steps_a1l_ynd_jpb"/>
+<a name="loio6c07132751534c5288c29466b5d38f2c__steps_zx5_bsb_wxb"/>
 
 ## Procedure
 
@@ -37,7 +37,7 @@ You can delete a deployment if it has the status *Dead*, *Stopped*, or *Unknown*
 
 
 
-<a name="loio6c07132751534c5288c29466b5d38f2c__result_rr1_4nd_jpb"/>
+<a name="loio6c07132751534c5288c29466b5d38f2c__result_ldz_bsb_wxb"/>
 
 ## Results
 

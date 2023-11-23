@@ -45,5 +45,5 @@ You add an AI API connection to link SAP AI Launchpad to your subscribed AI serv
 -   **[Manage a Connection](manage-a-connection-7387401.md "You can delete or edit a connection from the overview page of the Workspaces app.")**  
 You can delete or edit a connection from the overview page of the *Workspaces* app.
 -   **[Assign Connection to Workspace](assign-connection-to-workspace-c05f144.md " ")**  
- 
+
 

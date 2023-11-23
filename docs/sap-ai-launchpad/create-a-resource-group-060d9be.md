@@ -6,15 +6,17 @@ As an administrator, you create resource groups to isolate your ML workloads and
 
 
 
-<a name="loio060d9beb42394e33b5f68b9c0458a755__prereq_jab_bpc_rob"/>
+<a name="loio060d9beb42394e33b5f68b9c0458a755__prereq_vsn_vrt_qxb"/>
 
 ## Prerequisites
 
-You have the `aicore_admin_resourcegroup_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have the `aicore_admin_resourcegroup_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
 Your tenant has been onboarded and a default resource group automatically created.
 
 
+
+<a name="loio060d9beb42394e33b5f68b9c0458a755__context_g45_yrt_qxb"/>
 
 ## Context
 
@@ -22,7 +24,7 @@ When creating a resource group, subaccount ID, instance ID, and zone ID are stan
 
 
 
-<a name="loio060d9beb42394e33b5f68b9c0458a755__steps_hey_kwk_hvb"/>
+<a name="loio060d9beb42394e33b5f68b9c0458a755__steps_fsy_bst_qxb"/>
 
 ## Procedure
 
@@ -43,11 +45,11 @@ When creating a resource group, subaccount ID, instance ID, and zone ID are stan
         > ### Note:  
         > Ensure that the resource group ID is unique. If the ID is not unique and is currently in use, then the new resource group and its details will overwrite the existing resource group.
 
-    2.  Choose the ***subaccount\_id*** label key and enter a value.
+    2.  Choose the `subaccount_id` label key and enter a value.
 
-    3.  Choose the ***zone\_id*** label key and enter a value.
+    3.  Choose the `zone_id` label key and enter a value.
 
-    4.  Choose the ***instance\_id*** label key and enter a value.
+    4.  Choose the `instance_id` label key and enter a value.
 
     5.  If additional labels are required, enter their keys and corresponding values.
 
@@ -56,12 +58,12 @@ When creating a resource group, subaccount ID, instance ID, and zone ID are stan
 
     The *All Resource Groups* screen appears listing the new resource group.
 
-6.  **Optional:** Now that the resource group is created, you can link it to an object store secret. To do so, find the resource group and display its details. Choose *Add* to add an object store secret to the resource group. See [Add an Object Store Secret](add-an-object-store-secret-5b4f728.md).
+6.  **Optional:** Now that the resource group is created, you can link it to an object store secret. To do so, find the resource group and display its details. Choose *Add* to add an object store secret to the resource group. See [Add an Object Store Secret](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/add-object-store-secret).
 
 
 
 
-<a name="loio060d9beb42394e33b5f68b9c0458a755__result_tin_hbr_1tb"/>
+<a name="loio060d9beb42394e33b5f68b9c0458a755__result_llz_dst_qxb"/>
 
 ## Results
 

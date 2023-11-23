@@ -62,21 +62,15 @@ For details about parameters, refer to the following table:
 
 Type
 
-
-
 </th>
 <th valign="top" colspan="2">
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -85,21 +79,15 @@ Description
 
 metadata
 
-
-
 </td>
 <td valign="top" colspan="2">
 
 name
 
-
-
 </td>
 <td valign="top">
 
 Name for the service
-
-
 
 </td>
 </tr>
@@ -108,14 +96,10 @@ Name for the service
 
 brokerSecret
 
-
-
 </td>
 <td valign="top" colspan="2">
 
 name
-
-
 
 </td>
 <td valign="top">
@@ -134,14 +118,10 @@ Secret’s name containing credentials to register Service Broker.
 
 usernameKeyRef
 
-
-
 </td>
 <td valign="top">
 
 Key reference for username from registered Secret.
-
-
 
 </td>
 </tr>
@@ -150,14 +130,10 @@ Key reference for username from registered Secret.
 
 passwordKeyRef
 
-
-
 </td>
 <td valign="top">
 
 Key reference for password from registered Secret.
-
-
 
 </td>
 </tr>
@@ -166,28 +142,20 @@ Key reference for password from registered Secret.
 
 capabilities
 
-
-
 </td>
 <td valign="top" rowspan="3">
 
 basic
-
-
 
 </td>
 <td valign="top">
 
 staticDeployments
 
-
-
 </td>
 <td valign="top">
 
 Static global inference endpoints without the need of user deployments \(default: true\).
-
-
 
 </td>
 </tr>
@@ -196,14 +164,10 @@ Static global inference endpoints without the need of user deployments \(default
 
 userDeployments
 
-
-
 </td>
 <td valign="top">
 
 Consumers can create deployments \(default: true\).
-
-
 
 </td>
 </tr>
@@ -212,14 +176,10 @@ Consumers can create deployments \(default: true\).
 
 createExecutions
 
-
-
 </td>
 <td valign="top">
 
 Consumers can create executions \(default: true\).
-
-
 
 </td>
 </tr>
@@ -228,21 +188,15 @@ Consumers can create executions \(default: true\).
 
 logs
 
-
-
 </td>
 <td valign="top">
 
 executions
 
-
-
 </td>
 <td valign="top">
 
 Consumers can access execution logs.
-
-
 
 </td>
 </tr>
@@ -251,14 +205,10 @@ Consumers can access execution logs.
 
 deployments
 
-
-
 </td>
 <td valign="top">
 
 Consumers can access deployment logs.
-
-
 
 </td>
 </tr>
@@ -266,8 +216,6 @@ Consumers can access deployment logs.
 <td valign="top">
 
 by default
-
-
 
 </td>
 <td valign="top">
@@ -287,21 +235,15 @@ Consumer has access to:
 
 serviceCatalog
 
-
-
 </td>
 <td valign="top" colspan="2">
 
 extendCredentials
 
-
-
 </td>
 <td valign="top">
 
 Used to mention to be consumed Service URL. It will reflect in the service-key.
-
-
 
 </td>
 </tr>
@@ -310,14 +252,10 @@ Used to mention to be consumed Service URL. It will reflect in the service-key.
 
 extendCatalog
 
-
-
 </td>
 <td valign="top">
 
 Used to extend service catalog.
-
-
 
 </td>
 </tr>

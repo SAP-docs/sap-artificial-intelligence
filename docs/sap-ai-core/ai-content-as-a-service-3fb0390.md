@@ -32,5 +32,5 @@ The service provider main tenant needs to prepare the service custom resource. T
 -   **[Offboarding](offboarding-1a33323.md "")**  
 
 
-**Parent topic:** [Advanced Features](advanced-features-24f2fbb.md ".")
+**Parent topic:**[Advanced Features](advanced-features-24f2fbb.md ".")
 

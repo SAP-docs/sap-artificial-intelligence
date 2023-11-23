@@ -8,6 +8,8 @@ Argo workflows and serving templates, as well as their execution and deployment,
 
 SAP AI Core provides additional APIs that are runtime-specific. These are available in the AI Core API specification, which is an extension of the AI API specification.
 
+
+
 **Related Information**  
 
 
@@ -15,7 +17,7 @@ SAP AI Core provides additional APIs that are runtime-specific. These are availa
 
 [AI API](https://help.sap.com/doc/2cefe221fddf410aab23dce890b5c603/CLOUD/en-US/index.html)
 
- <a name="loiodbacc5fee07c4e43a656f5d1203654c7"/>
+<a name="loiodbacc5fee07c4e43a656f5d1203654c7"/>
 
 <!-- loiodbacc5fee07c4e43a656f5d1203654c7 -->
 
@@ -76,6 +78,7 @@ json
 			"timeToLiveDeployments": true,
 			"userDeployments": true,
 			"userExecutions": true
+			"executionSchedules": true
 		},
 		"limits": {
 			"deployments": {
@@ -84,10 +87,11 @@ json
 			"executions": {
 				"maxRunningCount": -1
 			},
-						"timeToLiveDeployments": {
-							"minimum": "10m",
-							"maximum": -1
-						}
+			"minimumFrequencyHour": 1,
+			"timeToLiveDeployments": {
+					"minimum": "10m",
+					"maximum": -1
+			}
 		},
 		"version": "2.18.0"
 	},
@@ -121,14 +125,10 @@ Capabilities include the following:
 
 Capability
 
-
-
 </th>
 <th valign="top">
 
 When true, allows users to:
-
-
 
 </th>
 </tr>
@@ -137,14 +137,10 @@ When true, allows users to:
 
 `logs.executions`
 
-
-
 </td>
 <td valign="top">
 
 View logs for an execution
-
-
 
 </td>
 </tr>
@@ -153,14 +149,10 @@ View logs for an execution
 
 `logs.deployments`
 
-
-
 </td>
 <td valign="top">
 
 View logs for a deployment
-
-
 
 </td>
 </tr>
@@ -169,14 +161,10 @@ View logs for a deployment
 
 `multitenant`
 
-
-
 </td>
 <td valign="top">
 
 Use SAP AI Launchpad as a main tenant user \(supports resource groups\)
-
-
 
 </td>
 </tr>
@@ -185,14 +173,10 @@ Use SAP AI Launchpad as a main tenant user \(supports resource groups\)
 
 `shareable`
 
-
-
 </td>
 <td valign="top">
 
 Clients can share one instance
-
-
 
 </td>
 </tr>
@@ -201,14 +185,10 @@ Clients can share one instance
 
 `staticDeployments`
 
-
-
 </td>
 <td valign="top">
 
 Static, always running endpoints for inference are available without the user gaving to start a deployment
-
-
 
 </td>
 </tr>
@@ -217,14 +197,10 @@ Static, always running endpoints for inference are available without the user ga
 
 `userDeployments`
 
-
-
 </td>
 <td valign="top">
 
 Stop, update, or delete a deployment
-
-
 
 </td>
 </tr>
@@ -233,14 +209,10 @@ Stop, update, or delete a deployment
 
 `userExecutions`
 
-
-
 </td>
 <td valign="top">
 
 Stop or delete an execution
-
-
 
 </td>
 </tr>
@@ -249,14 +221,10 @@ Stop or delete an execution
 
 `timeToLiveDeployments`
 
-
-
 </td>
 <td valign="top">
 
 The runtime engine allows defining the time until a deployment is automatically deleted
-
-
 
 </td>
 </tr>
@@ -265,14 +233,10 @@ The runtime engine allows defining the time until a deployment is automatically 
 
 `analytics`
 
-
-
 </td>
 <td valign="top">
 
 Review summary information for all tenants
-
-
 
 </td>
 </tr>
@@ -281,14 +245,22 @@ Review summary information for all tenants
 
 `bulkUpdates`
 
-
-
 </td>
 <td valign="top">
 
 Stop or delete up to 100 executions or deployments at once
 
+</td>
+</tr>
+<tr>
+<td valign="top">
 
+`executionSchedules`
+
+</td>
+<td valign="top">
+
+Create schedules
 
 </td>
 </tr>
@@ -303,14 +275,10 @@ Limits include the following:
 
 Limit
 
-
-
 </th>
 <th valign="top">
 
 Details
-
-
 
 </th>
 </tr>
@@ -319,14 +287,10 @@ Details
 
 `deployments.maxRunningCount`
 
-
-
 </td>
 <td valign="top">
 
 Limits the number of running concurrent deployments in a resource group, if any
-
-
 
 </td>
 </tr>
@@ -335,14 +299,10 @@ Limits the number of running concurrent deployments in a resource group, if any
 
 `executions.maxRunningCount`
 
-
-
 </td>
 <td valign="top">
 
 Limits the number of running concurrent executions in a resource group, if any
-
-
 
 </td>
 </tr>
@@ -351,14 +311,10 @@ Limits the number of running concurrent executions in a resource group, if any
 
 `timeToLiveDeployments.minimum`
 
-
-
 </td>
 <td valign="top">
 
 The minimum possible value for the ttl parameter in a deployment, if supported
-
-
 
 </td>
 </tr>
@@ -367,14 +323,22 @@ The minimum possible value for the ttl parameter in a deployment, if supported
 
 `timeToLiveDeployments.maximum`
 
-
-
 </td>
 <td valign="top">
 
 The maximum possible value for the ttl parameter in a deployment, if supported
 
+</td>
+</tr>
+<tr>
+<td valign="top">
 
+`minimumFrequencyHour`
+
+</td>
+<td valign="top">
+
+The minimum possible value for schedule of an execution, if supported
 
 </td>
 </tr>
@@ -391,14 +355,10 @@ The extensions are:
 
 Extension
 
-
-
 </th>
 <th valign="top">
 
 Details
-
-
 
 </th>
 </tr>
@@ -407,14 +367,10 @@ Details
 
 `analytics`
 
-
-
 </td>
 <td valign="top">
 
 The analytics extension contains endpoints for fetching analytical information of a resource group or tenant
-
-
 
 </td>
 </tr>
@@ -423,14 +379,10 @@ The analytics extension contains endpoints for fetching analytical information o
 
 `metrics`
 
-
-
 </td>
 <td valign="top">
 
 The metrics extension contains endpoints for writing to and reading from metrics endpoints, to store and retrieve metrics generated during executions
-
-
 
 </td>
 </tr>
@@ -439,14 +391,10 @@ The metrics extension contains endpoints for writing to and reading from metrics
 
 `resourceGroups`
 
-
-
 </td>
 <td valign="top">
 
 The resource group extension contains endpoints for managing resource groups
-
-
 
 </td>
 </tr>
@@ -455,14 +403,10 @@ The resource group extension contains endpoints for managing resource groups
 
 `dataset`
 
-
-
 </td>
 <td valign="top">
 
 The dataset extension contains endpoints for uploading and downloading files
-
-
 
 </td>
 </tr>

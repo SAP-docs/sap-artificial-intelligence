@@ -23,7 +23,7 @@
 
 ## Results
 
-You now have your service key, which provides URLs and credentials for accessing the SAP AI Core instance through SAP AI Launchpad Postman, or curl.
+You now have your service key, which provides URLs and credentials for accessing the SAP AI Core instance through SAP AI Launchpad, SAP AI Core toolkit Postman, or curl.
 
 ![](images/Service_Key_Credentials_1e1342e.png)
 
@@ -39,9 +39,9 @@ You now have your service key, which provides URLs and credentials for accessing
 
 
 
-**Parent topic:** [Initial Setup](initial-setup-38c4599.md "You provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Platform. After provisioning, you will have your service key, which provides URLs and credentials for accessing the SAP AI Core instance through SAP AI Launchpad Postman, or curl.")
+**Parent topic:**[Initial Setup](initial-setup-38c4599.md "You provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Platform. After provisioning, you will have your service key, which provides URLs and credentials for accessing the SAP AI Core instance")
 
-**Next:** [Create a Service Instance](create-a-service-instance-34761f9.md "")
+**Next:**[Create a Service Instance](create-a-service-instance-34761f9.md "")
 
-**Previous:** [SAP AI Core Starter Tutorials](sap-ai-core-starter-tutorials-9795b63.md "")
+**Previous:**[Use a Service Key](use-a-service-key-3a97465.md)
 

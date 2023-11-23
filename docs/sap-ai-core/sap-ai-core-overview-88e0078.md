@@ -34,13 +34,13 @@ The SAP AI Core service is intended to be used together with SAP AI Launchpad an
 
 [Figure 1](sap-ai-core-overview-88e0078.md#loio88e007863ca545438e274cbf6ce2d7c6__fig_blw_g1y_xnb) shows these three main components in an overview architecture diagram.
 
-   
+  
   
 **Overview Architecture**
 
 ![Overview of the AI Core landscape](images/Image_AI_Core_Overview_8a6312d.png)
 
-**Parent topic:** [Concepts](concepts-4c6b2da.md "In this section, we'll explore some of the concepts surrounding SAP AI Core.")
+**Parent topic:**[Concepts](concepts-4c6b2da.md "In this section, we'll explore some of the concepts surrounding SAP AI Core.")
 
 **Related Information**  
 

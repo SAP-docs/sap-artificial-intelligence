@@ -18,28 +18,20 @@ You can delete metrics by submitting a DELETE request to the endpoint `/v2/lm/me
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Required
-
-
 
 </th>
 <th valign="top">
 
 Data Type
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -48,28 +40,20 @@ Description
 
 `executionIds`
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
 
 Array of String
 
-
-
 </td>
 <td valign="top">
 
 ID of execution
-
-
 
 </td>
 </tr>
@@ -84,28 +68,20 @@ ID of execution
 
 Field
 
-
-
 </th>
 <th valign="top">
 
 Required
-
-
 
 </th>
 <th valign="top">
 
 Data Type
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -114,28 +90,20 @@ Description
 
 `AI-Resource-Group`
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
 
 String
 
-
-
 </td>
 <td valign="top">
 
 ID of the resource group that contains the execution.
-
-
 
 </td>
 </tr>
@@ -154,14 +122,10 @@ ID of the resource group that contains the execution.
 
 Response Code
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -170,14 +134,10 @@ Description
 
 200
 
-
-
 </td>
 <td valign="top">
 
 Metric resource was successfully deleted
-
-
 
 </td>
 </tr>
@@ -186,14 +146,10 @@ Metric resource was successfully deleted
 
 404
 
-
-
 </td>
 <td valign="top">
 
 The specified resource was not found
-
-
 
 </td>
 </tr>
@@ -227,9 +183,9 @@ The specified resource was not found
 
 1.  Send a DELETE request to the endpoint `{{apiurl}}/v2/lm/metrics`
 2.  On the *Authorization* tab, set the type to *Bearer Token*.
-3.  Set the token value to ***\{\{token\}\}***.
+3.  Set the token value to `{{token}}`.
 
-     ![](images/Bearer_Token_d6813f2.png) 
+    ![](images/Bearer_Token_d6813f2.png)
 
 4.  Set the query parameters in *Params*.
 

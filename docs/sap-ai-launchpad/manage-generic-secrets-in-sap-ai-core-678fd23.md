@@ -26,5 +26,5 @@ For more information, see [Manage Generic Secrets in SAP AI Core](https://help.s
 **Related Information**  
 
 
-
+[Create a Generic Secret](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/1831845910364e97b3a7c6644a9e1f4b.html "A generic secret gives SAP AI Core authorization to utilize your resource group without exposing your credentials.") :arrow_upper_right:
 

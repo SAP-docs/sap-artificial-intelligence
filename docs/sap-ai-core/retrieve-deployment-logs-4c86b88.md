@@ -2,7 +2,7 @@
 
 # Retrieve Deployment Logs
 
-Information about API processing and metrics, are stored and accessed in the deployment and execution logs.
+accessed in the deployment and execution logs.
 
 
 
@@ -45,7 +45,7 @@ For example:
 
 2.  On the *Authorization* tab, set the type to *Bearer Token*.
 
-3.  Set the token value to ***\{\{token\}\}***.
+3.  Set the token value to `{{token}}`.
 
 4.  On the *Header* tab, add the following entry:
 
@@ -57,31 +57,23 @@ For example:
     <th valign="top">
 
     Key
-
-
     
     </th>
     <th valign="top">
 
     Value
-
-
     
     </th>
     </tr>
     <tr>
     <td valign="top">
     
-        `ai-resource-group`
-
-
+    `ai-resource-group`
     
     </td>
     <td valign="top">
     
-         *<Name of your resourceGroup\>* \(in the example, `default` is used\)
-
-
+    *<Name of your resourceGroup\>* \(in the example, `default` is used\)
     
     </td>
     </tr>
@@ -140,12 +132,12 @@ For example, see the following JSON output from the API.
 > } 
 > ```
 
-**Parent topic:** [Use Your Model](use-your-model-7f93e8f.md "You deploy your AI learning model to run inferences against it.")
+**Parent topic:**[Use Your Model](use-your-model-7f93e8f.md "You deploy your AI learning model to run inferences against it.")
 
 **Related Information**  
 
 
-[Choose a Resource Plan](choose-a-resource-plan-8deca74.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
+[Choose a Resource Plan](choose-a-resource-plan-abd672f.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
 
 [Serving Templates](serving-templates-20a8667.md "You use serving templates to manage your serving instances at the level of the main tenant. Serving templates define how a model is to be deployed.")
 
@@ -163,5 +155,5 @@ For example, see the following JSON output from the API.
 
 [Efficiency Features](efficiency-features-9fad26a.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
 
-[Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "Information about API processing and metrics, are stored and accessed in the deployment and execution logs.")
+[Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "accessed in the deployment and execution logs.")
 

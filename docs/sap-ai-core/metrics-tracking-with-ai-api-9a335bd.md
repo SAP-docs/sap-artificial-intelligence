@@ -17,14 +17,10 @@ The following role collections are required to use the AI API to track metrics.
 
 Function
 
-
-
 </th>
 <th valign="top">
 
 Role Collection
-
-
 
 </th>
 </tr>
@@ -32,8 +28,6 @@ Role Collection
 <td valign="top">
 
 Create Metrics
-
-
 
 </td>
 <td valign="top">
@@ -44,16 +38,12 @@ or
 
 `aicore_scenario_editor`
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 View Metrics
-
-
 
 </td>
 <td valign="top">
@@ -63,8 +53,6 @@ View Metrics
 or
 
 `aicore_scenario_viewer`
-
-
 
 </td>
 </tr>

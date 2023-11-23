@@ -20,93 +20,69 @@ The following demonstrates how you can manually track metrics information, and p
     <th valign="top">
 
     Parameter
-
-
     
     </th>
     <th valign="top">
 
     Required
-
-
     
     </th>
     <th valign="top">
 
     Data Type
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
     <tr>
     <td valign="top">
     
-        `executionIds`
-
-
+    `executionIds`
     
     </td>
     <td valign="top">
     
-        Yes
-
-
+    Yes
     
     </td>
     <td valign="top">
     
-        Array of String
-
-
+    Array of String
     
     </td>
     <td valign="top">
     
-        ID of execution for which to list metrics information.
-
-
+    ID of execution for which to list metrics information.
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        `$select`
-
-
+    `$select`
     
     </td>
     <td valign="top">
     
-        No
-
-
+    No
     
     </td>
     <td valign="top">
     
-        Array of String
-
-
+    Array of String
     
     </td>
     <td valign="top">
     
-        Projects only the resources that are specified in the $select parameter, and executionId.
+    Projects only the resources that are specified in the $select parameter, and executionId.
 
-    The supported values of $select are ***metrics***, ***tags*** and ***customInfo*** or any combination of these and ***\****.
+    The supported values of $select are `metrics`, `tags` and `customInfo` or any combination of these and `*`.
 
-    If the value is ***\****, all metric resource data is returned.
-
-
+    If the value is `*`, all metric resource data is returned.
     
     </td>
     </tr>
@@ -120,59 +96,43 @@ The following demonstrates how you can manually track metrics information, and p
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     Required
-
-
     
     </th>
     <th valign="top">
 
     Data Type
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
     <tr>
     <td valign="top">
     
-        `AI-Resource-Group`
-
-
+    `AI-Resource-Group`
     
     </td>
     <td valign="top">
     
-        Yes
-
-
+    Yes
     
     </td>
     <td valign="top">
     
-        String
-
-
+    String
     
     </td>
     <td valign="top">
     
-        ID of the resource group that contains the execution.
-
-
+    ID of the resource group that contains the execution.
     
     </td>
     </tr>
@@ -180,9 +140,9 @@ The following demonstrates how you can manually track metrics information, and p
     
 2.  On the *Authorization* tab, set the type to *Bearer Token*.
 
-3.  Set the token value to ***\{\{token\}\}***.
+3.  Set the token value to `{{token}}`.
 
-     ![](images/Bearer_Token_d6813f2.png) 
+    ![](images/Bearer_Token_d6813f2.png)
 
 4.  Set the query parameters in *Params*.
 
@@ -204,79 +164,59 @@ The following demonstrates how you can manually track metrics information, and p
     <th valign="top">
 
     JSON Field
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
     <tr>
     <td valign="top">
     
-        `customInfo`
-
-
+    `customInfo`
     
     </td>
     <td valign="top">
     
-        Array of dictionary. Each dictionary is a contains custom information in string.
-
-
+    Array of dictionary. Each dictionary is a contains custom information in string.
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        `executionId`
-
-
+    `executionId`
     
     </td>
     <td valign="top">
     
-        ID of the execution, which the metrics belong to.
-
-
+    ID of the execution, which the metrics belong to.
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        `metrics`
-
-
+    `metrics`
     
     </td>
     <td valign="top">
     
-        Array of dictionary of metric.
-
-
+    Array of dictionary of metric.
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        `tags`
-
-
+    `tags`
     
     </td>
     <td valign="top">
     
-         
-
-
+     
     
     </td>
     </tr>
@@ -288,7 +228,7 @@ The following demonstrates how you can manually track metrics information, and p
 > ### Note:  
 > It is possible to use more than one metric in the $select parameter by separating valid entries with a comma.
 
- ![](images/FilterMetrics_5282c12.png)
+![](images/FilterMetrics_5282c12.png)
 
 
 
@@ -563,89 +503,65 @@ curl --location -g --request GET '$AI_API_URL/v2/lm/metrics?$select=tags,customI
     <th valign="top">
 
     Field
-
-
     
     </th>
     <th valign="top">
 
     Required
-
-
     
     </th>
     <th valign="top">
 
     Data Type
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
     <tr>
     <td valign="top">
     
-        `AI-Resource-Group`
-
-
+    `AI-Resource-Group`
     
     </td>
     <td valign="top">
     
-        Yes
-
-
+    Yes
     
     </td>
     <td valign="top">
     
-        String
-
-
+    String
     
     </td>
     <td valign="top">
     
-        ID of the resource group that contains the execution.
-
-
+    ID of the resource group that contains the execution.
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-        `Content-Type`
-
-
+    `Content-Type`
     
     </td>
     <td valign="top">
     
-        Yes
-
-
+    Yes
     
     </td>
     <td valign="top">
     
-        value = `application/merge-patch+json`
-
-
+    value = `application/merge-patch+json`
     
     </td>
     <td valign="top">
     
-         
-
-
+     
     
     </td>
     </tr>
@@ -653,9 +569,9 @@ curl --location -g --request GET '$AI_API_URL/v2/lm/metrics?$select=tags,customI
     
 2.  On the *Authorization* tab, set the type to *Bearer Token*.
 
-3.  Set the token value to ***\{\{token\}\}***.
+3.  Set the token value to `{{token}}`.
 
-     ![](images/Bearer_Token_d6813f2.png) 
+    ![](images/Bearer_Token_d6813f2.png)
 
 4.  Set the *Header*.
 

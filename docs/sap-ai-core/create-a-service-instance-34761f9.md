@@ -10,7 +10,7 @@
 
     You will see a tile for SAP AI Core.
 
-    ![](images/SAP_AI_Core_Tile_on_Service_Marketplace_c6346e1.png) 
+    ![](images/SAP_AI_Core_Tile_on_Service_Marketplace_c6346e1.png)
 
 2.  Open the tile and click *Create*.
 
@@ -39,9 +39,9 @@ When your service instance is created, you can view it on the *Instances and Sub
 
 ![](images/Instances_and_Subscriptions_Page_e198958.png)
 
-**Parent topic:** [Initial Setup](initial-setup-38c4599.md "You provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Platform. After provisioning, you will have your service key, which provides URLs and credentials for accessing the SAP AI Core instance through SAP AI Launchpad Postman, or curl.")
+**Parent topic:**[Initial Setup](initial-setup-38c4599.md "You provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Platform. After provisioning, you will have your service key, which provides URLs and credentials for accessing the SAP AI Core instance")
 
-**Next:** [Add a Service Plan](add-a-service-plan-86002d9.md "")
+**Next:**[Add a Service Plan](add-a-service-plan-86002d9.md "")
 
-**Previous:** [Create a Service Key](create-a-service-key-7323ff4.md "")
+**Previous:**[Create a Service Key](create-a-service-key-7323ff4.md "")
 

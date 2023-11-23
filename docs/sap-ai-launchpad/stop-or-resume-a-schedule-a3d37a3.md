@@ -24,7 +24,7 @@ You can only stop an active schedule or resume an inactive schedule if its end t
 
 2.  Choose from:
 
-    -    *Stop* to stop an active schedule.
+    -   *Stop* to stop an active schedule.
     -   *Resume* to resume an inactive schedule.
 
     The schedule status will change.

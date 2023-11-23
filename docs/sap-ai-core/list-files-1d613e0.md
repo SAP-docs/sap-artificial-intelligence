@@ -12,9 +12,9 @@
 
 2.  On the *Authorization* tab, set the type to *Bearer Token*.
 
-3.  Set the token value to ***\{\{token\}\}***.
+3.  Set the token value to `{{token}}`.
 
-     ![](images/Bearer_Token_d6813f2.png) 
+    ![](images/Bearer_Token_d6813f2.png)
 
 4.  On the *Header* tab, add the following entry:
 
@@ -24,37 +24,29 @@
     <th valign="top">
 
     Key
-
-
     
     </th>
     <th valign="top">
 
     Value
-
-
     
     </th>
     </tr>
     <tr>
     <td valign="top">
     
-         `ai-resource-group` 
-
-
+    `ai-resource-group` 
     
     </td>
     <td valign="top">
     
-         *<Name of your resourceGroup\>* \(in the example, `default` is used\)
-
-
+    *<Name of your resourceGroup\>* \(in the example, `default` is used\)
     
     </td>
     </tr>
     </table>
     
-     ![](images/List_Artifacts_-_AI_Resource_Group_bfc65c0.png) 
+    ![](images/List_Artifacts_-_AI_Resource_Group_bfc65c0.png)
 
 5.  Send the request.
 
@@ -109,7 +101,7 @@ curl --request GET "$AI_API_URL/v2/lm/artifacts" --header "Authorization: Bearer
 > }
 > ```
 
-**Parent topic:** [Manage Files](manage-files-386ba71.md "An artifact refers to data or a file that is produced or consumed by executions or deployments. They are managed through SAP AI Core and your connected object store.")
+**Parent topic:**[Manage Files](manage-files-386ba71.md "An artifact refers to data or a file that is produced or consumed by executions or deployments. They are managed through SAP AI Core and your connected object store.")
 
 **Related Information**  
 

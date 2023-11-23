@@ -6,15 +6,15 @@ Use the *ML Operations* app to manually register a dataset that is stored in you
 
 
 
-<a name="loioa63c2f56360d4174b2120383704ec15c__prereq_lmh_lrd_jab"/>
-
 ## Prerequisites
 
-You have the `artifact.register` role, or you have been assigned a role collection that contains this role. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have the `artifact.register` role, or you have been assigned a role collection that contains this role. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
-Details for the object store secret have been added using the *SAP AI Core Administration* app. See [Add an Object Store Secret](add-an-object-store-secret-5b4f728.md).
+Details for the object store secret have been added using the *SAP AI Core Administration* app. See [Add an Object Store Secret](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/5b4f728c8f21403697728687f96e03c6.html).
 
 
+
+<a name="loioa63c2f56360d4174b2120383704ec15c__context_fxr_sdd_5xb"/>
 
 ## Context
 
@@ -25,11 +25,11 @@ After you've registered a dataset, you can use it as input for configurations in
 
 
 
-<a name="loioa63c2f56360d4174b2120383704ec15c__steps_qkj_n3p_noa"/>
+<a name="loioa63c2f56360d4174b2120383704ec15c__steps_sxz_sdd_5xb"/>
 
 ## Procedure
 
-1.  Choose the resource group. For more information, see [Set Resource Group](set-resource-group-0c07728.md#loio0c077289f29d4147921fb07ab0f68b7f).
+1.  Choose the resource group. For more information, see [Set Resource Group](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/0c077289f29d4147921fb07ab0f68b7f.html).
 
 2.  In the *ML Operations* app, choose *Datasets*.
 
@@ -60,7 +60,7 @@ After you've registered a dataset, you can use it as input for configurations in
 
 
 
-<a name="loioa63c2f56360d4174b2120383704ec15c__result_twq_cvx_vpb"/>
+<a name="loioa63c2f56360d4174b2120383704ec15c__result_fnh_tdd_5xb"/>
 
 ## Results
 

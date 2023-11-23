@@ -8,17 +8,19 @@ A configuration consists of parameters and input artifact references for trainin
 
 
 
-<a name="loiod3de4a46dd7c4538a5f9a4486efcd52e__prereq_b54_nld_jpb"/>
+<a name="loiod3de4a46dd7c4538a5f9a4486efcd52e__prereq_fkt_wpm_1yb"/>
 
 ## Prerequisites
 
-You have either the `mloperations_viewer` or `scenario_configuration_viewer` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have either the `mloperations_viewer` or `scenario_configuration_viewer` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
 
+
+<a name="loiod3de4a46dd7c4538a5f9a4486efcd52e__steps_u4y_wpm_1yb"/>
 
 ## Procedure
 
-1.  Choose the resource group. For more information, see [Set Resource Group](set-resource-group-0c07728.md#loio0c077289f29d4147921fb07ab0f68b7f). Note that configurations are not shared across resource groups.
+1.  Choose the resource group. For more information, see [Set Resource Group](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/0c077289f29d4147921fb07ab0f68b7f.html). Note that configurations are not shared across resource groups.
 
 2.  In the *ML Operations* app, choose *Configurations*.
 

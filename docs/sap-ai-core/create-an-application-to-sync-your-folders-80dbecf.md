@@ -22,7 +22,7 @@ After you have registered your git repository, you need to create an application
 
 Send a POST request to the endpoint `{{apiurl}}/v2/admin/applications` including details of your application::![](images/AIC_e69cb44.png)
 
--   `applicationName`: Set a name for your application. The name must be between 3 and 64 characters long and match ***\[A-Za-z0-9\\-\\\_\]+***.
+-   `applicationName`: Set a name for your application. The name must be between 3 and 64 characters long and match `[A-Za-z0-9\-\_]+`.
 
 -   `repositoryUrl`: The URL of a registered git repository.
 
@@ -67,7 +67,7 @@ curl --location --request POST "$AI_API_URL/v2/admin/applications" \
     }'
 ```
 
--   `applicationName`: Set a name for your application. The name must be between 3 and 64 characters long and match ***\[A-Za-z0-9\\-\\\_\]+***.
+-   `applicationName`: Set a name for your application. The name must be between 3 and 64 characters long and match `[A-Za-z0-9\-\_]+`.
 
 -   `repositoryUrl`: The URL of a registered git repository.
 

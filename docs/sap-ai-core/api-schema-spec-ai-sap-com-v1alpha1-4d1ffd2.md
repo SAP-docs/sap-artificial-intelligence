@@ -19,14 +19,10 @@ ServingTemplate is a type of executable that specifies how a model is to be serv
 
 Field
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -37,8 +33,6 @@ Description
 
 [Kubernetes meta/v1.ObjectMeta](https://v1-20.docs.kubernetes.io/docs/reference/generated/kubernetes-api/v1.20/#objectmeta-v1-meta)
 
-
-
 </td>
 <td valign="top">
 
@@ -47,16 +41,12 @@ Description
 <tr>
 <td valign="top">
 
- `name` 
-
-
+`name` 
 
 </td>
 <td valign="top">
 
 \(Mandatory\) Technical ID of the serving template that is used to uniquely identify the serving template.
-
-
 
 </td>
 </tr>
@@ -67,14 +57,10 @@ Description
 
 [ServingTemplate Metadata Annotations](api-schema-spec-ai-sap-com-v1alpha1-4d1ffd2.md#loio4d1ffd2507e94d9f8690298d88e41671__section_servingtemplate_metadata_annotations)
 
-
-
 </td>
 <td valign="top">
 
 Annotations to define the Scenario and Executable info.
-
-
 
 </td>
 </tr>
@@ -85,14 +71,10 @@ Annotations to define the Scenario and Executable info.
 
 [ServingTemplate Metadata Labels](api-schema-spec-ai-sap-com-v1alpha1-4d1ffd2.md#loio4d1ffd2507e94d9f8690298d88e41671__section_servingtemplate_metadata_labels)
 
-
-
 </td>
 <td valign="top">
 
 Labels to define the Scenario and Executable info.
-
-
 
 </td>
 </tr>
@@ -109,14 +91,10 @@ Labels to define the Scenario and Executable info.
 
 [ServingTemplate Spec](api-schema-spec-ai-sap-com-v1alpha1-4d1ffd2.md#loio4d1ffd2507e94d9f8690298d88e41671__section_servingtemplate_spec)
 
-
-
 </td>
 <td valign="top">
 
 ServingTemplateSpec contains a template for KServe, input parameters and artifacts required to create a KServe CR.
-
-
 
 </td>
 </tr>
@@ -139,78 +117,58 @@ A subset of supported Kubernetes Metadata Annotations
 
 Field
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
 <tr>
 <td valign="top">
 
- `scenarios.ai.sap.com/description` 
-
-
+`scenarios.ai.sap.com/description` 
 
 </td>
 <td valign="top">
 
 A description of the Scenario \(for example, “SAP developers tutorial scenario”\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- `scenarios.ai.sap.com/name` 
-
-
+`scenarios.ai.sap.com/name` 
 
 </td>
 <td valign="top">
 
 The name of the serving template \(for example, “text-clf-tutorial-scenario”\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- `executables.ai.sap.com/description` 
-
-
+`executables.ai.sap.com/description` 
 
 </td>
 <td valign="top">
 
 A description of the serving template. \(for example, “Inference executable for text classification with Scikit-learn”\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- `executables.ai.sap.com/name` 
-
-
+`executables.ai.sap.com/name` 
 
 </td>
 <td valign="top">
 
 The name of the serving template \(for example, “text-clf-infer-tutorial-exec”\)
-
-
 
 </td>
 </tr>
@@ -233,46 +191,34 @@ A subset of supported Kubernetes Metadata Labels
 
 Field
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
 <tr>
 <td valign="top">
 
- `ai.sap.com/version` 
-
-
+`ai.sap.com/version` 
 
 </td>
 <td valign="top">
 
 Version of the Scenario \(for example, “1.0.0”\)
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- `scenarios.ai.sap.com/id` 
-
-
+`scenarios.ai.sap.com/id` 
 
 </td>
 <td valign="top">
 
 Unique ID of the Scenario \(for example, “1234-abcd-efg”\)
-
-
 
 </td>
 </tr>
@@ -295,14 +241,10 @@ ServingTemplate spec is the top level type for this resource.
 
 Field
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -310,8 +252,6 @@ Description
 <td valign="top">
 
 `inputs`
-
-
 
 </td>
 <td valign="top">
@@ -325,14 +265,10 @@ Description
 
 [ServingTemplate Input Parameters](api-schema-spec-ai-sap-com-v1alpha1-4d1ffd2.md#loio4d1ffd2507e94d9f8690298d88e41671__section_input_parameters)
 
-
-
 </td>
 <td valign="top">
 
 Input parameters for the [KServe InferenceService Template](api-schema-spec-ai-sap-com-v1alpha1-4d1ffd2.md#loio4d1ffd2507e94d9f8690298d88e41671__section_kserve_template)
-
-
 
 </td>
 </tr>
@@ -343,14 +279,10 @@ Input parameters for the [KServe InferenceService Template](api-schema-spec-ai-s
 
 [ServingTemplate Input Artifacts](api-schema-spec-ai-sap-com-v1alpha1-4d1ffd2.md#loio4d1ffd2507e94d9f8690298d88e41671__section_input_artifacts)
 
-
-
 </td>
 <td valign="top">
 
 Input artifacts for the [KServe InferenceService Template](api-schema-spec-ai-sap-com-v1alpha1-4d1ffd2.md#loio4d1ffd2507e94d9f8690298d88e41671__section_kserve_template)
-
-
 
 </td>
 </tr>
@@ -367,14 +299,10 @@ Input artifacts for the [KServe InferenceService Template](api-schema-spec-ai-sa
 
 [KServe InferenceService Template](api-schema-spec-ai-sap-com-v1alpha1-4d1ffd2.md#loio4d1ffd2507e94d9f8690298d88e41671__section_kserve_template)
 
-
-
 </td>
 <td valign="top">
 
 KServe CR template
-
-
 
 </td>
 </tr>
@@ -397,62 +325,46 @@ Input parameters required for [KServe InferenceService Template](api-schema-spec
 
 Field
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
 <tr>
 <td valign="top">
 
- `name` 
-
-
+`name` 
 
 </td>
 <td valign="top">
 
 Parameter name
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- `default` 
-
-
+`default` 
 
 </td>
 <td valign="top">
 
 \(Optional\) Default value for the parameter
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- `type` 
-
-
+`type` 
 
 </td>
 <td valign="top">
 
 \(Optional\) Type of the parameter. Only “string” type is supported
-
-
 
 </td>
 </tr>
@@ -475,30 +387,22 @@ Input artifacts required for [KServe InferenceService Template](api-schema-spec-
 
 Field
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
 <tr>
 <td valign="top">
 
- `name` 
-
-
+`name` 
 
 </td>
 <td valign="top">
 
 Artifact name
-
-
 
 </td>
 </tr>
@@ -521,14 +425,10 @@ KServe InferenceService template
 
 Field
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -539,30 +439,22 @@ Description
 
 String
 
-
-
 </td>
 <td valign="top">
 
 KServe API version. For example, `serving.kserve.io/v1beta1`.
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- `metadata` 
-
-
+`metadata` 
 
 </td>
 <td valign="top">
 
 Metadata for KServe InferenceService CR. See [KServe Metadata Annotations](kserve-spec-serving-kserve-io-v1beta1-35bf43d.md#loio35bf43d700784453bd11a8c2a9125b2e__section_kfserving_metadata_annotations) and [KServe Metadata Labels](kserve-spec-serving-kserve-io-v1beta1-35bf43d.md#loio35bf43d700784453bd11a8c2a9125b2e__section_kfserving_metadata_labels). Annotations and labels in metadata can be parameterized by using `{{inputs.parameters.Parameter-Name-Here}}`
-
-
 
 </td>
 </tr>
@@ -573,20 +465,16 @@ Metadata for KServe InferenceService CR. See [KServe Metadata Annotations](kserv
 
 Multiline string
 
-
-
 </td>
 <td valign="top">
 
 A multiline string template for [KServe InferenceServiceSpec](kserve-spec-serving-kserve-io-v1beta1-35bf43d.md#loio35bf43d700784453bd11a8c2a9125b2e__section_inferenceservicespec) with optional placeholders for parameters and artifacts
 
-
-
 </td>
 </tr>
 </table>
 
-**Parent topic:** [Serving Template API Reference](serving-template-api-reference-51b2271.md "")
+**Parent topic:**[Serving Template API Reference](serving-template-api-reference-51b2271.md "")
 
 **Related Information**  
 

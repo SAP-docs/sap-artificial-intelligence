@@ -34,6 +34,6 @@ You have been assigned a role or role collection that grants you access to SAP A
 
     You will be redirected to the initial screen of SAP AI Launchpad.
 
-    ![](images/AIL_Initial_Interface_3743378.png) 
+    ![](images/AIL_Initial_Interface_3743378.png)
 
 

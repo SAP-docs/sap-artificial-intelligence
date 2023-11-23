@@ -8,7 +8,7 @@ You can query metrics by submitting a GET request to the endpoint `/v2/lm/metric
 
 -   `AI-Resource-Group` \(header\) - string – UUID
 -   `executionIds` \(query\) – string – Retrieve metrics based on up to 10 execution IDs \(comma-separated list\)
--   `$select` \(query\) – Selectively retrieve metric resource data, such as metrics and custom info. For example, if the parameter value is a wildcard \(***\****\), then all metric resource data is returned. If the parameter value is ***custom info***, then only custom info data is returned. Values should be entered as an array. Only the values ***metrics***, ***tags***, ***customInfo*** and ***\**** are supported.
+-   `$select` \(query\) – Selectively retrieve metric resource data, such as metrics and custom info. For example, if the parameter value is a wildcard \(`*`\), then all metric resource data is returned. If the parameter value is `custom info`, then only custom info data is returned. Values should be entered as an array. Only the values `metrics`, `tags`, `customInfo` and `*` are supported.
 
 
 
@@ -29,14 +29,10 @@ In this example, the `$select` parameter value is a wildcard \(\*\), so all metr
 
 Response Code
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -45,14 +41,10 @@ Description
 
 200
 
-
-
 </td>
 <td valign="top">
 
 List of tracking metadata, where each item includes metrics, labels, parameters, and tags.
-
-
 
 </td>
 </tr>
@@ -104,14 +96,10 @@ List of tracking metadata, where each item includes metrics, labels, parameters,
 
 Response Code
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -120,14 +108,10 @@ Description
 
 400
 
-
-
 </td>
 <td valign="top">
 
 The specification of the resource was incorrect.
-
-
 
 </td>
 </tr>
@@ -159,14 +143,10 @@ The specification of the resource was incorrect.
 
 Response Code
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -175,14 +155,10 @@ Description
 
 501
 
-
-
 </td>
 <td valign="top">
 
 The operation is not supported.
-
-
 
 </td>
 </tr>

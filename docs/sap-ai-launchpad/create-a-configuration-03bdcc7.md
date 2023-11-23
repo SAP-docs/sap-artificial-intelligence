@@ -8,13 +8,15 @@ A configuration combines parameters, artifacts \(for example, a dataset or model
 
 
 
-<a name="loio03bdcc7fbb0b4e67a7d946692f0fd857__prereq_b54_nld_jpb"/>
+<a name="loio03bdcc7fbb0b4e67a7d946692f0fd857__prereq_adf_vpm_1yb"/>
 
 ## Prerequisites
 
-You have either the `mloperations_editor` or `scenario_configuration_editor` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have either the `mloperations_editor` or `scenario_configuration_editor` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
 
+
+<a name="loio03bdcc7fbb0b4e67a7d946692f0fd857__steps_ypm_vpm_1yb"/>
 
 ## Procedure
 
@@ -68,7 +70,7 @@ You have either the `mloperations_editor` or `scenario_configuration_editor` rol
 
 
 
-<a name="loio03bdcc7fbb0b4e67a7d946692f0fd857__result_g55_whz_hvb"/>
+<a name="loio03bdcc7fbb0b4e67a7d946692f0fd857__result_ozt_vpm_1yb"/>
 
 ## Results
 

@@ -6,7 +6,7 @@ A dataset is a type of artifact which is registered in your AI runtime. A regist
 
 Data is uploaded to your hyperscaler object store as a single file \(such as a `CSV` file\) or as multiple files \(such as images\). The data is then registered as a dataset with a unique ID. You can use the dataset ID in a configuration as an input artifact value in a workflow executable.
 
- SAP AI Launchpad can be used with multiple hyperscaler object stores, such as Amazon S3, OSS, and WebHDFS.
+SAP AI Launchpad can be used with multiple hyperscaler object stores, such as Amazon S3, OSS, and WebHDFS.
 
 Datasets are unique to a resource group.
 

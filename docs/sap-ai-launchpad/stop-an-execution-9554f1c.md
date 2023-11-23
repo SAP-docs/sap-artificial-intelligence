@@ -6,7 +6,7 @@ Stopping an execution releases the computing resources acquired in the AI runtim
 
 
 
-<a name="loio9554f1cd889f4e2c8f0f4065bb5bfbc6__prereq_b54_nld_jpb"/>
+<a name="loio9554f1cd889f4e2c8f0f4065bb5bfbc6__prereq_jzs_dm3_wxb"/>
 
 ## Prerequisites
 
@@ -17,11 +17,11 @@ You have one of the following roles:
 -   `scenario_execution_editor`
 
 
-For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
 
 
-<a name="loio9554f1cd889f4e2c8f0f4065bb5bfbc6__context_rxd_rnd_jpb"/>
+<a name="loio9554f1cd889f4e2c8f0f4065bb5bfbc6__context_ds2_2m3_wxb"/>
 
 ## Context
 
@@ -29,9 +29,11 @@ You can stop an execution if it has a *Running* or *Pending* status. For executi
 
 
 
+<a name="loio9554f1cd889f4e2c8f0f4065bb5bfbc6__steps_bxd_jm3_wxb"/>
+
 ## Procedure
 
-1.  Navigate to the execution's details. See [View an Execution](view-an-execution-33bae6d.md).
+1.  Navigate to the execution's details. See [View an Execution](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/33bae6da5df340d892828b2c673efaea.html).
 
 2.  Choose *Stop* in the header. A *Warning* dialog box appears.
 
@@ -40,7 +42,7 @@ You can stop an execution if it has a *Running* or *Pending* status. For executi
 
 
 
-<a name="loio9554f1cd889f4e2c8f0f4065bb5bfbc6__result_rr1_4nd_jpb"/>
+<a name="loio9554f1cd889f4e2c8f0f4065bb5bfbc6__result_udq_2m3_wxb"/>
 
 ## Results
 

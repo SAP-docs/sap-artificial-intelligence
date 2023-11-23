@@ -6,6 +6,14 @@ You can use your own git repository to version control your SAP AI Core template
 
 
 
+<a name="loiob6681769f191490f8832d3fbb6794e89__section_t3r_qmc_gyb"/>
+
+## Prerequisites
+
+You have completed the Initial Setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
+
+
+
 <a name="loiob6681769f191490f8832d3fbb6794e89__section_tx5_1c3_dxb"/>
 
 ## Context

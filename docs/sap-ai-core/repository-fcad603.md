@@ -53,7 +53,7 @@ print(response)
 {'message': 'Repository has been on-boarded.'
 ```
 
-**Parent topic:** [Troubleshooting](troubleshooting-3da90ba.md "For troubleshooting information, see the following sections:")
+**Parent topic:**[Troubleshooting](troubleshooting-3da90ba.md "For troubleshooting information, see the following sections:")
 
 **Related Information**  
 

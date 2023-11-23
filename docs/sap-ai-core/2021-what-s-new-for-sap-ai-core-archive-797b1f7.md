@@ -15,56 +15,40 @@
 
 Technical Component
 
-
-
 </th>
 <th valign="top">
 
 Capability
-
-
 
 </th>
 <th valign="top">
 
 Environment
 
-
-
 </th>
 <th valign="top">
 
 Title
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 Action
-
-
 
 </th>
 <th valign="top">
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Available as of
-
-
 
 </th>
 </tr>
@@ -73,14 +57,10 @@ Available as of
 
 SAP AI Core
 
-
-
 </td>
 <td valign="top">
 
 Extension Suite - Digital Experience
-
-
 
 </td>
 <td valign="top">
@@ -94,8 +74,6 @@ Extension Suite - Digital Experience
 
 Adjustments to `resourceGroups` API endpoint
 
-
-
 </td>
 <td valign="top">
 
@@ -105,28 +83,20 @@ The `/admin/resourceGroups` endpoint specification has also been enhanced with t
 
 For more information, see the specifications for the AI API and AI Core API.
 
-
-
 </td>
 <td valign="top">
 
 Info only
-
-
 
 </td>
 <td valign="top">
 
 New
 
-
-
 </td>
 <td valign="top">
 
 2021-12-18
-
-
 
 </td>
 </tr>
@@ -135,14 +105,10 @@ New
 
 SAP AI Core
 
-
-
 </td>
 <td valign="top">
 
 Extension Suite - Digital Experience
-
-
 
 </td>
 <td valign="top">
@@ -156,35 +122,25 @@ Extension Suite - Digital Experience
 
 Generic Secrets
 
-
-
 </td>
 <td valign="top">
 
 You can now store generic secrets and use them in executions or deployments. For more information, see [Register Generic Secrets](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/d5fa5c6383b34855b79ce7908689c092.html).
-
-
 
 </td>
 <td valign="top">
 
 Info only
 
-
-
 </td>
 <td valign="top">
 
 New
 
-
-
 </td>
 <td valign="top">
 
 2021-12-03
-
-
 
 </td>
 </tr>
@@ -193,14 +149,10 @@ New
 
 SAP AI Core
 
-
-
 </td>
 <td valign="top">
 
 Extension Suite - Digital Experience
-
-
 
 </td>
 <td valign="top">
@@ -213,8 +165,6 @@ Extension Suite - Digital Experience
 <td valign="top">
 
 AI API Enhancements
-
-
 
 </td>
 <td valign="top">
@@ -231,21 +181,15 @@ AI API Enhancements
 
 Info only
 
-
-
 </td>
 <td valign="top">
 
 Changed
 
-
-
 </td>
 <td valign="top">
 
 2021-10-30
-
-
 
 </td>
 </tr>

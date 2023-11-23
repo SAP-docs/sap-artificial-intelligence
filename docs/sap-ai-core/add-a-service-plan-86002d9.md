@@ -6,7 +6,7 @@
 
 ## Procedure
 
-1.  SAP BTP cockpit, navigate to your global account, and choose *Entitlements* and then *Entity Assignments*.
+1.  In SAP BTP cockpit, navigate to your global account and choose *Entitlements* and then *Entity Assignments*.
 
 2.  From the *Select Entities* box, select your subaccount and click *Select*.
 
@@ -27,11 +27,11 @@
     ![](images/Save_Standard_Plan_58d9353.png)
 
 
-**Parent topic:** [Initial Setup](initial-setup-38c4599.md "You provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Platform. After provisioning, you will have your service key, which provides URLs and credentials for accessing the SAP AI Core instance through SAP AI Launchpad Postman, or curl.")
+**Parent topic:**[Initial Setup](initial-setup-38c4599.md "You provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Platform. After provisioning, you will have your service key, which provides URLs and credentials for accessing the SAP AI Core instance")
 
-**Next:** [Create a Space](create-a-space-4c1190c.md "")
+**Next:**[Create a Space](create-a-space-4c1190c.md "")
 
-**Previous:** [Create a Service Instance](create-a-service-instance-34761f9.md "")
+**Previous:**[Create a Service Instance](create-a-service-instance-34761f9.md "")
 
 **Related Information**  
 

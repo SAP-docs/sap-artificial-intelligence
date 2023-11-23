@@ -14,9 +14,9 @@ A configuration is a collection of parameters, artifact references, and executab
 
 2.  On the *Authorization* tab, set the type to *Bearer Token*.
 
-3.  Set the token value to ***\{\{token\}\}***.
+3.  Set the token value to `{{token}}`.
 
-     ![](images/Bearer_Token_d6813f2.png) 
+    ![](images/Bearer_Token_d6813f2.png)
 
 4.  On the *Header* tab, add the following entries:
 
@@ -26,47 +26,35 @@ A configuration is a collection of parameters, artifact references, and executab
     <th valign="top">
 
     KEY
-
-
     
     </th>
     <th valign="top">
 
     VALUE
-
-
     
     </th>
     </tr>
     <tr>
     <td valign="top">
     
-         `ai-resource-group` 
-
-
+    `ai-resource-group` 
     
     </td>
     <td valign="top">
     
-         *<Name of your resourceGroup\>* \(in the example, `default` is used\)
-
-
+    *<Name of your resourceGroup\>* \(in the example, `default` is used\)
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-         `Content-Type` 
-
-
+    `Content-Type` 
     
     </td>
     <td valign="top">
     
-         ***application/json*** 
-
-
+    `application/json` 
     
     </td>
     </tr>
@@ -135,7 +123,7 @@ curl --request POST "$AI_API_URL/v2/lm/configurations" --header "Authorization: 
 > }
 > ```
 
-**Parent topic:** [Train Your Model](train-your-model-a9ceb06.md "You execute a training workflow to train your AI learning model.")
+**Parent topic:**[Train Your Model](train-your-model-a9ceb06.md "You execute a training workflow to train your AI learning model.")
 
 **Related Information**  
 
@@ -150,6 +138,8 @@ curl --request POST "$AI_API_URL/v2/lm/configurations" --header "Authorization: 
 
 [List Configurations](list-configurations-8074b2a.md "")
 
+[Using Artifact Signatures](using-artifact-signatures-2f02a1d.md "Artifact signatures in the form of a hash can be added to output artifacts from executions.")
+
 [Start Training](start-training-54b44e4.md "")
 
 [Stop Training Instances](stop-training-instances-3d85344.md "")
@@ -158,7 +148,7 @@ curl --request POST "$AI_API_URL/v2/lm/configurations" --header "Authorization: 
 
 [Efficiency Features](efficiency-features-4cb76f7.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
 
-[Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "Information about API processing and metrics, are stored and accessed in the deployment and execution logs.")
+[Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "accessed in the deployment and execution logs.")
 
 [Training Schedules](training-schedules-2b702f8.md "")
 

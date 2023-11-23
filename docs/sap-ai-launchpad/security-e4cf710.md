@@ -4,7 +4,7 @@
 
 Here, we'll explain some of the security aspects of SAP AI Launchpad.
 
- <a name="loiof1d2eb91d9a248ca8c92b0110c76c6f6"/>
+<a name="loiof1d2eb91d9a248ca8c92b0110c76c6f6"/>
 
 <!-- loiof1d2eb91d9a248ca8c92b0110c76c6f6 -->
 
@@ -35,7 +35,7 @@ SAP AI Launchpad stores tenant id \(identity-zone, JWT token's zid\) in applicat
 
 The audit log data stored for your account will be retained for 30 days, after which it will be deleted.
 
- <a name="loioab5939567cf04016854414774fb2291e"/>
+<a name="loioab5939567cf04016854414774fb2291e"/>
 
 <!-- loioab5939567cf04016854414774fb2291e -->
 
@@ -49,7 +49,7 @@ Customer data protection is handled in three ways:
 -   Customer data is protected from malicious access by security technologies that include authentication and authorization.
 -   Customer data is protected from accidental exposure to SAP administrators or support persons by security policies, access controls, and monitoring.
 
- <a name="loio42a8f0fd505d4fdca3ed1dc1de14ca07"/>
+<a name="loio42a8f0fd505d4fdca3ed1dc1de14ca07"/>
 
 <!-- loio42a8f0fd505d4fdca3ed1dc1de14ca07 -->
 
@@ -57,7 +57,7 @@ Customer data protection is handled in three ways:
 
 Customer’s communication with the service, including data upload and download, is protected by encryption using the transport layer security \(TLS\) protocol. SAP services support only the latest protocol versions, TLS v1.2 and later, and strong cipher suites. Customer’s systems must use the supported protocol versions and cipher suites to set up secure communication with the services, and must validate the certificates against the services’ domain names to avoid man-in-the-middle attacks.
 
- <a name="loiodef9ee82675a4cb3a0f718cfc8d940dc"/>
+<a name="loiodef9ee82675a4cb3a0f718cfc8d940dc"/>
 
 <!-- loiodef9ee82675a4cb3a0f718cfc8d940dc -->
 

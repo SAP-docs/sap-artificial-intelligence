@@ -20,7 +20,7 @@ A use case is a scoped project to realize business value through AI technology.
 A scenario is a technical realization of \(part of\) a use case benefitting from using AI technology.
 
 > ### Example:  
-> In the [Example End-to-End Use Case](example-end-to-end-use-case-80e56fc.md) to classify feedback, the ***text-clf-tutorial-scenario*** scenario is used.
+> In the [Example End-to-End Use Case](example-end-to-end-use-case-80e56fc.md) to classify feedback, the `text-clf-tutorial-scenario` scenario is used.
 > 
 > ![](images/Scenarios_List_9658d02.png)
 
@@ -39,14 +39,10 @@ Use the *ML Operations* app components to complete the following:
 
 Lifecycle Tasks for a Scenario \(AI use case\)
 
-
-
 </th>
 <th valign="top">
 
 Component in *ML Operations* app
-
-
 
 </th>
 </tr>
@@ -55,14 +51,10 @@ Component in *ML Operations* app
 
 Set and track values \(dataset and parameters\) for training a model
 
-
-
 </td>
 <td valign="top">
 
 Configurations
-
-
 
 </td>
 </tr>
@@ -71,14 +63,10 @@ Configurations
 
 Train and generate an AI models using configuration settings
 
-
-
 </td>
 <td valign="top">
 
 Executions
-
-
 
 </td>
 </tr>
@@ -87,14 +75,10 @@ Executions
 
 Select the most recently trained model for a deployment pipeline
 
-
-
 </td>
 <td valign="top">
 
 Configurations
-
-
 
 </td>
 </tr>
@@ -103,14 +87,10 @@ Configurations
 
 Deploy the AI model and generate endpoints for consumption using configuration
 
-
-
 </td>
 <td valign="top">
 
 Deployments
-
-
 
 </td>
 </tr>
@@ -162,7 +142,7 @@ To access the app:
 
 ## Role Requirements
 
- *ML Operations* app users should be assigned the following roles:
+*ML Operations* app users should be assigned the following roles:
 
 -   `operations_manager` to access the *ML Operations* app in the side navigation panel
 

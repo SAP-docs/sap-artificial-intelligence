@@ -50,7 +50,7 @@ You can create multiple charts and view them in the *Visual Board*.
 6.  Enter the chart settings:
 
     -   Enter a name and description for the chart.
-    -   In *Chart Settings*, choose ***Models*** as the metrics source.
+    -   In *Chart Settings*, choose `Models` as the metrics source.
     -   In *Comparison Type*, choose your preferred comparison. You can compare metrics to parameters, to the source, or to steps or time. Based on your selection, you'll be prompted to select the metrics and values for comparison.
 
 7.  Choose *Preview* to continue to the preview settings.

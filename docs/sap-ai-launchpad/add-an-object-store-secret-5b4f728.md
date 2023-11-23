@@ -8,15 +8,17 @@ As an administrator, you can add object store secrets for use within your AI pro
 
 
 
-<a name="loio5b4f728c8f21403697728687f96e03c6__prereq_jxh_cq2_fob"/>
+<a name="loio5b4f728c8f21403697728687f96e03c6__prereq_t21_cgz_qxb"/>
 
 ## Prerequisites
 
-You have the `aicore_admin_objectstoresecret_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have the `aicore_admin_objectstoresecret_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
 You have access to the hyperscaler object store over the Internet.
 
 
+
+<a name="loio5b4f728c8f21403697728687f96e03c6__context_vls_chz_qxb"/>
 
 ## Context
 
@@ -26,7 +28,7 @@ Supported cloud object stores include Amazon S3 \(S3\), Alicloud Object Storage 
 
 
 
-<a name="loio5b4f728c8f21403697728687f96e03c6__steps_ply_fmq_yes"/>
+<a name="loio5b4f728c8f21403697728687f96e03c6__steps_zj5_dhz_qxb"/>
 
 ## Procedure
 
@@ -64,8 +66,8 @@ Supported cloud object stores include Amazon S3 \(S3\), Alicloud Object Storage 
 
         For S3:
 
-        -   Choose ***Verify SSL*** to apply the SSL security protocol to data transferred from the object store.
-        -   Choose ***Use HTTPS*** to apply the HTTPS communication protocol to data transferred from the object store.
+        -   Choose `Verify SSL` to apply the SSL security protocol to data transferred from the object store.
+        -   Choose `Use HTTPS` to apply the HTTPS communication protocol to data transferred from the object store.
 
     6.  Enter the secret in `JSON` format. For more information, see [Register Your Object Store Secret](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/b083d73f672c428faac3048b74733546.html).
 
@@ -75,7 +77,7 @@ Supported cloud object stores include Amazon S3 \(S3\), Alicloud Object Storage 
 
 
 
-<a name="loio5b4f728c8f21403697728687f96e03c6__result_ybj_xql_w5b"/>
+<a name="loio5b4f728c8f21403697728687f96e03c6__result_ibj_2hz_qxb"/>
 
 ## Results
 

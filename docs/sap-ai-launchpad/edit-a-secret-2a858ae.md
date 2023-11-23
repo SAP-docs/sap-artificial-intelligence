@@ -4,18 +4,18 @@
 
 
 
-<a name="loio2a858aed9c7b4d8598ecbc8f6982af31__prereq_oop_cq2_rob"/>
+<a name="loio2a858aed9c7b4d8598ecbc8f6982af31__prereq_iqk_3mx_rxb"/>
 
 ## Prerequisites
 
--   You have the `aicore_admin_genericsecret_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md). You can change the secret credentials, but not the secret name or resource group. To change these, delete the existing secret and create a new one.
+-   You have the `aicore_admin_genericsecret_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations). You can change the secret credentials, but not the secret name or resource group. To change these, delete the existing secret and create a new one.
 
 -   You are using the SAP AI Core runtime.
 
 
 
 
-<a name="loio2a858aed9c7b4d8598ecbc8f6982af31__steps_oop_kgy_ysb"/>
+<a name="loio2a858aed9c7b4d8598ecbc8f6982af31__steps_ztm_jmx_rxb"/>
 
 ## Procedure
 
@@ -46,7 +46,7 @@
 
 
 
-<a name="loio2a858aed9c7b4d8598ecbc8f6982af31__result_oop_yr4_xsb"/>
+<a name="loio2a858aed9c7b4d8598ecbc8f6982af31__result_lfs_jmx_rxb"/>
 
 ## Results
 

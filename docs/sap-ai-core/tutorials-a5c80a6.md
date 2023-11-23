@@ -25,6 +25,17 @@ Provision your account, register your keys and set up tools to connect with and 
 
 </dd><dt><b>
 
+[Quick Start for SAP AI Core with VS Code](https://developers.sap.com/tutorials/ai-core-vs-code-toolkit.html)
+
+</b></dt>
+<dd>
+
+Provision your account, register your keys and set up tools to connect with and operate the SAP AI Core SDK. Learn the basics by using SAP AI Core from beginning to end in a simple use case. The necessary codes are all provided directly in the steps of the tutorials, with YAML files made available in GitHub additionally. This tutorial is the starter tutorial using VS Code.
+
+
+
+</dd><dt><b>
+
 [Metrics](https://developers.sap.com/tutorials/ai-core-metrics.html)
 
 </b></dt>

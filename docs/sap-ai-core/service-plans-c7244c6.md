@@ -20,21 +20,15 @@ The following service plans are available:
 
 Service Plan
 
-
-
 </th>
 <th valign="top">
 
 Details
 
-
-
 </th>
 <th valign="top">
 
 Account Type
-
-
 
 </th>
 </tr>
@@ -43,13 +37,10 @@ Account Type
 
 Free
 
-
-
 </td>
 <td valign="top">
 
--   Used for trial and testing purposes.
-
+-   Get to know SAP AI Core using a free service, with limitations.
 -   Only community support is available for free tier service plans and these are not subject to SLAs.
 
 -   Limitations:
@@ -59,16 +50,7 @@ Free
     -   Limited to the Starter AI Core resource plan
     -   Limited to active instance\(s\) of either free or standard plan \(mutually exclusive\) within a subaccount
 
--   Region
-
-    -   **AWS**: Europe \(Frankfurt\)
-
-    -   **AWS**: Europe \(Frankfurt\) EU Access
-
-    -   **AWS**: Japan \(Tokyo\)
-
-    -   **AWS**: U.S. East \(VA\)
-
+-   For region information, see [SAP Discovery Centre](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core?region=all&tab=feature&commercialModel=cpea).
 
 
 > ### Note:  
@@ -76,14 +58,10 @@ Free
 
 For more information, see [Free Tier](free-tier-4533adc.md), the Starter plan in [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md) and [Using Free Service Plans](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/524e1081d8dc4b0f9d055a6bec383ec3.html?q=using%20free%20service%20plans).
 
-
-
 </td>
 <td valign="top">
 
 Enterprise
-
-
 
 </td>
 </tr>
@@ -91,8 +69,6 @@ Enterprise
 <td valign="top">
 
 Standard
-
-
 
 </td>
 <td valign="top">
@@ -108,28 +84,15 @@ Standard
 -   Limitations:
     -   An SAP AI Core standard plan instance cannot be created if there is an active free plan instance
 
--   Region
-
-    -   **AWS**: Europe \(Frankfurt\)
-
-    -   **AWS**: Europe \(Frankfurt\) EU Access
-
-    -   **AWS**: Japan \(Tokyo\)
-
-    -   **AWS**: U.S. East \(VA\)
-
+-   For region information, see [SAP Discovery Centre](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core?region=all&tab=feature&commercialModel=cpea).
 
 
 For more information, see [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md) and [Metering and Pricing](metering-and-pricing-b5c7215.md).
-
-
 
 </td>
 <td valign="top">
 
 Enterprise
-
-
 
 </td>
 </tr>
@@ -143,22 +106,22 @@ Enterprise
 
 Each tenant is assigned a default quota that limits the number of deployments and replicas per deployment. If you reach this quota, your deployment will not be created, and you will be notified. You can free up your quota by deleting existing deployments.
 
-Alternatively, you can request a quota increase by creating a ticket. The `component` name is ***CA-ML-AIC*** and ticket title is ***Request to Increase Quota***. Please include details about the size of your increase, if you want to include deployments, replicas or both, and your subaccount ID.
+Alternatively, you can request a quota increase by creating a ticket. The `component` name is `CA-ML-AIC` and ticket title is `Request to Increase Quota`. Please include details about the size of your increase, if you want to include deployments, replicas or both, and your subaccount ID.
 
--   **[Free Tier](free-tier-4533adc.md "The free tier service plan allows one instance of SAP AI Core that
-		lets you explore the available features and capabilities without cost.")**  
-The free tier service plan allows one instance of SAP AI Core that lets you explore the available features and capabilities without cost.
+-   **[Free Tier](free-tier-4533adc.md "Enable the free tier option to get to know SAP AI Core with usage
+		limits, to familiarize yourself with the service. Note that usage is limited with this option.")**  
+Enable the free tier option to get to know SAP AI Core with usage limits, to familiarize yourself with the service. Note that usage is limited with this option.
 -   **[Metering and Pricing](metering-and-pricing-b5c7215.md "SAP AI Core is metered based on various nonbillable units of measure
 		(UoM), depending on which resources of SAP AI Core are
 		consumed.")**  
 SAP AI Core is metered based on various nonbillable units of measure \(UoM\), depending on which resources of SAP AI Core are consumed.
--   **[Choose a Resource Plan](choose-a-resource-plan-3a06d84.md "You can configure SAP AI Core to use different infrastructure
+-   **[Choose a Resource Plan](choose-a-resource-plan-c58d4e5.md "You can configure SAP AI Core to use different infrastructure
 		resources for
 		different
-		tasks, based on task demand.
+		tasks, based on demand.
 		SAP AI Core provides several preconfigured infrastructure bundles called
-			“resource plans” for this purpose. ")**  
-You can configure SAP AI Core to use different infrastructure resources for different tasks, based on task demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.
+			“resource plans” for this purpose.")**  
+You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.
 -   **[Update from Free Tier to Standard Plan](update-from-free-tier-to-standard-plan-924f892.md "Learn how to update to the SAP AI Core standard plan, after
 		exploring the product in Free Tier.")**  
 Learn how to update to the SAP AI Core standard plan, after exploring the product in Free Tier.
@@ -166,7 +129,7 @@ Learn how to update to the SAP AI Core standard plan, after exploring the produc
 **Related Information**  
 
 
-[Free Tier](free-tier-4533adc.md "The free tier service plan allows one instance of SAP AI Core that lets you explore the available features and capabilities without cost.")
+[Free Tier](free-tier-4533adc.md "Enable the free tier option to get to know SAP AI Core with usage limits, to familiarize yourself with the service. Note that usage is limited with this option.")
 
 [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core?service_plan=standard&region=europe(frankfurt)&tab=service_plan)
 

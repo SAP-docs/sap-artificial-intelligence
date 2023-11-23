@@ -71,7 +71,7 @@ curl --location --request PATCH $AI_API_URL/v2/lm/executions?executionScheduleId
 }'
 ```
 
-**Parent topic:** [Training Schedules](training-schedules-2b702f8.md "")
+**Parent topic:**[Training Schedules](training-schedules-2b702f8.md "")
 
 **Related Information**  
 

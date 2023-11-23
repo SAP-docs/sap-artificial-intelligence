@@ -52,11 +52,11 @@ labels:
     ![](images/solution11image1_d2bc541.png)
 
 2.  When creating the artifact, don’t add the trailing forward slash \(/\) in URL parameter:
-    -   Incorrect usage: ***"url": "ai://yourObjectStoreSecretName/folder/subfolder/"***
-    -   Correct usage: ***"url": "ai://yourObjectStoreSecretName/folder/subfolder"***
+    -   Incorrect usage: `"url": "ai://yourObjectStoreSecretName/folder/subfolder/"`
+    -   Correct usage: `"url": "ai://yourObjectStoreSecretName/folder/subfolder"`
 
 
-**Parent topic:** [Troubleshooting](troubleshooting-3da90ba.md "For troubleshooting information, see the following sections:")
+**Parent topic:**[Troubleshooting](troubleshooting-3da90ba.md "For troubleshooting information, see the following sections:")
 
 **Related Information**  
 

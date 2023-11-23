@@ -29,7 +29,7 @@ You can find a deployment and display its details.
 -   **[Create a Deployment](create-a-deployment-081b1a8.md "A deployment uses a model and data to make a prediction.")**  
 A deployment uses a model and data to make a prediction.
 
- <a name="concept_fys_gff_1xb"/>
+<a name="concept_fys_gff_1xb"/>
 
 <!-- concept\_fys\_gff\_1xb -->
 
@@ -68,14 +68,6 @@ When the inference server scales up from a sleeping state, there is some additio
 ## Scaling to 1
 
 Cold starts can be avoided completely by scaling to `1`. This keeps a single node warm, even when it is not needed, reducing response time. However, it does not offer the consumption and cost savings associated with scaling to 0. For more information, see [Serving Templates](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/20a8667ef19e4de59a4469cb542a7457.html "You use serving templates to manage your serving instances at the level of the main tenant. Serving templates define how a model is to be deployed.") :arrow_upper_right:.
-
-
-
-<a name="concept_fys_gff_1xb__section_al1_mff_1xb"/>
-
-## Duration
-
-The default duration is indefinite, however the `ttl` parameter limits the duration of a deployment to minutes, hours, or days. This parameter allows you to plan the deletion if your model servers and model deployment URL, allowing for an expected period of use and avoiding unnecessary consumption and costs afterwards. For more information, see [Deploy Models](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/dd16e8ef75654dde831e7b812688e4fa.html "") :arrow_upper_right: and [About the AI API](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/716d4c38e3054c93a9d481b51cc66298.html "The AI API lets you manage your AI assets (such as training scripts, data, models, and model servers) across multiple runtimes.") :arrow_upper_right:.
 
 
 

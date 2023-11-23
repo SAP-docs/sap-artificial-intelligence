@@ -8,19 +8,19 @@ You use the *ML Operations* app to list all scenarios for a selected connection.
 
 
 
-<a name="loio6ef1b9ad4ff446cab200b05d2f5a0600__prereq_b54_nld_jpb"/>
+<a name="loio6ef1b9ad4ff446cab200b05d2f5a0600__prereq_glq_wd3_wxb"/>
 
 ## Prerequisites
 
-You have either the `mloperations_viewer` or `scenario_metadata_viewer` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have either the `mloperations_viewer` or `scenario_metadata_viewer` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
 
 
-<a name="loio6ef1b9ad4ff446cab200b05d2f5a0600__steps_nvl_3kp_5nb"/>
+<a name="loio6ef1b9ad4ff446cab200b05d2f5a0600__steps_jcx_wd3_wxb"/>
 
 ## Procedure
 
-1.  Select an AI API connection \(setting resource group is not required\). For more information, see [Set Resource Group](set-resource-group-0c07728.md#loio0c077289f29d4147921fb07ab0f68b7f).
+1.  Select an AI API connection \(setting resource group is not required\). For more information, see [Set Resource Group](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/0c077289f29d4147921fb07ab0f68b7f.html).
 
 2.  Choose the *Scenarios* tile on the *Overview* dashboard, or in the *ML Operations* app, choose *Scenarios*.
 

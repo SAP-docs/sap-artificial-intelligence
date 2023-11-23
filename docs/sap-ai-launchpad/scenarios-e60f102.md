@@ -10,13 +10,34 @@ An executable refers to a template for an AI pipeline, which means there are pla
 
 A scenario is a collection of the following kinds of executables:
 
- Workflow executable
- :   An executable that trains an AI model. A file \(script\) to read datasets and generate a model after training. It can also be used for batch inferencing. For more information, see [Workflow Templates](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/83523ab8b49245bcbc9f1bf0969e32d8.html).
 
-  Serving executable
- :   An executable that serves \(deploys\) an AI model. A file \(script\) to load an AI model and serve it for inferencing \(making predictions\). For more information, see [Serving Templates](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/20a8667ef19e4de59a4469cb542a7457.html).
+<dl>
+<dt><b>
 
- Scenario\(s\) and their contained executables are available across all resource groups. For more information about how to isolate datasets and models for the same scenario, see [Resource Groups](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/26c6c6b50e3f412f8bc0cd6a8ebdb850.html).
+Workflow executable
+
+</b></dt>
+<dd>
+
+An executable that trains an AI model. A file \(script\) to read datasets and generate a model after training. It can also be used for batch inferencing. For more information, see [Workflow Templates](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/83523ab8b49245bcbc9f1bf0969e32d8.html).
+
+
+
+</dd><dt><b>
+
+Serving executable
+
+</b></dt>
+<dd>
+
+An executable that serves \(deploys\) an AI model. A file \(script\) to load an AI model and serve it for inferencing \(making predictions\). For more information, see [Serving Templates](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/20a8667ef19e4de59a4469cb542a7457.html).
+
+
+
+</dd>
+</dl>
+
+Scenario\(s\) and their contained executables are available across all resource groups. For more information about how to isolate datasets and models for the same scenario, see [Resource Groups](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/26c6c6b50e3f412f8bc0cd6a8ebdb850.html).
 
 -   **[View a Scenario](view-a-scenario-6ef1b9a.md "You use the ML
                                     Operations app to

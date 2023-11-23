@@ -21,14 +21,10 @@ Users interact with the various repositories, systems, and objects when working 
 
 What
 
-
-
 </th>
 <th valign="top">
 
 Why
-
-
 
 </th>
 </tr>
@@ -37,14 +33,10 @@ Why
 
 Git repo
 
-
-
 </td>
 <td valign="top">
 
 For storing training and serving workflows and templates
-
-
 
 </td>
 </tr>
@@ -53,14 +45,10 @@ For storing training and serving workflows and templates
 
 Hyperscaler storage
 
-
-
 </td>
 <td valign="top">
 
 For storage of input and output artifacts, such as training data and models \(for example, SAP BTP Object Store Service\)
-
-
 
 </td>
 </tr>
@@ -69,14 +57,10 @@ For storage of input and output artifacts, such as training data and models \(fo
 
 Docker repo
 
-
-
 </td>
 <td valign="top">
 
 For custom Docker images referenced in the templates
-
-
 
 </td>
 </tr>
@@ -85,14 +69,10 @@ For custom Docker images referenced in the templates
 
 Kubernetes \(K8s\)
 
-
-
 </td>
 <td valign="top">
 
 The K8s cluster orchestrates and scales the pods, which are used in AI pipelines. Resource group isolation is based on a K8s namespace.
-
-
 
 </td>
 </tr>
@@ -101,14 +81,10 @@ The K8s cluster orchestrates and scales the pods, which are used in AI pipelines
 
 KServing \(K\)
 
-
-
 </td>
 <td valign="top">
 
 For optimized deployments of machine learning models. Deployment templates use KServe notation.
-
-
 
 </td>
 </tr>
@@ -116,8 +92,6 @@ For optimized deployments of machine learning models. Deployment templates use K
 <td valign="top">
 
 AI API
-
-
 
 </td>
 <td valign="top">
@@ -136,14 +110,10 @@ For managing your artifacts and workflows \(such as training scripts, data, mode
 
 Argo Workflows
 
-
-
 </td>
 <td valign="top">
 
 A container native, workflow engine for Kubernetes.
-
-
 
 </td>
 </tr>
@@ -152,14 +122,10 @@ A container native, workflow engine for Kubernetes.
 
 SAP AI Launchpad
 
-
-
 </td>
 <td valign="top">
 
 SAP AI Launchpad is a multitenant software as a service \(SaaS\) application in SAP Business Technology Platform. Customers and partners can use SAP AI Launchpad to manage AI use cases \(scenarios\) across multiple instances of AI runtimes \(such as SAP AI Core\).
-
-
 
 </td>
 </tr>
@@ -212,7 +178,7 @@ SAP AI Launchpad is a multitenant software as a service \(SaaS\) application in 
 
 ![](images/ai_core_git_ops_599438b.png)
 
-**Parent topic:** [Concepts](concepts-4c6b2da.md "In this section, we'll explore some of the concepts surrounding SAP AI Core.")
+**Parent topic:**[Concepts](concepts-4c6b2da.md "In this section, we'll explore some of the concepts surrounding SAP AI Core.")
 
 **Related Information**  
 

@@ -8,13 +8,15 @@ As an administrator, you can add multiple connections to different instances of 
 
 
 
-<a name="loio71dfe2cab0e94cf5bec9d707140ea0d1__prereq_jxh_cq2_rpb"/>
+<a name="loio71dfe2cab0e94cf5bec9d707140ea0d1__prereq_knz_l1p_fyb"/>
 
 ## Prerequisites
 
-You have the `connections_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have the `connections_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
 
+
+<a name="loio71dfe2cab0e94cf5bec9d707140ea0d1__steps_jvk_q1p_fyb"/>
 
 ## Procedure
 
@@ -57,11 +59,9 @@ You have the `connections_editor` role or a role collection that contains it. Fo
 
 
 
-<a name="loio71dfe2cab0e94cf5bec9d707140ea0d1__result_hyt_gwm_5nb"/>
+<a name="loio71dfe2cab0e94cf5bec9d707140ea0d1__result_aj3_s1p_fyb"/>
 
 ## Results
 
 The new connection appears in the *Workspaces* app.
-
-To manage repositories, applications, and docker registry secrets for the new connection, see [Administration](administration-cb4dd1e.md).
 

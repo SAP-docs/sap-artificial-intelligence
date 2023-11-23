@@ -16,7 +16,7 @@ The following is an example of a workflow executable.
 -   The scenario name is included in the menu path.
 -   The executable name, executable ID, description, and version are displayed in the header.
 
--   The *Deployable* field indicates whether the executable is intended for training or deployment purposes. A ***No*** value indicates that the executable is intended for training.
+-   The *Deployable* field indicates whether the executable is intended for training or deployment purposes. A `No` value indicates that the executable is intended for training.
 
 -   The *Input Artifacts* section contains the dataset.
 

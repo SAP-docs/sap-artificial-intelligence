@@ -106,7 +106,7 @@ If you are already using a personal access token, proceed as follows:
 3.  Generate a GitHub personal access tokenand use it to onboard your git repo to SAP AI Core as before. For more information, see [Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 4.  Sync your application again.
 
-**Parent topic:** [Troubleshooting](troubleshooting-3da90ba.md "For troubleshooting information, see the following sections:")
+**Parent topic:**[Troubleshooting](troubleshooting-3da90ba.md "For troubleshooting information, see the following sections:")
 
 **Related Information**  
 

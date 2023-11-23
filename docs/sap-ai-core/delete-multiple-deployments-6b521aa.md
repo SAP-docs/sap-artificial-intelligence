@@ -117,7 +117,7 @@ Update the request body to:
 > 
 > ```
 
-**Parent topic:** [Delete Deployments](delete-deployments-0193d17.md " ")
+**Parent topic:**[Delete Deployments](delete-deployments-0193d17.md " ")
 
 **Related Information**  
 

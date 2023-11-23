@@ -14,7 +14,7 @@ As an administrator, you can delete, update, or refresh a connection using the *
 
 You have the `connections_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
 
- <a name="loio79c1de643cd5478194cae46505e84026"/>
+<a name="loio79c1de643cd5478194cae46505e84026"/>
 
 <!-- loio79c1de643cd5478194cae46505e84026 -->
 
@@ -61,7 +61,7 @@ The updated connection appears in the *Workspaces* app.
 
 To manage repositories, applications, and docker registry secrets for the connection, see [Administration](administration-cb4dd1e.md).
 
- <a name="loiofc28f574020a466e8b03b8805055eb79"/>
+<a name="loiofc28f574020a466e8b03b8805055eb79"/>
 
 <!-- loiofc28f574020a466e8b03b8805055eb79 -->
 

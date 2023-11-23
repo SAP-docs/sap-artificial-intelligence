@@ -40,244 +40,182 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     <th valign="top">
 
     Relevance
-
-
     
     </th>
     <th valign="top">
 
     Default Role Collection
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     <th valign="top">
 
     Includes Roles
-
-
     
     </th>
     </tr>
     <tr>
     <td valign="top">
-
-     SAP AI Launchpad 
-
-
+    
+    SAP AI Launchpad 
     
     </td>
     <td valign="top">
-
-     `ailaunchpad_connections_editor` 
-
-
+    
+    `ailaunchpad_connections_editor` 
     
     </td>
     <td valign="top">
-
+    
     Provides roles to view, create, edit, and delete connections to your AI runtime \(for example, SAP AI Core\)
-
-
     
     </td>
     <td valign="top">
-
+    
     `viewer`
 
     `connections_editor`
-
-
     
     </td>
     </tr>
     <tr>
     <td valign="top">
-
-     SAP AI Launchpad 
-
-
+    
+    SAP AI Launchpad 
     
     </td>
     <td valign="top">
-
-     `ailaunchpad_allow_all_resourcegroups` 
-
-
+    
+    `ailaunchpad_allow_all_resourcegroups` 
     
     </td>
     <td valign="top">
-
+    
     Provides access to all resource groups
-
-
     
     </td>
     <td valign="top">
-
-     `allow_all_resourcegroups` 
-
-
+    
+    `allow_all_resourcegroups` 
     
     </td>
     </tr>
     <tr>
     <td valign="top">
-
-     *ML Operations* app
-
-
+    
+    *ML Operations* app
     
     </td>
     <td valign="top">
-
-     `ailaunchpad_mloperations_viewer` 
-
-
+    
+    `ailaunchpad_mloperations_viewer` 
     
     </td>
     <td valign="top">
-
+    
     Provides roles to view all contents of scenarios and resource groups
-
-
     
     </td>
     <td valign="top">
-
+    
     `viewer`
 
     `mloperations_viewer`
-
-
     
     </td>
     </tr>
     <tr>
     <td valign="top">
-
-     *ML Operations* app
-
-
+    
+    *ML Operations* app
     
     </td>
     <td valign="top">
-
-     `ailaunchpad_mloperations_editor` 
-
-
+    
+    `ailaunchpad_mloperations_editor` 
     
     </td>
     <td valign="top">
-
+    
     Provides roles to view all contents of scenarios, and to view and edit contents of resource groups
-
-
     
     </td>
     <td valign="top">
-
+    
     `viewer`
 
     `mloperations_editor`
 
     `artifact.register`
-
-
     
     </td>
     </tr>
     <tr>
     <td valign="top">
-
+    
     *SAP AI Core Administration* app
-
-
     
     </td>
     <td valign="top">
-
+    
     `ailaunchpad_aicore_admin_viewer`
-
-
     
     </td>
     <td valign="top">
-
+    
     Provides roles to view authentications required for AI workflows involving SAP AI Core \(AI runtime\)
-
-
     
     </td>
     <td valign="top">
-
-     `aicore_admin_viewer_all` 
-
-
+    
+    `aicore_admin_viewer_all` 
     
     </td>
     </tr>
     <tr>
     <td valign="top">
-
+    
     *SAP AI Core Administration* app
-
-
     
     </td>
     <td valign="top">
-
+    
     `ailaunchpad_aicore_admin_editor`
-
-
     
     </td>
     <td valign="top">
-
+    
     Provides roles to edit authentications required for AI workflows involving SAP AI Core \(AI runtime\)
-
-
     
     </td>
     <td valign="top">
-
-     `aicore_admin_editor_all` 
-
-
+    
+    `aicore_admin_editor_all` 
     
     </td>
     </tr>
     <tr>
     <td valign="top">
-
-     *Functions Explorer* app
-
-
+    
+    *Functions Explorer* app
     
     </td>
     <td valign="top">
-
-     `ailaunchpad_functions_explorer_viewer_v2` 
-
-
+    
+    `ailaunchpad_functions_explorer_viewer_v2` 
     
     </td>
     <td valign="top">
-
+    
     Provides roles to view scenarios and all ML resources of a scenario
-
-
     
     </td>
     <td valign="top">
-
+    
     `viewer`
 
     `connections_viewer`
@@ -297,35 +235,27 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     `scenario_artifact_viewer`
 
     `scenario_metric_viewer`
-
-
     
     </td>
     </tr>
     <tr>
     <td valign="top">
-
-     *Functions Explorer* 
-
-
+    
+    *Functions Explorer* 
     
     </td>
     <td valign="top">
-
-     `ailaunchpad_functions_explorer_editor_v2` 
-
-
+    
+    `ailaunchpad_functions_explorer_editor_v2` 
     
     </td>
     <td valign="top">
-
+    
     Edit scenarios and all ML resources of a scenario
-
-
     
     </td>
     <td valign="top">
-
+    
     `viewer`
 
     `connections_viewer`
@@ -345,8 +275,6 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     `scenario_job_editor`
 
     `scenario_artifact_editor`
-
-
     
     </td>
     </tr>

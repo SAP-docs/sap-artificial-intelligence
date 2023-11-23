@@ -4,7 +4,7 @@
 
 # Assign Connection to Workspace
 
- 
+
 
 
 
@@ -25,7 +25,7 @@
 
 Use the *Workspaces* app to select a connection \(subject to XSUAA roles\). Once a connection is selected, the *Functions Explorer* app is available for AI operations, such as training models on the available AI use cases.
 
- <a name="task_kyh_xhv_xqb"/>
+<a name="task_kyh_xhv_xqb"/>
 
 <!-- task\_kyh\_xhv\_xqb -->
 

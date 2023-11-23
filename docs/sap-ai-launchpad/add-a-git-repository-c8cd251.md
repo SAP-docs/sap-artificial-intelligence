@@ -15,7 +15,7 @@ As a system administrator, you can add Git repositories which can be used within
 -   If you want to onboard a git repository hosted on GitLab, make sure that the repository URL contains the `.git` suffix.
 -   Secrets are not permitted in your repository. If secrets are used, it is not possible to synchronize content.
 
-You have the `aicore_admin_repositories_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have the `aicore_admin_repositories_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
 > ### Note:  
 > When you synchronize resources, make sure that there are no naming collisions. This is particularly important if you use multiple repositories or applications in one tenant. If you experience difficulties during synchronization, we recommend that you use only one repository or application per tenant.

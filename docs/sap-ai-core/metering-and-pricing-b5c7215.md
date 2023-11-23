@@ -13,21 +13,15 @@ The following resources and nonbillable UoMs are available:
 
 Resource Type
 
-
-
 </th>
 <th valign="top">
 
 Infrastructure Resource
 
-
-
 </th>
 <th valign="top">
 
 Unit of Measure
-
-
 
 </th>
 </tr>
@@ -36,21 +30,15 @@ Unit of Measure
 
 Compute
 
-
-
 </td>
 <td valign="top">
 
 Starter Instance
 
-
-
 </td>
 <td valign="top" rowspan="7">
 
 Node hour
-
-
 
 </td>
 </tr>
@@ -59,16 +47,12 @@ Node hour
 
 Basic Instance
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Basic.8x Instance
-
-
 
 </td>
 </tr>
@@ -77,16 +61,12 @@ Basic.8x Instance
 
 Infer-S Instance
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Infer-M Instance
-
-
 
 </td>
 </tr>
@@ -95,16 +75,12 @@ Infer-M Instance
 
 Infer-L Instance
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Train-L Instance
-
-
 
 </td>
 </tr>
@@ -113,21 +89,15 @@ Train-L Instance
 
 Storage
 
-
-
 </td>
 <td valign="top">
 
 Standard SSD Volume
 
-
-
 </td>
 <td valign="top">
 
 gigabyte hour
-
-
 
 </td>
 </tr>
@@ -136,21 +106,15 @@ gigabyte hour
 
 Baseline
 
-
-
 </td>
 <td valign="top">
 
 Fixed cluster resources \(instances, storage, SAP HANA, Kubernetes, DevOps, support, and so on\)
 
-
-
 </td>
 <td valign="top">
 
 Tenant hour
-
-
 
 </td>
 </tr>

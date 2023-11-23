@@ -2,7 +2,7 @@
 
 # Initial Setup
 
-You provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Platform. After provisioning, you will have your service key, which provides URLs and credentials for accessing the SAP AI Core instance through SAP AI Launchpad Postman, or curl.
+You provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Platform. After provisioning, you will have your service key, which provides URLs and credentials for accessing the SAP AI Core instance
 
 
 
@@ -19,7 +19,7 @@ You provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Pl
 
 ## Context
 
-The SAP AI Core service is a tenant-aware reuse service. It isolates tenants based on the ID of the zone\(representing the subaccount\). The SAP AI Core service instance is created within a subaccount. Each subaccount represents an SAP AI Core tenant.
+The SAP AI Core service is a tenant-aware reuse service. It isolates tenants based on the ID of the zone \(representing the subaccount\). The SAP AI Core service instance is created within a subaccount. Each subaccount represents an SAP AI Core tenant.
 
 > ### Note:  
 > The SAP AI Core service does not isolate tenants based on the service instance ID. If you create multiple service instances within the same subaccount, all of them will reference the same SAP AI Core tenant.
@@ -40,6 +40,8 @@ The steps below guide you through the provisioning procedure, Alternatively, a b
 
 6.  [Create a Service Key](create-a-service-key-7323ff4.md "")  
 
-7.  [SAP AI Core Starter Tutorials](sap-ai-core-starter-tutorials-9795b63.md "")  
+7.  [Use a Service Key](use-a-service-key-3a97465.md)  
+
+8.  [SAP AI Core Starter Tutorials](sap-ai-core-starter-tutorials-9795b63.md "")  
 
 

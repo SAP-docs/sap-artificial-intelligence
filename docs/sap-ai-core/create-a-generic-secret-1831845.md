@@ -14,6 +14,14 @@ To create a generic secret in a resource group, send a POST request to the endpo
 
 
 
+<a name="loio1831845910364e97b3a7c6644a9e1f4b__section_t3r_qmc_gyb"/>
+
+## Prerequisites
+
+You have completed the Initial Setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
+
+
+
 <a name="loio1831845910364e97b3a7c6644a9e1f4b__section_apy_mvk_4rb"/>
 
 ## Using Postman
@@ -23,7 +31,7 @@ To create a generic secret in a resource group, send a POST request to the endpo
 
     ```
     {
-    "name": "my-generic-secret",
+    "name": "MY_GENERIC_SECRET",
     "data": {
     		"some-credential": "bXktc2VjcmV0LWNyZWRlbnRpYWw=",
     		"other-credentials": "bXktc2VjcmV0LW90aGVyLWNyZWRlbnRpYWw="
@@ -31,13 +39,16 @@ To create a generic secret in a resource group, send a POST request to the endpo
     }
     ```
 
+    > ### Note:  
+    > The secret name is written without hyphens to make it simple to consume as a Unix environment variable later. It is written in capitals as is convention.
+
     -   `name`: Set the name of your generic secret.
     -   `data`: Enter a JSON string that represents your generic secret.
 
 3.  Specify the scope of the request via the header `AI-Tenant-Scope` and `AI-Resource-Group`:
 
-    -   ***AI-Tenant-Scope*** : ***true***. The operation will be performed at the main tenant level.
-    -   ***AI-Resource-Group*** : ****<resource-group-name\>****. The operation will be performed at the resource-group level.
+    -   `AI-Tenant-Scope` : `true`. The operation will be performed at the main tenant level.
+    -   `AI-Resource-Group` : <code><i class="varname">&lt;resource-group-name&gt;</i></code>. The operation will be performed at the resource-group level.
 
     In this example, we are using the resource-group level.
 
@@ -55,8 +66,8 @@ To create a generic secret in a resource group, send a POST request to the endpo
 
 Submit a POST request to the endpoint `v2/admin/secrets` and include the name of your generic secret and credentials. Specify the scope through the `AI-Tenant-Scope` and `AI-Resource-Group`:
 
--   ***AI-Tenant-Scope*** : ***true***. The operation will be performed at the main tenant level.
--   ***AI-Resource-Group*** : ****<resource-group-name\>****. The operation will be performed at the resource-group level.
+-   `AI-Tenant-Scope` : `true`. The operation will be performed at the main tenant level.
+-   `AI-Resource-Group` : <code><i class="varname">&lt;resource-group-name&gt;</i></code>. The operation will be performed at the resource-group level.
 
 ```
 curl --location --request POST "$AI_API_URL/v2/admin/secrets" \
@@ -64,10 +75,13 @@ curl --location --request POST "$AI_API_URL/v2/admin/secrets" \
 --header 'Content-Type: application/json' \
 --header 'AI-Resource-Group: default' \
 --data-raw '{
-	"name": "my-generic-secret",
+	"name": "MY_GENERIC_SECRET",
 	"data": {
 		"some-credential": "bXktc2Vuc2l0aXZlLWRhdGE="
 			}
 }'					
 ```
+
+> ### Note:  
+> The secret name is written without hyphens to make it simple to consume as a Unix environment variable later. It is written in capitals as is convention.
 

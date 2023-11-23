@@ -10,7 +10,7 @@
 
 You want to stop and delete a deployment but you are unable to because the deployment status is “Unknown”. You have tried to submit a PATCH request as follows:
 
-***PATCH***`{{apiurl}}/lm/deployments/d4fec9c24c54f87e`
+`PATCH``{{apiurl}}/lm/deployments/d4fec9c24c54f87e`
 
 However, you receive the following response:
 
@@ -31,11 +31,11 @@ However, you receive the following response:
 
 1.  Find out why your deployment status is “Unknown” by using the endpoint:
 
-    ***GET*** `{{apiurl}}/v2/lm/deployments/{{deploymentid}}`
+    `GET` `{{apiurl}}/v2/lm/deployments/{{deploymentid}}`
 
 2.  Delete the deployment without trying to stop it \(stopping a deployment is necessary only when it's running\):
 
-    ***DELETE*** `{{apiurl}}/v2/lm/deployments/{{deploymentid}}`
+    `DELETE` `{{apiurl}}/v2/lm/deployments/{{deploymentid}}`
 
 
 
@@ -59,7 +59,7 @@ However, you receive the following response:
 
 This message appears when you have just started the deployment. Wait a few minutes and the message will resolve itself automatically.
 
-**Parent topic:** [Troubleshooting](troubleshooting-3da90ba.md "For troubleshooting information, see the following sections:")
+**Parent topic:**[Troubleshooting](troubleshooting-3da90ba.md "For troubleshooting information, see the following sections:")
 
 **Related Information**  
 

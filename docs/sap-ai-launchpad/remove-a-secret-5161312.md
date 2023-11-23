@@ -6,15 +6,17 @@ As a system administrator, you can remove Docker registry secrets used within yo
 
 
 
-<a name="loio5161312a87b34805868b00404e7640d4__prereq_zoe_cq2_rob"/>
+<a name="loio5161312a87b34805868b00404e7640d4__prereq_qmn_vgx_rxb"/>
 
 ## Prerequisites
 
-You have the `aicore_admin_dockerregistrysecret_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have the `aicore_admin_dockerregistrysecret_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
 You have access to the Docker registry over the Internet.
 
 
+
+<a name="loio5161312a87b34805868b00404e7640d4__context_f3s_vgx_rxb"/>
 
 ## Context
 
@@ -22,7 +24,7 @@ You remove a secret if the name is no longer valid or contains errors, or if the
 
 
 
-<a name="loio5161312a87b34805868b00404e7640d4__steps_zoe_kgy_ysb"/>
+<a name="loio5161312a87b34805868b00404e7640d4__steps_dcx_vgx_rxb"/>
 
 ## Procedure
 
@@ -43,7 +45,7 @@ You remove a secret if the name is no longer valid or contains errors, or if the
 
 
 
-<a name="loio5161312a87b34805868b00404e7640d4__result_zoe_yr4_xsb"/>
+<a name="loio5161312a87b34805868b00404e7640d4__result_lmb_wgx_rxb"/>
 
 ## Results
 

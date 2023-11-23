@@ -63,7 +63,7 @@
     ![](images/createout_11bc47c.png)
 
 
-**Parent topic:** [Training Schedules](training-schedules-2b702f8.md "")
+**Parent topic:**[Training Schedules](training-schedules-2b702f8.md "")
 
 **Related Information**  
 

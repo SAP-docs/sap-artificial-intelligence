@@ -203,7 +203,7 @@
 > You can create multiple secrets using different values for `name`, but you must create a default first.
 
 > ### Tip:  
-> The `pathPrefix` is useful if you share the same bucket for different projects. You can set the name of your project folder to ***my-ml-project1***, for example. All data will then be stored in that folder.
+> The `pathPrefix` is useful if you share the same bucket for different projects. You can set the name of your project folder to `my-ml-project1`, for example. All data will then be stored in that folder.
 
 > ### Note:  
 > If the `AI-Resource-Group` header is not specified, the *<Resource Group\>* is assigned the value `"default"` automatically.

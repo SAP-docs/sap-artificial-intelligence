@@ -1,7 +1,5 @@
 <!-- loio760889ab809841c8a8905ca492f902cb -->
 
-<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
-
 # What Is SAP AI Launchpad?
 
 Learn more about SAP AI Launchpad on SAP BTP.
@@ -11,9 +9,9 @@ SAP AI Launchpad is a multitenant software as a service \(SaaS\) application in 
 > ### Tip:  
 > The English version of this guide is open for contributions and feedback using GitHub. This allows you to get in contact with responsible authors of SAP Help Portal pages and the development team to discuss documentation-related issues. To contribute to this guide, or to provide feedback, choose the corresponding option on SAP Help Portal:
 > 
-> -   :pencil2:: Contribute to a documentation page. This option opens a pull request on GitHub.
+> -   *Feedback* \> *Create issue*: Provide feedback about a documentation page. This option opens an issue on GitHub.
 > 
-> -   <span class="SAP-icons"></span> Feedback: Provide feedback about a documentation page. This option opens an issue on GitHub.
+> -   *Feedback* \> *Edit page*: Contribute to a documentation page. This option opens a pull request on GitHub.
 > 
 > 
 > You need a GitHub account to use these options.
@@ -43,28 +41,73 @@ This service is available in the SAP BTP, Cloud Foundry environment.
 
 ## Features
 
-  Integrate with AI runtime instances 
- :   Add connections to one or more AI runtime instances and easily switch between them to carry out further actions.
 
-   Work with resource groups of SAP AI Core 
- :   Access your resource groups from your SAP AI Core runtime and perform actions only on the AI assets that they contain \(for example, models, executions, and deployments\).
+<dl>
+<dt><b>
 
-   Manage the lifecycle of AI use cases 
- :   Explore and manage the lifecycle of all your AI use cases. The lifecycle includes training and deploying AI models to generate endpoints for online predictions.
+Integrate with AI runtime instances 
 
-   Access statistics on your use cases 
- :   View statistics about your AI use cases \(scenarios\) and how they are consumed. By analyzing these statistics, you can better estimate your computing needs for your AI runtimes.
+</b></dt>
+<dd>
 
-   Manage administration for SAP AI Core 
- :   Manage administration tasks for your SAP AI Core runtime, such as the authentications required in your AI workflows.
+Add connections to one or more AI runtime instances and easily switch between them to carry out further actions.
 
- 
+
+
+</dd><dt><b>
+
+Work with resource groups of SAP AI Core 
+
+</b></dt>
+<dd>
+
+Access your resource groups from your SAP AI Core runtime and perform actions only on the AI assets that they contain \(for example, models, executions, and deployments\).
+
+
+
+</dd><dt><b>
+
+Manage the lifecycle of AI use cases 
+
+</b></dt>
+<dd>
+
+Explore and manage the lifecycle of all your AI use cases. The lifecycle includes training and deploying AI models to generate endpoints for online predictions.
+
+
+
+</dd><dt><b>
+
+Access statistics on your use cases 
+
+</b></dt>
+<dd>
+
+View statistics about your AI use cases \(scenarios\) and how they are consumed. By analyzing these statistics, you can better estimate your computing needs for your AI runtimes.
+
+
+
+</dd><dt><b>
+
+Manage administration for SAP AI Core 
+
+</b></dt>
+<dd>
+
+Manage administration tasks for your SAP AI Core runtime, such as the authentications required in your AI workflows.
+
+
+
+</dd>
+</dl>
+
+
 
 <a name="loio760889ab809841c8a8905ca492f902cb__section_jq4_gpf_4rb"/>
 
 ## Overview of SAP AI Launchpad and SAP AI Core \(as the AI Runtime\)
 
-![High level overview of SAP AI Launchpad integration with SAP AI Core](images/Image_AIL_overview_architecture_integration1_ec42b8c.png)
+![Overview of the AI Core landscape](images/Image_AI_Core_Overview_8a6312d.png)
 
 
 
@@ -72,7 +115,7 @@ This service is available in the SAP BTP, Cloud Foundry environment.
 
 ## SAP AI Launchpad Apps and Roles
 
- ![High level overview of SAP AI Launchpad apps and integration with underlying runtime](images/Image_AIL_overview_app_integration_b61955e.png) 
+![High level overview of SAP AI Launchpad apps and integration with underlying runtime](images/Image_AIL_overview_app_integration_b61955e.png)
 
 For more information about resource groups in SAP AI Core, see [Resource Groups](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/26c6c6b50e3f412f8bc0cd6a8ebdb850.html).
 

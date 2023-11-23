@@ -23,21 +23,15 @@ To get started, copy the generic serving template below and add your own values 
 
 Type
 
-
-
 </th>
 <th valign="top">
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -46,21 +40,15 @@ Description
 
 `name` \(mandatory\)
 
-
-
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 The executable ID. The executable ID must be unique among all executables available within the SAP AI Core main tenant.
-
-
 
 </td>
 </tr>
@@ -69,21 +57,15 @@ The executable ID. The executable ID must be unique among all executables availa
 
 metadata \(mandatory\)
 
-
-
 </td>
 <td valign="top">
 
 `name`
 
-
-
 </td>
 <td valign="top">
 
 The technical ID of the serving template that is used to uniquely identify the serving template. It is specified as the serving Template's executable ID, and therefore must be unique among all executables available within the SAP AI Core main tenant.
-
-
 
 </td>
 </tr>
@@ -92,21 +74,15 @@ The technical ID of the serving template that is used to uniquely identify the s
 
 annotations
 
-
-
 </td>
 <td valign="top">
 
 `scenarios.ai.sap.com/description` \(optional\)
 
-
-
 </td>
 <td valign="top">
 
 A description of the scenario to which this executable belongs.
-
-
 
 </td>
 </tr>
@@ -115,14 +91,10 @@ A description of the scenario to which this executable belongs.
 
 `scenarios.ai.sap.com/name` \(mandatory\)
 
-
-
 </td>
 <td valign="top">
 
 Scenario name, which is necessary for the AI API to discover a scenario.
-
-
 
 </td>
 </tr>
@@ -131,14 +103,10 @@ Scenario name, which is necessary for the AI API to discover a scenario.
 
 `executables.ai.sap.com/description` \(optional\)
 
-
-
 </td>
 <td valign="top">
 
 A description of the serving template.
-
-
 
 </td>
 </tr>
@@ -147,14 +115,10 @@ A description of the serving template.
 
 `executables.ai.sap.com/name` \(mandatory\)
 
-
-
 </td>
 <td valign="top">
 
 The name of the serving template.
-
-
 
 </td>
 </tr>
@@ -163,14 +127,10 @@ The name of the serving template.
 
 `executables.ai.sap.com/cascade-update-deployments` \(optional\)
 
-
-
 </td>
 <td valign="top">
 
 Setting to allow changes to the serving template to be cascaded to associated deployments. See [Change Serving Template and Update Deployments](change-serving-template-and-update-deployments-9555fe1.md).
-
-
 
 </td>
 </tr>
@@ -181,14 +141,10 @@ Setting to allow changes to the serving template to be cascaded to associated de
 
 `artifacts.ai.sap.com/<argo_artifact_name>.labels: | {"ext.ai.sap.com/customkey1":"customvalue1", "ext.ai.sap.com/customkey2":"customvalue2"}` \(optional\)
 
-
-
 </td>
 <td valign="top">
 
 You can add further metadata for an artifact using these annotations.
-
-
 
 </td>
 </tr>
@@ -197,21 +153,15 @@ You can add further metadata for an artifact using these annotations.
 
 labels
 
-
-
 </td>
 <td valign="top">
 
 `scenarios.ai.sap.com/id` \(mandatory\)
 
-
-
 </td>
 <td valign="top">
 
 The scenario ID to which the serving template belongs
-
-
 
 </td>
 </tr>
@@ -220,14 +170,10 @@ The scenario ID to which the serving template belongs
 
 `ai.sap.com/version` \(mandatory\)
 
-
-
 </td>
 <td valign="top">
 
 The version is intended for customer usage to identify compatible serving template versions.
-
-
 
 </td>
 </tr>
@@ -236,8 +182,6 @@ The version is intended for customer usage to identify compatible serving templa
 
 spec
 
-
-
 </td>
 <td valign="top">
 
@@ -245,14 +189,10 @@ spec
 
 Not required if your Docker image is fetched from a public docker repository.
 
-
-
 </td>
 <td valign="top">
 
- [Register Your Docker Registry Secret](register-your-docker-registry-secret-a7cf5e1.md).
-
-
+[Register Your Docker Registry Secret](register-your-docker-registry-secret-a7cf5e1.md).
 
 </td>
 </tr>
@@ -261,14 +201,10 @@ Not required if your Docker image is fetched from a public docker repository.
 
 `minReplicas` \(Optional\)
 
-
-
 </td>
 <td valign="top">
 
 Deployments run continually by default, but can be stopped manually when inferences are not needed. Setting minReplicas to Name of your Docker registry secret. The name references your Docker credentials to fetch the image for your Docker container. For information about creating Docker registry secrets, see `0` allows the inference server to enter the stopped state, when not in use. When needed, it is restarted and nodes scaled, based on demand and the min/maxReplicas parameter. For more information see [Efficiency Features](efficiency-features-9fad26a.md).
-
-
 
 </td>
 </tr>
@@ -277,14 +213,10 @@ Deployments run continually by default, but can be stopped manually when inferen
 
 `maxReplicas` \(Optional\)
 
-
-
 </td>
 <td valign="top">
 
 Limit the number of nodes that the inference server scales up to. For more information see [Efficiency Features](efficiency-features-9fad26a.md).
-
-
 
 </td>
 </tr>
@@ -293,21 +225,15 @@ Limit the number of nodes that the inference server scales up to. For more infor
 
 labels \(mandatory\)
 
-
-
 </td>
 <td valign="top">
 
 `ai.sap.com/resourcePlan`
 
-
-
 </td>
 <td valign="top">
 
-You must specify the chosen `resourcePlan`Name of your Docker registry secret. The name references your Docker credentials to fetch the image for your Docker container.. The value is the string value of the selected resource plan selected \(see [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md)\).
-
-
+You must specify the chosen `resourcePlan`Name of your Docker registry secret. The name references your Docker credentials to fetch the image for your Docker container. The value is the string value of the selected resource plan \(see [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md)\).
 
 </td>
 </tr>
@@ -393,12 +319,12 @@ spec:
 -   **[Change Serving Template and Update Deployments](change-serving-template-and-update-deployments-9555fe1.md "If you change a serving template, you can automatically update the deployments that are associated with that template.")**  
 If you change a serving template, you can automatically update the deployments that are associated with that template.
 
-**Parent topic:** [Use Your Model](use-your-model-7f93e8f.md "You deploy your AI learning model to run inferences against it.")
+**Parent topic:**[Use Your Model](use-your-model-7f93e8f.md "You deploy your AI learning model to run inferences against it.")
 
 **Related Information**  
 
 
-[Choose a Resource Plan](choose-a-resource-plan-8deca74.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
+[Choose a Resource Plan](choose-a-resource-plan-abd672f.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
 
 [List Executables](list-executables-6af8e60.md "An executable is a template that is instantiated for a purpose, such as training a model or creating a deployment. You can list all of the executables in a resource group and get details of specific executables from a resource group. Serving templates are mapped to deployment executables.")
 
@@ -414,9 +340,9 @@ If you change a serving template, you can automatically update the deployments t
 
 [Efficiency Features](efficiency-features-9fad26a.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
 
-[Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md "Information about API processing and metrics, are stored and accessed in the deployment and execution logs.")
+[Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md "accessed in the deployment and execution logs.")
 
- <a name="concept_dcw_41k_lwb"/>
+<a name="concept_dcw_41k_lwb"/>
 
 <!-- concept\_dcw\_41k\_lwb -->
 

@@ -26,7 +26,7 @@ Get a list of executions created by a training schedule by submitting a GET requ
 
 ![](images/list_e6fd808.png)
 
-**Parent topic:** [Training Schedules](training-schedules-2b702f8.md "")
+**Parent topic:**[Training Schedules](training-schedules-2b702f8.md "")
 
 **Related Information**  
 

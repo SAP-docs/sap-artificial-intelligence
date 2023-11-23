@@ -59,7 +59,7 @@ When a deployment has a *running* status, it can be used to make predictions.
 
 The following figure shows how deployment statuses change following the initial status of *Pending*:
 
-   
+  
   
 **Deployment Status Flow**
 
@@ -76,21 +76,15 @@ When a deployment leaves *Running* status, the computing resources that were use
 
 Status
 
-
-
 </th>
 <th valign="top">
 
 Stop Deployment
 
-
-
 </th>
 <th valign="top">
 
 Delete Deployment
-
-
 
 </th>
 </tr>
@@ -99,21 +93,15 @@ Delete Deployment
 
 Unknown
 
-
-
 </td>
 <td valign="top">
 
 Not enabled
 
-
-
 </td>
 <td valign="top">
 
 Enabled
-
-
 
 </td>
 </tr>
@@ -122,21 +110,15 @@ Enabled
 
 Pending
 
-
-
 </td>
 <td valign="top">
 
 Enabled
 
-
-
 </td>
 <td valign="top">
 
 Not enabled
-
-
 
 </td>
 </tr>
@@ -145,21 +127,15 @@ Not enabled
 
 Running
 
-
-
 </td>
 <td valign="top">
 
 Enabled
 
-
-
 </td>
 <td valign="top">
 
 Not enabled
-
-
 
 </td>
 </tr>
@@ -168,21 +144,15 @@ Not enabled
 
 Stopping
 
-
-
 </td>
 <td valign="top">
 
 Not enabled
 
-
-
 </td>
 <td valign="top">
 
 Not enabled
-
-
 
 </td>
 </tr>
@@ -191,21 +161,15 @@ Not enabled
 
 Stopped
 
-
-
 </td>
 <td valign="top">
 
 Not enabled
 
-
-
 </td>
 <td valign="top">
 
 Enabled
-
-
 
 </td>
 </tr>
@@ -214,21 +178,15 @@ Enabled
 
 Dead
 
-
-
 </td>
 <td valign="top">
 
 Not enabled
 
-
-
 </td>
 <td valign="top">
 
 Enabled
-
-
 
 </td>
 </tr>

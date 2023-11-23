@@ -28,7 +28,7 @@ You push a template to SAP AI Core and you get the error ***"Error pulling conta
     > `docker.io/tutorialrepo/text-clf-train:0.0.1`
 
 
-**Parent topic:** [Troubleshooting](troubleshooting-3da90ba.md "For troubleshooting information, see the following sections:")
+**Parent topic:**[Troubleshooting](troubleshooting-3da90ba.md "For troubleshooting information, see the following sections:")
 
 **Related Information**  
 

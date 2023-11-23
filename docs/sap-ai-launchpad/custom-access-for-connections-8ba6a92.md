@@ -44,7 +44,7 @@ You manage access to connections by creating a custom role collection within SAP
     2.  In the *Configure Attributes* wizard step, enter the required connections in the *Values* column for the attribute `allow_connections`. Choose *Next* to continue.
 
         > ### Tip:  
-        > To enter multiple connections, press *Enter* between connections and confirm the connection name. If you enter a value of ***all***, you override any other connection value entered. This restores the system default and any custom settings are ignored.
+        > To enter multiple connections, press *Enter* between connections and confirm the connection name. If you enter a value of `all`, you override any other connection value entered. This restores the system default and any custom settings are ignored.
 
     3.  In the *Select Role Collections* wizard step, search for and select the custom role collection that you've created for custom connections access. Choose *Next* to continue.
 

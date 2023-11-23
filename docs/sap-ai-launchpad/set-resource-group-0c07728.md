@@ -40,7 +40,7 @@ By default, your users can access all resource groups. If required, you can defi
 
 [Resource Groups](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/26c6c6b50e3f412f8bc0cd6a8ebdb850.html#loio26c6c6b50e3f412f8bc0cd6a8ebdb850 "SAP AI Core tenants use resource groups to isolate related ML resources and workloads. Scenarios, executables, and Docker registry secrets are shared across all resource groups.") :arrow_upper_right:
 
- <a name="loioa0204f94a94e4407abf772e76104d834"/>
+<a name="loioa0204f94a94e4407abf772e76104d834"/>
 
 <!-- loioa0204f94a94e4407abf772e76104d834 -->
 
@@ -84,13 +84,13 @@ With the connection assigned, you can now choose a resource group. See [Assign R
 
 [Custom Access for Connections](custom-access-for-connections-8ba6a92.md "You can selectively control users' access to conections within SAP AI Launchpad.")
 
- <a name="loio1fe43ac042ab46749bec34b50601dce0"/>
+<a name="loio1fe43ac042ab46749bec34b50601dce0"/>
 
 <!-- loio1fe43ac042ab46749bec34b50601dce0 -->
 
 ## Assign Resource Group to Workspace
 
- 
+
 
 
 

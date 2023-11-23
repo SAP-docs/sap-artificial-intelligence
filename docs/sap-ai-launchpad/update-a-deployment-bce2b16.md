@@ -6,13 +6,15 @@ You can update a deployment with your choice of configuration.
 
 
 
-<a name="loiobce2b163171b416d9cca0de55b7cc507__prereq_b54_nld_gab"/>
+<a name="loiobce2b163171b416d9cca0de55b7cc507__prereq_amz_nmb_wxb"/>
 
 ## Prerequisites
 
 You have the `mloperations_editor` role, or you are assigned a role collection that contains this role. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
 
 
+
+<a name="loiobce2b163171b416d9cca0de55b7cc507__context_sm2_4mb_wxb"/>
 
 ## Context
 
@@ -30,6 +32,8 @@ For deployments subject to a duration, there is no impact on duration when updat
 The updated deployment retains the inference URL. If you use a new deployment configuration, inference requests continue to work.
 
 
+
+<a name="loiobce2b163171b416d9cca0de55b7cc507__steps_dlk_4mb_wxb"/>
 
 ## Procedure
 

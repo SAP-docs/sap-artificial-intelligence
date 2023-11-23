@@ -8,19 +8,19 @@ You can view the details for an execution, and investigate details for each oper
 
 
 
-<a name="loio33bae6da5df340d892828b2c673efaea__prereq_b54_nld_jpb"/>
+<a name="loio33bae6da5df340d892828b2c673efaea__prereq_ycf_b23_wxb"/>
 
 ## Prerequisites
 
-You have either the `mloperations_viewer` or `scenario_execution_viewer` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have either the `mloperations_viewer` or `scenario_execution_viewer` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
 
 
-<a name="loio33bae6da5df340d892828b2c673efaea__steps_qkj_n3p_5nb"/>
+<a name="loio33bae6da5df340d892828b2c673efaea__steps_zbl_b23_wxb"/>
 
 ## Procedure
 
-1.  Choose a resource group. For more information, see [Set Resource Group](set-resource-group-0c07728.md#loio0c077289f29d4147921fb07ab0f68b7f).
+1.  Choose a resource group. For more information, see [Set Resource Group](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/0c077289f29d4147921fb07ab0f68b7f.html).
 
 2.  In the *ML Operations* app, choose *Executions*.
 
@@ -46,11 +46,11 @@ You have either the `mloperations_viewer` or `scenario_execution_viewer` role, o
     > 
     > The *Overview* tab shows the operations involved in the execution, as well as summary data, such as input dataset and output model \(training\) or result set \(inferencing\). You can click each card in the process to display the specific operation in more detail.
 
-5.  **Optional:** Choose the *Status* tab to check detailed message, status, and severity information for the execution. See [View Status Details](view-status-details-75b90de.md).
+5.  **Optional:** Choose the *Status* tab to check detailed message, status, and severity information for the execution. See [View Status Details](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/7bda8db1dcb045a29c84c76e78a3b814.html).
 
-6.  **Optional:** Choose the *Metric Resource* tab to check the metrics and custom information for the execution. See [View the Metric Resource for an Execution](view-the-metric-resource-for-an-execution-d85dd44.md).
+6.  **Optional:** Choose the *Metric Resource* tab to check the metrics and custom information for the execution. See [View the Metric Resource for an Execution](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/7bda8db1dcb045a29c84c76e78a3b814.html).
 
-7.  **Optional:** Choose the *Logs* tab to check or download the logs for the execution. See [View Execution Logs](view-execution-logs-afec746.md).
+7.  **Optional:** Choose the *Logs* tab to check or download the logs for the execution. See [View Execution Logs](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/afec746903f24c15ac60f6fe473d64f7.html).
 
 
 **Related Information**  

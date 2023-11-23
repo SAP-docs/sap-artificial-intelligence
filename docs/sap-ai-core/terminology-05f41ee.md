@@ -11,14 +11,10 @@
 
 Term
 
-
-
 </th>
 <th valign="top">
 
 Definition
-
-
 
 </th>
 </tr>
@@ -27,14 +23,10 @@ Definition
 
 AI API
 
-
-
 </td>
 <td valign="top">
 
 An essential API that handles all AI artifacts and workflows \(such as training scripts, data, models, and model servers\) across multiple AI runtimes.
-
-
 
 </td>
 </tr>
@@ -43,14 +35,10 @@ An essential API that handles all AI artifacts and workflows \(such as training 
 
 Artifact
 
-
-
 </td>
 <td valign="top">
 
 A reference to data or a file that is produced or consumed by an execution or deployment.
-
-
 
 </td>
 </tr>
@@ -59,14 +47,10 @@ A reference to data or a file that is produced or consumed by an execution or de
 
 Configuration
 
-
-
 </td>
 <td valign="top">
 
 A collection of parameters, artifact references, and executables that is used to run an execution or deployment. A configuration is required to instantiate an execution. Executables and configurations have a 1:n relationship \(that is, one executable can have many configurations\).
-
-
 
 </td>
 </tr>
@@ -74,8 +58,6 @@ A collection of parameters, artifact references, and executables that is used to
 <td valign="top">
 
 Dataset
-
-
 
 </td>
 <td valign="top">
@@ -97,8 +79,6 @@ A dataset:
 
 Deployment
 
-
-
 </td>
 <td valign="top">
 
@@ -106,16 +86,12 @@ A deployment is an instance of a model serving template that is configured to us
 
 Once a deployment has been instantiated successfully, a model server is created and a deployment URL is generated for inference. As input, the deployment takes one or more models and the parameters from a configuration.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Executable
-
-
 
 </td>
 <td valign="top">
@@ -138,8 +114,6 @@ User-defined labels can be applied to an executable and are listed with the exec
 
 Execution
 
-
-
 </td>
 <td valign="top">
 
@@ -153,16 +127,12 @@ Once the metric, tag and custom info are saved, they can be queried with an *<ex
 
 Every metric, tag and custom info must be associated with an execution.
 
-
-
 </td>
 </tr>
 <tr>
 <td valign="top">
 
 Workflow executable
-
-
 
 </td>
 <td valign="top">
@@ -171,8 +141,6 @@ A workflow executable is used within the *ML Operations* application.
 
 A workflow executable defines a set of parameters and the input artifacts that it needs to be instantiated. These are provided by a configuration. The workflow executable also defines a set of output artifacts that would be generated if the executable were to be instantiated and run successfully.
 
-
-
 </td>
 </tr>
 <tr>
@@ -180,14 +148,10 @@ A workflow executable defines a set of parameters and the input artifacts that i
 
 Job executable
 
-
-
 </td>
 <td valign="top">
 
 A job executable is a simplified representation of a workflow executable that is used within the *Functions Explorer* application.
-
-
 
 </td>
 </tr>
@@ -196,14 +160,10 @@ A job executable is a simplified representation of a workflow executable that is
 
 Job template
 
-
-
 </td>
 <td valign="top">
 
 A type of executable in SAP AI Core that specifies a long-running process, typically a training or batch inference.
-
-
 
 </td>
 </tr>
@@ -212,14 +172,10 @@ A type of executable in SAP AI Core that specifies a long-running process, typic
 
 Model
 
-
-
 </td>
 <td valign="top">
 
 A type of artifact that is the output of training.
-
-
 
 </td>
 </tr>
@@ -228,14 +184,10 @@ A type of artifact that is the output of training.
 
 Model serving template
 
-
-
 </td>
 <td valign="top">
 
 A type of executable in SAP AI Core that specifies how a model is to be served.
-
-
 
 </td>
 </tr>
@@ -244,14 +196,10 @@ A type of executable in SAP AI Core that specifies how a model is to be served.
 
 Operations
 
-
-
 </td>
 <td valign="top">
 
 All activities within the AI lifecycle such as executing trainings, creating model deployments, application integration, and model monitoring.
-
-
 
 </td>
 </tr>
@@ -259,8 +207,6 @@ All activities within the AI lifecycle such as executing trainings, creating mod
 <td valign="top">
 
 Resource group
-
-
 
 </td>
 <td valign="top">
@@ -285,30 +231,22 @@ Before users can instantiate an executable, they must create a configuration.
 
 Runtime
 
-
-
 </td>
 <td valign="top">
 
 A platform that offers processing resources to execute AI learning loads, such as training and inference.
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
- SAP AI Core 
-
-
+SAP AI Core 
 
 </td>
 <td valign="top">
 
 An infrastructure that enables a customer's business applications to become intelligent with AI and machine learning technology, and their data to train AI services to help automate tasks and processes.
-
-
 
 </td>
 </tr>
@@ -317,14 +255,10 @@ An infrastructure that enables a customer's business applications to become inte
 
 Scenario
 
-
-
 </td>
 <td valign="top">
 
- A scenario is a group of related executables for a use case within the user's tenant. A scenario can have multiple versions that further correspond to the different versions of executables. 
-
-
+A scenario is a group of related executables for a use case within the user's tenant. A scenario can have multiple versions that further correspond to the different versions of executables. 
 
 </td>
 </tr>
@@ -333,16 +267,12 @@ Scenario
 
 Serving executable
 
-
-
 </td>
 <td valign="top">
 
 A serving executable is a deployable template pipeline that can be instantiated to create a deployment.
 
 A serving executable defines a set of parameters and the input artifacts that it needs to be instantiated; these are provided by a configuration.
-
-
 
 </td>
 </tr>
@@ -351,20 +281,16 @@ A serving executable defines a set of parameters and the input artifacts that it
 
 Training
 
-
-
 </td>
 <td valign="top">
 
 An execution or executable that produces \(at least\) an artifact of type `model`.
 
-
-
 </td>
 </tr>
 </table>
 
-**Parent topic:** [Concepts](concepts-4c6b2da.md "In this section, we'll explore some of the concepts surrounding SAP AI Core.")
+**Parent topic:**[Concepts](concepts-4c6b2da.md "In this section, we'll explore some of the concepts surrounding SAP AI Core.")
 
 **Related Information**  
 

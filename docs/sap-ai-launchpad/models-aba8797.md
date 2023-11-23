@@ -6,7 +6,7 @@ A model is a type of artifact that results from a training process.
 
 Models are stored as files in your connected hyperscaler object storage. The object storage is associated with your AI runtime connection.
 
- SAP AI Launchpad can be used with multiple hyperscaler object stores, such as Amazon S3, OSS, and WebHDFS.
+SAP AI Launchpad can be used with multiple hyperscaler object stores, such as Amazon S3, OSS, and WebHDFS.
 
 Models are unique to a resource group.
 
