@@ -85,6 +85,72 @@ SAP AI Launchpad
 </td>
 <td valign="top">
 
+Generative AI Hub
+
+</td>
+<td valign="top">
+
+Access the generative AI hub in SAP AI Core. The generative AI hub includes prompt experimentation, prompt management, and administrative tools. Prompt experimentation includes creating and running natural language prompts with a choice of models and parameters. Prompt management includes saving prompts with collections, metadata in the form of tags and notes, versioning and deletion.
+
+For more information, see [Generative AI Hub](generative-ai-hub-b0b935b.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2023-12-20
+
+</td>
+<td valign="top">
+
+2023-12-20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Metadata in *Configurations* view
 
 </td>

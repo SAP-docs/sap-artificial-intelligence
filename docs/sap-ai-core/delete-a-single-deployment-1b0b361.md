@@ -10,8 +10,6 @@
 
 Delete the deployment by submitting a DELETE request to `{{apiurl}}/v2/lm/deployments/{{deploymentid}}`. The header for this request is: `AI-Resource-Group: {YOUR-Resource-Group}`.
 
-![](images/DeleteDeploymentPostman_a4cd65a.png)
-
 Check the status of the deployment by submitting a GET request to `{{apiurl}}/v2/lm/deployments/{{deploymentid}}`.
 
 

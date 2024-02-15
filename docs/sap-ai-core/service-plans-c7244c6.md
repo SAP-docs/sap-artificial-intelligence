@@ -12,6 +12,11 @@ The following service plans are available:
 
 -   Standard
 
+-   Extended
+
+
+> ### Restriction:  
+> SAP AI Core free tier is only available in SAP BTP free tier, not SAP BTP trial.
 
 
 <table>
@@ -49,6 +54,7 @@ Free
     -   Limited to the default resource group
     -   Limited to the Starter AI Core resource plan
     -   Limited to active instance\(s\) of either free or standard plan \(mutually exclusive\) within a subaccount
+    -   Generative AI Hub not included
 
 -   For region information, see [SAP Discovery Centre](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core?region=all&tab=feature&commercialModel=cpea).
 
@@ -73,21 +79,42 @@ Standard
 </td>
 <td valign="top">
 
--   SAP AI Core default service plan.
-
 -   Service plan intended for productive usage.
 
--   A fixed price is charged each month for every subaccount \(tenant\).
-
--   Use of resources is charged using adaptable pricing according to the resource type used.
+-   Use of resources for custom workloads is charged using adaptable pricing according to the resource type used, with the addition of a baseline charge for service use.
 
 -   Limitations:
     -   An SAP AI Core standard plan instance cannot be created if there is an active free plan instance
+    -   Generative AI Hub not included
 
--   For region information, see [SAP Discovery Centre](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core?region=all&tab=feature&commercialModel=cpea).
+-   For region information, see [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core?region=all&tab=feature&commercialModel=cpea).
 
 
-For more information, see [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md) and [Metering and Pricing](metering-and-pricing-b5c7215.md).
+For more information, see [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md) and [Metering and Pricing for SAP AI Core](metering-and-pricing-for-sap-ai-core-b5c7215.md).
+
+</td>
+<td valign="top">
+
+Enterprise
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Extended
+
+</td>
+<td valign="top">
+
+-   Includes the Standard plan, with the addition of generative AI capabilities in the Generative AI Hub.
+
+-   Use of provided generative AI models is charged using adaptable pricing according to model choice, and the number of tokens sent and received.
+
+-   For region information, see [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core?region=all&tab=feature&commercialModel=cpea).
+
+
+For more information, see [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md), [Resource Plans for Large Language Models](https://help.sap.com/viewer/e2eb894cbc6445f99784ccd973d2ddee/CLOUD/en-US/ecb5477a45044b64aa860dbd872d97a3.html "You can configure SAP AI Core to use different infrastructure resources for different tasks. SAP AI Core provides several preconfigured infrastructure bundles called "resource plans" for this purpose.") :arrow_upper_right: and [Metering and Pricing for SAP AI Core](metering-and-pricing-for-sap-ai-core-b5c7215.md).
 
 </td>
 <td valign="top">
@@ -111,10 +138,13 @@ Alternatively, you can request a quota increase by creating a ticket. The `compo
 -   **[Free Tier](free-tier-4533adc.md "Enable the free tier option to get to know SAP AI Core with usage
 		limits, to familiarize yourself with the service. Note that usage is limited with this option.")**  
 Enable the free tier option to get to know SAP AI Core with usage limits, to familiarize yourself with the service. Note that usage is limited with this option.
--   **[Metering and Pricing](metering-and-pricing-b5c7215.md "SAP AI Core is metered based on various nonbillable units of measure
+-   **[Metering and Pricing for SAP AI Core](metering-and-pricing-for-sap-ai-core-b5c7215.md "SAP AI Core is metered based on various nonbillable units of measure
 		(UoM), depending on which resources of SAP AI Core are
 		consumed.")**  
 SAP AI Core is metered based on various nonbillable units of measure \(UoM\), depending on which resources of SAP AI Core are consumed.
+-   **[Metering and Pricing for the Generative AI Hub](metering-and-pricing-for-the-generative-ai-hub-a5212f3.md "The use of large language models (LLMs) in the generative AI hub is metered using
+			GenAI tokens and capacity units.")**  
+The use of large language models \(LLMs\) in the generative AI hub is metered using GenAI tokensand capacity units.
 -   **[Choose a Resource Plan](choose-a-resource-plan-c58d4e5.md "You can configure SAP AI Core to use different infrastructure
 		resources for
 		different
@@ -122,9 +152,9 @@ SAP AI Core is metered based on various nonbillable units of measure \(UoM\), de
 		SAP AI Core provides several preconfigured infrastructure bundles called
 			“resource plans” for this purpose.")**  
 You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.
--   **[Update from Free Tier to Standard Plan](update-from-free-tier-to-standard-plan-924f892.md "Learn how to update to the SAP AI Core standard plan, after
-		exploring the product in Free Tier.")**  
-Learn how to update to the SAP AI Core standard plan, after exploring the product in Free Tier.
+-   **[Update a Service Plan](update-a-service-plan-924f892.md "Learn how to update to the SAP AI Core standard or extended plan,
+		after exploring the product in Free Tier.")**  
+Learn how to update to the SAP AI Core standard or extended plan, after exploring the product in Free Tier.
 
 **Related Information**  
 

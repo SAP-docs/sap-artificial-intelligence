@@ -8,7 +8,7 @@ Training schedules have a start and end timestamp. The start timestamp defines w
 
 A schedule that has not yet expired has ACTIVE status. Upon expiry, the status will changed to INACTIVE, and no further executions will start.
 
-The format for these timestamps is defined by RFC3339 section 5.6, without fractions of seconds, for example: `2023-02-09T12:53:47Z`. All timestamps are interpreted in UTC time. For more information, see [RFC3339 section 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6)and [About the AI API](about-the-ai-api-716d4c3.md).
+The format for these timestamps is defined by RFC3339 section 5.6, without fractions of seconds, for example: `2023-02-09T12:53:47Z`. All timestamps are interpreted in UTC time. For more information, see [RFC3339 section 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6)and [AI API Overview](ai-api-overview-716d4c3.md).
 
 -   **[Create a Training Schedule](create-a-training-schedule-bd409a9.md "")**  
 
@@ -26,7 +26,7 @@ The format for these timestamps is defined by RFC3339 section 5.6, without fract
 
 [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
 
-[Workflow Templates](workflow-templates-83523ab.md "Here, you can find a minimal workflow example template, that can be adapted to meet the requirements of your workflow.")
+[Workflow Templates](workflow-templates-83523ab.md "Here, you can find a minimal workflow example template, which you can adjust to meet the requirements of your workflow.")
 
 [List Scenarios](list-scenarios-deedde5.md "")
 

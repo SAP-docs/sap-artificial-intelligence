@@ -83,7 +83,7 @@ Provides access to all resource groups
 <tr>
 <td valign="top">
 
-*ML Operations* app
+*ML Operations* 
 
 </td>
 <td valign="top">
@@ -107,7 +107,7 @@ Provides roles to view all contents of scenarios and resource groups
 <tr>
 <td valign="top">
 
-*ML Operations* app
+*ML Operations* 
 
 </td>
 <td valign="top">
@@ -133,7 +133,7 @@ Provides roles to view all contents of scenarios, and to view and edit contents 
 <tr>
 <td valign="top">
 
-*SAP AI Core Administration* app
+*SAP AI Core Administration*
 
 </td>
 <td valign="top">
@@ -148,14 +148,16 @@ Provides roles to view authentications required for AI workflows involving SAP A
 </td>
 <td valign="top">
 
-`aicore_admin_viewer_all` 
+`viewer`
+
+`aicore_admin_viewer_all`
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-*SAP AI Core Administration* app
+*SAP AI Core Administration*
 
 </td>
 <td valign="top">
@@ -170,6 +172,8 @@ Provides roles to edit authentications required for AI workflows involving SAP A
 </td>
 <td valign="top">
 
+`viewer`
+
 `aicore_admin_editor_all` 
 
 </td>
@@ -177,7 +181,7 @@ Provides roles to edit authentications required for AI workflows involving SAP A
 <tr>
 <td valign="top">
 
-*Functions Explorer* app
+*Functions Explorer* 
 
 </td>
 <td valign="top">
@@ -254,6 +258,270 @@ Edit scenarios and all ML resources of a scenario
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad
+
+</td>
+<td valign="top">
+
+`ailaunchpad_connections_editor_without_genai`
+
+</td>
+<td valign="top">
+
+Provides roles to view, create, edit, and delete connections to your AI runtime \(for example, SAP AI Core\) without Generative AI Hub
+
+</td>
+<td valign="top">
+
+`viewer_without_genai`
+
+`connections_editor`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*ML Operations*
+
+</td>
+<td valign="top">
+
+`ailaunchpad_mloperations_viewer_without_genai` 
+
+</td>
+<td valign="top">
+
+Provides roles to view all contents of scenarios and resource groups without Generative AI Hub 
+
+</td>
+<td valign="top">
+
+`viewer_without_genai`
+
+`mloperations_viewer`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*ML Operations*
+
+</td>
+<td valign="top">
+
+`ailaunchpad_mloperations_editor_without_genai` 
+
+</td>
+<td valign="top">
+
+Provides roles to view all contents of scenarios, and to view and edit contents of resource groups without Generative AI Hub 
+
+</td>
+<td valign="top">
+
+`viewer_without_genai`
+
+`mloperations_editor`
+
+`artifact.register`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Functions Explorer*
+
+</td>
+<td valign="top">
+
+`ailaunchpad_functions_explorer_viewer_v2_without_genai` 
+
+</td>
+<td valign="top">
+
+Provides roles to view scenarios and all ML resources of a scenario without Generative AI Hub 
+
+</td>
+<td valign="top">
+
+`viewer_without_genai`
+
+`connections_viewer`
+
+`functions_explorer`
+
+`mlfunctions_viewer`
+
+`scenario_executable_viewer`
+
+`scenario_metadata_viewer`
+
+`scenario_configuration_viewer`
+
+`scenario_job_viewer`
+
+`scenario_artifact_viewer`
+
+`scenario_metric_viewer`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Functions Explorer*
+
+</td>
+<td valign="top">
+
+`ailaunchpad_functions_explorer_editor_v2_without_genai` 
+
+</td>
+<td valign="top">
+
+Edit scenarios and all ML resources of a scenario without Generative AI Hub 
+
+</td>
+<td valign="top">
+
+`viewer_without_genai`
+
+`connections_viewer`
+
+`functions_explorer`
+
+`mlfunctions_editor`
+
+`scenario_executable_viewer`
+
+`scenario_metadata_viewer`
+
+`scenario_metric_viewer`
+
+`scenario_configuration_editor`
+
+`scenario_job_editor`
+
+`scenario_artifact_editor`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*SAP AI Core Administration*
+
+</td>
+<td valign="top">
+
+`ailaunchpad_aicore_admin_viewer_without_genai`
+
+</td>
+<td valign="top">
+
+Administrator \(SAP AI Core\) viewer, without access to Generative AI Hub
+
+</td>
+<td valign="top">
+
+`viewer_without_genai``aicore_admin_viewer_all`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*SAP AI Core Administration*
+
+</td>
+<td valign="top">
+
+`ailaunchpad_aicore_admin_editor_without_genai`
+
+</td>
+<td valign="top">
+
+Administrator \(SAP AI Core\) editor, without access to Generative AI Hub
+
+</td>
+<td valign="top">
+
+`viewer_without_genai``aicore_admin_editor_all`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Generative AI Hub*
+
+</td>
+<td valign="top">
+
+`ailaunchpad_genai_experimenter`
+
+</td>
+<td valign="top">
+
+Generative AI Hub experimenter
+
+</td>
+<td valign="top">
+
+`viewer_without_genai``genai_experimenter`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Generative AI Hub*
+
+</td>
+<td valign="top">
+
+`ailaunchpad_genai_manager`
+
+</td>
+<td valign="top">
+
+Generative AI Hub manager
+
+</td>
+<td valign="top">
+
+`viewer_without_genai``genai_experimenter``genai_manager`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Generative AI Hub*
+
+</td>
+<td valign="top">
+
+`ailaunchpad_genai_administrator`
+
+</td>
+<td valign="top">
+
+Generative AI Hub administrator
+
+</td>
+<td valign="top">
+
+`viewer_without_genai``genai_administrator`
+
+</td>
+</tr>
 </table>
 
 
@@ -279,12 +547,12 @@ Allows Users To
 <tr>
 <td valign="top">
 
-`allow_connections`
+`allow_connections` 
 
 </td>
 <td valign="top">
 
-Manage custom access to runtime connections in SAP AI Launchpad
+Manage custom access to runtime connections in SAP AI Launchpad 
 
 </td>
 </tr>
@@ -296,26 +564,26 @@ Manage custom access to runtime connections in SAP AI Launchpad
 </td>
 <td valign="top">
 
-View runtime connections in SAP AI Launchpad
+View runtime connections in SAP AI Launchpad 
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-`connections_editor`
+`connections_editor` 
 
 </td>
 <td valign="top">
 
-Edit runtime connections in SAP AI Launchpad
+Edit runtime connections in SAP AI Launchpad 
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-`viewer`
+`viewer` 
 
 </td>
 <td valign="top">
@@ -447,7 +715,7 @@ Add, edit, or remove object store secrets in the *SAP AI Core Administration* ap
 <tr>
 <td valign="top">
 
-`scenario_metadata_viewer`
+`scenario_metadata_viewer` 
 
 </td>
 <td valign="top">
@@ -459,7 +727,7 @@ View scenarios and scenario versions
 <tr>
 <td valign="top">
 
-`scenario_executable_viewer`
+`scenario_executable_viewer` 
 
 </td>
 <td valign="top">
@@ -471,7 +739,7 @@ View executables of a scenario
 <tr>
 <td valign="top">
 
-`scenario_configuration_viewer`
+`scenario_configuration_viewer` 
 
 </td>
 <td valign="top">
@@ -483,7 +751,7 @@ View configurations of a scenario
 <tr>
 <td valign="top">
 
-`scenario_configuration_editor`
+`scenario_configuration_editor` 
 
 </td>
 <td valign="top">
@@ -495,7 +763,7 @@ Edit configurations of a scenario
 <tr>
 <td valign="top">
 
-`scenario_deployment_viewer`
+`scenario_deployment_viewer` 
 
 </td>
 <td valign="top">
@@ -507,7 +775,7 @@ View deployments of a scenario
 <tr>
 <td valign="top">
 
-`scenario_deployment_editor`
+`scenario_deployment_editor` 
 
 </td>
 <td valign="top">
@@ -519,7 +787,7 @@ Edit deployments of a scenario
 <tr>
 <td valign="top">
 
-`scenario_deployment_predictor`
+`scenario_deployment_predictor` 
 
 </td>
 <td valign="top">
@@ -531,7 +799,7 @@ Invoke deployments of a scenario
 <tr>
 <td valign="top">
 
-`scenario_execution_viewer`
+`scenario_execution_viewer` 
 
 </td>
 <td valign="top">
@@ -543,7 +811,7 @@ View executions of a scenario
 <tr>
 <td valign="top">
 
-`scenario_execution_editor`
+`scenario_execution_editor` 
 
 </td>
 <td valign="top">
@@ -555,7 +823,7 @@ Edit executions of a scenario
 <tr>
 <td valign="top">
 
-`scenario_artifact_viewer`
+`scenario_artifact_viewer` 
 
 </td>
 <td valign="top">
@@ -567,7 +835,7 @@ View artifacts of a scenario
 <tr>
 <td valign="top">
 
-`scenario_artifact_editor`
+`scenario_artifact_editor` 
 
 </td>
 <td valign="top">
@@ -579,7 +847,7 @@ Edit artifacts of a scenario
 <tr>
 <td valign="top">
 
-`scenario_metric_viewer`
+`scenario_metric_viewer` 
 
 </td>
 <td valign="top">
@@ -591,7 +859,7 @@ View tracking metrics of an execution
 <tr>
 <td valign="top">
 
-`resourcegroup_viewer`
+`resourcegroup_viewer` 
 
 </td>
 <td valign="top">
@@ -603,7 +871,7 @@ View resource groups
 <tr>
 <td valign="top">
 
-`allow_all_resourcegroups`
+`allow_all_resourcegroups` 
 
 </td>
 <td valign="top">
@@ -615,31 +883,31 @@ Template for allowing access to all resource groups for a connection
 <tr>
 <td valign="top">
 
-`functions_explorer`
+`functions_explorer` 
 
 </td>
 <td valign="top">
 
-Template for viewing functions explorer for SAP AI Launchpad
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`operations_manager`
-
-</td>
-<td valign="top">
-
-Template for viewing operations manager for SAP AI Launchpad
+Template for viewing functions explorer for SAP AI Launchpad 
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-`scenario_job_viewer`
+`operations_manager` 
+
+</td>
+<td valign="top">
+
+Template for viewing operations manager for SAP AI Launchpad 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`scenario_job_viewer` 
 
 </td>
 <td valign="top">
@@ -651,7 +919,7 @@ View jobs of a scenario
 <tr>
 <td valign="top">
 
-`scenario_job_editor`
+`scenario_job_editor` 
 
 </td>
 <td valign="top">
@@ -663,7 +931,7 @@ Edit jobs of a scenario
 <tr>
 <td valign="top">
 
-`mloperations_viewer`
+`mloperations_viewer` 
 
 </td>
 <td valign="top">
@@ -675,7 +943,7 @@ Viewer role for *ML Operations* app
 <tr>
 <td valign="top">
 
-`mloperations_editor`
+`mloperations_editor` 
 
 </td>
 <td valign="top">
@@ -723,7 +991,7 @@ Editor role *Functions Explorer* app
 <tr>
 <td valign="top">
 
-`aicore_admin_viewer_all`
+`aicore_admin_viewer_all` 
 
 </td>
 <td valign="top">
@@ -735,7 +1003,7 @@ Viewer role *SAP AI Core Administration* app
 <tr>
 <td valign="top">
 
-`aicore_admin_editor_all`
+`aicore_admin_editor_all` 
 
 </td>
 <td valign="top">
@@ -771,7 +1039,7 @@ View execution schedules
 <tr>
 <td valign="top">
 
-aicore\_admin\_genericsecret\_editor
+`aicore_admin_genericsecret_editor`
 
 </td>
 <td valign="top">
@@ -783,7 +1051,7 @@ Create, edit or delete generic secrets in the SAP AI Core runtime through the *S
 <tr>
 <td valign="top">
 
-aicore\_admin\_genericsecret\_viewer
+`aicore_admin_genericsecret_viewer`
 
 </td>
 <td valign="top">
@@ -792,7 +1060,96 @@ View generic secrets in the SAP AI Core runtime through the *SAP AI Core Adminis
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+`genai_experimenter`
+
+</td>
+<td valign="top">
+
+Run prompts in the <code>Generative AI Hub prompt editor</code>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai_manager`
+
+</td>
+<td valign="top">
+
+Create, update and run prompts in the <code>Generative AI Hub prompt editor</code>, read and delete your saved prompts in the <code>Generative AI Hub</code> prompt manager
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai_administrator`
+
+</td>
+<td valign="top">
+
+Delete user data in the **Generative AI Hub**
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`prompt_experimenter`
+
+</td>
+<td valign="top">
+
+Run prompts in the <code>Generative AI Hub prompt editor</code>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`prompt_manager`
+
+</td>
+<td valign="top">
+
+Create, update and run prompts in the <code>Generative AI Hub prompt editor</code>, read and deleted your saved prompts in the <code>Generative AI Hub</code> prompt manager
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`prompt_administrator`
+
+</td>
+<td valign="top">
+
+Delete user data in the Generative AI Hub
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`viewer_without_genai` 
+
+</td>
+<td valign="top">
+
+Access SAP AI Launchpad, default role for users, without Generative AI Hub 
+
+</td>
+</tr>
 </table>
+
+> ### Note:  
+> Generative AI hub is available through the default `viewer` role.
+> 
+> Access to the generative AI hub can be revoked by assigning the equivalent role `without_genai`. For example, the `viewer` and `viewer_without_genai` are equiavalent roles, with and without generative AI hub capabilities respectively.
 
 **Related Information**  
 

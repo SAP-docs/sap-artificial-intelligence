@@ -52,6 +52,7 @@ Free tier
     -   You can have one free tier option per enterprise account
 
     -   Limited to one connection only, irrespective of AI runtime
+    -   Generative AI Hub not included
 
 -   For region information, see [SAP Discovery Centre](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-launchpad?region=all).
 
@@ -76,6 +77,9 @@ Standard
 -   Service plan intended for productive usage
 
 -   A fixed price is charged each month for every subaccount \(tenant\)
+
+-   Access to the Generative AI Hub and Generative AI Hub support.
+
 
 -   For region information, see [SAP Discovery Centre](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core?region=all&tab=feature&commercialModel=cpea).
 

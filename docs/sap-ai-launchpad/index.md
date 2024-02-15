@@ -28,6 +28,19 @@ Explore the concepts around SAP AI Launchpad and learn how to provision the serv
     -   [Custom Access for Resource Groups](custom-access-for-resource-groups-19e3932.md)
     -   [Custom Access for Support User](custom-access-for-support-user-a2a95a0.md)
 -   [Using SAP AI Launchpad](using-sap-ai-launchpad-bbc7e21.md)
+    -   [Generative AI Hub](generative-ai-hub-b0b935b.md)
+        -   [Models and Scenarios in the Generative AI Hub](models-and-scenarios-in-the-generative-ai-hub-729dd9e.md)
+        -   [Tutorial](tutorial-c0018f1.md)
+        -   [Create a Deployment for a Generative AI Model](create-a-deployment-for-a-generative-ai-model-96b65bb.md)
+        -   Prompt Editor
+            -   [Prompt Experimentation](prompt-experimentation-384cc0c.md)
+            -   [Save a Prompt](save-a-prompt-e8c656f.md)
+        -   Prompt Management
+            -   [View a Saved Prompt](view-a-saved-prompt-d07a272.md)
+            -   [Edit a Saved Prompt](edit-a-saved-prompt-5f53a57.md)
+            -   [Delete Prompts](delete-prompts-ee44055.md)
+        -   Administration
+            -   [Manual User Offboarding](manual-user-offboarding-0d8d3cc.md)
     -   [AI Scenario Producer](ai-scenario-producer-899dcf8.md)
         -   [Prerequisites](prerequisites-9489440.md)
         -   [Workspaces](workspaces-c804f14.md)

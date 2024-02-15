@@ -12,7 +12,7 @@ You can view the lifecycle details for a deployment, and explore details for eac
 
 ## Prerequisites
 
-You have the `mloperations_viewer` or `scenario_deployment_viewer` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have the `mloperations_viewer` or `scenario_deployment_viewer` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
 
 
@@ -20,7 +20,7 @@ You have the `mloperations_viewer` or `scenario_deployment_viewer` role, or you 
 
 ## Procedure
 
-1.  Choose a resource group. For more information, see [Set Resource Group](set-resource-group-0c07728.md#loio0c077289f29d4147921fb07ab0f68b7f).
+1.  Choose a resource group. For more information, see [Set Resource Group](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/0c077289f29d4147921fb07ab0f68b7f.html).
 
 2.  In the *ML Operations* app, choose *Deployments*.
 
@@ -53,7 +53,7 @@ You have the `mloperations_viewer` or `scenario_deployment_viewer` role, or you 
     > 
     > The *Overview* tab shows the operations involved in the deployment, as well as summary data, such as ID. You can click each card in the process overview to display the specific operation in more detail.
 
-5.  **Optional:** Choose the *Status* tab to check detailed message, status, and severity information for the deployment. See [View Status Details](view-status-details-7bda8db.md).
+5.  **Optional:** Choose the *Status* tab to check detailed message, status, and severity information for the deployment. See [View Status Details](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/75b90def0e91434ebce276ab29f99cd9.html).
 
 6.  **Optional:** When your runtime is SAP AI Core, you can choose the *Scaling* tab to check the replica limits, and the number of running replicas for the deployment.
 
@@ -69,7 +69,7 @@ You have the `mloperations_viewer` or `scenario_deployment_viewer` role, or you 
     > ### Tip:  
     > A resource plan is a preconfigured infrastructure bundle that is used to process an AI operation, such as a deployment. Different operations within an AI workflow can use different resource plans.
 
-8.  **Optional:** Choose the *Logs* tab to check or download the logs for the deployment. See [View Deployment Logs](view-deployment-logs-4f9682e.md).
+8.  **Optional:** Choose the *Logs* tab to check or download the logs for the deployment. See [View Deployment Logs](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/4f9682e48a54430e870d525f1cfd312b.html) .
 
 
 **Related Information**  

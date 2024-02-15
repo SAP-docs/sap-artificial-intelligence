@@ -87,6 +87,70 @@ SAP AI Core
 </td>
 <td valign="top">
 
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+The Generative AI Hub includes prompt experimentation, prompt management, and administrative tools. Prompt experimentation includes creating and running natural language prompts with a choice of large language models and parameters. Prompt management includes saving prompts with collections, metadata in the form of tags and notes, versioning and deletion. For more information, see [Generative AI Hub in SAP AI Core Overview](generative-ai-hub-in-sap-ai-core-overview-a126bd6.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2023-12-20
+
+</td>
+<td valign="top">
+
+2023-12-20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Artifact signatures for artifact outputs from executions
 
 </td>
@@ -156,7 +220,7 @@ Template Generator
 </td>
 <td valign="top">
 
-A wizard to generate workflow and serving templates in VS Code. Using user responses, it simplifes and automates the template writing process.
+A wizard to generate workflow and serving templates in VS Code. Using user responses, it simplifies and automates the template writing process.
 
 For more information, see [SAP AI Core toolkit documentation](https://help.sap.com/docs/sap-ai-core/sap-ai-core-toolkit/sap-ai-core-toolkit).
 
@@ -217,7 +281,7 @@ SAP AI Core
 </td>
 <td valign="top">
 
-SAP AI Core Toolkit
+SAP AI Core Toolkit 
 
 </td>
 <td valign="top">
@@ -354,7 +418,7 @@ Dataset API
 </td>
 <td valign="top">
 
-You can upload, download, and delete artifacts using the SAP AI Core Dataset API, when direct access to files in the object store is not possible or desirable. Currently, Postman and curl interfaces are supported. For more information, see [Manage Files Using the Dataset API](manage-files-using-the-dataset-api-ba8ac5c.md).
+You can upload, download, and delete artifacts using the SAP AI Core Dataset API, when direct access to files in the object store is not possible or desirable. Currently, Postman and curl interfaces are supported.
 
 </td>
 <td valign="top">
@@ -418,9 +482,9 @@ Metadata in Response to List Executables
 </td>
 <td valign="top">
 
-When you use the endpoint to list executables, the response body now contains metadata about the parameters and artifacts. For parameters, the `description` and `default` values are returned. For artifacts, the `kind`, `description`, and `labels` can be added using annotations. At SAP, we endeavor to make sure that our documentation works for you. If you feel that something is missing or that something doesn't quite hit the mark, you can now provide feedback and suggest changes directly from SAP Help Portal. You can do so in one of two ways:
+When you use the endpoint to list executables, the response body now contains metadata about the parameters and artifacts. For parameters, the `description` and `default` values are returned. For artifacts, the `kind`, `description`, and `labels` can be added using annotations.
 
-For more information, see [List Executables When Training a Model](list-executables-80895a4.md), [List Executables When Using a Model](list-executables-6af8e60.md), [Workflow Templates](workflow-templates-83523ab.md), and [Serving Templates](serving-templates-20a8667.md).
+For more information, see [List Executables](list-executables-80895a4.md), [Workflow Templates](workflow-templates-83523ab.md), and [Serving Templates](serving-templates-20a8667.md).
 
 </td>
 <td valign="top">
@@ -484,7 +548,9 @@ Contribute to Our Documentation
 </td>
 <td valign="top">
 
--   Click *Edit*At SAP, we endeavor to make sure that our documentation works for you. If you feel that something is missing or that in the toolbar to open the document in GitHub. There, you can suggest a change and submit a pull request for us to review.
+At SAP, we endeavor to make sure that our documentation works for you. If you feel that something is missing or that something doesn't quite hit the mark, you can now provide feedback and suggest changes directly from SAP Help Portal. You can do so in one of two ways:
+
+-   Click *Edit* in the toolbar to open the document in GitHub. There, you can suggest a change and submit a pull request for us to review.
 
 -   Click *Feedback* in the toolbar to create a GitHub issue and tell us how we can improve the documentation for you.
 
@@ -619,7 +685,7 @@ Sync Endpoint for ArgoCD
 
 In addition to automatically syncing applications, you can request a sync manually by using an API endpoint.
 
-For more information, see [Create an Application to Sync Your Folders](create-an-application-to-sync-your-folders-80dbecf.md).
+For more information on synching applications, see [Create an Application to Sync Your Folders](create-an-application-to-sync-your-folders-80dbecf.md) .
 
 </td>
 <td valign="top">
@@ -683,7 +749,9 @@ WebHDFS Artifacts
 </td>
 <td valign="top">
 
-WebHDFS artifacts supported. For more information, see [Register an Object Store Secret](register-an-object-store-secret-b083d73.md).
+WebHDFS artifacts are now supported.
+
+For more information about WebHDFS artifacts on SAP AI Launchpad, see [Register an Object Store Secret](register-an-object-store-secret-b083d73.md).
 
 </td>
 <td valign="top">
@@ -811,7 +879,7 @@ Deployment Duration can be Limited
 </td>
 <td valign="top">
 
-The `ttl` parameter limits the duration of deployments to hours, days or weeks. For more information, see [Deploy Models](deploy-models-dd16e8e.md).
+You can now use the `ttl` parameter to limit the duration of deployments to hours, days, or weeks.
 
 </td>
 <td valign="top">
@@ -1003,7 +1071,9 @@ Azure Blob Storage Supported
 </td>
 <td valign="top">
 
-You can now register Azure Blob Storage secrets and use them for Model Serving. For more information, see [Register an Object Store Secret](register-an-object-store-secret-b083d73.md).
+You can now register Azure Blob Storage secrets and use them for Model Serving.
+
+For more information about registering secret, see [Register an Object Store Secret](register-an-object-store-secret-b083d73.md)
 
 </td>
 <td valign="top">
@@ -1393,7 +1463,7 @@ Serving Component Upgraded to **KServe** Version 0.7 for Security Compliance
 
 The upgrade means some changes to serving templates: the `spec.template.api` version changes from `serving.kubeflow.org/v1beta1` to `serving.kserve.io/v1beta1`, the `spec.template.spec.predictor.containers.name` changes from `kfserving-container` to `kserve-container`. There is no support for apiVersion: `serving.kubeflow.org/v1alpha2`.
 
-Please update your existing serving templates by September 30, 2022. For more information, see SAP Note [3237166](https://me.sap.com/notes/3237166).
+Please update your existing serving templates by September 30, 2022.
 
 </td>
 <td valign="top">
@@ -1457,7 +1527,9 @@ Supported Object Stores
 </td>
 <td valign="top">
 
-SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS, and HANA Data Lake \(HDL\). For more information, see [Register an Object Store Secret](register-an-object-store-secret-b083d73.md)..
+SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS, and HANA Data Lake \(HDL\).
+
+For more information about registering secret, see [Register an Object Store Secret](register-an-object-store-secret-b083d73.md)
 
 </td>
 <td valign="top">

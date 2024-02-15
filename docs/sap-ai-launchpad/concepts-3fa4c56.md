@@ -435,6 +435,30 @@ The subscriber to an AI service.
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Prompt
+
+</td>
+<td valign="top">
+
+A prompt is a natural language instruction for a generative AI model.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Generative AI Hub
+
+</td>
+<td valign="top">
+
+The Generative AI Hub includes prompt experimentation, prompt management, and administrative tools. Prompt experimentation includes creating and running natural language prompts with a choice of large language models and parameters. Prompt management includes saving prompts with collections, metadata in the form of tags and notes, versioning and deletion.
+
+</td>
+</tr>
 </table>
 
 You can see how these concepts interact from the following diagram:

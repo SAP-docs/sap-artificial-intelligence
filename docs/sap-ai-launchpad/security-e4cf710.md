@@ -19,6 +19,9 @@ Data protection is associated with numerous legal requirements and privacy conce
 
 SAP Data Protection and Privacy \(DPP\) requirements and the European Union's General Data Protection Regulations \(GDPR\) mandate the protection of personal and private data at higher standards than other customer data. SAP machine learning services do not import, output, or process any structured personal or private customer data, and cannot distinguish personal or private data from other types of data. Customers are therefore obliged to fulfill the GDPR personal data broker obligations if such data is present.
 
+> ### Restriction:  
+> Do not submit sensitive information in prompts when using generative AI hub.
+
 
 
 <a name="loiof1d2eb91d9a248ca8c92b0110c76c6f6__section_w3k_wch_ynb"/>
@@ -34,6 +37,15 @@ SAP AI Launchpad stores tenant id \(identity-zone, JWT token's zid\) in applicat
 ## Deletion
 
 The audit log data stored for your account will be retained for 30 days, after which it will be deleted.
+
+For users who are manually offboarded from the Generative AI Hub data deletion is triggered immediately.
+
+For data deletion resulting from the deletion of a resource group, deletion is triggered within 24 hours.
+
+For data deletion from the Generative AI Hub resulting from the removal of an SAP AI Core tenant, SAP AI Launchpad connection to SAP AI Core or SAP AI Launchpad instance, data will be retained for 30 days, after which it will be deleted.
+
+> ### Note:  
+> User data is saved in one region only, and can only be retrieved or deleted by an AI launchpad instance in that region.
 
 <a name="loioab5939567cf04016854414774fb2291e"/>
 
@@ -55,7 +67,7 @@ Customer data protection is handled in three ways:
 
 ## Encryption in Transit
 
-Customer’s communication with the service, including data upload and download, is protected by encryption using the transport layer security \(TLS\) protocol. SAP services support only the latest protocol versions, TLS v1.2 and later, and strong cipher suites. Customer’s systems must use the supported protocol versions and cipher suites to set up secure communication with the services, and must validate the certificates against the services’ domain names to avoid man-in-the-middle attacks.
+Communication with the service, including data upload and download, is encrypted using the transport layer security \(TLS\) protocol. SAP services support only the latest protocol versions \(that is, TLS v1.2 and later\) and strong cipher suites. Your systems must use the supported protocol versions and cipher suites to set up secure communication with the services. They must also validate the certificates against the services’ domain names to avoid man-in-the-middle attacks.
 
 <a name="loiodef9ee82675a4cb3a0f718cfc8d940dc"/>
 

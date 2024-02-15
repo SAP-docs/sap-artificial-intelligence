@@ -1,79 +1,6 @@
 <!-- loio3a97465bf6164400a4b5c1641007e3d6 -->
 
-<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
-
 # Use a Service Key
-
-**Parent topic:**[Initial Setup](initial-setup-38c4599.md "You provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Platform. After provisioning, you will have your service key, which provides URLs and credentials for accessing the SAP AI Core instance")
-
-**Next:**[Create a Service Key](create-a-service-key-7323ff4.md "")
-
-**Previous:**[SAP AI Core Starter Tutorials](sap-ai-core-starter-tutorials-9795b63.md "")
-
-<a name="task_cqr_b4n_fyb"/>
-
-<!-- task\_cqr\_b4n\_fyb -->
-
-## Using SAP AI Launchpad
-
-
-
-<a name="task_cqr_b4n_fyb__prereq_knz_l1p_fyb"/>
-
-## Prerequisites
-
-You have the `connections_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
-
-
-
-<a name="task_cqr_b4n_fyb__steps_jvk_q1p_fyb"/>
-
-## Procedure
-
-1.  Open the *Workspaces* app and choose *Add*. The *Create AI API Connection* dialog appears.
-
-2.  Enter a name for your new connection.
-
-    Connection names must comply with the following criteria:
-
-    -   Contain only lowercase alphanumeric characters, hyphens \(-\), or periods \(.\)
-
-    -   Start with an alphanumeric character
-
-    -   End with an alphanumeric character
-
-
-3.  Upload the service key file for your SAP AI Core instance, if available.
-
-    To upload the service key as a `.TXT` or `JSON` file, choose <span class="SAP-icons"></span> \(Upload\) . Search for and choose the local service key file.
-
-    Service key data then defaults to the remaining fields.
-
-    ![Create AI API Connection dialog with upload highlighted.](images/Image_AIL_MLOps_Connection_Upload_61d94f3.png)
-
-4.  If a service key file is not available, complete the following:
-
-    1.  Enter the `AI_API_URL` from your service key for your SAP AI Core instance.
-
-    2.  Enter the `url` from your service key for your SAP AI Core instance.
-
-    3.  Enter the `clientid` from your service key for your SAP AI Core instance.
-
-    4.  Enter the `clientsecret` from your service key for your SAP AI Core instance.
-
-
-    Sensitive fields are masked. You can unmask to show your entry if needed.
-
-5.  Choose *Create*.
-
-
-
-
-<a name="task_cqr_b4n_fyb__result_aj3_s1p_fyb"/>
-
-## Results
-
-The new connection appears in the *Workspaces* app.
 
 <a name="task_dn3_jnn_fyb"/>
 
@@ -124,6 +51,16 @@ The new connection appears in the *Workspaces* app.
 
     When the authentication process is comeplete, select *Use Token* to finish. Check that the token is stored in your environment variables. If it is not stored automatically, you can copy and paste it to the *Token* field manually.
 
+
+
+
+<a name="task_dn3_jnn_fyb__postreq_fjj_vmt_c1c"/>
+
+## Next Steps
+
+To train and deploy your own AI models, follow the procedure in [Administration](administration-7937fc1.md).
+
+To use generative AI models provided in the Generative AI Hub, see [Models and Scenarios in the Generative AI Hub](models-and-scenarios-in-the-generative-ai-hub-729dd9e.md).
 
 <a name="task_wqc_b4n_fyb"/>
 
@@ -197,4 +134,14 @@ curl is likely to be installed on your operating system by default. To check, op
     
     ```
 
+
+
+
+<a name="task_wqc_b4n_fyb__postreq_h25_3nt_c1c"/>
+
+## Next Steps
+
+To train and deploy your own AI models, follow the procedure in [Administration](administration-7937fc1.md).
+
+To use generative AI models provided in the Generative AI Hub, see [Models and Scenarios in the Generative AI Hub](models-and-scenarios-in-the-generative-ai-hub-729dd9e.md).
 

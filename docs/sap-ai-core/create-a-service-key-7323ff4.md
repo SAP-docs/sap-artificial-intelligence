@@ -14,6 +14,8 @@
 
     ![](images/New_Service_Key_0019ba4.png)
 
+
+
 3.  Download your service key to save it.
 
 
@@ -27,6 +29,8 @@ You now have your service key, which provides URLs and credentials for accessing
 
 ![](images/Service_Key_Credentials_1e1342e.png)
 
+Your key will include:
+
 -   `clientid`, `clientsecret`, and `url` can be used to generate your authentication token.
 
 -   `identityzone` and `identityzoneid` represent your tenant ID.
@@ -38,10 +42,4 @@ You now have your service key, which provides URLs and credentials for accessing
     -   `AI_API_URL`: Unified AI API to handle ML artifacts \(such as training, data, models, and deployments\) across multiple hyperscalers.
 
 
-
-**Parent topic:**[Initial Setup](initial-setup-38c4599.md "You provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Platform. After provisioning, you will have your service key, which provides URLs and credentials for accessing the SAP AI Core instance")
-
-**Next:**[Create a Service Instance](create-a-service-instance-34761f9.md "")
-
-**Previous:**[Use a Service Key](use-a-service-key-3a97465.md)
 

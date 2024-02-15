@@ -28,17 +28,34 @@ More Information
 <tr>
 <td valign="top">
 
-Content package for large language models for SAP AI Core
+Data robot package
 
 </td>
 <td valign="top">
 
-The content package for large language models for SAP AI Core simplifies the deployment of large language models with integrated and automated workflows.
+The content package for DataRobot integration for SAP AI Core.
 
 </td>
 <td valign="top">
 
-[Content package for large language models for SAP AI Core](https://pypi.org/project/sap-ai-core-llm/) 
+[Data robot package for SAP AI Core](https://pypi.org/project/sap-ai-core-datarobot/) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Computer vision package
+
+</td>
+<td valign="top">
+
+The content package for image use cases in SAP AI Core adds image classification and feature extraction and is used with the AI Core SDK.
+
+</td>
+<td valign="top">
+
+[Computer vision package for SAP AI Core](https://pypi.org/project/sap-computer-vision-package/) 
 
 </td>
 </tr>

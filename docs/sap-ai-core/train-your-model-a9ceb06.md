@@ -23,7 +23,7 @@ The execution service includes:
 -   Bring your own hyperscaler-backed object store buckets.
 
 
-The execution engine in SAP AI Core leverages the [Argo Workflows](https://argoproj.github.io/workflows/) open source project. It supports container-native workflows and pipelines modeled as direct acyclic graphs or steps. The Argo Workflows are used to ingest data, perform preprocessing and postprocessing, and train models and execute batch inference pipelines. SAP AI Core also leverages the parallel processing of steps in the form of a [DAG \( Directed Acyclic Graph\) structure](https://argoproj.github.io/argo-workflows/workflow-concepts/#dag) in workflow templates. For information about how using parallel nodes may affect your costs, see [Metering and Pricing](metering-and-pricing-b5c7215.md).
+The execution engine in SAP AI Core leverages the [Argo Workflows](https://argoproj.github.io/workflows/) open source project. It supports container-native workflows and pipelines modeled as direct acyclic graphs or steps. The Argo Workflows are used to ingest data, perform preprocessing and postprocessing, and train models and execute batch inference pipelines. SAP AI Core also leverages the parallel processing of steps in the form of a [DAG \( Directed Acyclic Graph\) structure](https://argoproj.github.io/argo-workflows/workflow-concepts/#dag) in workflow templates. For information about how using parallel nodes may affect your costs, see [Metering and Pricing for SAP AI Core](metering-and-pricing-for-sap-ai-core-b5c7215.md).
 
 > ### Note:  
 > Argo Workflow isn’t optimized for time critical tasks. Each step must be scheduled onto a node in the cluster, and the cluster initialized. The time this takes depends on the load of the workflow controller and the node availability in the cluster. Therefore, it isn’t recommended to use multistep Argo Workflows for time-critical tasks.
@@ -37,9 +37,9 @@ It’s possible to train the same model multiple times, with varying parameters 
 		SAP AI Core provides several preconfigured infrastructure bundles called
 			“resource plans” for this purpose.")**  
 You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.
--   **[Workflow Templates](workflow-templates-83523ab.md " Here, you can find a minimal workflow example template, that can be adapted to meet
+-   **[Workflow Templates](workflow-templates-83523ab.md " Here, you can find a minimal workflow example template, which you can adjust to meet
     the requirements of your workflow. ")**  
- Here, you can find a minimal workflow example template, that can be adapted to meet the requirements of your workflow.
+ Here, you can find a minimal workflow example template, which you can adjust to meet the requirements of your workflow.
 -   **[List Scenarios](list-scenarios-deedde5.md "")**  
 
 -   **[List Executables](list-executables-80895a4.md "")**  

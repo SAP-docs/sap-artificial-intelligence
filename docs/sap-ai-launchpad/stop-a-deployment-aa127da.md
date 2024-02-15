@@ -10,7 +10,7 @@ Stopping a deployment releases the computing resources acquired in the runtime i
 
 ## Prerequisites
 
-You have the `mloperations_editor` or `scenario_deployment_editor` role, or you are assigned a role collection that contains this role. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have the `mloperations_editor` or `scenario_deployment_editor` role, or you are assigned a role collection that contains this role. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
 
 
@@ -26,7 +26,7 @@ You can stop a deployment if it has a *Running* or *Pending* status. For deploym
 
 ## Procedure
 
-1.  Navigate to the deployment's details. See [View a Deployment](view-a-deployment-d6f793e.md).
+1.  Navigate to the deployment's details. See [View a Deployment](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/d6f793e11145488daac3d1b7229a052a.html).
 
 2.  Choose *Stop* in the header. A *Warning* dialog box appears.
 

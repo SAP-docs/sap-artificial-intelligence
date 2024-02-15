@@ -6,7 +6,7 @@
 
 ## Procedure
 
-1.  SAP BTP cockpit, navigate to your global account, and choose *Service Marketplace*.
+1.  SAP BTP cockpit, navigate to your subaccount within your global account, and choose *Service Marketplace*.
 
     You will see a tile for SAP AI Core.
 
@@ -38,10 +38,4 @@
 When your service instance is created, you can view it on the *Instances and Subscriptions* page of your subaccount.
 
 ![](images/Instances_and_Subscriptions_Page_e198958.png)
-
-**Parent topic:**[Initial Setup](initial-setup-38c4599.md "You provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Platform. After provisioning, you will have your service key, which provides URLs and credentials for accessing the SAP AI Core instance")
-
-**Next:**[Add a Service Plan](add-a-service-plan-86002d9.md "")
-
-**Previous:**[Create a Service Key](create-a-service-key-7323ff4.md "")
 

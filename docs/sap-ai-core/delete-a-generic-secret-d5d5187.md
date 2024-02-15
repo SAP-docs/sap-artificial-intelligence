@@ -11,14 +11,12 @@ To get a secret name, see [List All Generic Secrets](list-all-generic-secrets-05
 ## Using Postman
 
 1.  Send a DELETE request to the endpoint`{{apiurl}}/v2/admin/secrets/{{secretName}}`
-2.  As the request body, select the *none* radiobutton.
+2.  As the request body, select the *none* radio button.
 3.  Specify the scope of the request via the header `AI-Tenant-Scope` or `AI-Resource-Group`:
     -   `AI-Tenant-Scope` : `true`. The operation will be performed at the main tenant level.
     -   `AI-Resource-Group` : <code><i class="varname">&lt;resource-group-name&gt;</i></code>. The operation will be performed at the resource-group level.
 
 4.  Send the request.
-
-![](images/Delete_Generic_Secrets_in_Postman_798b308.png)
 
 
 

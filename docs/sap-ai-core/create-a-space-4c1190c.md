@@ -17,9 +17,3 @@
 3.  Click *Create*.
 
 
-**Parent topic:**[Initial Setup](initial-setup-38c4599.md "You provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Platform. After provisioning, you will have your service key, which provides URLs and credentials for accessing the SAP AI Core instance")
-
-**Next:**[Enable Cloud Foundry](enable-cloud-foundry-cf0d5d2.md "")
-
-**Previous:**[Add a Service Plan](add-a-service-plan-86002d9.md "")
-

@@ -40,14 +40,22 @@ The SAP AI Core service is intended to be used together with SAP AI Launchpad an
 
 ![Overview of the AI Core landscape](images/Image_AI_Core_Overview_8a6312d.png)
 
+-   **[SAP AI Core Systems Overview](sap-ai-core-systems-overview-c243d2a.md "Your SAP AI Core system connects internal and external
+		tools.")**  
+Your SAP AI Core system connects internal and external tools.
+-   **[AI API Overview](ai-api-overview-716d4c3.md "The AI API lets you manage your AI assets (such as training scripts, data, models, and model servers) across multiple runtimes. ")**  
+The AI API lets you manage your AI assets \(such as training scripts, data, models, and model servers\) across multiple runtimes.
+-   **[Resource Groups](resource-groups-26c6c6b.md "
+		SAP AI Core tenants use resource groups to isolate related ML resources
+		and workloads. Scenarios, executables, and Docker registry secrets are shared across all resource groups.")**  
+SAP AI Core tenants use resource groups to isolate related ML resources and workloads. Scenarios, executables, and Docker registry secrets are shared across all resource groups.
+
 **Parent topic:**[Concepts](concepts-4c6b2da.md "In this section, we'll explore some of the concepts surrounding SAP AI Core.")
 
 **Related Information**  
 
 
-[Overview of SAP AI Core Systems](overview-of-sap-ai-core-systems-c243d2a.md "Your SAP AI Core system connects internal and external tools.")
+[Generative AI Hub in SAP AI Core Overview](generative-ai-hub-in-sap-ai-core-overview-a126bd6.md "The generative AI hub incorporates generative AI into your AI activities in SAP AI Core and SAP AI Launchpad.")
 
 [Terminology](terminology-05f41ee.md "")
-
-[Resource Groups](resource-groups-26c6c6b.md#loio26c6c6b50e3f412f8bc0cd6a8ebdb850 "SAP AI Core tenants use resource groups to isolate related ML resources and workloads. Scenarios, executables, and Docker registry secrets are shared across all resource groups.")
 

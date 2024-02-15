@@ -69,6 +69,23 @@ The AI API client SDK is a Python-based SDK that enables you to access the AI AP
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+SAP generative AI hub SDK
+
+</td>
+<td valign="top">
+
+With this SDK you can leverage the power of generative Models like chatGPT available in SAP AI Core'sgenerative AI hub.
+
+</td>
+<td valign="top">
+
+[Generative AI hub SDK](https://pypi.org/project/generative-ai-hub-sdk/)
+
+</td>
+</tr>
 </table>
 
 **Libraries Available with SAP AI Core**

@@ -10,7 +10,7 @@
 
 2.  From the *Select Entities* box, select your subaccount and click *Select*.
 
-3.  Choose *Configure Entitlements*.
+3.  Choose *Edit*.
 
     ![](images/Configure_Entitlements_Button_a0bbbf0.png)
 
@@ -18,20 +18,17 @@
 
     ![](images/Add_Service_Plans_Button_d42d394.png)
 
-5.  Select SAP AI Core and pick a service plan.
+5.  Select SAP AI Core and pick your chosen service plan or plans.
 
-    ![](images/Add_Standard_Plan_a1d54a9.png)
+    ![](images/Add_a_service_Plan_a1d54a9.png)
+
+    > ### Tip:  
+    > To use generative AI capabilities, choose the extended plan. For more information, see [Service Plans](service-plans-c7244c6.md).
 
 6.  Save your changes.
 
     ![](images/Save_Standard_Plan_58d9353.png)
 
-
-**Parent topic:**[Initial Setup](initial-setup-38c4599.md "You provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Platform. After provisioning, you will have your service key, which provides URLs and credentials for accessing the SAP AI Core instance")
-
-**Next:**[Create a Space](create-a-space-4c1190c.md "")
-
-**Previous:**[Create a Service Instance](create-a-service-instance-34761f9.md "")
 
 **Related Information**  
 

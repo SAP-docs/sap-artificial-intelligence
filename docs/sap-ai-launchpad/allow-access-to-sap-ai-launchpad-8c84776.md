@@ -107,7 +107,7 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     <tr>
     <td valign="top">
     
-    *ML Operations* app
+    *ML Operations* 
     
     </td>
     <td valign="top">
@@ -131,7 +131,7 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     <tr>
     <td valign="top">
     
-    *ML Operations* app
+    *ML Operations* 
     
     </td>
     <td valign="top">
@@ -157,7 +157,7 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     <tr>
     <td valign="top">
     
-    *SAP AI Core Administration* app
+    *SAP AI Core Administration*
     
     </td>
     <td valign="top">
@@ -172,14 +172,16 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     </td>
     <td valign="top">
     
-    `aicore_admin_viewer_all` 
+    `viewer`
+
+    `aicore_admin_viewer_all`
     
     </td>
     </tr>
     <tr>
     <td valign="top">
     
-    *SAP AI Core Administration* app
+    *SAP AI Core Administration*
     
     </td>
     <td valign="top">
@@ -194,6 +196,8 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     </td>
     <td valign="top">
     
+    `viewer`
+
     `aicore_admin_editor_all` 
     
     </td>
@@ -201,7 +205,7 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     <tr>
     <td valign="top">
     
-    *Functions Explorer* app
+    *Functions Explorer* 
     
     </td>
     <td valign="top">
@@ -278,6 +282,270 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     
     </td>
     </tr>
+    <tr>
+    <td valign="top">
+    
+    SAP AI Launchpad
+    
+    </td>
+    <td valign="top">
+    
+    `ailaunchpad_connections_editor_without_genai`
+    
+    </td>
+    <td valign="top">
+    
+    Provides roles to view, create, edit, and delete connections to your AI runtime \(for example, SAP AI Core\) without Generative AI Hub
+    
+    </td>
+    <td valign="top">
+    
+    `viewer_without_genai`
+
+    `connections_editor`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *ML Operations*
+    
+    </td>
+    <td valign="top">
+    
+    `ailaunchpad_mloperations_viewer_without_genai` 
+    
+    </td>
+    <td valign="top">
+    
+    Provides roles to view all contents of scenarios and resource groups without Generative AI Hub 
+    
+    </td>
+    <td valign="top">
+    
+    `viewer_without_genai`
+
+    `mloperations_viewer`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *ML Operations*
+    
+    </td>
+    <td valign="top">
+    
+    `ailaunchpad_mloperations_editor_without_genai` 
+    
+    </td>
+    <td valign="top">
+    
+    Provides roles to view all contents of scenarios, and to view and edit contents of resource groups without Generative AI Hub 
+    
+    </td>
+    <td valign="top">
+    
+    `viewer_without_genai`
+
+    `mloperations_editor`
+
+    `artifact.register`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Functions Explorer*
+    
+    </td>
+    <td valign="top">
+    
+    `ailaunchpad_functions_explorer_viewer_v2_without_genai` 
+    
+    </td>
+    <td valign="top">
+    
+    Provides roles to view scenarios and all ML resources of a scenario without Generative AI Hub 
+    
+    </td>
+    <td valign="top">
+    
+    `viewer_without_genai`
+
+    `connections_viewer`
+
+    `functions_explorer`
+
+    `mlfunctions_viewer`
+
+    `scenario_executable_viewer`
+
+    `scenario_metadata_viewer`
+
+    `scenario_configuration_viewer`
+
+    `scenario_job_viewer`
+
+    `scenario_artifact_viewer`
+
+    `scenario_metric_viewer`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Functions Explorer*
+    
+    </td>
+    <td valign="top">
+    
+    `ailaunchpad_functions_explorer_editor_v2_without_genai` 
+    
+    </td>
+    <td valign="top">
+    
+    Edit scenarios and all ML resources of a scenario without Generative AI Hub 
+    
+    </td>
+    <td valign="top">
+    
+    `viewer_without_genai`
+
+    `connections_viewer`
+
+    `functions_explorer`
+
+    `mlfunctions_editor`
+
+    `scenario_executable_viewer`
+
+    `scenario_metadata_viewer`
+
+    `scenario_metric_viewer`
+
+    `scenario_configuration_editor`
+
+    `scenario_job_editor`
+
+    `scenario_artifact_editor`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *SAP AI Core Administration*
+    
+    </td>
+    <td valign="top">
+    
+    `ailaunchpad_aicore_admin_viewer_without_genai`
+    
+    </td>
+    <td valign="top">
+    
+    Administrator \(SAP AI Core\) viewer, without access to Generative AI Hub
+    
+    </td>
+    <td valign="top">
+    
+    `viewer_without_genai``aicore_admin_viewer_all`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *SAP AI Core Administration*
+    
+    </td>
+    <td valign="top">
+    
+    `ailaunchpad_aicore_admin_editor_without_genai`
+    
+    </td>
+    <td valign="top">
+    
+    Administrator \(SAP AI Core\) editor, without access to Generative AI Hub
+    
+    </td>
+    <td valign="top">
+    
+    `viewer_without_genai``aicore_admin_editor_all`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Generative AI Hub*
+    
+    </td>
+    <td valign="top">
+    
+    `ailaunchpad_genai_experimenter`
+    
+    </td>
+    <td valign="top">
+    
+    Generative AI Hub experimenter
+    
+    </td>
+    <td valign="top">
+    
+    `viewer_without_genai``genai_experimenter`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Generative AI Hub*
+    
+    </td>
+    <td valign="top">
+    
+    `ailaunchpad_genai_manager`
+    
+    </td>
+    <td valign="top">
+    
+    Generative AI Hub manager
+    
+    </td>
+    <td valign="top">
+    
+    `viewer_without_genai``genai_experimenter``genai_manager`
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Generative AI Hub*
+    
+    </td>
+    <td valign="top">
+    
+    `ailaunchpad_genai_administrator`
+    
+    </td>
+    <td valign="top">
+    
+    Generative AI Hub administrator
+    
+    </td>
+    <td valign="top">
+    
+    `viewer_without_genai``genai_administrator`
+    
+    </td>
+    </tr>
     </table>
     
 7.  Choose *Assign Role Collection*.
@@ -290,6 +558,13 @@ You can assign role collections to specific users to allow access to SAP AI Laun
 ## Results
 
 You've now assigned the role collection to the user, who has all of the authorizations provided by the role collection.
+
+> ### Note:  
+> Generative AI hub is available through the default `viewer` role.
+> 
+> Access to the generative AI hub can be revoked by assigning the equivalent role `without_genai`. For example, the `viewer` and `viewer_without_genai` are equiavalent roles, with and without generative AI hub capabilities respectively.
+
+For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
 
 **Related Information**  
 

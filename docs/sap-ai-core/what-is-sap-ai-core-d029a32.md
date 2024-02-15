@@ -4,9 +4,11 @@
 
 Learn more about the SAP AI Core service on SAP Business Technology Platform \(SAP BTP\).
 
-SAP AI Core is a service in the SAP Business Technology Platform that is designed to handle the execution and operations of your AI assets in a standardized, scalable, and hyperscaler-agnostic way. It provides seamless integration with your SAP solutions. Any AI function can be easily realized using open-source frameworks. SAP AI Core supports full lifecycle management of AI scenarios.
+SAP AI Core is a service in the SAP Business Technology Platform that is designed to handle the execution and operations of your AI assets in a standardized, scalable, and hyperscaler-agnostic way. It provides seamless integration with your SAP solutions. Any AI function can be easily realized using open-source frameworks. SAP AI Core supports full lifecycle management of AI scenarios. Access generative AI capabilities and prompt lifecycle management via the generative AI hub.
 
 SAP AI Core allows you to make data driven decisions confidently and efficiently, and is tailored to business problems. It handles large volumes of data and provides scalable machine learning capability, to automate tasks such as triage services for customer feedback or tickets and classification tasks. SAP AI Core comes with preconfigured SAP solutions, can be configured for open source machine learning frameworks, can be used with Argo Workflow and KServe, and can be embedded into other applications.
+
+SAP AI Core allows you to experiment with and utilize natural language prompts with a variety of generative AI models in the Generative AI Hub.
 
 > ### Tip:  
 > The English version of this guide is open for contributions and feedback using GitHub. This allows you to get in contact with responsible authors of SAP Help Portal pages and the development team to discuss documentation-related issues. To contribute to this guide, or to provide feedback, choose the corresponding option on SAP Help Portal:
@@ -32,7 +34,19 @@ SAP AI Core allows you to make data driven decisions confidently and efficiently
 
 ## Environment
 
-This service can be booked from the SAP Business Technology Platform. To subscribe to the service, you need a subaccount in Cloud Foundry.
+This service runs in the following environments:
+
+-   Cloud Foundry
+-   Kyma
+-   Kubernetes
+
+
+
+<a name="loiod029a32c22fb45fbb607e6a2c48c8a0e__section_a51_2xm_vzb"/>
+
+## Multitenancy
+
+This service supports multitenancy. It can be used in tenant-aware applications.
 
 
 
@@ -99,10 +113,12 @@ Register your Docker registry, synchronize your AI content from your git reposit
 
 </dd><dt><b>
 
-
+Generative AI hub 
 
 </b></dt>
 <dd>
+
+Choose from a selection of generative AI models for prompt experimentation, and prompt lifecycle management.
 
 
 
@@ -120,7 +136,7 @@ Register your Docker registry, synchronize your AI content from your git reposit
 **Related Information**  
 
 
-[About the AI API](about-the-ai-api-716d4c3.md "The AI API lets you manage your AI assets (such as training scripts, data, models, and model servers) across multiple runtimes.")
+[AI API Overview](ai-api-overview-716d4c3.md "The AI API lets you manage your AI assets (such as training scripts, data, models, and model servers) across multiple runtimes.")
 
 [SAP AI Launchpad](https://help.sap.com/viewer/product/AI_LAUNCHPAD/INTERNAL/en-US)
 

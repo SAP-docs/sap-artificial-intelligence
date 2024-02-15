@@ -4,9 +4,26 @@
 
 A resource group is a unique dedicated namespace or workspace environment, where users can create or add configurations, executions, deployments, and artifacts. They are used for running training jobs or model servers.
 
-![](images/Multitenancy_diagram_29a8dde.png)
+
+
+Resource groups are used to physically isolate machine learning workloads, and to logically isolate related resources for a usage scenario.
+
+When your tenant is onboarded, a default resource group is automatically created. Default resource groups can't be deleted.
+
+As an administrator, you create, edit, or delete resource groups, based on your service consumers and usage scenarios.
+
+Runtime entities such as executions, deployments, configurations, and artifacts belong to a specific resource group and are not shared across resource groups. Scenarios, executables, and Docker registry secrets are shared by all resource groups within a tenant.
+
+A resource group may also be referred to as an instance.
+
+> ### Remember:  
+> Your SAP global account may consist of several accounts. Each account can be associated with a tenant. A tenant can contain multiple resource groups. A tenant always contains a default resource group, as well as the resource groups defined for your usage scenarios.
 
 -   **[Create a Resource Group](create-a-resource-group-01753f4.md "")**  
+
+-   **[Edit a Resource Group](edit-a-resource-group-3f88c30.md "")**  
+
+-   **[Delete a Resource Group](delete-a-resource-group-40d83a2.md "")**  
 
 
 **Parent topic:**[Administration](administration-7937fc1.md "Creating secrets for external programs and tools, that are used with SAP AI Core means that you can connect them without compromising your credentials.")
@@ -17,14 +34,9 @@ A resource group is a unique dedicated namespace or workspace environment, where
 
 ## Resource Group Level Resources
 
--   Executables at the tenant level are shared across all of the resource groups.
+Executables at tenant level are shared across all resource groups. In contrast, runtime entities such as executions, deployments, configurations, and artifacts belong to a specific resource group and cannot be shared across resource groups. Similarly, generic secrets created within a resource group and be used only for workloads within that group.
 
--   Object Store is registered at the resource group level \(by setting the resource group header\). SAP AI Core tenants need to consider security aspects while designing the AI function. We recommend not to use the same object store bucket with same IAM user for multiple resource groups.
-
--   Runtime entities such as Executions, Deployments, Configurations and Artifacts belong to resource groups and cannot be shared across resource groups.
-
--   Generic secrets that are created within a resource group can only be used for workloads within the resource group.
-
+You can register an object store at resource-group level by setting the resource group header. We recommend that you do not use the same object store bucket with the same IAM user for multiple resource groups.
 
 Example resource group mappings are outlined in the figure below:
 

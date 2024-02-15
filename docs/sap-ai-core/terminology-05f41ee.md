@@ -288,6 +288,30 @@ An execution or executable that produces \(at least\) an artifact of type `model
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Prompt
+
+</td>
+<td valign="top">
+
+A prompt is a natural language instruction for a generative AI model.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Generative AI Hub
+
+</td>
+<td valign="top">
+
+The Generative AI Hub includes prompt experimentation, prompt management, and administrative tools. Prompt experimentation includes creating and running natural language prompts with a choice of large language models and parameters. Prompt management includes saving prompts with collections, metadata in the form of tags and notes, versioning and deletion.
+
+</td>
+</tr>
 </table>
 
 **Parent topic:**[Concepts](concepts-4c6b2da.md "In this section, we'll explore some of the concepts surrounding SAP AI Core.")
@@ -297,7 +321,5 @@ An execution or executable that produces \(at least\) an artifact of type `model
 
 [SAP AI Core Overview](sap-ai-core-overview-88e0078.md "SAP AI Core is the key to integrating artificial intelligence capabilities in your SAP solutions.")
 
-[Overview of SAP AI Core Systems](overview-of-sap-ai-core-systems-c243d2a.md "Your SAP AI Core system connects internal and external tools.")
-
-[Resource Groups](resource-groups-26c6c6b.md#loio26c6c6b50e3f412f8bc0cd6a8ebdb850 "SAP AI Core tenants use resource groups to isolate related ML resources and workloads. Scenarios, executables, and Docker registry secrets are shared across all resource groups.")
+[Generative AI Hub in SAP AI Core Overview](generative-ai-hub-in-sap-ai-core-overview-a126bd6.md "The generative AI hub incorporates generative AI into your AI activities in SAP AI Core and SAP AI Launchpad.")
 

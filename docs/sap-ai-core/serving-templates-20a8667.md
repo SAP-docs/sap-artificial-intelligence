@@ -277,7 +277,7 @@ spec:
       annotations: |
         autoscaling.knative.dev/metric: concurrency
         autoscaling.knative.dev/target: 1
-        autoscaling.knative.dev/target-burst-capacity: 0
+        autoscaling.knative.dev/targetBurstCapacity: 0
       labels: |
         ai.sap.com/resourcePlan: starter
     spec: |

@@ -2,7 +2,7 @@
 
 # Workflow Templates
 
-Here, you can find a minimal workflow example template, that can be adapted to meet the requirements of your workflow.
+Here, you can find a minimal workflow example template, which you can adjust to meet the requirements of your workflow.
 
 Workflow templates allow you to manage your training pipelines at the main tenant level. Templates are stored in your git repository, where you can version them as required. Workflows in SAP AI Core are executed using the Argo Workflows open source project. Argo Workflows is an open-source, container-native workflow engine for orchestrating parallel jobs on Kubernetes. Argo Workflows is implemented as a Kubernetes CRD \(Custom Resource Definition\).
 
@@ -10,7 +10,7 @@ Workflow templates are mapped as `executables`. Mapping requires certain attribu
 
 Workflow templates are based on the Argo Workflows workflow engine and are defined as `WorkflowTemplates`. These are definitions of workflows in your cluster. For information about `WorkflowTemplates` and sample workflows, see the Argo documentation.
 
-In SAP AI Core, Argo Workflows is used to:
+In SAP AI Core, Argo Workflows are used to:
 
 -   Train models
 

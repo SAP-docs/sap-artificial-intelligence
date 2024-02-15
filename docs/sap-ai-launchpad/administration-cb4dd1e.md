@@ -8,13 +8,13 @@ For example, you can use the *SAP AI Core Administration* app to manage authenti
 
 
 
-<a name="loiocb4dd1e3f63644a8b506266cec73474c__section_nbn_yfp_xsb"/>
+<a name="loiocb4dd1e3f63644a8b506266cec73474c__section_fg1_d5h_dzb"/>
 
 ## Accessing the App
 
 You'll find the *SAP AI Core Administration* app in SAP AI Launchpad in the left navigation panel.
 
-After selecting a connection in *Workspaces* app, the *SAP AI Core Administration* app is active. You can then manage Git repositories, applications, and Docker registry secrets which are connected to your underlying SAP AI Core runtime.
+After you have selected a connection in *Workspaces* app, the *SAP AI Core Administration* app is active. You can then manage Git repositories, applications, and Docker registry secrets which are connected to your underlying SAP AI Core runtime.
 
 ![Overview of the AI Core Administration app.](images/Image_AIL_admin_app_e4320bb.png)
 

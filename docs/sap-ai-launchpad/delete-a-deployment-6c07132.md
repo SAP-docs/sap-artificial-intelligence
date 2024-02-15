@@ -10,7 +10,7 @@ You delete a deployment to remove it from your instance.
 
 ## Prerequisites
 
-You have either the `mloperations_editor` or `scenario_deployment_editor` role, or you are assigned to a role collection that contains one of these roles. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have either the `mloperations_editor` or `scenario_deployment_editor` role, or you are assigned to a role collection that contains one of these roles. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
 
 
@@ -28,7 +28,7 @@ You can delete a deployment if it has the status *Dead*, *Stopped*, or *Unknown*
 
 ## Procedure
 
-1.  Navigate to the deployment's details. See [View a Deployment](view-a-deployment-d6f793e.md).
+1.  Navigate to the deployment's details. See [View a Deployment](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/d6f793e11145488daac3d1b7229a052a.html).
 
 2.  Choose *Delete* in the header. A *Warning* dialog box appears.
 

@@ -18,7 +18,7 @@ The following limits apply to each of the attributes in the MetricResource:
 
 
 > ### Recommendation:  
-> Do not use the tracking functions provided by SAP AI Core to track sensitive information. For more information, see [Security](security-a476d3c.md#loioa476d3c15bf04494907dcdb7a9aee131).
+> Do not use the tracking functions provided by SAP AI Core to track sensitive information. For more information, see [Security](security-a476d3c.md).
 
 
 

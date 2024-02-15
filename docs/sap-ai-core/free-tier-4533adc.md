@@ -43,7 +43,9 @@ Enable free tier to experience SAP AI Core for trial and testing purposes. Alter
 ## Prerequisites
 
 > ### Restriction:  
-> SAP AI Core free tier is only available in SAP BTP free tier, not SAP BTP trial.
+> -   SAP AI Core free tier is only available in SAP BTP free tier, not SAP BTP trial.
+> 
+> -   Generative AI Hub is not available in free tier. For more information, see [Service Plans](service-plans-c7244c6.md).
 
 
 

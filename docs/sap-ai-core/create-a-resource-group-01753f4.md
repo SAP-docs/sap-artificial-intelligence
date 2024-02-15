@@ -54,5 +54,9 @@ You have completed the Initial Setup. For more information, see [Initial Setup](
 **Related Information**  
 
 
-[Resource Group Level Resources](security-a476d3c.md#loiofbfa1badbbfa4981a417299238b82e39 "")
+[Edit a Resource Group](edit-a-resource-group-3f88c30.md "")
+
+[Delete a Resource Group](delete-a-resource-group-40d83a2.md "")
+
+[Multitenancy](multitenancy-ee90fe1.md "")
 

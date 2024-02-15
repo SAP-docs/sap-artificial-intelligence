@@ -13,5 +13,5 @@ To see the complete library of tutorials available for SAP AI Core, see [Tutoria
 
 **Parent topic:**[Initial Setup](initial-setup-38c4599.md "You provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Platform. After provisioning, you will have your service key, which provides URLs and credentials for accessing the SAP AI Core instance")
 
-**Next:**[Use a Service Key](use-a-service-key-3a97465.md)
+**Next:**[Enabling the Service in Cloud Foundry](enabling-the-service-in-cloud-foundry-0619d8a.md "Enable SAP AI Core using the standard procedures for the SAP BTP Cloud Foundry environment.")
 

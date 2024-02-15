@@ -22,7 +22,7 @@ If the updated deployment reaches the “running” state, *latestRunningConfigu
 
 
 > ### Note:  
-> Dead deployments can only be patched within 7 days. After 7 days from the time that the deploymemt reached DEAD status, it will be deleted and will no longer be availble.
+> Dead deployments can only be patched within 7 days. After 7 days from the time that the deployment reached DEAD status, it will be deleted and will no longer be available.
 
 
 

@@ -2,7 +2,7 @@
 
 # Register an Object Store Secret
 
-Connect SAP AI Core to a cloud object store and manage access using an object store secret. The connected storage stores your dataset, models and other cache files of the Metaflow Library for SAP AI Core.
+Connect SAP AI Core to a cloud object store and manage access using an object store secret. The connected storage stores your dataset, models, and other cache files of the Metaflow Library for SAP AI Core.
 
 Your cloud storage credentials are managed using secrets. Secrets are a means of allowing and controlling connections across directories and tools, without compromising your credentials.
 
@@ -20,7 +20,7 @@ You have completed the Initial Setup. For more information, see [Initial Setup](
 
 ## Context
 
-SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS \(Alicloud Object Storage Service\), SAP HANA Cloud, Data Lake and Azure Blob Storage.
+SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS \(Alicloud Object Storage Service\), SAP HANA Cloud, Data Lake, and Azure Blob Storage.
 
 
 
@@ -28,7 +28,7 @@ SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS 
 
 ## Using Postman
 
-1.  Send a POST request,to the endpoint `{{apiurl}}/v2/admin/objectStoreSecrets`.
+1.  Send a POST request to the endpoint `{{apiurl}}/v2/admin/objectStoreSecrets`.
 2.  As the request body, select the *raw* radiobutton and enter your object store secret details.
 
     > ### Note:  
@@ -37,10 +37,7 @@ SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS 
     -   For Amazon S3:
 
         ```json
-        {
-            "name": "default",
-            "type": "S3",
-            "bucket": "<S3 bucket name>",
+        <S3 bucket name>",
             "endpoint": "<S3 end point>",
             "pathPrefix": "<A path prefix that follows the bucket name>",
             "region": "<S3 region>",
@@ -60,7 +57,14 @@ SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS 
             "pathPrefix": "<path prefix to be appended with bucketname>",
             "data": {
                 "BUCKET": "<bucket-name>",
-                "ENDPOINT": "oss-cn-shanghai.aliyuncs.com",
+                "ENDPOINT": "oss-cn-shanghai.aliyuncs.com",{
+            "name": "default",
+            "type": "S3",
+            "bucket": "{
+            "name": "default",
+            "type": "oss",
+            "pathPrefix": "<path prefix to be appended with bucketname>",
+            "data": {
                 "REGION": "",
                 "ACCESS_KEY_ID": "xxxxx",
                 "SECRET_ACCESS_KEY": "xxxxx"
@@ -72,7 +76,8 @@ SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS 
     -   For SAP HANA Cloud, Data Lake:
 
         ```json
-        {
+        
+                "BUCKET": "{
           "name": "default",
           "type": "webhdfs",
           "pathPrefix": "<path prefix to be appended>",
@@ -108,7 +113,7 @@ SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS 
 
 3.  Send the request.
 
-    The following shows request using S3.
+    The following shows a request using S3.
 
     ![](images/POST_create_objectstoresecret_4548dd0.png)
 

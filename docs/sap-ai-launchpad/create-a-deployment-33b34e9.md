@@ -12,7 +12,7 @@ You create a deployment to run a model for serving purposes.
 
 ## Prerequisites
 
-You have either the `mloperations_editor` or `scenario_deployment_editor` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have either the `mloperations_editor` or `scenario_deployment_editor` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
 
 
@@ -28,7 +28,7 @@ If your runtime supports deployment durations, you'll be able to set a timeframe
 
 ## Procedure
 
-1.  Select a resource group. For more information, see [Set Resource Group](set-resource-group-0c07728.md#loio0c077289f29d4147921fb07ab0f68b7f).
+1.  Select a resource group. For more information, see [Set Resource Group](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/0c077289f29d4147921fb07ab0f68b7f.html).
 
 2.  In the *ML Operations* app, choose *Deployments*.
 
@@ -49,7 +49,7 @@ If your runtime supports deployment durations, you'll be able to set a timeframe
         > When your runtime is SAP AI Core, this search is not case-sensitive. For other runtimes, search may be case-sensitive.
 
         > ### Tip:  
-        > If there is no configuration which matches your data requirements, you can choose *create a configuration*. You'll be redirected to create a configuration, and the deployment you've started will be lost. When you have saved the new configuration, you can re-create the deployment using the new configuration. See [Create a Configuration](create-a-configuration-03bdcc7.md).
+        > If there is no configuration which matches your data requirements, you can choose *create a configuration*. You'll be redirected to create a configuration, and the deployment you've started will be lost. When you have saved the new configuration, you can re-create the deployment using the new configuration. See [Create a Configuration](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/03bdcc7fbb0b4e67a7d946692f0fd857.html).
 
     4.  In the *Duration* step, select either the standard or custom duration.
 

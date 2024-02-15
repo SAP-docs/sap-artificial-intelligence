@@ -23,8 +23,6 @@
 
 Your file will be uploaded to the S3 storage bucket with the prefix specified in the object store secret, and the full file path specified in the upload request.
 
-![](images/Upload_Postman_e590391.png)
-
 
 
 <a name="loio04664599dc4545b19581f64dd6242186__section_arf_dds_2xb"/>

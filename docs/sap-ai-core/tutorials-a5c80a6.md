@@ -83,3 +83,25 @@ Use Pre-Trained Tensorflow Models with a GPU in SAP AI Core.
 </dd>
 </dl>
 
+
+
+<a name="loioa5c80a6eb24e42488eb409136b0c0f8c__section_ekr_pvy_3zb"/>
+
+## Generative AI Hub Tutorials
+
+
+<dl>
+<dt><b>
+
+[Generative AI Hub Starter Tutorial](https://developers.sap.com/tutorials/ai-core-generative-ai.html)
+
+</b></dt>
+<dd>
+
+Activate the generative AI hub and learn the basics of composing prompts.
+
+
+
+</dd>
+</dl>
+

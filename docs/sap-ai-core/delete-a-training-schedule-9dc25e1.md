@@ -28,8 +28,6 @@ You can delete training schedules that are in states ACTIVE and INACTIVE.
 
 Send a DELETE request to the endpoint `{{apiurl}}/v2/lm/executionSchedules/{{executionScheduleId}}`
 
-![](images/delete_1de7882.png)
-
 **Parent topic:**[Training Schedules](training-schedules-2b702f8.md "")
 
 **Related Information**  
