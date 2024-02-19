@@ -41,7 +41,7 @@ You can create a chart to visualize the performance of an individual model, or c
     > ### Remember:  
     > You use a model ID to uniquely identify a model. This ID is used in your configuration as a value for a placeholder \(input artifact\) of a serving executable \(a pipeline to deploy an AI model\).
 
-3.  **Optional:** Filter the list by choosing <span class="SAP-icons"></span> \(Filter\). The *Filter* dialog appears.
+3.  **Optional:** Filter the list by choosing <span class="SAP-icons-V5"></span> \(Filter\). The *Filter* dialog appears.
 
     ![Filter by attributes dialog.](images/Image_AIL_MLOps_Model_Filter_fdd840f.jpg)
 
@@ -57,14 +57,14 @@ You can create a chart to visualize the performance of an individual model, or c
     > ### Tip:  
     > When your runtime is SAP AI Core, this search is not case-sensitive. For other runtimes, search may be case-sensitive.
 
-5.  Choose <span class="SAP-icons"></span> \(Copy\) for your model to copy the model's unique ID.
+5.  Choose <span class="SAP-icons-V5"></span> \(Copy\) for your model to copy the model's unique ID.
 
     > ### Tip:  
     > To see how a model ID is used during a deployment, see [Create a Deployment](create-a-deployment-33b34e9.md).
 
 6.  **Optional:** To create a chart for a model, select a model in the list and choose *View Metrics*. See [Create Chart to Compare Models](create-chart-to-compare-models-a943fa7.md).
 
-7.  To view the details for a model and investigate its origin information, select a model in the list or choose <span class="SAP-icons"></span> \(More\).
+7.  To view the details for a model and investigate its origin information, select a model in the list or choose <span class="SAP-icons-V5"></span> \(More\).
 
 8.  **Optional:** For data about the quality \(confidence\) of a model, see [View Metrics for a Model](view-metrics-for-a-model-354931f.md).
 

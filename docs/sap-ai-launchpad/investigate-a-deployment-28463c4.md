@@ -32,7 +32,7 @@ A deployment's details consists of scenario and template, parameters, and input 
 
     The *All Deployments* screen appears listing all existing deployments. Deployments are listed by ID, and with additional details such as configuration name and ID, current and target status, created on and changed on timestamps.
 
-2.  **Optional:** Filter the list by choosing <span class="SAP-icons"></span> \(Filter\). The *Filter* dialog appears.
+2.  **Optional:** Filter the list by choosing <span class="SAP-icons-V5"></span> \(Filter\). The *Filter* dialog appears.
 
     1.  Enter the deployment ID or status.
 
@@ -41,7 +41,7 @@ A deployment's details consists of scenario and template, parameters, and input 
 
 3.  **Optional:** To create a new deployment, choose *Create*. See [Create a Deployment](create-a-deployment-3bc6477.md).
 
-4.  To view the details for an individual deployment, select the deployment in the list or choose <span class="SAP-icons"></span> \(More\).
+4.  To view the details for an individual deployment, select the deployment in the list or choose <span class="SAP-icons-V5"></span> \(More\).
 
     ![Deployment details screen with key features highlighted.](images/Image_AIL_FE_All_Run_Dep_Details_ab1afc6.png)
 
@@ -58,10 +58,10 @@ A deployment's details consists of scenario and template, parameters, and input 
 
     3.  To search for an input or a parameter, enter a value or partial value in the :mag:field.
 
-    4.  To copy the ID of the model, choose <span class="SAP-icons"></span> \(Copy\).
+    4.  To copy the ID of the model, choose <span class="SAP-icons-V5"></span> \(Copy\).
 
 
-6.  **Optional:** To refresh the current status of the deployment, choose <span class="SAP-icons"></span> \(Refresh\).
+6.  **Optional:** To refresh the current status of the deployment, choose <span class="SAP-icons-V5"></span> \(Refresh\).
 
 7.  **Optional:** To update the deployment with a different configuration, choose *Update*. See [Update a Deployment](update-a-deployment-c186783.md).
 

@@ -18,11 +18,11 @@ You check the logs for an execution to debug an issue with a training pipeline.
 
     ![](images/Image_AIL_Execution_Enhanced_Logs_b72f296.png)
 
-3.  Choose :gear: to sort <span class="SAP-icons"></span> \(Sort\)\) or filter <span class="SAP-icons"></span> \(Filter\) the logs by timestamp.
+3.  Choose :gear: to sort <span class="SAP-icons-V5"></span> \(Sort\)\) or filter <span class="SAP-icons-V5"></span> \(Filter\) the logs by timestamp.
 
-4.  **Optional:** Choose <span class="SAP-icons"></span> \(Download Logs\) to download the logs to your *Downloads* folder. You can download all logs or just those logs for a specified timestamp range.
+4.  **Optional:** Choose <span class="SAP-icons-V5"></span> \(Download Logs\) to download the logs to your *Downloads* folder. You can download all logs or just those logs for a specified timestamp range.
 
-5.  To view the details for an individual log, select the log in the list or choose <span class="SAP-icons"></span> \(More\). The log event details are displayed in the right pane.
+5.  To view the details for an individual log, select the log in the list or choose <span class="SAP-icons-V5"></span> \(More\). The log event details are displayed in the right pane.
 
 
 **Related Information**  

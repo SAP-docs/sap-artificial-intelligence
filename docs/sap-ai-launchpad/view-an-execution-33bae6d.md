@@ -26,7 +26,7 @@ You have either the `mloperations_viewer` or `scenario_execution_viewer` role, o
 
     The *Executions* screen appears listing all of the executions for the selected resource group. Executions are listed by ID, and with additional details such as configuration name and ID, current and target status, created on timestamp, and changed on timestamp.
 
-3.  **Optional:** Filter the list by choosing <span class="SAP-icons"></span> \(Filter\). The *Filter* dialog appears.
+3.  **Optional:** Filter the list by choosing <span class="SAP-icons-V5"></span> \(Filter\). The *Filter* dialog appears.
 
     1.  Enter an execution ID, if required. A valid execution ID consists of lowercase characters, hyphens \(-\), and numbers.
 
@@ -35,7 +35,7 @@ You have either the `mloperations_viewer` or `scenario_execution_viewer` role, o
     3.  Choose *Apply* to apply the filter and conditions to the list.
 
 
-4.  To view the details for an execution, select an execution in the list or choose <span class="SAP-icons"></span> \(More\).
+4.  To view the details for an execution, select an execution in the list or choose <span class="SAP-icons-V5"></span> \(More\).
 
     You'll see an overview of the execution, including the overview steps, and tabs with more information.
 

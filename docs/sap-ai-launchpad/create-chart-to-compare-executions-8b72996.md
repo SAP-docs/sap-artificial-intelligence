@@ -23,7 +23,7 @@ You can create multiple charts and view them in the *Visual Board*.
 
 1.  In the *ML Operations* app, choose *Executions*.
 
-2.  **Optional:** If you have a large list of executions, you can filter the list by choosing <span class="SAP-icons"></span> \(Filter\). The *Filter* dialog appears.
+2.  **Optional:** If you have a large list of executions, you can filter the list by choosing <span class="SAP-icons-V5"></span> \(Filter\). The *Filter* dialog appears.
 
     1.  Enter the execution ID or select a status.
 
@@ -65,7 +65,7 @@ You can create multiple charts and view them in the *Visual Board*.
 
 10. **Optional:** Check the chart. Note, if you have multiple charts, you may need to scroll.
 
-    1.  To display a chart in full-screen mode, choose <span class="SAP-icons"></span> \(Open Full Screen\).
+    1.  To display a chart in full-screen mode, choose <span class="SAP-icons-V5"></span> \(Open Full Screen\).
 
     2.  To edit a chart, choose :pencil2:.
 

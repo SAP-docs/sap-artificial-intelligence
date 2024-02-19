@@ -49,7 +49,7 @@ You edit a secret when its credentials \(user name and access token\) change.
 
     1.  To copy the secret, copy the contents of the `data` parameter, as provided to you. The secret is between the parentheses. Paste the data into the *Secret* field.
 
-    2.  To upload the secret as a `.TXT` or `JSON` file, choose <span class="SAP-icons"></span> \(Upload\) . Search for and choose the secret from a local file. The file data then defaults to the *Secret* field.
+    2.  To upload the secret as a `.TXT` or `JSON` file, choose <span class="SAP-icons-V5"></span> \(Upload\) . Search for and choose the secret from a local file. The file data then defaults to the *Secret* field.
 
         > ### Note:  
         > Files which are larger than 10 KB can't be uploaded.

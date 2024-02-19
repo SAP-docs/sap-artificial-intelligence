@@ -26,7 +26,7 @@ You have either the `mloperations_viewer` or `scenario_metadata_viewer` role, or
 
     The *Scenarios* screen appears listing all of the scenarios for the selected connection. Scenarios are listed by name, and with additional details such as description, created on timestamp, changed on timestamp, number of contained executables, and number of versions.
 
-3.  To view the details for a scenario, select a scenario in the list or choose <span class="SAP-icons"></span> \(More\). The *Scenario Details* screen appears with the *Overview* tab displayed. The overview shows a graphical summary of the scenario, showing the distribution of workflow executables and serving executables by scenario version.
+3.  To view the details for a scenario, select a scenario in the list or choose <span class="SAP-icons-V5"></span> \(More\). The *Scenario Details* screen appears with the *Overview* tab displayed. The overview shows a graphical summary of the scenario, showing the distribution of workflow executables and serving executables by scenario version.
 
 4.  Choose the *Executables* tab to list the workflow and serving executables for the scenario across its various versions.
 
@@ -35,7 +35,7 @@ You have either the `mloperations_viewer` or `scenario_metadata_viewer` role, or
     -   Filter the list by choosing a version in the *Show* field, or show all versions.
 
     -   Search the list by entering a name,partial name, or part of the description in the :mag: field.
-    -   Display the details for an executable by selecting an executable in the list, or choosing <span class="SAP-icons"></span> \(More\).
+    -   Display the details for an executable by selecting an executable in the list, or choosing <span class="SAP-icons-V5"></span> \(More\).
 
 
 **Related Information**  

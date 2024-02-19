@@ -87,6 +87,204 @@ SAP AI Core
 </td>
 <td valign="top">
 
+Authentication
+
+</td>
+<td valign="top">
+
+Authentication through X.509 certificates is supported.
+
+For more information, see [Create a Service Key](create-a-service-key-7323ff4.md) and [Use a Service Key](use-a-service-key-3a97465.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2024-02-18
+
+</td>
+<td valign="top">
+
+2024-02-18
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub SDK
+
+</td>
+<td valign="top">
+
+The Generative AI hub SDK is available.
+
+For more information, see [generative AI hub SDK](https://pypi.org/project/generative-ai-hub-sdk/).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2024-02-18
+
+</td>
+<td valign="top">
+
+2024-02-18
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Content filtering for selected Azure models in generative AI hub
+
+</td>
+<td valign="top">
+
+Content filtering for the following categories and severities has been enabled for selected Azure model:. hate, sexual, self-harm, and violence have been allowed for low severity cases, and blocked for medium and high severity cases. Jailbreak risks have been blocked.
+
+For more information, see [Azure Content Filtering Documentation](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/content-filter?tabs=warning%2Cpython)
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2024-02-18
+
+</td>
+<td valign="top">
+
+2024-02-18
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Generative AI hub 
 
 </td>

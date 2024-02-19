@@ -43,7 +43,7 @@ A deployment is a process which deploys a model. A deployment is created using a
 
     ![List of deployments with key features highlighted.](images/Image_AIL_FE_All_Dep_List_0054c23.png)
 
-3.  **Optional:** Filter the list by choosing <span class="SAP-icons"></span> \(Filter\). The *Filter* dialog appears.
+3.  **Optional:** Filter the list by choosing <span class="SAP-icons-V5"></span> \(Filter\). The *Filter* dialog appears.
 
     1.  Enter the deployment ID or status.
 
@@ -52,7 +52,7 @@ A deployment is a process which deploys a model. A deployment is created using a
 
 4.  **Optional:** To create a new deployment using the deployment template, choose *Deploy*. See [Create a Deployment](create-a-deployment-081b1a8.md).
 
-5.  To investigate details for a deployment, select the deployment in the list or choose <span class="SAP-icons"></span> \(More\).
+5.  To investigate details for a deployment, select the deployment in the list or choose <span class="SAP-icons-V5"></span> \(More\).
 
     The *Deployment Details* screen appears with details such as the current and target status, scenario, deployment template, parameters, and dataset.
 

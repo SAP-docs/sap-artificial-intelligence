@@ -19,7 +19,7 @@ You compare metrics for runs to determine which configuration parameters result 
 
 1.  In the *Functions Explorer* app, choose *All Runs*.
 
-2.  **Optional:** If you have a large list of runs, you can filter the list by choosing <span class="SAP-icons"></span> \(Filter\). The *Filter* dialog appears.
+2.  **Optional:** If you have a large list of runs, you can filter the list by choosing <span class="SAP-icons-V5"></span> \(Filter\). The *Filter* dialog appears.
 
     1.  Enter the run ID or select a status.
 
@@ -38,9 +38,9 @@ You compare metrics for runs to determine which configuration parameters result 
 
 5.  Investigate the metric data for the selected runs.
 
-    -   To show the data comparison in full-screen mode, choose <span class="SAP-icons"></span> \(Fullscreen\).
+    -   To show the data comparison in full-screen mode, choose <span class="SAP-icons-V5"></span> \(Fullscreen\).
 
-    -   To show or hide the runs selected for comparison, choose :eye: or <span class="SAP-icons"></span> \(Hide\).
+    -   To show or hide the runs selected for comparison, choose :eye: or <span class="SAP-icons-V5"></span> \(Hide\).
 
     -   To show or hide different criteria and comparison data, choose *Configurations*, *Runs*, or *Models*.
 

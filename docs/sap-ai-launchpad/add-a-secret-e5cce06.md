@@ -41,7 +41,7 @@ You can use the *SAP AI Core Administration* app to add generic secrets.
 
     1.  Switch between tenant level and resource group level secrets
 
-    2.  If your secret is at the resource group level: confirm the resource group. To change the resource group, choose <span class="SAP-icons"></span> \(Change Value\).
+    2.  If your secret is at the resource group level: confirm the resource group. To change the resource group, choose <span class="SAP-icons-V5"></span> \(Change Value\).
 
     3.  Enter a name for the secret.
 

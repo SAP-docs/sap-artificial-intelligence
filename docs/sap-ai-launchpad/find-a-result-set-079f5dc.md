@@ -33,13 +33,13 @@ You have the `artifact.register` role, or you have been assigned a role collecti
 
     The *Result Sets* screen appears listing the result sets for the selected resource group. Result sets are listed by name, and with additional details such as description, ID, scenario, URL, execution ID, labels, created on timestamp, and changed on timestamp.
 
-3.  **Optional:** View the labels associated with any corresponding artifact by choosing <span class="SAP-icons"></span> \(Labels\) in the corresponding row.
+3.  **Optional:** View the labels associated with any corresponding artifact by choosing <span class="SAP-icons-V5"></span> \(Labels\) in the corresponding row.
 
 4.  **Optional:** Search the list by entering a result set name or part of the result set description in the :mag: field.
 
     > ### Tip:  
     > When your runtime is SAP AI Core, this search is not case-sensitive. For other runtimes, search may be case-sensitive.
 
-5.  **Optional:** Filter the list by choosing <span class="SAP-icons"></span> \(Filter\). The *Filter* dialog appears. Enter any required filter criteria and conditions.
+5.  **Optional:** Filter the list by choosing <span class="SAP-icons-V5"></span> \(Filter\). The *Filter* dialog appears. Enter any required filter criteria and conditions.
 
 

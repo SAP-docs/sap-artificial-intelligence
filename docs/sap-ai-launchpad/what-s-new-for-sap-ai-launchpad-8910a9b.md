@@ -85,12 +85,78 @@ SAP AI Launchpad
 </td>
 <td valign="top">
 
-Generative AI Hub
+Disclaimer in generative AI hub
 
 </td>
 <td valign="top">
 
-Access the generative AI hub in SAP AI Core. The generative AI hub includes prompt experimentation, prompt management, and administrative tools. Prompt experimentation includes creating and running natural language prompts with a choice of models and parameters. Prompt management includes saving prompts with collections, metadata in the form of tags and notes, versioning and deletion.
+Administrators can create a custom disclaimer message for a selected SAP AI Core runtime. The message appears in SAP AI Launchpad for all generative AI hub users of that connection.
+
+For more information, see [Create a Disclaimer](create-a-disclaimer-4ecc5ae.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-02-15
+
+</td>
+<td valign="top">
+
+2024-02-15
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub
+
+</td>
+<td valign="top">
+
+You can now access the generative AI hub in SAP AI Core. The generative AI hub includes prompt experimentation, prompt management, and administrative tools. Prompt experimentation includes creating and running natural language prompts with a choice of models and parameters. Prompt management includes saving prompts with collections, metadata in the form of tags and notes, versioning, and deletion.
 
 For more information, see [Generative AI Hub](generative-ai-hub-b0b935b.md).
 

@@ -134,6 +134,135 @@ If you want to remove a model, delete its deployment. For more information, see 
 > ### Restriction:  
 > Do not submit sensitive information in prompts when using generative AI hub.
 
+<a name="concept_ef2_1kz_21c"/>
+
+<!-- concept\_ef2\_1kz\_21c -->
+
+## Content Filtering
+
+Content filtering for the following categories and severities has been enabled for selected Azure models:
+
+
+<table>
+<tr>
+<th valign="top">
+
+Category
+
+</th>
+<th valign="top">
+
+Low Severity
+
+</th>
+<th valign="top">
+
+Medium and High Severity
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+**Hate:**
+
+</td>
+<td valign="top">
+
+Allow
+
+</td>
+<td valign="top">
+
+Block
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Sexual:**
+
+</td>
+<td valign="top">
+
+Allow
+
+</td>
+<td valign="top">
+
+Block
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Self-harm:**
+
+</td>
+<td valign="top">
+
+Allow
+
+</td>
+<td valign="top">
+
+Block
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Violence:**
+
+</td>
+<td valign="top">
+
+Allow
+
+</td>
+<td valign="top">
+
+Block
+
+</td>
+</tr>
+</table>
+
+
+<table>
+<tr>
+<th valign="top">
+
+Category
+
+</th>
+<th valign="top">
+
+If Detected
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+**Jailbreak risk:**
+
+</td>
+<td valign="top">
+
+Block
+
+</td>
+</tr>
+</table>
+
+For more information, see [Azure Content Filtering Documentation](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/content-filter?tabs=warning%2Cpython).
+
+If your response is filtered because of the contents, you will receive an error message instead of the reponse.
+
 <a name="concept_ynz_mgh_tzb"/>
 
 <!-- concept\_ynz\_mgh\_tzb -->

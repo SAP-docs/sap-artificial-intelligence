@@ -124,7 +124,7 @@ Administrators can create, edit, or delete resource groups using the *ML Operati
 
     Resource groups are listed by resource ID, and with identifying details such as subaccount ID, zone ID, instance ID, and created on timestamp.
 
-2.  **Optional:** Check the labels for the resource group by choosing <span class="SAP-icons"></span> \(Labels\). The *Labels* dialog appears showing all labels for the selected resource group. Labels include subaccount ID, zone ID, instance ID, as well as any other defined labels. Labels are subject to character limitations, and you can mouseover a label for its complete details.
+2.  **Optional:** Check the labels for the resource group by choosing <span class="SAP-icons-V5"></span> \(Labels\). The *Labels* dialog appears showing all labels for the selected resource group. Labels include subaccount ID, zone ID, instance ID, as well as any other defined labels. Labels are subject to character limitations, and you can mouseover a label for its complete details.
 
 3.  Find the resource group and select it for your workspace. The ID of the selected resource group appears next to the connection name in the header.
 

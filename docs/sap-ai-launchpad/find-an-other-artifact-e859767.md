@@ -38,7 +38,7 @@ You have the `scenario_artifact_viewer` role, or you are assigned to a role coll
     > ### Tip:  
     > When your runtime is SAP AI Core, this search is not case-sensitive. For other runtimes, search may be case-sensitive.
 
-4.  **Optional:** Filter the list by choosing <span class="SAP-icons"></span> \(Filter\). The *Filter* dialog appears.
+4.  **Optional:** Filter the list by choosing <span class="SAP-icons-V5"></span> \(Filter\). The *Filter* dialog appears.
 
     ![Filter dialog with options to filter by attributes.](images/Image_AIL_Other_Artifacts_Step4_dbf1d87.jpg)
 

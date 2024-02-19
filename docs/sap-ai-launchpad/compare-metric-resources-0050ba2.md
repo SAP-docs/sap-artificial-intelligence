@@ -37,9 +37,9 @@ When you compare metrics, multiple model/ execution metrics are compared against
 
 4.  Investigate the metric details.
 
-    -   To show detailed comparison results, choose <span class="SAP-icons"></span> \(Expand\).
+    -   To show detailed comparison results, choose <span class="SAP-icons-V5"></span> \(Expand\).
 
-    -   To show or hide metrics for an execution, choose :eye: or <span class="SAP-icons"></span> \(Hide\).
+    -   To show or hide metrics for an execution, choose :eye: or <span class="SAP-icons-V5"></span> \(Hide\).
 
     -   To show or hide different comparison criteria, choose *Configurations*, *Executions*, or *Models*.
 

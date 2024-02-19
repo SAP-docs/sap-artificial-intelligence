@@ -22,7 +22,7 @@ You have the `mloperations_viewer` or `execution_schedules_viewer` role, or you 
 
     The *Schedules* screen appears listing all of the schedules for the selected resource group. Schedules are listed by name/ID, with additional details such as Configuration ID, Status, and Created On timestamp. Details for the selected schedule are displayed on the right.
 
-3.  Filter the list by choosing <span class="SAP-icons"></span> \(Filter\). The *Filter* dialog appears. Enter at least one of the following:
+3.  Filter the list by choosing <span class="SAP-icons-V5"></span> \(Filter\). The *Filter* dialog appears. Enter at least one of the following:
 
     -   Schedule ID: A valid schedule ID consists of lowercase characters, hyphens \(-\), and numbers
     -   Configuration ID

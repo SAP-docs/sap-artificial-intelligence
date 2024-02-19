@@ -65,7 +65,7 @@ You have either the `mloperations_editor` or `scenario_configuration_editor` rol
 
     You'll be redirected to the details screen for the newly created configuration.
 
-9.  **Optional:** Choose <span class="SAP-icons"></span> \(Copy\) for the configuration ID to copy the unique ID for future use.
+9.  **Optional:** Choose <span class="SAP-icons-V5"></span> \(Copy\) for the configuration ID to copy the unique ID for future use.
 
 
 

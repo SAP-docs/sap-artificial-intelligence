@@ -23,7 +23,7 @@ You can create multiple charts and view them in the *Chart View*.
 
 1.  In the *Functions Explorer* app, choose *All Runs*.
 
-2.  **Optional:** If you have a large list of runs, you can filter the list by choosing <span class="SAP-icons"></span> \(Filter\). The *Filter* dialog appears.
+2.  **Optional:** If you have a large list of runs, you can filter the list by choosing <span class="SAP-icons-V5"></span> \(Filter\). The *Filter* dialog appears.
 
     1.  Enter the run ID or select a status.
 
@@ -63,7 +63,7 @@ You can create multiple charts and view them in the *Chart View*.
 
 10. **Optional:** Check the chart. Note, if you have multiple charts, you may need to scroll.
 
-    1.  To display a chart in full-screen mode, choose <span class="SAP-icons"></span> \(Open Full Screen\).
+    1.  To display a chart in full-screen mode, choose <span class="SAP-icons-V5"></span> \(Open Full Screen\).
 
     2.  To edit a chart, choose :pencil2:.
 

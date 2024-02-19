@@ -138,5 +138,5 @@ Choose from a selection of generative AI models for prompt experimentation, and 
 
 [AI API Overview](ai-api-overview-716d4c3.md "The AI API lets you manage your AI assets (such as training scripts, data, models, and model servers) across multiple runtimes.")
 
-[SAP AI Launchpad](https://help.sap.com/viewer/product/AI_LAUNCHPAD/INTERNAL/en-US)
+[SAP AI Launchpad](https://help.sap.com/ailaunchpad)
 

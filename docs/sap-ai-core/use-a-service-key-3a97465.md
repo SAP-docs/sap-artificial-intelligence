@@ -41,6 +41,11 @@
     > 
     > You might see an alert relating to the characters in your credentials, you can ignore this.
 
+    > ### Note:  
+    > If you have generated a x.509 certificate instead of clientsecret credentials, you'll need to use your `certificate`, `key` and `certUrl` to create your token.
+    > 
+    > For example: `curl --cert <cert.pem> --key <key.pem> -XPOST <certUrl>/oauth/token -d 'grant_type=client_credentials&client_id=<client id>'`
+
 5.  Select the *Variables* tab, and set your `baseUrl` from your credentials.
 
     The `baseUrl` is labelled *AI\_API\_URL* in your service key.
@@ -117,6 +122,11 @@ curl is likely to be installed on your operating system by default. To check, op
 
     > ### Note:  
     > The token is valid for a limited time. Once it has expired, create a new token, using the same code snippet.
+
+    > ### Note:  
+    > If you have generated a x.509 certificate instead of clientsecret credentials, you'll need to use your `certificate`, `key` and `certUrl` to create your token.
+    > 
+    > For example: `curl --cert <cert.pem> --key <key.pem> -XPOST <certUrl>/oauth/token -d 'grant_type=client_credentials&client_id=<client id>'`
 
 3.  Verify that the token has been fetched properly:
 

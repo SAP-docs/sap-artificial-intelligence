@@ -37,19 +37,19 @@ A run's details consists of two tabs: *Overview* and *Metric Resource*.
 
 2.  **Optional:** To compare metrics for up to five runs, see [Compare Run Metrics](compare-run-metrics-0255655.md).
 
-3.  **Optional:** Filter the list by choosing <span class="SAP-icons"></span> \(Filter\). The *Filter* dialog appears.
+3.  **Optional:** Filter the list by choosing <span class="SAP-icons-V5"></span> \(Filter\). The *Filter* dialog appears.
 
     1.  Enter the run ID or select a status.
 
     2.  Choose *Apply* to apply the filter to the list.
 
 
-4.  To view the details for a run, select a run in the list or choose <span class="SAP-icons"></span> \(More\).
+4.  To view the details for a run, select a run in the list or choose <span class="SAP-icons-V5"></span> \(More\).
 
     The *Overview* tab displays details associated with the run, such as run ID, names of the associated scenario and template, parameters, input dataset, and output model.
 
     > ### Tip:  
-    > To copy the ID of the input dataset or output model, choose <span class="SAP-icons"></span> \(Copy\).
+    > To copy the ID of the input dataset or output model, choose <span class="SAP-icons-V5"></span> \(Copy\).
 
     ![Functions Explorer Run Details screen with key features highlighted.](images/Image_AIL_FE_All_Scenarios_Run_Details_2237b0f.png)
 

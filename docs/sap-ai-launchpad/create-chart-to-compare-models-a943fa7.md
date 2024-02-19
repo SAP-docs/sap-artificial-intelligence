@@ -33,7 +33,7 @@ You can create multiple charts and view them in the *Visual Board*.
 
     The *All Models* screen appears listing all of the models for the selected resource group. Models are listed by name, and with additional details such as description, ID, scenario, URL, execution ID, labels, created on timestamp, and changed on timestamp.
 
-2.  **Optional:** If you have a large list of models, you can further filter the list by choosing <span class="SAP-icons"></span> \(Filter\).
+2.  **Optional:** If you have a large list of models, you can further filter the list by choosing <span class="SAP-icons-V5"></span> \(Filter\).
 
 3.  **Optional:** Search the list by entering a model name or part of the model's description in the :mag: field.
 
@@ -70,7 +70,7 @@ You can create multiple charts and view them in the *Visual Board*.
 
 11. **Optional:** Check the chart. Note, if you already have multiple charts on your visual board, you may need to scroll.
 
-    1.  To display a chart in full-screen mode, choose <span class="SAP-icons"></span> \(Open Full Screen\).
+    1.  To display a chart in full-screen mode, choose <span class="SAP-icons-V5"></span> \(Open Full Screen\).
 
     2.  To edit a chart, choose :pencil2:.
 

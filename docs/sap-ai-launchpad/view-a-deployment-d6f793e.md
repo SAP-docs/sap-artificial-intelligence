@@ -29,7 +29,7 @@ You have the `mloperations_viewer` or `scenario_deployment_viewer` role, or you 
     > ### Note:  
     > If your runtime supports deployment durations, you'll see running until dates. Deployments run until this time, and are then automatically stopped and deleted.
 
-3.  **Optional:** Filter the list by choosing <span class="SAP-icons"></span> \(Filter\). The *Filter* dialog appears.
+3.  **Optional:** Filter the list by choosing <span class="SAP-icons-V5"></span> \(Filter\). The *Filter* dialog appears.
 
     1.  Enter a deployment ID, if required. A valid deployment ID consists of lowercase characters, hyphens \(-\), and numbers.
 
@@ -38,7 +38,7 @@ You have the `mloperations_viewer` or `scenario_deployment_viewer` role, or you 
     3.  Choose *Apply* to apply the filter and conditions to the list.
 
 
-4.  To view the details for an individual deployment, select the deployment in the list or choose <span class="SAP-icons"></span> \(More\).
+4.  To view the details for an individual deployment, select the deployment in the list or choose <span class="SAP-icons-V5"></span> \(More\).
 
     You'll see an overview of the deployment lifecycle process.
 

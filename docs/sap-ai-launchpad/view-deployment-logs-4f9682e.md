@@ -31,11 +31,11 @@ Deployment logs differ from deployment status logs \([View Status Details](https
 
     ![Log details for a pending deployment.](images/Image_AIL_Deployment_Enhanced_Logs_5668448.png)
 
-3.  Choose :gear: to sort <span class="SAP-icons"></span> \(Sort\)\) or filter <span class="SAP-icons"></span> \(Filter\) the logs by timestamp.
+3.  Choose :gear: to sort <span class="SAP-icons-V5"></span> \(Sort\)\) or filter <span class="SAP-icons-V5"></span> \(Filter\) the logs by timestamp.
 
-4.  **Optional:** Choose <span class="SAP-icons"></span> \(Download Logs\) to download the logs to your *Downloads* folder. You can download all logs or just those logs for a specified timestamp range.
+4.  **Optional:** Choose <span class="SAP-icons-V5"></span> \(Download Logs\) to download the logs to your *Downloads* folder. You can download all logs or just those logs for a specified timestamp range.
 
-5.  To view the details for an individual log, select the log in the list or choose <span class="SAP-icons"></span> \(More\). The log event details are displayed in the right pane.
+5.  To view the details for an individual log, select the log in the list or choose <span class="SAP-icons-V5"></span> \(More\). The log event details are displayed in the right pane.
 
 
 **Related Information**  

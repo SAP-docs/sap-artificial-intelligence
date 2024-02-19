@@ -47,8 +47,8 @@ A configuration is required to create a run. The configuration provides values f
 
 5.  **Optional:** To create a new configuration, choose *Create*. See [Create a Configuration](create-a-configuration-c89e279.md).
 
-6.  To view the details for a configuration, select a configuration in the list or choose <span class="SAP-icons"></span> \(More\).
+6.  To view the details for a configuration, select a configuration in the list or choose <span class="SAP-icons-V5"></span> \(More\).
 
-    The *Configuration Details* screen appears with the configuration name, configuration ID, scenario, template, created on timestamp, parameters, and inputs. To copy the configuration ID, click <span class="SAP-icons"></span> \(Copy\).
+    The *Configuration Details* screen appears with the configuration name, configuration ID, scenario, template, created on timestamp, parameters, and inputs. To copy the configuration ID, click <span class="SAP-icons-V5"></span> \(Copy\).
 
 

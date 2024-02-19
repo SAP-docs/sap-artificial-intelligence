@@ -36,7 +36,7 @@ Use the *ML Operations* app to search for a dataset.
     > ### Tip:  
     > When your runtime is SAP AI Core, this search is not case-sensitive. For other runtimes, search may be case-sensitive.
 
-3.  **Optional:** Filter the list by choosing <span class="SAP-icons"></span> \(Filter\). The *Filter* dialog appears.
+3.  **Optional:** Filter the list by choosing <span class="SAP-icons-V5"></span> \(Filter\). The *Filter* dialog appears.
 
     ![Filter options and conditions.](images/Image_AIL_Dataset_2_4e6c2e9.jpg)
 

@@ -44,7 +44,7 @@ For more information, see [Roles and Authorizations](roles-and-authorizations-4e
 
     -   The scenario associated with the dataset
 
-    -   Custom tags \(labels\) that were associated with the dataset when it was created. You can view the labels associated with an dataset by choosing <span class="SAP-icons"></span> \(Labels\)in the corresponding row.
+    -   Custom tags \(labels\) that were associated with the dataset when it was created. You can view the labels associated with an dataset by choosing <span class="SAP-icons-V5"></span> \(Labels\)in the corresponding row.
 
     -   The timestamp when the dataset was created
 
@@ -54,7 +54,7 @@ For more information, see [Roles and Authorizations](roles-and-authorizations-4e
     > ### Tip:  
     > When your runtime is SAP AI Core, this seach is not case-sensitive. For other runtimes, search may be case-sensitive.
 
-6.  **Optional:** Filter for a dataset in the list by choosing <span class="SAP-icons"></span> \(Filter\). The *Filter* dialog appears.
+6.  **Optional:** Filter for a dataset in the list by choosing <span class="SAP-icons-V5"></span> \(Filter\). The *Filter* dialog appears.
 
     ![](images/Investigate_a_deployment_f5e5d68.png)
 

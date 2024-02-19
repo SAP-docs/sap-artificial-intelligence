@@ -41,6 +41,9 @@
         > ### Restriction:  
         > Do not submit sensitive information in prompts when using generative AI hub.
 
+        > ### Restriction:  
+        > The prompt message input has a limit of 4000 tokens.
+
     2.  **Optional:** Enter a name for your prompt.
 
         Not available to the `genai_experimenter` or `prompt_experimenter` roles.
@@ -83,6 +86,130 @@
 ## Results
 
 The response to your prompt will be generated.
+
+> ### Note:  
+> Content filtering for the following categories and severities has been enabled for selected Azure models:
+> 
+> 
+> <table>
+> <tr>
+> <th valign="top">
+> 
+> Category
+> 
+> </th>
+> <th valign="top">
+> 
+> Low Severity
+> 
+> </th>
+> <th valign="top">
+> 
+> Medium and High Severity
+> 
+> </th>
+> </tr>
+> <tr>
+> <td valign="top">
+> 
+> **Hate:**
+> 
+> </td>
+> <td valign="top">
+> 
+> Allow
+> 
+> </td>
+> <td valign="top">
+> 
+> Block
+> 
+> </td>
+> </tr>
+> <tr>
+> <td valign="top">
+> 
+> **Sexual:**
+> 
+> </td>
+> <td valign="top">
+> 
+> Allow
+> 
+> </td>
+> <td valign="top">
+> 
+> Block
+> 
+> </td>
+> </tr>
+> <tr>
+> <td valign="top">
+> 
+> **Self-harm:**
+> 
+> </td>
+> <td valign="top">
+> 
+> Allow
+> 
+> </td>
+> <td valign="top">
+> 
+> Block
+> 
+> </td>
+> </tr>
+> <tr>
+> <td valign="top">
+> 
+> **Violence:**
+> 
+> </td>
+> <td valign="top">
+> 
+> Allow
+> 
+> </td>
+> <td valign="top">
+> 
+> Block
+> 
+> </td>
+> </tr>
+> </table>
+> 
+> 
+> <table>
+> <tr>
+> <th valign="top">
+> 
+> Category
+> 
+> </th>
+> <th valign="top">
+> 
+> If Detected
+> 
+> </th>
+> </tr>
+> <tr>
+> <td valign="top">
+> 
+> **Jailbreak risk:**
+> 
+> </td>
+> <td valign="top">
+> 
+> Block
+> 
+> </td>
+> </tr>
+> </table>
+> 
+> For more information, see [Azure Content Filtering Documentation](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/content-filter?tabs=warning%2Cpython).
+> 
+> If your response is filtered because of the contents, you will receive an error message instead of the reponse.
 
 
 

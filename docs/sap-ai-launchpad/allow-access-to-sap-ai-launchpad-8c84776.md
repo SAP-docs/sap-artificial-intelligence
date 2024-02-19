@@ -24,7 +24,7 @@ You can assign role collections to specific users to allow access to SAP AI Laun
 
     ![](images/BTP_Choose_User_e98d951.png)
 
-5.  In the *Role Collections* section, choose *Assign Role Collection* \(you may have to click the *More* icon \(<span class="SAP-icons"></span>\) to see this\).
+5.  In the *Role Collections* section, choose *Assign Role Collection* \(you may have to click the *More* icon \(<span class="SAP-icons-V5"></span>\) to see this\).
 
     ![](images/BTP_Assign_Role_Collection_a341408.png)
 

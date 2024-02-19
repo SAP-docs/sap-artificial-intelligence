@@ -49,7 +49,7 @@ You can create a chart for an individual model, or create a chart to compare mod
 
 5.  **Optional:** To create a chart for a model, select a model in the list and choose *View Metrics*. See [Create Chart to Compare Models](create-chart-to-compare-models-377db35.md).
 
-6.  To view the details for a model, select a model in the list or choose <span class="SAP-icons"></span> \(More\).
+6.  To view the details for a model, select a model in the list or choose <span class="SAP-icons-V5"></span> \(More\).
 
     The *Model Details* screen appears with key details, such as model ID and description, scenario and template, created and changed on timestamps, and source run.
 

@@ -43,7 +43,7 @@ You have the `connections_editor` role or a role collection that contains it. Fo
 
     -   You can upload the service key file for your SAP AI Core instance, if available.
 
-        To upload the service key as a `.TXT` or `JSON` file, choose <span class="SAP-icons"></span> \(Upload\) . Search for and choose the local service key file.
+        To upload the service key as a `.TXT` or `JSON` file, choose <span class="SAP-icons-V5"></span> \(Upload\) . Search for and choose the local service key file.
 
         Service key data then defaults to the remaining fields.
 

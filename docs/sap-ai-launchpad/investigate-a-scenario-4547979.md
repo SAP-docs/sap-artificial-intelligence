@@ -30,7 +30,7 @@ For more information, see [Roles and Authorizations](roles-and-authorizations-4e
 
 2.  **Optional:** Scroll to a scenario or use :mag: to search for a scenario by name.
 
-3.  To view the details for an individual scenario, select the scenario in the list or choose <span class="SAP-icons"></span> \(More\).
+3.  To view the details for an individual scenario, select the scenario in the list or choose <span class="SAP-icons-V5"></span> \(More\).
 
     The *Scenario Details* screen appears, with the scenario name, ID, created on and changed on timestamps.
 

@@ -42,7 +42,7 @@ Supported cloud object stores include Amazon S3 \(S3\), Alicloud Object Storage 
 
 4.  Complete the fields in the *Add Object Store Secret* dialog box as follows:
 
-    1.  Confirm the resource group. To change the resource group, choose <span class="SAP-icons"></span> \(Change Value\).
+    1.  Confirm the resource group. To change the resource group, choose <span class="SAP-icons-V5"></span> \(Change Value\).
 
     2.  Enter a name for the secret.
 

@@ -37,7 +37,7 @@ You have either the `mloperations_viewer` or `scenario_configuration_viewer` rol
     > ### Tip:  
     > When your runtime is SAP AI Core, this search is not case-sensitive. For other runtimes, search may be case-sensitive.
 
-4.  **Optional:** Filter the list by choosing <span class="SAP-icons"></span> \(Filter\). The *Filter* dialog appears.
+4.  **Optional:** Filter the list by choosing <span class="SAP-icons-V5"></span> \(Filter\). The *Filter* dialog appears.
 
     1.  Enter a configuration ID. A valid configuration ID consists of lowercase characters, hyphens \(-\), and numbers.
 
@@ -46,7 +46,7 @@ You have either the `mloperations_viewer` or `scenario_configuration_viewer` rol
     3.  Choose *Apply* to apply the filter and conditions to the list.
 
 
-5.  To view the details for a configuration, select a configuration in the list or choose <span class="SAP-icons"></span> \(More\). The *Configuration Details* screen appears. The overview shows a summary of the configuration.
+5.  To view the details for a configuration, select a configuration in the list or choose <span class="SAP-icons-V5"></span> \(More\). The *Configuration Details* screen appears. The overview shows a summary of the configuration.
 
     ![Configuration details screen showing key data.](images/view-a-_configuration_917c0fe.png)
 

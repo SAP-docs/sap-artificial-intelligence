@@ -41,6 +41,7 @@ Explore the concepts around SAP AI Launchpad and learn how to provision the serv
             -   [Delete Prompts](delete-prompts-ee44055.md)
         -   Administration
             -   [Manual User Offboarding](manual-user-offboarding-0d8d3cc.md)
+            -   [Create a Disclaimer](create-a-disclaimer-4ecc5ae.md)
     -   [AI Scenario Producer](ai-scenario-producer-899dcf8.md)
         -   [Prerequisites](prerequisites-9489440.md)
         -   [Workspaces](workspaces-c804f14.md)

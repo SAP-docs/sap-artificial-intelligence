@@ -37,7 +37,7 @@ Application details include sync status and health information, source repositor
     -   Summary details include sync status and health \(returned by the application\), and sync and reconciliation timestamp details
 
         > ### Note:  
-        > To show extra details for the sync or health status choose <span class="SAP-icons"></span> \(Info\).
+        > To show extra details for the sync or health status choose <span class="SAP-icons-V5"></span> \(Info\).
 
     -   Source repository details include the name, URL, repository path, and revision
 
