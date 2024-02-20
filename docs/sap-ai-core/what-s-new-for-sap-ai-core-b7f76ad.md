@@ -92,7 +92,7 @@ Authentication
 </td>
 <td valign="top">
 
-Authentication through X.509 certificates is supported.
+Authentication through X.509 certificates is now supported.
 
 For more information, see [Create a Service Key](create-a-service-key-7323ff4.md) and [Use a Service Key](use-a-service-key-3a97465.md).
 
@@ -158,7 +158,7 @@ Generative AI hub SDK
 </td>
 <td valign="top">
 
-The Generative AI hub SDK is available.
+The generative AI hub SDK is now available.
 
 For more information, see [generative AI hub SDK](https://pypi.org/project/generative-ai-hub-sdk/).
 
@@ -224,7 +224,7 @@ Content filtering for selected Azure models in generative AI hub
 </td>
 <td valign="top">
 
-Content filtering for the following categories and severities has been enabled for selected Azure model:. hate, sexual, self-harm, and violence have been allowed for low severity cases, and blocked for medium and high severity cases. Jailbreak risks have been blocked.
+Content that falls into the categories of hate, sexual, self-harm, or violence is now filtered when deemed to be of medium or high severity. Low-severity cases are not filtered. Jailbreak risks have also been blocked.
 
 For more information, see [Azure Content Filtering Documentation](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/content-filter?tabs=warning%2Cpython)
 
@@ -290,7 +290,7 @@ Generative AI hub
 </td>
 <td valign="top">
 
-The Generative AI Hub includes prompt experimentation, prompt management, and administrative tools. Prompt experimentation includes creating and running natural language prompts with a choice of large language models and parameters. Prompt management includes saving prompts with collections, metadata in the form of tags and notes, versioning and deletion. For more information, see [Generative AI Hub in SAP AI Core Overview](generative-ai-hub-in-sap-ai-core-overview-a126bd6.md).
+The generative AI hub includes prompt experimentation, prompt management, and administrative tools. Prompt experimentation includes creating and running natural language prompts with a choice of large language models and parameters. Prompt management includes saving prompts with collections, metadata in the form of tags and notes, versioning and deletion. For more information, see [Generative AI Hub in SAP AI Core Overview](generative-ai-hub-in-sap-ai-core-overview-a126bd6.md).
 
 </td>
 <td valign="top">

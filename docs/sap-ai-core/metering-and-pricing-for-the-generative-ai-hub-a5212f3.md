@@ -44,7 +44,7 @@ GPT-35-Turbo
 </td>
 <td valign="top">
 
-0.000210
+0.00210
 
 </td>
 <td valign="top">

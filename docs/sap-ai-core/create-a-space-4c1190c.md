@@ -10,7 +10,7 @@
 
     ![](images/Create_Space_Button_1e76b96.png)
 
-2.  Enter a name for your space and assign space roles by selecting the checkboxes..
+2.  Enter a name for your space and assign space roles by selecting the checkboxes.
 
     ![](images/Create_Space_Dialog_94469e8.png)
 
