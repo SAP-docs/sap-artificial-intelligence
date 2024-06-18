@@ -4,7 +4,7 @@
 
 Docker packages and runs applications in remote containers. Connect SAP AI Core to a Docker repository and manage access using a Docker registry secret.
 
-Your Docker credentials are managed using secrets. Secrets are allow and control connections across directories and tools, without compromising your credentials.
+Your Docker credentials are managed using secrets. Secrets allow and control connections across directories and tools without compromising your credentials.
 
 Your Docker registry secret lets you authorize SAP AI Core to pull your **private** Docker images from your Docker repository. You specify the name of the secret in your workflows to authenticate the Docker image pull. For more information, see [Workflow Templates](workflow-templates-83523ab.md) and [Serving Templates](serving-templates-20a8667.md).
 
@@ -15,7 +15,7 @@ Your Docker registry secret lets you authorize SAP AI Core to pull your **privat
 ## Using Postman
 
 1.  Send a PATCH request to the endpoint `{{apiurl}}/v2/admin/dockerRegistrySecrets/{{dockerRegistryName}}`
-2.  As the request body, select the *raw* radiobutton and enter the following:
+2.  As the request body, select the *raw* radio button and enter the following:
 
     ```
     {

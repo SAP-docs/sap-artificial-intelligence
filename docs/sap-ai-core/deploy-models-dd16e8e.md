@@ -20,7 +20,9 @@
 
 
 > ### Note:  
-> If the status is dead or pending, there might be errors in the deployment. You can check the deployment logs for more details, see [Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md).
+> Configurations are checked when POST requests are submitted. If a configuration is incorrect configuration, an error message outlining the details will be returned..
+> 
+> If the status of the deployment is dead or pending after successful submission, there might be errors in the deployment. You can check the deployment logs for more details, see [Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md).
 
 
 
@@ -80,7 +82,9 @@
 
 
 > ### Note:  
-> If the status is dead or pending, there might be errors in the deployment. You can check the deployment logs for more details, see [Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md).
+> Configurations are checked when POST requests are submitted. If a configuration is incorrect configuration, an error message outlining the details will be returned..
+> 
+> If the status of the deployment is dead or pending after successful submission, there might be errors in the deployment. You can check the deployment logs for more details, see [Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md).
 
 
 

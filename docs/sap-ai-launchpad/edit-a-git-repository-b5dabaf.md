@@ -20,7 +20,7 @@ You have access to the Git repository over the Internet.
 
 ## Context
 
-You change details for a Git repository if, for example, the name you have defined is not unique or its authentication details have changed.
+You can change details for a Git repository if, for example, the name you have defined is not unique or its authentication details have changed.
 
 > ### Note:  
 > You cannot change the URL for the Git repository. If the URL is no longer valid or contains errors, you'll need to remove the Git repository and re-create it with the correct reference details. See [Remove a Git Repository](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/remove-git-repository).

@@ -4,6 +4,9 @@
 
 SAP AI Launchpad is a multitenant software as a service \(SaaS\) application in SAP Business Technology Platform. Customers and partners can use SAP AI Launchpad to manage AI use cases \(scenarios\) across multiple instances of AI runtimes \(such as SAP AI Core\). SAP AI Launchpad also provides generative AI capabilities via the Generative AI Hub.
 
+> ### Note:  
+> Throughout this document, SAP AI Core is used as an example of an AI runtime. AI runtimes are not included in your SAP AI Launchpad subscription.
+
 > ### Tip:  
 > The English version of this guide is open for contributions and feedback using GitHub. This allows you to get in contact with responsible authors of SAP Help Portal pages and the development team to discuss documentation-related issues. To contribute to this guide, or to provide feedback, choose the corresponding option on SAP Help Portal:
 > 
@@ -29,9 +32,6 @@ SAP AI Launchpad is a multitenant software as a service \(SaaS\) application in 
 ## Environment
 
 This service is available in the SAP BTP, Cloud Foundry environment.
-
-> ### Note:  
-> Throughout this document, SAP AI Core is used as an example of an AI runtime. AI runtimes are not included in your SAP AI Launchpad subscription.
 
 
 
@@ -140,5 +140,5 @@ For more information about resource groups in SAP AI Core, see [Resource Groups]
 **Related Information**  
 
 
-[Using SAP AI Launchpad](using-sap-ai-launchpad-bbc7e21.md "SAP AI Launchpad can be used by both AI scenario producers and AI scenario consumers. AI scenario producers, such as AI operations engineers or AI engineers, are responsible for developing and productizing AI scenarios. AI scenario consumers, such as business analysts, subscribe to a service that offers an AI scenario and consume it. The Generative AI Hub within SAP AI Launchpad can be used to interact with generative AI models.")
+[Using SAP AI Launchpad](using-sap-ai-launchpad-bbc7e21.md "SAP AI Launchpad can be used by both AI scenario producers and AI scenario consumers. AI scenario producers, such as AI operations engineers or AI engineers, are responsible for developing and productizing AI scenarios. AI scenario consumers, such as business analysts, subscribe to a service that offers an AI scenario and consume it. The generative AI hub within SAP AI Launchpad can be used to interact with generative AI models.")
 

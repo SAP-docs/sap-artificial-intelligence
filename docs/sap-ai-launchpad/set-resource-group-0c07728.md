@@ -32,7 +32,7 @@ By default, your users can access all resource groups. If required, you can defi
 **Related Information**  
 
 
-[Custom Access for Connections](custom-access-for-connections-8ba6a92.md "You can selectively control users' access to conections within SAP AI Launchpad.")
+[Custom Access for Connections](custom-access-for-connections-8ba6a92.md "You can selectively control users' access to connections within SAP AI Launchpad.")
 
 [Custom Access for Resource Groups](custom-access-for-resource-groups-19e3932.md "You can selectively control users' access to resource groups (within an AI runtime connection) in SAP AI Launchpad.")
 
@@ -82,7 +82,7 @@ With the connection assigned, you can now choose a resource group. See [Assign R
 **Related Information**  
 
 
-[Custom Access for Connections](custom-access-for-connections-8ba6a92.md "You can selectively control users' access to conections within SAP AI Launchpad.")
+[Custom Access for Connections](custom-access-for-connections-8ba6a92.md "You can selectively control users' access to connections within SAP AI Launchpad.")
 
 <a name="loio1fe43ac042ab46749bec34b50601dce0"/>
 

@@ -53,7 +53,7 @@
 
 ### Check the following:
 
-1.  Check thatan object secret with the name `default` exists in the current resource group. For more information, see [Register an Object Store Secret](register-an-object-store-secret-b083d73.md) 
+1.  Check that an object secret with the name `default` exists in the current resource group. For more information, see [Register an Object Store Secret](register-an-object-store-secret-b083d73.md) 
 2.  Check that you have created the Docker Registry secrets required to pull your Docker Images. Logs will be available only after the execution has started.
 
 

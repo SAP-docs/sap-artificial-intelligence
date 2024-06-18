@@ -204,7 +204,7 @@ Not required if your Docker image is fetched from a public docker repository.
 </td>
 <td valign="top">
 
-Deployments run continually by default, but can be stopped manually when inferences are not needed. Setting minReplicas to Name of your Docker registry secret. The name references your Docker credentials to fetch the image for your Docker container. For information about creating Docker registry secrets, see `0` allows the inference server to enter the stopped state, when not in use. When needed, it is restarted and nodes scaled, based on demand and the min/maxReplicas parameter. For more information see [Efficiency Features](efficiency-features-9fad26a.md).
+Deployments run continually by default, but can be stopped manually when inferences are not needed. Setting minReplicas to `0` allows the inference server to enter the stopped state, when not in use. When needed, it is restarted and nodes scaled, based on demand and the min/maxReplicas parameter. For more information see [Efficiency Features](efficiency-features-9fad26a.md).
 
 </td>
 </tr>
@@ -233,7 +233,7 @@ labels \(mandatory\)
 </td>
 <td valign="top">
 
-You must specify the chosen `resourcePlan`Name of your Docker registry secret. The name references your Docker credentials to fetch the image for your Docker container. The value is the string value of the selected resource plan \(see [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md)\).
+You must specify the chosen `resourcePlan`The value is the string value of the selected resource plan \(see [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md)\).
 
 </td>
 </tr>

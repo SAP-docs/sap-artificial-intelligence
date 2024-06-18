@@ -12,7 +12,7 @@
 
 
 > ### Note:  
-> Prompts are saved in one region only, and can only be retrieved or deleted by an AI launchpad instance in that region.
+> Prompts are saved in one region only and can only be retrieved or deleted by an instance of AI launchpad in that region.
 
 
 
@@ -20,9 +20,9 @@
 
 ## Procedure
 
-1.  Select the connection to your SAP AI Core runtime in the *Workspaces* app and choose the resource group that was used for your Generative AI Hub deployment.
+1.  Select the connection to your SAP AI Core runtime in the *Workspaces* app and choose the resource group that was used for your *Generative AI Hub* deployment.
 
-2.  In the *Workspaces* app, expand the Generative AI Hub and choose *Prompt Management*.
+2.  In the *Workspaces* app, expand the *Generative AI Hub* and choose *Prompt Management*.
 
     ![](images/find_prompt_bf9167e.png)
 
@@ -30,7 +30,7 @@
 
 3.  **Optional:** You can
 
-    -   Mark a prompt as favourite using the star button.
+    -   Mark a prompt as favorite using the star button.
 
     -   See the prompt details by selecting the prompt entry.
 

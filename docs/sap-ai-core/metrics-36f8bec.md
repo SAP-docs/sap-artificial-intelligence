@@ -7,3 +7,16 @@ The AI API provides the ability to track metrics, and to customize or filter whi
 -   **[Metrics Tracking with AI API](metrics-tracking-with-ai-api-9a335bd.md "You can use AI API to track and fetch metrics for executions and models. In addition, metrics can be compared using the SAP AI Launchpad interface. ")**  
 You can use AI API to track and fetch metrics for executions and models. In addition, metrics can be compared using the SAP AI Launchpad interface.
 
+**Parent topic:**[Predictive AI](predictive-ai-6c3b730.md "")
+
+**Related Information**  
+
+
+[ML Operations](ml-operations-7f5aa9b.md "This section guides you through the end-to-end AI lifecycle of SAP AI Core.")
+
+[Advanced Features](advanced-features-24f2fbb.md ".")
+
+[Libraries and SDKs](libraries-and-sdks-499309d.md "Explore additional SDKs and Libraries, for use with SAP AI Core.")
+
+[Content Packages](content-packages-9e1c83d.md "Explore additional Content Packages for use with SAP AI Core.")
+

@@ -13,7 +13,7 @@ You can use the free tier option and benefit from the following advantages:
 
 **Free Tier Scope**
 
--   For region information, see [SAP Discovery Centre](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-launchpad?region=all).
+-   For region information, see [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-launchpad?region=all).
 
 -   Support for the free tier option is provided by the SAP Community.
 
@@ -21,7 +21,7 @@ You can use the free tier option and benefit from the following advantages:
 
 
 > ### Note:  
-> The Generative AI Hub is a feature of the standard plan only, and is **not** availble through free tier. For more information, see [Service Plans](service-plans-ec1717d.md).
+> The generative AI hub is a feature of the standard plan only, and is **not** available through free tier. For more information, see [Service Plans](service-plans-ec1717d.md).
 
 <a name="task_tgn_r35_gab"/>
 
@@ -65,4 +65,6 @@ Enable the free tier option to use SAP AI Launchpad with usage limits, to famili
 [Using Free Service Plans](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/524e1081d8dc4b0f9d055a6bec383ec3.html)
 
 [Service Plans](service-plans-ec1717d.md "Learn more about the different types of service plans for SAP AI Launchpad.")
+
+[Getting a Global Account](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/d61c2819034b48e68145c45c36acba6e.html)
 

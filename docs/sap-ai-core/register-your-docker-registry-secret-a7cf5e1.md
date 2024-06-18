@@ -18,7 +18,7 @@ You have completed the Initial Setup. For more information, see [Initial Setup](
 
 ## Context
 
-Your Docker credentials are managed using secrets. Secrets are allow and control connections across directories and tools, without compromising your credentials.
+Your Docker credentials are managed using secrets. Secrets allow and control connections across directories and tools without compromising your credentials.
 
 Your Docker registry secret lets you authorize SAP AI Core to pull your **private** Docker images from your Docker repository. You specify the name of the secret in your workflows to authenticate the Docker image pull. For more information, see [Workflow Templates](workflow-templates-83523ab.md) and [Serving Templates](serving-templates-20a8667.md).
 
@@ -29,7 +29,7 @@ Your Docker registry secret lets you authorize SAP AI Core to pull your **privat
 ## Using Postman
 
 1.  Send a POST request to the endpoint `{{apiurl}}/v2/admin/dockerRegistrySecrets`
-2.  As the request body, select the *raw* radiobutton and enter the following:
+2.  As the request body, select the *raw* radio button and enter the following:
 
     ```
     {

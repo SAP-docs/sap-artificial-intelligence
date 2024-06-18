@@ -2,7 +2,7 @@
 
 # Tutorial
 
-The activation and consumption steps are also available online in a step by step tutorial.
+
 
 The activation and consumption steps are also available online in a step by step tutorial.
 

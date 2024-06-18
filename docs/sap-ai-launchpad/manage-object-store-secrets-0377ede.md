@@ -14,7 +14,7 @@ Various hyperscaler object stores are supported, including Amazon S3, Alicloud O
 As an administrator, you can add object store secrets for use within your AI processes.
 -   **[Edit an Object Store Secret](edit-an-object-store-secret-82938a5.md "As an administrator, you can edit object store secrets used within your AI processes.")**  
 As an administrator, you can edit object store secrets used within your AI processes.
--   **[Remove an Object Store Secret](remove-an-object-store-secret-775b306.md "As a administrator, you remove an object store secret when the name is no longer valid or contains errors, or if the secret is no longer
+-   **[Remove an Object Store Secret](remove-an-object-store-secret-775b306.md "As an administrator, you remove an object store secret when the name is no longer valid or contains errors, or if the secret is no longer
 		required.")**  
-As a administrator, you remove an object store secret when the name is no longer valid or contains errors, or if the secret is no longer required.
+As an administrator, you remove an object store secret when the name is no longer valid or contains errors, or if the secret is no longer required.
 

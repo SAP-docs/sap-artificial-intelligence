@@ -8,13 +8,13 @@
 
 ## Using Postman
 
-1.  Send a PATCH request,to the endpoint
+1.  Send a PATCH request to the endpoint
 
-    `{{apiurl}}/v2/admin/objectStoreSecrets/{{ojectStoreName}}`
+    `{{apiurl}}/v2/admin/objectStoreSecrets/{{objectStoreName}}`
 
     .
 
-2.  As the request body, select the *raw* radiobutton and enter your object store secret details.
+2.  As the request body, select the *raw* radio button and enter your object store secret details.
 
     > ### Note:  
     > For all storage types **except** Azure Blob Storage, all *<data\>* fields are required. For Azure, required fields are specified.
@@ -100,7 +100,7 @@
 
 ## Using curl
 
-1.  Register your object store secret details using the endpoint `$AI_API_URL/v2/admin/objectStoreSecrets/{{ojectStoreName}}`.
+1.  Register your object store secret details using the endpoint `$AI_API_URL/v2/admin/objectStoreSecrets/{{objectStoreName}}`.
 
     > ### Note:  
     > For all storage types **except** Azure Blob Storage, all *<data\>* fields are required. For Azure, required fields are specified.
@@ -108,7 +108,7 @@
     -   For Amazon S3:
 
         ```
-        curl --location --request PATCH "$AI_API_URL/v2/admin/objectStoreSecrets/{{ojectStoreName}}" \
+        curl --location --request PATCH "$AI_API_URL/v2/admin/objectStoreSecrets/{{objectStoreName}}" \
         --header "Authorization: Bearer $TOKEN" \
         --header 'Content-Type: application/json' \
         --header 'AI-Resource-Group: <Resource group>' \
@@ -130,7 +130,7 @@
     -   For OSS \(Alicloud Object Storage Service\):
 
         ```json
-        curl --location --request PATCH "$AI_API_URL/v2/admin/objectStoreSecrets/{{ojectStoreName}}" \
+        curl --location --request PATCH "$AI_API_URL/v2/admin/objectStoreSecrets/{{objectStoreName}}" \
         --header "Authorization: Bearer $TOKEN" \
         --header 'Content-Type: application/json' \
         --header 'AI-Resource-Group: <Resource group>' \
@@ -152,7 +152,7 @@
     -   For SAP HANA Cloud, Data Lake:
 
         ```json
-        curl --location --request PATCH "$AI_API_URL/v2/admin/objectStoreSecrets/{{ojectStoreName}}" \
+        curl --location --request PATCH "$AI_API_URL/v2/admin/objectStoreSecrets/{{objectStoreName}}" \
         --header "Authorization: Bearer $TOKEN" \
         --header 'Content-Type: application/json' \
         --header 'AI-Resource-Group: <Resource group>' \
@@ -173,7 +173,7 @@
     -   For Azure Blob Storage:
 
         ```json
-        curl --location --request PATCH "$AI_API_URL/v2/admin/objectStoreSecrets/{{ojectStoreName}}" \
+        curl --location --request PATCH "$AI_API_URL/v2/admin/objectStoreSecrets/{{objectStoreName}}" \
         --header "Authorization: Bearer $TOKEN" \
         --header 'Content-Type: application/json' \
         --header 'AI-Resource-Group: <Resource group>' \

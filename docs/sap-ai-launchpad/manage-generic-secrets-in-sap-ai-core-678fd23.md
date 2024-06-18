@@ -2,7 +2,7 @@
 
 # Manage Generic Secrets in SAP AI Core 
 
-Main Tenant users of theSAP AI Core runtime can create, edit and delete generic secrets at both the main tenant and resource group levels of SAP AI Core, through the *SAP AI Core Administration* app.
+Main Tenant users of the SAP AI Core runtime can create, edit and delete generic secrets at both the main tenant and resource group levels of SAP AI Core, through the *SAP AI Core Administration* app.
 
 
 

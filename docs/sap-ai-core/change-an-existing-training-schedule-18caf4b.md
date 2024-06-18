@@ -10,7 +10,7 @@
 
 You can change the cron definition, start, end, and configuration of an existing training schedule.
 
-You can not change the name field.
+You cannot change the name field.
 
 Submit a PATCH request:
 
@@ -30,7 +30,7 @@ curl --location --request PATCH $AI_API_URL/v2/lm/executions?executionScheduleId
 
 You can change the cron definition, start, end, and configuration of an existing training schedule.
 
-You can not change the name field.
+You cannot change the name field.
 
 Send your changes in a PATCH request to `{{apiurl}}/v2/lm/executionSchedules/{{executionScheduleId}}`.
 

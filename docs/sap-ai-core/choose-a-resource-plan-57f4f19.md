@@ -52,6 +52,87 @@ in Workflow Templates
 <tr>
 <td valign="top">
 
+Starter
+
+</td>
+<td valign="top">
+
+–
+
+</td>
+<td valign="top">
+
+1
+
+</td>
+<td valign="top">
+
+3
+
+</td>
+<td valign="top">
+
+`ai.sap.com/resourcePlan: starter`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Basic
+
+</td>
+<td valign="top">
+
+–
+
+</td>
+<td valign="top">
+
+3
+
+</td>
+<td valign="top">
+
+11
+
+</td>
+<td valign="top">
+
+`ai.sap.com/resourcePlan: basic`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Basic-8x
+
+</td>
+<td valign="top">
+
+–
+
+</td>
+<td valign="top">
+
+31
+
+</td>
+<td valign="top">
+
+116
+
+</td>
+<td valign="top">
+
+`ai.sap.com/resourcePlan: basic.8x`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Train-L
 
 </td>
@@ -157,87 +238,6 @@ Infer-L
 
 </td>
 </tr>
-<tr>
-<td valign="top">
-
-Starter
-
-</td>
-<td valign="top">
-
-–
-
-</td>
-<td valign="top">
-
-1
-
-</td>
-<td valign="top">
-
-3
-
-</td>
-<td valign="top">
-
-`ai.sap.com/resourcePlan: starter`
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Basic
-
-</td>
-<td valign="top">
-
-–
-
-</td>
-<td valign="top">
-
-3
-
-</td>
-<td valign="top">
-
-11
-
-</td>
-<td valign="top">
-
-`ai.sap.com/resourcePlan: basic`
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Basic-8x
-
-</td>
-<td valign="top">
-
-–
-
-</td>
-<td valign="top">
-
-31
-
-</td>
-<td valign="top">
-
-116
-
-</td>
-<td valign="top">
-
-`ai.sap.com/resourcePlan: basic.8x`
-
-</td>
-</tr>
 </table>
 
 > ### Restriction:  
@@ -281,5 +281,5 @@ Basic-8x
 
 ## Service Usage Reporting
 
-Usage consumption of services is reported in the SAP BTP cockpit on the *Overview* page for your global account and on the *Overview* and *Usage Analytics* pages of your subaccount. The usage report lists usage in billable measures and non billable measures. Your final monthly bill is based on the billable measure only. Non billable measures are displayed for reporting purposes only.
+Usage consumption of services is reported in the SAP BTP cockpit on the *Overview* page for your global account and on the *Overview* and *Usage Analytics* pages of your subaccount. The usage report lists usage in billable measures and non-billable measures. Your final monthly bill is based on the billable measure only. Non-billable measures are displayed for reporting purposes only.
 

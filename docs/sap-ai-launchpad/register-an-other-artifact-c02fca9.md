@@ -2,7 +2,7 @@
 
 # Register an Other Artifact
 
-Use the *ML Operations* app to manually register an other artifact that is stored in your object store.
+Use the *ML Operations* app to manually register an “other” artifact that is stored in your object store.
 
 
 
@@ -31,7 +31,7 @@ Details for the object store secret have been added using the *SAP AI Core Admin
 
 2.  In the *ML Operations* app, choose *Other Artifacts*.
 
-    The *Other Artifacts* screen appears listing all of the other typye artifacts for the selected resource group.
+    The *Other Artifacts* screen appears listing all of the other type artifacts for the selected resource group.
 
 3.  Choose *Add* to manually register an artifact.
 

@@ -20,7 +20,7 @@ You have the `connections_editor` role or a role collection that contains it. Fo
 
 ## Procedure
 
-1.  Open the *Workspaces* app and choose *Add*. The *Create AI API Connection* dialog appears.
+1.  In SAP AI Launchpad, open the *Workspaces* app and choose *Add*. The *Create AI API Connection* dialog appears.
 
 2.  Enter a name for your new connection.
 
@@ -37,11 +37,13 @@ You have the `connections_editor` role or a role collection that contains it. Fo
 
     To upload the service key as a `.TXT` or `JSON` file, choose <span class="SAP-icons-V5"></span> \(Upload\) . Search for and choose the local service key file.
 
-    Service key data then defaults to the remaining fields.
+    Service key data then defaults to the remaining fieldsincluding the connection type.
 
-    ![Create AI API Connection dialog with upload highlighted.](images/Image_AIL_MLOps_Connection_Upload_61d94f3.png)
+    ![](images/create_a_connection_image_ca4cc2b.png)
 
-4.  If a service key file is not available, complete the following:
+4.  If a service key file is not available, complete the followingbased on the service key and connection type you have:
+
+    If you have a service key containing client secret credentials, choose *Secret* and complete the following:
 
     1.  Enter the `AI_API_URL` from your service key for your SAP AI Core instance.
 
@@ -52,9 +54,22 @@ You have the `connections_editor` role or a role collection that contains it. Fo
     4.  Enter the `clientsecret` from your service key for your SAP AI Core instance.
 
 
-    Sensitive fields are masked. You can unmask to show your entry if needed.
+    If you have a service key containing x509 certificate credentials, choose *Certificate* and complete the following:
 
-5.  Choose *Create*.
+
+
+    1.  Enter the `AI_API_URL` from your service key for your SAP AI Core instance.
+
+    2.  Enter the `certurl` from your service key for your SAP AI Core instance.
+
+    3.  Enter the `clientid` from your service key for your SAP AI Core instance.
+
+    4.  Enter the `certificate` from your service key for your SAP AI Core instance.
+
+    5.  Enter the `key` from your service key for your SAP AI Core instance.
+
+
+    Sensitive fields are masked. You can unmask to show your entry if needed.
 
 
 

@@ -12,7 +12,7 @@
 
 
 > ### Note:  
-> Prompts are saved in one region only, and can only be retrieved or deleted by an AI launchpad instance in that region.
+> Prompts are saved in one region only and can only be retrieved or deleted by an instance of AI launchpad in that region.
 
 
 
@@ -20,7 +20,7 @@
 
 1.  Navigate to *Prompt Management*. For more information, see [View a Saved Prompt](view-a-saved-prompt-d07a272.md).
 
-2.  Choose the prompt yout want to delete using the check boxes. You can choose multiple prompts by choosing muliple check boxes.
+2.  Choose the prompt you want to delete using the check boxes. You can choose multiple prompts by choosing multiple check boxes.
 
 3.  Choose the *Delete* icon. Alternatively, you can choose *Delete* from the *Prompt Details* view.
 

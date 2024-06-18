@@ -27,10 +27,8 @@ The steps below guide you through the provisioning procedure. Alternatively, a b
 
 -   **[Create a Service Key](create-a-service-key-7323ff4.md "")**  
 
--   **[Use a Service Key](use-a-service-key-3a97465.md)**  
-
-
-**Parent topic:**[Initial Setup](initial-setup-38c4599.md "You provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Platform. After provisioning, you will have your service key, which provides URLs and credentials for accessing the SAP AI Core instance")
-
-**Previous:**[SAP AI Core Starter Tutorials](sap-ai-core-starter-tutorials-9795b63.md "")
+-   **[Use a Service Key](use-a-service-key-3a97465.md "After you have configured your  service key, it can be used by local clients, apps in
+		other spaces, or entities outside your deployment to access SAP AI Core through one
+		of the available interfaces. ")**  
+After you have configured your service key, it can be used by local clients, apps in other spaces, or entities outside your deployment to access SAP AI Core through one of the available interfaces.
 

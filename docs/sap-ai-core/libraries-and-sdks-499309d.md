@@ -77,7 +77,7 @@ SAP generative AI hub SDK
 </td>
 <td valign="top">
 
-With this SDK you can leverage the power of generative Models like chatGPT available in SAP AI Core'sgenerative AI hub.
+With this SDK you can leverage the power of generative Models like ChatGPT available in SAP AI Core's generative AI hub.
 
 </td>
 <td valign="top">
@@ -137,8 +137,18 @@ Metaflow is an open source tool to boost the productivity of data scientists. Th
 </tr>
 </table>
 
+**Parent topic:**[Predictive AI](predictive-ai-6c3b730.md "")
+
 **Related Information**  
 
+
+[ML Operations](ml-operations-7f5aa9b.md "This section guides you through the end-to-end AI lifecycle of SAP AI Core.")
+
+[Metrics](metrics-36f8bec.md "The AI API provides the ability to track metrics, and to customize or filter which metrics are reported.")
+
+[Advanced Features](advanced-features-24f2fbb.md ".")
+
+[Content Packages](content-packages-9e1c83d.md "Explore additional Content Packages for use with SAP AI Core.")
 
 [Metrics Tracking with AI API](metrics-tracking-with-ai-api-9a335bd.md "You can use AI API to track and fetch metrics for executions and models. In addition, metrics can be compared using the SAP AI Launchpad interface.")
 

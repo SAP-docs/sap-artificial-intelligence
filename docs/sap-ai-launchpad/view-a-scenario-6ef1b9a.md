@@ -34,7 +34,7 @@ You have either the `mloperations_viewer` or `scenario_metadata_viewer` role, or
 
     -   Filter the list by choosing a version in the *Show* field, or show all versions.
 
-    -   Search the list by entering a name,partial name, or part of the description in the :mag: field.
+    -   Search the list by entering a name, partial name, or part of the description in the :mag: field.
     -   Display the details for an executable by selecting an executable in the list, or choosing <span class="SAP-icons-V5"></span> \(More\).
 
 

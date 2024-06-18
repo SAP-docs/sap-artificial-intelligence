@@ -10,7 +10,7 @@ The `Meta API` reduces the impact of API changes, ensuring that users are not co
 
 The SAP Runtime team disables or enables capabilities in the `Meta API`.
 
-To learn more about the capabilities provided by `Meta API`, see [AI API Runtime Impementations](https://help.sap.com/docs/AI_CORE/52b4adb30e6744709d6226d2b0659dea/dbacc5fee07c4e43a656f5d1203654c7.html).
+To learn more about the capabilities provided by `Meta API`, see [AI API Runtime Implementations](https://help.sap.com/docs/AI_CORE/52b4adb30e6744709d6226d2b0659dea/dbacc5fee07c4e43a656f5d1203654c7.html).
 
 > ### Example:  
 > You have service `A`. This service has the capability to let users create their own deployments but there is no capability to run executions. The capability required to support service `A` is `userDeployments`, and not `userExecutions`. SAP AI Launchpad uses the metadata associated with the capability settings to hide the corresponding user interface for executions.

@@ -87,12 +87,408 @@ SAP AI Core
 </td>
 <td valign="top">
 
+Generative AI hub
+
+</td>
+<td valign="top">
+
+Selected models from Amazon and Anthropic are supported via AWS Bedrock.
+
+For more information, see [Models and Scenarios in the Generative AI Hub](models-and-scenarios-in-the-generative-ai-hub-729dd9e.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2024-06-03
+
+</td>
+<td valign="top">
+
+2024-06-03
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub
+
+</td>
+<td valign="top">
+
+Selected models from Meta are supported.
+
+For more information, see [Models and Scenarios in the Generative AI Hub](models-and-scenarios-in-the-generative-ai-hub-729dd9e.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2024-06-03
+
+</td>
+<td valign="top">
+
+2024-06-03
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub
+
+</td>
+<td valign="top">
+
+Selected models from Mistral AI are supported.
+
+For more information, see [Models and Scenarios in the Generative AI Hub](models-and-scenarios-in-the-generative-ai-hub-729dd9e.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2024-05-20
+
+</td>
+<td valign="top">
+
+2024-05-20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Deployments
+
+</td>
+<td valign="top">
+
+When deployments are submitted, configurations are checked for errors, synchronously.
+
+For more information, see [Deploy Models](deploy-models-dd16e8e.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2024-04-08
+
+</td>
+<td valign="top">
+
+2024-05-20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub
+
+</td>
+<td valign="top">
+
+Selected models from GCP Vertex AI are supported.
+
+For more information, see [Models and Scenarios in the Generative AI Hub](models-and-scenarios-in-the-generative-ai-hub-729dd9e.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2024-04-08
+
+</td>
+<td valign="top">
+
+2024-04-08
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Resource groups limit per tenant
+
+</td>
+<td valign="top">
+
+The maximum number of resource groups is limited at tenant level to 50. If you reach this limit, you will receive an error message. To free up space, delete some resource groups. Alternatively, raise a ticket to increase your quota.
+
+For more information, see [Delete a Resource Group](delete-a-resource-group-40d83a2.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2024-03-08
+
+</td>
+<td valign="top">
+
+2024-03-08
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Authentication
 
 </td>
 <td valign="top">
 
-Authentication through X.509 certificates is now supported.
+Authentication through X.509 certificates is supported.
 
 For more information, see [Create a Service Key](create-a-service-key-7323ff4.md) and [Use a Service Key](use-a-service-key-3a97465.md).
 
@@ -161,72 +557,6 @@ Generative AI hub SDK
 The generative AI hub SDK is now available.
 
 For more information, see [generative AI hub SDK](https://pypi.org/project/generative-ai-hub-sdk/).
-
-</td>
-<td valign="top">
-
-Info only
-
-</td>
-<td valign="top">
-
-General Availability
-
-</td>
-<td valign="top">
-
-New
-
-</td>
-<td valign="top">
-
-Technology
-
-</td>
-<td valign="top">
-
-Not applicable
-
-</td>
-<td valign="top">
-
-SAP Business Technology Platform
-
-</td>
-<td valign="top">
-
-2024-02-18
-
-</td>
-<td valign="top">
-
-2024-02-18
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP AI Core
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
-Content filtering for selected Azure models in generative AI hub
-
-</td>
-<td valign="top">
-
-Content that falls into the categories of hate, sexual, self-harm, or violence is now filtered when deemed to be of medium or high severity. Low-severity cases are not filtered. Jailbreak risks have also been blocked.
-
-For more information, see [Azure Content Filtering Documentation](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/content-filter?tabs=warning%2Cpython)
 
 </td>
 <td valign="top">

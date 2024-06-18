@@ -20,7 +20,7 @@ After selecting a connection in *Workspaces* app, you then set the resource grou
 
 Users can edit, delete, and refresh connections. Refreshing a connection fetches the capability metadata of the underlying AI runtime \(and the specific implementation of the AI API\).
 
-For more information about capabilities, their implementaton, and their effect on the SAP AI Launchpad user interface, see [Custom Runtime Capabilities Using the Meta API](custom-runtime-capabilities-using-the-meta-api-ac3d92b.md) and [AI API Runtime Implementations](https://help.sap.com/docs/AI_CORE/52b4adb30e6744709d6226d2b0659dea/dbacc5fee07c4e43a656f5d1203654c7.html).
+For more information about capabilities, their implementation, and their effect on the SAP AI Launchpad user interface, see [Custom Runtime Capabilities Using the Meta API](custom-runtime-capabilities-using-the-meta-api-ac3d92b.md) and [AI API Runtime Implementations](https://help.sap.com/docs/AI_CORE/52b4adb30e6744709d6226d2b0659dea/dbacc5fee07c4e43a656f5d1203654c7.html).
 
 > ### Note:  
 > In addition to the manual refresh option, SAP AI Launchpad automatically refreshes connections and capability metadata periodically.

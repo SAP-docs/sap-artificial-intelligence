@@ -11,7 +11,7 @@ To update a generic secret, use the PATCH endpoint as shown below. The PATCH ope
 ## Using Postman
 
 1.  Send a PATCH request to the endpoint `{{apiurl}}/v2/admin/secrets/{{secretName}}`
-2.  As the request body, select the *raw* radiobutton and enter the following code:
+2.  As the request body, select the *raw* radio button and enter the following code:
 
     > ### Source Code:  
     > ```

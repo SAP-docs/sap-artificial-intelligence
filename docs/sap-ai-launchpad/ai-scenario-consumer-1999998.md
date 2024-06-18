@@ -8,7 +8,7 @@ If you are responsible for managing the lifecycle of the AI scenario, SAP AI Lau
 
 -   You can use the *Functions Explorer* app to maintain your AI scenarios.
 
--   You can create and manage AI API connections to the AI services to which you are subscreibed by using the *Workspaces* app
+-   You can create and manage AI API connections to the AI services to which you are subscribed by using the *Workspaces* app
 
 
 -   **[Workspaces](workspaces-6bde2c8.md "The Workspaces

@@ -8,7 +8,7 @@
 
 ## Context
 
-After you have registered your git repository, you need to create an application to sync the templates in your repository. The first sync will take some time, but you can check the status of the application to see when it is complete. After the first sync, sycing takes place automstically, every ~3 minutes, or can be requested manually.
+After you have registered your git repository, you need to create an application to sync the templates in your repository. The first sync will take some time, but you can check the status of the application to see when it is complete. After the first sync, syncing takes place automatically approximately every three minutes , or can be requested manually.
 
 
 
@@ -20,7 +20,7 @@ After you have registered your git repository, you need to create an application
 
 ### Procedure
 
-Send a POST request to the endpoint `{{apiurl}}/v2/admin/applications` including details of your application::![](images/AIC_e69cb44.png)
+Send a POST request to the endpoint `{{apiurl}}/v2/admin/applications` including details of your application:![](images/AIC_e69cb44.png)
 
 -   `applicationName`: Set a name for your application. The name must be between 3 and 64 characters long and match `[A-Za-z0-9\-\_]+`.
 
@@ -37,7 +37,7 @@ Since each application points to a particular path and revision in the repositor
 
 ### Results
 
-After the GitOps setup is completed, the templates in your git repository are automatically synced to SAP AI Core at ~3 minute intervals.
+After the GitOps setup is completed, the templates in your git repository are automatically synced to SAP AI Core at ~3-minute intervals.
 
 
 
@@ -53,7 +53,7 @@ Check the synchronization status of your application by sending a GET request to
 
 ## Using curl
 
-Submit a POST request to the endpoint `{{apiurl}}/v2/admin/applications` including details of your application::
+Submit a POST request to the endpoint `{{apiurl}}/v2/admin/applications` including details of your application:
 
 ```
 curl --location --request POST "$AI_API_URL/v2/admin/applications" \
@@ -82,7 +82,7 @@ Since each application points to a particular path and revision in the repositor
 
 ### Results
 
-After the GitOps setup is completed, the templates in your git repository are automatically synced to SAP AI Core at ~3 minute intervals.
+After the GitOps setup is completed, the templates in your git repository are automatically synced to SAP AI Core at ~3-minute intervals.
 
 
 

@@ -10,15 +10,15 @@ As a system administrator, you can add Git repositories which can be used within
 
 ## Prerequisites
 
--   You have access to a git repository over the Internet.
--   You have generated a personal access token for your git repository. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+-   You've access to a git repository over the Internet.
+-   You've generated a personal access token for your git repository. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 -   If you want to onboard a git repository hosted on GitLab, make sure that the repository URL contains the `.git` suffix.
--   Secrets are not permitted in your repository. If secrets are used, it is not possible to synchronize content.
+-   Secrets aren't permitted in your repository. If secrets are used, it isn't possible to synchronize content.
 
 You have the `aicore_admin_repositories_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
 > ### Note:  
-> When you synchronize resources, make sure that there are no naming collisions. This is particularly important if you use multiple repositories or applications in one tenant. If you experience difficulties during synchronization, we recommend that you use only one repository or application per tenant.
+> When you synchronize resources, make sure that there are no naming collisions. This is important if you use multiple repositories or applications in one tenant. If you experience difficulties during synchronization, we recommend that you use only one repository or application per tenant.
 
 
 
@@ -31,7 +31,7 @@ Git repositories are managed by creating personal access tokens registering them
 You can add multiple Git repositories for a selected connection. The Git repository must already exist with valid authentication details.
 
 > ### Note:  
-> SAP AI Core supports the use of Git repositories; the use of other private or open source repositories is not supported.
+> SAP AI Core supports the use of Git repositories; the use of other private or open-source repositories is not supported.
 
 
 

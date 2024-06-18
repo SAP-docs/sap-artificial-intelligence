@@ -244,7 +244,7 @@ curl --location -g --request GET '$AI_API_URL/v2/lm/metrics?$select=metrics,tags
 ```
 
 > ### Note:  
-> It is possible to use any one of the allowed values or combination of the allowed values \(metrics, tags,customInfo\) or \* in the $select parameter.
+> It is possible to use any one of the allowed values or combination of the allowed values \(metrics, tags, customInfo\) or \* in the $select parameter.
 
 > ### Output Code:  
 > ```json
@@ -368,7 +368,7 @@ curl --location -g --request GET '$AI_API_URL/v2/lm/metrics?$select=metrics,tags
 > 		},
 > 		{
 > 			"labels": [],
-> 			"name": "n_compiments",
+> 			"name": "n_compliments",
 > 			"step": 0,
 > 			"timestamp": "2021-12-03T06:23:57.576040Z",
 > 			"value": 1173.0

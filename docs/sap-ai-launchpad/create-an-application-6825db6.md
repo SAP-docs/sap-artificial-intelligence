@@ -53,7 +53,7 @@ The source Git repository required for the application has been added. See [Add 
 The new application is created.
 
 > ### Note:  
-> The timing for the initial synchronization is determined by the sync policy for the application. For SAP AI Core, syncs take place at ~3 minute intervals
+> The timing for the initial synchronization is determined by the sync policy for the application. For SAP AI Core, syncs take place at ~3-minute intervals
 
 **Related Information**  
 
@@ -68,7 +68,7 @@ The new application is created.
 
 
 
-<a name="task_jdm_nrg_4xb__d14e798"/>
+<a name="task_jdm_nrg_4xb__d68e797"/>
 
 ## Prerequisites
 
@@ -76,15 +76,15 @@ You have successfully created an application.
 
 
 
-<a name="task_jdm_nrg_4xb__d14e804"/>
+<a name="task_jdm_nrg_4xb__d68e803"/>
 
 ## Context
 
-For the SAP AI Core runtime only, automatic syncs take place at ~3 minute intervals, and it is possible to start the sync manually.
+For the SAP AI Core runtime only, automatic syncs take place at ~3-minute intervals, and it is possible to start the sync manually.
 
 
 
-<a name="task_jdm_nrg_4xb__d14e812"/>
+<a name="task_jdm_nrg_4xb__d68e811"/>
 
 ## Procedure
 

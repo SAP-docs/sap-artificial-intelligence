@@ -7,7 +7,7 @@
 Stopping a deployment releases the SAP AI Core runtime computing resources that it used. A stopped deployment does not incur costs.
 
 > ### Note:  
-> Stop is only enabed if the status is running or pending.
+> Stop is only enabled if the status is running or pending.
 
 -   **[Stop a Single Deployment](stop-a-single-deployment-1fa8955.md "")**  
 

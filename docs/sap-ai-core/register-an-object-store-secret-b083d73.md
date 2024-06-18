@@ -29,7 +29,7 @@ SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS 
 ## Using Postman
 
 1.  Send a POST request to the endpoint `{{apiurl}}/v2/admin/objectStoreSecrets`.
-2.  As the request body, select the *raw* radiobutton and enter your object store secret details.
+2.  As the request body, select the *raw* radio button and enter your object store secret details.
 
     > ### Note:  
     > For all storage types **except** Azure Blob Storage, all *<data\>* fields are required. For Azure, required fields are specified.
@@ -37,15 +37,20 @@ SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS 
     -   For Amazon S3:
 
         ```json
-        <S3 bucket name>",
-            "endpoint": "<S3 end point>",
-            "pathPrefix": "<A path prefix that follows the bucket name>",
-            "region": "<S3 region>",
-            "data": {
-                "AWS_ACCESS_KEY_ID": "<AWS access key ID>",
-                "AWS_SECRET_ACCESS_KEY": "<AWS secret access key>"
-            }
+        {
+        	"name": "<Your identifier>",
+        	"data": {
+        		"AWS_ACCESS_KEY_ID": "<AWS access key ID>",
+        		"AWS_SECRET_ACCESS_KEY": "<AWS secret access key>"
+        	},
+        	"type": "S3",
+        	"bucket": "<S3 bucket name>",
+        	"endpoint": "<S3 end point>",
+        	"region": "<S3 region>",
+        	"pathPrefix": "<A path prefix that follows the bucket name>"
         }
+        
+        
         ```
 
     -   For OSS \(Alicloud Object Storage Service\):
@@ -92,6 +97,11 @@ SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS 
         ```
 
     -   For Azure Blob Storage:
+
+        > ### Restriction:  
+        > For **executions** only, access keys are supported. SAS tokens are **not** supported.
+        > 
+        > For **deployments**, access keys and SAS tokens are supported.
 
         ```json
         {
@@ -196,6 +206,11 @@ SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS 
 
     -   For Azure Blob Storage:
 
+        > ### Restriction:  
+        > For **executions** only, access keys are supported. SAS tokens are **not** supported.
+        > 
+        > For **deployments**, access keys and SAS tokens are supported.
+
         ```json
         curl --location --request POST "$AI_API_URL/v2/admin/objectStoreSecrets" \
         --header "Authorization: Bearer $TOKEN" \
@@ -227,7 +242,7 @@ SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS 
 > You can create multiple secrets using different values for `name`, but you must create a default first.
 
 > ### Tip:  
-> The `pathPrefix` is useful if you share the same bucket for different projects. You can set the name of your project folder to `my-ml-project1`, for example. All data will then be stored in that folder.
+> The `pathPrefix` is useful if you share the same bucket for different projects. You can set the name of your project folder to `my-ml-project1`, for example. All data is then stored in that folder.
 
 > ### Note:  
 > If the `AI-Resource-Group` header is not specified, the *<Resource Group\>* is assigned the value `"default"` automatically.

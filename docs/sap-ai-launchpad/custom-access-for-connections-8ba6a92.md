@@ -2,7 +2,7 @@
 
 # Custom Access for Connections
 
-You can selectively control users' access to conections within SAP AI Launchpad.
+You can selectively control users' access to connections within SAP AI Launchpad.
 
 
 

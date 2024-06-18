@@ -2,7 +2,7 @@
 
 # Using SAP AI Launchpad
 
-SAP AI Launchpad can be used by both AI scenario producers and AI scenario consumers. AI scenario producers, such as AI operations engineers or AI engineers, are responsible for developing and productizing AI scenarios. AI scenario consumers, such as business analysts, subscribe to a service that offers an AI scenario and consume it. The Generative AI Hub within SAP AI Launchpad can be used to interact with generative AI models.
+SAP AI Launchpad can be used by both AI scenario producers and AI scenario consumers. AI scenario producers, such as AI operations engineers or AI engineers, are responsible for developing and productizing AI scenarios. AI scenario consumers, such as business analysts, subscribe to a service that offers an AI scenario and consume it. The generative AI hub within SAP AI Launchpad can be used to interact with generative AI models.
 
 
 
@@ -10,13 +10,13 @@ SAP AI Launchpad can be used by both AI scenario producers and AI scenario consu
 
 ## Generative AI Hub
 
-The Generative AI Hub can be used for prompt engineering and prompt lifecycle management.SAP AI Launchpad provides support in the following ways:
+The generative AI hub can be used for prompt engineering and prompt lifecycle management. SAP AI Launchpad provides support in the following ways:
 
--   Prompts can be created and run in the Generative AI Hub *Prompt Editor*.
+-   Prompts can be created and run in the generative AI hub *Prompt Editor*.
 
--   Prompt lifecycle can be managed via Generative AI Hub *Prompt Management*.
+-   Prompt lifecycle can be managed via generative AI hub *Prompt Management*.
 
--   User data can be deleted in the Generative AI Hub via *Administration*.
+-   User data can be deleted in the generative AI hub via *Administration*.
 
 
 
@@ -51,9 +51,9 @@ When the AI scenario consumer is responsible for managing the lifecycle of the A
 -   AI scenario producers can access logs to provide support to AI scenario consumers using the *ML Operations* app.
 
 
--   **[Generative AI Hub](generative-ai-hub-b0b935b.md "The Generative AI Hub incorporates generative AI into your AI activities in
+-   **[Generative AI Hub](generative-ai-hub-b0b935b.md "The generative AI hub incorporates generative AI into your AI activities in
 			SAP AI Core and SAP AI Launchpad. ")**  
-The Generative AI Hub incorporates generative AI into your AI activities in SAP AI Core and SAP AI Launchpad.
+The generative AI hub incorporates generative AI into your AI activities in SAP AI Core and SAP AI Launchpad.
 -   **[AI Scenario Producer](ai-scenario-producer-899dcf8.md "As an AI scenario producer, you develop AI use cases (scenarios) on one or more AI
 		runtimes and productize them.")**  
 As an AI scenario producer, you develop AI use cases \(scenarios\) on one or more AI runtimes and productize them.

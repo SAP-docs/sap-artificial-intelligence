@@ -303,12 +303,12 @@ A prompt is a natural language instruction for a generative AI model.
 <tr>
 <td valign="top">
 
-Generative AI Hub
+Generative AI hub
 
 </td>
 <td valign="top">
 
-The Generative AI Hub includes prompt experimentation, prompt management, and administrative tools. Prompt experimentation includes creating and running natural language prompts with a choice of large language models and parameters. Prompt management includes saving prompts with collections, metadata in the form of tags and notes, versioning and deletion.
+The generative AI hub includes prompt experimentation, prompt management, and administrative tools. Prompt experimentation includes creating and running natural language prompts with a choice of large language models and parameters. Prompt management includes saving prompts with collections, metadata in the form of tags and notes, versioning and deletion.
 
 </td>
 </tr>

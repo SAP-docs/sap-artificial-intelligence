@@ -155,7 +155,7 @@ staticDeployments
 </td>
 <td valign="top">
 
-Static global inference endpoints without the need of user deployments \(default: true\).
+Consumers can use existing deployments, but not allowed to Create, Update or Delete \(default: true\).
 
 </td>
 </tr>

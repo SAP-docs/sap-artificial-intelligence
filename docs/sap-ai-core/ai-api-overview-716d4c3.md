@@ -60,7 +60,7 @@ The AI API specification comprises the following parts:
 
 `Meta API` is part of the AI API specification \(endpoint `/lm/meta`\). The implementation must return a configuration response that specifies the capabilities of the AI API runtime implementation.
 
-`Meta API` allows AI API clients to query the capabilities of an AI API implementation so that they can select which commands or user interfaces are available. For example, some AI API runtimes may offer executions but not deployments. They may also offer logs for executions and not for deployments. As an example, if a client of SAP AI Core such asSAP AI Launchpad queries the `Meta API` endpoint of SAP AI Core, the response will be for example:
+`Meta API` allows AI API clients to query the capabilities of an AI API implementation so that they can select which commands or user interfaces are available. For example, some AI API runtimes may offer executions but not deployments. They may also offer logs for executions and not for deployments. As an example, if a client of SAP AI Core such as SAP AI Launchpad queries the `Meta API` endpoint of SAP AI Core, the response will be for example:
 
 ```
 json
@@ -188,7 +188,7 @@ Clients can share one instance
 </td>
 <td valign="top">
 
-Static, always running endpoints for inference are available without the user gaving to start a deployment
+Static, always running endpoints for inference are available without the user having to start a deployment
 
 </td>
 </tr>

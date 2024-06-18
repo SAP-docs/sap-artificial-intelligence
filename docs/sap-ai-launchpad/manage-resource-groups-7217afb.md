@@ -17,6 +17,11 @@ A resource group may also be referred to as an instance.
 > ### Remember:  
 > Your SAP global account may consist of several accounts. Each account can be associated with a tenant. A tenant can contain multiple resource groups. A tenant always contains a default resource group, as well as the resource groups defined for your usage scenarios.
 
+> ### Restriction:  
+> The maximum number of resource groups is limited at tenant level to 50. If you reach this limit, you will receive an error message. To free up space, delete some resource groups. Alternatively, raise a ticket to increase your quota.
+> 
+> For more information, see [Delete a Resource Group](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/40d83a2716894174b4b9b407396a0708.html "") :arrow_upper_right:.
+
 -   **[Create a Resource Group](create-a-resource-group-060d9be.md "As an administrator, you create resource groups to isolate your ML workloads and processes.")**  
 As an administrator, you create resource groups to isolate your ML workloads and processes.
 -   **[Edit a Resource Group](edit-a-resource-group-7c554d2.md "As an administrator, you can edit resource groups used within your AI processes. You can change labels and values, or add, edit, or remove

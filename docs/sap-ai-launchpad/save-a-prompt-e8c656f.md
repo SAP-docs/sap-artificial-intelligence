@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
--   You have run a prompt succesfully.
+-   You have run a prompt successfully.
 
 -   You have either the `genai_manager` or `prompt_manager` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
 
@@ -21,10 +21,9 @@
 
 ## Context
 
--   Prompts are saved in one region only, and can only be retrieved or deleted by an AI launchpad instance in that region.
+Prompts are saved in one region only and can only be retrieved or deleted by an instance of AI launchpad in that region.
 
--   There is a storage limit applied at tenant level. If you reach this limit, you will receive an error message. Delete saved prompts to make space, or contact your administrator. Your prompt will not be saved and you will have to run it again to save it. You can use the copy function to paste it elsewhere for your reference.
-
+There is a storage limit applied at tenant level. If you reach this limit, you will receive an error message. Delete saved prompts to make space, or contact your administrator. Your prompt will not be saved and you will have to run it again to save it. You can use the copy function to paste it elsewhere for your reference.
 
 
 
@@ -32,11 +31,14 @@
 
 1.  **Optional:** you can
 
-    -   Give your prompt a descriptive *name*.
+    -   Give your prompt a descriptive *name* in place of the automatically assigned name.
     -   Assign your prompt to a *Collection*.
     -   Assign meaningful *Tags* and *Notes* as *Metadata*.
 
 2.  Choose *Save.*
+
+    > ### Caution:  
+    > Do not store sensitive data in prompts when using the generative AI hub. Sensitive data is any data that is not intended for public disclosure, including but not limited to confidential or personal information.
 
     ![](images/save_prompt_2709877.png)
 

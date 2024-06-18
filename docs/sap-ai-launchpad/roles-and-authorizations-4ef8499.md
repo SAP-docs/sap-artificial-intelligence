@@ -126,7 +126,7 @@ Provides roles to view all contents of scenarios, and to view and edit contents 
 
 `mloperations_editor`
 
-`artifact.register`
+`artifact_register`
 
 </td>
 </tr>
@@ -271,7 +271,7 @@ SAP AI Launchpad
 </td>
 <td valign="top">
 
-Provides roles to view, create, edit, and delete connections to your AI runtime \(for example, SAP AI Core\) without Generative AI Hub
+Provides roles to view, create, edit, and delete connections to your AI runtime \(for example, SAP AI Core\) without generative AI hub
 
 </td>
 <td valign="top">
@@ -295,7 +295,7 @@ Provides roles to view, create, edit, and delete connections to your AI runtime 
 </td>
 <td valign="top">
 
-Provides roles to view all contents of scenarios and resource groups without Generative AI Hub 
+Provides roles to view all contents of scenarios and resource groups without generative AI hub 
 
 </td>
 <td valign="top">
@@ -319,7 +319,7 @@ Provides roles to view all contents of scenarios and resource groups without Gen
 </td>
 <td valign="top">
 
-Provides roles to view all contents of scenarios, and to view and edit contents of resource groups without Generative AI Hub 
+Provides roles to view all contents of scenarios, and to view and edit contents of resource groups without generative AI hub 
 
 </td>
 <td valign="top">
@@ -328,7 +328,7 @@ Provides roles to view all contents of scenarios, and to view and edit contents 
 
 `mloperations_editor`
 
-`artifact.register`
+`artifact_register`
 
 </td>
 </tr>
@@ -345,7 +345,7 @@ Provides roles to view all contents of scenarios, and to view and edit contents 
 </td>
 <td valign="top">
 
-Provides roles to view scenarios and all ML resources of a scenario without Generative AI Hub 
+Provides roles to view scenarios and all ML resources of a scenario without generative AI hub 
 
 </td>
 <td valign="top">
@@ -385,7 +385,7 @@ Provides roles to view scenarios and all ML resources of a scenario without Gene
 </td>
 <td valign="top">
 
-Edit scenarios and all ML resources of a scenario without Generative AI Hub 
+Edit scenarios and all ML resources of a scenario without generative AI hub 
 
 </td>
 <td valign="top">
@@ -425,12 +425,14 @@ Edit scenarios and all ML resources of a scenario without Generative AI Hub
 </td>
 <td valign="top">
 
-Administrator \(SAP AI Core\) viewer, without access to Generative AI Hub
+Administrator \(SAP AI Core\) viewer, without access to generative AI hub
 
 </td>
 <td valign="top">
 
-`viewer_without_genai``aicore_admin_viewer_all`
+`viewer_without_genai`
+
+`aicore_admin_viewer_all`
 
 </td>
 </tr>
@@ -447,12 +449,14 @@ Administrator \(SAP AI Core\) viewer, without access to Generative AI Hub
 </td>
 <td valign="top">
 
-Administrator \(SAP AI Core\) editor, without access to Generative AI Hub
+Administrator \(SAP AI Core\) editor, without access to generative AI hub
 
 </td>
 <td valign="top">
 
-`viewer_without_genai``aicore_admin_editor_all`
+`viewer_without_genai`
+
+`aicore_admin_editor_all`
 
 </td>
 </tr>
@@ -469,12 +473,14 @@ Administrator \(SAP AI Core\) editor, without access to Generative AI Hub
 </td>
 <td valign="top">
 
-Generative AI Hub experimenter
+generative AI hub experimenter
 
 </td>
 <td valign="top">
 
-`viewer_without_genai``genai_experimenter`
+`viewer_without_genai`
+
+`genai_experimenter`
 
 </td>
 </tr>
@@ -491,12 +497,16 @@ Generative AI Hub experimenter
 </td>
 <td valign="top">
 
-Generative AI Hub manager
+generative AI hub manager
 
 </td>
 <td valign="top">
 
-`viewer_without_genai``genai_experimenter``genai_manager`
+`viewer_without_genai`
+
+`genai_experimenter`
+
+`genai_manager`
 
 </td>
 </tr>
@@ -513,12 +523,14 @@ Generative AI Hub manager
 </td>
 <td valign="top">
 
-Generative AI Hub administrator
+generative AI hub administrator
 
 </td>
 <td valign="top">
 
-`viewer_without_genai``genai_administrator`
+`viewer_without_genai`
+
+`genai_administrator`
 
 </td>
 </tr>
@@ -1068,7 +1080,7 @@ View generic secrets in the SAP AI Core runtime through the *SAP AI Core Adminis
 </td>
 <td valign="top">
 
-Run prompts in the <code>Generative AI Hub prompt editor</code>
+Run prompts in the <code>generative AI hub prompt editor</code>
 
 </td>
 </tr>
@@ -1080,7 +1092,7 @@ Run prompts in the <code>Generative AI Hub prompt editor</code>
 </td>
 <td valign="top">
 
-Create, update and run prompts in the <code>Generative AI Hub prompt editor</code>, read and delete your saved prompts in the <code>Generative AI Hub</code> prompt manager
+Create, update and run prompts in the <code>generative AI hub prompt editor</code>, read and delete your saved prompts in the <code>generative AI hub</code> prompt manager
 
 </td>
 </tr>
@@ -1092,7 +1104,7 @@ Create, update and run prompts in the <code>Generative AI Hub prompt editor</cod
 </td>
 <td valign="top">
 
-Delete user data in the **Generative AI Hub**
+Delete user data in the **generative AI hub**
 
 </td>
 </tr>
@@ -1104,7 +1116,7 @@ Delete user data in the **Generative AI Hub**
 </td>
 <td valign="top">
 
-Run prompts in the <code>Generative AI Hub prompt editor</code>
+Run prompts in the <code>generative AI hub prompt editor</code>
 
 </td>
 </tr>
@@ -1116,7 +1128,7 @@ Run prompts in the <code>Generative AI Hub prompt editor</code>
 </td>
 <td valign="top">
 
-Create, update and run prompts in the <code>Generative AI Hub prompt editor</code>, read and deleted your saved prompts in the <code>Generative AI Hub</code> prompt manager
+Create, update and run prompts in the <code>generative AI hub prompt editor</code>, read and deleted your saved prompts in the <code>generative AI hub</code> prompt manager
 
 </td>
 </tr>
@@ -1128,7 +1140,7 @@ Create, update and run prompts in the <code>Generative AI Hub prompt editor</cod
 </td>
 <td valign="top">
 
-Delete user data in the Generative AI Hub
+Delete user data in the generative AI hub
 
 </td>
 </tr>
@@ -1140,7 +1152,7 @@ Delete user data in the Generative AI Hub
 </td>
 <td valign="top">
 
-Access SAP AI Launchpad, default role for users, without Generative AI Hub 
+Access SAP AI Launchpad, default role for users, without generative AI hub 
 
 </td>
 </tr>
@@ -1149,7 +1161,7 @@ Access SAP AI Launchpad, default role for users, without Generative AI Hub
 > ### Note:  
 > Generative AI hub is available through the default `viewer` role.
 > 
-> Access to the generative AI hub can be revoked by assigning the equivalent role `without_genai`. For example, the `viewer` and `viewer_without_genai` are equiavalent roles, with and without generative AI hub capabilities respectively.
+> Access to the generative AI hub can be revoked by assigning the equivalent role `without_genai`. For example, the `viewer` and `viewer_without_genai` are equivalent roles, with and without generative AI hub capabilities respectively.
 
 **Related Information**  
 

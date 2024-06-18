@@ -23,17 +23,19 @@ You can create a custom disclaimer message which will be shown to every user of 
 
 1.  Select the connection to your SAP AI Core runtime in the *Workspaces* app.
 
-2.  In the side navigation, expand the Generative AI Hub and choose *Administration*.
+2.  In the side navigation, expand the *Generative AI Hub* and choose *Administration*.
 
 3.  In the *Disclaimer Message* tab bar, enter a title for your disclaimer. Optionally, you can add more detail in the *Details* field. You can save your progress using the *Save* button.
 
-    ![](images/write_605b949.png)
+
+
+    ![](images/1_be96b1c.png)
 
     You will see a preview of your disclaimer message in the *Preview* field.
 
 4.  Publish your disclaimer message using the *Activate Disclaimer* toggle button.
 
-    ![](images/publish_bb7f7f3.png)
+    ![](images/3_a38a0f0.png)
 
     If you want to remove your disclaimer message in the future, you do so by deactivating the *Activate Disclaimer* toggle button.
 

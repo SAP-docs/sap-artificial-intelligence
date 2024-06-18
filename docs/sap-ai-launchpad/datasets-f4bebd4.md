@@ -52,7 +52,7 @@ For more information, see [Roles and Authorizations](roles-and-authorizations-4e
 5.  **Optional:** Search the list by entering a dataset name or part of the dataset description in the :mag: field.
 
     > ### Tip:  
-    > When your runtime is SAP AI Core, this seach is not case-sensitive. For other runtimes, search may be case-sensitive.
+    > When your runtime is SAP AI Core, this search is not case-sensitive. For other runtimes, search may be case-sensitive.
 
 6.  **Optional:** Filter for a dataset in the list by choosing <span class="SAP-icons-V5"></span> \(Filter\). The *Filter* dialog appears.
 

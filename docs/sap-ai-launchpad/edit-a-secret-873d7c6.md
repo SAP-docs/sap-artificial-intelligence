@@ -52,7 +52,7 @@ You edit a secret when its credentials \(user name and access token\) change.
     2.  To upload the secret as a `.TXT` or `JSON` file, choose <span class="SAP-icons-V5"></span> \(Upload\) . Search for and choose the secret from a local file. The file data then defaults to the *Secret* field.
 
         > ### Note:  
-        > Files which are larger than 10 KB can't be uploaded.
+        > Files larger than 10 KB can't be uploaded.
 
 
 5.  Choose *Edit* to save the changes for the secret.

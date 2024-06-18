@@ -12,7 +12,7 @@
 
 
 > ### Note:  
-> -   User data is saved in one region only, and can only be retrieved or deleted by an AI launchpad instance in that region.
+> -   User data is saved in one region only and can only be retrieved or deleted by an instance of AI launchpad in that region.
 > 
 > -   In addition to manual user offboarding, prompt data can be deleted automatically. For more information, see [Data Protection and Privacy](security-e4cf710.md#loiof1d2eb91d9a248ca8c92b0110c76c6f6).
 
@@ -22,21 +22,21 @@
 
 1.  Select the connection to your SAP AI Core runtime in the *Workspaces* app.
 
-2.  In the side navigation, expand the Generative AI Hub and choose *Administration*.
+2.  In the side navigation, expand the *Generative AI Hub* and choose *Administration*.
 
 3.  Check for a user in the system by entering the user's email in the *User Data* tab bar. Choose search.
 
-    ![](images/Aministration_ae81b03.png)
+    ![](images/4_7307007.png)
 
 4.  If the user is found, you can choose *Delete* to delete their entire data.
 
     > ### Note:  
     > The user data won't be fetched.
 
-    ![](images/admin_delete_27c60aa.png)
+    ![](images/5_48bcbf1.png)
 
     If the user is not found, you will be informed.
 
-    ![](images/user_not_found_97e9b4e.png)
+
 
 

@@ -6,7 +6,7 @@
 
 ## Procedure
 
-1.  Choose your subaccount and on the *Overview* page, choose *Enable Cloud Foundry*.
+1.  Click your subaccount and on the *Overview* page, choose *Enable Cloud Foundry*.
 
     ![](images/Enable_Cloud_Foundry_Button_d0dbc30.png)
 

@@ -2,7 +2,7 @@
 
 # Other Artifacts
 
-Any artifact that cannot be categorized as a dataset, model, or result set is registered as an other artifact.
+Any artifact that cannot be categorized as a dataset, model, or result set is registered as an “other” artifact.
 
 An artifact is a reference to a file stored in hyperscaler object storage.
 
@@ -20,9 +20,9 @@ Artifacts are unique to a resource group.
 
 
 -   **[Register an Other Artifact](register-an-other-artifact-c02fca9.md "Use the ML
-                                    Operations app to manually register an other
-		artifact that is stored in your object store.")**  
-Use the *ML Operations* app to manually register an other artifact that is stored in your object store.
+                                    Operations app to manually register an
+			“other” artifact that is stored in your object store.")**  
+Use the *ML Operations* app to manually register an “other” artifact that is stored in your object store.
 -   **[Find an Other Artifact](find-an-other-artifact-e859767.md "Use the ML
                                     Operations app to search for other
 		artifacts.")**  

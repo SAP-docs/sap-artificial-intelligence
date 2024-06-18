@@ -179,8 +179,10 @@ Set up a periodic scheduling of workflow executions to automate execution creati
 A model is a type of artifact that results from a training process.
 -   **[Result Sets](result-sets-cc7bacc.md "A result set is a type of artifact that results from an execution used for batch inferencing. ")**  
 A result set is a type of artifact that results from an execution used for batch inferencing.
--   **[Other Artifacts](other-artifacts-fae21be.md "Any artifact that cannot be categorized as a dataset, model, or result set is registered as an other artifact.")**  
-Any artifact that cannot be categorized as a dataset, model, or result set is registered as an other artifact.
+-   **[Other Artifacts](other-artifacts-fae21be.md "Any artifact that cannot be categorized as a dataset, model, or result set is registered as an
+			“other”
+		artifact.")**  
+Any artifact that cannot be categorized as a dataset, model, or result set is registered as an “other” artifact.
 
 **Related Information**  
 

@@ -6,9 +6,9 @@ Learn more about the SAP AI Core service on SAP Business Technology Platform \(S
 
 SAP AI Core is a service in the SAP Business Technology Platform that is designed to handle the execution and operations of your AI assets in a standardized, scalable, and hyperscaler-agnostic way. It provides seamless integration with your SAP solutions. Any AI function can be easily realized using open-source frameworks. SAP AI Core supports full lifecycle management of AI scenarios. Access generative AI capabilities and prompt lifecycle management via the generative AI hub.
 
-SAP AI Core allows you to make data driven decisions confidently and efficiently, and is tailored to business problems. It handles large volumes of data and provides scalable machine learning capability, to automate tasks such as triage services for customer feedback or tickets and classification tasks. SAP AI Core comes with preconfigured SAP solutions, can be configured for open source machine learning frameworks, can be used with Argo Workflow and KServe, and can be embedded into other applications.
+SAP AI Core allows you to make data driven decisions confidently and efficiently and is tailored to business problems. It handles large volumes of data and provides scalable machine learning capabilities to automate tasks such as triage services for customer feedback or tickets and classification tasks. SAP AI Core comes with preconfigured SAP solutions, can be configured for open-source machine learning frameworks, can be used with Argo Workflow and KServe, and can be embedded into other applications.
 
-SAP AI Core allows you to experiment with and utilize natural language prompts with a variety of generative AI models in the Generative AI Hub.
+SAP AI Core allows you to experiment with and utilize natural language prompts with a variety of generative AI models in the generative AI hub.
 
 > ### Tip:  
 > The English version of this guide is open for contributions and feedback using GitHub. This allows you to get in contact with responsible authors of SAP Help Portal pages and the development team to discuss documentation-related issues. To contribute to this guide, or to provide feedback, choose the corresponding option on SAP Help Portal:

@@ -45,5 +45,5 @@ If you migrate from the free tier option to a standard plan or extended plan, or
 > ### Restriction:  
 > It is not possible to migrate from a standard or extended service plan to the free tier option, or from an extended plan to a standard plan.
 > 
-> If an instance with an extended or standard plan is deleted, it is not possibe to create a new instance with a standard plan.
+> If an instance with an extended or standard plan is deleted, it is not possible to create a new instance with a standard plan.
 

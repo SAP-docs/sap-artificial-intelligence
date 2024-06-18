@@ -2,7 +2,7 @@
 
 # Remove an Object Store Secret
 
-As a administrator, you remove an object store secret when the name is no longer valid or contains errors, or if the secret is no longer required.
+As an administrator, you remove an object store secret when the name is no longer valid or contains errors, or if the secret is no longer required.
 
 
 

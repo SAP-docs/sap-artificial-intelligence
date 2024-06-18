@@ -14,7 +14,7 @@
 
     ![](images/New_Service_Key_0019ba4.png)
 
-    **Optional:**To use an x.509 certificate instead of clientsecret credentials, specify the credentials by updating and uploading the following as a JSON:
+    **Optional:**To use an x.509 certificate instead of client secret credentials, specify the credentials by updating and uploading the following as a JSON:
 
     ```
     { "xsuaa": {"credential-type":"x509", "x509": { "key-length": 2048, "validity":7, "validity-type":"DAYS"}
@@ -42,7 +42,7 @@ You now have your service key, which provides URLs and credentials for accessing
 
 ![](images/Service_Key_Credentials_1e1342e.png)
 
-If you have generated a clienstecret, your key will include:
+If you have generated a client secret, your key will include:
 
 -   `clientid`, `clientsecret`, and `url` can be used to generate your authentication token.
 

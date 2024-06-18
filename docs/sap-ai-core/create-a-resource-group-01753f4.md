@@ -35,6 +35,11 @@ You have completed the Initial Setup. For more information, see [Initial Setup](
     You'll receive a 202 response to confirm that the request to create the resource group has been accepted.
 
 
+> ### Restriction:  
+> The maximum number of resource groups is limited at tenant level to 50. If you reach this limit, you will receive an error message. To free up space, delete some resource groups. Alternatively, raise a ticket to increase your quota.
+> 
+> For more information, see [Delete a Resource Group](delete-a-resource-group-40d83a2.md).
+
 
 
 <a name="loio01753f4dcb454401b539ecc4def641be__section_zbq_3wg_k5b"/>
@@ -47,6 +52,11 @@ You have completed the Initial Setup. For more information, see [Initial Setup](
     curl --location --request POST "$AI_API_URL/v2/admin/resourceGroups" --header "Authorization: Bearer $TOKEN" --header 'Content-Type: application/json' --data-raw '{ "resourceGroupId": "<ID of your resource group>"}'
     
     ```
+
+    > ### Restriction:  
+    > The maximum number of resource groups is limited at tenant level to 50. If you reach this limit, you will receive an error message. To free up space, delete some resource groups. Alternatively, raise a ticket to increase your quota.
+    > 
+    > For more information, see [Delete a Resource Group](delete-a-resource-group-40d83a2.md).
 
 
 **Parent topic:**[Manage Resource Groups](manage-resource-groups-8aae6cb.md "A resource group is a unique dedicated namespace or workspace environment, where users can create or add configurations, executions, deployments, and artifacts. They are used for running training jobs or model servers.")

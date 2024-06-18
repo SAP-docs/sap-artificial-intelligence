@@ -30,7 +30,7 @@ For example:
 
 -   `/v2/lm/deployments/{deploymentId}/logs` - returns deployment logs from the preceding hour
 
--   `/v2/lm/executions/{executionsId}/logs` - returns execution logs from the preceding hour
+-   `/v2/lm/executions/{executionId}/logs` - returns execution logs from the preceding hour
 
 
 

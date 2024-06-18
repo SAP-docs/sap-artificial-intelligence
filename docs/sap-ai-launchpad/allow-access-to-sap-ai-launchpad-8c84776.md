@@ -32,6 +32,11 @@ You can assign role collections to specific users to allow access to SAP AI Laun
 
     SAP AI Launchpad provides standard or default role collections. The default role collections bundle the roles required for likely SAP AI Launchpad tasks and app functions. However, if these role collections do not suit your organizational needs, you can create your own role collections.
 
+    > ### Note:  
+    > Generative AI hub is available through the default `viewer` role.
+    > 
+    > Access to the generative AI hub can be revoked by assigning the equivalent role `without_genai`. For example, the `viewer` and `viewer_without_genai` are equivalent roles, with and without generative AI hub capabilities respectively.
+
     **Default Role Collections**
 
 
@@ -150,7 +155,7 @@ You can assign role collections to specific users to allow access to SAP AI Laun
 
     `mloperations_editor`
 
-    `artifact.register`
+    `artifact_register`
     
     </td>
     </tr>
@@ -295,7 +300,7 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     </td>
     <td valign="top">
     
-    Provides roles to view, create, edit, and delete connections to your AI runtime \(for example, SAP AI Core\) without Generative AI Hub
+    Provides roles to view, create, edit, and delete connections to your AI runtime \(for example, SAP AI Core\) without generative AI hub
     
     </td>
     <td valign="top">
@@ -319,7 +324,7 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     </td>
     <td valign="top">
     
-    Provides roles to view all contents of scenarios and resource groups without Generative AI Hub 
+    Provides roles to view all contents of scenarios and resource groups without generative AI hub 
     
     </td>
     <td valign="top">
@@ -343,7 +348,7 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     </td>
     <td valign="top">
     
-    Provides roles to view all contents of scenarios, and to view and edit contents of resource groups without Generative AI Hub 
+    Provides roles to view all contents of scenarios, and to view and edit contents of resource groups without generative AI hub 
     
     </td>
     <td valign="top">
@@ -352,7 +357,7 @@ You can assign role collections to specific users to allow access to SAP AI Laun
 
     `mloperations_editor`
 
-    `artifact.register`
+    `artifact_register`
     
     </td>
     </tr>
@@ -369,7 +374,7 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     </td>
     <td valign="top">
     
-    Provides roles to view scenarios and all ML resources of a scenario without Generative AI Hub 
+    Provides roles to view scenarios and all ML resources of a scenario without generative AI hub 
     
     </td>
     <td valign="top">
@@ -409,7 +414,7 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     </td>
     <td valign="top">
     
-    Edit scenarios and all ML resources of a scenario without Generative AI Hub 
+    Edit scenarios and all ML resources of a scenario without generative AI hub 
     
     </td>
     <td valign="top">
@@ -449,12 +454,14 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     </td>
     <td valign="top">
     
-    Administrator \(SAP AI Core\) viewer, without access to Generative AI Hub
+    Administrator \(SAP AI Core\) viewer, without access to generative AI hub
     
     </td>
     <td valign="top">
     
-    `viewer_without_genai``aicore_admin_viewer_all`
+    `viewer_without_genai`
+
+    `aicore_admin_viewer_all`
     
     </td>
     </tr>
@@ -471,12 +478,14 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     </td>
     <td valign="top">
     
-    Administrator \(SAP AI Core\) editor, without access to Generative AI Hub
+    Administrator \(SAP AI Core\) editor, without access to generative AI hub
     
     </td>
     <td valign="top">
     
-    `viewer_without_genai``aicore_admin_editor_all`
+    `viewer_without_genai`
+
+    `aicore_admin_editor_all`
     
     </td>
     </tr>
@@ -493,12 +502,14 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     </td>
     <td valign="top">
     
-    Generative AI Hub experimenter
+    generative AI hub experimenter
     
     </td>
     <td valign="top">
     
-    `viewer_without_genai``genai_experimenter`
+    `viewer_without_genai`
+
+    `genai_experimenter`
     
     </td>
     </tr>
@@ -515,12 +526,16 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     </td>
     <td valign="top">
     
-    Generative AI Hub manager
+    generative AI hub manager
     
     </td>
     <td valign="top">
     
-    `viewer_without_genai``genai_experimenter``genai_manager`
+    `viewer_without_genai`
+
+    `genai_experimenter`
+
+    `genai_manager`
     
     </td>
     </tr>
@@ -537,12 +552,14 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     </td>
     <td valign="top">
     
-    Generative AI Hub administrator
+    generative AI hub administrator
     
     </td>
     <td valign="top">
     
-    `viewer_without_genai``genai_administrator`
+    `viewer_without_genai`
+
+    `genai_administrator`
     
     </td>
     </tr>
@@ -558,11 +575,6 @@ You can assign role collections to specific users to allow access to SAP AI Laun
 ## Results
 
 You've now assigned the role collection to the user, who has all of the authorizations provided by the role collection.
-
-> ### Note:  
-> Generative AI hub is available through the default `viewer` role.
-> 
-> Access to the generative AI hub can be revoked by assigning the equivalent role `without_genai`. For example, the `viewer` and `viewer_without_genai` are equiavalent roles, with and without generative AI hub capabilities respectively.
 
 For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
 

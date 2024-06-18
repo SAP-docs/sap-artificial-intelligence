@@ -8,9 +8,9 @@
 
 ## Using Postman
 
-Send a DELETE request,to the endpoint
+Send a DELETE request to the endpoint
 
-`{{apiurl}}/v2/admin/objectStoreSecrets/{{ojectStoreName}}`
+`{{apiurl}}/v2/admin/objectStoreSecrets/{{objectStoreName}}`
 
 
 
@@ -19,7 +19,7 @@ Send a DELETE request,to the endpoint
 ## Using curl
 
 ```
-curl --location --request DELETE "$AI_API_URL/v2/admin/objectStoreSecrets/{{ojectStoreName}}" \
+curl --location --request DELETE "$AI_API_URL/v2/admin/objectStoreSecrets/{{objectStoreName}}" \
 
 ```
 

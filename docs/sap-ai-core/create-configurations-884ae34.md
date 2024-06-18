@@ -75,7 +75,7 @@ A configuration is a collection of parameters, artifact references, and executab
         ],
         "inputArtifactBindings": [
           {
-            "name": "<artifact name>",
+            "key": "<artifact name>",
             "artifactId": "<artifact ID>"
           }
         ]

@@ -50,7 +50,7 @@ You have either the `mloperations_editor` or `scenario_configuration_editor` rol
     ![](images/Image_AI_Launchpad_CC_3_bd68061.png)
 
     > ### Tip:  
-    > The *Reset* button clears the mandatory fields and enters default values, where they are asigned. The *Enable Description* swtich show descriptions and types, where available.
+    > The *Reset* button clears the mandatory fields and enters default values, where they are assigned. The *Enable Description* switch show descriptions and types, where available.
 
 6.  Choose *Next* to display the *Input Artifacts* step.
 

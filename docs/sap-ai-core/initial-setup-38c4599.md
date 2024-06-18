@@ -28,9 +28,12 @@ The SAP AI Core service is a tenant-aware reuse service. It isolates tenants bas
 
 The steps below guide you through the provisioning procedure, Alternatively, a booster is available for both SAP AI Core and SAP AI Launchpad. For more information, see [AI Boosters Tutorial](https://developers.sap.com/tutorials/ai-core-launchpad-provisioning.html). If you choose to use the booster, you can skip the remaining steps to [SAP AI Core Starter Tutorials](sap-ai-core-starter-tutorials-9795b63.md).
 
-1.  [Enabling the Service in Cloud Foundry](enabling-the-service-in-cloud-foundry-0619d8a.md "Enable SAP AI Core
-		using the standard procedures for the SAP BTP Cloud Foundry environment. ")  
+-   **[Enabling the Service in Cloud Foundry](enabling-the-service-in-cloud-foundry-0619d8a.md "Enable SAP AI Core
+		using the standard procedures for the SAP BTP Cloud Foundry environment. ")**  
 Enable SAP AI Core using the standard procedures for the SAP BTP Cloud Foundry environment.
-2.  [SAP AI Core Starter Tutorials](sap-ai-core-starter-tutorials-9795b63.md "")  
-
+-   **[Enabling the Service in the Kyma Environment](enabling-the-service-in-the-kyma-environment-8076566.md "Enable SAP AI Core
+		using the standard procedures for the SAP BTP
+		Kyma
+		environment. ")**  
+Enable SAP AI Core using the standard procedures for the SAP BTP Kyma environment.
 

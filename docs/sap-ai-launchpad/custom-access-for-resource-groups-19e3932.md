@@ -62,7 +62,7 @@ You can selectively control access to resource groups within an AI runtime conne
 
 ## Results
 
-The role is now listed in the SAP BTP cockpit and the custom resourc group settings are applied. Users currently assigned to the `allow_all_resource_groups` role \(or a role collection that contains it\), now have custom access to resource groups in their *Workspaces* app.
+The role is now listed in the SAP BTP cockpit and the custom resource group settings are applied. Users currently assigned to the `allow_all_resource_groups` role \(or a role collection that contains it\), now have custom access to resource groups in their *Workspaces* app.
 
 **Related Information**  
 

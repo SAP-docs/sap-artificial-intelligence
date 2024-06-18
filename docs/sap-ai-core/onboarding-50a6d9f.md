@@ -71,7 +71,7 @@ To onboard a service, complete the following:
     > The username and password are key names from the broker credentials in the previous step.
 
 3.  Update the spec.serviceCatalog\[\].extendCredentials with the service URL you want to provide to the consumer, which will be part of the service key. Provide catalog details under spec.serviceCatalog\[\].extendCatalog.
-4.  Push your service custom resource to your registered github repository, and wait for the sync to be successful.
+4.  Push your service custom resource to your registered GitHub repository, and wait for the sync to be successful.
 5.  Once it has synced, Check the service details by sending a GET request to URL `{{apiurl}}/v2/admin/services`.
 
     ```

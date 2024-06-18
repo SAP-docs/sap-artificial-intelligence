@@ -40,10 +40,12 @@ You have the `connections_editor` role or a role collection that contains it. Fo
     > You can't change a connection name once it has been created, However, you can delete the connection \(no data is lost\) and add a new connection to the same runtime instance with a new name. See [Delete a Connection](manage-a-connection-555c83b.md#loiofc28f574020a466e8b03b8805055eb79).
     > 
     > Sensitive fields are masked and entries are not shown in clear text. To ensure these entries are accurate, copy and paste the values from your service key.
+    > 
+    > The *Connection Type* can be changed from clientSecret to x509 certificate and from x509 to clientSecret.
 
     -   You can upload the service key file for your SAP AI Core instance, if available.
 
-        To upload the service key as a `.TXT` or `JSON` file, choose <span class="SAP-icons-V5"></span> \(Upload\) . Search for and choose the local service key file.
+        To upload the service key as a When editing a connection, the `.TXT` or `JSON` file, choose <span class="SAP-icons-V5"></span> \(Upload\)When editing a connection, the . Search for and choose the local service key file.
 
         Service key data then defaults to the remaining fields.
 

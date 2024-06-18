@@ -56,7 +56,7 @@ When creating a resource group, subaccount ID, instance ID, and zone ID are stan
 
 5.  Choose *Create* to create the resource group.
 
-    The *All Resource Groups* screen appears listing the new resource group.
+    The *All Resource Groups* screen appears and shows the new resource group.
 
 6.  **Optional:** Now that the resource group is created, you can link it to an object store secret. To do so, find the resource group and display its details. Choose *Add* to add an object store secret to the resource group. See [Add an Object Store Secret](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/add-object-store-secret).
 

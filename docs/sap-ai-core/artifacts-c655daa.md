@@ -16,7 +16,7 @@ Define the `globalName` parameter for the output artifact in your workflow:
 
 ```
 ...
-	executables.ai.sap.com/description: "Text classification Scikit training executale"
+	executables.ai.sap.com/description: "Text classification Scikit training executable"
 	executables.ai.sap.com/name: "text-clf-train-tutorial-exec"
 	artifacts.ai.sap.com/text-data.kind: "dataset"
 	artifacts.ai.sap.com/text-model-tutorial.kind: "mind"

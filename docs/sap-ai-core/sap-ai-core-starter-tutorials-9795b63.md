@@ -11,7 +11,3 @@ To see the complete library of tutorials available for SAP AI Core, see [Tutoria
 > ### Note:  
 > Once you have provisioned SAP AI Core, you can access the service in multiple ways. Where the tutorial below offers more than one option tab, you need only complete the tab for your chosen method of access. For customers who prefer a GUI to code, SAP AI Launchpad is recommended. For more information, see [SAP AI Launchpad.](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/what-is-sap-ai-launchpad) 
 
-**Parent topic:**[Initial Setup](initial-setup-38c4599.md "You provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Platform. After provisioning, you will have your service key, which provides URLs and credentials for accessing the SAP AI Core instance")
-
-**Next:**[Enabling the Service in Cloud Foundry](enabling-the-service-in-cloud-foundry-0619d8a.md "Enable SAP AI Core using the standard procedures for the SAP BTP Cloud Foundry environment.")
-

@@ -18,6 +18,8 @@ You are an administrator of the global account in SAP Business Technology Platfo
 
 You create a subaccount within your global account. The subaccount is added as a tile to the global account view, and you are automatically assigned to it as an administrator.
 
+We improve the product incrementally, therefore screenshots may differ from the current interface
+
 
 
 <a name="loiofdab88e50ce54dec9da202dcd825e0e9__steps_gwl_w4c_bcb"/>
@@ -26,7 +28,7 @@ You create a subaccount within your global account. The subaccount is added as a
 
 1.  In the SAP BTP cockpit, choose *Account Explorer* and then choose *Create* \> *Subaccount*.
 
-    ![](images/Image_AI_Launchpad_Provisioning_Subaccount_6_0a9da9b.png)
+    ![](images/Subaccount_Name_and_Region_0af449d.png)
 
 2.  Enter the details for your subaccount as follows:
 

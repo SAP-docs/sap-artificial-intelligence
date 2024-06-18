@@ -79,7 +79,7 @@ Adjustments to `resourceGroups` API endpoint
 
 The API endpoint `/admin/resourceGroups` was previously available only in the AI Core API. It is now available in the AI API and can be implemented in any runtime.
 
-The `/admin/resourceGroups` endpoint specification has also been enhanced with the new field `createdAt`, which indicates when the resource group was created. Note that this is not yet part of theSAP AI Core implementation.
+The `/admin/resourceGroups` endpoint specification has also been enhanced with the new field `createdAt`, which indicates when the resource group was created. Note that this is not yet part of the SAP AI Core implementation.
 
 For more information, see the specifications for the AI API and AI Core API.
 

@@ -33,7 +33,7 @@ You have the `mloperations_editor` or `scenario_execution_editor` role, or you a
 
 2.  In the *ML Operations* app, choose *Executions*.
 
-    The *Executions* screen appears listing all of the executions for the selected resource group. Executions are listed by ID, and with additional details such as Name,Current and Target Status, Created On timestamp, and Changed On timestamp.
+    The *Executions* screen appears listing all of the executions for the selected resource group. Executions are listed by ID, and with additional details such as Name, Current and Target Status, Created On timestamp, and Changed On timestamp.
 
 3.  Choose the Executions you want to stop, using the checkboxes.
 

@@ -27,7 +27,7 @@ You have completed the Initial Setup. For more information, see [Initial Setup](
 ## Using Postman
 
 1.  Send a POST request and enter the URL `{{apiurl}}/v2/admin/secrets`.
-2.  As the request body, select the *raw* radiobutton and enter your credentials in JSON format.:
+2.  As the request body, select the *raw* radio button and enter your credentials in JSON format.:
 
     ```
     {

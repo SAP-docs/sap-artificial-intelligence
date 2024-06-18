@@ -31,7 +31,7 @@ You have the `mloperations_editor` or `scenario_deployment_editor` role, or you 
 
 2.  In the *ML Operations* app, choose *Deployments*.
 
-    The *Deployments* screen appears listing all of the deployments for the selected resource group. Deployments are listed by ID, and with additional details such as Name,Current and Target Status, Created On timestamp, and Changed On timestamp.
+    The *Deployments* screen appears listing all of the deployments for the selected resource group. Deployments are listed by ID, and with additional details such as Name, Current and Target Status, Created On timestamp, and Changed On timestamp.
 
 3.  Choose the Deployments you want to stop, using the checkboxes.
 

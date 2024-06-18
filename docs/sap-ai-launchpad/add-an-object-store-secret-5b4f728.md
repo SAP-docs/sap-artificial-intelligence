@@ -55,9 +55,9 @@ Supported cloud object stores include Amazon S3 \(S3\), Alicloud Object Storage 
         -   End with an alphanumeric character
 
 
-    3.  Choose the type of object store, from the drop down menu.
+    3.  Choose the type of object store.
 
-    4.  Enter the path prefix. The path prefix is used to differentiate between different projects which are stored in the same location.
+    4.  Enter the path prefix. The path prefix is used to differentiate between different projects that are stored in the same location.
 
     5.  Complete the information requested in the dialog box.
 

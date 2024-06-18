@@ -54,9 +54,9 @@ Free
     -   Limited to the default resource group
     -   Limited to the Starter AI Core resource plan
     -   Limited to active instance\(s\) of either free or standard plan \(mutually exclusive\) within a subaccount
-    -   Generative AI Hub not included
+    -   Generative AI hub not included
 
--   For region information, see [SAP Discovery Centre](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core?region=all&tab=feature&commercialModel=cpea).
+-   For region information, see [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core?region=all&tab=feature&commercialModel=cpea).
 
 
 > ### Note:  
@@ -85,7 +85,7 @@ Standard
 
 -   Limitations:
     -   An SAP AI Core standard plan instance cannot be created if there is an active free plan instance
-    -   Generative AI Hub not included
+    -   Generative AI hub not included
 
 -   For region information, see [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core?region=all&tab=feature&commercialModel=cpea).
 
@@ -107,14 +107,14 @@ Extended
 </td>
 <td valign="top">
 
--   Includes the Standard plan, with the addition of generative AI capabilities in the Generative AI Hub.
+-   Includes the Standard plan, with the addition of generative AI capabilities in the generative AI hub.
 
 -   Use of provided generative AI models is charged using adaptable pricing according to model choice, and the number of tokens sent and received.
 
 -   For region information, see [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core?region=all&tab=feature&commercialModel=cpea).
 
 
-For more information, see [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md), [Resource Plans for Large Language Models](https://help.sap.com/viewer/e2eb894cbc6445f99784ccd973d2ddee/CLOUD/en-US/ecb5477a45044b64aa860dbd872d97a3.html "You can configure SAP AI Core to use different infrastructure resources for different tasks. SAP AI Core provides several preconfigured infrastructure bundles called "resource plans" for this purpose.") :arrow_upper_right: and [Metering and Pricing for SAP AI Core](metering-and-pricing-for-sap-ai-core-b5c7215.md).
+For more information, see [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md) and [Metering and Pricing for SAP AI Core](metering-and-pricing-for-sap-ai-core-b5c7215.md).
 
 </td>
 <td valign="top">
@@ -131,9 +131,20 @@ Enterprise
 
 ## Deployment Quotas
 
-Each tenant is assigned a default quota that limits the number of deployments and replicas per deployment. If you reach this quota, your deployment will not be created, and you will be notified. You can free up your quota by deleting existing deployments.
+Each tenant is assigned a default quota that limits the number of deployments and replicas per deployment. If you reach this quota, your deployment will not be created and you will be notified accordingly. You can free up your quota by deleting existing deployments.
 
-Alternatively, you can request a quota increase by creating a ticket. The `component` name is `CA-ML-AIC` and ticket title is `Request to Increase Quota`. Please include details about the size of your increase, if you want to include deployments, replicas or both, and your subaccount ID.
+Alternatively, you can request an increase to your quota by creating a ticket on component `CA-ML-AIC`. Enter the description `Request to Increase Quota` and include details about the size of your increase, whether you want to include deployments, replicas, or both, and your subaccount ID.
+
+
+
+<a name="loioc7244c6a7e3b4ffc928a2564c216e7c7__section_dyl_5kb_r1c"/>
+
+## Resource Group Quotas
+
+> ### Restriction:  
+> The maximum number of resource groups is limited at tenant level to 50. If you reach this limit, you will receive an error message. To free up space, delete some resource groups. Alternatively, raise a ticket to increase your quota.
+> 
+> For more information, see [Delete a Resource Group](delete-a-resource-group-40d83a2.md).
 
 -   **[Free Tier](free-tier-4533adc.md "Enable the free tier option to get to know SAP AI Core with usage
 		limits, to familiarize yourself with the service. Note that usage is limited with this option.")**  
@@ -142,9 +153,9 @@ Enable the free tier option to get to know SAP AI Core with usage limits, to fam
 		(UoM), depending on which resources of SAP AI Core are
 		consumed.")**  
 SAP AI Core is metered based on various nonbillable units of measure \(UoM\), depending on which resources of SAP AI Core are consumed.
--   **[Metering and Pricing for the Generative AI Hub](metering-and-pricing-for-the-generative-ai-hub-a5212f3.md "The use of large language models (LLMs) in the generative AI hub is metered using
+-   **[Metering and Pricing for the Generative AI Hub](metering-and-pricing-for-the-generative-ai-hub-a5212f3.md "The use of models in the generative AI hub is metered using
 			GenAI tokens and capacity units.")**  
-The use of large language models \(LLMs\) in the generative AI hub is metered using GenAI tokensand capacity units.
+The use of models in the generative AI hub is metered using GenAI tokensand capacity units.
 -   **[Choose a Resource Plan](choose-a-resource-plan-c58d4e5.md "You can configure SAP AI Core to use different infrastructure
 		resources for
 		different

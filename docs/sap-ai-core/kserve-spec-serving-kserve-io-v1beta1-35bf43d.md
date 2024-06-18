@@ -328,6 +328,8 @@ int
 
 Minimum number of replicas. Defaults to 1 but can be set to 0 to enable scale-to-zero.
 
+AI Core will attempt, on best-case effort, to schedule your deployments in different availability zone when you have more than one replica. This way, you can make your deployment High-Available \(HA\) by configuring min and max-replica accordingly.
+
 </td>
 </tr>
 <tr>
@@ -341,6 +343,8 @@ int
 <td valign="top">
 
 Maximum number of replicas for autoscaling. Default: if minReplicas \>= 2 then maxReplicas = minReplicas else 2.
+
+AI Core will attempt, on best-case effort, to schedule your deployments in different availability zone when you have more than one replica. This way, you can make your deployment High-Available \(HA\) by configuring min and max-replica accordingly.
 
 </td>
 </tr>

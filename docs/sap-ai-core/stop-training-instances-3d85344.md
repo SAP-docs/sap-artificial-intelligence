@@ -5,7 +5,7 @@
 You can stop a running execution by submitting a PATCH request to `$AI_API_URL/v2/lm/executions/$EXECUTION \`.
 
 > ### Note:  
-> Stop is only enabed if the status is running or pending.
+> Stop is only enabled if the status is running or pending.
 
 -   **[Stop a Single Training Instance](stop-a-single-training-instance-07870df.md "")**  
 

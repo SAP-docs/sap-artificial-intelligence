@@ -30,7 +30,7 @@
 
 ## Procedure
 
-1.  Select the connection to your SAP AI Core runtime in the *Workspaces* app and choose the resource group that was used for your Generative AI Hub deployment.
+1.  Select the connection to your SAP AI Core runtime in the *Workspaces* app and choose the resource group that was used for your generative AI hub deployment.
 
 2.  In the side navigation, expand the *Generative AI Hub* and choose *Prompt Editor*.
 
@@ -38,11 +38,7 @@
 
     1.  Enter your input data in the *Message* box.
 
-        > ### Restriction:  
-        > Do not submit sensitive information in prompts when using generative AI hub.
 
-        > ### Restriction:  
-        > The prompt message input has a limit of 4000 tokens.
 
     2.  **Optional:** Enter a name for your prompt.
 
@@ -52,20 +48,16 @@
 
         If you do not choose a model, the default model will be used.
 
-    4.  **Optional:** Enter a collection name.
+    4.  **Optional:** Enter a collection name. Collection names are case sensitive.
 
         Not available to the `genai_experimenter` or `prompt_experimenter` roles.
 
-    5.  **Optional:** Adjust the parameters, such as:
+    5.  **Optional:** Adjust the parameters to refine the generated response.
 
-        -   `Max Tokens:`An integer that defines the maximum number of tokens allowed for the generated answer. Max 2048 \(4096 for some models\), default 16.
 
-        -   `Temperature:`Higher values make the output more random; lower values make it more focused and deterministic. Min 0, max 2 , step value .01, default 1.
 
-        -   `Frequency Penalty:`Tokens that are already used in the text are penalized, higher values make the model output less likely to repeat something already written. Min -2, max 2, step value .01, default 0.
-
-        -   `Presence Penalty:`Tokens that are already used in the text are penalized, higher values make the model output more likely to include new topics. Min -2, max 2, step value .01, default 0.
-
+        > ### Tip:  
+        > Different models support different parameters and values, full information is available from the model provider. For more information, see [Models and Scenarios in the Generative AI Hub](models-and-scenarios-in-the-generative-ai-hub-fef463b.md).
 
     6.  **Optional:** Add meaningful tags and notes to the metadata.
 
@@ -74,9 +66,16 @@
 
     ![](images/Prompt_editor_3376b75.png)
 
-    ![](images/params_6300dc8.png)
-
 4.  Choose *Run*
+
+    1.  **Optional:** Streaming of response generation is supported for selected models. When the streaming switch is available, you can turn streaming on and off.
+
+        ![](images/switch_770fce5.png)
+
+        You will see your response as it generates.
+
+        ![](images/streaming_ae8b8a3.png)
+
 
 
 
@@ -86,130 +85,6 @@
 ## Results
 
 The response to your prompt will be generated.
-
-> ### Note:  
-> Content filtering for the following categories and severities has been enabled for selected Azure models:
-> 
-> 
-> <table>
-> <tr>
-> <th valign="top">
-> 
-> Category
-> 
-> </th>
-> <th valign="top">
-> 
-> Low Severity
-> 
-> </th>
-> <th valign="top">
-> 
-> Medium and High Severity
-> 
-> </th>
-> </tr>
-> <tr>
-> <td valign="top">
-> 
-> **Hate:**
-> 
-> </td>
-> <td valign="top">
-> 
-> Allow
-> 
-> </td>
-> <td valign="top">
-> 
-> Block
-> 
-> </td>
-> </tr>
-> <tr>
-> <td valign="top">
-> 
-> **Sexual:**
-> 
-> </td>
-> <td valign="top">
-> 
-> Allow
-> 
-> </td>
-> <td valign="top">
-> 
-> Block
-> 
-> </td>
-> </tr>
-> <tr>
-> <td valign="top">
-> 
-> **Self-harm:**
-> 
-> </td>
-> <td valign="top">
-> 
-> Allow
-> 
-> </td>
-> <td valign="top">
-> 
-> Block
-> 
-> </td>
-> </tr>
-> <tr>
-> <td valign="top">
-> 
-> **Violence:**
-> 
-> </td>
-> <td valign="top">
-> 
-> Allow
-> 
-> </td>
-> <td valign="top">
-> 
-> Block
-> 
-> </td>
-> </tr>
-> </table>
-> 
-> 
-> <table>
-> <tr>
-> <th valign="top">
-> 
-> Category
-> 
-> </th>
-> <th valign="top">
-> 
-> If Detected
-> 
-> </th>
-> </tr>
-> <tr>
-> <td valign="top">
-> 
-> **Jailbreak risk:**
-> 
-> </td>
-> <td valign="top">
-> 
-> Block
-> 
-> </td>
-> </tr>
-> </table>
-> 
-> For more information, see [Azure Content Filtering Documentation](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/content-filter?tabs=warning%2Cpython).
-> 
-> If your response is filtered because of the contents, you will receive an error message instead of the reponse.
 
 
 
@@ -376,7 +251,7 @@ Transformations transform a given text into another language or register.
 > `Translate the following python dictionary from JSON to an HTML table with column headers and title:`
 > 
 > ```
-> { "resturant employees" :[  
+> { "restaurant employees" :[  
 > {"name":"Shyam", "email":"shyamjaiswal@gmail.com"}, 
 > {"name":"Bob", "email":"bob32@gmail.com"}, 
 > {"name":"Jai", "email":"jai87@gmail.com"} 
@@ -390,13 +265,15 @@ Transformations transform a given text into another language or register.
 > 
 > `Proofread and correct the following text and rewrite the corrected version. If you don't find and errors, just say \"No errors found\". Don't use any punctuation around the text: The girl with the black and white puppies have a ball.`
 
-Prompt:
+> ### Example:  
+> Prompt:
+> 
+> `Proofread and correct the following text and rewrite the corrected version. If you don't find and errors, just say \"No errors found\". Don't use any punctuation around the text: Yolanda has her notebook.`
 
-`Proofread and correct the following text and rewrite the corrected version. If you don't find and errors, just say \"No errors found\". Don't use any punctuation around the text: Yolanda has her notebook.`
-
-Prompt:
-
-`Proofread and correct this review: ```Got this for my daughter for her birthday cuz she keeps taking mine from my room. Yes, adults also like pandas too. She takes ears is a bit lower than the other, and I don't think that was designed to be asymmetrical. It's a bit small for what I paid for it though. I think there might be other options that are bigger for the same price. It arrived a day earlier than expected, so I got to play with it myself before I gave it to my daughter.```` 
+> ### Example:  
+> Prompt:
+> 
+> `Proofread and correct this review: ```Got this for my daughter for her birthday cuz she keeps taking mine from my room. Yes, adults also like pandas too. She takes ears is a bit lower than the other, and I don't think that was designed to be asymmetrical. It's a bit small for what I paid for it though. I think there might be other options that are bigger for the same price. It arrived a day earlier than expected, so I got to play with it myself before I gave it to my daughter.```` 
 
 <a name="concept_wzw_ql3_pzb"/>
 

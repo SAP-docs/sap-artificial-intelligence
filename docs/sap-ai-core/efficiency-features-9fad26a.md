@@ -48,7 +48,7 @@ The default duration is indefinite, however the `ttl` parameter limits the durat
 
 ## Tenant Warm Node Pool
 
-Tenant warm nodes allows tenants to reserve nodes from specific resource plan types, ensuring that a predefined number of nodes exist in the cluster. The reserved nodes can then be used during model training and serving. Reserving nodes reduces waiting time at workload startup, but incurs costs inline with node use, whether consumed or not.
+Tenant warm nodes allow tenants to reserve nodes from specific resource plan types, ensuring that a predefined number of nodes exist in the cluster. The reserved nodes can then be used during model training and serving. Reserving nodes reduces waiting time at workload startup, but incurs costs in line with node use, whether consumed or not.
 
 
 
@@ -59,14 +59,14 @@ Tenant warm nodes allows tenants to reserve nodes from specific resource plan ty
 
 The number of reserved nodes specified by the tenant are consistently available for use.
 
-The minumum number of reserved nodes is 0.
+The minimum number of reserved nodes is 0.
 
 
 
 ### About Node Reservation
 
 -   The number of reserved nodes specified by the tenant are consistently available for use.
--   The minumum number of reserved nodes is 0.
+-   The minimum number of reserved nodes is 0.
 -   The maximum number of reserved nodes is 10.
 -   The default number of reserved nodes is 0.
 

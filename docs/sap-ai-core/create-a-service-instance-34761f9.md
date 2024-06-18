@@ -6,7 +6,7 @@
 
 ## Procedure
 
-1.  SAP BTP cockpit, navigate to your subaccount within your global account, and choose *Service Marketplace*.
+1.  In SAP BTP cockpit, navigate to your subaccount within your global account and choose *Service Marketplace*.
 
     You will see a tile for SAP AI Core.
 
@@ -16,15 +16,15 @@
 
     ![](images/Image_SAP_AI_Core_provisioning_create_ee8c247.png)
 
-3.  Enter a name for your instance and choose *Next* \(all other details will be filled by default\).
+3.  Enter a name for your service instance and choose *Next* \(all other details will be filled by default\).
 
     ![](images/Create_Instance_720c94d.png)
 
-4.  Parameters can be uploaded using a JSON file, this is optional. Choose *Next* to proceed.
+4.  At present, the JSON file upload feature is not supported. Choose *Next* to proceed.
 
     ![](images/Configure_Parameters_a1fe56a.png)
 
-5.  Review and verify the instance, and then choose *Create*.
+5.  Check the data and choose *Create*.
 
     ![](images/Create_Instance_751beca.png)
 
