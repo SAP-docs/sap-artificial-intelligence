@@ -22,6 +22,8 @@ You deploy your AI learning model to run inferences against it.
 
 [Advanced Features](advanced-features-24f2fbb.md ".")
 
+[APIs and API Extensions](apis-and-api-extensions-0cb7275.md "Explore APIs and API Extensions, for use with SAP AI Core.")
+
 [Libraries and SDKs](libraries-and-sdks-499309d.md "Explore additional SDKs and Libraries, for use with SAP AI Core.")
 
 [Content Packages](content-packages-9e1c83d.md "Explore additional Content Packages for use with SAP AI Core.")

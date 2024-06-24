@@ -34,6 +34,11 @@ Git repositories are managed by creating personal access tokens registering them
 > ### Note:  
 > When you synchronize resources, make sure that there are no naming collisions. This is particularly important if you use multiple repositories or applications in one tenant. If you experience difficulties during synchronization, we recommend that you use only one repository or application per tenant.
 
+> ### Restriction:  
+> The maximum number of git repository secrets is limited at tenant level to 50. If you reach this limit, you will receive an error message. To free up space, delete some git repostitory secrets. Alternatively, raise a ticket to increase your quota.
+> 
+> For more information, see [Delete a Git Repository](delete-a-git-repository-b6bc41c.md).
+
 
 
 <a name="loiob6681769f191490f8832d3fbb6794e89__section_m1h_pvs_hvb"/>

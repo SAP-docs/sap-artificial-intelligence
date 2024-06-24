@@ -148,6 +148,8 @@ Metaflow is an open source tool to boost the productivity of data scientists. Th
 
 [Advanced Features](advanced-features-24f2fbb.md ".")
 
+[APIs and API Extensions](apis-and-api-extensions-0cb7275.md "Explore APIs and API Extensions, for use with SAP AI Core.")
+
 [Content Packages](content-packages-9e1c83d.md "Explore additional Content Packages for use with SAP AI Core.")
 
 [Metrics Tracking with AI API](metrics-tracking-with-ai-api-9a335bd.md "You can use AI API to track and fetch metrics for executions and models. In addition, metrics can be compared using the SAP AI Launchpad interface.")

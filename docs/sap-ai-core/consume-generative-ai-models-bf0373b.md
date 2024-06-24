@@ -89,6 +89,8 @@ For information about the supported API versions, see [Chat completions](https:/
 
 ### GPT-4-32k | GPT-4 | GPT-3.5-Turbo-16k | GPT-3.5-Turbo
 
+**Text Input**
+
 ```
 curl --location '$DEPLOYMENT_URL/chat/completions?api-version=2023-05-15' \
 --header 'AI-Resource-Group: <Resource Group Id>' \
@@ -106,6 +108,41 @@ curl --location '$DEPLOYMENT_URL/chat/completions?api-version=2023-05-15' \
 	"frequency_penalty": 0,
 	"presence_penalty": 0,
 	"stop": "null"
+}'
+```
+
+
+
+### GPT-4o | GPT-4-Turbo
+
+**Image input**
+
+```
+# Request
+# ---
+curl --location '$DEPLOYMENT_URL/chat/completions?api-version=2023-05-15' \
+--header 'AI-Resource-Group: <Resource Group Id>' \
+--header 'Content-Type: application/json' \
+--header "Authorization: Bearer $AUTH_TOKEN" \
+--data '{
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+           {
+              "type": "text",
+              "text": "Describe this picture:"
+           },
+           {
+              "type": "image_url",
+              "image_url": {
+                 "url": "https://path/images/image.png"
+              }
+          }
+        ]
+      }
+    ],
+    "max_tokens": 10
 }'
 ```
 

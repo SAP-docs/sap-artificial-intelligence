@@ -40,6 +40,5 @@
 
 ## Next Steps
 
--   You can run your prompt again, making changes to the prompt message, parameters or model selection to change the outcome. For more information, see [Prompt Experimentation](prompt-experimentation-384cc0c.md).
-
+You can run your prompt again, making changes to the prompt message, parameters or model selection to change the outcome. For more information, see [Prompt Experimentation](prompt-experimentation-384cc0c.md).
 

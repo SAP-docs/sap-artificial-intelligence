@@ -65,7 +65,7 @@ If your runtime supports deployment durations, you'll be able to set a timeframe
     5.  In the *Review* step, review the data that you've selected for the new deployment.
 
         > ### Remember:  
-        > Once a deployment is created, its duration cannot be changed.
+        > After you have created a deployment, you cannot change its duration.
 
         Choose *Create* to create the deployment.
 
@@ -77,7 +77,7 @@ If your runtime supports deployment durations, you'll be able to set a timeframe
 
 ## Results
 
-The new deployment is created and is now displayed in the *All Deployments* screen.
+The new deployment is created and is now displayed on the *All Deployments* screen.
 
 **Related Information**  
 

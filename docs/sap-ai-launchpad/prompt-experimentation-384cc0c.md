@@ -66,16 +66,15 @@
 
     ![](images/Prompt_editor_3376b75.png)
 
-4.  Choose *Run*
+4.  Choose *Run*.
 
-    1.  **Optional:** Streaming of response generation is supported for selected models. When the streaming switch is available, you can turn streaming on and off.
+    Some models support streaming for response generation. When the streaming switch is available, you can turn streaming on and off as needed.
 
-        ![](images/switch_770fce5.png)
+    ![](images/switch_770fce5.png)
 
-        You will see your response as it generates.
+    You will see your response as it generates.
 
-        ![](images/streaming_ae8b8a3.png)
-
+    ![](images/streaming_ae8b8a3.png)
 
 
 

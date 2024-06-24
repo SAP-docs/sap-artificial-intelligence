@@ -234,6 +234,50 @@ You make a model available for use by creating a deployment. You can do so one t
     <tr>
     <td valign="top">
     
+    `azure-openai`
+    
+    </td>
+    <td valign="top">
+    
+    `gpt-4o`
+    
+    </td>
+    <td valign="top">
+    
+    2024-05-13
+    
+    </td>
+    <td valign="top">
+    
+    [Azure Chat Completions](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions)
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `azure-openai`
+    
+    </td>
+    <td valign="top">
+    
+    `gpt-4`
+    
+    </td>
+    <td valign="top">
+    
+    turbo-2024-04-09
+    
+    </td>
+    <td valign="top">
+    
+    [Azure Chat Completions](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions)
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
     `aicore-opensource`
     
     </td>

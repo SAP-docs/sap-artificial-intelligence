@@ -27,6 +27,9 @@ For the model training code, SAP AI Core is language agnostic, however the relev
 
 In SAP AI Core, workflow templates are mapped as `executables`. Mapping requires certain attributes in the `metadata` section of your template. A workflow can produce multiple output artifacts, but only an output artifact with a `globalName` is considered to be the final output artifact of the workflow.
 
+> ### Restriction:  
+> The maximum number of workflow templates is limited at tenant level to 50. If you reach this limit, you will receive an error message. To free up space, delete some workflow templates. Alternatively, raise a ticket to increase your quota.
+
 To get started, copy the generic workflow template below and add your own values as required. You can use any text editor with a YAML plugin to create your templates. Workflows support the following parameters:
 
 

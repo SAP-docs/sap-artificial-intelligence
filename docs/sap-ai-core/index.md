@@ -123,6 +123,7 @@
             -   [Service Custom Resource](service-custom-resource-59f767c.md)
             -   [Onboarding](onboarding-50a6d9f.md)
             -   [Offboarding](offboarding-1a33323.md)
+    -   [APIs and API Extensions](apis-and-api-extensions-0cb7275.md)
     -   [Libraries and SDKs](libraries-and-sdks-499309d.md)
     -   [Content Packages](content-packages-9e1c83d.md)
 -   [Tutorials](tutorials-a5c80a6.md)

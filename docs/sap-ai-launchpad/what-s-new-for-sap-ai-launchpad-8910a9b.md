@@ -85,6 +85,72 @@ SAP AI Launchpad
 </td>
 <td valign="top">
 
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Additional selected models from OpenAI are supported via Azure.
+
+For more information, see [Models and Scenarios in the Generative AI Hub](models-and-scenarios-in-the-generative-ai-hub-fef463b.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+2024-06-24
+
+</td>
+<td valign="top">
+
+2024-06-24
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Generative AI hub
 
 </td>

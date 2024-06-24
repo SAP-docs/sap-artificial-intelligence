@@ -57,6 +57,11 @@ Your Docker registry secret lets you authorize SAP AI Core to pull your **privat
     > ```
 
 
+> ### Restriction:  
+> The maximum number of Docker registry secrets is limited at tenant level to 50. If you reach this limit, you will receive an error message. To free up space, delete some Docker registry secrets. Alternatively, raise a ticket to increase your quota.
+> 
+> For more information, see [Delete a Docker Registry Secret](delete-a-docker-registry-secret-5ff30f0.md).
+
 
 
 <a name="loioa7cf5e1496eb4ea8beca79671f49ff66__section_nqm_hqf_mvb"/>
@@ -105,4 +110,9 @@ Submit a POST request to the endpoint `{{apiurl}}/v2/admin/dockerRegistrySecrets
     >     - name: <Name of your Docker registry secret>
     > ```
 
+
+> ### Restriction:  
+> The maximum number of Docker registry secrets is limited at tenant level to 50. If you reach this limit, you will receive an error message. To free up space, delete some Docker registry secrets. Alternatively, raise a ticket to increase your quota.
+> 
+> For more information, see [Delete a Docker Registry Secret](delete-a-docker-registry-secret-5ff30f0.md).
 

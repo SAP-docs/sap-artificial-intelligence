@@ -47,6 +47,11 @@ Check the synchronization status of your application by sending a GET request to
 
 ![](images/AIC_32091f0.png)
 
+> ### Restriction:  
+> The maximum number of applications is limited at tenant level to 50. If you reach this limit, you will receive an error message. To free up space, delete some applications. Alternatively, raise a ticket to increase your quota.
+> 
+> For more information, see [Delete an Application](delete-an-application-1d2b43d.md).
+
 
 
 <a name="loio80dbecf3bc224ef5a300ba214de07973__section_e2w_mgy_lvb"/>
@@ -97,6 +102,11 @@ curl --location --request GET "$AI_API_URL/v2/admin/applications/{{appName}}/sta
 ```
 
 As `applicationName`, enter the name of your application that you specified when you created the application.
+
+> ### Restriction:  
+> The maximum number of applications is limited at tenant level to 50. If you reach this limit, you will receive an error message. To free up space, delete some applications. Alternatively, raise a ticket to increase your quota.
+> 
+> For more information, see [Delete an Application](delete-an-application-1d2b43d.md).
 
 
 

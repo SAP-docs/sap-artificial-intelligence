@@ -36,7 +36,7 @@ After you have configured your service key, it can be used by local clients, app
     > ### Note:  
     > -   The *Token Name* field is your choice of descriptive identifier.
     > 
-    > -   The *Access Token URL*curl is labeled *url* in your service key. Add `/oauth/token` to the end of the URL.
+    > -   The *Access Token URL* is labeled *url* in your service key. Add `/oauth/token` to the end of the URL.
     > 
     > -   The *Grant Type* should be `Client Credentials`.
     > 

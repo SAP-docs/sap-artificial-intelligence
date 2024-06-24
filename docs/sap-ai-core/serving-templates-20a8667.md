@@ -10,6 +10,9 @@ In SAP AI Core, serving templates are mapped as `executables`. Mapping requires 
 
 Models are deployed using a simple Kubernetes Custom Resource Definition \(CRD\), which is provided by KServe. To deploy a model, you must provide a YAML specification that follows the KServe specification and that defines the required input parameters and artifacts.
 
+> ### Restriction:  
+> The maximum number of serving templates is limited at tenant level to 50. If you reach this limit, you will receive an error message. To free up space, delete some serving templates. Alternatively, raise a ticket to increase your quota.
+
 To get started, copy the generic serving template below and add your own values as required. You can use any text editor with a YAML plugin to create the templates. Your YAML specification must follow the KServe specs and define the required input parameters and artifacts.
 
 

@@ -29,13 +29,13 @@ There is a storage limit applied at tenant level. If you reach this limit, you w
 
 ## Procedure
 
-1.  **Optional:** you can
+1.  **Optional:** Update your prompt as follows:
 
-    -   Give your prompt a descriptive *name* in place of the automatically assigned name.
-    -   Assign your prompt to a *Collection*.
-    -   Assign meaningful *Tags* and *Notes* as *Metadata*.
+    -   Give your prompt a descriptive name in place of the automatically assigned name.
+    -   Assign your prompt to a collection.
+    -   Assign meaningful tags and notes as metadata.
 
-2.  Choose *Save.*
+2.  Choose *Save*.
 
     > ### Caution:  
     > Do not store sensitive data in prompts when using the generative AI hub. Sensitive data is any data that is not intended for public disclosure, including but not limited to confidential or personal information.

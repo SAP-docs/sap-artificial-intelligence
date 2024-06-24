@@ -2,7 +2,7 @@
 
 # What Is SAP AI Launchpad?
 
-SAP AI Launchpad is a multitenant software as a service \(SaaS\) application in SAP Business Technology Platform. Customers and partners can use SAP AI Launchpad to manage AI use cases \(scenarios\) across multiple instances of AI runtimes \(such as SAP AI Core\). SAP AI Launchpad also provides generative AI capabilities via the Generative AI Hub.
+SAP AI Launchpad is a multitenant software as a service \(SaaS\) application on SAP Business Technology Platform \(SAP BTP\). Customers and partners can use SAP AI Launchpad to manage AI use cases \(scenarios\) across multiple instances of AI runtimes \(such as SAP AI Core\). SAP AI Launchpad also provides generative AI capabilities via the Generative AI Hub.
 
 > ### Note:  
 > Throughout this document, SAP AI Core is used as an example of an AI runtime. AI runtimes are not included in your SAP AI Launchpad subscription.
@@ -48,7 +48,7 @@ Integrate with AI runtime instances
 </b></dt>
 <dd>
 
-Add connections to one or more AI runtime instances and easily switch between them to carry out further actions.
+Add connections to one or more AI runtime instances and switch between them to carry out further actions.
 
 
 
