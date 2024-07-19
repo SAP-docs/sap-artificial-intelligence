@@ -26,7 +26,7 @@ The format for these timestamps is defined by RFC3339 section 5.6, without fract
 
 [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
 
-[Workflow Templates](workflow-templates-83523ab.md "Here, you can find a minimal workflow example template, which you can adjust to meet the requirements of your workflow.")
+[Workflow Templates](workflow-templates-83523ab.md "Here, you'll find a basic workflow example template. Feel free to adjust it to suit your workflow needs.")
 
 [List Scenarios](list-scenarios-deedde5.md "")
 

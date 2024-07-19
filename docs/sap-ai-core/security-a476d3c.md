@@ -30,6 +30,8 @@ We recommend that you enable the relevant and applicable Kubernetes security fea
 To avoid breaking the business functionality, SAP AI Core does not sanitize any user input. Consumers or applications that consume the AI API are expected to perform necessary output encoding based on the usage context to prevent XSS attacks.
 -   **[Multitenancy](multitenancy-ee90fe1.md "")**  
 
+-   **[Auditing and Logging Information](auditing-and-logging-information-e19844a.md "Here you can find a list of the security events that are logged by SAP AI Core.")**  
+Here you can find a list of the security events that are logged by SAP AI Core.
 -   **[Data Protection and Privacy](data-protection-and-privacy-d25e4c9.md "")**  
 
 

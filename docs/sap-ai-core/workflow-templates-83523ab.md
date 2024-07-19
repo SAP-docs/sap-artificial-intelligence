@@ -2,13 +2,13 @@
 
 # Workflow Templates
 
-Here, you can find a minimal workflow example template, which you can adjust to meet the requirements of your workflow.
+Here, you'll find a basic workflow example template. Feel free to adjust it to suit your workflow needs.
 
-Workflow templates allow you to manage your training pipelines at the main tenant level. Templates are stored in your git repository, where you can version them as required. Workflows in SAP AI Core are executed using the Argo Workflows open source project. Argo Workflows is an open-source, container-native workflow engine for orchestrating parallel jobs on Kubernetes. Argo Workflows is implemented as a Kubernetes CRD \(Custom Resource Definition\).
+Workflow templates help manage your training pipelines at the main tenant level. You can store these templates in your git repository and version them as needed. SAP AI Core executes workflows using the Argo Workflows open source project. Argo Workflows is an open-source, container-native workflow engine that orchestrates parallel jobs on Kubernetes. It's implemented as a Kubernetes CRD \(Custom Resource Definition\).
 
-Workflow templates are mapped as `executables`. Mapping requires certain attributes in the `metadata` section of your template. The AI API uses the `annotations` and `labels` in the template to locate scenarios and executables.
+Workflow templates act as `executables`. To map them, you need certain attributes in your template's `metadata` section. The AI API uses the `annotations` and `labels` in the template to find scenarios and executables.
 
-Workflow templates are based on the Argo Workflows workflow engine and are defined as `WorkflowTemplates`. These are definitions of workflows in your cluster. For information about `WorkflowTemplates` and sample workflows, see the Argo documentation.
+Workflow templates are built on the Argo Workflows engine and are defined as `WorkflowTemplates`. These are your cluster's workflow definitions. For more information about `WorkflowTemplates` and sample workflows, see the Argo documentation.
 
 In SAP AI Core, Argo Workflows are used to:
 
@@ -21,11 +21,9 @@ In SAP AI Core, Argo Workflows are used to:
 -   Execute batch inference pipelines
 
 
-The workflows are executed in batch mode.
+Workflows are executed in batch mode. A workflow can produce multiple output artifacts, but only an output artifact with a `globalName` is considered to be the final output artifact of the workflow.
 
-For the model training code, SAP AI Core is language agnostic, however the relevant programming language must be specified in the workflow parameters. Any imported packages must be specified in a separate file called `requirements.txt`, stored in the same directory.
-
-In SAP AI Core, workflow templates are mapped as `executables`. Mapping requires certain attributes in the `metadata` section of your template. A workflow can produce multiple output artifacts, but only an output artifact with a `globalName` is considered to be the final output artifact of the workflow.
+For the model training code, SAP AI Core is language-agnostic. However, you need to specify the relevant programming language in the workflow parameters. If you're importing any packages, list them in a separate file named `requirements.txt` and store it in the same directory.
 
 > ### Restriction:  
 > The maximum number of workflow templates is limited at tenant level to 50. If you reach this limit, you will receive an error message. To free up space, delete some workflow templates. Alternatively, raise a ticket to increase your quota.
@@ -288,16 +286,10 @@ spec:
 > ### Note:  
 > For every container in the template, the `command: ["/bin/sh", "-c"]` field is mandatory. The contents of the argument can be amended, but must not be empty. The `CMD` and `ENDPOINT` specified in the Dockerfile of a container are ignored.
 
-A `user ID` is required to run the docker image. This can be specified by the user, or can be unspecified. Choosing and specifying a user is optional, and the only constraint is that the `user ID` must not be *<0\>*, the *<root\>* user, for security reasons.
-
-If no user is specified, user *<65534\>*, *<nobody\>* will be assigned automatically.
-
-If a user is specified, it must be included in the docker image **and** the workflow template.
-
-Whether a specified user or *<nobody\>*, the user needs permissions to access the files while the application is running, which can be checked and changed using the `chown` and `chmod` commands.
+User ID and group ID 65534 is required to run the Docker image. This user has permission to access the files while the application is running. You can check and change the permissions by using the `chown` and `chmod` commands.
 
 > ### Tip:  
-> You can check that the container is working as expected before submitting it to SAP AI Core by running `docker run -it --user 65534:65543 <docker-image>` locally.
+> To make sure that the container is working as expected before submitting it to SAP AI Core, run <code>docker run -it --user 65534:65543 <i class="varname">&lt;docker-image&gt;</i></code> locally.
 
 > ### Note:  
 > The `archive: none: {}` option in the `outputs artifacts` sections disables automatic archiving for the artifact. If archiving is enabled, the output artifacts are archived to a `tar-gzip` file before they are uploaded to the object store. If archiving is disabled through `archive: none: {}`, the artifact will be uploaded to the object store in its current format. If the output artifact points to a directory, the directory will be uploaded “as is” to the object store. However, object stores in SAP HANA Cloud, data lake do not support this. In this case, remove `archive: none: {}` and archive the directory to a single `tar-gzip` file before it is uploaded to the object store.

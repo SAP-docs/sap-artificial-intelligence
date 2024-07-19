@@ -94,3 +94,253 @@ Information on how to configure external identity providers is available in the 
 
 The configuration is handled within the security configuration dashboard of the subaccount that contains the relevant instance.
 
+<a name="loiob41f83775fa44cea906961e8124986c5"/>
+
+<!-- loiob41f83775fa44cea906961e8124986c5 -->
+
+## Auditing and Logging Information
+
+Here you can find a list of the security events that are logged by SAP AI Launchpad.
+
+**Security Events Written in Audit Logs**
+
+
+<table>
+<tr>
+<th valign="top">
+
+What Events Are Logged
+
+</th>
+<th valign="top">
+
+How to Identify Related Log Events
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Login Successful
+
+</td>
+<td valign="top">
+
+Message containing a time stamp, tenant, and user IDs; data containing event details.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Scope check failed
+
+</td>
+<td valign="top">
+
+Message containing a time stamp, tenant, and user IDs; data containing “User not authorized” and event details.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Ops Backend
+
+</td>
+<td valign="top">
+
+Message containing a time stamp, tenant, and user IDs; data containing “Accessing secrets”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Scope check failed
+
+</td>
+<td valign="top">
+
+Message containing a time stamp, tenant, and user IDs; data containing “Authorization failed for *<scope\>*”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Scope check failed
+
+</td>
+<td valign="top">
+
+Message containing a time stamp, tenant, and user IDs; data containing “Authorization failed for *<scope\>*”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Successful onboarding
+
+</td>
+<td valign="top">
+
+Message containing a time stamp, tenant, and user IDs; data containing “Successful onboarding of tenant: *<tenant subdomain\>*”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Failed Onboarding
+
+</td>
+<td valign="top">
+
+Message containing a time stamp, tenant, and user IDs; data containing “Failed onboarding of tenant: *<tenant subdomain\>*”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Successful Offboarding
+
+</td>
+<td valign="top">
+
+Message containing a time stamp, tenant, and user IDs; data containing “Successful offboarding of tenant: *<tenant subdomain\>*”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Failed Offboarding
+
+</td>
+<td valign="top">
+
+Message containing a time stamp, tenant, and user IDs; data containing “Failed offboarding of tenant: *<tenant subdomain\>*”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Scope check failed
+
+</td>
+<td valign="top">
+
+Message containing a time stamp, tenant, and user IDs; data containing "Authorization failed for <scope\>".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Read Connections Successful
+
+</td>
+<td valign="top">
+
+Message containing a time stamp, tenant, and user IDs; data containing "Read for all connections successful".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Read Connections Failed
+
+</td>
+<td valign="top">
+
+Message containing a time stamp, tenant, and user IDs; data containing “Failed to read for all connections”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Create Connection Successful
+
+</td>
+<td valign="top">
+
+Message containing a time stamp, tenant, and user IDs; data containing "Created connection <name\>".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Create Connection Successful
+
+</td>
+<td valign="top">
+
+Message containing a time stamp, tenant, and user IDs; data containing "Failed to create connection <name\>".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Delete Connection Successful
+
+</td>
+<td valign="top">
+
+Message containing a time stamp, tenant, and user IDs; data containing “Deleted connection *<name\>*”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Delete Connection Failed
+
+</td>
+<td valign="top">
+
+Message containing a time stamp, tenant, and user IDs; data containing “Failed to delete connection *<name\>*”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Modify Connection
+
+</td>
+<td valign="top">
+
+Message containing a time stamp, tenant, and user IDs; attributes containing the updated connection properties.
+
+</td>
+</tr>
+</table>
+
+
+
+The following information is described in the table columns:
+
+-   *Event grouping* - Events that are logged with a similar format or are related to the same entities.
+
+-   *What events are logged* - Description of the security or data protection and privacy related event that is logged.
+
+-   *How to identify related log events* - Search criteria or key words, that are specific for a log event that is created along with the logged event.
+
+-   *Additional information* - Any related information that can be helpful.
+
+
+**Related Information**  
+
+
+[Audit Logging in the Cloud Foundry Environment](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/f92c86ab11f6474ea5579d839051c334.html)
+
+[Audit Logging in the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/02c39712c1064c96b37c1ea5bc9420dc.html)
+

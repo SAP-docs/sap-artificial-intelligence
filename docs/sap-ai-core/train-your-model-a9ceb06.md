@@ -37,9 +37,9 @@ It’s possible to train the same model multiple times, with varying parameters 
 		SAP AI Core provides several preconfigured infrastructure bundles called
 			“resource plans” for this purpose.")**  
 You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.
--   **[Workflow Templates](workflow-templates-83523ab.md " Here, you can find a minimal workflow example template, which you can adjust to meet
-    the requirements of your workflow. ")**  
- Here, you can find a minimal workflow example template, which you can adjust to meet the requirements of your workflow.
+-   **[Workflow Templates](workflow-templates-83523ab.md " Here, you'll find a basic workflow example template. Feel free to adjust it to suit
+    your workflow needs.")**  
+ Here, you'll find a basic workflow example template. Feel free to adjust it to suit your workflow needs.
 -   **[List Scenarios](list-scenarios-deedde5.md "")**  
 
 -   **[List Executables](list-executables-80895a4.md "")**  

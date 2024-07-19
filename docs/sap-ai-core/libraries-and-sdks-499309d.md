@@ -77,7 +77,7 @@ SAP generative AI hub SDK
 </td>
 <td valign="top">
 
-With this SDK you can leverage the power of generative Models like ChatGPT available in SAP AI Core's generative AI hub.
+With this SDK you can leverage the power of generative AI models available in the generative AI hub.
 
 </td>
 <td valign="top">

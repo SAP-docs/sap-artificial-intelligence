@@ -251,7 +251,7 @@ Infer-L
 **Related Information**  
 
 
-[Workflow Templates](workflow-templates-83523ab.md "Here, you can find a minimal workflow example template, which you can adjust to meet the requirements of your workflow.")
+[Workflow Templates](workflow-templates-83523ab.md "Here, you'll find a basic workflow example template. Feel free to adjust it to suit your workflow needs.")
 
 [List Scenarios](list-scenarios-deedde5.md "")
 

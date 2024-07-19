@@ -138,6 +138,7 @@
     -   [Configuration Data and Secrets](configuration-data-and-secrets-869b2b1.md)
     -   [Output Encoding](output-encoding-2b4c76d.md)
     -   [Multitenancy](multitenancy-ee90fe1.md)
+    -   [Auditing and Logging Information](auditing-and-logging-information-e19844a.md)
     -   [Data Protection and Privacy](data-protection-and-privacy-d25e4c9.md)
         -   [Data Storage and Processing](data-storage-and-processing-74fc987.md)
         -   [Change Logging and Read-Access Logging](change-logging-and-read-access-logging-7cf1455.md)

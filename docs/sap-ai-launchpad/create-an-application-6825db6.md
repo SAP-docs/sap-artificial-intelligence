@@ -68,7 +68,7 @@ The new application is created.
 
 
 
-<a name="task_jdm_nrg_4xb__d68e797"/>
+<a name="task_jdm_nrg_4xb__d68e827"/>
 
 ## Prerequisites
 
@@ -76,7 +76,7 @@ You have successfully created an application.
 
 
 
-<a name="task_jdm_nrg_4xb__d68e803"/>
+<a name="task_jdm_nrg_4xb__d68e833"/>
 
 ## Context
 
@@ -84,7 +84,7 @@ For the SAP AI Core runtime only, automatic syncs take place at ~3-minute interv
 
 
 
-<a name="task_jdm_nrg_4xb__d68e811"/>
+<a name="task_jdm_nrg_4xb__d68e841"/>
 
 ## Procedure
 

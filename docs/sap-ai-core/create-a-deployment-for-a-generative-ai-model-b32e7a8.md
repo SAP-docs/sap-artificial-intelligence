@@ -12,7 +12,7 @@ You make a generative AI model available for use by creating a deployment. You c
 
 -   You have an SAP AI Core service instance and service key. For more information, see [SAP AI Core Initial Setup Documentation](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/38c4599432d74c1d94e70f7c955a717d.html?locale=en-US&state=PRODUCTION&version=CLOUD).
 -   You’re using the `extended` service plan. For more information, see [Service Plans](service-plans-c7244c6.md) and [Update a Service Plan](update-a-service-plan-924f892.md).
--   You have completed the client authorization for your preferred user interface. For more information, see [Use a Service Key in SAP AI Core](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/3a97465bf6164400a4b5c1641007e3d6.html?locale=en-US&state=DRAFT&version=CLOUD).
+-   You have completed the client authorization for your preferred user interface. For more information, see [Use a Service Key](use-a-service-key-3a97465.md).
 
 
 
@@ -592,7 +592,7 @@ You make a model available for use by creating a deployment. You can do so one t
     Set the *Authorization* header with `Bearer $TOKEN` and set your resource group.
 
     > ### Note:  
-    > You must use the same resource group for all of your generative AI activities. To use a different resource group, these steps must be repeated for each resource group.
+    > You must use the same resource group for all of your generative AI activities. To use a different resource group, these steps must be repeated for each resource group. For more information, see [Manage Resource Groups](manage-resource-groups-8aae6cb.md).
 
     ![](images/Scenarios_0cf13f1.png)
 

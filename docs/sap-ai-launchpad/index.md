@@ -187,6 +187,7 @@ Explore the concepts around SAP AI Launchpad and learn how to provision the serv
     -   [Security and Customer Data Protection](security-e4cf710.md#loioab5939567cf04016854414774fb2291e)
     -   [Encryption in Transit](security-e4cf710.md#loio42a8f0fd505d4fdca3ed1dc1de14ca07)
     -   [User Authentication and Authorization](security-e4cf710.md#loiodef9ee82675a4cb3a0f718cfc8d940dc)
+    -   [Auditing and Logging Information](security-e4cf710.md#loiob41f83775fa44cea906961e8124986c5)
 -   [Accessibility Features in SAP AI Launchpad](accessibility-features-in-sap-ai-launchpad-0622282.md)
 -   [Monitoring and Troubleshooting](monitoring-and-troubleshooting-7a0e5a5.md)
 
