@@ -57,7 +57,7 @@
 
 
         > ### Tip:  
-        > Different models support different parameters and values, full information is available from the model provider. For more information, see [Models and Scenarios in the Generative AI Hub](models-and-scenarios-in-the-generative-ai-hub-fef463b.md).
+        > Different models support different parameters and values. For more information, see the documentation from the model provider. Also see [Models and Scenarios in the Generative AI Hub](models-and-scenarios-in-the-generative-ai-hub-fef463b.md).
 
     6.  **Optional:** Add meaningful tags and notes to the metadata.
 

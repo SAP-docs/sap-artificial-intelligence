@@ -589,7 +589,7 @@ You make a model available for use by creating a deployment. You can do so one t
     
 2.  Check that you have access to the scenario containing generative AI by sending a GET request to `{{apiurl}}/v2/lm/scenarios`.
 
-    Set the *Authorization* header with `Bearer $TOKEN` and set your resource group.
+    Set the *Authorization* header with `Bearer $TOKEN` and set your resource group. For more information, see [Create a Resource Group](create-a-resource-group-01753f4.md).
 
     > ### Note:  
     > You must use the same resource group for all of your generative AI activities. To use a different resource group, these steps must be repeated for each resource group. For more information, see [Manage Resource Groups](manage-resource-groups-8aae6cb.md).

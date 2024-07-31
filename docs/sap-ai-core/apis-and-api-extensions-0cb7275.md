@@ -2,7 +2,7 @@
 
 # APIs and API Extensions
 
-Explore APIs and API Extensions, for use with SAP AI Core.
+Explore APIs and API extensions that you can use with SAP AI Core.
 
 **APIs**
 
@@ -55,7 +55,7 @@ Explore the entities, methods, and endpoints provided by the runtime-agnostic AI
 </td>
 <td valign="top">
 
-[AI API swagger specification.](https://help.sap.com/doc/2cefe221fddf410aab23dce890b5c603/CLOUD/en-US/index.html) 
+[AI API swagger specification](https://help.sap.com/doc/2cefe221fddf410aab23dce890b5c603/CLOUD/en-US/index.html) 
 
 </td>
 </tr>

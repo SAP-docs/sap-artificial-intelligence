@@ -11,7 +11,7 @@
 You have completed the Initial Setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
 
 > ### Note:  
-> Resource group Ids must be of length minimum: 3, maximum: 253. The first and last characters must be either a lower case letter, an upper case letter or a number. Character entries from the second to penultimate, may include a lower case letter, an upper case letter, a number, a full stop or a hyphen. No other special characters are permitted.
+> Resource group IDs must be of length minimum: 3, maximum: 253. The first and last characters must be either a lower case letter, an upper case letter or a number. Character entries from the second to penultimate, may include a lower case letter, an upper case letter, a number, a full stop or a hyphen. No other special characters are permitted.
 
 
 

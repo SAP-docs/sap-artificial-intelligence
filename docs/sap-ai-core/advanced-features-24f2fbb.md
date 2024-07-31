@@ -17,7 +17,7 @@ SAP AI Core helps users provide their AI content available as a service on the *
 
 [Metrics](metrics-36f8bec.md "The AI API provides the ability to track metrics, and to customize or filter which metrics are reported.")
 
-[APIs and API Extensions](apis-and-api-extensions-0cb7275.md "Explore APIs and API Extensions, for use with SAP AI Core.")
+[APIs and API Extensions](apis-and-api-extensions-0cb7275.md "Explore APIs and API extensions that you can use with SAP AI Core.")
 
 [Libraries and SDKs](libraries-and-sdks-499309d.md "Explore additional SDKs and Libraries, for use with SAP AI Core.")
 
