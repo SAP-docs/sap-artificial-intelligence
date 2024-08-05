@@ -90,6 +90,72 @@ Generative AI hub
 </td>
 <td valign="top">
 
+Orchestration combines content generation with a set of functions that are often required in business AI scenarios.
+
+Functions include templating, which lets you compose a prompt with placeholders that are filled during inference, and content filtering, which lets you restrict the type of content that is passed to and received from a generative AI model.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+New
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2024-08-05
+
+</td>
+<td valign="top">
+
+2024-08-05
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
 Additional selected models from OpenAI are supported via Azure.
 
 For more information, see [Models and Scenarios in the Generative AI Hub](models-and-scenarios-in-the-generative-ai-hub-fef463b.md).
@@ -122,7 +188,7 @@ Not applicable
 </td>
 <td valign="top">
 
- 
+SAP Business Technology Platform
 
 </td>
 <td valign="top">

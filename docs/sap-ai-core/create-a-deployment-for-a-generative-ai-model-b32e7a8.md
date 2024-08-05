@@ -12,7 +12,7 @@ You make a generative AI model available for use by creating a deployment. You c
 
 -   You have an SAP AI Core service instance and service key. For more information, see [SAP AI Core Initial Setup Documentation](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/38c4599432d74c1d94e70f7c955a717d.html?locale=en-US&state=PRODUCTION&version=CLOUD).
 -   You’re using the `extended` service plan. For more information, see [Service Plans](service-plans-c7244c6.md) and [Update a Service Plan](update-a-service-plan-924f892.md).
--   You have completed the client authorization for your preferred user interface. For more information, see [Use a Service Key](use-a-service-key-3a97465.md).
+-   You have at least one orchestration compatible deployment for a generative AI model running. For more information, see [Models and Scenarios in the Generative AI Hub](https://help.sap.com/viewer/92d77f26188e4582897b9106b9cb72e0/CLOUD/en-US/fef463b24bff4f44a33e98bb1e4f3148.html "") :arrow_upper_right: and [Create a Deployment for a Generative AI Model](https://help.sap.com/viewer/92d77f26188e4582897b9106b9cb72e0/CLOUD/en-US/96b65bbe3d8a4681830f575a146b5071.html "You make a model available for use by creating a deployment. You can do so one time for each model and model version, and for each resource group that you want to use with generative AI hub.") :arrow_upper_right:.
 
 
 
@@ -592,7 +592,7 @@ You make a model available for use by creating a deployment. You can do so one t
     Set the *Authorization* header with `Bearer $TOKEN` and set your resource group. For more information, see [Create a Resource Group](create-a-resource-group-01753f4.md).
 
     > ### Note:  
-    > You must use the same resource group for all of your generative AI activities. To use a different resource group, these steps must be repeated for each resource group. For more information, see [Manage Resource Groups](manage-resource-groups-8aae6cb.md).
+    > You must use the same resource group for all of your generative AI activities. To use a different resource group, these steps must be repeated for each resource group.For more information, see [Manage Resource Groups](manage-resource-groups-8aae6cb.md).
 
     ![](images/Scenarios_0cf13f1.png)
 

@@ -1082,6 +1082,8 @@ View generic secrets in the SAP AI Core runtime through the *SAP AI Core Adminis
 
 Run prompts in the <code>generative AI hub prompt editor</code>
 
+Build and test orchestration workflows in the <code>generative AI hub orchestration service</code>
+
 </td>
 </tr>
 <tr>
@@ -1093,6 +1095,8 @@ Run prompts in the <code>generative AI hub prompt editor</code>
 <td valign="top">
 
 Create, update and run prompts in the <code>generative AI hub prompt editor</code>, read and delete your saved prompts in the <code>generative AI hub</code> prompt manager
+
+Build and test orchestration workflows in the <code>generative AI hub orchestration service</code>
 
 </td>
 </tr>
@@ -1116,7 +1120,7 @@ Delete user data in the **generative AI hub**
 </td>
 <td valign="top">
 
-Run prompts in the <code>generative AI hub prompt editor</code>
+Run prompts in the <code>generative AI hub prompt editor</code>. Build and test orchestration workflows in the <code>generative AI hub orchestration service</code>
 
 </td>
 </tr>
@@ -1153,6 +1157,18 @@ Delete user data in the generative AI hub
 <td valign="top">
 
 Access SAP AI Launchpad, default role for users, without generative AI hub 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`orchestration_executor` 
+
+</td>
+<td valign="top">
+
+Build and test orchestration workflows in the <code>generative AI hub orchestration service</code> 
 
 </td>
 </tr>

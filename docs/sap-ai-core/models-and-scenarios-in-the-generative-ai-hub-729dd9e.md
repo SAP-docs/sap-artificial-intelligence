@@ -103,6 +103,8 @@ AWS Bedrock provides access to Foundation models from Anthropic, Amazon and othe
 </tr>
 </table>
 
+Access to orchestration of generative AI models is provided under the global AI scenario `orchestration`, which is managed by SAP AI Core.
+
 
 
 <a name="loio729dd9e0928746e4a76c6e0fbe72ffa7__section_dy5_x3y_bzb"/>

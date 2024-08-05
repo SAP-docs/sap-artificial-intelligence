@@ -2,7 +2,7 @@
 
 # Models and Scenarios in the Generative AI Hub
 
-The generative AI hub is available in SAP AI Core only with the `Extended` service plan. For information about how to add a service plan or update an existing service plan, see [Add a Service Plan in SAP AI Core](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/86002d926eba4fb9ba0a80e342af7295.html "") :arrow_upper_right: and [Update a Service Plan in SAP AI Core](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/924f892e67b7443fbb4476b3e81959b2.html "Learn how to update to the SAP AI Core standard or extended plan, after exploring the product in Free Tier.") :arrow_upper_right:.
+The generative AI hub is available in SAP AI Core only with the `Extended` service plan. For information about how to add a service plan or update an existing service plan, see [Add a Service Plan in SAP AI Core](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/86002d926eba4fb9ba0a80e342af7295.html ">") :arrow_upper_right: and [Update a Service Plan in SAP AI Core](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/924f892e67b7443fbb4476b3e81959b2.html "Learn how to update to the SAP AI Core standard or extended plan, after exploring the product in Free Tier.") :arrow_upper_right:.
 
 To use the generative AI hub, you must have one of the following roles or a role collection that contains one of the roles:
 
@@ -117,6 +117,8 @@ AWS Bedrock provides access to Foundation models from Anthropic, Amazon and othe
 </td>
 </tr>
 </table>
+
+Access to orchestration of generative AI models is provided under the global AI scenario `orchestration`, which is managed by SAP AI Core.
 
 
 

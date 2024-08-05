@@ -40,7 +40,7 @@
 
         -   **Model:**If you do not choose a model, the default model will be used.
 
-        -   **Parameters:**Different models support different parameters and values, full information is available from the model provider. For more information, see [Models and Scenarios in the Generative AI Hub](models-and-scenarios-in-the-generative-ai-hub-fef463b.md)
+        -   **Parameters:**Different models support different parameters and values. For more information, see the documentation from the model provider. Also see [Models and Scenarios in the Generative AI Hub](models-and-scenarios-in-the-generative-ai-hub-fef463b.md).
         -   **Streaming Response:**Chat responses are output in real time, as they are generated.
 
 

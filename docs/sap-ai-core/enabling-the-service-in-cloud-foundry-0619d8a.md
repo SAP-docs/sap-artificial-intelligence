@@ -21,8 +21,8 @@ The steps below guide you through the provisioning procedure. Alternatively, a b
 
 -   **[Create a Space](create-a-space-4c1190c.md "")**  
 
--   **[Add a Service Plan](add-a-service-plan-86002d9.md "")**  
-
+-   **[Add a Service Plan](add-a-service-plan-86002d9.md ">")**  
+\>
 -   **[Create a Service Instance](create-a-service-instance-34761f9.md "")**  
 
 -   **[Create a Service Key](create-a-service-key-7323ff4.md "")**  
