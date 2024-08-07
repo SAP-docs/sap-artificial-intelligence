@@ -8,7 +8,7 @@ Your cloud storage credentials are managed using secrets. Secrets are a means of
 
 
 
-<a name="loiob083d73f672c428faac3048b74733546__section_t3r_qmc_gyb"/>
+<a name="loiob083d73f672c428faac3048b74733546__section_t3r_qmc_gyb"></a>
 
 ## Prerequisites
 
@@ -16,15 +16,15 @@ You have completed the Initial Setup. For more information, see [Initial Setup](
 
 
 
-<a name="loiob083d73f672c428faac3048b74733546__section_spp_3c3_dxb"/>
+<a name="loiob083d73f672c428faac3048b74733546__section_spp_3c3_dxb"></a>
 
 ## Context
 
-SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS \(Alicloud Object Storage Service\), SAP HANA Cloud, Data Lake, and Azure Blob Storage.
+SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, GCS, OSS \(Alicloud Object Storage Service\), SAP HANA Cloud, Data Lake, and Azure Blob Storage.
 
 
 
-<a name="loiob083d73f672c428faac3048b74733546__section_a2q_fps_vnb"/>
+<a name="loiob083d73f672c428faac3048b74733546__section_a2q_fps_vnb"></a>
 
 ## Using Postman
 
@@ -51,6 +51,12 @@ SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS 
         }
         
         
+        ```
+
+    -   For GCS:
+
+        ```json
+        # TODO       
         ```
 
     -   For OSS \(Alicloud Object Storage Service\):
@@ -98,10 +104,8 @@ SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS 
 
     -   For Azure Blob Storage:
 
-        > ### Restriction:  
-        > For **executions** only, access keys are supported. SAS tokens are **not** supported.
-        > 
-        > For **deployments**, access keys and SAS tokens are supported.
+        > ### Note:  
+        > `CLIENT_SECRET` can either be an access key or a SAS token.
 
         ```json
         {
@@ -130,7 +134,7 @@ SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS 
 
 
 
-<a name="loiob083d73f672c428faac3048b74733546__section_phb_4hr_yqb"/>
+<a name="loiob083d73f672c428faac3048b74733546__section_phb_4hr_yqb"></a>
 
 ## Using curl
 
