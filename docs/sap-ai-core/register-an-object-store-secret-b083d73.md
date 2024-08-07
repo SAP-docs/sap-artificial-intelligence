@@ -8,7 +8,7 @@ Your cloud storage credentials are managed using secrets. Secrets are a means of
 
 
 
-<a name="loiob083d73f672c428faac3048b74733546__section_t3r_qmc_gyb"></a>
+<a name="loiob083d73f672c428faac3048b74733546__section_t3r_qmc_gyb"/>
 
 ## Prerequisites
 
@@ -16,7 +16,7 @@ You have completed the Initial Setup. For more information, see [Initial Setup](
 
 
 
-<a name="loiob083d73f672c428faac3048b74733546__section_spp_3c3_dxb"></a>
+<a name="loiob083d73f672c428faac3048b74733546__section_spp_3c3_dxb"/>
 
 ## Context
 
@@ -24,7 +24,7 @@ SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, GCS,
 
 
 
-<a name="loiob083d73f672c428faac3048b74733546__section_a2q_fps_vnb"></a>
+<a name="loiob083d73f672c428faac3048b74733546__section_a2q_fps_vnb"/>
 
 ## Using Postman
 
@@ -134,7 +134,7 @@ SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, GCS,
 
 
 
-<a name="loiob083d73f672c428faac3048b74733546__section_phb_4hr_yqb"></a>
+<a name="loiob083d73f672c428faac3048b74733546__section_phb_4hr_yqb"/>
 
 ## Using curl
 
