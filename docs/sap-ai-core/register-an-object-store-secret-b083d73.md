@@ -20,7 +20,7 @@ You have completed the Initial Setup. For more information, see [Initial Setup](
 
 ## Context
 
-SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS \(Alicloud Object Storage Service\), SAP HANA Cloud, Data Lake, and Azure Blob Storage.
+SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, GCS, OSS \(Alicloud Object Storage Service\), SAP HANA Cloud, Data Lake, and Azure Blob Storage.
 
 
 
@@ -51,6 +51,22 @@ SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS 
         }
         
         
+        ```
+
+    -   For GCS:
+
+        ```json
+        {
+            "name": "<Your identifier>",
+            "type": "gcs",
+            "pathPrefix": "<A path prefix that follows the bucket name>",
+            "data": {
+                "BUCKET": "<GCS bucket name>",
+                "PRIVATE_KEY": "<GCS private key>", // optional
+                "PROJECT_ID": "<GCS project Id>",   // optional
+                "REGION": "<GCS region>",           // optional
+            }
+        }
         ```
 
     -   For OSS \(Alicloud Object Storage Service\):
@@ -98,10 +114,8 @@ SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS 
 
     -   For Azure Blob Storage:
 
-        > ### Restriction:  
-        > For **executions** only, access keys are supported. SAS tokens are **not** supported.
-        > 
-        > For **deployments**, access keys and SAS tokens are supported.
+        > ### Note:  
+        > `CLIENT_SECRET` can either be an access key or a SAS token.
 
         ```json
         {
