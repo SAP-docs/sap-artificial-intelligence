@@ -56,7 +56,17 @@ SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, GCS,
     -   For GCS:
 
         ```json
-        # TODO       
+        {
+            "name": "<Your identifier>",
+            "type": "gcs",
+            "pathPrefix": "<A path prefix that follows the bucket name>",
+            "data": {
+                "BUCKET": "<GCS bucket name>",
+                "PRIVATE_KEY": "<GCS private key>", // optional
+                "PROJECT_ID": "<GCS project Id>",   // optional
+                "REGION": "<GCS region>",           // optional
+            }
+        }
         ```
 
     -   For OSS \(Alicloud Object Storage Service\):
