@@ -77,12 +77,12 @@ SAP generative AI hub SDK
 </td>
 <td valign="top">
 
-With this SDK you can leverage the power of generative AI models available in the generative AI hub.
+With this SDK, you can leverage the power of generative AI models available in the generative AI hub.
 
 </td>
 <td valign="top">
 
-[Generative AI hub SDK](https://pypi.org/project/generative-ai-hub-sdk/)
+[Generative AI hub SDK](https://help.sap.com/doc/generative-ai-hub-sdk/CLOUD/en-US/index.html)
 
 </td>
 </tr>
@@ -144,23 +144,6 @@ You can use SAP Cloud SDK for AI to:
 <td valign="top">
 
 [SAP Cloud SDK for AI Repository: Java](https://github.com/SAP/ai-sdk-java) 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Generative AI hub SDK
-
-</td>
-<td valign="top">
-
-SDK for accessing generative AI models from the generative AI hub in SAP AI Core.
-
-</td>
-<td valign="top">
-
-[Generative AI hub Repository](https://github.wdf.sap.corp/AI/generative-ai-hub-sdk/tree/docs/4.0.0)
 
 </td>
 </tr>
