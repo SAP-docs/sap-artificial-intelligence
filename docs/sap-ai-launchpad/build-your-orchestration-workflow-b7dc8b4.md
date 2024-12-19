@@ -1,7 +1,5 @@
 <!-- loiob7dc8b48df2b4f009e9157f5448c7935 -->
 
-<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
-
 # Build Your Orchestration Workflow
 
 You build your orchestration workflow by designing and testing a prompt that can be populated with different data during inference.
@@ -12,7 +10,7 @@ You build your orchestration workflow by designing and testing a prompt that can
 
 -   You have an orchestration deployment running. For more information, see [Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4344c5b.md).
 
--   You have the role `orchestration_executor`, `genai_experimenter`, or `genai_manager`, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+-   You have the role `orchestration_executor`, `genai_experimenter`, or `genai_manager`, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
 
 
 
@@ -23,63 +21,13 @@ You build your orchestration workflow by designing and testing a prompt that can
 
 Navigate to the landing page for orchestration by choosing *Generative AI Hub* \> *Orchestration*. SAP AI Launchpad displays the following workflow, which you can use to build your orchestration.
 
-![](images/Orchestration_Workflow_f67a8ea.png)
+In a basic orchestration scenario, you can combine different modules from orchestration into a pipeline that can be executed with a single API call. Within the pipeline, the response from one module is used as the input for the next module.
 
+The order in which the pipeline is executed is defined centrally in orchestration. However, you can configure the details for each module and omit optional modules by passing an orchestration configuration in JSON format with the request body.
 
+**The image below is interactive. Click each part of the workflow for more information.**
 
-### Templating \(Mandatory\)
-
-In this section, you enter your prompt to be passed to the generative AI model. You can also enter a system message to specify how the model is to answer a question, and you can provide sample queries and responses for the model.
-
-When you enter the prompt and the system message, you can define placeholders by surrounding the text with two curly brackets and preceding the placeholder name with a question mark. For example, `Create a job description for the role of {{?job_role1}}`. The names of your placeholders must meet the following criteria:
-
--   Start with a letter
-
--   End with a letter or a number
-
--   Do not include special characters other than an underscore \(\_\) or a hyphen \(-\). Note that consecutive underscores or hyphens are not permitted.
-
-
-For each placeholder, you can enter a default value that is used to test your model. If you do not specify a default value, you will be prompted to enter a value when you test the workflow.
-
-![](images/templatingwithvariables_2dee696.png)
-
-
-
-### Input Filtering \(Optional\)
-
-Input filtering lets you decide the type of content that is passed to the generative AI model.
-
-The module supports the Azure Content Safety classification service. This service recognizes four distinct content categories: `Hate`, `Violence`, `Sexual`, and `SelfHarm`. For more information, see [Harm categories in Azure AI Content Safety](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/concepts/harm-categories?tabs=warning). Text can have more than one label \(for example, a text sample can be classified as both `Hate` and `Violence`\). The returned content categories include a severity level rating of 0, 2, 4, or 6. The value increases with the severity of the content.
-
-> ### Note:  
-> Some generative AI models have content filters incorporated into their standard offering. This means that content may be filtered irrespective of the settings that you configure here.
-
-If you edit the workflow, you can hide the filter section.
-
-
-
-### Model Configuration \(Mandatory\)
-
-In this section, you select the model that you want to use in your workflow. If you don't select a model, the default model will be used. You can also include further parameters in JSON format. For information about the supported parameters, see the documentation of the model provider.
-
-When you run the workflow, you will receive one response from the model. If you want to receive multiple responses, you can set a value for the `n` parameter in the model configuration.
-
-> ### Example:  
-> If you enter `n=3` in the model configuration, the model will generate three different responses based on your prompt template.
-
-
-
-### Output Filtering \(Optional\)
-
-Output filtering lets you decide the type of content that is received from the generative AI model.
-
-The module supports the Azure Content Safety classification service. This service recognizes four distinct content categories: `Hate`, `Violence`, `Sexual`, and `SelfHarm`. For more information, see [Harm categories in Azure AI Content Safety](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/concepts/harm-categories?tabs=warning). Text can have more than one label \(for example, a text sample can be classified as both `Hate` and `Violence`\). The returned content categories include a severity level rating of 0, 2, 4, or 6. The value increases with the severity of the content.
-
-> ### Note:  
-> Some generative AI models have content filters incorporated into their standard offering. This means that content may be filtered irrespective of the settings that you configure here.
-
-If you edit the workflow, you can hide the filter section.
+![](images/data_masking_1799e70.png)
 
 
 
@@ -157,9 +105,22 @@ You can upload your own orchestration workflow in JSON format. The workflow stru
 
     The size of your file cannot exceed 200 KB.
 
-3.  If necessary, you can download the JSON file again by clicking <span class="SAP-icons-V5"></span>.
+3.  If necessary, you can download the JSON file again by clicking *Download*.
 
 
 > ### Note:  
-> If the parameters in your uploaded json are invalid to the selected model they will be ignored.
+> If the parameters in your uploaded JSON are invalid to the selected model, they will be ignored.
+
+-   **[Grounding](grounding-2d495d3.md "")**  
+
+-   **[Templating](templating-11d44e6.md "")**  
+
+-   **[Data Masking](data-masking-79911bd.md "")**  
+
+-   **[Input Filtering](input-filtering-f5c7223.md "")**  
+
+-   **[Model Configuration](model-configuration-be3cd61.md "")**  
+
+-   **[Output Filtering](output-filtering-32a0e42.md "")**  
+
 

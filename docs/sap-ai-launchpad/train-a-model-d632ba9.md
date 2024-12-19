@@ -12,7 +12,7 @@ In the *Functions Explorer* app, you create a run to train a model.
 
 ## Prerequisites
 
-You have the `scenario_job_editor` role, or you are assigned a role collection that contains this role. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have the `scenario_job_editor` role, or you are assigned a role collection that contains this role. For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
 
 
 

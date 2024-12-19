@@ -2,24 +2,51 @@
 
 # Delete an Object Store Secret
 
+<a name="task_i3h_n13_tcc"/>
+
+<!-- task\_i3h\_n13\_tcc -->
+
+## Using Curl
 
 
-<a name="loiobee001a0afb54f82858038a140514a49__section_a2q_fps_vnb"/>
+
+<a name="task_i3h_n13_tcc__context_kqh_hhy_ycc"/>
+
+## Context
+
+Deleting an object store secret stops access to the object store.
+
+
+
+<a name="task_i3h_n13_tcc__steps_lqh_hhy_ycc"/>
+
+## Procedure
+
+Run the following code:
+
+```
+curl --location --request DELETE "$AI_API_URL/v2/admin/objectStoreSecrets/{{objectStoreName}}" \ 
+```
+
+<a name="task_cxf_n13_tcc"/>
+
+<!-- task\_cxf\_n13\_tcc -->
 
 ## Using Postman
 
+
+
+<a name="task_cxf_n13_tcc__context_sw5_chy_ycc"/>
+
+## Context
+
+Deleting an object store secret stops access to the object store.
+
+
+
+<a name="task_cxf_n13_tcc__steps_tw5_chy_ycc"/>
+
+## Procedure
+
 Send a DELETE request to the endpoint
-
-`{{apiurl}}/v2/admin/objectStoreSecrets/{{objectStoreName}}`
-
-
-
-<a name="loiobee001a0afb54f82858038a140514a49__section_phb_4hr_yqb"/>
-
-## Using curl
-
-```
-curl --location --request DELETE "$AI_API_URL/v2/admin/objectStoreSecrets/{{objectStoreName}}" \
-
-```
 

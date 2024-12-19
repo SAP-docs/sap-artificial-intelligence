@@ -1,7 +1,5 @@
 <!-- loioa126bd67458945e881ec3fed2746e576 -->
 
-<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
-
 # Generative AI Hub in SAP AI Core Overview
 
 The generative AI hub incorporates generative AI into your AI activities in SAP AI Core and SAP AI Launchpad.
@@ -17,13 +15,4 @@ SAP AI Core and the generative AI hub help you to integrate LLMs and AI into new
 **Generative AI Hub Architecture Overview**
 
 ![](images/LLM_Infrastructure_8b7110e.png "Generative AI Hub Architecture Overview")
-
-**Parent topic:**[Concepts](concepts-4c6b2da.md "In this section, we'll explore some of the concepts surrounding SAP AI Core.")
-
-**Related Information**  
-
-
-[SAP AI Core Overview](sap-ai-core-overview-88e0078.md "SAP AI Core is the key to integrating artificial intelligence capabilities in your SAP solutions.")
-
-[Terminology](terminology-05f41ee.md "")
 

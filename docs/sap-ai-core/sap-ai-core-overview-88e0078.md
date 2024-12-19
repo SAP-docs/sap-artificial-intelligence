@@ -50,12 +50,3 @@ The AI API lets you manage your AI assets \(such as training scripts, data, mode
 		and workloads. Scenarios, executables, and Docker registry secrets are shared across all resource groups.")**  
 SAP AI Core tenants use resource groups to isolate related ML resources and workloads. Scenarios, executables, and Docker registry secrets are shared across all resource groups.
 
-**Parent topic:**[Concepts](concepts-4c6b2da.md "In this section, we'll explore some of the concepts surrounding SAP AI Core.")
-
-**Related Information**  
-
-
-[Generative AI Hub in SAP AI Core Overview](generative-ai-hub-in-sap-ai-core-overview-a126bd6.md "The generative AI hub incorporates generative AI into your AI activities in SAP AI Core and SAP AI Launchpad.")
-
-[Terminology](terminology-05f41ee.md "")
-

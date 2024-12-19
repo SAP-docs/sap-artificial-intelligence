@@ -2,6 +2,11 @@
 
 # Delete Multiple Training Instances
 
+Deleting a training instance releases the SAP AI Core resources that it used.
+
+> ### Restriction:  
+> If your execution is running, you must stop it first.You can stop a running execution by submitting a PATCH request to `$AI_API_URL/v2/lm/executions/$EXECUTION \`. For more information, see [Stop a Single Training Instance](stop-a-single-training-instance-07870df.md) and [Stop Multiple Training Instances](stop-multiple-training-instances-09b4810.md).
+
 
 
 `bulkUpdates` is a meta capability endpoint of the AI API. It enables or disables bulk PATCH operations. For more information, see [AI API Overview](ai-api-overview-716d4c3.md).
@@ -30,11 +35,24 @@ About `bulkUpdates`:
 -   An ID can only appear once per bulk request. For multiple modifications of the same ID, multiple requests are needed.
 
 
+**Parent topic:**[Delete Training Instances](delete-training-instances-612ce17.md "")
+
+**Related Information**  
 
 
-<a name="loioc1c3cc3e3f88417ba785ab8e29564e82__section_sfh_r2m_jwb"/>
+[Delete a Single Training Instance](delete-a-single-training-instance-dd71f16.md "")
 
-## Using curl
+<a name="task_i3h_n13_tcc"/>
+
+<!-- task\_i3h\_n13\_tcc -->
+
+## Using Curl
+
+
+
+<a name="task_i3h_n13_tcc__steps_ogr_4jr_zxb"/>
+
+## Procedure
 
 Update the request body to:
 
@@ -72,13 +90,19 @@ curl --request PATCH  - /executions \
 > 
 > ```
 
+<a name="task_cxf_n13_tcc"/>
 
-
-<a name="loioc1c3cc3e3f88417ba785ab8e29564e82__section_tfh_r2m_jwb"/>
+<!-- task\_cxf\_n13\_tcc -->
 
 ## Using Postman
 
-Send a bulk PATCH request to: `- /executions`
+
+
+<a name="task_cxf_n13_tcc__steps_ctq_yvq_zxb"/>
+
+## Procedure
+
+Send a bulk PATCH request to the endpoint: `- /executions`
 
 Update the request body to:
 
@@ -101,15 +125,19 @@ Update the request body to:
 
 > ### Output Code:  
 > ```
+> {
+>   "executions": [
+>     {
+>       "id": "aa97b177-9383-4934-8543-0f91a7a0283a",
+>       "message": "Execution modification scheduled"
+>     },
+>     {
+> 
+>       "id": "qweq32131-qwee-1231-8543-0f91a7a2e2e",
+>       "message": "Execution modification scheduled"
+>     }
+>   ]
+> }
 > 
 > ```
-
-**Parent topic:**[Delete Training Instances](delete-training-instances-612ce17.md "")
-
-**Related Information**  
-
-
-[Delete a Single Training Instance](delete-a-single-training-instance-dd71f16.md "")
-
-[AI API Overview](ai-api-overview-716d4c3.md "The AI API lets you manage your AI assets (such as training scripts, data, models, and model servers) across multiple runtimes.")
 

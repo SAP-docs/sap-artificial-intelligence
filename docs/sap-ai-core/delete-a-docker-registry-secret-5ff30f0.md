@@ -4,19 +4,31 @@
 
 Deleting a docker registry secret removes access to the docker registry.
 
+<a name="task_i3h_n13_tcc"/>
+
+<!-- task\_i3h\_n13\_tcc -->
+
+## Using Curl
 
 
-<a name="loio5ff30f0332b8452d97ed77edf746714a__section_lfb_34f_mvb"/>
+
+<a name="task_i3h_n13_tcc__steps_f2s_w52_zcc"/>
+
+## Procedure
+
+Submit a DELETE request to the endpoint `$AI_API_URL/v2/admin/dockerRegistrySecrets/{{dockerRegistryName}}`.
+
+<a name="task_cxf_n13_tcc"/>
+
+<!-- task\_cxf\_n13\_tcc -->
 
 ## Using Postman
 
-1.  Send a DELETE request to the endpoint `{{apiurl}}/v2/admin/dockerRegistrySecrets/{{dockerRegistryName}}`
 
 
+<a name="task_cxf_n13_tcc__steps_alr_t52_zcc"/>
 
-<a name="loio5ff30f0332b8452d97ed77edf746714a__section_nqm_hqf_mvb"/>
+## Procedure
 
-## Using curl
-
-1.  Submit a DELETE request to the endpoint `$AI_API_URL/v2/admin/dockerRegistrySecrets/{{dockerRegistryName}}`.
+Send a DELETE request to the endpoint `{{apiurl}}/v2/admin/dockerRegistrySecrets/{{dockerRegistryName}}`
 

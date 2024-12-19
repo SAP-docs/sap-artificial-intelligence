@@ -14,7 +14,7 @@ Use the *ML Operations* app to list the models for your selected connection, and
 
 You have the `scenario_artifact_viewer` or `scenario_metric_viewer` role, or you have been assigned a role collection that contains one of these roles.
 
-For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
 
 
 

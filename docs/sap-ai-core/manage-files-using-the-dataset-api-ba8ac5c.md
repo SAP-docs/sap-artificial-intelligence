@@ -20,8 +20,10 @@ For full details on the Dataset API specification, see [SAP AI Core API document
 > ### Restriction:  
 > Only `csv` type files can be uploaded with the Dataset API.
 
--   **[Create Files](create-files-0466459.md "")**  
-
+-   **[Create Files](create-files-0466459.md "Where direct access to files in the object store is not possible or desirable (for example, in Content as a Service Scenarios, where
+		the Service Consumers might not be the owners of the object store) you can upload, download, and delete files from the pre-registered object
+		store using the SAP AI Core Dataset API. ")**  
+Where direct access to files in the object store is not possible or desirable \(for example, in Content as a Service Scenarios, where the Service Consumers might not be the owners of the object store\) you can upload, download, and delete files from the pre-registered object store using the SAP AI Core Dataset API.
 -   **[Download Files](download-files-0a641f3.md "")**  
 
 -   **[Delete Files](delete-files-edf9b1b.md "")**  

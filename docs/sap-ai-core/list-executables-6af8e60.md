@@ -2,73 +2,54 @@
 
 # List Executables
 
-An executable is a template that is instantiated for a purpose, such as training a model or creating a deployment. You can list all of the executables in a resource group and get details of specific executables from a resource group. Serving templates are mapped to deployment executables.
+An executable is a reusable template that defines a workflow or pipeline for tasks such as training a machine learning model or creating a deployment. It contains placeholders for input artifacts \(datasets or models\) and parameters \(custom key-pair values\) that enable the template to be reused in different scenarios.. You can list all of the executables in a resource group and get details of specific executables from a resource group. Serving templates are mapped to deployment executables.
+
+**Parent topic:**[Use Your Model](use-your-model-7f93e8f.md "You deploy your AI learning model to run inferences against it.")
+
+**Related Information**  
+
+
+[Choose a Resource Plan](choose-a-resource-plan-abd672f.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
+
+[Serving Templates](serving-templates-20a8667.md "You use serving templates to manage your serving instances at the level of the main tenant. Serving templates define how a model is to be deployed.")
+
+[Deploy Models](deploy-models-dd16e8e.md "")
+
+[Inferencing](inferencing-e348ecf.md "")
+
+[Update a Deployment](update-a-deployment-9789ddd.md "")
+
+[Stop Deployments](stop-deployments-b7d2577.md " ")
+
+[Delete Deployments](delete-deployments-0193d17.md " ")
+
+[Efficiency Features](efficiency-features-9fad26a.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
+
+[Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md "accessed in the deployment and execution logs.")
+
+<a name="task_i3h_n13_tcc"/>
+
+<!-- task\_i3h\_n13\_tcc -->
+
+## Using Curl
 
 
 
-<a name="loio6af8e60ffeea4ff2b047279d3165a31a__section_apf_kx5_tvb"/>
+<a name="task_i3h_n13_tcc__steps_mjt_ff1_vcc"/>
 
-## List Executables with Postman
+## Procedure
 
-1.  Define your scenario ID as the `scenarioid` environment variable.
-
-    ![](images/Edit_Environment_Variable_-_scenarioid_0003c60.png)
-
-2.  Send a GET request to the endpoint `{{apiurl}}/v2/lm/scenarios/{{scenarioid}}/executables`
-
-3.  On the *Authorization* tab, set the type to *Bearer Token*.
-
-4.  Set the token value to `{{token}}`.
-
-    ![](images/Bearer_Token_d6813f2.png)
-
-5.  On the *Header* tab, add the following entry:
-
-
-    <table>
-    <tr>
-    <th valign="top">
-
-    Key
-    
-    </th>
-    <th valign="top">
-
-    Value
-    
-    </th>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    `ai-resource-group` 
-    
-    </td>
-    <td valign="top">
-    
-    *<Name of your resourceGroup\>*`default` is used\)
-    
-    </td>
-    </tr>
-    </table>
-    
-6.  Send the request.
-
-    ![](images/List_Executables_Postman_8d6b9aa.png)
-
-
-> ### Note:  
-> The *<modifiedAt\>* field denotes the timestamp of the latest successful sync. The output ***1970-01-01T00:00:00+00:00*** indicates an error.
-
-
-
-<a name="loio6af8e60ffeea4ff2b047279d3165a31a__section_wt3_sx5_tvb"/>
-
-## List Executables with curl
+Run the following code:
 
 ```
 curl --request GET "$AI_API_URL/v2/lm/scenarios" --header "Authorization: Bearer $TOKEN" --header "ai-resource-group: $RESOURCE_GROUP"
 ```
+
+
+
+<a name="task_i3h_n13_tcc__result_bqx_ypj_wxb"/>
+
+## Results
 
 > ### Output Code:  
 > ```json
@@ -226,23 +207,25 @@ curl --request GET "$AI_API_URL/v2/lm/scenarios" --header "Authorization: Bearer
 > ### Note:  
 > The *<modifiedAt\>* field denotes the timestamp of the latest successful sync. The output ***1970-01-01T00:00:00+00:00*** indicates an error.
 
+<a name="task_cxf_n13_tcc"/>
+
+<!-- task\_cxf\_n13\_tcc -->
+
+## Using Postman
 
 
-<a name="loio6af8e60ffeea4ff2b047279d3165a31a__section_rxr_lz5_tvb"/>
 
-## Get Executable Details with Postman
+<a name="task_cxf_n13_tcc__steps_qzv_hf1_vcc"/>
 
-1.  Add the environment variable `executableid` and as its value, enter the ID of the executable.
+## Procedure
 
-    ![](images/Add_Environment_Variable_executableid_6120596.png)
+1.  Add your scenario ID as the value for the `scenarioid` environment variable.
 
-2.  Send a GET request to the endpoint `{{apiurl}}/v2/lm/scenarios/{{scenarioid}}/executables/{{executableid}}`
+2.  Send a GET request to the endpoint `{{apiurl}}/v2/lm/scenarios/{{scenarioid}}/executables`
 
 3.  On the *Authorization* tab, set the type to *Bearer Token*.
 
 4.  Set the token value to `{{token}}`.
-
-    ![](images/Bearer_Token_d6813f2.png)
 
 5.  On the *Header* tab, add the following entry:
 
@@ -268,7 +251,7 @@ curl --request GET "$AI_API_URL/v2/lm/scenarios" --header "Authorization: Bearer
     </td>
     <td valign="top">
     
-    *<Name of your resourceGroup\>* \(in the example, `default` is used\)
+    *<Name of your resourceGroup\>*`default` is used\)
     
     </td>
     </tr>
@@ -276,15 +259,38 @@ curl --request GET "$AI_API_URL/v2/lm/scenarios" --header "Authorization: Bearer
     
 6.  Send the request.
 
+    > ### Output Code:  
+    > ```
+    > {
+    > "count": 3,
+    > "resources": [
+    > {
+    > "createdAt": "2021-10-07T20:07:18+00:00",
+    > "deployable": true,
+    > "description": "Inference executable for text classification with Scikit-learn",
+    > "id": "text-clf-infer-tutorial",
+    > "input artifacts": [
+    > ...
+    > 
+    > ```
 
-> ### Note:  
-> The *<modifiedAt\>* field denotes the timestamp of the latest successful sync. The output ***1970-01-01T00:00:00+00:00*** indicates an error.
+    > ### Note:  
+    > The *<modifiedAt\>* field denotes the timestamp of the latest successful sync. The output ***1970-01-01T00:00:00+00:00*** indicates an error.
 
 
+<a name="task_i3h_n13_tccs"/>
 
-<a name="loio6af8e60ffeea4ff2b047279d3165a31a__section_lzw_mz5_tvb"/>
+<!-- task\_i3h\_n13\_tccs -->
 
 ## Get Executable Details with curl
+
+
+
+<a name="task_i3h_n13_tccs__steps_s2t_1g1_vcc"/>
+
+## Procedure
+
+Run the following code:
 
 ```
 curl --request GET "$AI_API_URL/v2/lm/scenarios" --header "Authorization: Bearer $TOKEN" --header "ai-resource-group: $RESOURCE_GROUP" 
@@ -332,26 +338,56 @@ curl --request GET "$AI_API_URL/v2/lm/scenarios" --header "Authorization: Bearer
 > ### Note:  
 > The *<modifiedAt\>* field denotes the timestamp of the latest successful sync. The output ***1970-01-01T00:00:00+00:00*** indicates an error.
 
-**Parent topic:**[Use Your Model](use-your-model-7f93e8f.md "You deploy your AI learning model to run inferences against it.")
+<a name="task_cxf_n13_tccd"/>
 
-**Related Information**  
+<!-- task\_cxf\_n13\_tccd -->
+
+## Get Executable Details with Postman
 
 
-[Choose a Resource Plan](choose-a-resource-plan-abd672f.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
 
-[Serving Templates](serving-templates-20a8667.md "You use serving templates to manage your serving instances at the level of the main tenant. Serving templates define how a model is to be deployed.")
+<a name="task_cxf_n13_tccd__steps_fln_hg1_vcc"/>
 
-[Deploy Models](deploy-models-dd16e8e.md "")
+## Procedure
 
-[Inferencing](inferencing-e348ecf.md "")
+1.  Add the environment variable `executableid` and as its value, enter the ID of the executable.
 
-[Update a Deployment](update-a-deployment-9789ddd.md "")
+2.  Send a GET request to the endpoint `{{apiurl}}/v2/lm/scenarios/{{scenarioid}}/executables/{{executableid}}`
 
-[Stop Deployments](stop-deployments-b7d2577.md " ")
+3.  On the *Authorization* tab, set the type to *Bearer Token*.
 
-[Delete Deployments](delete-deployments-0193d17.md " ")
+4.  Set the token value to `{{token}}`.
 
-[Efficiency Features](efficiency-features-9fad26a.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
 
-[Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md "accessed in the deployment and execution logs.")
+
+5.  On the *Header* tab, add the following entry:
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Key
+    
+    </th>
+    <th valign="top">
+
+    Value
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `ai-resource-group` 
+    
+    </td>
+    <td valign="top">
+    
+    *<Name of your resourceGroup\>* \(in the example, `default` is used\)
+    
+    </td>
+    </tr>
+    </table>
+    
 

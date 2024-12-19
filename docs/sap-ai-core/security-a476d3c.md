@@ -8,7 +8,7 @@ Here, we'll explain some of the security aspects of SAP AI Core.
 
 -   **[Encryption in Transit](encryption-in-transit-42a8f0f.md "")**  
 
--   **[User Authentication and Administration](user-authentication-and-administration-b0d21d5.md "")**  
+-   **[Authentication and Administration](authentication-and-administration-b0d21d5.md "")**  
 
 -   **[Docker Images](docker-images-8cb3c18.md "SAP AI Core
 		supports tenant-specific Docker registries (registered via the administration APIs).

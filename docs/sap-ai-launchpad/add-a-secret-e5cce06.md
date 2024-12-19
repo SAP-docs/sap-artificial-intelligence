@@ -19,7 +19,9 @@
 
 ## Context
 
-You can use the *SAP AI Core Administration* app to add generic secrets.
+You can use the *SAP AI Core Administration* app to add generic secretson the main-tenant or resource-group level. The SAP AI Core API should be used for tenant-wide generic secrets.
+
+Tenant-wide secrets are only automatically propagated to the appropriate resource group when a new execution or deployment is created. They are not propagated to running deployments.
 
 
 

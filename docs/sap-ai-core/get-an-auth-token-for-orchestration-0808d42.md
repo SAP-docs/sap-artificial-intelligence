@@ -29,22 +29,22 @@
 
 3.  After the import is complete, expand the collection and navigate to *Get Auth Token*.
 
-4.  Select the `LLM Orchestration` environment and configure it using the following values:
+4.  Select the `LLM Orchestration` environment within Postman and configure it using the following values:
 
-    -   The *LLM Orch Url* is from your orchestration deployment.
+    -   The *LLM Orch Url* is the URL of your orchestration deployment. For more information, see [Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4387aa7.md).
 
     -   The *Client Id* is the XSUAA client id of your AI API connection.
 
-    -   The*Client Secret* is the XSUAA client secret of your AI API connection.
+    -   The *Client Secret* is the XSUAA client secret of your AI API connection.
 
-    -   The *Grant Type* should be `Client Credentials`.
+    -   The *Grant Type* URL parameter should be set to `Client Credentials`.
 
     -   Leave the *Token* value empty.
 
 
-5.  Send a GET request to `Auth Token`.
+5.  To retrieve an authentication token, send a GET request to `Auth Token`.
 
-    The response includes an access token, which is saved as the *Token* environment variable. Check that the access token has been added correctly to the variable and if not, copy and paste it into the variable.
+    The response includes an access token, which is saved as the *Token* variable in the Postman environment. Check that the access token has been added correctly to the variable and if not, copy and paste it from the response into the variable.
 
 
 
@@ -53,7 +53,7 @@
 
 ## Next Steps
 
-Send a POST request to `Orchestration Simple` to see the templating mechanism of orchestration.
+Send a POST request using the `Simple LLM Call` from the Postman collection to try out the templating mechanism of orchestration.
 
 <a name="task_wqc_b4n_fyb"/>
 

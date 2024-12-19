@@ -303,11 +303,7 @@ User ID and group ID 65534 is required to run the Docker image. This user has pe
 
 ## Sync an Application Manually
 
-
-
-### Applications sync with your GitHub repository automatically at intervals of ~3 minutes. Use the endpoint below to manually request a sync:
-
-`{{apiurl}}/admin/applications/{{appName}}/refresh`
+Applications sync with your GitHub repository automatically at intervals of ~3 minutes. Use the endpoint below to manually request a sync:`{{apiurl}}/admin/applications/{{appName}}/refresh`
 
 **Parent topic:**[Train Your Model](train-your-model-a9ceb06.md "You execute a training workflow to train your AI learning model.")
 
@@ -316,11 +312,11 @@ User ID and group ID 65534 is required to run the Docker image. This user has pe
 
 [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
 
-[List Scenarios](list-scenarios-deedde5.md "")
+[List Scenarios](list-scenarios-deedde5.md "A scenario is an implementation of a specific AI use case within a user's tenant. It consists of a pre-defined set of AI capabilities in the form of executables and templates.")
 
-[List Executables](list-executables-80895a4.md "")
+[List Executables](list-executables-80895a4.md "An executable is a reusable template that defines a workflow or pipeline for tasks such as training a machine learning model or creating a deployment. It contains placeholders for input artifacts (datasets or models) and parameters (custom key-pair values) that enable the template to be reused in different scenarios.")
 
-[Create Configurations](create-configurations-884ae34.md "")
+[Create Configurations](create-configurations-884ae34.md "A configuration is a collection of parameters, artifact references (such as datasets or models), and environment settings that are used to instantiate and run an execution or deployment of an executable or template.")
 
 [List Configurations](list-configurations-8074b2a.md "")
 

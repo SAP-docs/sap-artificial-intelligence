@@ -57,7 +57,7 @@ You have either the `mloperations_editor` or `scenario_configuration_editor` rol
 7.  Select the required artifacts from the list of available artifacts. Where possible, the artifacts available have been prefiltered by type. The artifact is required as an input artifact for the selected executable.
 
     > ### Tip:  
-    > Use the *Enable Description* switch to view artifact description as popovers..
+    > Use the *Enable Description* switch to view artifact description as popovers.
 
     ![](images/create-a-configuration_2565523.png)
 

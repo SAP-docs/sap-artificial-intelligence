@@ -189,5 +189,5 @@ Any artifact that cannot be categorized as a dataset, model, or result set is re
 
 [Set Resource Group](set-resource-group-0c07728.md#loio0c077289f29d4147921fb07ab0f68b7f "You select a connection and resource group so that you can complete tasks within the ML Operations app.")
 
-[Custom Access for Resource Groups](custom-access-for-resource-groups-19e3932.md "You can selectively control users' access to resource groups (within an AI runtime connection) in SAP AI Launchpad.")
+[Custom Access for Resource Groups](security-e4cf710.md#loio19e39328d7f44af6b3b8a83983bde325 "You can selectively control users' access to resource groups (within an AI runtime connection) in SAP AI Launchpad.")
 

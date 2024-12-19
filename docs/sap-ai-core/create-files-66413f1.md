@@ -9,13 +9,27 @@ The object store secret allows SAP AI Core to access your cloud storage and data
 
 ![](images/solution11image1_d2bc541.png)
 
+**Parent topic:**[Manage Files](manage-files-386ba71.md "An artifact refers to data or a file that is produced or consumed by executions or deployments. They are managed through SAP AI Core and your connected object store.")
+
+**Related Information**  
 
 
-<a name="loio66413f1d9fbf4758a0d739eaf1c95dc7__section_rtq_mxp_brb"/>
+[List Files](list-files-1d613e0.md "")
+
+<a name="task_xp1_532_scc"/>
+
+<!-- task\_xp1\_532\_scc -->
 
 ## Using Postman
 
+
+
+<a name="task_xp1_532_scc__steps_sv1_x32_scc"/>
+
+## Procedure
+
 1.  Create a new `POST` request using URL `{{apiurl}}/v2/lm/artifacts`
+
 2.  Toggle the body tab, and enter the following JSON:
 
     ```
@@ -29,6 +43,12 @@ The object store secret allows SAP AI Core to access your cloud storage and data
     ```
 
 
+
+
+<a name="task_xp1_532_scc__result_ccq_3xc_5xb"/>
+
+## Results
+
 The response body contains the ID of your new artifact.
 
 ```
@@ -39,11 +59,19 @@ The response body contains the ID of your new artifact.
 }
 ```
 
+<a name="task_cks_cj2_scc"/>
 
-
-<a name="loio66413f1d9fbf4758a0d739eaf1c95dc7__section_shh_nxp_brb"/>
+<!-- task\_cks\_cj2\_scc -->
 
 ## Using curl
+
+
+
+<a name="task_cks_cj2_scc__steps_bgp_2j2_scc"/>
+
+## Procedure
+
+Run the following code:
 
 ```
 curl --location --request POST "$API_URL/v2/lm/artifacts" \
@@ -59,6 +87,12 @@ curl --location --request POST "$API_URL/v2/lm/artifacts" \
 }
 ```
 
+
+
+<a name="task_cks_cj2_scc__result_t1z_zxc_5xb"/>
+
+## Results
+
 The response body contains the ID of your new artifact.
 
 ```
@@ -68,11 +102,4 @@ The response body contains the ID of your new artifact.
     "url": "ai://default/data"
 }
 ```
-
-**Parent topic:**[Manage Files](manage-files-386ba71.md "An artifact refers to data or a file that is produced or consumed by executions or deployments. They are managed through SAP AI Core and your connected object store.")
-
-**Related Information**  
-
-
-[List Files](list-files-1d613e0.md "")
 

@@ -12,7 +12,7 @@ As an administrator, you can delete, update, or refresh a connection using the *
 
 ## Prerequisites
 
-You have the `connections_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have the `connections_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
 
 <a name="loio79c1de643cd5478194cae46505e84026"/>
 

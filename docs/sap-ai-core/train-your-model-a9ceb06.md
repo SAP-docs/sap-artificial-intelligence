@@ -18,7 +18,7 @@ The execution service includes:
 
 -   Data extraction and validation modeled as pipeline steps.
 
--   Dedicated object store buckets used as data storage. A default bucket is provided per resource group.
+-   Dedicated object store buckets used as data storage. A default bucket should be provided by users per resource group.
 
 -   Bring your own hyperscaler-backed object store buckets.
 
@@ -40,12 +40,19 @@ You can configure SAP AI Core to use different infrastructure resources for diff
 -   **[Workflow Templates](workflow-templates-83523ab.md " Here, you'll find a basic workflow example template. Feel free to adjust it to suit
     your workflow needs.")**  
  Here, you'll find a basic workflow example template. Feel free to adjust it to suit your workflow needs.
--   **[List Scenarios](list-scenarios-deedde5.md "")**  
-
--   **[List Executables](list-executables-80895a4.md "")**  
-
--   **[Create Configurations](create-configurations-884ae34.md "")**  
-
+-   **[List Scenarios](list-scenarios-deedde5.md "A scenario is an implementation of a specific AI use case within a user's tenant. It
+		consists of a pre-defined set of AI capabilities in the form of executables and
+		templates.")**  
+A scenario is an implementation of a specific AI use case within a user's tenant. It consists of a pre-defined set of AI capabilities in the form of executables and templates.
+-   **[List Executables](list-executables-80895a4.md "An executable is a reusable template that defines a workflow or pipeline for tasks
+      such as training a machine learning model or creating a deployment. It contains placeholders
+      for input artifacts (datasets or models) and parameters (custom key-pair values) that enable
+      the template to be reused in different scenarios.")**  
+An executable is a reusable template that defines a workflow or pipeline for tasks such as training a machine learning model or creating a deployment. It contains placeholders for input artifacts \(datasets or models\) and parameters \(custom key-pair values\) that enable the template to be reused in different scenarios.
+-   **[Create Configurations](create-configurations-884ae34.md "A configuration is a collection of parameters, artifact references (such as datasets or
+    models), and environment settings that are used to instantiate and run an execution or
+    deployment of an executable or template.")**  
+A configuration is a collection of parameters, artifact references \(such as datasets or models\), and environment settings that are used to instantiate and run an execution or deployment of an executable or template.
 -   **[List Configurations](list-configurations-8074b2a.md "")**  
 
 -   **[Using Artifact Signatures](using-artifact-signatures-2f02a1d.md "Artifact signatures in the form of a hash can be added to output artifacts from executions.")**  

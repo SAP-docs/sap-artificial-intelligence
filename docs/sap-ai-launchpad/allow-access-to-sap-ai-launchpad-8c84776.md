@@ -154,8 +154,6 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     `viewer`
 
     `mloperations_editor`
-
-    `artifact_register`
     
     </td>
     </tr>
@@ -356,8 +354,6 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     `viewer_without_genai`
 
     `mloperations_editor`
-
-    `artifact_register`
     
     </td>
     </tr>
@@ -502,7 +498,7 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     </td>
     <td valign="top">
     
-    generative AI hub experimenter
+    Prompt experimentation, viewing disclaimers and orchestration experimentation in generative AI hub.
     
     </td>
     <td valign="top">
@@ -526,7 +522,7 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     </td>
     <td valign="top">
     
-    generative AI hub manager
+    Prompt experimentation, managing prompts, viewing disclaimers and orchestration experimentation in generative AI hub.
     
     </td>
     <td valign="top">
@@ -552,7 +548,7 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     </td>
     <td valign="top">
     
-    generative AI hub administrator
+    Administration user data deletion and reading, writing and deletion of disclaimers in generative AI hub.
     
     </td>
     <td valign="top">
@@ -576,12 +572,12 @@ You can assign role collections to specific users to allow access to SAP AI Laun
 
 You've now assigned the role collection to the user, who has all of the authorizations provided by the role collection.
 
-For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
 
 **Related Information**  
 
 
 [Working with Role Collections](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/393ea0b222754311884123ce564779bd.html)
 
-[Roles and Authorizations](roles-and-authorizations-4ef8499.md "SAP AI Launchpad provides default role collections that you can assign to users. The role collections determine which actions a user is able to carry out in SAP AI Launchpad. You can also create your own role collections and assign the required roles to them.")
+[Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc "SAP AI Launchpad provides default role collections that you can assign to users. The role collections determine which actions a user is able to carry out in SAP AI Launchpad. You can also create your own role collections and assign the required roles to them.")
 

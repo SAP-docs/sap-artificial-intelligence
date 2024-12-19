@@ -51,7 +51,27 @@ You create a deployment to make orchestration capabilities available for use. Af
 
     ![](images/configuration_274104c.png)
 
-5.  After you’ve created your configuration, select *Create Deployment*.
+5.  **Optional:** Add your model to a *modelFilterList*.
+
+    The following example uses Claude Sonnet version 1:
+
+    > ### Sample Code:  
+    > ```
+    > ﻿[{"modelName": "anthropic--claude-3-sonnet","modelVersion":"1"}]
+    > ```
+
+    When creating a deployment for orchestration, you can restrict the choice of models using an allow or deny list. You can use this to implement internal standards, for example where only certain LLMs are approved for use.
+
+    *modelFilterListType* has the following options:
+
+    -   `deny`: only denies the models and defined versions in the modelFilterList to be used within orchestration.
+
+    -   `allow`: only allows the models and defined versions in the modelFilterList to be used within orchestration.
+
+
+    ![](images/ModelRestriction_fa08dea.png)
+
+6.  After you’ve created your configuration, select *Create Deployment*.
 
     > ### Note:  
     > You must use the same resource group for all of your generative AI activities. If you want to use a different resource group, repeat these steps for each resource group.
@@ -63,7 +83,7 @@ You create a deployment to make orchestration capabilities available for use. Af
 
 ## Next Steps
 
-When the orchestration and compatible LLM deployments are running, orchestration can be accessed using the *Generative AI Hub* app.
+When the orchestration deployment is running, orchestration can be accessed using the *Generative AI Hub* app.
 
 **Related Information**  
 

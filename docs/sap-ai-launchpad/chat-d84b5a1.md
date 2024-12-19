@@ -1,5 +1,7 @@
 <!-- loiod84b5a1a2973440fb1af992ccaa2ac87 -->
 
+<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
+
 # Chat
 
 
@@ -14,7 +16,9 @@
 
 -   You’ve selected the AI API connection and resource group that you used in the activation steps.
 
--   You have the `genai_manager`, `prompt_manager`, `genai_experimenter` or `prompt_experimenter` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+-   For image upload only: you have the `prompt_media_executor` role, or you are assigned a role collection that contains it. For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
+
+-   You have the `genai_manager`, `prompt_manager`, `genai_experimenter` or `prompt_experimenter` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
 
 
 
@@ -24,7 +28,7 @@
 ## Context
 
 > ### Caution:  
-> SAP does not take any responsibility for quality of the content in the input to or output of the underlying generative AI models, including but not limited to, bias, hallucinations, or inaccuracies. The user is responsible for verifying the content.
+> SAP does not take any responsibility for quality of the content in the input to or output of the underlying generative AI models. This includes but is not limited to bias, hallucinations, or inaccuracies. The user is responsible for verifying the content.
 
 
 
@@ -38,10 +42,14 @@
 
         Settings include:
 
-        -   **Model:**If you do not choose a model, the default model will be used.
+        -   **Model:** If you do not choose a model, the default model will be used.
 
-        -   **Parameters:**Different models support different parameters and values. For more information, see the documentation from the model provider. Also see [Models and Scenarios in the Generative AI Hub](models-and-scenarios-in-the-generative-ai-hub-fef463b.md).
-        -   **Streaming Response:**Chat responses are output in real time, as they are generated.
+            When choosing a model, you can filter by input type.
+
+            ![](images/choose_model_w_image_ef66424.png)
+
+        -   **Parameters:** Different models support different parameters and values. For more information, see the documentation from the model provider. Also see [Models and Scenarios in the Generative AI Hub](models-and-scenarios-in-the-generative-ai-hub-fef463b.md).
+        -   **Streaming Response:** Where supported, chat responses are output in real time, as they are generated.
 
 
         ![](images/model_settings_6f25852.png)
@@ -50,11 +58,11 @@
 
         Settings include:
 
-        -   **Chat Memory:**The number of previous messages that form the context for the chat.
+        -   **Context History:** The number of previous interactions that form the context for the chat.
 
-        -   **System Message:**Instructions or context to guide the behavior of the model. Available for selected models.
+        -   **System Message:** Instructions or context to guide the behavior of the model. Available for selected models.
 
-        -   **Examples:**Example of prompts and desired responses, to set a precedent for the model. Available for selected models.
+        -   **Examples:** Example of prompts and desired responses, to set a precedent for the model. Available for selected models.
 
             Examples can be removed using the *Decline* icon.
 
@@ -69,7 +77,13 @@
 
 3.  Enter your chat input and press the *Send* icon.
 
-    ![](images/interface_111e03a.png)
+    For selected models, image inputs are supported, and can be added using the <span class="SAP-icons-V5"></span> \(add image\)icon or copy and paste.
+
+    Prompt messages are limited to 2.50 MB across all inputs, including the context history and system message.
+
+    If you change your model configuration from a model that supports images to one that doesn't, you will start a new chat.
+
+    ![](images/chat_w_image_4e528a2.png)
 
 
 
@@ -82,9 +96,9 @@ The response to your chat input will be generated.
 
 You can clear the current chat, including the context history, by clicking the *Clear* button.
 
-You can download your entire chat using the *Download* icon. Your chat will be automatically downloaded in JSON format, and can be saved locally.
+You can download your chat using the *Download* icon. Text data will be automatically downloaded in JSON format, and can be saved locally. Images will not be downloaded.
 
-You can copy an individual chat message or response using the *copy* icon.
+You can copy text data from an individual chat message or response using the *copy* icon. Images will not be copied.
 
 
 

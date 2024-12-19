@@ -20,7 +20,7 @@ Executables contain any number of placeholders, such as parameters \(for hyperpa
 
     You can also define *Labels* that can be associated with an executable to provide annotations. These labels are listed on the executables details screen along with *Input Artifacts*, *Parameters*, and *Output Artifacts*.
 
--   To use executables, you have either the `mloperations_viewer` or `scenario_executable_viewer` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+-   To use executables, you have either the `mloperations_viewer` or `scenario_executable_viewer` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
 
 
 > ### Example:  

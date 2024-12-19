@@ -2,6 +2,11 @@
 
 # Delete Multiple Deployments
 
+Deleting a deployment releases the SAP AI Core resources that it used.
+
+> ### Restriction:  
+> If your deployment is running, you must stop it first.You can stop a deployment by submitting a PATCH request to `{{apiurl}}/v2/lm/deployments/{{deploymentid}}`. For more information, see [Stop Multiple Deployments](stop-multiple-deployments-331cdf5.md).
+
 
 
 `bulkUpdates` is a meta capability endpoint of the AI API. It enables or disables bulk PATCH operations. For more information, see [AI API Overview](ai-api-overview-716d4c3.md).
@@ -30,93 +35,6 @@ About `bulkUpdates`:
 -   An ID can only appear once per bulk request. For multiple modifications of the same ID, multiple requests are needed.
 
 
-
-
-<a name="loio6b521aa3dfa1465a9be658bdb38fb2e5__section_sfh_r2m_jwb"/>
-
-## Using curl
-
-Update the request body to:
-
-```
-curl --request PATCH  - /deployments \
-    --header {"deployments": [
-    {
-      "id": "aa97b177-9383-4934-8543-0f91a7a0283a",
-      "targetStatus": "STOPPED"
-    },
-    {
-      "id": "qweq32131-qwee-1231-8543-0f91a7a2e2e",
-      "targetStatus": "DELETED"
-    }
-  ]
-}
-
-```
-
-> ### Output Code:  
-> ```
-> {
->   "deployments": [
->     {
->       "id": "aa97b177-9383-4934-8543-0f91a7a0283a",
->       "message": "Deployment modification scheduled"
->     },
->     {
-> 
->       "id": "qweq32131-qwee-1231-8543-0f91a7a2e2e",
->       "message": "Deployment modification scheduled"
->     }
->   ]
-> }
-> 
-> ```
-
-
-
-<a name="loio6b521aa3dfa1465a9be658bdb38fb2e5__section_tfh_r2m_jwb"/>
-
-## Using Postman
-
-Send a bulk PATCH request to: `- /deployments`
-
-Update the request body to:
-
-```
-{
-  "deployments": [
-    {
-      "id": "aa97b177-9383-4934-8543-0f91a7a0283a",
-      "targetStatus": "STOPPED"
-    },
-    {
-
-      "id": "qweq32131-qwee-1231-8543-0f91a7a2e2e",
-      "targetStatus": "DELETED"
-    }
-  ]
-}
-
-```
-
-> ### Output Code:  
-> ```
-> {
->   "deployments": [
->     {
->       "id": "aa97b177-9383-4934-8543-0f91a7a0283a",
->       "message": "Deployment modification scheduled"
->     },
->     {
-> 
->       "id": "qweq32131-qwee-1231-8543-0f91a7a2e2e",
->       "message": "Deployment modification scheduled"
->     }
->   ]
-> }
-> 
-> ```
-
 **Parent topic:**[Delete Deployments](delete-deployments-0193d17.md " ")
 
 **Related Information**  
@@ -125,4 +43,106 @@ Update the request body to:
 [Delete a Single Deployment](delete-a-single-deployment-1b0b361.md "")
 
 [AI API Overview](ai-api-overview-716d4c3.md "The AI API lets you manage your AI assets (such as training scripts, data, models, and model servers) across multiple runtimes.")
+
+<a name="task_i3h_n13_tcc"/>
+
+<!-- task\_i3h\_n13\_tcc -->
+
+## Using Curl
+
+
+
+<a name="task_i3h_n13_tcc__steps_lx2_x2z_zxb"/>
+
+## Procedure
+
+Send a bulk PATCH request to the endpoint: `- /deployments`
+
+Update the request body to:
+
+```
+{
+  "executions": [
+    {
+      "id": "aa97b177-9383-4934-8543-0f91a7a0283a",
+      "targetStatus": "STOPPED"
+    },
+    {
+
+      "id": "qweq32131-qwee-1231-8543-0f91a7a2e2e",
+      "targetStatus": "DELETED"
+    }
+  ]
+}
+
+```
+
+> ### Output Code:  
+> ```
+> {
+>   "executions": [
+>     {
+>       "id": "aa97b177-9383-4934-8543-0f91a7a0283a",
+>       "message": "Execution modification scheduled"
+>     },
+>     {
+> 
+>       "id": "qweq32131-qwee-1231-8543-0f91a7a2e2e",
+>       "message": "Execution modification scheduled"
+>     }
+>   ]
+> }
+> 
+> ```
+
+<a name="task_cxf_n13_tcc"/>
+
+<!-- task\_cxf\_n13\_tcc -->
+
+## Using Postman
+
+
+
+<a name="task_cxf_n13_tcc__steps_lx2_x2z_zxb1"/>
+
+## Procedure
+
+Send a bulk PATCH request to the endpoint: `- /deployments`
+
+Update the request body to:
+
+```
+{
+  "executions": [
+    {
+      "id": "aa97b177-9383-4934-8543-0f91a7a0283a",
+      "targetStatus": "STOPPED"
+    },
+    {
+
+      "id": "qweq32131-qwee-1231-8543-0f91a7a2e2e",
+      "targetStatus": "DELETED"
+    }
+  ]
+}
+
+```
+
+> ### Output Code:  
+> ```
+> {
+>   "executions": [
+>     {
+>       "id": "aa97b177-9383-4934-8543-0f91a7a0283a",
+>       "message": "Execution modification scheduled"
+>     },
+>     {
+> 
+>       "id": "qweq32131-qwee-1231-8543-0f91a7a2e2e",
+>       "message": "Execution modification scheduled"
+>     }
+>   ]
+> }
+> 
+> ```
 

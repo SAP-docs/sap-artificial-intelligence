@@ -12,7 +12,7 @@ A deployment uses a model and data to make a prediction.
 
 You have the `mlfunctions_editor` role, or you have been assigned a role collection that contains this role.
 
-For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
 
 
 

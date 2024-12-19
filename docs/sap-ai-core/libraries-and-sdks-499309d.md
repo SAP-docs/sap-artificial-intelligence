@@ -86,6 +86,84 @@ With this SDK you can leverage the power of generative AI models available in th
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+SAP Cloud SDK for AI: JavaScript
+
+</td>
+<td valign="top">
+
+SAP Cloud SDK for AI is the official SDK for SAP AI Core, generative AI hub, and orchestration.
+
+You can use SAP Cloud SDK for AI to:
+
+-   Integrate chat completion into your business applications with SAP Cloud SDK for AI.
+
+-   Leverage the generative AI hub capabilities of SAP AI Core such as templating, grounding, data masking, content filtering. For more information, see [SAP AI Core](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/d029a32c22fb45fbb607e6a2c48c8a0e.html).
+
+-   Setup your SAP AI Core instance with SAP Cloud SDK for AI.
+
+
+
+
+</td>
+<td valign="top">
+
+-   [SAP Cloud SDK for AI Repository: JavaScript](https://github.com/SAP/ai-sdk-js)
+
+-   [NPM Packages](https://www.npmjs.com/search?q=%40sap-ai-sdk)
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Cloud SDK for AI: Java
+
+</td>
+<td valign="top">
+
+SAP Cloud SDK for AI is the official SDK for SAP AI Core, generative AI hub, and orchestration.
+
+You can use SAP Cloud SDK for AI to:
+
+-   Integrate chat completion into your business applications with SAP Cloud SDK for AI.
+
+-   Leverage the generative AI hub capabilities of SAP AI Core such as templating, grounding, data masking, content filtering. For more information, see [SAP AI Core](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/d029a32c22fb45fbb607e6a2c48c8a0e.html).
+
+-   Setup your SAP AI Core instance with SAP Cloud SDK for AI.
+
+
+
+
+</td>
+<td valign="top">
+
+[SAP Cloud SDK for AI Repository: Java](https://github.com/SAP/ai-sdk-java) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Generative AI hub SDK
+
+</td>
+<td valign="top">
+
+SDK for accessing generative AI models from the generative AI hub in SAP AI Core.
+
+</td>
+<td valign="top">
+
+[Generative AI hub Repository](https://github.wdf.sap.corp/AI/generative-ai-hub-sdk/tree/docs/4.0.0)
+
+</td>
+</tr>
 </table>
 
 **Libraries Available with SAP AI Core**
@@ -137,20 +215,8 @@ Metaflow is an open source tool to boost the productivity of data scientists. Th
 </tr>
 </table>
 
-**Parent topic:**[Predictive AI](predictive-ai-6c3b730.md "")
-
 **Related Information**  
 
-
-[ML Operations](ml-operations-7f5aa9b.md "This section guides you through the end-to-end AI lifecycle of SAP AI Core.")
-
-[Metrics](metrics-36f8bec.md "The AI API provides the ability to track metrics, and to customize or filter which metrics are reported.")
-
-[Advanced Features](advanced-features-24f2fbb.md ".")
-
-[APIs and API Extensions](apis-and-api-extensions-0cb7275.md "Explore APIs and API extensions that you can use with SAP AI Core.")
-
-[Content Packages](content-packages-9e1c83d.md "Explore additional Content Packages for use with SAP AI Core.")
 
 [Metrics Tracking with AI API](metrics-tracking-with-ai-api-9a335bd.md "You can use AI API to track and fetch metrics for executions and models. In addition, metrics can be compared using the SAP AI Launchpad interface.")
 

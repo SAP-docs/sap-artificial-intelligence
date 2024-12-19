@@ -12,7 +12,7 @@ You can investigate details for an application used within your instance of SAP 
 
 ## Prerequisites
 
-You have the `aicore_admin_applications_viewer` role or a role collection that contains it. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have the `aicore_admin_applications_viewer` role or a role collection that contains it. For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
 
 
 

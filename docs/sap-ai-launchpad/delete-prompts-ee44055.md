@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
-You have either the `genai_manager` or `prompt_manager` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have either the `genai_manager` or `prompt_manager` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
 
 > ### Note:  
 > Prompts are saved in one region only and can only be retrieved or deleted by an instance of AI launchpad in that region.

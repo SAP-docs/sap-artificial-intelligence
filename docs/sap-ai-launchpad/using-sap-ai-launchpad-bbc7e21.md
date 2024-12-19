@@ -67,5 +67,5 @@ As an AI scenario consumer, you subscribe to a service that provides AI scenario
 
 [What Is SAP AI Launchpad?](what-is-sap-ai-launchpad-760889a.md)
 
-[Concepts](concepts-3fa4c56.md "")
+[Concepts](concepts-4c6b2da.md "In this section, we'll explore some of the concepts surrounding both the SAP AI Core and SAP AI Launchpad services.")
 

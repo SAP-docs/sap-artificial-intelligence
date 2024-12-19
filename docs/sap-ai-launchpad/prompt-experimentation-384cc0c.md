@@ -1,5 +1,7 @@
 <!-- loio384cc0cd06dc464c8747cc58d5ebda3f -->
 
+<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
+
 # Prompt Experimentation
 
 
@@ -12,7 +14,9 @@
 
 -   You’ve selected the AI API connection and resource group that you used in the activation steps.
 
--   You have the `genai_manager`, `prompt_manager`, `genai_experimenter` or `prompt_experimenter` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+-   You have the `genai_manager`, `prompt_manager`, `genai_experimenter` or `prompt_experimenter` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
+
+-   For image upload only: you have the `prompt_media_executor` role, or you are assigned a role collection that contains it. For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
 
 -   Users with only the `genai_experimenter` or `prompt_experimenter` roles are not able to save prompts.
 
@@ -24,7 +28,7 @@
 ## Context
 
 > ### Caution:  
-> SAP does not take any responsibility for quality of the content in the input to or output of the underlying generative AI models, including but not limited to, bias, hallucinations, or inaccuracies. The user is responsible for verifying the content.
+> SAP does not take any responsibility for quality of the content in the input to or output of the underlying generative AI models. This includes but is not limited to bias, hallucinations, or inaccuracies. The user is responsible for verifying the content.
 
 
 
@@ -38,7 +42,9 @@
 
     1.  Enter your input data in the *Message* box.
 
+        For selected models, image inputs are supported, and can be added using the <span class="SAP-icons-V5"></span> \(add image\)icon or copy and paste.
 
+        Prompt messages are limited to 2.50mb across all inputs.
 
     2.  **Optional:** Enter a name for your prompt.
 
@@ -47,6 +53,10 @@
     3.  **Optional:** Choose a model.
 
         If you do not choose a model, the default model will be used.
+
+        When choosing a model, you can filter by input type.
+
+        ![](images/choose_model_w_image_ef66424.png)
 
     4.  **Optional:** Enter a collection name. Collection names are case sensitive.
 
@@ -64,11 +74,11 @@
         Not available to the `genai_experimenter` or `prompt_experimenter` roles.
 
 
-    ![](images/Prompt_editor_3376b75.png)
+    ![](images/prompt_editor_w_image_6589127.png)
 
 4.  Choose *Run*.
 
-    Some models support streaming for response generation. When the streaming switch is available, you can turn streaming on and off as needed.
+    Selected models support streaming for response generation. When the streaming switch is available, you can turn streaming on and off as needed.
 
     ![](images/switch_770fce5.png)
 
@@ -96,7 +106,8 @@ The response to your prompt will be generated.
 
     Not available to the `genai_experimenter` or `prompt_experimenter` roles.
 
--   You can copy your prompt or response using the copy button.
+-   You can copy text data from an individual chat message or response using the *copy* icon. Images will not be copied.
+
 -   You can expand the *Message* field using the expand button.
 
 <a name="concept_w1t_nts_szb"/>

@@ -23,3 +23,50 @@ curl --location --request DELETE "{{apiurl}}/v2/admin/repositories/{{repositoryN
 
 ```
 
+<a name="task_i3h_n13_tcc"/>
+
+<!-- task\_i3h\_n13\_tcc -->
+
+## Using Curl
+
+
+
+## Context
+
+You remove a Git repository from a connection if its URL is invalid or contains errors, or if the repo is no longer required. Once a Git repository is removed, it can no longer be selected as a source repository for an application.
+
+
+
+<a name="task_i3h_n13_tcc__steps_pvs_nfc_wcc"/>
+
+## Procedure
+
+Run the following code:
+
+```
+curl --location --request DELETE "{{apiurl}}/v2/admin/repositories/{{repositoryName}}" \
+
+```
+
+<a name="task_cxf_n13_tcc"/>
+
+<!-- task\_cxf\_n13\_tcc -->
+
+## Using Postman
+
+
+
+<a name="task_cxf_n13_tcc__context_zyt_rgc_wcc"/>
+
+## Context
+
+You remove a Git repository from a connection if its URL is invalid or contains errors, or if the repo is no longer required. Once a Git repository is removed, it can no longer be selected as a source repository for an application.
+
+
+
+<a name="task_cxf_n13_tcc__steps_azt_rgc_wcc"/>
+
+## Procedure
+
+Send a DELETE request to the endpoint `{{apiurl}}/v2/admin/repositories/{{repositoryName}}` and include your repository name.
+

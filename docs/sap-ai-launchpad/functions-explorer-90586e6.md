@@ -41,7 +41,7 @@ You use deployments to make online predictions.
 
 
 
-The *Functions Explorer* app has a number of standard role collections which group commonly required roles. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md). You can also create your own role collections and assign roles to them based on your organizational requirements.
+The *Functions Explorer* app has a number of standard role collections which group commonly required roles. For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc). You can also create your own role collections and assign roles to them based on your organizational requirements.
 
 <a name="task_p2t_ftp_prb"/>
 
@@ -55,7 +55,7 @@ The *Functions Explorer* app has a number of standard role collections which gro
 
 ## Prerequisites
 
--   You have one of the roles described in [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+-   You have one of the roles described in [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
 
 -   A connection has been established as described in [Assign Connection to Workspace](assign-connection-to-workspace-c05f144.md).
 

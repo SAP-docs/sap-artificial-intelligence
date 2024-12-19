@@ -1,7 +1,5 @@
 <!-- loio5b0183d69a7a4d85acc0db7fb65fa51e -->
 
-<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
-
 # Test Your Orchestration Workflow
 
 After you have built your orchestration workflow, you can test it to generate output from your chosen model.
@@ -29,7 +27,7 @@ After you have built your orchestration workflow, you can test it to generate ou
 
 SAP AI Launchpad displays the response to your prompt, which you can copy to the clipboard. You can also examine the trace to see the JSON for a particular response. The JSON shows the trace for the orchestration workflow that you designed.
 
-If you want to download the JSON, you can do so by clicking <span class="SAP-icons-V5"></span>.
+If you want to download the JSON, you can do so by clicking *Download*.
 
-![](images/test_response_d0b5d4e.png)
+![](images/test_orchestation_9b_95deaf1.png)
 

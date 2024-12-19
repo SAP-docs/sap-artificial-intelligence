@@ -59,7 +59,7 @@ Each record measured in GenAI tokens is converted into billable metric units, kn
 > </table>
 > 
 > -   Total GenAI tokens = x/1000 \* 0.002 + y/1000 \* 0.003
-> -   Capacity units = Total GenAI tokens \* 2.0000 \(capacity unit value\)
+> -   Capacity units = Total GenAI tokens \* 2.24038 \(capacity unit value\)
 
 Charges associated with the use of other SAP AI Core components may also apply. For more information, see [SAP AI Core Metering and Pricing](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/metering-and-pricing).
 

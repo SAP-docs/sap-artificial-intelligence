@@ -10,7 +10,7 @@ A metric is the measure of quality \(confidence\) of a model. During a run, metr
 
 ## Prerequisites
 
-You have the `scenario_metric_viewer` role or you are assigned to a role collection that contains this role. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have the `scenario_metric_viewer` role or you are assigned to a role collection that contains this role. For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
 
 
 

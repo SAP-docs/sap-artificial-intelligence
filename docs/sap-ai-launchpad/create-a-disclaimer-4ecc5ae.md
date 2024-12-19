@@ -8,14 +8,14 @@
 
 ## Prerequisites
 
--   You have either the `genai_administrator` or `prompt_administrator` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+-   You have either the `genai_administrator` or `prompt_administrator` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
 
 
 
 
 ## Context
 
-You can create a custom disclaimer message which will be shown to every user of the *Prompt Editor*, within your tenant. You can use this to implement internal standards, for example to inform users of AI ethics, or data guidelines.
+You can create a custom disclaimer message which will be shown to every user of the *Prompt Editor*and *Chat* applications, within your tenant. You can use this to implement internal standards, for example to inform users of AI ethics, or data guidelines.
 
 
 
@@ -39,8 +39,10 @@ You can create a custom disclaimer message which will be shown to every user of 
 
     If you want to remove your disclaimer message in the future, you do so by deactivating the *Activate Disclaimer* toggle button.
 
-    After publishing, your disclaimer message will show on the *Prompt Editor* application.
+    After publishing, your disclaimer message will show on the *Prompt Editor*and *Chat* applications.
 
     ![](images/inplace_6e43e5e.png)
+
+    ![](images/chat_w_discalaimer_a3da443.png)
 
 

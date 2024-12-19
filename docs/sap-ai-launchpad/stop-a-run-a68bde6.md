@@ -10,7 +10,7 @@ You can stop a run \(training process\) and release any computing resource acqui
 
 ## Prerequisites
 
-You have the role `scenario_job_editor`, or you are assigned to a role collection that contains this role. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have the role `scenario_job_editor`, or you are assigned to a role collection that contains this role. For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
 
 
 

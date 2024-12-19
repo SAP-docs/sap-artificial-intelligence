@@ -28,7 +28,7 @@ Creation of object store secret
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant and user IDs, and attributes containing the API call and `"new": "Succeeded"`.
+Message containing a time stamp, tenant IDs, and attributes containing the API call and `"new": "Succeeded"`.
 
 </td>
 </tr>
@@ -40,7 +40,7 @@ Deletion of object store secret
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant and user IDs, and attributes containing the API call and `"new": "Succeeded"`.
+Message containing a time stamp, tenant IDs, and attributes containing the API call and `"new": "Succeeded"`.
 
 </td>
 </tr>
@@ -64,7 +64,7 @@ Provisioning of resource group
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant and user IDs, and attributes containing the API call and `"new": "Succeeded"`.
+Message containing a time stamp, tenant IDs, and attributes containing the API call and `"new": "Succeeded"`.
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ Deprovisioning of resource group
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant and user IDs, and attributes containing the API call and `"new": "Succeeded"`.
+Message containing a time stamp, tenant IDs, and attributes containing the API call and `"new": "Succeeded"`.
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ Creation of docker registry secret
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant and user IDs, and attributes containing the API call and `"new": "Succeeded"`.
+Message containing a time stamp, tenant IDs, and attributes containing the API call and `"new": "Succeeded"`.
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Deletion of docker registry secret
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant and user IDs, and attributes containing the API call and `"new": "Succeeded"`.
+Message containing a time stamp, tenant IDs, and attributes containing the API call and `"new": "Succeeded"`.
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ Creation of deployments
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant and user IDs, and attributes containing the API call and `"new": "Succeeded"`.
+Message containing a time stamp, tenant IDs, and attributes containing the API call and `"new": "Succeeded"`.
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ Deletion of deployments
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant and user IDs, and attributes containing the API call and `"new": "Succeeded"`.
+Message containing a time stamp, tenant IDs, and attributes containing the API call and `"new": "Succeeded"`.
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ Creation of executions
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant and user IDs, and attributes containing the API call and `"new": "Succeeded"`.
+Message containing a time stamp, tenant IDs, and attributes containing the API call and `"new": "Succeeded"`.
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ Deletion of executions
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant and user IDs, and attributes containing the API call and `"new": "Succeeded"`.
+Message containing a time stamp, tenant IDs, and attributes containing the API call and `"new": "Succeeded"`.
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ Creation of ArgoCD application
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant and user IDs, and attributes containing the API call and `"new": "Succeeded"`.
+Message containing a time stamp, tenant IDs, and attributes containing the API call and `"new": "Succeeded"`.
 
 </td>
 </tr>
@@ -172,7 +172,7 @@ Deletion of ArgoCD application
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant and user IDs, and attributes containing the API call and `"new": "Succeeded"`.
+Message containing a time stamp, tenant IDs, and attributes containing the API call and `"new": "Succeeded"`.
 
 </td>
 </tr>
@@ -184,7 +184,7 @@ Creation of repositories
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant and user IDs, and attributes containing the API call and `"new": "Succeeded"`.
+Message containing a time stamp, tenant IDs, and attributes containing the API call and `"new": "Succeeded"`.
 
 </td>
 </tr>
@@ -196,7 +196,7 @@ Deletion of repositories
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant and user IDs, and attributes containing the API call and `"new": "Succeeded"`.
+Message containing a time stamp, tenant IDs, and attributes containing the API call and `"new": "Succeeded"`.
 
 </td>
 </tr>
@@ -208,7 +208,7 @@ Provisioning of tenant
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant and user IDs, and attributes containing `"name": "state",`, `"new": "PENDING"` and `"name": "cfAccountState`, `"new": "ACTIVE"` and success value `true` 
+Message containing a time stamp, tenant IDs, and attributes containing `"name": "state",`, `"new": "PENDING"` and `"name": "cfAccountState`, `"new": "ACTIVE"` and success value `true` 
 
 </td>
 </tr>
@@ -232,7 +232,7 @@ Deprovisioning of tenant
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant and user IDs, and attributes containing `"name": "state",`, `"new": "PENDING"` and `"name": "cfAccountState`, `"new": "DELETED"` and success value `true`.
+Message containing a time stamp, tenant IDs, and attributes containing `"name": "state",`, `"new": "PENDING"` and `"name": "cfAccountState`, `"new": "DELETED"` and success value `true`.
 
 </td>
 </tr>
@@ -248,7 +248,7 @@ Message containing a time stamp, tenant and user IDs, and attributes containing 
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant and user IDs, source IPs, the request URI, and the level.
+Message containing a time stamp, tenant IDs, source IPs, the request URI, and the level.
 
 </td>
 </tr>
@@ -264,7 +264,7 @@ Message containing a time stamp, tenant and user IDs, source IPs, the request UR
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant and user IDs, source IPs, the request URI, the level, and the request and response objects.
+Message containing a time stamp, tenant IDs, source IPs, the request URI, the level, and the request and response objects.
 
 </td>
 </tr>
@@ -276,7 +276,7 @@ Delete
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant and user IDs, source IPs, the request URI, the level, the and response object.
+Message containing a time stamp, tenant IDs, source IPs, the request URI, the level, the and response object.
 
 </td>
 </tr>

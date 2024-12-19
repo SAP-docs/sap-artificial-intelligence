@@ -10,7 +10,7 @@ In the OpenAI format, a prompt and its response can contain a list of messages w
 
 ## Example
 
-When you use a Gemini model with orchestration, the OpenAI message format is translated internally to the Vertex AI message format. Consider the following message list in OpenAI format:
+When you use a Gemini model with orchestration, the OpenAI message format is translated internally to the Vertex AI message format expected by the Gemini model. Consider the following message list in OpenAI format:
 
 ```json
 [
@@ -29,7 +29,7 @@ When you use a Gemini model with orchestration, the OpenAI message format is tra
 ]
 ```
 
-To use this message list with a Gemini model, it can be translated internally as follows:
+To use this message list with a Gemini model, it is translated internally to the following:
 
 ```json
 {
@@ -43,7 +43,7 @@ To use this message list with a Gemini model, it can be translated internally as
   },
   "contents": [
     {
-      "role": user,
+      "role": "user",
       "parts": [
         {
           "text": "Hello"
@@ -119,7 +119,7 @@ Responses from Vertex AI are converted back into OpenAI's format, ensuring the c
 }
 ```
 
-This can be translated back into the OpenAI format as follows:
+This is translated internally back into the OpenAI format, returning the following:
 
 ```json
 {

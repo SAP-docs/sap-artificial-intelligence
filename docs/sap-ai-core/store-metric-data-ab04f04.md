@@ -24,7 +24,7 @@ The following limits apply to each of the attributes in the MetricResource:
 
 <a name="loioab04f048da444d13bae08214c9d40e12__section_ub1_rpf_ynb"/>
 
-## `executionId`
+## executionId
 
 A unique identifier for an execution.
 
@@ -32,9 +32,9 @@ A unique identifier for an execution.
 
 <a name="loioab04f048da444d13bae08214c9d40e12__section_jrm_rpf_ynb"/>
 
-## `metrics`
+## metrics
 
-A metric is a key/value pair where the value is numeric. Metrics can have optional step, timestamp, and label fields. Metrics are captured as part of a training execution to evaluate a model's performance. Every metric \(and associated labels\), tag, and custom info must be associated with an execution. Once the metric, tag, and custom info are saved, they can be queried with an execution ID.
+A metric is a key/value pair where the value is numeric. Metrics are used to measure and monitor the performance, progress, and quality of a model during the training process. Common examples of metrics include accuracy, precision, recall, F1 score, and mean squared error. Metrics can have optional step, timestamp, and label fields, which provide additional information about the metric's context. Every metric \(and associated labels\), tag, and custom info must be associated with a specific training execution. This association allows for proper organization, tracking, and comparison of different training runs. Once the metric, tag, and custom info are saved, they can be queried using an execution ID.
 
 **Metrics Attributes**
 
@@ -182,7 +182,7 @@ See [Table 2](store-metric-data-ab04f04.md#loioab04f048da444d13bae08214c9d40e12_
 
 ## `labels`
 
-A label is a classifying phrase or name applied to a metric. A set of labels can be used to provide each instance of a metric record with extra information.
+A label is a key-value pair attached to a metric to provide additional context and metadata. Labels are used to classify and categorize metrics, enabling users to filter, group, and aggregate data for better insights and analysis. A set of labels can be applied to each instance of a metric record, allowing for more granular and targeted monitoring.
 
 **Label Attributes**
 
@@ -285,7 +285,7 @@ When an execution produces only one output model artifact, all metrics captured 
 
 ## `tags`
 
-A tag is a name/value pair that is used to support segregation at execution level. For example, you can assign tags to a group of selected test executions. A set of tags can be associated with a `MetricResource`, which in turn is linked to an execution.
+A tag is a name/value pair that is used to categorize and organize test executions. Tags allow for the segregation and grouping of test executions based on specific criteria, making it easier to manage, analyze, and report on the results. For example, you can assign tags to a group of selected test executions to indicate their purpose, priority, or other relevant characteristics. A set of tags can be associated with a `MetricResource`, which is an entity that represents a specific metric or measurement. The `MetricResource`, in turn, is linked to an execution, establishing a connection between the tags and the corresponding test run. This relationship enables the effective tracking, monitoring, and evaluation of test executions based on their assigned tags.
 
 **Tag Attributes**
 

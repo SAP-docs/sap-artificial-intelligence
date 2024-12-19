@@ -26,6 +26,8 @@ You make a generative AI model available for use by creating a deployment. You c
 		to complete tasks like summarizing text, inferencing, and transforming content. To do so,
 		you consume a generative AI model by sending a request to the model's endpoint.")**  
 The generative AI hub helps you to complete tasks like summarizing text, inferencing, and transforming content. To do so, you consume a generative AI model by sending a request to the model's endpoint.
+-   **[Prompt Registry](prompt-registry-5392e7d.md "Manage the life cycle of your prompts, from design to runtime.")**  
+Manage the life cycle of your prompts, from design to runtime.
 -   **[Orchestration](orchestration-cdd4847.md "Orchestration combines content generation with a set of functions that are often required in business AI scenarios.")**  
 Orchestration combines content generation with a set of functions that are often required in business AI scenarios.
 

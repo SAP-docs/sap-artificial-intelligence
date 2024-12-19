@@ -14,7 +14,7 @@ You can find a run and explore its details.
 
 You have the roles `scenario_job_viewer` and `scenario_metric_viewer`, or a role collection that contains one of these roles.
 
-For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
 
 
 

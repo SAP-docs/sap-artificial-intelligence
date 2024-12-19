@@ -6,7 +6,7 @@
 
 ## Context
 
-You have the `mloperations_editor` or `execution_schedules_viewer` role, or you have been assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+You have the `mloperations_editor` or `execution_schedules_viewer` role, or you have been assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
 
 Executions created by this schedule are shown in the *Associated Executions* tab.
 

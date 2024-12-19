@@ -12,7 +12,7 @@ You select a connection and resource group so that you can complete tasks within
 
 ## Prerequisites
 
--   You have the `connections_viewer` role. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+-   You have the `connections_viewer` role. For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
 
 -   You have created one or more AI API connections \(see [Add Connection to SAP AI Core](add-connection-to-sap-ai-core-71dfe2c.md)\).
 
@@ -32,9 +32,9 @@ By default, your users can access all resource groups. If required, you can defi
 **Related Information**  
 
 
-[Custom Access for Connections](custom-access-for-connections-8ba6a92.md "You can selectively control users' access to connections within SAP AI Launchpad.")
+[Custom Access for Connections](security-e4cf710.md#loio8ba6a922e774468d91df127725603bdf "You can selectively control users' access to connections within SAP AI Launchpad.")
 
-[Custom Access for Resource Groups](custom-access-for-resource-groups-19e3932.md "You can selectively control users' access to resource groups (within an AI runtime connection) in SAP AI Launchpad.")
+[Custom Access for Resource Groups](security-e4cf710.md#loio19e39328d7f44af6b3b8a83983bde325 "You can selectively control users' access to resource groups (within an AI runtime connection) in SAP AI Launchpad.")
 
 [Manage Resource Groups](manage-resource-groups-7217afb.md "")
 
@@ -82,7 +82,7 @@ With the connection assigned, you can now choose a resource group. See [Assign R
 **Related Information**  
 
 
-[Custom Access for Connections](custom-access-for-connections-8ba6a92.md "You can selectively control users' access to connections within SAP AI Launchpad.")
+[Custom Access for Connections](security-e4cf710.md#loio8ba6a922e774468d91df127725603bdf "You can selectively control users' access to connections within SAP AI Launchpad.")
 
 <a name="loio1fe43ac042ab46749bec34b50601dce0"/>
 
@@ -108,7 +108,7 @@ You have the `allow_all_resourcegroups` role, or you are assigned a role collect
 
 Resource groups are used to isolate related ML resources and workloads for logical and performance reasons.
 
-By default, users can access all resource groups. However, custom access settings may apply so that users only see connections and resource groups applicable to their needs. See [Custom Access for Resource Groups](custom-access-for-resource-groups-19e3932.md).
+By default, users can access all resource groups. However, custom access settings may apply so that users only see connections and resource groups applicable to their needs. See [Custom Access for Resource Groups](security-e4cf710.md#loio19e39328d7f44af6b3b8a83983bde325).
 
 Administrators can create, edit, or delete resource groups using the *ML Operations* app.
 

@@ -27,7 +27,7 @@ As the request body, enter a sample instance in JSON format.
 In this example, the name of the model is “churn”.
 
 ```
-curl --location --request POST '$AI_API_URL/v1/models/churn:predict' \
+curl --location --request POST ' $deploymentUrl/v1/models/churn:predict' \
 ```
 
 **Parent topic:**[Use Your Model](use-your-model-7f93e8f.md "You deploy your AI learning model to run inferences against it.")
@@ -39,7 +39,7 @@ curl --location --request POST '$AI_API_URL/v1/models/churn:predict' \
 
 [Serving Templates](serving-templates-20a8667.md "You use serving templates to manage your serving instances at the level of the main tenant. Serving templates define how a model is to be deployed.")
 
-[List Executables](list-executables-6af8e60.md "An executable is a template that is instantiated for a purpose, such as training a model or creating a deployment. You can list all of the executables in a resource group and get details of specific executables from a resource group. Serving templates are mapped to deployment executables.")
+[List Executables](list-executables-6af8e60.md "An executable is a reusable template that defines a workflow or pipeline for tasks such as training a machine learning model or creating a deployment. It contains placeholders for input artifacts (datasets or models) and parameters (custom key-pair values) that enable the template to be reused in different scenarios.. You can list all of the executables in a resource group and get details of specific executables from a resource group. Serving templates are mapped to deployment executables.")
 
 [Deploy Models](deploy-models-dd16e8e.md "")
 

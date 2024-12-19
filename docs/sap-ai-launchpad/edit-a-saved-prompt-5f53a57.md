@@ -10,7 +10,7 @@
 
 -   You’ve selected the AI API connection and resource group that you used in the activation steps.
 
--   You have either the `genai_manager` or `prompt_manager` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](roles-and-authorizations-4ef8499.md).
+-   You have either the `genai_manager` or `prompt_manager` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
 
 
 > ### Note:  
@@ -28,12 +28,24 @@
 
 3.  Choose *Open in Editor*. Make your changes.
 
-    ![](images/open_in_prompt_editor_d2b6cc5.png)
+    ![](images/edit_a_prompt_c344bcc.png)
 
     > ### Note:  
     > If the model used for your prompt is no longer available you will be notified when you open the prompt in the editor and you must choose another model.
 
     ![](images/choose_new_model_e70d769.png)
+
+    For changes to the prompt message, the *Save* button is available, and saving creates a new prompt version.
+
+    ![](images/PromptSave_e89f8e1.png)
+
+    For changes to meta data only, the *Update* button is available, and updating the meta data for the same prompt version.
+
+    Meta data updates at prompt level, such as *Prompt Name* and *Collection* are updated across all versions of the prompt
+
+    Meta data updates at prompt version level, such as *Tags* and *Notes* are updated across the current version of the prompt
+
+    ![](images/PromptUpdate_3696867.png)
 
 
 

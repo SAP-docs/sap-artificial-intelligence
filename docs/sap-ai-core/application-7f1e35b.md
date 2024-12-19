@@ -100,7 +100,7 @@ After you have deleted or created an application, templates are not synced.
 
     `POST` `{{apiurl}}/v2/admin/applications`
 
-5.  Check the ArgoCD applications to determineif the repository has been synchronized correctly for the tenant. For example, check that there are no duplicated workflow names. The value of the `name` parameter is considered as an executable ID.
+5.  Check the ArgoCD applications to determine if the repository has been synchronized correctly for the tenant. For example, check that there are no duplicated workflow names. The value of the `name` parameter is considered as an executable ID.
 
     ```
     apiVersion: argoproj.io/v1alpha1
@@ -160,7 +160,7 @@ After you have deleted or created an application, templates are not synced.
 
     `POST` `{{apiurl}}/v2/admin/applications`
 
-5.  Check the ArgoCD applications to determineif the repository has been synchronized correctly for the tenant. For example, check that there are no duplicated workflow names. The value of the `name` parameter is considered as an executable ID.
+5.  Check the ArgoCD applications to determine if the repository has been synchronized correctly for the tenant. For example, check that there are no duplicated workflow names. The value of the `name` parameter is considered as an executable ID.
 
     ```
     apiVersion: argoproj.io/v1alpha1
@@ -275,11 +275,7 @@ Delete your application and create a new one, specifying a path. Check its statu
 
 ## Sync an Application Manually
 
-
-
-### Applications sync with your GitHub repository automatically at intervals of ~3 minutes. Use the endpoint below to manually request a sync:
-
-`{{apiurl}}/admin/applications/{{appName}}/refresh`
+Applications sync with your GitHub repository automatically at intervals of ~3 minutes. Use the endpoint below to manually request a sync:`{{apiurl}}/admin/applications/{{appName}}/refresh`
 
 **Parent topic:**[Troubleshooting](troubleshooting-3da90ba.md "For troubleshooting information, see the following sections:")
 
