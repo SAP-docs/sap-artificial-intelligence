@@ -11,7 +11,7 @@ Functions include:
 -   Content filtering, which lets you restrict the type of content that is passed to and received from a generative AI model
 -   Data Masking, which lets you mask data via anonymization or pseudonymization before passing it into a genereative AI model. In case of pseudonymization masked data present in the generative AI model response will be unmasked.
 
--   Gounding, which lets you integrate external, contextually relevant, domain-specific, or real-time data into AI processes. This data supplements the natural language processing capabilities of pre-trained models, which are trained on general material.
+-   Grounding, which lets you integrate external, contextually relevant, domain-specific, or real-time data into AI processes. This data supplements the natural language processing capabilities of pre-trained models, which are trained on general material.
 
 
 -   **[Orchestration Workflow](orchestration-workflow-b233648.md "In a basic orchestration scenario, you can combine different modules from orchestration into a pipeline that can be executed with a single
