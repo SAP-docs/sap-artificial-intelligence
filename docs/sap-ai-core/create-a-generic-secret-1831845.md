@@ -37,7 +37,13 @@ SAP AI Core lets you optionally use generic secrets at the following levels:
 
 Generic secrets are different to system secrets \(such as object store, Docker registry, and so on\) and can be used to store sensitive information, either for the main tenant, for all of its resource groups, or for each resource group via an API. The latter can be attached to containers in executions or deployments as environment variables or volume mounts.
 
-Tenant-wide secrets are only automatically propagated to the appropriate resource group when a new execution or deployment is created. They are not propagated to running deployments.
+> ### Note: 
+> In order to allow rotation of Tenant-Wide secrets for long-running deployments without restarting the deployment, the following guidelines must be followed:
+> 
+> - The deployment MUST mount the Tenant-Wide secret in order to allow k8s to update the mounted copy when the secret in the rg- namespace is updated by the Replicator. This mount should be hard-coded in the ServingTemplate yaml and be read-only.
+> - The deployment MUST monitor the mounted secret for changes instead of relying on an in-memory copy of the secret read from the mount.
+> 
+> - When a Tenant-Wide secret is updated, the tenant is responsible for observing the response of /secrets/{secret-name} endpoint to ensure that the Replicator has successfully updated the secret in all resource groups.
 
 
 
@@ -100,7 +106,14 @@ SAP AI Core lets you optionally use generic secrets at the following levels:
 
 Generic secrets are different to system secrets \(such as object store, Docker registry, and so on\) and can be used to store sensitive information, either for the main tenant, for all of its resource groups, or for each resource group via an API. The latter can be attached to containers in executions or deployments as environment variables or volume mounts.
 
-Tenant-wide secrets are only automatically propagated to the appropriate resource group when a new execution or deployment is created. They are not propagated to running deployments.
+> ### Note: 
+> In order to allow rotation of Tenant-Wide secrets for long-running deployments without restarting the deployment, the following guidelines must be followed:
+> 
+> - The deployment MUST mount the Tenant-Wide secret in order to allow k8s to update the mounted copy when the secret in the rg- namespace is updated by the Replicator. This mount should be hard-coded in the ServingTemplate yaml and be read-only.
+> - The deployment MUST monitor the mounted secret for changes instead of relying on an in-memory copy of the secret read from the mount.
+> 
+> - When a Tenant-Wide secret is updated, the tenant is responsible for observing the response of /secrets/{secret-name} endpoint to ensure that the Replicator has successfully updated the secret in all resource groups.
+
 
 
 
