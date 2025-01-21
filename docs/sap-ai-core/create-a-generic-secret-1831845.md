@@ -39,10 +39,8 @@ Generic secrets are different to system secrets \(such as object store, Docker r
 
 > ### Note: 
 > In order to allow rotation of Tenant-Wide secrets for long-running deployments without restarting the deployment, the following guidelines must be followed:
-> 
-> - The deployment MUST mount the Tenant-Wide secret in order to allow k8s to update the mounted copy when the secret in the rg- namespace is updated by the Replicator. This mount should be hard-coded in the ServingTemplate yaml and be read-only.
+> - The deployment MUST mount the Tenant-Wide secret. For more information see [Consume a Generic Secret as a Volume Mount](consume-generic-secrets-in-executions-or-deployments-185a324.md)
 > - The deployment MUST monitor the mounted secret for changes instead of relying on an in-memory copy of the secret read from the mount.
-> 
 > - When a Tenant-Wide secret is updated, the tenant is responsible for observing the response of /secrets/{secret-name} endpoint to ensure that the Replicator has successfully updated the secret in all resource groups.
 
 
@@ -108,10 +106,8 @@ Generic secrets are different to system secrets \(such as object store, Docker r
 
 > ### Note: 
 > In order to allow rotation of Tenant-Wide secrets for long-running deployments without restarting the deployment, the following guidelines must be followed:
-> 
-> - The deployment MUST mount the Tenant-Wide secret in order to allow k8s to update the mounted copy when the secret in the rg- namespace is updated by the Replicator. This mount should be hard-coded in the ServingTemplate yaml and be read-only.
+> - The deployment MUST mount the Tenant-Wide secret. For more information see [Consume a Generic Secret as a Volume Mount](consume-generic-secrets-in-executions-or-deployments-185a324.md)
 > - The deployment MUST monitor the mounted secret for changes instead of relying on an in-memory copy of the secret read from the mount.
-> 
 > - When a Tenant-Wide secret is updated, the tenant is responsible for observing the response of /secrets/{secret-name} endpoint to ensure that the Replicator has successfully updated the secret in all resource groups.
 
 
