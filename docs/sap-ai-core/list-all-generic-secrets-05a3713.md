@@ -1,6 +1,8 @@
 <!-- loio05a3713aa6a94356b08e09e86260b16d -->
 
-# List All Generic Secrets
+# Get Generic Secrets
+
+Generic secrets can either be retrieved as a single secret, or you can list all existing secrets.
 
 
 
@@ -15,7 +17,22 @@
 <a name="task_i3h_n13_tcc__steps_p1m_clf_zcc"/>
 
 ## Procedure
+### Get Secret:
 
+Submit a GET request to the endpoint `/v2/admin/secrets/<secret-name>`, and include the scope via the headers:
+
+-   `AI-Tenant-Scope` : `true`. The operation will be performed at the main-tenant level.
+-   `AI-Resource-Group` : <code><i class="varname">&lt;resource-group-name&gt;</i></code>. The operation will be performed at the resource-group level.
+-   `AI-Tenant-Scope` : `true` and `AI-Resource-Group`: `*`. The operation will be performed at the tenant-wide level.
+
+```
+curl --location --request GET "$AI_API_URL/v2/admin/secrets/$SECRET_NAME" \
+--header "Authorization: Bearer $TOKEN" \
+--header 'AI-Resource-Group: default'
+
+```
+
+### Get all Secrets: 
 Submit a GET request to the endpoint `/v2/admin/secrets`, and include the scope via the headers:
 
 -   `AI-Tenant-Scope` : `true`. The operation will be performed at the main-tenant level.
@@ -28,13 +45,26 @@ curl --location --request GET "$AI_API_URL/v2/admin/secrets" \
 --header 'AI-Resource-Group: default'
 
 ```
-
-
-
 <a name="task_i3h_n13_tcc__result_vck_3lf_zcc"/>
 
 ## Results
+### Get Secret:
+The response contains the name, and the creation timestamp of the requested generic secrets. No sensitive information is revealed in the response.
+In the case of a tenant-wide secret, the response also includes a list of all resource groups associated with the tenant and the current replication status of the secret to these resource groups.
 
+```
+# Example response for a tenant-wide secret
+{
+  "name": "secret-1",
+  "createdAt": "<timestamp>",
+  "resourceGroupSecretReplicationStatus":{
+      "rg-id-1" : true,  # secret was replicated correctly in this namespace
+      "rg-id-2" : false, # secret was not replicated or does not exist in this namespace yet
+  }
+}
+
+```
+### Get all Secrets: 
 The response includes a list of generic secrets, their name, and their creation timestamp. No sensitive information is revealed in the response.
 
 <a name="task_cxf_n13_tcc"/>
@@ -48,6 +78,20 @@ The response includes a list of generic secrets, their name, and their creation 
 <a name="task_cxf_n13_tcc__steps_bqv_vkf_zcc"/>
 
 ## Procedure
+
+### Get Secret
+
+Send a GET request to the endpoint `{{apiurl}}/v2/admin/secrets/{{secret_name}}`.
+
+1.  As the request body, select the *none* radio button.
+
+2.  Specify the scope of the request via the header `AI-Tenant-Scope` or `AI-Resource-Group`:
+
+    -   `AI-Tenant-Scope` : `true`. The operation will be performed at the main-tenant level.
+    -   `AI-Resource-Group` : <code><i class="varname">&lt;resource-group-name&gt;</i></code>. The operation will be performed at the resource-group level.
+    -   `AI-Tenant-Scope` : `true` and `AI-Resource-Group`: `*`. The operation will be performed at the tenant-wide level.
+
+### Get all Secrets
 
 Send a GET request to the endpoint `{{apiurl}}/v2/admin/secrets`.
 
@@ -65,6 +109,22 @@ Send a GET request to the endpoint `{{apiurl}}/v2/admin/secrets`.
 <a name="task_cxf_n13_tcc__result_sxh_jlf_zcc"/>
 
 ## Results
+### Get Secret:
+The response contains the name, and the creation timestamp of the requested generic secrets. No sensitive information is revealed in the response.
+In the case of a tenant-wide secret, the response also includes a list of all resource groups associated with the tenant and the current replication status of the secret to these resource groups.
 
+```
+# Example response for a tenant-wide secret
+{
+  "name": "secret-1",
+  "createdAt": "<timestamp>",
+  "resourceGroupSecretReplicationStatus":{
+      "rg-id-1" : true,  # secret was replicated correctly in this namespace
+      "rg-id-2" : false, # secret was not replicated or does not exist in this namespace yet
+  }
+}
+
+```
+### Get all Secrets: 
 The response includes a list of generic secrets, their name, and their creation timestamp. No sensitive information is revealed in the response.
 
