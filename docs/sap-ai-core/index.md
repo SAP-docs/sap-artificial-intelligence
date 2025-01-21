@@ -51,7 +51,7 @@
         -   [Delete a Docker Registry Secret](delete-a-docker-registry-secret-5ff30f0.md)
     -   Manage Generic Secrets
         -   [Create a Generic Secret](create-a-generic-secret-1831845.md)
-        -   [List All Generic Secrets](list-all-generic-secrets-05a3713.md)
+        -   [Get Generic Secrets](get-generic-secrets-05a3713.md)
         -   [Update a Generic Secret](update-a-generic-secret-b5d5970.md)
         -   [Delete a Generic Secret](delete-a-generic-secret-d5d5187.md)
         -   [Consume Generic Secrets in Executions or Deployments](consume-generic-secrets-in-executions-or-deployments-185a324.md)
