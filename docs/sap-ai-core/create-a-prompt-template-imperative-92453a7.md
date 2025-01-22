@@ -27,7 +27,6 @@ Create a prompt template by sending a POST request to endpoint <code><code>{{api
 > ### Sample Code:  
 > ```
 > curl -X POST "{{apiurl}}/lm/promptTemplates"\
-> --header 'AI-Resource-Group: <Resource Group Id>' \
 > --header 'Content-Type: application/json' \
 > --header "Authorization: Bearer $TOKEN" \
 > --data '{
