@@ -4,10 +4,6 @@
 
 
 
-## Context
-
-
-
 ## Procedure
 
 Send a POST request to the endpoint: `$AI_API_URL/v2/lm/document-grounding/vector/collections/{{collectionId}}/documents`

@@ -21,7 +21,7 @@ curl --request POST $ORCH_DEPLOYMENT_URL/completion \
           ]
         },
         "llm_module_config": {
-          "model_name": "gpt-35-turbo-16k",
+          "model_name": "<ModelName>",
           "model_params": {
             "max_tokens": 300
           }

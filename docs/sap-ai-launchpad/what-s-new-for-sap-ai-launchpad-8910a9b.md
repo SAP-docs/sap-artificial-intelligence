@@ -230,7 +230,7 @@ Generative AI hub
 
 Additional selected models and model versions from Anthropic via AWS Bedrock are supported.
 
-For more information, see [Models and Scenarios in the Generative AI Hub](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/729dd9e0928746e4a76c6e0fbe72ffa7.html "") :arrow_upper_right:.
+For more information, see [Foundation Models](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/2d981fb192f84837a64df26b4983156f.html "The foundation models service operates under the global AI scenario foundation-models, which is managed by SAP AI Core.") :arrow_upper_right: and SAP Note [3437766](https://me.sap.com/notes/3437766).
 
 </td>
 <td valign="top">

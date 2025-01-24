@@ -1,22 +1,24 @@
-<!-- loio3dd1bc414c1848fe869e94902a3ead9f -->
+<!-- loio4b6d4a8a43dd4eb88be5f087efaddd92 -->
 
-# Grounding
+# Using the Grounding Module
 
 
+
+<a name="loio4b6d4a8a43dd4eb88be5f087efaddd92__section_vr2_rpj_12c"/>
 
 ## Prerequisites
 
-You have created a resource group for grounding purposes. For more information, see [Create a Resource Group for AI Data Management](create-a-resource-group-for-ai-data-management-6712bfe.md)
-
-You have created a generic secret for grounding purposes. For more information, see [Create a Generic Secret for AI Data Management](create-a-generic-secret-for-ai-data-management-bdea357.md)
+You have created a deployment for orchestration as described at [Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4387aa7.md).
 
 
 
-## Procedure
+<a name="loio4b6d4a8a43dd4eb88be5f087efaddd92__section_iq5_rpj_12c"/>
 
-The following code uses SAP HANA Vector Store:
+## Process
 
- > ### Sample Code:  
+The following code illustrates how you can use the grounding module with SAP HANA Vector Store.
+
+> ### Sample Code:  
 > ```
 > curl --request POST $ORCH_DEPLOYMENT_URL/completion \
 > --header 'content-type: application/json' \
@@ -70,4 +72,10 @@ The following code uses SAP HANA Vector Store:
 > 
 > ```
 
- 
+**Related Information**  
+
+
+[Leveraging Orchestration Capabilities to Enhance Responses](https://developers.sap.com/tutorials/ai-core-orchestration-consumption-opt.html)
+
+[Libraries and SDKs](libraries-and-sdks-499309d.md "Explore additional SDKs and Libraries, for use with SAP AI Core.")
+

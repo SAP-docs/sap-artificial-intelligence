@@ -1,6 +1,6 @@
 <!-- loio9c972e2301344a5f9511bff4bc7c4fcb -->
 
-# Pipeline API
+# Preparing Data Using the Pipeline API
 
 This API call creates a pipeline for indexing documents.
 
@@ -8,39 +8,12 @@ This API call creates a pipeline for indexing documents.
 
 ## Prerequisites
 
-You have created a resource group for grounding purposes. For more information, see [Create a Resource Group for AI Data Management](create-a-resource-group-for-ai-data-management-6712bfe.md)
-
-You have created a generic secret for grounding purposes. For more information, see [Create a Generic Secret for AI Data Management](create-a-generic-secret-for-ai-data-management-bdea357.md)
+-   You have created a resource group \(see [Create a Resource Group for Grounding](create-a-resource-group-for-grounding-6712bfe.md)\).
+-   You have created a generic secret \(see [Create a Generic Secret for Grounding](create-a-generic-secret-for-grounding-bdea357.md)\).
 
 
 
 ## Context
-
-This pipeline segments data into chunks and generates embeddings, which are multidimensional representations of textual information. The embeddings are stored in a vector database.
-
-The following document stores are compatible:
-
--   Microsoft SharePoint
-
-    -   Maximum of 2000 documents
-
-    -   Content updated once per day
-
-
-
-The following document formats are compatible:
-
--   .pdf
-
--   .docx
-
-
-The following document content formats are compatible:
-
--   Plain text
-
-
-For region and pricing information, see [SAP Note 350347](https://me.sap.com/notes/3505347).
 
 
 

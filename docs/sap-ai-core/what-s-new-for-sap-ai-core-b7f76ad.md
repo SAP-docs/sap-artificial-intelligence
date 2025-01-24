@@ -92,6 +92,74 @@ Generative AI hub
 </td>
 <td valign="top">
 
+You can now configure your orchestration workflow so that Llama Guard 3 filters input and output content. Llama Guard 3 provides several content categories for filtering content.
+
+Azure Content Safety is still supported.
+
+For more information, see [Input Filtering](input-filtering-4446382.md) and [Output Filtering](output-filtering-b021a5e.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-01-19
+
+</td>
+<td valign="top">
+
+2025-01-19
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
 Prompt registry
 
 Prompt registry integrates prompt templates into SAP AI Core, making them discoverable across your applications and orchestration It reduces the complexity of dealing with prompt templates and leveraging integration capabilities.
@@ -166,7 +234,7 @@ The vector API can be used for managing collections and documents in the Vector 
 
 The retrieval API searches data repositories and returns the relevant chunks for the user query.
 
-For more information, see [Vector API](vector-api-221b03f.md) and [Retrieval API](retrieval-api-a27f4ad.md).
+For more information, see [Preparing Data Using the Vector API](preparing-data-using-the-vector-api-221b03f.md) and [Retrieval API](retrieval-api-a27f4ad.md).
 
 </td>
 <td valign="top">
@@ -232,7 +300,7 @@ Generative AI hub
 
 Additional selected models and model versions from Anthropic via AWS Bedrock are supported.
 
-For more information, see [Models and Scenarios in the Generative AI Hub](models-and-scenarios-in-the-generative-ai-hub-729dd9e.md).
+For more information, see [Foundation Models](foundation-models-2d981fb.md) and SAP Note [3437766](https://me.sap.com/notes/3437766).
 
 </td>
 <td valign="top">
@@ -428,7 +496,7 @@ Generic Secrets
 </td>
 <td valign="top">
 
-Generic secrets are available at the tenant wide level.
+Generic secrets are now available at the tenant-wide level.
 
 For more information, see [Create a Generic Secret](create-a-generic-secret-1831845.md).
 
@@ -498,7 +566,7 @@ Pipeline API added.
 
 This pipeline segments data into chunks and generates embeddings, which are multidimensional representations of textual information. The embeddings are stored in a vector database.
 
-For more information, see [Pipeline API](pipeline-api-9c972e2.md).
+For more information, see [Preparing Data Using the Pipeline API](preparing-data-using-the-pipeline-api-9c972e2.md).
 
 </td>
 <td valign="top">
@@ -562,11 +630,9 @@ Generative AI hub
 </td>
 <td valign="top">
 
-Additional module added to orchestration.
+A new module has been added to the orchestration system. The grounding module enhances AI processes by integrating external data that is contextually relevant, domain-specific, or real-time. This additional data complements the natural language processing abilities of pretrained models, which are typically based on general information.
 
-The grounding module integrates external, contextually relevant, domain-specific, or real-time data into AI processes. This data supplements the natural language processing capabilities of pre-trained models, which are trained on general material.
-
-For more information, see [Overview](grounding-454c558.md) and [Consumption](grounding-3dd1bc4.md).
+For more information, see [Grounding](grounding-454c558.md).
 
 </td>
 <td valign="top">

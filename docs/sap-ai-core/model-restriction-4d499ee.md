@@ -28,11 +28,11 @@ To restrict model access, set the `parametersBindings` to contain `modelFilterLi
 >   "parameterBindings": [
 >     {
 >       "key": "modelFilterList",
->       "value": "[{\"modelName\": \"gpt-35-turbo\", \"modelVersions\": [\"0613\", \"0301\"]}, {\"modelName\": \"gemini-1.5-pro\", \"modelVersions\": [\"001\"]}]"
+>       "value": "[{\"modelName\": \"gpt-4o-mini\", \"modelVersions\": [\"0613\", \"0301\"]}, {\"modelName\": \"gemini-1.5-pro\", \"modelVersions\": [\"001\"]}]"
 >     },
 >     {
 >       "key": "modelFilterListType",
->       "value": "false"
+>       "value": "deny"
 >     }
 >   ]
 > }

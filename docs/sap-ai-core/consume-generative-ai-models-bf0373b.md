@@ -75,7 +75,7 @@ The resource group used in the activation steps
 
 ## Example Payloads for Inferencing
 
-llama2-70b-chat-hfThe following examples show how you can consume various generative AI models using curl. For more information about prompts, see the tutorial [Prompt LLMs in the Generative AI Hub in SAP AI Core & Launchpad](https://developers.sap.com/tutorials/ai-core-generative-ai.html).
+The following examples show how you can consume various generative AI models using curl. For more information about prompts, see the tutorial [Prompt LLMs in the Generative AI Hub in SAP AI Core & Launchpad](https://developers.sap.com/tutorials/ai-core-generative-ai.html).
 
 > ### Tip:  
 > If you use a Windows device, use Windows Powershell, and replace `curl` with `curl.exe`.

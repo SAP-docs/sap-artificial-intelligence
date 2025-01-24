@@ -232,7 +232,7 @@ First chunk:
 >     "id": "...", 
 >     "object": "chat.completion.chunk", 
 >     "created": 1728043660, 
->     "model": "gpt-35-turbo-16k", 
+>     "model": "<ModelName>", 
 >     "choices": [
 >       {
 >         "index": 0, 
@@ -262,7 +262,7 @@ Second chunk:
 >     "id": "...", 
 >     "object": "chat.completion.chunk", 
 >     "created": 1728043660, 
->     "model": "gpt-35-turbo-16k", 
+>     "model": "<ModelName>", 
 >     "choices": [
 >       {
 >         "index": 0, 
