@@ -1,6 +1,6 @@
 <!-- loio7a73f1f525404759bb99296b63eca609 -->
 
-# Retrieval Search call
+# Retrieval Search Call
 
 The retrieval search call searches data repositories and returns the relevant chunks for the user query.
 
@@ -10,9 +10,10 @@ The retrieval search call searches data repositories and returns the relevant ch
 
 ## Prerequisites
 
-You have created a resource group for grounding purposes. For more information, see [Create a Resource Group for AI Data Management](create-a-resource-group-for-ai-data-management-6712bfe.md)
+-   You have created a resource group for grounding purposes \(see [Create a Resource Group for Grounding](create-a-resource-group-for-grounding-6712bfe.md)\).
 
-You have created a generic secret for grounding purposes. For more information, see [Create a Generic Secret for AI Data Management](create-a-generic-secret-for-ai-data-management-bdea357.md)
+-   You have created a generic secret for grounding purposes \(see [Create a Generic Secret for Grounding](create-a-generic-secret-for-grounding-bdea357.md)\).
+
 
 
 
@@ -22,7 +23,9 @@ You have created a generic secret for grounding purposes. For more information, 
 
 The following repository types are supported:
 
--   vector
+-   Vectors
+
+-   SAP Help Portal
 
 
 
@@ -54,7 +57,7 @@ For example:
 >       "dataRepositories": [
 >         "<data repository id or '*' >"  # Specify a specific repository ID or use '*' to search across all repositories
 >       ],
->       "dataRepositoryType": "vector",  # The type of repository to search in, can be either "vector"
+>       "dataRepositoryType": "vector",  # The type of repository to search in, can be either "vector" or "help.sap.com"
 >       "dataRepositoryMetadata": [  # Optional metadata filters for data repositories to refine the search
 >         {  # Example metadata filter for data repository
 >           "key": "type",  # The metadata key to filter on

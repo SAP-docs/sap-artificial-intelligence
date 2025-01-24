@@ -14,16 +14,18 @@
 -   You’re using the `extended` service plan. For more information, see [Service Plans](service-plans-c7244c6.md) and [Update a Service Plan](update-a-service-plan-924f892.md).
 -   You have completed the client authorization for your preferred user interface. For more information, see [Use a Service Key in SAP AI Core](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/3a97465bf6164400a4b5c1641007e3d6.html?locale=en-US&state=DRAFT&version=CLOUD).
 
--   You have at least one orchestration-compatible deployment for a generative AI model running. For more information, see [Models and Scenarios in the Generative AI Hub](models-and-scenarios-in-the-generative-ai-hub-729dd9e.md).
+-   You have at least one orchestration-compatible deployment for a generative AI model running. For more information, see [Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4387aa7.md).
 
 
 
 
-<a name="loio4387aa7a9fa44402822ad6bc3631f846__context_erl_h5q_rbc"/>
+<a name="loio4387aa7a9fa44402822ad6bc3631f846__context_oqk_24g_c2c"/>
 
 ## Context
 
 You create a deployment to make orchestration capabilities available for use. After the deployment is complete, you get a `deploymentUrl`. You can use this URL across your organization to access orchestration in the generative AI hub.
+
+For more information, see [Consumption of GenAI Models Using Orchestration – A Beginner's Guide](https://developers.sap.com/tutorials/ai-core-orchestration-consumption.html)as well as [Libraries and SDKs](libraries-and-sdks-499309d.md).
 
 <a name="task_emp_lcz_bcc"/>
 

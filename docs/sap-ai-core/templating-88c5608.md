@@ -113,3 +113,11 @@ or
     }
 ```
 
+-   **[Few-Shot Learning](few-shot-learning-4fe47b1.md "")**  
+
+-   **[Chat](chat-39321a9.md "Orchestration can also be used in chat scenarios. The following example shows how to configure the templating module to use a chat
+		prompt.")**  
+Orchestration can also be used in chat scenarios. The following example shows how to configure the templating module to use a chat prompt.
+-   **[Minimal Call](minimal-call-949e773.md "")**  
+
+

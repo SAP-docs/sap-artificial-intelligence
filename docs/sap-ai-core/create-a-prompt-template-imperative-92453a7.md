@@ -4,13 +4,6 @@
 
 
 
-<a name="loio92453a70576046cbbf3c2550a7a93191__prereq_vn5_gs3_fdc"/>
-
-## Prerequisites
-
-
-
-
 ## Context
 
 > ### Recommendation:  
@@ -27,7 +20,6 @@ Create a prompt template by sending a POST request to endpoint <code><code>{{api
 > ### Sample Code:  
 > ```
 > curl -X POST "{{apiurl}}/lm/promptTemplates"\
-> --header 'AI-Resource-Group: <Resource Group Id>' \
 > --header 'Content-Type: application/json' \
 > --header "Authorization: Bearer $TOKEN" \
 > --data '{

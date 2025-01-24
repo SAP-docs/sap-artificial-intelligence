@@ -8,9 +8,9 @@
 
 ## Prerequisites
 
-You have created a resource group for grounding purposes. For more information, see [Create a Resource Group for AI Data Management](create-a-resource-group-for-ai-data-management-6712bfe.md)
+You have created a resource group for grounding purposes. For more information, see [Create a Resource Group for Grounding](create-a-resource-group-for-grounding-6712bfe.md)
 
-You have created a generic secret for grounding purposes. For more information, see [Create a Generic Secret for AI Data Management](create-a-generic-secret-for-ai-data-management-bdea357.md)
+You have created a generic secret for grounding purposes. For more information, see [Create a Generic Secret for Grounding](create-a-generic-secret-for-grounding-bdea357.md)
 
 
 
@@ -80,7 +80,7 @@ Example for a repository by ID:
 >           ]
 >         }
 >       ],
->       "type": "vector"
+>       "type": "vector" // repository type -  "vector" or "help.sap.com"
 >     },
 >     {
 >       "id": "<respositoryid>",
@@ -100,8 +100,16 @@ Example for a repository by ID:
 >         }
 >       ],
 >     }
->   ],
->   "count": 2
+>   ],      
+>     "type": "vector" // repository type -  "vector" or "help.sap.com"
+>     },
+>     {
+>        "id": "<respositoryid>",
+>        "title": "<repository title>",
+>        "metadata": [],
+>        "type": "help.sap.com" // repository type - can be one of "vector" or "help.sap.com"
+>     }
+>   "count": 3
 > }
 > ```
 

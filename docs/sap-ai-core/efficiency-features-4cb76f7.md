@@ -89,9 +89,6 @@ curl --request PATCH $AI_API_URL/v2/admin/resources/nodes \
 
 ```
 
-> ### Remember:  
-> All reserved nodes are charged at the same rate as nodes used during model training and serving.
-
 
 
 

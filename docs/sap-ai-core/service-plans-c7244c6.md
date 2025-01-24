@@ -146,6 +146,14 @@ Alternatively, you can request an increase to your quota by creating a ticket on
 > 
 > For more information, see [Delete a Resource Group](delete-a-resource-group-40d83a2.md).
 
+
+
+<a name="loioc7244c6a7e3b4ffc928a2564c216e7c7__section_ytk_tjz_ydc"/>
+
+## Tenant-Wide Generic Secrets Quotas
+
+Each tenant can have a maximum of five tenant-wide secrets. If you reach this limit, you'll receive an error message. To free up space, you can delete some tenant-wide secrets as described at [Delete a Generic Secret](delete-a-generic-secret-d5d5187.md). Alternatively, you can submit a ticket to request an increase your quota.
+
 -   **[Free Tier](free-tier-4533adc.md "Enable the free tier option to get to know SAP AI Core with usage
 		limits, to familiarize yourself with the service. Note that usage is limited with this option.")**  
 Enable the free tier option to get to know SAP AI Core with usage limits, to familiarize yourself with the service. Note that usage is limited with this option.

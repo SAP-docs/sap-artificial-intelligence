@@ -8,7 +8,7 @@ Grounding is a service designed to handle data-related tasks, for example ground
 
 The Pipeline API is proxied through the SAP AI Core generative AI hub, and incorporates vector stores, such as the managed HANA database. For more information, see [Pipeline API in SAP AI Core](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/9c972e2301344a5f9511bff4bc7c4fcb.html).
 
-To use the grounding module, you need to have created a resource group and generic for grounding purposes. For more information, see [Create a Resource Group for AI Data Management](create-a-resource-group-for-ai-data-management-36ddabf.md) and [Create a Generic Secret for AI Data Management](create-a-generic-secret-for-ai-data-management-da05d4a.md).
+To use the grounding module, you must first create a resource group and generic secret for grounding purposes. For more information, see [Create a Resource Group for AI Data Management](create-a-resource-group-for-ai-data-management-36ddabf.md) and [Create a Generic Secret for AI Data Management](create-a-generic-secret-for-ai-data-management-da05d4a.md).
 
 You can provide input variables for data retrieval, which can be used in the template definition. Variables must have unique names.
 

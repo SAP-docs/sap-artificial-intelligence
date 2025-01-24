@@ -1,12 +1,22 @@
 <!-- loio592c570f22734ec5ba7881a0aeb49c50 -->
 
-# Data Masking
+# Enhancing Model Consumption with Data Masking
 
-In the following example we use the data masking module to anonymize persons, organisations, and contact information in the input.
 
-The entries "Harvard University" and "Boston" in the allowlist will not be masked.
 
-In this case, the input will be masked before the call to the LLM. However data can not be unmasked in the LLM output.
+<a name="loio592c570f22734ec5ba7881a0aeb49c50__section_vr2_rpj_12c"/>
+
+## Prerequisites
+
+You have created a deployment for orchestration as described at [Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4387aa7.md).
+
+
+
+<a name="loio592c570f22734ec5ba7881a0aeb49c50__section_yqp_1rj_12c"/>
+
+## Process
+
+In the following example, we use the data masking module to anonymize people, organizations, and contact information in the input. The allow list contains the entries “Harvard University” and “Boston”, and so these are not masked. Here, input is masked before the model is called. The data in the model's output cannot be unmasked.
 
 > ### Sample Code:  
 > ```
@@ -59,7 +69,7 @@ In this case, the input will be masked before the call to the LLM. However data 
 > }'
 > ```
 
-As the response shows, the configured entities are masked by the data masking module before being sent to the LLM. The LLM operates on the masked data and is still able to provide a summary.
+As shown in the response, the data masking module masks the configured entities before sending them to the model. The model then operates on this masked data and can still provide a summary.
 
 > ### Output Code:  
 > ```
@@ -129,7 +139,7 @@ As the response shows, the configured entities are masked by the data masking mo
 > }
 > ```
 
-Using `"method": "pseudonymization"` instead of `"method": "anonymization"` in the masking module configuration will pseudonymize the data before sending it to the LLM. Additionally the LLM response is checked for any data that can be unmasked before sending out the final response.
+When you use `"method": "pseudonymization"` instead of `"method": "anonymization"` in the masking module configuration, the data is pseudonymized before it's sent to the model. Additionally, the system checks the model's response for any data that can be unmasked before sending out the final response.
 
 > ### Output Code:  
 > ```
@@ -197,4 +207,38 @@ Using `"method": "pseudonymization"` instead of `"method": "anonymization"` in t
 >   }
 > }
 > ```
+
+When the grounding module is used, the masking module also supports masking of the grounding input before retrieval. By default, this feature is disabled. To enable it the parameter `mask_grounding_input` in the `masking_module_config` can be used as follows:
+
+> ### Sample Code:  
+> ```
+> {
+>   "orchestration_config": {
+>     "module_configurations": {
+>       "masking_module_config": {
+>         "masking_providers": [
+>           {
+>             "type": "sap_data_privacy_integration",
+>             "method": "pseudonymization",
+>             "entities": [
+>               {"type": "profile-person"},
+>               {"type": "profile-email"}
+>             ],
+>             "mask_grounding_input": {"enabled": true}
+>           }
+>         ]
+>         ...
+>       }
+>       ...
+>     }
+>   }
+> }
+> ```
+
+**Related Information**  
+
+
+[Leveraging Orchestration Capabilities to Enhance Responses](https://developers.sap.com/tutorials/ai-core-orchestration-consumption-opt.html)
+
+[Libraries and SDKs](libraries-and-sdks-499309d.md "Explore additional SDKs and Libraries, for use with SAP AI Core.")
 

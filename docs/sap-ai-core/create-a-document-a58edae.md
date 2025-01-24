@@ -6,7 +6,7 @@
 
 ## Context
 
-Aadd a document with associated metadata and chunks, to a collection. For more information, see [Get Collections](get-collections-0cb4f25.md).
+Add a document with associated metadata and chunks to a collection. For more information, see [Get Collections](get-collections-0cb4f25.md).
 
 
 

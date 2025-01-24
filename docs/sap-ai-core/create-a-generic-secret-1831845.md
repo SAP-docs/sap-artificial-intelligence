@@ -39,6 +39,9 @@ Generic secrets are different to system secrets \(such as object store, Docker r
 
 Tenant-wide secrets are only automatically propagated to the appropriate resource group when a new execution or deployment is created. They are not propagated to running deployments.
 
+> ### Note:  
+> Each tenant can have a maximum of five tenant-wide secrets. If you reach this limit, you'll receive an error message. To free up space, you can delete some tenant-wide secrets as described at [Delete a Generic Secret](delete-a-generic-secret-d5d5187.md). Alternatively, you can submit a ticket to request an increase your quota.
+
 
 
 <a name="task_i3h_n13_tcc__steps_mm3_sy2_zcc"/>
@@ -101,6 +104,9 @@ SAP AI Core lets you optionally use generic secrets at the following levels:
 Generic secrets are different to system secrets \(such as object store, Docker registry, and so on\) and can be used to store sensitive information, either for the main tenant, for all of its resource groups, or for each resource group via an API. The latter can be attached to containers in executions or deployments as environment variables or volume mounts.
 
 Tenant-wide secrets are only automatically propagated to the appropriate resource group when a new execution or deployment is created. They are not propagated to running deployments.
+
+> ### Note:  
+> Each tenant can have a maximum of five tenant-wide secrets. If you reach this limit, you'll receive an error message. To free up space, you can delete some tenant-wide secrets as described at [Delete a Generic Secret](delete-a-generic-secret-d5d5187.md). Alternatively, you can submit a ticket to request an increase your quota.
 
 
 

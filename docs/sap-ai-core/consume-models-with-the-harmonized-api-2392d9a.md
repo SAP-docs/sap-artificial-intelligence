@@ -1,20 +1,8 @@
-<!-- loio949e7737f8fc4d88a02dc13a6e261d76 -->
+<!-- loio2392d9a0504e4380bfa75a5efdb64b6e -->
 
-# Minimal Call
+# Consume Models with the Harmonized API
 
-
-
-<a name="loio949e7737f8fc4d88a02dc13a6e261d76__section_vr2_rpj_12c"/>
-
-## Prerequisites
-
-You have created a deployment for orchestration as described at [Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4387aa7.md).
-
-
-
-<a name="loio949e7737f8fc4d88a02dc13a6e261d76__section_zt4_jqj_12c"/>
-
-## Process
+In this section, we will provide a minimal inference call without any orchestration modules.
 
 A minimal call to orchestration contains only configurations of the required templating and model configuration modules. The curl command below shows how to make such a request.
 
@@ -75,7 +63,7 @@ The response contains a `request_id`, the module results from each module that w
 >       "id": "chatcmpl-9k8M3djXphXPWh2QkQm1YVtXK4Eki",
 >       "object": "chat.completion",
 >       "created": 1720782231,
->       "model": "<ModelName>",
+>       "model": " gpt-35-turbo-16k ",
 >       "choices": [
 >         {
 >           "index": 0,
@@ -97,7 +85,7 @@ The response contains a `request_id`, the module results from each module that w
 >     "id": "chatcmpl-9k8M3djXphXPWh2QkQm1YVtXK4Eki",
 >     "object": "chat.completion",
 >     "created": 1720782231,
->     "model": " gpt-35-turbo-16k ",
+>     "model": "<ModelName>",
 >     "choices": [
 >       {
 >         "index": 0,
@@ -122,7 +110,7 @@ The templating module result contains the user message with the filled in parame
 **Related Information**  
 
 
-[Leveraging Orchestration Capabilities to Enhance Responses](https://developers.sap.com/tutorials/ai-core-orchestration-consumption-opt.html)
+[Consumption of GenAI Models Using Orchestration – A Beginner's Guide](https://developers.sap.com/tutorials/ai-core-orchestration-consumption.html)
 
 [Libraries and SDKs](libraries-and-sdks-499309d.md "Explore additional SDKs and Libraries, for use with SAP AI Core.")
 

@@ -10,9 +10,10 @@ The retrieval API searches data repositories and returns the relevant chunks for
 
 ## Prerequisites
 
-You have created a resource group for grounding purposes. For more information, see [Create a Resource Group for AI Data Management](create-a-resource-group-for-ai-data-management-6712bfe.md)
+-   You have created a resource group for grounding purposes \(see [Create a Resource Group for Grounding](create-a-resource-group-for-grounding-6712bfe.md)\).
 
-You have created a generic secret for grounding purposes. For more information, see [Create a Generic Secret for AI Data Management](create-a-generic-secret-for-ai-data-management-bdea357.md)
+-   You have created a generic secret for grounding purposes \(see [Create a Generic Secret for Grounding](create-a-generic-secret-for-grounding-bdea357.md)\).
+
 
 
 
@@ -22,11 +23,13 @@ You have created a generic secret for grounding purposes. For more information, 
 
 The following repository types are supported:
 
--   vector
+-   Vectors
+
+-   SAP Help Portal
 
 
 -   **[Get a Repository](get-a-repository-a64179d.md "")**  
 
--   **[Retrieval Search call](retrieval-search-call-7a73f1f.md "The retrieval search call searches data repositories and returns the relevant chunks for the user query.")**  
+-   **[Retrieval Search Call](retrieval-search-call-7a73f1f.md "The retrieval search call searches data repositories and returns the relevant chunks for the user query.")**  
 The retrieval search call searches data repositories and returns the relevant chunks for the user query.
 

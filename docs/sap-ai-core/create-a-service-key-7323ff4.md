@@ -14,10 +14,19 @@
 
     ![](images/New_Service_Key_0019ba4.png)
 
-    **Optional:**To use an x.509 certificate instead of client secret credentials, specify the credentials by updating and uploading the following as a JSON:
+3.  **Optional:** To use an x.509 certificate instead of client secret credentials, specify the credentials by adjusting and uploading the following JSON code:
 
     ```
-    { "xsuaa": {"credential-type":"x509", "x509": { "key-length": 2048, "validity":7, "validity-type":"DAYS"}
+    {
+      "xsuaa": {
+        "credential-type": "x509",
+        "x509": {
+          "key-length": 2048,
+          "validity": 7,
+          "validity-type": "DAYS"
+        }
+      }
+    }
     ```
 
     -   `key-length`: The byte length of the generated private key. Default: 2048.
@@ -29,7 +38,7 @@
 
     The default combination is a key of length 2048, valid for 7 DAYS.
 
-3.  Download your service key to save it.
+4.  Download your service key to save it.
 
 
 

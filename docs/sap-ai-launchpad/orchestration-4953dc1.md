@@ -2,17 +2,60 @@
 
 # Orchestration
 
-Orchestration combines content generation with a set of functions that are often required in business AI scenarios.
+The orchestration service operates under the global AI scenario `orchestration`, which is managed by SAP AI Core. This service enables the use of various generative AI models with a unified code, configuration, and deployment.
 
-Functions include:
+In this orchestration, the harmonized API allows you to use different foundation models without changing the client code. To use different foundation models and versions, you need to create at least one orchestration deployment.
 
--   Templating, which lets you compose a prompt with placeholders that are filled during inference
+Key features include:
 
--   Content filtering, which lets you restrict the type of content that is passed to and received from a generative AI model
--   Data Masking, which lets you mask data via anonymization or pseudonymization before passing it into a genereative AI model. In case of pseudonymization masked data present in the generative AI model response will be unmasked.
+-   **Templating:** This feature lets you compose prompts with placeholders that are filled during inference.
 
--   Gounding, which lets you integrate external, contextually relevant, domain-specific, or real-time data into AI processes. This data supplements the natural language processing capabilities of pre-trained models, which are trained on general material.
+-   **Content filtering:** This feature allows you to restrict the type of content passed to and received from a generative AI model.
 
+-   **Data masking:** This feature enables data masking through anonymization or pseudonymization before passing it into a generative AI model. If pseudonymization is used, masked data in the model's response will be unmasked.
+
+-   **Grounding:** This feature lets you integrate external, contextually relevant, domain-specific, or real-time data into AI processes. This data enhances the natural language processing capabilities of pretrained models, which are trained on general material.
+
+
+The following scenarios are available:
+
+
+<table>
+<tr>
+<th valign="top">
+
+Global Scenario
+
+</th>
+<th valign="top">
+
+Executable ID
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`orchestration`
+
+</td>
+<td valign="top">
+
+`orchestration`
+
+</td>
+<td valign="top">
+
+Access to orchestration of generative AI models is provided under the global AI scenario `orchestration`, which is managed by SAP AI Core.
+
+</td>
+</tr>
+</table>
 
 -   **[Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4344c5b.md "
 		

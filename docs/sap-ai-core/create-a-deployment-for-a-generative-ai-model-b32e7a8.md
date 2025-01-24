@@ -85,11 +85,11 @@ You make a model available for use by creating a deployment. You can do so one t
     > 	"parameterBindings": [
     > 		{
     > 			"key":"modelName",
-    > 			"value":"gpt-35-turbo"
+    > 			"value":"<ModelName>"
     > 		},
     > 		{
     > 			"key": "modelVersion",
-    > 			"value": "0613"
+    > 			"value": "<ModelVersion>"
     > 		}
     >   ],
     > 	"inputArtifactBindings": []

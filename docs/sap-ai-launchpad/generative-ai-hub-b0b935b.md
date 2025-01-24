@@ -10,7 +10,7 @@ The generative AI hub incorporates generative AI into your AI activities in SAP 
 
 ## Scenarios
 
-Access to generative AI models is provided under the global AI scenario `foundation-models`, which is managed by SAP AI Core. Individual models are provided as executables in the form of serving templates, and accessed by choosing the corresponding template for the desired model.
+Access to generative AI models is provided under the global AI scenarios `foundation-models` and `orchestration`. These scenarios are managed by SAP AI Core. Individual models are provided as executables in the form of serving templates, and accessed by choosing the corresponding template for the desired model.
 
 The following scenarios are available:
 
@@ -186,8 +186,11 @@ Explore available models and their specifications. Inform your model choice usin
 		
 	")**  
 
--   **[Orchestration](orchestration-4953dc1.md "Orchestration combines content generation with a set of functions that are often required in business AI scenarios.")**  
-Orchestration combines content generation with a set of functions that are often required in business AI scenarios.
+-   **[Orchestration](orchestration-4953dc1.md "The orchestration service operates under the global AI scenario
+			orchestration, which is managed by SAP AI Core. This service
+		enables the use of various generative AI models with a unified code, configuration, and
+		deployment.")**  
+The orchestration service operates under the global AI scenario `orchestration`, which is managed by SAP AI Core. This service enables the use of various generative AI models with a unified code, configuration, and deployment.
 -   **[Administration](administration-3d03a2e.md "")**  
 
 

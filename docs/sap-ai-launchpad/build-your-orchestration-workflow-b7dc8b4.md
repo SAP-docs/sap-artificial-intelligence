@@ -115,8 +115,9 @@ You can upload your own orchestration workflow in JSON format. The workflow stru
 
 -   **[Templating](templating-11d44e6.md "")**  
 
--   **[Data Masking](data-masking-79911bd.md "")**  
-
+-   **[Data Masking](data-masking-79911bd.md "The data masking module is optional and serves to anonymize or pseudonymize personally
+		identifiable information from the input for selected entities.")**  
+The data masking module is optional and serves to anonymize or pseudonymize personally identifiable information from the input for selected entities.
 -   **[Input Filtering](input-filtering-f5c7223.md "")**  
 
 -   **[Model Configuration](model-configuration-be3cd61.md "")**  
