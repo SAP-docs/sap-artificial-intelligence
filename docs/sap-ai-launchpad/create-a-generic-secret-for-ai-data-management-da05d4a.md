@@ -21,7 +21,12 @@
 
 You can use the *SAP AI Core Administration* app to add generic secretson the main-tenant or resource-group level. The SAP AI Core API should be used for tenant-wide generic secrets.
 
-Tenant-wide secrets are only automatically propagated to the appropriate resource group when a new execution or deployment is created. They are not propagated to running deployments.
+> ### Note:  
+> In order to allow rotation of tenant-wide secrets for long-running deployments without restarting the deployment, the following guidelines must be followed:
+> 
+> -   > The deployment must mount the tenant-wide secret. For more information see [Consume Generic Secrets in Executions or Deployments](https://help.sap.com/docs/AI_CORE/52b4adb30e6744709d6226d2b0659dea/185a3245692542a78bfeff87220410c6.html).
+> -   > The deployment must monitor the mounted secret for changes instead of relying on an in-memory copy of the secret read from the mount.
+> -   > When a tenant-wide secret is updated, the tenant is responsible for observing the `resourceGroupSecretReplicationStatus` field of the `Get Secret` endpoint, to ensure that the replicator has successfully updated the secret in the required resource groups. For more information, see [Create a Generic Secret](https://help.sap.com/docs/AI_CORE/52b4adb30e6744709d6226d2b0659dea/1831845910364e97b3a7c6644a9e1f4b.html).
 
 
 

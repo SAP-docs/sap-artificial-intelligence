@@ -2,7 +2,7 @@
 
 # Delete a Generic Secret
 
-To get a secret name, see [List All Generic Secrets](list-all-generic-secrets-05a3713.md).
+To get a secret name, see [Get Generic Secrets](get-generic-secrets-05a3713.md).
 
 <a name="task_i3h_n13_tcc"/>
 

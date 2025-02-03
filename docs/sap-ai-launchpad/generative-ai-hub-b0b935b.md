@@ -182,6 +182,8 @@ You make a model available for use by creating a deployment. You can do so one t
 -   **[Model Library](model-library-fce6fea.md "Explore available models and their specifications. Inform your model choice using
 		benchmarking data.")**  
 Explore available models and their specifications. Inform your model choice using benchmarking data.
+-   **[Grounding Management](grounding-management-0ee0f52.md "The grounding management app lets you manage the lifecycle of your data pipelines.")**  
+The grounding management app lets you manage the lifecycle of your data pipelines.
 -   **[Chat](chat-d84b5a1.md "
 		
 	")**  

@@ -40,7 +40,7 @@ The process for providing unstructured documents with the Pipeline API looks lik
 Before you can prepare your data for the Pipeline API, you must create a resource group and a generic secret for grounding. For more information, see:
 
 -   [Create a Resource Group for Grounding](create-a-resource-group-for-grounding-6712bfe.md)
--   [Create a Generic Secret for Grounding](create-a-generic-secret-for-grounding-bdea357.md)
+-   [Grounding Generic Secrets for Microsoft SharePoint](grounding-generic-secrets-for-microsoft-sharepoint-bdea357.md)
 
 
 

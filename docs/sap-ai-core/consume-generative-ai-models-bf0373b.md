@@ -165,6 +165,12 @@ curl --location '$DEPLOYMENT_URL/embeddings?api-version=2023-05-15' \
 
 
 
+<a name="concept_ynz_mgh_tzb__section_gqg_fxc_z1c"/>
+
+## Aleph Alpha
+
+
+
 <a name="concept_ynz_mgh_tzb__section_p3k_fxc_z1c"/>
 
 ## Vertex AI

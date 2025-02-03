@@ -29,7 +29,12 @@ SAP AI Core lets you optionally use generic secrets at the following levels:
 
 Generic secrets are different to system secrets \(such as object store, Docker registry, and so on\) and can be used to store sensitive information, either for the main tenant, for all of its resource groups, or for each resource group via an API. The latter can be attached to containers in executions or deployments as environment variables or volume mounts.
 
-Tenant-wide secrets are only automatically propagated to the appropriate resource group when a new execution or deployment is created. They are not propagated to running deployments.
+> ### Note:  
+> In order to allow rotation of tenant-wide secrets for long-running deployments without restarting the deployment, the following guidelines must be followed:
+> 
+> -   > The deployment must mount the tenant-wide secret. For more information see [Consume Generic Secrets in Executions or Deployments](https://help.sap.com/docs/AI_CORE/52b4adb30e6744709d6226d2b0659dea/185a3245692542a78bfeff87220410c6.html).
+> -   > The deployment must monitor the mounted secret for changes instead of relying on an in-memory copy of the secret read from the mount.
+> -   > When a tenant-wide secret is updated, the tenant is responsible for observing the `resourceGroupSecretReplicationStatus` field of the `Get Secret` endpoint, to ensure that the replicator has successfully updated the secret in the required resource groups. For more information, see [Create a Generic Secret](https://help.sap.com/docs/AI_CORE/52b4adb30e6744709d6226d2b0659dea/1831845910364e97b3a7c6644a9e1f4b.html).
 
 
 
@@ -80,7 +85,12 @@ SAP AI Core lets you optionally use generic secrets at the following levels:
 
 Generic secrets are different to system secrets \(such as object store, Docker registry, and so on\) and can be used to store sensitive information, either for the main tenant, for all of its resource groups, or for each resource group via an API. The latter can be attached to containers in executions or deployments as environment variables or volume mounts.
 
-Tenant-wide secrets are only automatically propagated to the appropriate resource group when a new execution or deployment is created. They are not propagated to running deployments.
+> ### Note:  
+> In order to allow rotation of tenant-wide secrets for long-running deployments without restarting the deployment, the following guidelines must be followed:
+> 
+> -   > The deployment must mount the tenant-wide secret. For more information see [Consume Generic Secrets in Executions or Deployments](https://help.sap.com/docs/AI_CORE/52b4adb30e6744709d6226d2b0659dea/185a3245692542a78bfeff87220410c6.html).
+> -   > The deployment must monitor the mounted secret for changes instead of relying on an in-memory copy of the secret read from the mount.
+> -   > When a tenant-wide secret is updated, the tenant is responsible for observing the `resourceGroupSecretReplicationStatus` field of the `Get Secret` endpoint, to ensure that the replicator has successfully updated the secret in the required resource groups. For more information, see [Create a Generic Secret](https://help.sap.com/docs/AI_CORE/52b4adb30e6744709d6226d2b0659dea/1831845910364e97b3a7c6644a9e1f4b.html).
 
 
 

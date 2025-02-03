@@ -1180,6 +1180,8 @@ Run prompts in the <code>generative AI hub prompt editor</code>
 
 Build and test orchestration workflows in the <code>generative AI hub orchestration service</code>
 
+Explore available models in the generative AI hub and make an informed model selection using the model library
+
 </td>
 </tr>
 <tr>
@@ -1190,9 +1192,9 @@ Build and test orchestration workflows in the <code>generative AI hub orchestrat
 </td>
 <td valign="top">
 
-Create, update and run prompts in the <code>generative AI hub prompt editor</code>, read and delete your saved prompts in the <code>generative AI hub</code> prompt manager
+Create, update and run prompts in the <code>generative AI hub prompt editor</code>, read and delete your saved prompts in the <code>generative AI hub</code> prompt managerBuild and test orchestration workflows in the <code>generative AI hub orchestration service</code>
 
-Build and test orchestration workflows in the <code>generative AI hub orchestration service</code>
+Explore available models in the generative AI hub and make an informed model selection using the model library
 
 </td>
 </tr>
@@ -1205,6 +1207,8 @@ Build and test orchestration workflows in the <code>generative AI hub orchestrat
 <td valign="top">
 
 Delete user data in the **generative AI hub**
+
+Explore available models in the generative AI hub and make an informed model selection using the model library
 
 </td>
 </tr>
@@ -1264,7 +1268,9 @@ Access SAP AI Launchpad, default role for users, without generative AI hub
 </td>
 <td valign="top">
 
-Build and test orchestration workflows in the <code>generative AI hub orchestration service</code> 
+Build and test orchestration workflows in the <code>generative AI hub orchestration service</code>
+
+Explore available models in generative AI hub and make an informed model selection using the model library
 
 </td>
 </tr>
@@ -1277,6 +1283,30 @@ Build and test orchestration workflows in the <code>generative AI hub orchestrat
 <td valign="top">
 
 Upload images in the <code>generative AI hub chat and prompt editor</code>.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`grounding_manager`
+
+</td>
+<td valign="top">
+
+View, create and delete document repositories and pipelines in the grounding management app in generative AI hub.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`grounding_viewer`
+
+</td>
+<td valign="top">
+
+View document repositories and pipelines in the grounding management app in generative AI hub.
 
 </td>
 </tr>

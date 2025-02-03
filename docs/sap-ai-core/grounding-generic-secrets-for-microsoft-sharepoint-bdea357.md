@@ -1,6 +1,6 @@
 <!-- loiobdea3576d4ec482dbeeaeff389d140c6 -->
 
-# Create a Generic Secret for Grounding
+# Grounding Generic Secrets for Microsoft SharePoint
 
 
 
@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
-Your have prepared your SharePoint integration. For more information, see [Prepare SharePoint Integration with Joule](https://help.sap.com/docs/joule/integrating-joule-with-sap/prepare-sharepoint-integration).
+You have prepared your SharePoint integration. For more information, see [Prepare SharePoint Integration with Joule](https://help.sap.com/docs/joule/integrating-joule-with-sap/prepare-sharepoint-integration).
 
 You have created a resource group for grounding. For more information, see [Create a Resource Group for Grounding](create-a-resource-group-for-grounding-6712bfe.md).
 
@@ -34,8 +34,6 @@ The following API request is used to create a generic secret with base64-encoded
 > -   If you configure access from SAP BTP with `OAuth2ClientCredentials` authentication, use the permission name `Sites.Selected` with type `Application`
 > 
 > For more information, see [Integrating Joule with SAP Solutions: Configure Access from SAP BTP](https://help.sap.com/docs/JOULE/6189c8655c484916bb8eb767126a653a/753bb61132d9436c81d55de3f8cac40e.html).
-
-The following examples are for the integration of Micosoft SharePoint. The label `ext.ai.sap.com/document-grounding` is specific to Micosoft SharePoint.
 
 <a name="concept_ytf_w5v_c2c"/>
 
@@ -94,36 +92,12 @@ Base64 encoded value for the description of the generic secret to be created
 <tr>
 <td valign="top">
 
-*Type* 
-
-</td>
-<td valign="top">
-
-Base64 encoded value for HTTP protocol
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 *URL* 
 
 </td>
 <td valign="top">
 
 Base64 encoded value for `https://graph.microsoft.com` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Proxy Type* 
-
-</td>
-<td valign="top">
-
-Base64 encoded value for `Internet` 
 
 </td>
 </tr>
@@ -195,7 +169,7 @@ Base64 encoded value for your Microsoft SharePoint Application credentials
 </td>
 <td valign="top">
 
-Base64 encoded value for `https://graph.microsoft.com` 
+Base64 encoded value for `https://graph.microsoft.com/.default` 
 
 </td>
 </tr>
@@ -207,11 +181,17 @@ Base64 encoded value for `https://graph.microsoft.com`
 </td>
 <td valign="top">
 
-Base64 encoded value for Dedicated token service URL type
+Base64 encoded value for `https://login.microsoftonline.com/<tenant-id>/oauth2/v2.0/token` 
 
 </td>
 </tr>
 </table>
+
+> ### Note:  
+> The following attributes are hard coded inside `data`, and do not need to be passed during the API call:
+> 
+> -   *type*: `"HTTP"`
+> -   *proxyType*: `"Internet"`
 
 ```
 curl --location --request POST "$AI_API_URL/v2/admin/secrets" \
@@ -220,16 +200,13 @@ curl --location --request POST "$AI_API_URL/v2/admin/secrets" \
 --header 'AI-Resource-Group: <resource group created for grounding>' \
 --data-raw '{
   "name": "<generic secret name>",                     
-  "data": {
-    "type": "SFRUUA==",                                
+  "data": {                               
     "description": "<description of generic secret>",   
     "clientId": "<client id>",                       
     "authentication": "T0F1dGgyUGFzc3dvcmQ=",      
     "tokenServiceURL": "<token service url>",      
-    "password": "<password>",                         
-    "proxyType": "SW50ZXJuZXQ=",                       
-    "url": "aHR0cHM6Ly9ncmFwaC5taWNyb3NvZnQuY29t",    
-    "tokenServiceURLType": "RGVkaWNhdGVk",             
+    "password": "<password>",                                               
+    "url": "aHR0cHM6Ly9ncmFwaC5taWNyb3NvZnQuY29t",             
     "user": "<user>",                                  
     "clientSecret": "<client secret>",               
     "scope": "aHR0cHM6Ly9ncmFwaC5taWNyb3NvZnQuY29tLy5kZWZhdWx0" 
@@ -238,6 +215,10 @@ curl --location --request POST "$AI_API_URL/v2/admin/secrets" \
     {
       "key": "ext.ai.sap.com/document-grounding",       // Label for Document Grounding feature
       "value": "true"
+     },
+     {
+      "key": "ext.ai.sap.com/documentRepositoryType",     // Label for Document Repository Type      
+       "value": "MSSharePoint"
     }
   ]
 }'					
@@ -294,36 +275,12 @@ Base64 encoded value for the description of the generic secret to be created
 <tr>
 <td valign="top">
 
-*Type* 
-
-</td>
-<td valign="top">
-
-Base64 encoded value for HTTP protocol
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 *URL* 
 
 </td>
 <td valign="top">
 
-Base64 encoded value for `https://graph.microsoft.com` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Proxy Type* 
-
-</td>
-<td valign="top">
-
-Base64 encoded value for `Internet` 
+Base64 encoded value for `https://sap.sharepoint.com/sites/<site-name>` 
 
 </td>
 </tr>
@@ -336,30 +293,6 @@ Base64 encoded value for `Internet`
 <td valign="top">
 
 Base64 encoded value for `OAuth2ClientCredentials` 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*User* 
-
-</td>
-<td valign="top">
-
-Empty string
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Password* 
-
-</td>
-<td valign="top">
-
-Empty string
 
 </td>
 </tr>
@@ -395,7 +328,7 @@ Base64 encoded value for your Microsoft SharePoint Application credentials
 </td>
 <td valign="top">
 
-Base64 encoded value for `https://graph.microsoft.com` 
+Base64 encoded value for `https://graph.microsoft.com/.default` 
 
 </td>
 </tr>
@@ -407,11 +340,18 @@ Base64 encoded value for `https://graph.microsoft.com`
 </td>
 <td valign="top">
 
-Base64 encoded value for Dedicated token service URL type
+Base64 encoded value for `https://login.microsoftonline.com/<tenant-id>/oauth2/v2.0/token`
 
 </td>
 </tr>
 </table>
+
+> ### Note:  
+> The following attributes are hard coded inside data, and do not need to be passed during the API call:
+> 
+> -   *type*: `"HTTP"`
+> -   *proxyType*: `"Internet"`
+> -   *tokenServiceURLType*: `"Dedicated"`
 
 > ### Sample Code:  
 > ```
@@ -420,24 +360,24 @@ Base64 encoded value for Dedicated token service URL type
 > --header 'AI-Resource-Group: <resource group created for grounding>' \
 > --data-raw '{
 >   "name": "<generic secret name>",                     
->   "data": {
->     "type": "SFRUUA==",                                
+>   "data": {                                
 >     "description": "<description of generic secret>",   
 >     "clientId": "<client id>",                        
->     "authentication": "T0F1dGgyUGFzc3dvcmQ=",          
->     "tokenServiceURL": "<token service url>",      
->     "password": "",                           
->     "proxyType": "SW50ZXJuZXQ=",                      
->     "url": "https://<user-sharepoint-domain>/sites/<sharepoint-site-name>",  
->     "tokenServiceURLType": "RGVkaWNhdGVk",          
->     "user": "",                                        
+>     "authentication": "T0F1dGgyQ2xpZW50Q3JlZGVudGlhbHM=",          
+>     "tokenServiceURL": "<token service url>",     
+>     "tokenServiceURLType": "RGVkaWNhdGVk",                                                  
+>     "url": "aHR0cHM6Ly9zYXAuc2hhcmVwb2ludC5jb20vc2l0ZXMvPHNpdGUtbmFtZT4=",                                                   
 >     "clientSecret": "<client secret>",            
 >     "scope": "aHR0cHM6Ly9ncmFwaC5taWNyb3NvZnQuY29tLy5kZWZhdWx0" 
 >   },
->   "labels": [
+>    "labels": [
 >     {
 >       "key": "ext.ai.sap.com/document-grounding",       // Label for Document Grounding feature
->       "value": "true"
+>         "value": "true"
+>      },
+>      {
+>       "key": "ext.ai.sap.com/documentRepositoryType",     // Label for Document Repository Type      
+>       "value": "MSSharePoint"
 >     }
 >   ]
 > }'

@@ -9,7 +9,7 @@ This API call creates a pipeline for indexing documents.
 ## Prerequisites
 
 -   You have created a resource group \(see [Create a Resource Group for Grounding](create-a-resource-group-for-grounding-6712bfe.md)\).
--   You have created a generic secret \(see [Create a Generic Secret for Grounding](create-a-generic-secret-for-grounding-bdea357.md)\).
+-   You have created a generic secret \(see [Grounding Generic Secrets for Microsoft SharePoint](grounding-generic-secrets-for-microsoft-sharepoint-bdea357.md)\).
 
 
 

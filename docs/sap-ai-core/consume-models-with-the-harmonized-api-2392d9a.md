@@ -26,7 +26,7 @@ curl --request POST $ORCH_DEPLOYMENT_URL/completion \
         }
       },
       "llm_module_config": {
-        "model_name": " gpt-35-turbo-16k ",
+        "model_name": "gpt-4o-mini",
         "model_params": {
           "max_tokens": 50,
           "temperature": 0.1,
@@ -44,7 +44,7 @@ curl --request POST $ORCH_DEPLOYMENT_URL/completion \
 }'
 ```
 
-This request configures the templating module with a single user message with two parameters: `text` and `language`. The `language` parameter is also configured with English as the default. The LLM module is configured to use gpt-35-turbo-16k in the latest available version and a set of model parameters. The `input_params` field contains the values for the parameters `text` and `language`. These values are used during this request in the prompt sent to the model.
+This request configures the templating module with a single user message with two parameters: `text` and `language`. The `language` parameter is also configured with English as the default. The LLM module is configured to use gpt-4o-mini in the latest available version and a set of model parameters. The `input_params` field contains the values for the parameters `text` and `language`. These values are used during this request in the prompt sent to the model.
 
 The response contains a `request_id`, the module results from each module that was executed, and the `orchestration_result`, which includes the response of the call to the model.
 
@@ -63,7 +63,7 @@ The response contains a `request_id`, the module results from each module that w
 >       "id": "chatcmpl-9k8M3djXphXPWh2QkQm1YVtXK4Eki",
 >       "object": "chat.completion",
 >       "created": 1720782231,
->       "model": " gpt-35-turbo-16k ",
+>       "model": "gpt-4o-mini",
 >       "choices": [
 >         {
 >           "index": 0,

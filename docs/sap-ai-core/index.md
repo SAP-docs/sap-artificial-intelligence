@@ -51,7 +51,7 @@
         -   [Delete a Docker Registry Secret](delete-a-docker-registry-secret-5ff30f0.md)
     -   Manage Generic Secrets
         -   [Create a Generic Secret](create-a-generic-secret-1831845.md)
-        -   [List All Generic Secrets](list-all-generic-secrets-05a3713.md)
+        -   [Get Generic Secrets](get-generic-secrets-05a3713.md)
         -   [Update a Generic Secret](update-a-generic-secret-b5d5970.md)
         -   [Delete a Generic Secret](delete-a-generic-secret-d5d5187.md)
         -   [Consume Generic Secrets in Executions or Deployments](consume-generic-secrets-in-executions-or-deployments-185a324.md)
@@ -67,7 +67,8 @@
                 -   [Grounding](grounding-454c558.md)
                     -   Administrative Tasks
                         -   [Create a Resource Group for Grounding](create-a-resource-group-for-grounding-6712bfe.md)
-                        -   [Create a Generic Secret for Grounding](create-a-generic-secret-for-grounding-bdea357.md)
+                        -   [Generic Secrets for Grounding](generic-secrets-for-grounding-fbf4dae.md)
+                            -   [Grounding Generic Secrets for Microsoft SharePoint](grounding-generic-secrets-for-microsoft-sharepoint-bdea357.md)
                     -   Data Preparation
                         -   [Pipeline API](pipeline-api-a9badce.md)
                             -   [Preparing Data Using the Pipeline API](preparing-data-using-the-pipeline-api-9c972e2.md)
@@ -105,6 +106,7 @@
             -   [Harmonized API](harmonized-api-e99365f.md)
             -   [Streaming](streaming-3340907.md)
             -   [Model Restriction](model-restriction-4d499ee.md)
+            -   [Structured Output](structured-output-550409d.md)
             -   [Error Handling](error-handling-7597e89.md)
             -   [Orchestration Tutorials](orchestration-tutorials-d051b35.md)
         -   [Foundation Models](foundation-models-2d981fb.md)

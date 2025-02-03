@@ -6,7 +6,7 @@ The data masking module is optional and serves to anonymize or pseudonymize pers
 
 There are two ways in which you can mask data:
 
--   Anonmyization replaces personally identifiable information in chosen categories with a `MASKED_ENTITY` placeholder. Anonymized data can't be unmasked because the original data isn't retained.
+-   Anonymization replaces personally identifiable information in chosen categories with a `MASKED_ENTITY` placeholder. Anonymized data can't be unmasked because the original data isn't retained.
 -   Pseudonymization substitutes personally identifiable information in selected categories with a `MASKED_ENTITY_ID` placeholder. Pseudonymized data can be unmasked in the response.
 
 The module currently supports the following anonymization services:
@@ -118,7 +118,7 @@ Phone Number
 </td>
 <td valign="top">
 
-International phone numbers in the following format: +country code, any prefix and phone number
+International phone numbers in the following format: +country/region code, any prefix and phone number
 
 </td>
 </tr>
@@ -147,12 +147,12 @@ profile-email
 </td>
 <td valign="top">
 
-Email addresses
+E-mail addresses
 
 </td>
 <td valign="top">
 
-Email addresses
+E-mail addresses
 
 </td>
 </tr>
@@ -169,7 +169,7 @@ SAP Staff User ID Numbers
 </td>
 <td valign="top">
 
-UserID: Sequence of characters that starts with either C, I, or D followed by 6-8 digits.
+User ID: Sequence of characters that starts with either C, I, or D followed by 6-8 digits.
 
 </td>
 </tr>
@@ -186,9 +186,9 @@ Public SAP Accounts
 </td>
 <td valign="top">
 
-S-userid: Sequence of characters that starts with S and followed by 6-11 digits.
+S-user ID: Sequence of characters that starts with S and followed by 6-11 digits.
 
-P-userid: Sequence of characters that starts with P followed by 10 digits.
+P-user ID: Sequence of characters that starts with P followed by 10 digits.
 
 </td>
 </tr>
@@ -222,7 +222,7 @@ Username and Passwords
 </td>
 <td valign="top">
 
-Detected if words similar to user, username, pass, passwords, etc.
+Detected if words similar to user, user name, pass, passwords, and so on.
 
 </td>
 </tr>
@@ -239,7 +239,7 @@ National ID Number
 </td>
 <td valign="top">
 
-20+ countries/regions \(e.g., E.U., South America\)
+20+ countries/regions \(for example, E.U., South America\)
 
 </td>
 </tr>
@@ -307,7 +307,7 @@ Passport Number
 </td>
 <td valign="top">
 
-30+ countries/regions \(e.g., E.U., Asia Pacific, North America\)
+30+ countries/regions \(for example, E.U., Asia Pacific, North America\)
 
 </td>
 </tr>
@@ -324,7 +324,7 @@ Driver's License
 </td>
 <td valign="top">
 
-30+ countries/regions \(e.g., E.U., Asia Pacific\)
+30+ countries/regions \(for example, E.U., Asia Pacific\)
 
 </td>
 </tr>
@@ -341,7 +341,7 @@ Nationality
 </td>
 <td valign="top">
 
-190+ country names, official country names, and country codes
+190+ country/region names, official country/region names, and country/region codes
 
 </td>
 </tr>
@@ -467,9 +467,9 @@ Mixed
 </table>
 
 > ### Caution:  
-> The masking service can obscure personally identifiable information in prompts. However, since it relies on automated detection mechanisms, it can't guarantee that all such information will be identified and masked.
+> The masking service can obscure personally identifiable information in prompts. However, since it relies on automated detection mechanisms, it can't guarantee that all such information is identified and masked.
 > 
-> Anonymization replaces personally identifiable information in an irreversible way. This leads to a loss of context, which may limit the model's ability to process the input. For instance, if tasked with writing a story about Michael and Donna, anonymization of profile-person would result in a story about `MASKED_PERSON` and `MASKED_PERSON`, making it impossible to distinguish between the two.
+> Anonymization replaces personally identifiable information in an irreversible way. As a result, context can be lost, which can limit the model's ability to process the input. For instance, if tasked with writing a story about Michael and Donna, anonymization of profile-person results in a story about `MASKED_PERSON` and `MASKED_PERSON`, making it impossible to distinguish between the two.
 
 -   **[Enhancing Model Consumption with Data Masking](enhancing-model-consumption-with-data-masking-592c570.md "")**  
 

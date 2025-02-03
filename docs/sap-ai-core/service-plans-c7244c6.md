@@ -152,7 +152,7 @@ Alternatively, you can request an increase to your quota by creating a ticket on
 
 ## Tenant-Wide Generic Secrets Quotas
 
-Each tenant can have a maximum of five tenant-wide secrets. If you reach this limit, you'll receive an error message. To free up space, you can delete some tenant-wide secrets as described at [Delete a Generic Secret](delete-a-generic-secret-d5d5187.md). Alternatively, you can submit a ticket to request an increase your quota.
+Each tenant can have a maximum of five tenant-wide secrets. If you reach this limit, you'll receive an error message. To free up space, you can delete some tenant-wide secrets as described at [Delete a Generic Secret](delete-a-generic-secret-d5d5187.md). Alternatively, you can submit a ticket to request an increase in your quota.
 
 -   **[Free Tier](free-tier-4533adc.md "Enable the free tier option to get to know SAP AI Core with usage
 		limits, to familiarize yourself with the service. Note that usage is limited with this option.")**  

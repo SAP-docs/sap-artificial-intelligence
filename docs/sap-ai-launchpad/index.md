@@ -26,6 +26,7 @@ Explore the concepts around SAP AI Launchpad and learn how to provision the serv
         -   [Tutorial](tutorial-c0018f1.md)
         -   [Create a Deployment for a Generative AI Model](create-a-deployment-for-a-generative-ai-model-96b65bb.md)
         -   [Model Library](model-library-fce6fea.md)
+        -   [Grounding Management](grounding-management-0ee0f52.md)
         -   [Chat](chat-d84b5a1.md)
         -   Prompt Editor
             -   [Prompt Experimentation](prompt-experimentation-384cc0c.md)

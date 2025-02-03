@@ -92,6 +92,72 @@ Generative AI hub
 </td>
 <td valign="top">
 
+Selected models from Aleph Alpha are supported.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-02-03
+
+</td>
+<td valign="top">
+
+2025-02-03
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
 You can now configure your orchestration workflow so that Llama Guard 3 filters input and output content. Llama Guard 3 provides several content categories for filtering content.
 
 Azure Content Safety is still supported.

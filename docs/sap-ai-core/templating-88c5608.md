@@ -44,7 +44,7 @@ You can also set default values for the placeholders. For example, to request ei
 }
 ```
 
-Templates can also be retrieved from the prompt registry. For more informaiton, see [Prompt Registry](prompt-registry-5392e7d.md).
+Templates can also be retrieved from the prompt registry. For more information, see [Prompt Registry](prompt-registry-5392e7d.md).
 
 Templates can be retrieved by ID \(immutable\) or the combination of scenario, name, and version \(mutable\). For examples:
 
@@ -96,7 +96,7 @@ For example:
 > ],
 > ```
 
-The URL for the image supports Base64 or a web based URL of the image. Check with the model provider that your prefered upload method is supported.
+The URL for the image supports Base64 or a web-based URL of the image. Check with the model provider that your preferred upload method is supported.
 
 ```
 "image_url": {

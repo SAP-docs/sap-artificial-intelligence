@@ -70,6 +70,8 @@ The Harmonized API lets you use different foundation models without the need to 
 
 -   **[Model Restriction](model-restriction-4d499ee.md "")**  
 
+-   **[Structured Output](structured-output-550409d.md "")**  
+
 -   **[Error Handling](error-handling-7597e89.md "")**  
 
 -   **[Orchestration Tutorials](orchestration-tutorials-d051b35.md "Find your use case with orchestration capabilities.")**  

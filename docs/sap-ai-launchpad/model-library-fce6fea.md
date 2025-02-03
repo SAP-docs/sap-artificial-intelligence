@@ -63,7 +63,7 @@ Choose a model to see it's model card. The model card provides detailed informat
 
 To view a deprecation notice, hover over the deprecation icon.
 
-![](images/ML_catalog_63e2429.png)
+![](images/catalog_4aca877.png)
 
 
 
@@ -83,7 +83,29 @@ To view a deprecation notice, hover over the deprecation icon.
 
 Choose a model from the list to see it's model card. The model card provides detailed information on the model, such as data input types, cost information and metrics where available.
 
-![](images/ML_leaderboard_722234f.png)
+
+
+<a name="loiofce6fea2f901406cae47013bd7b62474__section_ilx_cd2_d2c"/>
+
+## Chart
+
+The chart mode shows model scores across a range of benchmarks in chart format.
+
+To refine the model selection, apply the filters.
+
+To search for a model by name, use the search bar.
+
+To zoom, use the *Zoom in* and *Zoom Out* icons.
+
+To specify which variable is on which axis, use the respective drop down menus.
+
+To switch the axes, use the :arrows_clockwise: icon.
+
+To view the chart in a separate window, use the *Full Screen* icon.
+
+Choose a data point to see a small summary. Choose *View Details* to view the model card. The model card provides detailed information on the model, such as data input types, cost information and metrics where available.
+
+![](images/chart_9f99ae1.png)
 
 
 
