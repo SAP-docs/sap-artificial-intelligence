@@ -2,7 +2,6 @@
 
 -   [What Is SAP AI Core?](what-is-sap-ai-core-d029a32.md)
 -   [What's New for SAP AI Core](what-s-new-for-sap-ai-core-b7f76ad.md)
-    -   [2021 What's New for SAP AI Core \(Archive\)](2021-what-s-new-for-sap-ai-core-archive-797b1f7.md)
 -   [Concepts](concepts-4c6b2da.md)
     -   [SAP AI Core Overview](sap-ai-core-overview-88e0078.md)
         -   [SAP AI Core Systems Overview](sap-ai-core-systems-overview-c243d2a.md)
@@ -92,6 +91,7 @@
                             -   [Get a Repository](get-a-repository-a64179d.md)
                             -   [Retrieval Search Call](retrieval-search-call-7a73f1f.md)
                     -   [Using the Grounding Module](using-the-grounding-module-4b6d4a8.md)
+                        -   [Metadata](metadata-9913885.md)
                 -   [Templating](templating-88c5608.md)
                     -   [Few-Shot Learning](few-shot-learning-4fe47b1.md)
                     -   [Chat](chat-39321a9.md)

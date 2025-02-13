@@ -90,6 +90,140 @@ Generative AI hub
 </td>
 <td valign="top">
 
+Going forward, users will need an orchestration deployment to use the Chat app.
+
+Users that currently access Chat through model deployments should create an orchestration deployment. For more information, see [Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4344c5b.md).
+
+Alternatively, administrators can use the *Enable Orchestration* button available through the chat interface.
+
+</td>
+<td valign="top">
+
+Required
+
+</td>
+<td valign="top">
+
+Deprecated
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-02-12
+
+</td>
+<td valign="top">
+
+2025-02-12
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+An additional selected model from Aleph Alpha is supported in orchestration.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-02-03
+
+</td>
+<td valign="top">
+
+2025-02-03
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
 The grounding management app lets you manage the lifecycle of your data pipelines.
 
 For more information, see [Grounding Management](grounding-management-0ee0f52.md).
@@ -4786,7 +4920,4 @@ SAP Business Technology Platform
 </td>
 </tr>
 </table>
-
--   **[2021 What's New for SAP AI Launchpad \(Archive\)](2021-what-s-new-for-sap-ai-launchpad-archive-aeb6666.md)**  
-
 

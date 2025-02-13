@@ -83,6 +83,8 @@ To view a deprecation notice, hover over the deprecation icon.
 
 Choose a model from the list to see it's model card. The model card provides detailed information on the model, such as data input types, cost information and metrics where available.
 
+![](images/leaderboard_10f5c66.png)
+
 
 
 <a name="loiofce6fea2f901406cae47013bd7b62474__section_ilx_cd2_d2c"/>
@@ -125,7 +127,9 @@ To deploy the model, choose *Deploy*.
 To use the model, select *Use in *<App\>** where available. For example, *Use in Chat* may be available where applicable.
 
 > ### Restriction:  
-> Only for users with `genai_experimenter` or `genai_manager` roles, and who have selected a resource group, and who have a running deployment for the model.
+> Only users with `genai_experimenter` or `genai_manager` roles, and who have selected a resource group, and who have a running deployment for the model can select *Use in Prompt*.
+> 
+> Only users with `genai_experimenter` or `genai_manager` roles, and who have selected a resource group, and who have a running orchestration deployment can select *Use in Chat*.
 
 ![](images/ML_model_card_5a1a42c.png)
 

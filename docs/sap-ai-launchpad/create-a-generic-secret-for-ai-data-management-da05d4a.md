@@ -59,7 +59,7 @@ You can use the *SAP AI Core Administration* app to add generic secretson the ma
         -   Do not start or end with a hyphen \(-\)
 
 
-    4.  Enter the secret in `JSON` format. For example:
+    4.  Enter the secret in `JSON` format. The following example uses Microsoft SharePoint:
 
 
     ```
@@ -68,8 +68,12 @@ You can use the *SAP AI Core Administration* app to add generic secretson the ma
       "other-credentials": "bXktc2VjcmV0LW90aGVyLWNyZWRlbnRpYWw=",
       "labels": [
         {
-        "key": "ext.ai.sap.com/document-grounding",
-        "value": "true"
+          "key": "ext.ai.sap.com/document-grounding",       // Label for Document Grounding feature
+          "value": "true"
+         },
+         {
+          "key": "ext.ai.sap.com/documentRepositoryType",     // Label for Document Repository Type      
+           "value": "MSSharePoint"
         }
       ]
     }

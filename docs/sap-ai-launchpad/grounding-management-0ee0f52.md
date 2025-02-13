@@ -12,6 +12,10 @@ The grounding management app lets you manage the lifecycle of your data pipeline
 
 You have the `genai_viewer`, `genai_experimenter`, `genai_manager`, `grounding_manager` or `grounding_viewer` role, or a role collection that contains one. For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
 
+You have resource group with the document grounding label enabled. For more information, see [Create a Resource Group for AI Data Management](create-a-resource-group-for-ai-data-management-36ddabf.md).
+
+For users who want to create a data repository pipeline: you have a generic secret for AI data management with the grounding label enabled. For more information, see [Create a Generic Secret for AI Data Management](create-a-generic-secret-for-ai-data-management-da05d4a.md).
+
 
 
 <a name="loio0ee0f52c4a824cd1b2950fb349fadbc5__section_o4k_vrr_pdc"/>
@@ -59,7 +63,7 @@ To find a term in a document, use the search bar in the *Document Details* panel
 
 To find a document, enter a document ID into the search bar in the *Resources* panel.
 
-Users with the `grounding_manager`or `genai_manager` roles can duplicate a repository. To duplicate a repository, use the *Duplicate* icon, and update the repository details in the dialog box.
+Users with the `grounding_manager` or `genai_manager` roles can duplicate a repository. To duplicate a repository, use the *Duplicate* icon, and update the repository details in the dialog box.
 
 Users with the `grounding_manager`or `genai_manager` can delete a repository. To delete a repository, use the *Delete* icon.
 

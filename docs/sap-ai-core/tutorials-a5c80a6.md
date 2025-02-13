@@ -114,7 +114,7 @@ Activate the generative AI hub and learn the basics of composing prompts.
 </b></dt>
 <dd>
 
-Learn how to conusme foundation models using SAP AI Core.
+Learn how to consume foundation models using SAP AI Core.
 
 
 

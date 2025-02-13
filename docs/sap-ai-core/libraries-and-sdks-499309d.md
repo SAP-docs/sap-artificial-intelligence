@@ -2,7 +2,7 @@
 
 # Libraries and SDKs
 
-Explore additional SDKs and Libraries, for use with SAP AI Core.
+Explore additional SDKs and libraries that you can use with SAP AI Core.
 
 **SDKs Available with SAP AI Core**
 

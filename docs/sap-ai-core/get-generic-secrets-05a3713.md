@@ -87,9 +87,6 @@ curl --location --request GET "$AI_API_URL/v2/admin/secrets" \
 
 The response contains the name, and the creation timestamp of the requested generic secrets. No sensitive information is revealed in the response.
 
-> ### Note:  
-> For tenant-wide secrets, the `resourceGroupSecretReplicationStatus` is omitted from the response for brevity.
-
 <a name="task_cxf_n13_tcc"/>
 
 <!-- task\_cxf\_n13\_tcc -->
@@ -168,7 +165,4 @@ Send a GET request to the endpoint `{{apiurl}}/v2/admin/secrets`.
 ## Results
 
 The response includes a list of generic secrets, their name, and their creation timestamp. No sensitive information is revealed in the response.
-
-> ### Note:  
-> For tenant-wide secrets, the `resourceGroupSecretReplicationStatus` is omitted from the response for brevity.
 

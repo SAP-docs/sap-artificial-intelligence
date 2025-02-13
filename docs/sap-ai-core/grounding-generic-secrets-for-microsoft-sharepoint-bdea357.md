@@ -344,6 +344,30 @@ Base64 encoded value for `https://login.microsoftonline.com/<tenant-id>/oauth2/v
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+*User* 
+
+</td>
+<td valign="top">
+
+Empty string
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Password* 
+
+</td>
+<td valign="top">
+
+Empty string
+
+</td>
+</tr>
 </table>
 
 > ### Note:  
@@ -365,7 +389,9 @@ Base64 encoded value for `https://login.microsoftonline.com/<tenant-id>/oauth2/v
 >     "clientId": "<client id>",                        
 >     "authentication": "T0F1dGgyQ2xpZW50Q3JlZGVudGlhbHM=",          
 >     "tokenServiceURL": "<token service url>",     
->     "tokenServiceURLType": "RGVkaWNhdGVk",                                                  
+>     "tokenServiceURLType": "RGVkaWNhdGVk",        
+>     "user": "",
+>     "password": "",                                          
 >     "url": "aHR0cHM6Ly9zYXAuc2hhcmVwb2ludC5jb20vc2l0ZXMvPHNpdGUtbmFtZT4=",                                                   
 >     "clientSecret": "<client secret>",            
 >     "scope": "aHR0cHM6Ly9ncmFwaC5taWNyb3NvZnQuY29tLy5kZWZhdWx0" 

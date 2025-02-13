@@ -37,7 +37,7 @@ Your tenant has been onboarded and a default resource group automatically create
 
 4.  Complete the fields in the *Create Resource Group* dialog box.
 
-    ![](images/grounding_resource_group_8bedb63.png)
+    ![](images/resourcegroup_with_toggle_9a316a8.png)
 
     1.  Enter a resource group ID.
 
@@ -50,7 +50,7 @@ Your tenant has been onboarded and a default resource group automatically create
 
     4.  Choose the `instance_id` label key and enter a value.
 
-    5.  Enter the `document-grounding` label key and enter the value `true`.
+    5.  Enter the `document-grounding` label key and switch the value *On*.
 
     6.  If additional labels are required, enter their keys and corresponding values.
 

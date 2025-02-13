@@ -6,7 +6,7 @@ In this section, you select the model that you want to use in your workflow. If 
 
 You can see which models are available within an orchestration deployment by selecting the deployment ID.
 
-![](images/model_selection_deployment_ade318c.png)
+![](images/configure_chat_4732b30.png)
 
 When you run the workflow, you will receive one response from the model. If you want to receive multiple responses, you can set a value for the `n` parameter in the model configuration.
 

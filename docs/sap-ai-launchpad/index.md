@@ -4,7 +4,6 @@ Explore the concepts around SAP AI Launchpad and learn how to provision the serv
 
 -   [What Is SAP AI Launchpad?](what-is-sap-ai-launchpad-760889a.md)
 -   [What's New for SAP AI Launchpad](what-s-new-for-sap-ai-launchpad-8910a9b.md)
-    -   [2021 What's New for SAP AI Launchpad \(Archive\)](2021-what-s-new-for-sap-ai-launchpad-archive-aeb6666.md)
 -   [Concepts](concepts-4c6b2da.md)
     -   [SAP AI Launchpad Overview](sap-ai-launchpad-overview-b5aaac6.md)
     -   [Custom Runtime Capabilities Using the Meta API](custom-runtime-capabilities-using-the-meta-api-ac3d92b.md)

@@ -46,6 +46,9 @@
 
         Prompt messages are limited to 2.50mb across all inputs.
 
+        > ### Tip:  
+        > If the result of paste \([ctrl\] + [v\]  or [cmd\] + [v\] \) is not as expected, use [ctrl\] + [shift\] + [v\]  or [cmd\] + [shift\] + [v\] .
+
     2.  **Optional:** Enter a name for your prompt.
 
         Not available to the `genai_experimenter` or `prompt_experimenter` roles.
@@ -74,7 +77,7 @@
         Not available to the `genai_experimenter` or `prompt_experimenter` roles.
 
 
-    ![](images/prompt_editor_w_image_6589127.png)
+    ![](images/prompteditor12a_b2d7829.png)
 
 4.  Choose *Run*.
 

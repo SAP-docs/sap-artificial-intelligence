@@ -4207,6 +4207,3 @@ SAP Business Technology Platform
 </tr>
 </table>
 
--   **[2021 What's New for SAP AI Core \(Archive\)](2021-what-s-new-for-sap-ai-core-archive-797b1f7.md "")**  
-
-

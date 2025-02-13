@@ -37,5 +37,5 @@ In this section, you'll find tutorials that demonstrate use cases for accessing 
 **Related Information**  
 
 
-[Libraries and SDKs](libraries-and-sdks-499309d.md "Explore additional SDKs and Libraries, for use with SAP AI Core.")
+[Libraries and SDKs](libraries-and-sdks-499309d.md "Explore additional SDKs and libraries that you can use with SAP AI Core.")
 

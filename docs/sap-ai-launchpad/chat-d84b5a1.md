@@ -12,7 +12,7 @@
 
 ## Prerequisites
 
--   You have at least one deployment for a generative AI model running. For more information, see [Create a Deployment for a Generative AI Model](create-a-deployment-for-a-generative-ai-model-96b65bb.md).
+-   You have an orchestration deployment running. For more information, see[Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4344c5b.md)
 
 -   You’ve selected the AI API connection and resource group that you used in the activation steps.
 
@@ -46,7 +46,7 @@
 
             When choosing a model, you can filter by input type.
 
-            ![](images/choose_model_w_image_ef66424.png)
+            ![](images/configure_chat_4732b30.png)
 
         -   **Parameters:** Different models support different parameters and values. For more information, see the documentation from the model provider. Also see [Models and Scenarios in the Generative AI Hub](models-and-scenarios-in-the-generative-ai-hub-fef463b.md).
         -   **Streaming Response:** Where supported, chat responses are output in real time, as they are generated.
@@ -58,7 +58,8 @@
 
         Settings include:
 
-        -   **Context History:** The number of previous interactions that form the context for the chat.
+        -   **Select Template:** Users with an orchestration deployment and exisiting templates can select a template using the *Select Template* button. For more information, see [.](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/88c5608ca13f4ae18d466947907b46e0.html "") :arrow_upper_right:
+        -   **Context History:** The number of previous interactions that form the context for the chat. A single interaction consists of a user input and model response.
 
         -   **System Message:** Instructions or context to guide the behavior of the model. Available for selected models.
 
@@ -67,7 +68,7 @@
             Examples can be removed using the *Decline* icon.
 
 
-        ![](images/context_1ab7437.png)
+        ![](images/configure_chat_with_template_ad5a09b.png)
 
         > ### Tip:  
         > Chat contexts are passed to the model with each chat message, and are included in the token count. Smaller contexts consume fewer tokens.
