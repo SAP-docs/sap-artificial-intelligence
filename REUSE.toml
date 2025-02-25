@@ -1,0 +1,10 @@
+version = 1
+SPDX-PackageName = "sap-artificial-intelligence"
+SPDX-PackageSupplier = "Carl Isaac (c.isaac@sap.com)"
+SPDX-PackageDownloadLocation = "https://github.com/sap-docs/sap-artificial-intelligence"
+
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2023 SAP SE or an SAP affiliate company and sap-artificial-intelligence contributors"
+SPDX-License-Identifier = "CC-BY-4.0"
