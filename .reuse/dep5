@@ -1,8 +1,0 @@
-Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: sap-artificial-intelligence
-Upstream-Contact: Carl Isaac (c.isaac@sap.com)
-Source: https://github.com/sap-docs/sap-artificial-intelligence
-
-Files: *
-Copyright:  2023 SAP SE or an SAP affiliate company and sap-artificial-intelligence contributors
-License: CC-BY-4.0
