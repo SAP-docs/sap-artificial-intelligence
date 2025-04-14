@@ -82,7 +82,7 @@ As `applicationName`, enter the name of your application that you specified when
 
 <!-- task\_cxf\_n13\_tcc -->
 
-## Using Postman
+## Using a Third-Party API Platform
 
 
 

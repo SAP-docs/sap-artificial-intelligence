@@ -20,7 +20,7 @@ Send a DELETE request to the endpoint `{{apiurl}}/v2/admin/applications/{{appNam
 
 <!-- task\_cxf\_n13\_tcc -->
 
-## Using Postman
+## Using a Third-Party API Platform
 
 
 

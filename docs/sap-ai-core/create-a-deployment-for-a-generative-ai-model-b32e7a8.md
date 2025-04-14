@@ -53,12 +53,14 @@ You make a model available for use by creating a deployment. You can do so one t
 
 2.  Check that you have access to the scenario containing generative AI by sending a GET request to `{{apiurl}}/v2/lm/scenarios`.
 
-    Set the *Authorization* header with `Bearer $TOKEN` and set your resource group. For more information, see [Create a Resource Group](create-a-resource-group-01753f4.md).
-
     > ### Note:  
     > You must use the same resource group for all of your generative AI activities. To use a different resource group, these steps must be repeated for each resource group.For more information, see [Manage Resource Groups](manage-resource-groups-8aae6cb.md).
 
-    ![](images/Scenarios_0cf13f1.png)
+    ```
+    curl --location '{{apiurl}}/v2/lm/scenarios' \
+    --header 'AI-Resource-Group: default' \
+    --header "Authorization: Bearer $AUTH_TOKEN"
+    ```
 
     The scenarios listed contain a scenario with the id `foundation-models`.
 
@@ -68,7 +70,7 @@ You make a model available for use by creating a deployment. You can do so one t
 
     -   `name` is your free choice of identifier.
 
-    -   `executableId`, `modelName`, and `modelVersion` are provided in the table above.
+    -   `executableId`, `modelName`, and `modelVersion` are provided in SAP Note [3437766](https://me.sap.com/notes/3437766).
 
     -   `scenarioId` must be `foundation-models`.
 
@@ -77,9 +79,13 @@ You make a model available for use by creating a deployment. You can do so one t
 
     > ### Sample Code:  
     > ```
-    > {
+    > curl --location '$AI_API_URL/lm/configurations' \
+    > --header 'AI-Resource-Group: default' \
+    > --header 'Content-Type: application/json' \
+    > --header "Authorization: Bearer $AUTH_TOKEN" \
+    > --data '{
     > 	"name": "yourNameChoice",
-    > 	"executableId": "azure-openai",
+    > 	"executableId": "<executableId>",
     > 	"scenarioId": "foundation-models",
     > 	"versionId": "0.0.1",
     > 	"parameterBindings": [
@@ -91,13 +97,10 @@ You make a model available for use by creating a deployment. You can do so one t
     > 			"key": "modelVersion",
     > 			"value": "<ModelVersion>"
     > 		}
-    >   ],
-    > 	"inputArtifactBindings": []
-    > }
+    >   ]
+    > }'
     >    
     > ```
-
-    ![](images/Config_e45479e.png)
 
     > ### Tip:  
     > You can specify the value `latest` for the `modelVersion` to use the most recent model version available in SAP AI Core.
@@ -110,16 +113,22 @@ You make a model available for use by creating a deployment. You can do so one t
 
     > ### Sample Code:  
     > ```
-    > {
+    > curl --location '$AI_API_URL/lm/deployments' \
+    > --header 'AI-Resource-Group: default' \
+    > --header 'Content-Type: application/json' \
+    > --header "Authorization: Bearer $AUTH_TOKEN" \
+    > --data '{
     >  "configurationId": "yourConfigurationId"
-    > }
+    > }'
     > ```
-
-    ![](images/deploy_dad14bc.png)
 
 5.  Retrieve the details of your deployment by sending a GET request to the endpoint`{{apiurl}}/v2/lm/deployments`.
 
-    ![](images/check_depl_49c1cae.png)
+    ```
+    curl --location 'AI_API_URL/v2/lm/deployments/<deploymentID>' \
+    --header 'AI-Resource-Group: default' \
+    --header "Authorization: Bearer $AUTH_TOKEN"
+    ```
 
 
 

@@ -16,9 +16,9 @@ To update a generic secret, use the PATCH endpoint as shown below. The PATCH ope
 
 ## Context
 
-Generic Secrets are used in addition to store sensitive information when system secrets are not applicable, for example in integration use cases where SAP AI Core is an orchestration layer.
+Generic secrets store sensitive information when system secrets aren't applicable. They're useful in integration scenarios where SAP AI Core acts as an orchestration layer.
 
-SAP AI Core lets you optionally use generic secrets at the following levels:
+SAP AI Core lets you use generic secrets at various levels:
 
 -   Main-tenant scope
 
@@ -27,14 +27,9 @@ SAP AI Core lets you optionally use generic secrets at the following levels:
 -   Resource-group level
 
 
-Generic secrets are different to system secrets \(such as object store, Docker registry, and so on\) and can be used to store sensitive information, either for the main tenant, for all of its resource groups, or for each resource group via an API. The latter can be attached to containers in executions or deployments as environment variables or volume mounts.
+Generic secrets differ from system secrets, like those for object stores or Docker registries. They store sensitive information for the main tenant, all resource groups, or individual resource groups via an API. You can attach these secrets to containers in executions or deployments as environment variables or volume mounts.
 
-> ### Note:  
-> In order to allow rotation of tenant-wide secrets for long-running deployments without restarting the deployment, the following guidelines must be followed:
-> 
-> -   > The deployment must mount the tenant-wide secret. For more information see [Consume Generic Secrets in Executions or Deployments](https://help.sap.com/docs/AI_CORE/52b4adb30e6744709d6226d2b0659dea/185a3245692542a78bfeff87220410c6.html).
-> -   > The deployment must monitor the mounted secret for changes instead of relying on an in-memory copy of the secret read from the mount.
-> -   > When a tenant-wide secret is updated, the tenant is responsible for observing the `resourceGroupSecretReplicationStatus` field of the `Get Secret` endpoint, to ensure that the replicator has successfully updated the secret in the required resource groups. For more information, see [Create a Generic Secret](https://help.sap.com/docs/AI_CORE/52b4adb30e6744709d6226d2b0659dea/1831845910364e97b3a7c6644a9e1f4b.html).
+To allow the rotation of tenant-wide secrets for long-running deployments without requiring a restart, the deployment must mount the tenant-wide secret. It must also monitor the mounted secret for changes instead of relying on an in-memory copy. When a tenant-wide secret is updated, the tenant must observe the `resourceGroupSecretReplicationStatus` field in the `Get Secret` endpoint to confirm that the secret has been successfully replicated across the required resource groups. For more information, see [Consume Generic Secrets in Executions or Deployments](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/185a3245692542a78bfeff87220410c6.html).
 
 
 
@@ -64,7 +59,7 @@ curl --location --request PATCH "$AI_API_URL/v2/admin/secrets/$SECRET_NAME" \
 
 <!-- task\_cxf\_n13\_tcc -->
 
-## Using Postman
+## Using a Third-Party API Platform
 
 
 
@@ -72,9 +67,9 @@ curl --location --request PATCH "$AI_API_URL/v2/admin/secrets/$SECRET_NAME" \
 
 ## Context
 
-Generic Secrets are used in addition to store sensitive information when system secrets are not applicable, for example in integration use cases where SAP AI Core is an orchestration layer.
+Generic secrets store sensitive information when system secrets aren't applicable. They're useful in integration scenarios where SAP AI Core acts as an orchestration layer.
 
-SAP AI Core lets you optionally use generic secrets at the following levels:
+SAP AI Core lets you use generic secrets at various levels:
 
 -   Main-tenant scope
 
@@ -83,14 +78,9 @@ SAP AI Core lets you optionally use generic secrets at the following levels:
 -   Resource-group level
 
 
-Generic secrets are different to system secrets \(such as object store, Docker registry, and so on\) and can be used to store sensitive information, either for the main tenant, for all of its resource groups, or for each resource group via an API. The latter can be attached to containers in executions or deployments as environment variables or volume mounts.
+Generic secrets differ from system secrets, like those for object stores or Docker registries. They store sensitive information for the main tenant, all resource groups, or individual resource groups via an API. You can attach these secrets to containers in executions or deployments as environment variables or volume mounts.
 
-> ### Note:  
-> In order to allow rotation of tenant-wide secrets for long-running deployments without restarting the deployment, the following guidelines must be followed:
-> 
-> -   > The deployment must mount the tenant-wide secret. For more information see [Consume Generic Secrets in Executions or Deployments](https://help.sap.com/docs/AI_CORE/52b4adb30e6744709d6226d2b0659dea/185a3245692542a78bfeff87220410c6.html).
-> -   > The deployment must monitor the mounted secret for changes instead of relying on an in-memory copy of the secret read from the mount.
-> -   > When a tenant-wide secret is updated, the tenant is responsible for observing the `resourceGroupSecretReplicationStatus` field of the `Get Secret` endpoint, to ensure that the replicator has successfully updated the secret in the required resource groups. For more information, see [Create a Generic Secret](https://help.sap.com/docs/AI_CORE/52b4adb30e6744709d6226d2b0659dea/1831845910364e97b3a7c6644a9e1f4b.html).
+To allow the rotation of tenant-wide secrets for long-running deployments without requiring a restart, the deployment must mount the tenant-wide secret. It must also monitor the mounted secret for changes instead of relying on an in-memory copy. When a tenant-wide secret is updated, the tenant must observe the `resourceGroupSecretReplicationStatus` field in the `Get Secret` endpoint to confirm that the secret has been successfully replicated across the required resource groups. For more information, see [Consume Generic Secrets in Executions or Deployments](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/185a3245692542a78bfeff87220410c6.html).
 
 
 

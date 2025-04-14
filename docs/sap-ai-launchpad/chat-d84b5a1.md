@@ -12,7 +12,7 @@
 
 ## Prerequisites
 
--   You have an orchestration deployment running. For more information, see[Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4344c5b.md)
+-   You have an orchestration deployment running. For more information, see [Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4344c5b.md)
 
 -   You’ve selected the AI API connection and resource group that you used in the activation steps.
 
@@ -58,7 +58,7 @@
 
         Settings include:
 
-        -   **Select Template:** Users with an orchestration deployment and exisiting templates can select a template using the *Select Template* button. For more information, see [.](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/88c5608ca13f4ae18d466947907b46e0.html "") :arrow_upper_right:
+        -   **Select Template:** Users with an orchestration deployment and exisiting templates can select a template using the *Select Template* button.
         -   **Context History:** The number of previous interactions that form the context for the chat. A single interaction consists of a user input and model response.
 
         -   **System Message:** Instructions or context to guide the behavior of the model. Available for selected models.

@@ -26,7 +26,7 @@ curl --location --request DELETE “$AI_API_URL/v2/lm/dataset/files/$SECRET_NAME
 
 <!-- task\_cxf\_n13\_tcc -->
 
-## Using Postman
+## Using a Third-Party API Platform
 
 
 

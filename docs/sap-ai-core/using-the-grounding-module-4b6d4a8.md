@@ -20,8 +20,8 @@ The following code illustrates how you can use the grounding module with SAP HAN
 
 > ### Sample Code:  
 > ```
-> curl --request POST $ORCH_DEPLOYMENT_URL/completion \
-> --header 'content-type: application/json' \
+> curl --request POST "$ORCH_DEPLOYMENT_URL/completion" \
+> --header "content-type: application/json" \
 > --header "Authorization: Bearer $TOKEN" \
 > --header "ai-resource-group: $RESOURCE_GROUP" \
 > --data-raw '{
@@ -72,7 +72,7 @@ The following code illustrates how you can use the grounding module with SAP HAN
 > 
 > ```
 
--   **[Metadata](metadata-9913885.md "You can choose to include metadata in the output structure of the grounding module in orchestration. You can leverage the metadata in your
+-   **[Contextualized Retrieval Using Metadata](contextualized-retrieval-using-metadata-9913885.md "You can choose to include metadata in the output structure of the grounding module in orchestration. You can leverage the metadata in your
 		prompt template.")**  
 You can choose to include metadata in the output structure of the grounding module in orchestration. You can leverage the metadata in your prompt template.
 

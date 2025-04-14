@@ -21,15 +21,15 @@ You have either the `genai_manager` or `prompt_manager` role, or you are assigne
 
 1.  Select the connection to your SAP AI Core runtime in the *Workspaces* app and choose the resource group that was used for your *Generative AI Hub* deployment.
 
-2.  In the *Workspaces* app, expand the *Generative AI Hub* and choose *Prompt Management*.
+2.  In the *Workspaces* app, expand the *Generative AI Hub* and choose *Prompt Management*. Select the *Prompts* tab.
 
-    ![](images/find_prompt_bf9167e.png)
+    ![](images/view_prompt_5d69440.png)
 
     Your prompts will be listed. Use the filters to navigate to your desired prompt.
 
 3.  **Optional:** You can
 
-    -   Mark a prompt as favorite using the star button.
+    -   Mark a prompt as favorite using the star icon.
 
     -   See the prompt details by selecting the prompt entry.
 

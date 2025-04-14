@@ -23,7 +23,7 @@
 
 [Efficiency Features](efficiency-features-9fad26a.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
 
-[Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md "accessed in the deployment and execution logs.")
+[Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md "Deployment and execution logs contain information about API processing and metrics.")
 
 <a name="task_i3h_n13_tcc"/>
 
@@ -98,7 +98,7 @@
 
 <!-- task\_cxf\_n13\_tcc -->
 
-## Using Postman
+## Using a Third-Party API Platform
 
 
 
@@ -145,7 +145,7 @@
 
 
 
-<a name="concept_z3s_f3h_vcc__d89e1165"/>
+<a name="concept_z3s_f3h_vcc__d96e1165"/>
 
 ## Optional Parameters
 
@@ -153,7 +153,7 @@ The duration of a deployment can be limited using the `ttl` parameter. It takes 
 
 
 
-<a name="concept_z3s_f3h_vcc__d89e1196"/>
+<a name="concept_z3s_f3h_vcc__d96e1196"/>
 
 ## Deployment Quotas
 

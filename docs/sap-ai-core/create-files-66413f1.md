@@ -2,7 +2,7 @@
 
 # Create Files
 
-The object store secret allows SAP AI Core to access your cloud storage and data without exposing your compromising your credentials.
+The object store secret lets SAP AI Core access your cloud storage and data, without exposing or compromising your credentials.
 
 > ### Restriction:  
 > The `objectStore name`, `data path` and `scenarioId` refer to pre-existing values. For the `objectStore name` and `data path` values, you must use the values that you used when registering the object storage, following the naming convention outlined in the diagram below. In example output code blocks, these values are represented by `ai://default/data`.
@@ -14,13 +14,13 @@ The object store secret allows SAP AI Core to access your cloud storage and data
 **Related Information**  
 
 
-[List Files](list-files-1d613e0.md "")
+[List Files](list-files-1d613e0.md "Use the ML Operations app to search for a dataset or artifact.")
 
 <a name="task_xp1_532_scc"/>
 
 <!-- task\_xp1\_532\_scc -->
 
-## Using Postman
+## Using a Third-Party API Platform
 
 
 

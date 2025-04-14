@@ -28,7 +28,7 @@
 
 3.  Choose *Open in Editor*. Make your changes.
 
-    ![](images/edit_a_prompt_c344bcc.png)
+    ![](images/eidutsavedprompt2503b_69091b3.png)
 
     > ### Note:  
     > If the model used for your prompt is no longer available you will be notified when you open the prompt in the editor and you must choose another model.
@@ -37,15 +37,11 @@
 
     For changes to the prompt message, the *Save* button is available, and saving creates a new prompt version.
 
-    ![](images/PromptSave_e89f8e1.png)
-
     For changes to meta data only, the *Update* button is available, and updating the meta data for the same prompt version.
 
     Meta data updates at prompt level, such as *Prompt Name* and *Collection* are updated across all versions of the prompt
 
     Meta data updates at prompt version level, such as *Tags* and *Notes* are updated across the current version of the prompt
-
-    ![](images/PromptUpdate_3696867.png)
 
 
 

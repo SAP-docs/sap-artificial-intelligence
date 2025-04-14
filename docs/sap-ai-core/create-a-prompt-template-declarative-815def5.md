@@ -8,7 +8,9 @@
 
 ## Prerequisites
 
--   You have created and synced a git repository. For more information, see [Create an Application to Sync Your Folders](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide-dev/create-application-to-sync-your-folders).
+-   You've created and synced a git repository. For more information, see [Add a Git Repository](add-a-git-repository-b668176.md).
+
+-   You've created an application that points to the prompt templates in your git repository. For more information, see [Create an Application](create-an-application-80dbecf.md).
 
 
 
@@ -26,7 +28,7 @@
 
 ## Procedure
 
-Create a prompt template and push it to your git repository. The file name must be in the format `<name>.prompttemplate.ai.sap.yaml` to be recognised.
+Create a prompt template and push it to your git repository. The file name must be in the format `<name>.prompttemplate.ai.sap.yaml` to be recognized.
 
 The following formats are supported:
 
@@ -62,7 +64,7 @@ The following formats are supported:
 -   The `additionalFields` field is unstructured and can be used to store metadata or configuration objects.
 
 
-Your template will sync automatically. After a few minutes, you will be able to verify your template by sending a GET request to the endpoint `{{apiurl}}/lm/promptTemplates`.
+Your template syncs automatically. After a few minutes, you'll be able to verify your template by sending a GET request to the endpoint `{{apiurl}}/lm/promptTemplates`.
 
 > ### Sample Code:  
 > ```
@@ -84,7 +86,7 @@ Your template will sync automatically. After a few minutes, you will be able to 
 > }
 > ```
 
-The prompt template is marked as `managedBy`: *<declarative\>*. Declarative managed prompt templates are always the head version and cannot be edited with the imperative API.
+The prompt template is marked as `managedBy`: *<declarative\>*. Declarative managed prompt templates are always the head version and can't be edited with the imperative API.
 
 
 
@@ -92,10 +94,10 @@ The prompt template is marked as `managedBy`: *<declarative\>*. Declarative mana
 
 ## Next Steps
 
-You use your prompt template at run time. For more information, see [Use a Prompt Template](use-a-prompt-template-ebe1e30.md).
+You use your prompt template at runtime. For more information, see [Use a Prompt Template](use-a-prompt-template-ebe1e30.md).
 
-You can make changes to your template locally, and push them to git.
+You can change templates locally and push them to git.
 
 > ### Tip:  
-> For declaratively managed templates, use history capabilities in git to track your changes.
+> For declaratively managed templates, use the history capabilities in git to track your changes.
 

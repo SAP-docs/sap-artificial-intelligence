@@ -23,7 +23,7 @@ Send a POST request and enter the URL `{{apiurl}}/v2/admin/secrets`.
 -   `AI-Tenant-Scope` : `true`. The operation will be performed at the main tenant level.
 -   `AI-Resource-Group` : <code><i class="varname">&lt;resource-group-name&gt;</i></code>. The operation will be performed at the resource-group level.
 
-In your request, you'll need to specify the resource group you created for grounding purposes, and set the document grounding label to `true`.
+In your request, you'll need to specify the resource group you created for grounding purposes, by setting the document grounding label to `true`.
 
 The following API request is used to create a generic secret with base64-encoded values, such as client credentials and other necessary fields, for integrating grounding in the generative AI hub. It can use OAuth2Password or OAuth2ClientCredentials to generate access tokens.
 
@@ -47,9 +47,7 @@ The following API request is used to create a generic secret with base64-encoded
 
 ## Example with OAuth2Password:
 
-Populate the example codeblock with the following information:
-
-The secret name is written without hyphens to make it simple to consume as a Unix environment variable later. It is written in capitals as is convention.
+The `name` attribute is written without hyphens to make it simple to consume as a Unix environment variable later. It is written in capitals as is convention.
 
 
 <table>
@@ -188,7 +186,7 @@ Base64 encoded value for `https://login.microsoftonline.com/<tenant-id>/oauth2/v
 </table>
 
 > ### Note:  
-> The following attributes are hard coded inside `data`, and do not need to be passed during the API call:
+> The following attributes are set as default, and do not need to be passed during the API call:
 > 
 > -   *type*: `"HTTP"`
 > -   *proxyType*: `"Internet"`
@@ -230,9 +228,7 @@ curl --location --request POST "$AI_API_URL/v2/admin/secrets" \
 
 ## Example with OAuth2ClientCredentials:
 
-Populate the example codeblock with the following information:
-
-The secret name is written without hyphens to make it simple to consume as a Unix environment variable later. It is written in capitals as is convention.
+The `name` attribute is written without hyphens to make it simple to consume as a Unix environment variable later. It is written in capitals as is convention.
 
 
 <table>
@@ -344,34 +340,10 @@ Base64 encoded value for `https://login.microsoftonline.com/<tenant-id>/oauth2/v
 
 </td>
 </tr>
-<tr>
-<td valign="top">
-
-*User* 
-
-</td>
-<td valign="top">
-
-Empty string
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Password* 
-
-</td>
-<td valign="top">
-
-Empty string
-
-</td>
-</tr>
 </table>
 
 > ### Note:  
-> The following attributes are hard coded inside data, and do not need to be passed during the API call:
+> The following attributes are set as default, and do not need to be passed during the API call:
 > 
 > -   *type*: `"HTTP"`
 > -   *proxyType*: `"Internet"`
@@ -389,9 +361,7 @@ Empty string
 >     "clientId": "<client id>",                        
 >     "authentication": "T0F1dGgyQ2xpZW50Q3JlZGVudGlhbHM=",          
 >     "tokenServiceURL": "<token service url>",     
->     "tokenServiceURLType": "RGVkaWNhdGVk",        
->     "user": "",
->     "password": "",                                          
+>     "tokenServiceURLType": "RGVkaWNhdGVk",                                                
 >     "url": "aHR0cHM6Ly9zYXAuc2hhcmVwb2ludC5jb20vc2l0ZXMvPHNpdGUtbmFtZT4=",                                                   
 >     "clientSecret": "<client secret>",            
 >     "scope": "aHR0cHM6Ly9ncmFwaC5taWNyb3NvZnQuY29tLy5kZWZhdWx0" 

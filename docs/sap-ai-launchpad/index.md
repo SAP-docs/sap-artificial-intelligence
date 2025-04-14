@@ -30,10 +30,7 @@ Explore the concepts around SAP AI Launchpad and learn how to provision the serv
         -   Prompt Editor
             -   [Prompt Experimentation](prompt-experimentation-384cc0c.md)
             -   [Save a Prompt](save-a-prompt-e8c656f.md)
-        -   Prompt Management
-            -   [View a Saved Prompt](view-a-saved-prompt-d07a272.md)
-            -   [Edit a Saved Prompt](edit-a-saved-prompt-5f53a57.md)
-            -   [Delete Prompts](delete-prompts-ee44055.md)
+            -   [Save a Template](save-a-template-49d4248.md)
         -   [Orchestration](orchestration-4953dc1.md)
             -   [Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4344c5b.md)
             -   AI Data Management
@@ -47,6 +44,12 @@ Explore the concepts around SAP AI Launchpad and learn how to provision the serv
                 -   [Model Configuration](model-configuration-be3cd61.md)
                 -   [Output Filtering](output-filtering-32a0e42.md)
             -   [Test Your Orchestration Workflow](test-your-orchestration-workflow-5b0183d.md)
+        -   Prompt Management
+            -   [View a Saved Prompt](view-a-saved-prompt-d07a272.md)
+            -   [Edit a Saved Prompt](edit-a-saved-prompt-5f53a57.md)
+            -   [Delete Prompts](delete-prompts-ee44055.md)
+            -   [View a Saved Template](view-a-saved-template-cfe6c8b.md)
+            -   [Edit a Saved Template](edit-a-saved-template-b532cd8.md)
         -   [Administration](administration-3d03a2e.md)
             -   [Manual User Offboarding](manual-user-offboarding-0d8d3cc.md)
             -   [Create a Disclaimer](create-a-disclaimer-4ecc5ae.md)

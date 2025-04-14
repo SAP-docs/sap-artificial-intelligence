@@ -8,6 +8,8 @@ You check the logs for an execution to debug an issue with a training pipeline.
 
 
 
+<a name="loioafec746903f24c15ac60f6fe473d64f7__steps_utt_byw_tcc"/>
+
 ## Procedure
 
 1.  Navigate to the execution's details. See [View an Execution](view-an-execution-33bae6d.md).
@@ -28,5 +30,5 @@ You check the logs for an execution to debug an issue with a training pipeline.
 **Related Information**  
 
 
-[Retrieve Execution Logs](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/fbc55d35ab7e45aab01d05509361808c.html "accessed in the deployment and execution logs.") :arrow_upper_right:
+[Retrieve Execution Logs](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/fbc55d35ab7e45aab01d05509361808c.html "Deployment and execution logs contain information about API processing and metrics.") :arrow_upper_right:
 

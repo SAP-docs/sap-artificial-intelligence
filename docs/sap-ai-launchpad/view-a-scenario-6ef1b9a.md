@@ -28,14 +28,21 @@ You have either the `mloperations_viewer` or `scenario_metadata_viewer` role, or
 
 3.  To view the details for a scenario, select a scenario in the list or choose <span class="SAP-icons-V5"></span> \(More\). The *Scenario Details* screen appears with the *Overview* tab displayed. The overview shows a graphical summary of the scenario, showing the distribution of workflow executables and serving executables by scenario version.
 
-4.  Choose the *Executables* tab to list the workflow and serving executables for the scenario across its various versions.
-
-    ![SAP AI Launchpad, with scenario details displayed and key fields highlighted.](images/Image_AIL_Scenario_48250e7.png)
+4.  **Optional:** To view your executables. choose the *Executables* tab to list the workflow and serving executables for the scenario across its various versions.
 
     -   Filter the list by choosing a version in the *Show* field, or show all versions.
 
     -   Search the list by entering a name, partial name, or part of the description in the :mag: field.
     -   Display the details for an executable by selecting an executable in the list, or choosing <span class="SAP-icons-V5"></span> \(More\).
+
+5.  **Optional:** To view your prompt templates, choose the *Prompt Templates* tab.
+
+    -   Filter your prompt template using the filter field.
+    -   Choose a prompt template to see its detailed view.
+
+    ![](images/scenarios_d1d183a.png)
+
+
 
 
 **Related Information**  

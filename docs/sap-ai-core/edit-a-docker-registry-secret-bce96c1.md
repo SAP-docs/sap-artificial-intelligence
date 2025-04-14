@@ -58,7 +58,7 @@ $ curl --location --request PATCH "$AI_API_URL/v2/admin/dockerRegistrySecrets/{{
 
 <!-- task\_cxf\_n13\_itcc -->
 
-## Using Postman
+## Using a Third-Party API Platform
 
 
 

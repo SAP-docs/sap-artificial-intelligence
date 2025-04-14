@@ -6,7 +6,7 @@ As a system administrator, you can delete applications which sync with Git repos
 
 
 
-<a name="loiod503fb014bba4a3bbd17e96b8da1bb59__prereq_zxh_bpc_rob"/>
+<a name="loiod503fb014bba4a3bbd17e96b8da1bb59__prereq_b1t_w3x_ycc"/>
 
 ## Prerequisites
 
@@ -14,11 +14,15 @@ You have the `aicore_admin_applications_editor` role or a role collection that c
 
 
 
+<a name="loiod503fb014bba4a3bbd17e96b8da1bb59__context_glc_jrx_ycc"/>
+
 ## Context
 
 You delete an application if it is invalid or contains errors, or if it is no longer required.
 
 
+
+<a name="loiod503fb014bba4a3bbd17e96b8da1bb59__steps_rlm_jrx_ycc"/>
 
 ## Procedure
 

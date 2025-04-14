@@ -41,5 +41,5 @@ Deployment logs differ from deployment status logs \([View Status Details](https
 **Related Information**  
 
 
-[Retrieve Deployment Logs](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/4c86b886f6ec440b99b7284f4b17e735.html "accessed in the deployment and execution logs.") :arrow_upper_right:
+[Retrieve Deployment Logs](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/4c86b886f6ec440b99b7284f4b17e735.html "Deployment and execution logs contain information about API processing and metrics.") :arrow_upper_right:
 

@@ -17,7 +17,7 @@ If you first subscribe to the free tier option, you can migrate the same service
 > 
 > -   It is not possible to migrate from a standard service plan to a free tier option.
 
-For more information about updating from a free tier to paid plan on the SAP BTP cockpit, see [Upgrade from free tier to paid plan](https://www.sap.com/assetdetail/2021/08/903d5752-f17d-0010-bca6-c68f7e60039b.html).
+For more information about updating from a free tier to paid plan on the SAP BTP cockpit, see [Update to a Paid Service Plan](https://help.sap.com/docs/btp/sap-business-technology-platform/using-free-service-plans#update-to-a-paid-service-plan).
 
 
 

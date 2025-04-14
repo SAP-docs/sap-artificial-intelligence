@@ -1310,6 +1310,18 @@ View document repositories and pipelines in the grounding management app in gene
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+`custom_evaluation` 
+
+</td>
+<td valign="top">
+
+Custom evaluation access in generative AI hub, for creating and viewing custom evaluation jobs and viewing results.
+
+</td>
+</tr>
 </table>
 
 > ### Note:  
@@ -1694,7 +1706,7 @@ Scope check failed
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant, and user IDs; data containing "Authorization failed for <scope\>".
+Message containing a time stamp, tenant, and user IDs; data containing “Authorization failed for <scope\>”.
 
 </td>
 </tr>
@@ -1706,7 +1718,7 @@ Read Connections Successful
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant, and user IDs; data containing "Read for all connections successful".
+Message containing a time stamp, tenant, and user IDs; data containing “Read for all connections successful”.
 
 </td>
 </tr>
@@ -1730,7 +1742,7 @@ Create Connection Successful
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant, and user IDs; data containing "Created connection <name\>".
+Message containing a time stamp, tenant, and user IDs; data containing “Created connection <name\>”.
 
 </td>
 </tr>
@@ -1742,7 +1754,7 @@ Create Connection Successful
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant, and user IDs; data containing "Failed to create connection <name\>".
+Message containing a time stamp, tenant, and user IDs; data containing “Failed to create connection <name\>”.
 
 </td>
 </tr>
@@ -1779,6 +1791,320 @@ Modify Connection
 <td valign="top">
 
 Message containing a time stamp, tenant, and user IDs; attributes containing the updated connection properties.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Failed read resource group
+
+</td>
+<td valign="top">
+
+Data containing “Failed to read resource groups” or “Failed to read access Token for retrieving the resource groups”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Failed Create Disclaimer message
+
+</td>
+<td valign="top">
+
+Data containing “Failed to create the disclaimer Message at AI Core tenant”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Failed Get Disclaimer Message
+
+</td>
+<td valign="top">
+
+Data containing “Failed to retrieve the disclaimer message stored at AI Core tenant”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Failed Update Disclaimer Message
+
+</td>
+<td valign="top">
+
+Data containing “Failed to update the disclaimer Message stored at AI Core tenant”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Failed Delete Disclaimer Message
+
+</td>
+<td valign="top">
+
+Data containing “Failed to delete the disclaimer Message stored at AI Core tenant”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Delete Disclaimer Message
+
+</td>
+<td valign="top">
+
+Message containing a time stamp, tenant id.
+
+Data containing “Disclaimer message Deleted”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Delete Admin Prompts
+
+</td>
+<td valign="top">
+
+Message containing a time stamp, tenant, resource group, user prompt IDs; data containing “Prompt Schema Deleted”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Delete Prompt
+
+</td>
+<td valign="top">
+
+Message containing a time stamp, tenant, resource group and prompt IDs; data containing “Prompt Data Deleted”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Delete Prompt Versions
+
+</td>
+<td valign="top">
+
+Message containing a time stamp, tenant, resource group and prompt IDs, will also contain prompt versions if exists; data containing “Prompt Data Deleted”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Delete Prompt’s Version
+
+</td>
+<td valign="top">
+
+Message containing a time stamp, tenant, resource group and prompt IDs and prompt version data containing “Prompt Data Deleted”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Accessing Secrets
+
+</td>
+<td valign="top">
+
+Data containing “Accessing secrets”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Deleting AI API Tenant Data
+
+</td>
+<td valign="top">
+
+Message containing a time stamp, tenant, sub account and user IDs; data containing “Ai Api Tenant Data Deleted”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Clean Resource Groups
+
+</td>
+<td valign="top">
+
+Message containing a time stamp, tenant, sub account and user IDs; data containing “All collections deleted for Resource Group Hash `hashID`”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Delete Workspace
+
+</td>
+<td valign="top">
+
+Message containing a time stamp, tenant, sub account and user IDs; data containing “Workspace Secret Deleted: `name`”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Read Workspaces
+
+</td>
+<td valign="top">
+
+Data containing “Read for all workspaces successful”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Failed Read Workspaces
+
+</td>
+<td valign="top">
+
+Data containing “Failed to read for all workspaces”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Create Workspace for free tier
+
+</td>
+<td valign="top">
+
+Data containing “Tenant having free tier plan is trying to create more than one connection”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Successful Create Workspace
+
+</td>
+<td valign="top">
+
+Data containing “Created workspace `workspaceName`”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Soft Delete all Workspaces
+
+</td>
+<td valign="top">
+
+Data containing “Soft deleted all workspaces”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Failed Soft Delete all Workspaces
+
+</td>
+<td valign="top">
+
+Data containing “Failed to soft delete all workspaces”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Failed Read specific Workspace
+
+</td>
+<td valign="top">
+
+Data containing “Failed to read workspace `workspaceName`”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Delete specific workspace
+
+</td>
+<td valign="top">
+
+Data containing “deleted workspace `workspaceName`”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Failed Delete specific workspace
+
+</td>
+<td valign="top">
+
+Data containing “Failed to delete workspace `workspaceName`”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Failed to read meta api
+
+</td>
+<td valign="top">
+
+Data containing “Failed to read meta api response”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Failed to fetch navigation items
+
+</td>
+<td valign="top">
+
+Data containing “Failed to fetch navigation items”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Read specific workspace
+
+</td>
+<td valign="top">
+
+Data containing “Read successful for workspace `workspaceName`”
 
 </td>
 </tr>

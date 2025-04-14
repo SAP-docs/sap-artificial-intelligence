@@ -36,7 +36,7 @@ The minimum number of reserved nodes is 0.
 
 
 
-### Reserve Nodes Using Postman
+### Reserve Nodes Using a Third-Party API Platform
 
 1.  Send a PATCH request to the endpoint`{{apiurl}}/v2/admin/resources/nodes`
 2.  Provide the resource plan type and quantity of nodes to reserve in the request body in JSON format:
@@ -93,7 +93,7 @@ curl --request PATCH $AI_API_URL/v2/admin/resources/nodes \
 
 
 
-### Check Reserve Node Status Using Postman
+### Check Reserve Node Status Using a Third-Party API Platform
 
 Send a GET request to the endpoint`{{apiurl}}/v2/admin/resources/nodes`
 
@@ -165,7 +165,7 @@ To delete reserved nodes, repeat the reservation procedure, with quantities in t
 
 [Delete Training Instances](delete-training-instances-612ce17.md "")
 
-[Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "accessed in the deployment and execution logs.")
+[Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "Deployment and execution logs contain information about API processing and metrics.")
 
 [Training Schedules](training-schedules-2b702f8.md "")
 

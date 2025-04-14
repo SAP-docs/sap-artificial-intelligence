@@ -8,8 +8,10 @@ The object store secret allows SAP AI Core to access your cloud storage and data
 
 -   **[Create Files](create-files-66413f1.md "")**  
 
--   **[List Files](list-files-1d613e0.md "")**  
-
+-   **[List Files](list-files-1d613e0.md "Use the ML
+                                    Operations app
+			to search for a dataset or artifact.")**  
+Use the *ML Operations* app to search for a dataset or artifact.
 
 **Parent topic:**[Connect Your Data](connect-your-data-9508bdb.md "Use cloud storage with SAP AI Core to store AI assets such as datasets and model files. You use Artifacts in SAP AI Core to reference to your AI Assets.")
 

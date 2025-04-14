@@ -23,7 +23,7 @@
 
 ## Prerequisites
 
-You have completed the Initial Setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
+You have completed the initial setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
 
 
 
@@ -51,7 +51,7 @@ curl --location --request POST "$AI_API_URL/v2/admin/resourceGroups" --header "A
 
 <!-- task\_cxf\_n13\_tcc -->
 
-## Using Postman
+## Using a Third-Party API Platform
 
 
 
@@ -59,7 +59,7 @@ curl --location --request POST "$AI_API_URL/v2/admin/resourceGroups" --header "A
 
 ## Prerequisites
 
-You have completed the Initial Setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
+You have completed the initial setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
 
 
 

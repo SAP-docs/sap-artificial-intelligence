@@ -10,11 +10,12 @@
 
 ## Prerequisites
 
+> ### Note:  
+> It is likely that you already have an orchestration deployment running in your default resource group. These steps are only required for users who do not have an orchestration deployment. For more information, see [Get Your Orchestration Deployment URL](get-your-orchestration-deployment-url-ec7c703.md).
+
 -   You have an SAP AI Core service instance and service key. For more information, see [SAP AI Core Initial Setup Documentation](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/38c4599432d74c1d94e70f7c955a717d.html?locale=en-US&state=PRODUCTION&version=CLOUD).
 -   You’re using the `extended` service plan. For more information, see [Service Plans](service-plans-c7244c6.md) and [Update a Service Plan](update-a-service-plan-924f892.md).
 -   You have completed the client authorization for your preferred user interface. For more information, see [Use a Service Key](use-a-service-key-3a97465.md).
-
--   You have at least one orchestration-compatible deployment for a generative AI model running. For more information, see [Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4387aa7.md).
 
 
 
@@ -27,80 +28,13 @@ You create a deployment to make orchestration capabilities available for use. Af
 
 For more information, see [Consumption of GenAI Models Using Orchestration – A Beginner's Guide](https://developers.sap.com/tutorials/ai-core-orchestration-consumption.html)as well as [Libraries and SDKs](libraries-and-sdks-499309d.md).
 
-<a name="task_emp_lcz_bcc"/>
-
-<!-- task\_emp\_lcz\_bcc -->
-
-## Using Postman
 
 
-
-<a name="task_emp_lcz_bcc__steps_upf_pcz_bcc"/>
+<a name="loio4387aa7a9fa44402822ad6bc3631f846__steps_cdn_ycz_bcc"/>
 
 ## Procedure
 
-1.  Check that you have access to the `orchestration` scenario containing generative AI by sending a GET request to `{{apiurl}}/v2/lm/scenarios`.
-
-    Set the *Authorization* header with `Bearer $TOKEN` and set your resource group.
-
-    > ### Note:  
-    > You must use the same resource group for all of your generative AI activities. To use a different resource group, these steps must be repeated for each resource group.
-
-    The scenarios listed contain a scenario with the id `orchestration`.
-
-2.  Create a configuration by sending a POST request to the endpoint `{{apiurl}}/v2/lm/configurations`.
-
-    Include the following parameters:
-
-    -   `name` is your free choice of identifier.
-
-    -   `executableId` must be `orchestration`.
-
-    -   `scenarioId` must be `orchestration`.
-
-    -   `versionId` is your own version reference.
-
-
-    > ### Sample Code:  
-    > ```
-    > {
-    > 	"name": "yourNameChoice",
-    > 	"executableId": "orchestration",
-    > 	"scenarioId": "orchestration",
-    > 	"versionId": "0.0.1",
-    > }
-    >    
-    > ```
-
-    You receive a unique `configurationId` in the response.
-
-3.  Create a deployment by sending a POST request to the endpoint `{{apiurl}}/v2/lm/deployments`.
-
-    Include the `configurationId` from the previous step in your request.
-
-    > ### Sample Code:  
-    > ```
-    > {
-    >  "configurationId": "yourConfigurationId"
-    > }
-    > ```
-
-4.  Retrieve the details of your deployment by sending a GET request to the endpoint `{{apiurl}}/v2/lm/deployments`.
-
-
-<a name="task_yn2_tcz_bcc"/>
-
-<!-- task\_yn2\_tcz\_bcc -->
-
-## Using curl
-
-
-
-<a name="task_yn2_tcz_bcc__steps_cdn_ycz_bcc"/>
-
-## Procedure
-
-1.  Create a configure for the orchestration deployment.
+1.  Create a configuration for the orchestration deployment.
 
     Orchestration is exposed via the global scenario `orchestration` and the executable `orchestration`.
 

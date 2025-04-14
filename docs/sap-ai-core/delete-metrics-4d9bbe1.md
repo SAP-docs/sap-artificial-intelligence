@@ -179,7 +179,7 @@ The specified resource was not found
 
 <!-- task\_qkl\_2pl\_sxb -->
 
-## Deleting Metrics with Postman
+## Deleting Metrics with a Third-Party API Platform
 
 
 

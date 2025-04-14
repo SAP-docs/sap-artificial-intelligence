@@ -21,7 +21,7 @@ You can use your own git repository to version control your SAP AI Core template
 -   If you want to onboard a git repository hosted on GitLab, make sure that the repository URL contains the `.git` suffix.
 -   Secrets aren't permitted in your repository. If secrets are used, it isn't possible to synchronize content.
 
--   You have completed the Initial Setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
+-   You have completed the initial setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
 
 
 > ### Note:  
@@ -76,7 +76,7 @@ Create an application to sync your folders. For more information, see [Create an
 
 <!-- task\_cxf\_n13\_tcc -->
 
-## Using Postman
+## Using a Third-Party API Platform
 
 
 
@@ -89,7 +89,7 @@ Create an application to sync your folders. For more information, see [Create an
 -   If you want to onboard a git repository hosted on GitLab, make sure that the repository URL contains the `.git` suffix.
 -   Secrets aren't permitted in your repository. If secrets are used, it isn't possible to synchronize content.
 
--   You have completed the Initial Setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
+-   You have completed the initial setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
 
 
 > ### Note:  

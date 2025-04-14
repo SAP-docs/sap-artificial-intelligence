@@ -59,6 +59,40 @@ Explore the entities, methods, and endpoints provided by the runtime-agnostic AI
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Prompt Registry
+
+</td>
+<td valign="top">
+
+Simplify the lifecycle management of prompt templates of your business AI scenarios.
+
+</td>
+<td valign="top">
+
+[Prompt Registry API](https://api.sap.com/api/PROMPT_REGISTRY_API/overview) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Orchestration
+
+</td>
+<td valign="top">
+
+Enhance content generation with additional capabilities for business AI scenarios.
+
+</td>
+<td valign="top">
+
+[Orchestration API](https://api.sap.com/api/ORCHESTRATION_API/overview) 
+
+</td>
+</tr>
 </table>
 
 **API Extensions**

@@ -55,8 +55,9 @@ An executable is a reusable template that defines a workflow or pipeline for tas
 -   **[Efficiency Features](efficiency-features-9fad26a.md "Discover features of the SAP AI Core runtime that improve efficiency
 		and help manage resource consumption.")**  
 Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.
--   **[Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md "accessed in the deployment and execution logs. ")**  
-accessed in the deployment and execution logs.
+-   **[Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md "Deployment and execution logs contain information about API
+            processing and metrics.")**  
+Deployment and execution logs contain information about API processing and metrics.
 
 **Parent topic:**[ML Operations](ml-operations-7f5aa9b.md "This section guides you through the end-to-end AI lifecycle of SAP AI Core.")
 

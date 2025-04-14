@@ -16,10 +16,25 @@ SAP AI Core and the generative AI hub help you to integrate LLMs and AI into new
 
 ![](images/LLM_Infrastructure_8b7110e.png "Generative AI Hub Architecture Overview")
 
+
+
+<a name="loio7db524ee75e74bf8b50c167951fe34a5__section_jnp_r2n_s2c"/>
+
+## Next Steps
+
+Click the tiles below to find out more about the generative AI hub.
+
+![](images/Image_Map_Generation_AI_-_Next_Steps_c763284.png)
+
 -   **[Quick Start](quick-start-ef03b58.md "In this section, we'll show you how you can get started with the generative AI hub.")**  
 In this section, we'll show you how you can get started with the generative AI hub.
 -   **[Accessing Generative AI Models Through Global Scenarios](accessing-generative-ai-models-through-global-scenarios-4ca11f6.md "")**  
 
 -   **[Supported Models](supported-models-509e588.md "")**  
 
+
+**Related Information**  
+
+
+[Monitoring and Troubleshooting](monitoring-and-troubleshooting-f559038.md "Explore solutions to potential issues, and find out how to get support.")
 

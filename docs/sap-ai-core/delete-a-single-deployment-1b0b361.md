@@ -61,7 +61,7 @@ Deleting a deployment releases the SAP AI Core resources that it used.
 
 <!-- task\_cxf\_n13\_tcc -->
 
-## Using Postman
+## Using a Third-Party API Platform
 
 
 

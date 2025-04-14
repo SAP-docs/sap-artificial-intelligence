@@ -8,19 +8,23 @@ You can investigate details for an application used within your instance of SAP 
 
 
 
-<a name="loioedb1aa02351349f3adc94a77b631d9bd__prereq_jxh_bpc_rob"/>
+<a name="loioedb1aa02351349f3adc94a77b631d9bd__prereq_b1t_w3x_ycc"/>
 
 ## Prerequisites
 
-You have the `aicore_admin_applications_viewer` role or a role collection that contains it. For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
+You have the `aicore_admin_applications_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
 
 
+
+<a name="loioedb1aa02351349f3adc94a77b631d9bd__context_tfw_2mx_ycc"/>
 
 ## Context
 
 Application details include sync status and health information, source repository, and system messages for any synced resources.
 
 
+
+<a name="loioedb1aa02351349f3adc94a77b631d9bd__steps_ydw_gmx_ycc"/>
 
 ## Procedure
 

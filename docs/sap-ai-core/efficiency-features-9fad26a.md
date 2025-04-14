@@ -74,7 +74,7 @@ The minimum number of reserved nodes is 0.
 
 
 
-### Reserve Nodes Using Postman
+### Reserve Nodes Using a Third-Party API Platform
 
 1.  Send a PATCH request to the endpoint`{{apiurl}}/v2/admin/resources/nodes`
 2.  Provide the resource plan type and quantity of nodes to reserve in the request body in JSON format:
@@ -131,7 +131,7 @@ curl --request PATCH $AI_API_URL/v2/admin/resources/nodes \
 
 
 
-### Check Reserve Node Status Using Postman
+### Check Reserve Node Status Using a Third-Party API Platform
 
 Send a GET request to the endpoint`{{apiurl}}/v2/admin/resources/nodes`
 
@@ -199,7 +199,7 @@ To delete reserved nodes, repeat the reservation procedure, with quantities in t
 
 [Delete Deployments](delete-deployments-0193d17.md " ")
 
-[Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md "accessed in the deployment and execution logs.")
+[Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md "Deployment and execution logs contain information about API processing and metrics.")
 
 [Service Plans](service-plans-c7244c6.md "The SAP AI Core service plan you choose determines pricing, conditions of use, resources, available services, and hosts.")
 

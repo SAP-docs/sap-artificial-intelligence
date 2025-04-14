@@ -41,7 +41,7 @@
     > ### Note:  
     > The API expects sensitive data to be Base64-encoded. You can easily encode your data in Base64 format using the following command on Linux or MacOS: `echo -n 'my-sensitive-data' | base64`
 
-6.  Choose *Edit* to save the changes to the secret.
+    Add labels to your secrets. Labels are only required for specific services, they are predefined and are outlined in the related documentation.
 
 
 

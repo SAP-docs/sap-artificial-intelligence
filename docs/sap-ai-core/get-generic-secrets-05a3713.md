@@ -91,7 +91,7 @@ The response contains the name, and the creation timestamp of the requested gene
 
 <!-- task\_cxf\_n13\_tcc -->
 
-## Get a Secret Using Postman
+## Get a Secret Using a Third-Party API Platform
 
 
 
@@ -141,7 +141,7 @@ In the case of a tenant-wide secret, the response additionally includes a list o
 
 <!-- task\_imv\_l3m\_22c -->
 
-## Get All Secrets Using Postman
+## Get All Secrets Using a Third-Party API Platform
 
 
 

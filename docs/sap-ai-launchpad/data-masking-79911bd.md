@@ -18,6 +18,8 @@ When masking data, you can choose the types of data that are to be masked. For e
 > 
 > Anonymization replaces personally identifiable information in an irreversible way. This leads to a loss of context, which may limit the model's ability to process the input. For instance, if tasked with writing a story about Michael and Donna, anonymization of profile-person would result in a story about `MASKED_PERSON` and `MASKED_PERSON`, making it impossible to distinguish between the two.
 
+You can enter strings that you do not want to mask in the *Exeption List*.
+
 ![](images/Data_Masking_Screenshot_6dc816a.png)
 
 For more information about supported anonymization services, see the [Orchestration Workflow in SAP AI Core](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/b233648e0696461984410c38448fc81b.html) and select *Data Masking*.

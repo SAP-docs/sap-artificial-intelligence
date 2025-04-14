@@ -59,7 +59,7 @@ curl --location --request PUT “$AI_API_URL/v2/lm/dataset/files/$SECRET_NAME/$F
 
 <!-- task\_cxf\_n13\_tcc -->
 
-## Using Postman
+## Using a Third-Party API Platform
 
 
 

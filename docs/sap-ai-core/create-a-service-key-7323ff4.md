@@ -47,7 +47,7 @@
 
 ## Results
 
-You now have your service key, which provides URLs and credentials for accessing the SAP AI Core instance through SAP AI Launchpad, SAP AI Core toolkit Postman, or curl.
+You now have your service key, which provides URLs and credentials for accessing the SAP AI Core instance through SAP AI Launchpad, SAP AI Core toolkit, a Third-Party API Platform, or curl.
 
 ![](images/Service_Key_Credentials_1e1342e.png)
 

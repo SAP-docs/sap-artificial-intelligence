@@ -16,7 +16,7 @@ You have created a deployment for orchestration as described at [Create a Deploy
 
 ## Process
 
-In the following example, you configure content filtering for both the input and the output. The input gets filtered by `azure_content_safety` before the call to the LLM. The LLM output is filtered by both `azure_content_safety` and `llama_guard_3_8b` before it is sent back in the response.
+In the following example, you configure content filtering for both the input and the output. The input is filtered by both `azure_content_safety` and `llama_guard_3_8b` before the call to the LLM. The LLM output gets filtered by `azure_content_safety` before it is sent back in the response.
 
 ```
 curl --request POST $ORCH_DEPLOYMENT_URL/completion \  

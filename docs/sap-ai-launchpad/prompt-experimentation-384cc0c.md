@@ -10,7 +10,7 @@
 
 ## Prerequisites
 
--   You have at least one deployment for a generative AI model running. For more information, see [Create a Deployment for a Generative AI Model](create-a-deployment-for-a-generative-ai-model-96b65bb.md).
+-   You have an orchestration deployment running. For more information, see [Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4344c5b.md)
 
 -   You’ve selected the AI API connection and resource group that you used in the activation steps.
 
@@ -40,7 +40,15 @@
 
 3.  Input your prompt:
 
-    1.  Enter your input data in the *Message* box.
+    1.  **Optional:** Enter a name for your prompt.
+
+        Not available to the `genai_experimenter` or `prompt_experimenter` roles.
+
+    2.  **Optional:** Enter a collection name. Collection names are case sensitive.
+
+        Not available to the `genai_experimenter` or `prompt_experimenter` roles.
+
+    3.  Enter your input data in the *Message* boxand assign a role to your messge using the tabs. You can add more message blocks using the :heavy_plus_sign:.
 
         For selected models, image inputs are supported, and can be added using the <span class="SAP-icons-V5"></span> \(add image\)icon or copy and paste.
 
@@ -49,35 +57,29 @@
         > ### Tip:  
         > If the result of paste \([ctrl\] + [v\]  or [cmd\] + [v\] \) is not as expected, use [ctrl\] + [shift\] + [v\]  or [cmd\] + [shift\] + [v\] .
 
-    2.  **Optional:** Enter a name for your prompt.
+    4.  Use the <span class="SAP-icons-V5"></span> \(Syntax\) icon to add variables to your prompt, and define them in the *Variable Definitions* section.
 
-        Not available to the `genai_experimenter` or `prompt_experimenter` roles.
-
-    3.  **Optional:** Choose a model.
+    5.  **Optional:** Choose a model.
 
         If you do not choose a model, the default model will be used.
 
         When choosing a model, you can filter by input type.
 
-        ![](images/choose_model_w_image_ef66424.png)
+        ![](images/configure_chat_4732b30.png)
 
-    4.  **Optional:** Enter a collection name. Collection names are case sensitive.
-
-        Not available to the `genai_experimenter` or `prompt_experimenter` roles.
-
-    5.  **Optional:** Adjust the parameters to refine the generated response.
+    6.  **Optional:** Adjust the parameters to refine the generated response.
 
 
 
         > ### Tip:  
         > Different models support different parameters and values. For more information, see the documentation from the model provider. Also see [Models and Scenarios in the Generative AI Hub](models-and-scenarios-in-the-generative-ai-hub-fef463b.md).
 
-    6.  **Optional:** Add meaningful tags and notes to the metadata.
+    7.  **Optional:** Add meaningful tags and notes to the metadata.
 
         Not available to the `genai_experimenter` or `prompt_experimenter` roles.
 
 
-    ![](images/prompteditor12a_b2d7829.png)
+    ![](images/prompt_editor_2503b_9535463.png)
 
 4.  Choose *Run*.
 
@@ -86,8 +88,6 @@
     ![](images/switch_770fce5.png)
 
     You will see your response as it generates.
-
-    ![](images/streaming_ae8b8a3.png)
 
 
 
@@ -106,6 +106,10 @@ The response to your prompt will be generated.
 
 -   You can run your prompt again, make changes to the prompt, model, and parameters to change the outcome.
 -   You can save your prompt. For more information, see [Save a Prompt](save-a-prompt-e8c656f.md).
+
+    Not available to the `genai_experimenter` or `prompt_experimenter` roles.
+
+-   You can save your template. For more information, see [Save a Template](save-a-template-49d4248.md).
 
     Not available to the `genai_experimenter` or `prompt_experimenter` roles.
 

@@ -8,7 +8,7 @@ After you have configured your service key, it can be used by local clients, app
 
 <!-- task\_dn3\_jnn\_fyb -->
 
-## Using Postman
+## Using a Third-Party API Platform
 
 
 
@@ -16,8 +16,8 @@ After you have configured your service key, it can be used by local clients, app
 
 ## Prerequisites
 
--   You have downloaded and installed the Postman client from [https://www.postman.com/](https://www.postman.com/).
--   You have familiarized yourself with the Postman documentation and interface.
+-   You have downloaded and installed the API platform API platform of your choice.
+-   You have familiarized yourself with the documentation and interface of the platform.
 
 
 
@@ -27,7 +27,7 @@ After you have configured your service key, it can be used by local clients, app
 
 1.  Download the JSON collection from [https://api.sap.com/api/AI\_CORE\_API/overview](https://api.sap.com/api/AI_CORE_API/overview).
 
-2.  In Postman, click *Import*, select the JSON file, and choose *Import* to start the import.
+2.  Import the JSON file to the API platform.
 
 3.  After the import is complete, highlight the collection and select the *Authorization* tab.
 
@@ -130,7 +130,7 @@ curl is likely to be installed on your operating system by default. To check, op
 
     ```
     SECRET=`echo -n ‘$CLIENTID:$CLIENTSECRET’ | base64 -i - ` 
-    TOKEN=`curl --location --request POST "$XSUAA_URL/oauth/token?grant_type=client_credentials" \ 
+    TOKEN=`curl --location --request POST "$XSUAA_URL/oauth/token?grant_type=client_credentials" 
      --header "Authorization: Basic $SECRET" | jq -r '.access_token'` 
     
     ```

@@ -116,6 +116,26 @@ curl --location '$DEPLOYMENT_URL/chat/completions?api-version=2023-05-15' \
 
 
 
+### o1 | o3-mini
+
+```
+curl --location '$DEPLOYMENT_URL/chat/completions?api-version=2024-12-01-preview' \
+--header 'AI-Resource-Group: default' \
+--header 'Content-Type: application/json' \
+--header "Authorization: Bearer $AUTH_TOKEN" \
+--data '{
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello!"
+      }
+    ]
+  }'
+}'
+```
+
+
+
 ### GPT-4o | GPT-4-Turbo | GPT-4o Mini
 
 **Image input**
@@ -266,12 +286,12 @@ curl --request POST --location "$DEPLOYMENT_URL/models/gemini-1.5-pro:generateCo
 
 
 
-### Gemini 1.5 Flash
+### Gemini 1.5 Flash Gemini 2.0 Flash | Gemini 2.0 Flash Lite
 
 **Text Input**
 
 ```
-curl --request POST --location "$DEPLOYMENT_URL/models/gemini-1.5-flash:generateContent" \
+curl --request POST --location "$DEPLOYMENT_URL/models/<modelName>:generateContent" \ #example gemini-1.5-flash:generateContent
 --header 'AI-Resource-Group: default' \
 --header 'Content-Type: application/json' \
 --header "Authorization: Bearer $AUTH_TOKEN" \
@@ -295,7 +315,7 @@ curl --request POST --location "$DEPLOYMENT_URL/models/gemini-1.5-flash:generate
 **Image input**
 
 ```
-curl --request POST --location "$DEPLOYMENT_URL/models/gemini-1.5-flash:generateContent" \
+curl --request POST --location "$DEPLOYMENT_URL/models/<modelVersion>:generateContent" \ #example gemini-1.5-flash:generateContent
 --header 'AI-Resource-Group: default' \
 --header 'Content-Type: application/json' \
 --header "Authorization: Bearer $AUTH_TOKEN" \
@@ -444,6 +464,32 @@ curl --location '$DEPLOYMENT_URL/invoke' \
 
 
 
+### Claude 3.7 Sonnet
+
+```
+curl --location '$DEPLOYMENT_URL/converse' \
+--header 'AI-Resource-Group: default' \
+--header 'Content-Type: application/json' \
+--header "Authorization: Bearer $AUTH_TOKEN" \
+--data '{
+   "inferenceConfig": { 
+      "maxTokens": 100,
+      "stopSequences": [ "blab" ],
+      "temperature": 0.7
+   },
+   "messages": [ 
+      { 
+         "content": [ { 
+           "text": "Perplexity means?" 
+         }],
+         "role": "user"
+      }
+   ]
+}'
+```
+
+
+
 ### Titan Text Express | Titan Text Lite
 
 ```
@@ -510,7 +556,7 @@ curl --location '$DEPLOYMENT_URL/converse' \
 
 
 
-### Llama-3-70b-instruct| Llama-3.1-70b-instruct | mistralai--mixtral-8x7b-instruct-v01
+### Llama-3.1-70b-instruct | mistralai--mixtral-8x7b-instruct-v01
 
 ```
 curl --location '$DEPLOYMENT_URL/chat/completions' \

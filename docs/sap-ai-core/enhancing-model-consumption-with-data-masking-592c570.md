@@ -34,7 +34,7 @@ In the following example, we use the data masking module to anonymize people, or
 >             "role": "user",
 >             "content": "Summarize the following CV in 10 sentences: {{?orgCV}}"
 >           }
->         ],
+>         ]
 >       },
 >       "llm_module_config": {
 >         "model_name": "gpt-4",

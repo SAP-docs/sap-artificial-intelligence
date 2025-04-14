@@ -28,6 +28,71 @@ More Information
 <tr>
 <td valign="top">
 
+SAP Cloud SDK for AI: JavaScript
+
+![](images/CloudSDKLogo_7bceb89.png)
+
+</td>
+<td valign="top">
+
+SAP Cloud SDK for AI is the official SDK for SAP AI Core, generative AI hub, and orchestration.
+
+You can use SAP Cloud SDK for AI to:
+
+-   Integrate chat completion into your business applications with SAP Cloud SDK for AI.
+
+-   Leverage the generative AI hub capabilities of SAP AI Core such as templating, grounding, data masking, content filtering. For more information, see [SAP AI Core](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/d029a32c22fb45fbb607e6a2c48c8a0e.html).
+
+-   Setup your SAP AI Core instance with SAP Cloud SDK for AI.
+
+
+
+
+</td>
+<td valign="top">
+
+-   [SAP Cloud SDK for AI Repository: JavaScript](https://github.com/SAP/ai-sdk-js)
+
+-   [NPM Packages](https://www.npmjs.com/search?q=%40sap-ai-sdk)
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Cloud SDK for AI: Java
+
+![](images/CloudSDKLogo_7bceb89.png)
+
+</td>
+<td valign="top">
+
+SAP Cloud SDK for AI is the official SDK for SAP AI Core, generative AI hub, and orchestration.
+
+You can use SAP Cloud SDK for AI to:
+
+-   Integrate chat completion into your business applications with SAP Cloud SDK for AI.
+
+-   Leverage the generative AI hub capabilities of SAP AI Core such as templating, grounding, data masking, content filtering. For more information, see [SAP AI Core](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/d029a32c22fb45fbb607e6a2c48c8a0e.html).
+
+-   Setup your SAP AI Core instance with SAP Cloud SDK for AI.
+
+
+
+
+</td>
+<td valign="top">
+
+[SAP Cloud SDK for AI Repository: Java](https://github.com/SAP/ai-sdk-java) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP AI Core SDK 
 
 </td>
@@ -83,67 +148,6 @@ With this SDK, you can leverage the power of generative AI models available in t
 <td valign="top">
 
 [Generative AI hub SDK](https://help.sap.com/doc/generative-ai-hub-sdk/CLOUD/en-US/index.html)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Cloud SDK for AI: JavaScript
-
-</td>
-<td valign="top">
-
-SAP Cloud SDK for AI is the official SDK for SAP AI Core, generative AI hub, and orchestration.
-
-You can use SAP Cloud SDK for AI to:
-
--   Integrate chat completion into your business applications with SAP Cloud SDK for AI.
-
--   Leverage the generative AI hub capabilities of SAP AI Core such as templating, grounding, data masking, content filtering. For more information, see [SAP AI Core](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/d029a32c22fb45fbb607e6a2c48c8a0e.html).
-
--   Setup your SAP AI Core instance with SAP Cloud SDK for AI.
-
-
-
-
-</td>
-<td valign="top">
-
--   [SAP Cloud SDK for AI Repository: JavaScript](https://github.com/SAP/ai-sdk-js)
-
--   [NPM Packages](https://www.npmjs.com/search?q=%40sap-ai-sdk)
-
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Cloud SDK for AI: Java
-
-</td>
-<td valign="top">
-
-SAP Cloud SDK for AI is the official SDK for SAP AI Core, generative AI hub, and orchestration.
-
-You can use SAP Cloud SDK for AI to:
-
--   Integrate chat completion into your business applications with SAP Cloud SDK for AI.
-
--   Leverage the generative AI hub capabilities of SAP AI Core such as templating, grounding, data masking, content filtering. For more information, see [SAP AI Core](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/d029a32c22fb45fbb607e6a2c48c8a0e.html).
-
--   Setup your SAP AI Core instance with SAP Cloud SDK for AI.
-
-
-
-
-</td>
-<td valign="top">
-
-[SAP Cloud SDK for AI Repository: Java](https://github.com/SAP/ai-sdk-java) 
 
 </td>
 </tr>

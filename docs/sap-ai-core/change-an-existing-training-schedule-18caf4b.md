@@ -43,7 +43,7 @@ curl --location --request PATCH $AI_API_URL/v2/lm/executions?executionScheduleId
 
 <!-- task\_cxf\_n13\_tcc -->
 
-## Using Postman
+## Using a Third-Party API Platform
 
 
 

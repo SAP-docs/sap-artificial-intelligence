@@ -25,7 +25,7 @@ An executable is a reusable template that defines a workflow or pipeline for tas
 
 [Efficiency Features](efficiency-features-9fad26a.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
 
-[Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md "accessed in the deployment and execution logs.")
+[Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md "Deployment and execution logs contain information about API processing and metrics.")
 
 <a name="task_i3h_n13_tcc"/>
 
@@ -211,7 +211,7 @@ curl --request GET "$AI_API_URL/v2/lm/scenarios" --header "Authorization: Bearer
 
 <!-- task\_cxf\_n13\_tcc -->
 
-## Using Postman
+## Using a Third-Party API Platform
 
 
 
@@ -342,7 +342,7 @@ curl --request GET "$AI_API_URL/v2/lm/scenarios" --header "Authorization: Bearer
 
 <!-- task\_cxf\_n13\_tccd -->
 
-## Get Executable Details with Postman
+## Get Executable Details with a Third-Party API Platform
 
 
 

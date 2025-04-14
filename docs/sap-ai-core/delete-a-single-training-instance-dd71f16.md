@@ -50,7 +50,7 @@ curl --request DELETE $AI_API_URL/v2/lm/executions/$EXECUTION \ \
 
 <!-- task\_cxf\_n13\_tcc -->
 
-## Using Postman
+## Using a Third-Party API Platform
 
 
 

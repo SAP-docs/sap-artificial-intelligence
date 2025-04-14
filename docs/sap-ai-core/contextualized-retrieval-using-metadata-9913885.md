@@ -1,6 +1,6 @@
 <!-- loio991388516a8642b6aa49672937cbc937 -->
 
-# Metadata
+# Contextualized Retrieval Using Metadata
 
 You can choose to include metadata in the output structure of the grounding module in orchestration. You can leverage the metadata in your prompt template.
 
@@ -150,8 +150,9 @@ Meta data inclusion is optional, and can be included using the `metadata_params`
     > ### Output Code:  
     > ```
     > [
+    >  [
     >  {
-    >    "content": "2 FeaturesnJoule is a multitenant software as a service (SaaS) application in SAP Business T echnology Platform. It enablesnthe companion of the Intelligent Enterprise, guiding you through content discovery within SAP Ecosystem,nand giving a transparent role-based access to the relevant processes from everywhere. This is the ONE digitalnassistant experience, a unified  and delightful UX across SAPu2019s solution portfolio.nThe following features are available for Joule:nKey Feature UsenIntegration with SAP application Conversational user interface that is integrated with SAPnapplications. It is a rich web client that renders assistantnresponses using SAP Fiori compliant UI controls.nEnterprise-readiness Out-of-the-box integration with SAP backend systems. Com-npliant with AI ethics, GDPR, privacy controls with SOC-IIncompliance.nPublish and subscribe mechanism Capabilities based on your SAP solution portfolio are bun-ndled into a unique digital assistant.",
+    >    "content": "Joule is the AI copilot that truly understands your business. Joule revolutionizes how you interact with your SAP business systems, making every touchpoint count and every task simpler.",
     >    "metadata": {
     >      "source": [
     >        "/tmp/document_1.pdf"
@@ -165,7 +166,7 @@ Meta data inclusion is optional, and can be included using the `metadata_params`
     >    }
     >  },
     >  {
-    >    "content": "4 Compliance and SecuritynJoule ensures cloud security at multiple levels:nCertificates  and ReportsnJoule regularly undergoes audits and reviews of its policies and controls.nu2022For the complete list of compliance and security standards that the Joule service is compliant with, seenSAP Cloud Platform ISO Certificatesn .nu2022For the complete list of Service Organizational Control (SOC) audit reports available for the Joule service,nsee SAP Cloud Platform SOC Reportsn .nData ProtectionnJoule follows SAP's global data protection and privacy guidelines. For more information on the guidelines, seenData Privacyn .nT o access the Personal Data Processing policy for your region, see Personal Data Processing for SAP CloudnServicesn .n6 PUBLICFeature Scope Description for JoulenCompliance and Security",
+    >    "content": "AI-powered capabilities in Joule with custom-developed enterprise skills tailored to your company's specific needs. By integrating with both SAP and third-party applications, Joule can instantly apply its newfound knowledge within SAP systems.",
     >    "metadata": {
     >      "source": [
     >        "/tmp/document_1.pdf"

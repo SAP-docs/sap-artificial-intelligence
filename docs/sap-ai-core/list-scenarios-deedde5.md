@@ -29,7 +29,7 @@ A scenario is an implementation of a specific AI use case within a user's tenant
 
 [Efficiency Features](efficiency-features-4cb76f7.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
 
-[Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "accessed in the deployment and execution logs.")
+[Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "Deployment and execution logs contain information about API processing and metrics.")
 
 [Training Schedules](training-schedules-2b702f8.md "")
 
@@ -113,7 +113,7 @@ curl --location --request GET '$API_URL/v2/lm/scenarios/$SCENARIO_ID/versions' \
 
 <!-- task\_cxf\_n13\_tcc -->
 
-## List Scenarios Using Postman
+## List Scenarios Using a Third-Party API Platform
 
 
 
@@ -169,7 +169,7 @@ curl --location --request GET '$API_URL/v2/lm/scenarios/$SCENARIO_ID/versions' \
 
 <!-- task\_b3y\_rz3\_tcc -->
 
-## Get Scenario Versions Using Postman
+## Get Scenario Versions Using a Third-Party API Platform
 
 
 

@@ -19,14 +19,9 @@
 
 ## Context
 
-You can use the *SAP AI Core Administration* app to add generic secretson the main-tenant or resource-group level. The SAP AI Core API should be used for tenant-wide generic secrets.
+You use the *SAP AI Core Administration* app to add generic secrets at the main-tenant or resource-group level. For tenant-wide generic secrets, use the SAP AI Core API.
 
-> ### Note:  
-> In order to allow rotation of tenant-wide secrets for long-running deployments without restarting the deployment, the following guidelines must be followed:
-> 
-> -   > The deployment must mount the tenant-wide secret. For more information see [Consume Generic Secrets in Executions or Deployments](https://help.sap.com/docs/AI_CORE/52b4adb30e6744709d6226d2b0659dea/185a3245692542a78bfeff87220410c6.html).
-> -   > The deployment must monitor the mounted secret for changes instead of relying on an in-memory copy of the secret read from the mount.
-> -   > When a tenant-wide secret is updated, the tenant is responsible for observing the `resourceGroupSecretReplicationStatus` field of the `Get Secret` endpoint, to ensure that the replicator has successfully updated the secret in the required resource groups. For more information, see [Create a Generic Secret](https://help.sap.com/docs/AI_CORE/52b4adb30e6744709d6226d2b0659dea/1831845910364e97b3a7c6644a9e1f4b.html).
+To allow the rotation of tenant-wide secrets for long-running deployments without requiring a restart, the deployment must mount the tenant-wide secret. It must also monitor the mounted secret for changes instead of relying on an in-memory copy. When a tenant-wide secret is updated, the tenant must observe the `resourceGroupSecretReplicationStatus` field in the `Get Secret` endpoint to confirm that the secret has been successfully replicated across the required resource groups. For more information, see [Consume Generic Secrets in Executions or Deployments](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/185a3245692542a78bfeff87220410c6.html).
 
 
 
@@ -66,23 +61,15 @@ You can use the *SAP AI Core Administration* app to add generic secretson the ma
     {
       "some-credential": "bXktc2VjcmV0LWNyZWRlbnRpYWw=",
       "other-credentials": "bXktc2VjcmV0LW90aGVyLWNyZWRlbnRpYWw=",
-      "labels": [
-        {
-          "key": "ext.ai.sap.com/document-grounding",       // Label for Document Grounding feature
-          "value": "true"
-         },
-         {
-          "key": "ext.ai.sap.com/documentRepositoryType",     // Label for Document Repository Type      
-           "value": "MSSharePoint"
-        }
-      ]
     }
     ```
 
     > ### Note:  
     > The API expects sensitive data to be Base64-encoded. You can easily encode your data in Base64 format using the following command on Linux or MacOS: `echo -n 'my-sensitive-data' | base64`
 
-6.  Choose *Add* to save the secret details.
+6.  In the *Labels* field, enter *Key* `document-grounding` and choose *Value* `true`, and enter *Key* `documentRepositoryType` and choose your repository type from the dropdown list.
+
+7.  Choose *Add* to save the secret details.
 
 
 

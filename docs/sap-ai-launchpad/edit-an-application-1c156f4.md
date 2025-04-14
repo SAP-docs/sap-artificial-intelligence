@@ -6,13 +6,15 @@ As a system administrator, you can edit applications which sync with Git reposit
 
 
 
-<a name="loio1c156f440aaa431ba09c10123e159b11__prereq_jxh_bpc_bob"/>
+<a name="loio1c156f440aaa431ba09c10123e159b11__prereq_b1t_w3x_ycc"/>
 
 ## Prerequisites
 
 You have the `aicore_admin_applications_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
 
 
+
+<a name="loio1c156f440aaa431ba09c10123e159b11__context_dcv_5jx_ycc"/>
 
 ## Context
 
@@ -23,7 +25,7 @@ You edit an application if its source repository, path, or revision details chan
 
 
 
-<a name="loio1c156f440aaa431ba09c10123e159b11__steps_gkj_m3k_ysb"/>
+<a name="loio1c156f440aaa431ba09c10123e159b11__steps_ecv_5jx_ycc"/>
 
 ## Procedure
 

@@ -2,66 +2,42 @@
 
 # List Files
 
+Use the *ML Operations* app to search for a dataset or artifact.
+
+**Parent topic:**[Manage Files](manage-files-386ba71.md "An artifact refers to data or a file that is produced or consumed by executions or deployments. They are managed through SAP AI Core and your connected object store.")
+
+**Related Information**  
 
 
-<a name="loio1d613e0d1518435fb07b32a70c35345d__section_wwg_g4s_vnb"/>
+[Create Files](create-files-66413f1.md "")
 
-## Using Postman
+<a name="task_i3h_n13_tcc"/>
 
-1.  Send a GET request to the endpoint `{{apiurl}}/v2/lm/artifacts`
+<!-- task\_i3h\_n13\_tcc -->
 
-2.  On the *Authorization* tab, set the type to *Bearer Token*.
-
-3.  Set the token value to `{{token}}`.
-
-    ![](images/Bearer_Token_d6813f2.png)
-
-4.  On the *Header* tab, add the following entry:
-
-
-    <table>
-    <tr>
-    <th valign="top">
-
-    Key
-    
-    </th>
-    <th valign="top">
-
-    Value
-    
-    </th>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    `ai-resource-group` 
-    
-    </td>
-    <td valign="top">
-    
-    *<Name of your resourceGroup\>* \(in the example, `default` is used\)
-    
-    </td>
-    </tr>
-    </table>
-    
-    ![](images/List_Artifacts_-_AI_Resource_Group_bfc65c0.png)
-
-5.  Send the request.
+## Using Curl
 
 
 
-<a name="loio1d613e0d1518435fb07b32a70c35345d__section_wwg_g4s_anb"/>
+<a name="task_i3h_n13_tcc__steps_q4f_f33_tcc"/>
 
-## Using curl
+## Procedure
+
+Run the following code:
 
 ```
 curl --request GET "$AI_API_URL/v2/lm/artifacts" --header "Authorization: Bearer $TOKEN" --header "ai-resource-group: $RESOURCE_GROUP"
 ```
 
-> ### Output Code:  
-> ```json
+
+
+<a name="task_i3h_n13_tcc__result_kfl_1jd_5xb"/>
+
+## Results
+
+> ### Sample Code:  
+> ```
+> 
 > {
 >    "count":3,
 >    "resources":[
@@ -101,10 +77,54 @@ curl --request GET "$AI_API_URL/v2/lm/artifacts" --header "Authorization: Bearer
 > }
 > ```
 
-**Parent topic:**[Manage Files](manage-files-386ba71.md "An artifact refers to data or a file that is produced or consumed by executions or deployments. They are managed through SAP AI Core and your connected object store.")
+<a name="task_cxf_n13_tcc"/>
 
-**Related Information**  
+<!-- task\_cxf\_n13\_tcc -->
+
+## Using a Third-Party API Platform
 
 
-[Create Files](create-files-66413f1.md "")
+
+<a name="task_cxf_n13_tcc__steps_mtc_n33_tcc"/>
+
+## Procedure
+
+1.  Send a GET request to the endpoint `{{apiurl}}/v2/lm/artifacts`
+
+2.  On the *Authorization* tab, set the type to *Bearer Token*.
+
+3.  Set the token value to `{{token}}`.
+
+4.  On the *Header* tab, add the following entry:
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Key
+    
+    </th>
+    <th valign="top">
+
+    Value
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `ai-resource-group` 
+    
+    </td>
+    <td valign="top">
+    
+    *<Name of your resourceGroup\>* \(in the example, `default` is used\)
+    
+    </td>
+    </tr>
+    </table>
+    
+5.  Send the request.
+
 

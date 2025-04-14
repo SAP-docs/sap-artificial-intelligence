@@ -87,6 +87,138 @@ SAP AI Core
 </td>
 <td valign="top">
 
+SAP BTP Cockpit
+
+</td>
+<td valign="top">
+
+Detailed consumption report in SAP BTP for Generative AI hub part of SAP AI Core service. You can see the consumption specific to an LLM model and Orchestration service. Also, consumption for Resource Group.
+
+For more information, see [Metering and Pricing for SAP AI Core](metering-and-pricing-for-sap-ai-core-b5c7215.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-04-14
+
+</td>
+<td valign="top">
+
+2025-04-14
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Selected new models and model versions are supported.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-04-14
+
+</td>
+<td valign="top">
+
+2025-04-14
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Generative AI hub 
 
 </td>
@@ -135,6 +267,72 @@ SAP Business Technology Platform
 <td valign="top">
 
 2025-02-03
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Additional selected models and model versions from Open AI are supported.
+
+For more information, see [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-03-03
+
+</td>
+<td valign="top">
+
+2025-03-03
 
 </td>
 </tr>
@@ -2474,7 +2672,7 @@ Dataset API
 </td>
 <td valign="top">
 
-You can upload, download, and delete artifacts using the SAP AI Core Dataset API, when direct access to files in the object store is not possible or desirable. Currently, Postman and curl interfaces are supported.
+You can upload, download, and delete artifacts using the SAP AI Core Dataset API, when direct access to files in the object store is not possible or desirable. Currently, \*\*\*\*\*Using a Third-Party API Platform\*\*\*\*\* and curl interfaces are supported.
 
 </td>
 <td valign="top">

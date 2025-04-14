@@ -2,11 +2,11 @@
 
 # What Is SAP AI Core?
 
-Learn more about the SAP AI Core service on SAP Business Technology Platform \(SAP BTP\).
+Learn more about the SAP AI Core service on SAP Business Technology Platform \(SAP BTP\). Build a platform for your artificial intelligence solutions.
 
 SAP AI Core is a service in the SAP Business Technology Platform that is designed to handle the execution and operations of your AI assets in a standardized, scalable, and hyperscaler-agnostic way. It provides seamless integration with your SAP solutions. Any AI function can be easily realized using open-source frameworks. SAP AI Core supports full lifecycle management of AI scenarios. Access generative AI capabilities and prompt lifecycle management via the generative AI hub.
 
-SAP AI Core allows you to make data driven decisions confidently and efficiently and is tailored to business problems. It handles large volumes of data and provides scalable machine learning capabilities to automate tasks such as triage services for customer feedback or tickets and classification tasks. SAP AI Core comes with preconfigured SAP solutions, can be configured for open-source machine learning frameworks, can be used with Argo Workflow and KServe, and can be embedded into other applications.
+SAP AI Core enables you to make data-driven decisions confidently and efficiently, tailored to address business problems. It handles large volumes of data and offers scalable machine learning capabilities to automate tasks like triaging customer feedback or tickets and performing classification tasks. SAP AI Core includes preconfigured SAP solutions and can be set up for open-source machine learning frameworks. It integrates with Argo Workflow and KServe, and can be embedded into other applications.
 
 SAP AI Core allows you to experiment with and utilize natural language prompts with a variety of generative AI models in the generative AI hub.
 
@@ -27,26 +27,6 @@ SAP AI Core allows you to experiment with and utilize natural language prompts w
 > -   [Introduction Video](https://www.youtube.com/watch?v=WJ0oarMlVW4)
 > 
 > -   [Introduction Blog Post](https://blogs.sap.com/2021/11/29/sap-btp-documentation-goes-github-new-collaboration-process/)
-
-
-
-<a name="loiod029a32c22fb45fbb607e6a2c48c8a0e__section_cfb_tt3_snb"/>
-
-## Environment
-
-This service runs in the following environments:
-
--   Cloud Foundry
--   Kyma
--   Kubernetes
-
-
-
-<a name="loiod029a32c22fb45fbb607e6a2c48c8a0e__section_a51_2xm_vzb"/>
-
-## Multitenancy
-
-This service supports multitenancy. It can be used in tenant-aware applications.
 
 
 
@@ -118,12 +98,32 @@ Generative AI hub
 </b></dt>
 <dd>
 
-Choose from a selection of generative AI models for prompt experimentation, and prompt lifecycle management.
+Choose from a selection of generative AI models for prompt experimentation and prompt lifecycle management.
 
 
 
 </dd>
 </dl>
+
+
+
+<a name="loiod029a32c22fb45fbb607e6a2c48c8a0e__section_cfb_tt3_snb"/>
+
+## Environment
+
+This service is available in the following environments:
+
+-   Cloud Foundry
+-   Kyma
+-   Kubernetes
+
+
+
+<a name="loiod029a32c22fb45fbb607e6a2c48c8a0e__section_a51_2xm_vzb"/>
+
+## Multitenancy
+
+This service supports multitenancy. It can be used in tenant-aware applications.
 
 
 

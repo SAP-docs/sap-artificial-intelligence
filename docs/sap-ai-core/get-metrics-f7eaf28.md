@@ -6,7 +6,7 @@
 
 <!-- task\_s1m\_54f\_scc -->
 
-## Getting Metrics with Postman
+## Getting Metrics with a Third-Party API Platform
 
 
 

@@ -42,6 +42,6 @@ Prompts containing images can't be saved.
     > ### Caution:  
     > Do not store personally identifiable information in prompts when using the generative AI hub. Personally identifiable information is any data that can be used alone, or in combination, to identify the person that the data refers to.
 
-    ![](images/save_prompt_2709877.png)
+    ![](images/saveprompt2503b_6050ae6.png)
 
 

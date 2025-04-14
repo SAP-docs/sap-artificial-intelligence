@@ -35,4 +35,7 @@ You have the `mloperations_editor` or `scenario_execution_editor` role, or you a
 
     ![Create Execution dialog box with configuration selected.](images/Image_AIL_Create_Execution_Step5_7c83427.jpg)
 
+    > ### Restriction:  
+    > The number of pods used by executions is limited at tenant level. A tenant is allowed to have at least 50 pods before the quota is enforced. If your tenant reaches this limit, your execution will be queued. You can raise a ticket to increase your quota.
+
 

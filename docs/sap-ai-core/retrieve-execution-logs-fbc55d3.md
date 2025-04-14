@@ -2,7 +2,7 @@
 
 # Retrieve Execution Logs
 
-accessed in the deployment and execution logs.
+Deployment and execution logs contain information about API processing and metrics.
 
 
 
@@ -32,65 +32,6 @@ For example:
 
 -   `/v2/lm/executions/{executionId}/logs` - returns execution logs from the preceding hour
 
-
-
-
-<a name="loiofbc55d35ab7e45aab01d05509361808c__section_dvw_zwq_yqb"/>
-
-## Using Postman
-
-1.  Send a GET request to the endpoint `{{apiurl}}/v2/lm/executions/{{executionId}}/logs`.
-
-    ![](images/Get_Execution_Logs_with_Postman_fba5a3b.png)
-
-2.  On the *Authorization* tab, set the type to *Bearer Token*.
-
-3.  Set the token value to `{{token}}`.
-
-4.  On the *Header* tab, add the following entry:
-
-    ****
-
-
-    <table>
-    <tr>
-    <th valign="top">
-
-    Key
-    
-    </th>
-    <th valign="top">
-
-    Value
-    
-    </th>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    *ai-resource-group*
-    
-    </td>
-    <td valign="top">
-    
-    <Name of your resource group\> \(in the example, default is used\)
-    
-    </td>
-    </tr>
-    </table>
-    
-5.  Send the request.
-
-
-
-
-<a name="loiofbc55d35ab7e45aab01d05509361808c__section_adr_bbl_jwb"/>
-
-## Using curl
-
-```
-curl --request GET "$AI_API_URL/v2/lm/executions/$EXCUTION_ID/logs?start=2021-05-19T00:00:14.347Z" --header "Authorization: Bearer $TOKEN" --header "ai-resource-group: $RESOURCE_GROUP"
-```
 
 
 
@@ -161,5 +102,195 @@ For example, see the following JSON output from the API.
 
 [Training Schedules](training-schedules-2b702f8.md "")
 
-[Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md "accessed in the deployment and execution logs.")
+<a name="task_i3h_n13_tcc"/>
+
+<!-- task\_i3h\_n13\_tcc -->
+
+## Using Curl
+
+
+
+<a name="task_i3h_n13_tcc__steps_bnx_npw_tcc"/>
+
+## Procedure
+
+Run the following code:
+
+```
+curl --request GET "$AI_API_URL/v2/lm/executions/$EXCUTION_ID/logs?start=2021-05-19T00:00:14.347Z" --header "Authorization: Bearer $TOKEN" --header "ai-resource-group: $RESOURCE_GROUP"
+```
+
+
+
+<a name="task_i3h_n13_tcc__result_o3r_znr_zxb"/>
+
+## Results
+
+> ### Output Code:  
+> ```json
+> {
+>     "data": {
+>         "result": [
+>             {
+>                 "container": "storage-initializer",
+>                 "msg": "[I 210531 08:20:51 initializer-entrypoint:13] Initializing, args: src_uri [gs://kserve-samples/models/tensorflow/flowers] dest_path[ [/mnt/models]\n",
+>                 "pod": "tfs-dep-i543026-predictor-default-v6nf5-deployment-8b58c8ddcfdx",
+>                 "stream": "stderr",
+>                 "timestamp": "2021-05-31T08:20:51.334+00:00"
+>             },
+>             {
+>                 "container": "storage-initializer",
+>                 "msg": "[I 210531 08:20:51 storage:45] Copying contents of gs://kserve-samples/models/tensorflow/flowers to local\n",
+>                 "pod": "tfs-dep-i543026-predictor-default-v6nf5-deployment-8b58c8ddcfdx",
+>                 "stream": "stderr",
+>                 "timestamp": "2021-05-31T08:20:51.335+00:00"
+>             },
+>             {
+>                 "container": "storage-initializer",
+>                 "msg": "[W 210531 08:20:51 _metadata:104] Compute Engine Metadata server unavailable onattempt 1 of 3. Reason: [Errno 111] Connection refused\n",
+>                 "pod": "tfs-dep-i543026-predictor-default-v6nf5-deployment-8b58c8ddcfdx",
+>                 "stream": "stderr",
+>                 "timestamp": "2021-05-31T08:20:51.338+00:00"
+>             },
+>             ...
+>         ]
+>     }
+> } 
+> ```
+
+<a name="task_cxf_n13_tcc"/>
+
+<!-- task\_cxf\_n13\_tcc -->
+
+## Using a Third-Party API Platform
+
+
+
+<a name="task_cxf_n13_tcc__steps_qzb_wzw_tcc"/>
+
+## Procedure
+
+1.  Send a GET request to the endpoint `{{apiurl}}/v2/lm/executions/{{executionId}}/logs`.
+
+    Check that the following headers are selected:
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Key
+    
+    </th>
+    <th valign="top">
+
+    Value
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    AI-Resource-Group
+    
+    </td>
+    <td valign="top">
+    
+    <Name of your resource group\>
+    
+    </td>
+    </tr>
+    </table>
+    
+    > ### Output Code:  
+    > ```
+    > {
+    > 	"data": {
+    > 		"result": [
+    > 			{
+    > 				"container"; "init",
+    > 				"msg": "time=\"2021-11-22T06:52:27.831Z\" level=info msg=\"Starting Workflow Executor\" executorType= version =v3.2.2\n",
+    > 				"pod": "ed0f0c1b62945b935"
+    > 				"stream": "stderr"
+    > 				"timestamp": "2021-11-22T06:52:27.831955906+00:00"
+    > 			}
+    > ...
+    > ```
+
+2.  On the *Authorization* tab, set the type to *Bearer Token*.
+
+3.  Set the token value to `{{token}}`.
+
+4.  On the *Header* tab, add the following entry:
+
+    ****
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Key
+    
+    </th>
+    <th valign="top">
+
+    Value
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *ai-resource-group*
+    
+    </td>
+    <td valign="top">
+    
+    <Name of your resource group\>
+    
+    </td>
+    </tr>
+    </table>
+    
+5.  Send the request.
+
+
+
+
+<a name="task_cxf_n13_tcc__result_o3r_znr_zxbt"/>
+
+## Results
+
+> ### Output Code:  
+> ```json
+> {
+>     "data": {
+>         "result": [
+>             {
+>                 "container": "storage-initializer",
+>                 "msg": "[I 210531 08:20:51 initializer-entrypoint:13] Initializing, args: src_uri [gs://kserve-samples/models/tensorflow/flowers] dest_path[ [/mnt/models]\n",
+>                 "pod": "tfs-dep-i543026-predictor-default-v6nf5-deployment-8b58c8ddcfdx",
+>                 "stream": "stderr",
+>                 "timestamp": "2021-05-31T08:20:51.334+00:00"
+>             },
+>             {
+>                 "container": "storage-initializer",
+>                 "msg": "[I 210531 08:20:51 storage:45] Copying contents of gs://kserve-samples/models/tensorflow/flowers to local\n",
+>                 "pod": "tfs-dep-i543026-predictor-default-v6nf5-deployment-8b58c8ddcfdx",
+>                 "stream": "stderr",
+>                 "timestamp": "2021-05-31T08:20:51.335+00:00"
+>             },
+>             {
+>                 "container": "storage-initializer",
+>                 "msg": "[W 210531 08:20:51 _metadata:104] Compute Engine Metadata server unavailable onattempt 1 of 3. Reason: [Errno 111] Connection refused\n",
+>                 "pod": "tfs-dep-i543026-predictor-default-v6nf5-deployment-8b58c8ddcfdx",
+>                 "stream": "stderr",
+>                 "timestamp": "2021-05-31T08:20:51.338+00:00"
+>             },
+>             ...
+>         ]
+>     }
+> } 
+> ```
 

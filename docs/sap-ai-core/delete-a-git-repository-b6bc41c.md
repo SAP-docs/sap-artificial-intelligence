@@ -8,7 +8,7 @@ You remove a Git repository from a connection if its URL is invalid or contains 
 
 <a name="loiob6bc41cbd72d49479ea722b546826259__section_m1h_pvs_hvb"/>
 
-## Using Postman
+## Using a Third-Party API Platform
 
 Send a DELETE request to the endpoint `{{apiurl}}/v2/admin/repositories/{{repositoryName}}` and include your repository name.
 
@@ -52,7 +52,7 @@ curl --location --request DELETE "{{apiurl}}/v2/admin/repositories/{{repositoryN
 
 <!-- task\_cxf\_n13\_tcc -->
 
-## Using Postman
+## Using a Third-Party API Platform
 
 
 

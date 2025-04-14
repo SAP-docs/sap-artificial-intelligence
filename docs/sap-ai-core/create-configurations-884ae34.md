@@ -29,7 +29,7 @@ A configuration is a collection of parameters, artifact references \(such as dat
 
 [Efficiency Features](efficiency-features-4cb76f7.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
 
-[Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "accessed in the deployment and execution logs.")
+[Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "Deployment and execution logs contain information about API processing and metrics.")
 
 [Training Schedules](training-schedules-2b702f8.md "")
 
@@ -80,7 +80,7 @@ curl --request POST "$AI_API_URL/v2/lm/configurations" --header "Authorization: 
 
 <!-- task\_cxf\_n13\_tcc -->
 
-## Using Postman
+## Using a Third-Party API Platform
 
 
 

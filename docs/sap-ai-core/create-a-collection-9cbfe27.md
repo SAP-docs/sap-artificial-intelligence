@@ -10,8 +10,6 @@
 
 You have created a resource group for grounding purposes. For more information, see [Create a Resource Group for Grounding](create-a-resource-group-for-grounding-6712bfe.md)
 
-You have created a generic secret for grounding purposes. For more information, see [Grounding Generic Secrets for Microsoft SharePoint](grounding-generic-secrets-for-microsoft-sharepoint-bdea357.md)
-
 
 
 <a name="loio9cbfe270add641c291bb516d8afe3ce9__context_ov1_1wr_kdc"/>
