@@ -51,11 +51,11 @@ You can use SAP Cloud SDK for AI to:
 </td>
 <td valign="top">
 
--   [SAP Cloud SDK for AI Repository: JavaScript](https://github.com/SAP/ai-sdk-js)
-
--   [NPM Packages](https://www.npmjs.com/search?q=%40sap-ai-sdk)
+-   [GitHub Repository](https://github.com/SAP/ai-sdk-js)
 
 -   [Documentation](https://sap.github.io/ai-sdk/)
+
+-   [npm](https://www.npmjs.com/org/sap-ai-sdk)
 
 
 
@@ -88,9 +88,11 @@ You can use SAP Cloud SDK for AI to:
 </td>
 <td valign="top">
 
--   [SAP Cloud SDK for AI Repository: Java](https://github.com/SAP/ai-sdk-java) 
+-   [GitHub Repository](https://github.com/SAP/ai-sdk-java)
 
 -   [Documentation](https://sap.github.io/ai-sdk/)
+
+-   [Maven](https://central.sonatype.com/search?smo=true&namespace=com.sap.ai.sdk)
 
 </td>
 </tr>
