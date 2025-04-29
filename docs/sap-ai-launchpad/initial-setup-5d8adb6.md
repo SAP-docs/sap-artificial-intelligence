@@ -83,8 +83,7 @@ You can get started with SAP AI Launchpad using the standard procedures for SAP 
     </table>
     
 
--   **[Create a Subaccount](create-a-subaccount-fdab88e.md "Create a subaccount in your global account using the SAP BTP
-                                    cockpit.")**  
+-   **[Create a Subaccount](create-a-subaccount-fdab88e.md "Create a subaccount in your global account using the SAP BTP cockpit.")**  
 Create a subaccount in your global account using the SAP BTP cockpit.
 -   **[Enable Cloud Foundry](enable-cloud-foundry-cf0d5d2.md "")**  
 
@@ -92,8 +91,7 @@ Create a subaccount in your global account using the SAP BTP cockpit.
 		your subaccount.")**  
 Configure the required entitlements to make SAP AI Launchpad accessible in your subaccount.
 -   **[Subscribe to SAP AI Launchpad](subscribe-to-sap-ai-launchpad-30eea89.md "You subscribe to SAP AI Launchpad from the
-		Service Marketplace in the SAP BTP
-                                    cockpit.")**  
+		Service Marketplace in the SAP BTP cockpit.")**  
 You subscribe to SAP AI Launchpad from the Service Marketplace in the SAP BTP cockpit.
 -   **[Allow Access to SAP AI Launchpad](allow-access-to-sap-ai-launchpad-8c84776.md "You can assign role collections to specific users to allow access to SAP AI Launchpad.")**  
 You can assign role collections to specific users to allow access to SAP AI Launchpad.

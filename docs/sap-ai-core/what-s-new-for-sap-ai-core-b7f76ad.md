@@ -87,14 +87,84 @@ SAP AI Core
 </td>
 <td valign="top">
 
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+An additional module has been added to orchestration.
+
+The translation module translates text, and can be configured for input and output text.
+
+The input translation module helps improve answer quality when the configured model performs better when input is provided in a specific language, for example English.
+
+For more information, see [Input Translation](input-translation-c43ad1d.md) and [Output Translation](output-translation-8f7fb8e.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-04-24
+
+</td>
+<td valign="top">
+
+2025-04-24
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 SAP BTP Cockpit
 
 </td>
 <td valign="top">
 
-Detailed consumption report in SAP BTP for Generative AI hub part of SAP AI Core service. You can see the consumption specific to an LLM model and Orchestration service. Also, consumption for Resource Group.
+A detailed consumption report is available in SAP BTP for Generative AI hub as the part of SAP AI Core service. You can see the consumption specific to an LLM model and Orchestration service, and consumption for each resource group.
 
-For more information, see [Metering and Pricing for SAP AI Core](metering-and-pricing-for-sap-ai-core-b5c7215.md).
+For more information, see [Metering and Pricing for the Generative AI Hub](metering-and-pricing-for-the-generative-ai-hub-a5212f3.md).
 
 </td>
 <td valign="top">
@@ -158,7 +228,7 @@ Generative AI hub
 </td>
 <td valign="top">
 
-Selected new models and model versions are supported.
+New models are supported, including Anthropic Claude 3.7 sonnet, GCP Vertex AI Gemini 2.0-flash and flash-lite, NVIDIA Llama 3.2 nv embedqa 1b, and OpenAI GPT 4o version 2024-11-20.
 
 For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
 

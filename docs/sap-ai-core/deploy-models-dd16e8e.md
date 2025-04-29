@@ -145,7 +145,7 @@
 
 
 
-<a name="concept_z3s_f3h_vcc__d96e1165"/>
+<a name="concept_z3s_f3h_vcc__d93e1165"/>
 
 ## Optional Parameters
 
@@ -153,7 +153,7 @@ The duration of a deployment can be limited using the `ttl` parameter. It takes 
 
 
 
-<a name="concept_z3s_f3h_vcc__d96e1196"/>
+<a name="concept_z3s_f3h_vcc__d93e1196"/>
 
 ## Deployment Quotas
 

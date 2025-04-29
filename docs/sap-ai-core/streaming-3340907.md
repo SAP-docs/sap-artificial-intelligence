@@ -34,6 +34,15 @@ Streaming is set to `false` by default, and is part of the `orchestration_config
 > }
 > ```
 
+You can configure streaming behavior in the following ways:
+
+-   Chunk Size
+-   Delimiters
+
+
+
+### Configure Streaming Using Chunk Size
+
 The `chunk_size` parameter defines the maximum number of characters contained in a single chunk, and takes an integer value. The default value is 100.
 
 You can configure the `chunk_size` using the `stream_options` parameter in the `orchestration_config`:
@@ -71,6 +80,33 @@ The following example shows a streaming configuration with chunk size of 200 cha
 
 
 
+### Configure Streaming Using Delimiters
+
+Delimiters can be specified alternatively to, or in addition to chunk size. Streaming configured with the `delimiters` parameter respects the `chunk_size` parameter, but determines the end of a chunk based on the next delimiter in the list, instead of chunk size alone.. This means that chunks can be determined in a more meaningful way, for example, to include whole sentences, which may improve output translation, filtering and unmasking results.
+
+You can configure the delimiters using the`stream_options` parameter in the`orchestration_config`:
+
+The following example shows a streaming configuration with delimiters set to common English language sentence endings.
+
+> ### Sample Code:  
+> ```
+> {
+>   "orchestration_config": {
+>     "stream": true,
+>     "stream_options": {
+>       "delimiters": [".", "!", "?"]
+>     },
+>     "module_configurations": {
+>       ...
+>     },
+>     "input_params": {
+>       ...
+>   }
+> }
+> ```
+
+
+
 <a name="loio33409072eac14f0d96b23e21a0d85bff__section_azg_fkf_xcc"/>
 
 ## Module Specific Streaming Behavior
@@ -93,7 +129,7 @@ For example, two chunks containing:
 > ### Sample Code:  
 > ```
 > Yesterday, I spent time with MASKED_PER
-> SON_1 discussing the changes pro
+> SON_1 discussing the changes
 > ```
 
 Would become:
@@ -101,7 +137,7 @@ Would become:
 > ### Sample Code:  
 > ```
 > Yesterday, I spent time with 
-> MASKED_PERSON_1 discussing the changes pro
+> MASKED_PERSON_1 discussing the changes
 > ```
 
 This may affect behavior of future modules that are executed after unmasking.

@@ -122,6 +122,9 @@ Maximum of 2000 Documents
 
 For region and pricing information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
 
+> ### Caution:  
+> Do not expose personally identifiable or privileged information in the documents exposed to your pipeline when using generative AI hub. Personally identifiable information is any data that can be used alone, or in combination, to identify the person that the data refers to. The document grounding capability has no mechanism for determining the type of data that it processes, and does not filter confidential or other privileged information.
+
 -   **[Preparing Data Using the Pipeline API](preparing-data-using-the-pipeline-api-9c972e2.md "This API call creates a pipeline for indexing documents.")**  
 This API call creates a pipeline for indexing documents.
 -   **[Manage Data Pipelines](manage-data-pipelines-2f94a67.md "")**  

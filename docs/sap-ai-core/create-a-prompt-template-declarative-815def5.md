@@ -48,7 +48,7 @@ The following formats are supported:
 >       content: "Some more {{ ?user_input }}"
 >   defaults:
 >     instruction: "default instruction"
->   additionalFields:
+>   additional_fields:
 >     isDev: true
 >     validations:
 >       required: true
@@ -59,9 +59,9 @@ The following formats are supported:
 >         versions: "*"
 > ```
 
--   The `defaults` and `additionalFields` fields are optional.
+-   The `defaults` and `additional_fields` fields are optional.
 
--   The `additionalFields` field is unstructured and can be used to store metadata or configuration objects.
+-   The `additional_fields` field is unstructured and can be used to store metadata or configuration objects.
 
 
 Your template syncs automatically. After a few minutes, you'll be able to verify your template by sending a GET request to the endpoint `{{apiurl}}/lm/promptTemplates`.

@@ -40,7 +40,7 @@ Create a prompt template by sending a POST request to endpoint <code><code>{{api
 >       "defaults": {
 >         "categories": "Finance, Tech, Sports"
 >       },
->       "additionalFields": {
+>       "additional_fields": {
 >         "modelParams": {
 >           "temperature": 0.7,
 >           "max_tokens": 100
@@ -51,9 +51,9 @@ Create a prompt template by sending a POST request to endpoint <code><code>{{api
 >   }'
 > ```
 
--   The `defaults` and `additionalFields` fields are optional.
+-   The `defaults` and `additional_fields` fields are optional.
 
--   The `additionalFields` field is unstructured and can be used to store metadata or configuration objects.
+-   The `additional_fields` field is unstructured and can be used to store metadata or configuration objects.
 
 
 > ### Output Code:  

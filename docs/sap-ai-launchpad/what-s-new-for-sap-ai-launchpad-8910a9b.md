@@ -352,9 +352,9 @@ Generative AI hub
 </td>
 <td valign="top">
 
-Additional selected models and model versions are supported.
+New models are supported, including Anthropic Claude 3.7 sonnet, GCP Vertex AI Gemini 2.0-flash and flash-lite, NVIDIA Llama 3.2 nv embedqa 1b, and OpenAI GPT 4o version 2024-11-20.
 
-For more information, see [3437766](https://me.sap.com/notes/3437766).
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
 
 </td>
 <td valign="top">

@@ -43,7 +43,7 @@ Send a GET request to the endpoint `{{apiurl}}/lm/promptTemplates/{{promptTempla
 >         content: '{{?inputExample}}'
 >     defaults:
 >         categories: Finance, Tech, Sports
->     additionalFields:
+>     additional_fields:
 >         modelParams:
 >             temperature: 0.7
 >             max_tokens: 100

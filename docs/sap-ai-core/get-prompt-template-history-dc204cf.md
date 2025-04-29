@@ -47,7 +47,7 @@ Send a GET request to endpoint `{{apiurl}}/lm/scenarios/{{scenarioId}}/promptTem
 >         "defaults": {
 >           "categories": "Finance, Tech, Sports"
 >         },
->         "additionalFields": {
+>         "additional_fields": {
 >           "modelParams": {
 >             "temperature": 0.7,
 >             "max_tokens": 100

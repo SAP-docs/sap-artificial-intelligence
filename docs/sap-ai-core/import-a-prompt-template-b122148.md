@@ -53,7 +53,7 @@ Send a POST request to the endpoint `{{apiurl}}/lm/promptTemplates/import`, and 
 >       "defaults": {
 >         "categories": "Finance, Tech, Sports"
 >       },
->       "additionalFields": {
+>       "additional_fields": {
 >         "modelParams": {
 >           "temperature": 0.7,
 >           "max_tokens": 100

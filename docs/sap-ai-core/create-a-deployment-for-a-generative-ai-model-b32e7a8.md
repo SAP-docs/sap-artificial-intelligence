@@ -2,7 +2,7 @@
 
 # Create a Deployment for a Generative AI Model
 
-You make a generative AI model available for use by creating a deployment. You can do so one time for each model and model version, and for each resource group that you want to use with generative AI hub. The deployment URL that is generated can be reused.
+
 
 
 
@@ -21,13 +21,186 @@ You make a generative AI model available for use by creating a deployment. You c
 
 You make a model available for use by creating a deployment. You can do so one time for each model and model version. The model deployment includes the `modelName` and `version` of the model you want to access. After the deployment is complete, you have a `deploymentUrl`, which can be used across your organization to access the model version.
 
+You can view the available models and their details by sending a GET request to the endpoint `{{apiurl}}/v2/lm/scenarios/foundation-models/models` 
+
+```
+curl --location '$AI_API_URL/v2/lm/scenarios/foundation-models/models' \
+--header 'AI-Resource-Group: default' \
+--header 'Authorization: Bearer $AUTH_TOKEN'
+
+```
+
+> ### Output Code:  
+> ```
+> {
+>   "count": 41,
+>   "resources": [
+>     {
+>       "accessType": "Remote",
+>       "allowedScenarios": [
+>         {
+>           "executableId": "azure-openai",
+>           "scenarioId": "foundation-models"
+>         },
+>         {
+>           "executableId": "orchestration",
+>           "scenarioId": "orchestration"
+>         }
+>       ],
+>       "description": "OpenAI GPT-4o engineered for speed and efficiency, supporting text, images and audio using Chat Completions API",
+>       "displayName": "GPT-4o",
+>       "executableId": "azure-openai",
+>       "model": "gpt-4o",
+>       "provider": "OpenAI",
+>       "versions": [
+>         {
+>           "capabilities": [
+>             "text-generation",
+>             "image-recognition"
+>           ],
+>           "contextLength": 128000,
+>           "cost": [
+>             {
+>               "inputCost": "0.00312"
+>             },
+>             {
+>               "outputCost": "0.0092"
+>             }
+>           ],
+>           "deprecated": false,
+>           "inputTypes": [
+>             "text",
+>             "image",
+>             "audio"
+>           ],
+>           "isLatest": false,
+>           "metadata": [
+>             {
+>               "meanWinRate": "0.938"
+>             },
+>             {
+>               "chatBotArenaScore": "1285"
+>             },
+>             {
+>               "airBenchRefusalRate": "0.528"
+>             }
+>           ],
+>           "name": "2024-05-13",
+>           "retirementDate": "",
+>           "streamingSupported": true
+>         }, ...
+> 
+>     ]
+> }
+> ```
+
+The output contains the following parameters, which are needed to create a configuration:
+
+
+<table>
+<tr>
+<th valign="top">
+
+Parameter
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+count
+
+</td>
+<td valign="top">
+
+Number of models available description
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+description
+
+</td>
+<td valign="top">
+
+Description for model
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+executableId
+
+</td>
+<td valign="top">
+
+Executable under which the model is available, required at the time of creating Deployment configuration model
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+model
+
+</td>
+<td valign="top">
+
+Required as modelName at the time of creating Deployment configuration versions
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+versions
+
+</td>
+<td valign="top">
+
+List of available model versions for given model
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+versions.name
+
+</td>
+<td valign="top">
+
+Optional value to provide as modelVersion at the time of creating Deployment Configuration
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+versions.isLatest
+
+</td>
+<td valign="top">
+
+Suggests if the modelVersion is latest. See Model Lifecycle for more information
+
+</td>
+</tr>
+</table>
+
 <a name="task_m15_5kw_tyb"/>
 
 <!-- task\_m15\_5kw\_tyb -->
 
 ## Using the API
-
-
 
 
 

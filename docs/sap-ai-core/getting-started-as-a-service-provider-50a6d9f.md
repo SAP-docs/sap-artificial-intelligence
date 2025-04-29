@@ -1,6 +1,6 @@
 <!-- loio50a6d9f4440c4a06b53b0f17017bdba8 -->
 
-# Onboarding
+# Getting Started as a Service Provider
 
 To onboard a service, complete the following:
 
@@ -93,7 +93,7 @@ To onboard a service, complete the following:
     Take note of the service broker URL.
 
 6.  Register the service broker using smctl as subaccount-scoped.
-    1.  Test the registration of the service broker first as subaccount-scoped, before you register it globally. Subaccount-scoped means that your service is automatically visible in the catalog of environments where it's registered. You can follow steps described in Service Manager Guide to [set up for smctl](https://wiki.wdf.sap.corp/wiki/display/CPC15N/Test).
+    1.  Test the registration of the service broker first as subaccount-scoped, before you register it globally. Subaccount-scoped means that your service is automatically visible in the catalog of environments where it's registered. You can follow steps described in Service Manager Guide to [Set Up for smctl](https://wiki.wdf.sap.corp/wiki/display/CPC15N/Test).
 
         Once smctl is installed, login as shown:
 

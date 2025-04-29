@@ -5,8 +5,9 @@
 Explore advanced features, within SAP AI Core.
 
 -   **[AI Content as a Service](ai-content-as-a-service-3fb0390.md "SAP AI Core helps users provide their AI content available as a
-		service on the Service Marketplace, using GitOps.")**  
-SAP AI Core helps users provide their AI content available as a service on the *Service Marketplace*, using GitOps.
+		service on the SAP BTP
+		Service Marketplace, using GitOps.")**  
+SAP AI Core helps users provide their AI content available as a service on the SAP BTP *Service Marketplace*, using GitOps.
 
 **Parent topic:**[Predictive AI](predictive-ai-6c3b730.md "")
 

@@ -106,7 +106,7 @@ The following shows an example of a specific folders to be indexed with metadata
 The metadata attribute is optional. It accepts the destination name, which is used to connect to the Microsoft SharePoint metadata server to retrieve metadata for document indexing.
 
 > ### Restriction:  
-> `metadata` and `includepaths` cannot be used together in a single payload request.
+> `metadata` and `includePaths` cannot be used together in a single payload request.
 
 <a name="concept_pgh_z2y_m2c"/>
 

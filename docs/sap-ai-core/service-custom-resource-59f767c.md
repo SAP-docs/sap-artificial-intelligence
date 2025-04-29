@@ -231,7 +231,7 @@ Consumer has access to:
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="2">
+<td valign="top" rowspan="3">
 
 serviceCatalog
 
@@ -256,6 +256,18 @@ extendCatalog
 <td valign="top">
 
 Used to extend service catalog.
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+enableSharedResourceGroup
+
+</td>
+<td valign="top">
+
+Flag used to enable or disable share resource group. For more information, see [Shared Resource Group](shared-resource-group-dc1e577.md).
 
 </td>
 </tr>

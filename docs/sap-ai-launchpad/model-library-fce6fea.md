@@ -63,7 +63,7 @@ Choose a model to see it's model card. The model card provides detailed informat
 
 To view a deprecation notice, hover over the deprecation icon.
 
-![](images/catalog_4aca877.png)
+![](images/model_library4a_8bf78d3.png)
 
 
 
@@ -83,7 +83,7 @@ To view a deprecation notice, hover over the deprecation icon.
 
 Choose a model from the list to see it's model card. The model card provides detailed information on the model, such as data input types, cost information and metrics where available.
 
-![](images/leaderboard_10f5c66.png)
+![](images/leaderboard_4a_d64d500.png)
 
 
 
@@ -107,7 +107,7 @@ To view the chart in a separate window, use the *Full Screen* icon.
 
 Choose a data point to see a small summary. Choose *View Details* to view the model card. The model card provides detailed information on the model, such as data input types, cost information and metrics where available.
 
-![](images/chart_9f99ae1.png)
+![](images/chart_a14a2d1.png)
 
 
 

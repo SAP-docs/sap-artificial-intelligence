@@ -20,20 +20,24 @@ The order in which the pipeline is executed is defined centrally in orchestratio
 
 **The image below is interactive. Click each part of the workflow for more information.**
 
-![](images/orchestration_w_grounding_e29effc.png)
+![](images/4a_orchstration_workflow_2083f88.png)
 
 -   [Grounding](grounding-454c558.md)
 -   [Templating](templating-88c5608.md)
+-   [Input Translation](input-translation-c43ad1d.md)
 -   [Data Masking](data-masking-8b87002.md)
 -   [Input Filtering](input-filtering-4446382.md)
 -   [Model Configuration](model-configuration-c1bdb26.md)
 -   [Output Filtering](output-filtering-b021a5e.md)
+-   [Output Translation](output-translation-8f7fb8e.md)
 
 -   **[Grounding](grounding-454c558.md "Grounding integrates external, contextually relevant, domain-specific, or real-time data
 		into AI processes. This data enhances the natural language processing capabilities of
 		pretrained models, which are trained on general material.")**  
 Grounding integrates external, contextually relevant, domain-specific, or real-time data into AI processes. This data enhances the natural language processing capabilities of pretrained models, which are trained on general material.
 -   **[Templating](templating-88c5608.md "")**  
+
+-   **[Input Translation](input-translation-c43ad1d.md "")**  
 
 -   **[Data Masking](data-masking-8b87002.md "The data masking module is optional and serves to anonymize or pseudonymize
 		personally identifiable information from the input for selected entities.")**  
@@ -43,5 +47,7 @@ The data masking module is optional and serves to anonymize or pseudonymize pers
 -   **[Model Configuration](model-configuration-c1bdb26.md "")**  
 
 -   **[Output Filtering](output-filtering-b021a5e.md "")**  
+
+-   **[Output Translation](output-translation-8f7fb8e.md "")**  
 
 

@@ -39,9 +39,18 @@ Your data repositories are listed in the *Grounding Management* app.
 
 ![](images/repositorie_7694607.png)
 
-Users with the `grounding_manager`or `genai_manager` can create a new repository. To create a new repository, choose *Create*. Enter the repository details in the dialog box.
+Users with the `grounding_manager`or `genai_manager` can create a new repository.
 
-![](images/create_repo_10f864a.png)
+To create a new repository, choose *Create*. Enter the repository details in the dialog box.
+
+To include metadata, enable the switch.
+
+For data repositories created without including metadata, you can specify which sub paths to include in the *Include paths* field.
+
+> ### Remember:  
+> You must choose a grounding generic secret that is associated with the document store type that you have selected.
+
+![](images/grounding_choose_an_object_store_f61d2ed.png)
 
 Users with the `grounding_manager` or `genai_manager` roles can duplicate a repository. To duplicate a repository, use the *Duplicate* icon, and update the repository details in the dialog box.
 

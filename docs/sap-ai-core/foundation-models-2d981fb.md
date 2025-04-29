@@ -131,10 +131,10 @@ Models from IBM hosted and accessed through SAP AI Core.
 
 -   **[Get an Auth Token](get-an-auth-token-5ec7ec0.md "Start by setting the required environment variables, which you can get from your SAP AI Core instance.")**  
 Start by setting the required environment variables, which you can get from your SAP AI Core instance.
--   **[Create a Deployment for a Generative AI Model](create-a-deployment-for-a-generative-ai-model-b32e7a8.md "You make a generative AI model available for use by creating a deployment. You can do so one time for each model and model version, and
-		for each resource group that you want to use with generative AI hub. The deployment
-		URL that is generated can be reused.")**  
-You make a generative AI model available for use by creating a deployment. You can do so one time for each model and model version, and for each resource group that you want to use with generative AI hub. The deployment URL that is generated can be reused.
+-   **[Create a Deployment for a Generative AI Model](create-a-deployment-for-a-generative-ai-model-b32e7a8.md "
+		
+	")**  
+
 -   **[Consume Generative AI Models](consume-generative-ai-models-bf0373b.md "The generative AI hub helps you
 		to complete tasks like summarizing text, inferencing, and transforming content. To do so,
 		you consume a generative AI model by sending a request to the model's endpoint.")**  

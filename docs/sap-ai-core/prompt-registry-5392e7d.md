@@ -12,7 +12,7 @@ The Prompt Registry consists of the following interfaces:
 
 -   The imperative API supports full CRUD operations and is recommended for refining prompt templates in design time use cases. Iterations are tracked and can be viewed in the history endpoint. For more information, see [Create a Prompt Template \(Imperative\)](create-a-prompt-template-imperative-92453a7.md).
 
--   The declarative API utilizes SAP AI Core applications and is recommended for runtime application use cases and CI/CD pipelines.. You can manage your prompt templates in a git repository declaratively. Your commits are automatically synchronized with the Prompt Registry For more information, see [Create a Prompt Template \(Declarative\)](create-a-prompt-template-declarative-815def5.md).
+-   The declarative API utilizes SAP AI Core applications and is recommended for runtime application use cases and CI/CD pipelines. You can manage your prompt templates in a git repository declaratively. Your commits are automatically synchronized with the Prompt Registry For more information, see [Create a Prompt Template \(Declarative\)](create-a-prompt-template-declarative-815def5.md).
 
 
 The interfaces can all be consumed either directly via the API or through Orchestration.
