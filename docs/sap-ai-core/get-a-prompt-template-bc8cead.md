@@ -28,17 +28,17 @@ Prompt templates can also be retrieved and consumed in orchestration. For more i
 
 ## Procedure
 
-Send a GET request to the endpoint `{{apiurl}}/lm/promptTemplates`, and include the information for your chosen retrieval method.
+Send a GET request to the endpoint `{{apiurl}}/v2/lm/promptTemplates`, and include the information for your chosen retrieval method.
 
 > ### Sample Code:  
 > ```
-> curl -X GET "{{apiurl}}/lm/promptTemplates?name=example-prompt-template&scenario=categorization&version=0.0.1" \
+> curl -X GET "{{apiurl}}/v2/lm/promptTemplates?name=example-prompt-template&scenario=categorization&version=0.0.1" \
 >   -Header "Authorization: Bearer <your_auth_token>"
 > ```
 
 > ### Sample Code:  
 > ```
-> curl -X GET "{{apiurl}}/lm/promptTemplates/{{promptTemplateId}}" \
+> curl -X GET "{{apiurl}}/v2/lm/promptTemplates/{{promptTemplateId}}" \
 > -Header "Authorization: Bearer <your_auth_token>"
 > ```
 

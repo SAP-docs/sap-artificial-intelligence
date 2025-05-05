@@ -21,11 +21,11 @@ You can import a declarative prompt template as a single file export in yaml for
 
 ## Procedure
 
-Send a POST request to the endpoint `{{apiurl}}/lm/promptTemplates/import`, and include the name of your file in the `file` parameter.
+Send a POST request to the endpoint `{{apiurl}}/v2/lm/promptTemplates/import`, and include the name of your file in the `file` parameter.
 
  > ### Sample Code:  
 > ```
-> curl -X POST "{{apiurl}}/lm/promptTemplates/import" \
+> curl -X POST "{{apiurl}}/v2/lm/promptTemplates/import" \
 >      -Header "Authorization: Bearer <your_auth_token>" \
 >      -Header "Content-Type: multipart/form-data" \
 >      -File "file=@/path/to/your/file.yaml"

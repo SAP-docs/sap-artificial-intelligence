@@ -20,11 +20,11 @@ You have either the `mloperations_viewer` or `scenario_metadata_viewer` role, or
 
 ## Procedure
 
-1.  Select an AI API connection \(setting resource group is not required\). For more information, see [Set Resource Group](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/0c077289f29d4147921fb07ab0f68b7f.html).
+1.  Select an AI API connection \(setting resource group isn't required\). For more information, see [Set Resource Group](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/0c077289f29d4147921fb07ab0f68b7f.html).
 
 2.  Choose the *Scenarios* tile on the *Overview* dashboard, or in the *ML Operations* app, choose *Scenarios*.
 
-    The *Scenarios* screen appears listing all of the scenarios for the selected connection. Scenarios are listed by name, and with additional details such as description, created on timestamp, changed on timestamp, number of contained executables, and number of versions.
+    The *Scenarios* screen appears, listing all the scenarios for the selected connection. Scenarios are listed by name, and with additional details such as description, created on timestamp, changed on timestamp, number of contained executables, and number of versions.
 
 3.  To view the details for a scenario, select a scenario in the list or choose <span class="SAP-icons-V5"></span> \(More\). The *Scenario Details* screen appears with the *Overview* tab displayed. The overview shows a graphical summary of the scenario, showing the distribution of workflow executables and serving executables by scenario version.
 
@@ -37,8 +37,13 @@ You have either the `mloperations_viewer` or `scenario_metadata_viewer` role, or
 
 5.  **Optional:** To view your prompt templates, choose the *Prompt Templates* tab.
 
+
+
     -   Filter your prompt template using the filter field.
     -   Choose a prompt template to see its detailed view.
+        -   You can delete a template revision using the :wastebasket: icon.
+        -   You can delete a template by deleting all of its revisions.
+
 
     ![](images/scenarios_d1d183a.png)
 

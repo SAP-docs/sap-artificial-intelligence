@@ -19,11 +19,11 @@
 
 You can fill a prompt template by ID, or by the combination of name, scenario, and version.
 
--   To fill a prompt template by ID, send a POST request to the endpoint `{{apiurl}}/lm/promptTemplates/{{promptTemplateId}}/substitution` and add your variable values in the body.
+-   To fill a prompt template by ID, send a POST request to the endpoint `{{apiurl}}/v2/lm/promptTemplates/{{promptTemplateId}}/substitution` and add your variable values in the body.
 
 -   > ### Sample Code:  
     > ```
-    > curl -X POST "{{apiurl}}/lm/promptTemplates/{{promptTemplateId}}/substitution" \
+    > curl -X POST "{{apiurl}}/v2/lm/promptTemplates/{{promptTemplateId}}/substitution" \
     >      -H "Authorization: Bearer <your_auth_token>" \
     >      -H "Content-Type: application/json" \
     >      -d '{
@@ -33,11 +33,11 @@ You can fill a prompt template by ID, or by the combination of name, scenario, a
     >          }'
     > ```
 
--   To fill a prompt template by name, scenario, and version send a POST request to the endpoint `{{apiurl}}/lm/scenarios/{{scenarioId}}/promptTemplates/{{promptTemplateName}}/versions/{{versionId}}/substitution` and add your variable values in the body.
+-   To fill a prompt template by name, scenario, and version send a POST request to the endpoint `{{apiurl}}/v2/lm/scenarios/{{scenarioId}}/promptTemplates/{{promptTemplateName}}/versions/{{versionId}}/substitution` and add your variable values in the body.
 
     > ### Sample Code:  
     > ```
-    > curl -X POST "{{apiurl}}/lm/scenarios/{{scenarioId}}/promptTemplates/{{promptTemplateName}}/versions/{{versionId}}/substitution" \
+    > curl -X POST "{{apiurl}}/v2/lm/scenarios/{{scenarioId}}/promptTemplates/{{promptTemplateName}}/versions/{{versionId}}/substitution" \
     >      -H "Authorization: Bearer <your_auth_token>" \
     >      -H "Content-Type: application/json" \
     >      -d '{

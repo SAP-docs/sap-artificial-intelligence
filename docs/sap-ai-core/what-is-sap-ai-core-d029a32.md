@@ -4,9 +4,9 @@
 
 Learn more about the SAP AI Core service on SAP Business Technology Platform \(SAP BTP\). Build a platform for your artificial intelligence solutions.
 
-SAP AI Core is a service in the SAP Business Technology Platform that is designed to handle the execution and operations of your AI assets in a standardized, scalable, and hyperscaler-agnostic way. It provides seamless integration with your SAP solutions. Any AI function can be easily realized using open-source frameworks. SAP AI Core supports full lifecycle management of AI scenarios. Access generative AI capabilities and prompt lifecycle management via the generative AI hub.
+SAP AI Core is a service within the SAP Business Technology Platform. It's designed to manage the execution and operations of AI assets in a standardized, scalable, and hyperscaler-agnostic manner. It seamlessly integrates with SAP solutions, allowing any AI function to be easily implemented using open-source frameworks. SAP AI Core supports full lifecycle management of AI scenarios. Users can access generative AI capabilities and prompt lifecycle management through the generative AI hub.
 
-SAP AI Core enables you to make data-driven decisions confidently and efficiently, tailored to address business problems. It handles large volumes of data and offers scalable machine learning capabilities to automate tasks like triaging customer feedback or tickets and performing classification tasks. SAP AI Core includes preconfigured SAP solutions and can be set up for open-source machine learning frameworks. It integrates with Argo Workflow and KServe, and can be embedded into other applications.
+SAP AI Core lets you make data-driven decisions confidently and efficiently, tailored to address business challenges. It handles large volumes of data and offers scalable machine learning capabilities to automate tasks like triaging customer feedback or tickets and performing classification tasks. SAP AI Core includes preconfigured SAP solutions and supports open-source machine learning frameworks. It integrates with Argo Workflow and KServe, and can be embedded into other applications.
 
 SAP AI Core allows you to experiment with and utilize natural language prompts with a variety of generative AI models in the generative AI hub.
 
@@ -37,6 +37,17 @@ SAP AI Core allows you to experiment with and utilize natural language prompts w
 
 <dl>
 <dt><b>
+
+Generative AI hub 
+
+</b></dt>
+<dd>
+
+Choose from a selection of generative AI models for prompt experimentation and prompt lifecycle management.
+
+
+
+</dd><dt><b>
 
 Execute pipelines 
 
@@ -91,17 +102,6 @@ Register your Docker registry, synchronize your AI content from your git reposit
 
 
 
-</dd><dt><b>
-
-Generative AI hub 
-
-</b></dt>
-<dd>
-
-Choose from a selection of generative AI models for prompt experimentation and prompt lifecycle management.
-
-
-
 </dd>
 </dl>
 
@@ -123,18 +123,160 @@ This service is available in the following environments:
 
 ## Multitenancy
 
-This service supports multitenancy. It can be used in tenant-aware applications.
+This service supports multitenancy. It can be used in tenant-aware applications. For more information, see [Multitenancy](multitenancy-ee90fe1.md).
 
 
 
 <a name="loiod029a32c22fb45fbb607e6a2c48c8a0e__section_jq4_gpf_4rb"/>
 
-## Process Flow Between SAP AI Core and SAP AI Launchpad
+## Architectural Overview
 
-![](images/Process_Flow_AI_Launchpad_to_AI_Core_d8dde1d.png)
+The SAP AI Core service works in conjunction with SAP AI Launchpad and the `AI API`. The key components are SAP AI Core, SAP AI Launchpad, and the `AI API`.
+
+-   **SAP AI Core** provides an engine that lets you run AI workflows and model serving workloads.
+
+-   **SAP AI Launchpad** manages a number of AI runtimes. It allows various user groups to access and manage their AI scenarios.
+
+-   **AI API** provides a standard way of managing the AI scenario lifecycle on different runtimes, regardless of whether they're provided on SAP technology \(such as SAP S/4HANA\) or on partner technology \(such as Amazon Web Services\). When the AI API is deployed on runtimes other than SAP AI Core, the runtimes have to provide a runtime adapter.
+
+
+[Figure 1](what-is-sap-ai-core-d029a32.md#loiod029a32c22fb45fbb607e6a2c48c8a0e__fig_blw_g1y_xnb) shows these three main components in an overview architecture diagram.
+
+  
+  
+**Architectural Overview**
+
+![Overview of the AI Core landscape](images/Image_AI_Core_Overview_8a6312d.png)
+
+
+
+<a name="loiod029a32c22fb45fbb607e6a2c48c8a0e__section_ifb_tt3_snb"/>
+
+## Tools
+
+SAP AI Core connects with various internal and external tools. You interact with different repositories, systems, and objects. Some of these objects come from SAP, while others must be provided by you. This setup enables enhanced control through authorizations, and supports continuous integration and continuous deployment \(CI/CD\). The following table lists the key repositories, systems, and objects:
+
+
+<table>
+<tr>
+<th valign="top">
+
+What
+
+</th>
+<th valign="top">
+
+Why
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+AI API
+
+</td>
+<td valign="top">
+
+For managing your artifacts and workflows \(such as training scripts, data, models, and model servers\) across multiple runtimes
+
+> ### Note:  
+> The AI API can also be used to integrate other machine learning platforms, engines, or runtimes into the AI ecosystem.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Argo Workflows
+
+</td>
+<td valign="top">
+
+A container native, workflow engine for Kubernetes.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Docker repo
+
+</td>
+<td valign="top">
+
+For custom Docker images referenced in the templates
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Git repo
+
+</td>
+<td valign="top">
+
+For storing training and serving workflows and templates
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Hyperscaler storage
+
+</td>
+<td valign="top">
+
+For storage of input and output artifacts, such as training data and models \(for example, SAP BTP Object Store Service\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+KServing \(K\)
+
+</td>
+<td valign="top">
+
+For optimized deployments of machine learning models. Deployment templates use KServe notation.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Kubernetes \(K8s\)
+
+</td>
+<td valign="top">
+
+The K8s cluster orchestrates and scales the pods, which are used in AI pipelines. Resource group isolation is based on a K8s namespace.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad
+
+</td>
+<td valign="top">
+
+SAP AI Launchpad is a multitenant software as a service \(SaaS\) application on SAP Business Technology Platform \(SAP BTP\). Customers and partners can use SAP AI Launchpad to manage AI use cases \(scenarios\) across multiple instances of AI runtimes \(such as SAP AI Core\). SAP AI Launchpad also provides generative AI capabilities via the Generative AI Hub.
+
+</td>
+</tr>
+</table>
 
 **Related Information**  
 
+
+[Generative AI Hub in SAP AI Core](generative-ai-hub-in-sap-ai-core-7db524e.md "The generative AI hub incorporates generative AI into your AI activities in SAP AI Core and SAP AI Launchpad.")
 
 [AI API Overview](ai-api-overview-716d4c3.md "The AI API lets you manage your AI assets (such as training scripts, data, models, and model servers) across multiple runtimes.")
 

@@ -21,7 +21,7 @@
 
 ## Context
 
-Prompts are saved in one region only and can only be retrieved or deleted by an instance of AI launchpad in that region.
+Prompts and templates are saved in one region only and can only be retrieved or deleted by an instance of AI launchpad in that region.
 
 There is a storage limit applied at tenant level. If you reach this limit, you will receive an error message. Delete saved prompts to make space, or contact your administrator. Your prompt will not be saved and you will have to run it again to save it. You can use the copy function to paste it elsewhere for your reference. You can check your storage consumption in the generative AI hub *Administration* section.
 

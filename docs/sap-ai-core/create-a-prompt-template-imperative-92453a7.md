@@ -7,7 +7,7 @@
 ## Context
 
 > ### Recommendation:  
-> The imperative API supports full CRUD operations and is recommended for refining prompt templates in design time use cases. Iterations are tracked and can be viewed in the history endpoint.
+> The imperative API supports full CRUD operations and is recommended for refining prompt templates in design-time use cases. Iterations are tracked and can be viewed in the history endpoint.
 
 You can create a reusable prompt for a specific use case, including placeholders that are filled later.
 
@@ -15,11 +15,11 @@ You can create a reusable prompt for a specific use case, including placeholders
 
 ## Procedure
 
-Create a prompt template by sending a POST request to endpoint <code><code>{{apiurl}}/lm/promptTemplates</code></code>.
+Create a prompt template by sending a POST request to endpoint <code><code>{{apiurl}}/v2/lm/promptTemplates</code></code>.
 
 > ### Sample Code:  
 > ```
-> curl -X POST "{{apiurl}}/lm/promptTemplates"\
+> curl -X POST "{{apiurl}}/v2/lm/promptTemplates"\
 > --header 'Content-Type: application/json' \
 > --header "Authorization: Bearer $TOKEN" \
 > --data '{
@@ -72,12 +72,12 @@ Create a prompt template by sending a POST request to endpoint <code><code>{{api
 
 ## Next Steps
 
-You can iterate over the prompt template, and make changes to it.
+You can iterate over the prompt template and make changes to it.
 
 You can save your changes as a new version. The latest iteration is always the head version and is marked with `isVersionHead: true`.
 
 > ### Tip:  
-> You'll need to update the version number when you want to create a new version, and the version entry must be semver compliant.
+> You'll need to update the version number when you want to create a new version, and the version entry must be compliant with semantic versioning \(SemVer\).
 
 You can check the change history for the template. For more information, see [Get Prompt Template History](get-prompt-template-history-dc204cf.md).
 

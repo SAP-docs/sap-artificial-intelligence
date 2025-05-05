@@ -12,11 +12,11 @@ You can list the history of edits to prompt templates, for imperatively managed 
 
 ## Procedure
 
-Send a GET request to endpoint `{{apiurl}}/lm/scenarios/{{scenarioId}}/promptTemplates/{{promptTemplateName}}/versions/{{versionId}}/history` and include the name, scenario, and version of your prompt template.
+Send a GET request to endpoint `{{apiurl}}/v2/lm/scenarios/{{scenarioId}}/promptTemplates/{{promptTemplateName}}/versions/{{versionId}}/history` and include the name, scenario, and version of your prompt template.
 
  > ### Sample Code:  
 > ```
-> curl -X GET "{{apiurl}}/lm/scenarios/{{scenarioId}}/promptTemplates/{{promptTemplateName}}/versions/{{versionId}}/history" \
+> curl -X GET "{{apiurl}}/v2/lm/scenarios/{{scenarioId}}/promptTemplates/{{promptTemplateName}}/versions/{{versionId}}/history" \
 >   -Header "Authorization: Bearer <your_auth_token>"
 > ```
 

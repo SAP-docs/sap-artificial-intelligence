@@ -14,7 +14,7 @@
 
 
 > ### Note:  
-> Prompts are saved in one region only and can only be retrieved or deleted by an instance of AI launchpad in that region.
+> Prompts and templates are saved in one region only and can only be retrieved or deleted by an instance of AI launchpad in that region.
 
 
 

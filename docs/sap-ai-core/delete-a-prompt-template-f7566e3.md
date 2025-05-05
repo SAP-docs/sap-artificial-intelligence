@@ -27,7 +27,7 @@ Delete a specific version of the prompt template, for imperatively managed promp
 
 ## Procedure
 
-Send a DELETE request to the endpoint `{{apiurl}}/lm/promptTemplates/{{promptTemplateId}}` and include the template ID of the prompt you want to delete.
+Send a DELETE request to the endpoint `{{apiurl}}/v2/lm/promptTemplates/{{promptTemplateId}}` and include the template ID of the prompt you want to delete.
 
 > ### Output Code:  
 > ```

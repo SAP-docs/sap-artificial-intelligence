@@ -21,11 +21,11 @@ You can export a prompt template as a single file export in declarative compatib
 
 ## Procedure
 
-Send a GET request to the endpoint `{{apiurl}}/lm/promptTemplates/{{promptTemplateId}}/export`, and include the name of your file in the `output` parameter.
+Send a GET request to the endpoint `{{apiurl}}/v2/lm/promptTemplates/{{promptTemplateId}}/export`, and include the name of your file in the `output` parameter.
 
  > ### Sample Code:  
 > ```
-> curl -X GET "{{apiurl}}/lm/promptTemplates/{{promptTemplateId}}/export" \
+> curl -X GET "{{apiurl}}/v2/lm/promptTemplates/{{promptTemplateId}}/export" \
 > -Header "Authorization: Bearer <your_auth_token>" \
 > --output "exported_prompt_template.yaml"
 > ```

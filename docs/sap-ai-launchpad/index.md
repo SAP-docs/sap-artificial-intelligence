@@ -50,6 +50,7 @@ Explore the concepts around SAP AI Launchpad and learn how to provision the serv
             -   [Delete Prompts](delete-prompts-ee44055.md)
             -   [View a Saved Template](view-a-saved-template-cfe6c8b.md)
             -   [Edit a Saved Template](edit-a-saved-template-b532cd8.md)
+            -   [Delete a Template](delete-a-template-58e51d8.md)
         -   [Administration](administration-3d03a2e.md)
             -   [Manual User Offboarding](manual-user-offboarding-0d8d3cc.md)
             -   [Create a Disclaimer](create-a-disclaimer-4ecc5ae.md)

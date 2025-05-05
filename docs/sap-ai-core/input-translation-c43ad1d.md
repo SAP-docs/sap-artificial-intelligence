@@ -4,7 +4,7 @@
 
 The input translation module is optional. It allows you to translate LLM text prompts into a chosen target language.
 
-The input translation module helps improve answer quality when the configured model performs better when provided input in a specific language, for example English.
+The input translation module helps improve answer quality when the configured model performs better when input is provided in a specific language, for example English.
 
 To use input translation, configure it as part of your orchestration workflow.
 
