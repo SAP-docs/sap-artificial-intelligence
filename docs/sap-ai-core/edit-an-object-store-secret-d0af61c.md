@@ -9,6 +9,9 @@
 > 
 > You can create multiple secrets using different values for `name`, but you must create a default first.
 
+> ### Restriction:
+> Output artifacts can only use the default object store
+
 > ### Tip:  
 > The `pathPrefix` is useful if you share the same bucket for different projects. You can set the name of your project folder to `my-ml-project1`, for example. All data is then stored in that folder.
 
@@ -151,6 +154,9 @@ Edit your object store secret details using the endpoint `$AI_API_URL/v2/admin/o
 > 
 > You can create multiple secrets using different values for `name`, but you must create a default first.
 
+> ### Restriction:
+> Output artifacts can only use the default object store
+
 > ### Tip:  
 > The `pathPrefix` is useful if you share the same bucket for different projects. You can set the name of your project folder to `my-ml-project1`, for example. All data is then stored in that folder.
 
@@ -275,6 +281,9 @@ SAP AI Core supports multiple hyperscaler object stores, including the following
     > For input artifacts only
     > 
     > You can create multiple secrets using different values for `name`, but you must create a default first.
+
+    > ### Restriction:
+    > Output artifacts can only use the default object store
 
     > ### Tip:  
     > The `pathPrefix` is useful if you share the same bucket for different projects. You can set the name of your project folder to `my-ml-project1`, for example. All data is then stored in that folder.
