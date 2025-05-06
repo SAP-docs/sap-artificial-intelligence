@@ -23,6 +23,9 @@ In SAP AI Core, Argo Workflows are used to:
 
 Workflows are executed in batch mode. A workflow can produce multiple output artifacts, but only an output artifact with a `globalName` is considered to be the final output artifact of the workflow.
 
+> ### Restriction:
+> Output artifacts can only use the default object store
+
 For the model training code, SAP AI Core is language-agnostic. However, you need to specify the relevant programming language in the workflow parameters. If you're importing any packages, list them in a separate file named `requirements.txt` and store it in the same directory.
 
 > ### Restriction:  
