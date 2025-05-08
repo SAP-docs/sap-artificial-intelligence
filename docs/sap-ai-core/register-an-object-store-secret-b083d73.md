@@ -11,6 +11,9 @@ Your cloud storage credentials are managed using secrets. Secrets are a means of
 > 
 > You can create multiple secrets using different values for `name`, but you must create a default first.
 
+> ### Restriction:
+> Output artifacts can only use the default object store
+
 > ### Tip:  
 > The `pathPrefix` is useful if you share the same bucket for different projects. You can set the name of your project folder to `my-ml-project1`, for example. All data is then stored in that folder.
 
@@ -153,6 +156,9 @@ Register your object store secret details using the endpoint `/v2/admin/objectSt
 > 
 > You can create multiple secrets using different values for `name`, but you must create a default first.
 
+> ### Restriction:
+> Output artifacts can only use the default object store
+
 > ### Tip:  
 > The `pathPrefix` is useful if you share the same bucket for different projects. You can set the name of your project folder to `my-ml-project1`, for example. All data is then stored in that folder.
 
@@ -289,6 +295,9 @@ You have completed the initial setup. For more information, see [Initial Setup](
     > For input artifacts only
     > 
     > You can create multiple secrets using different values for `name`, but you must create a default first.
+
+    > ### Restriction:
+    > Output artifacts can only use the default object store
 
     > ### Tip:  
     > The `pathPrefix` is useful if you share the same bucket for different projects. You can set the name of your project folder to `my-ml-project1`, for example. All data is then stored in that folder.
