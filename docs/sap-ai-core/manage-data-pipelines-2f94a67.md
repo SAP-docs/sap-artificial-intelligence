@@ -15,7 +15,7 @@ You can retrieve details of indexing pipelines in the following ways:
     > ### Sample Code:  
     > ```
     > curl --request GET \  # Use GET method to retrieve all pipelines
-    > --url $AI_API_URL/v2/lm/document-grounding/pipelines$AI_API_URL/v2/lm/document-grounding/pipelines \  # URL to fetch all pipelines
+    > --url $AI_API_URL/v2/lm/document-grounding/pipelines\  # URL to fetch all pipelines
     > --header 'AI-Resource-Group: {{resource_group}}'  # Add the resource group ID in the header
     > 
     > ```
@@ -69,6 +69,8 @@ You can list all executions within a pipeline including status details by pipeli
 > --header 'AI-Resource-Group: {{resource_group}}'  # Add the resource group ID in the header
 >  
 > ```
+
+The `lastExecution` parameter is Boolean, taking `true` or `false` values. Setting the value to `true` will retrieve only the latest execution in the pipeline. Setting the value to `false` will retrieve all executions in the pipeline.
 
 You can get details of an execution including its status by pipeline ID and execution ID using the following:
 

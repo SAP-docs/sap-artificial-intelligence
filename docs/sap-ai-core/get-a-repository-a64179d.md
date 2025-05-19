@@ -14,19 +14,11 @@ You have created a generic secret for grounding purposes. For more information, 
 
 
 
-<a name="loioa64179d1b8684a519d39dda0afa11e38__context_e42_ngh_jdc"/>
-
-## Context
-
-
-
 <a name="loioa64179d1b8684a519d39dda0afa11e38__steps_uyc_chh_jdc"/>
 
 ## Procedure
 
 Send a GET request to the endpoint `$AI_API_URL/v2/lm/document-grounding/retrieval/dataRepositories`
-
-To search within a specific repository specify it's `repositoryid` in `dataRepositories` attribute of the request or specify `*` to search in all the repositories.
 
 Example for all repositories:
 

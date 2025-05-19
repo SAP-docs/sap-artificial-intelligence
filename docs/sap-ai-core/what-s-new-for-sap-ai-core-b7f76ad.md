@@ -87,6 +87,72 @@ SAP AI Core
 </td>
 <td valign="top">
 
+Generative AI hub
+
+</td>
+<td valign="top">
+
+New models are supported, including OpenAI GPT, o3, o4-mini, 4.1, 4.1-mini, 4.1-nano and Mistral small instruct.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-05-19
+
+</td>
+<td valign="top">
+
+2025-05-19
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Generative AI hub 
 
 </td>
@@ -2345,14 +2411,14 @@ SAP AI Core
 </td>
 <td valign="top">
 
-Generative AI hub SDK
+generative ai hub sdk
 
 </td>
 <td valign="top">
 
-The generative AI hub SDK is now available.
+The generative ai hub sdk is now available.
 
-For more information, see [generative AI hub SDK](https://pypi.org/project/generative-ai-hub-sdk/).
+For more information, see [generative ai hub sdk](https://pypi.org/project/generative-ai-hub-sdk/).
 
 </td>
 <td valign="top">
@@ -4040,12 +4106,12 @@ SAP AI Core
 </td>
 <td valign="top">
 
-Documentation for the AI API client SDK has moved to PyPi.org.
+Documentation for the ai api client sdk has moved to PyPi.org.
 
 </td>
 <td valign="top">
 
-Documentation for the AI API client SDK has moved to PyPi.org. For more information, [Libraries and SDKs](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/499309d6e371419fb7a88b7d68c20a31.html?version=CLOUD).
+Documentation for the ai api client sdk has moved to PyPi.org. For more information, [Libraries and SDKs](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/499309d6e371419fb7a88b7d68c20a31.html?version=CLOUD).
 
 </td>
 <td valign="top">

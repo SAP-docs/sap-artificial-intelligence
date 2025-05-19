@@ -1,12 +1,12 @@
-<!-- loiof559038fef1b4661bf62e26ee02442e8 -->
+<!-- loioc484783c76c142bbaacb2ecbf9100661 -->
 
-# Monitoring and Troubleshooting
+# Support Process
 
 Explore solutions to potential issues, and find out how to get support.
 
 
 
-<a name="loiof559038fef1b4661bf62e26ee02442e8__section_c34_zrv_hfc"/>
+<a name="loioc484783c76c142bbaacb2ecbf9100661__section_c34_zrv_hfc"/>
 
 ## Getting Support
 
@@ -69,7 +69,4 @@ We recommend that you include the following information when you submit the inci
 -   URL of the page where the incident or error occurs
 -   Steps or clicks used to replicate the error
 -   Screenshots, videos, or the code entered
-
--   **[Troubleshooting](troubleshooting-3da90ba.md "For troubleshooting information, see the following sections:")**  
-For troubleshooting information, see the following sections:
 

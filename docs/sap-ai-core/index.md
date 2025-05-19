@@ -61,7 +61,7 @@
         -   [Consume Models with the Harmonized API](consume-models-with-the-harmonized-api-2392d9a.md)
         -   [Next Steps](next-steps-6106eed.md)
     -   [Accessing Generative AI Models Through Global Scenarios](accessing-generative-ai-models-through-global-scenarios-4ca11f6.md)
-        -   [Orchestration](orchestration-cdd4847.md)
+        -   [Orchestration](orchestration-8d02235.md)
             -   [Orchestration Workflow](orchestration-workflow-b233648.md)
                 -   [Grounding](grounding-454c558.md)
                     -   Prerequisites
@@ -102,6 +102,7 @@
                     -   [Few-Shot Learning](few-shot-learning-4fe47b1.md)
                     -   [Chat](chat-39321a9.md)
                     -   [Minimal Call](minimal-call-949e773.md)
+                    -   [Tool Calling](tool-calling-f959929.md)
                 -   [Input Translation](input-translation-c43ad1d.md)
                     -   [Enhance Model Consumption with Input Translation](enhance-model-consumption-with-input-translation-0291151.md)
                 -   [Data Masking](data-masking-8b87002.md)
@@ -233,5 +234,6 @@
         -   [Docker](docker-1945aa4.md)
         -   [Deployment](deployment-a10fa8a.md)
         -   [Miscellaneous](miscellaneous-10622b5.md)
+-   [Support Process](support-process-c484783.md)
 -   [Service Offboarding](service-offboarding-08303fe.md)
 

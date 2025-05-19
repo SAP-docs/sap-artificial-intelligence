@@ -53,6 +53,6 @@ You have either the `genai_manager` or `prompt_manager` role, or you are assigne
 
     Alternatively, you can delete all prompt versions by choosing *Delete*.
 
-    sa![](images/deleteversions_2503b_23771c6.png)
+    ![](images/deleteversions_2503b_23771c6.png)
 
 

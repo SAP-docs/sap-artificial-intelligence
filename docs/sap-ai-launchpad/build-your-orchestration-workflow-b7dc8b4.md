@@ -99,6 +99,9 @@ You can upload your own orchestration workflow in JSON format. The workflow stru
 }
 ```
 
+> ### Restriction:  
+> Orchestration workflows containing images can be downloaded in JSON format, but cannot be uploaded.
+
 1.  Click *JSON* to show the JSON file for your orchestration workflow.
 
 2.  Click *Upload* to upload your edited JSON file.

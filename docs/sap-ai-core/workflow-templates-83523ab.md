@@ -23,6 +23,9 @@ In SAP AI Core, Argo Workflows are used to:
 
 Workflows are executed in batch mode. A workflow can produce multiple output artifacts, but only an output artifact with a `globalName` is considered to be the final output artifact of the workflow.
 
+> ### Restriction:  
+> Output artifacts can only use the default object store.
+
 For the model training code, SAP AI Core is language-agnostic. However, you need to specify the relevant programming language in the workflow parameters. If you're importing any packages, list them in a separate file named `requirements.txt` and store it in the same directory.
 
 > ### Restriction:  
@@ -286,7 +289,7 @@ spec:
 > ### Note:  
 > For every container in the template, the `command: ["/bin/sh", "-c"]` field is mandatory. The contents of the argument can be amended, but must not be empty. The `CMD` and `ENDPOINT` specified in the Dockerfile of a container are ignored.
 
-User ID and group ID 65534 is required to run the Docker image. This user has permission to access the files while the application is running. You can check and change the permissions by using the `chown` and `chmod` commands.
+User ID and group ID 65534 is required to run the Docker image. This user has permission to access the files while the application is running. You can check and change the permissions by using the `chown` and `chmod` commands. For more information about security-related restrictions, see [Kubernetes Security](kubernetes-security-3864a9c.md).
 
 > ### Tip:  
 > To make sure that the container is working as expected before submitting it to SAP AI Core, run <code>docker run -it --user 65534:65543 <i class="varname">&lt;docker-image&gt;</i></code> locally.

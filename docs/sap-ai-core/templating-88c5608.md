@@ -120,4 +120,6 @@ or
 Orchestration can also be used in chat scenarios. The following example shows how to configure the templating module to use a chat prompt.
 -   **[Minimal Call](minimal-call-949e773.md "")**  
 
+-   **[Tool Calling](tool-calling-f959929.md "")**  
+
 

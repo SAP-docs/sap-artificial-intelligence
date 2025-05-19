@@ -109,12 +109,92 @@ Activate the generative AI hub and learn the basics of composing prompts.
 <dl>
 <dt><b>
 
+[Consumption of GenAI models using Orchestration – A Beginner’s Guide](https://developers.sap.com/tutorials/ai-core-orchestration-consumption.html)
+
+</b></dt>
+<dd>
+
+Get started with consumption of generative AI models using orchestration.
+
+
+
+</dd>
+</dl>
+
+
+<dl>
+<dt><b>
+
 [Using foundation models with SAP AI Core](https://developers.sap.com/tutorials/ai-core-consumption-llm.html)
 
 </b></dt>
 <dd>
 
 Learn how to consume foundation models using SAP AI Core.
+
+
+
+</dd>
+</dl>
+
+
+<dl>
+<dt><b>
+
+[Leveraging Orchestration Capabilities to Enhance Responses](https://developers.sap.com/tutorials/ai-core-orchestration-consumption-opt.html)
+
+</b></dt>
+<dd>
+
+Discover advanced orchestration capabilities such as data masking and content filtering.
+
+
+
+</dd>
+</dl>
+
+
+<dl>
+<dt><b>
+
+[Orchestration with Grounding capabilities](https://developers.sap.com/tutorials/ai-core-orchestration-grounding.html)
+
+</b></dt>
+<dd>
+
+Learn how to prepare data pipelines and retrieve contextually relevant information by incorporating your own documents into your orchestration workflow.
+
+
+
+</dd>
+</dl>
+
+
+<dl>
+<dt><b>
+
+[Leveraging Prompt Registry for Seamless Orchestration](https://developers.sap.com/tutorials/ai-core-genaibub-prompt-registry.html)
+
+</b></dt>
+<dd>
+
+Learn how to manage the lifecycle of your prompt templates using prompt registry, and utilize them as part of your orchestration workflow.
+
+
+
+</dd>
+</dl>
+
+
+<dl>
+<dt><b>
+
+[Using Small Language Models on SAP AI Core](https://developers.sap.com/tutorials/ai-core-custom-slm.html)
+
+</b></dt>
+<dd>
+
+Learn how to deploy a custom LLM using SAP AI Core.
 
 
 

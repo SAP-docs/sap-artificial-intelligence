@@ -87,7 +87,209 @@ SAP AI Launchpad
 </td>
 <td valign="top">
 
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Going forward, users will need an orchestration deployment to use the Prompt Editor and Chat apps.
+
+You likely already have an orchestration deployment running. You can check by viewing your deployments in the *ML Ops* app. For more information, see [View a Deployment](view-a-deployment-d6f793e.md).
+
+To create a new orchestration deployment, see [Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4344c5b.md).
+
+Alternatively, administrators can use the *Enable Orchestration* button available through the interface.
+
+</td>
+<td valign="top">
+
+Required
+
+</td>
+<td valign="top">
+
+Deprecated
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-05-19
+
+</td>
+<td valign="top">
+
+2025-05-19
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Image as input is supported in orchestration. For more information, see [Templating](templating-11d44e6.md).
+
+To see which models support image input, consult the model library. For more information, see [Model Library](model-library-fce6fea.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-05-19
+
+</td>
+<td valign="top">
+
+2025-05-19
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub
+
+</td>
+<td valign="top">
+
+New models are supported, including OpenAI GPT, o3, o4-mini, 4.1, 4.1-mini, 4.1-nano and Mistral small instruct.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-05-19
+
+</td>
+<td valign="top">
+
+2025-05-19
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
 
 </td>
 <td valign="top">

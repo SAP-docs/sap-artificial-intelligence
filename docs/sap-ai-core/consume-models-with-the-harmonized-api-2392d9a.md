@@ -46,7 +46,7 @@ curl --request POST $ORCH_DEPLOYMENT_URL/completion \
 
 This request configures the templating module with a single user message with two parameters: `text` and `language`. The `language` parameter is also configured with English as the default. The LLM module is configured to use gpt-4o-mini in the latest available version and a set of model parameters. The `input_params` field contains the values for the parameters `text` and `language`. These values are used during this request in the prompt sent to the model.
 
-The response contains a `request_id`, the module results from each module that was executed, and the `orchestration_result`, which includes the response of the call to the model. For more information about modules available for consumption using the Harmoized API, see [Orchestration](orchestration-cdd4847.md).
+The response contains a `request_id`, the module results from each module that was executed, and the `orchestration_result`, which includes the response of the call to the model. For more information about modules available for consumption using the Harmoized API, see [Orchestration](orchestration-8d02235.md).
 
 > ### Output Code:  
 > ```

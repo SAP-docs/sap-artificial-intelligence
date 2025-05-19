@@ -1,4 +1,4 @@
-<!-- loiocdd4847a8ec74b10b980c87843d80027 -->
+<!-- loio8d022355037643cebf775cd3bf662cc5 -->
 
 # Orchestration
 
@@ -15,6 +15,8 @@ Key features include:
 -   **Data masking:** This feature enables data masking through anonymization or pseudonymization before passing it into a generative AI model. If pseudonymization is used, masked data in the model's response will be unmasked.
 
 -   **Grounding:** This feature lets you integrate external, contextually relevant, domain-specific, or real-time data into AI processes. This data enhances the natural language processing capabilities of pretrained models, which are trained on general material.
+
+-   **Translation:** This feature lets you integrate translation into your orchestration workflow for both input and output.
 
 
 The following scenarios are available:

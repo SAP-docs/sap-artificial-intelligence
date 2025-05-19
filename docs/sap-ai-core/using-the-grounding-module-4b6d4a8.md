@@ -67,7 +67,6 @@ The following code illustrates how you can use the grounding module with SAP HAN
 >   "input_params": {
 >     "groundingRequest": "<grounding query>"  // The input parameter containing the grounding query
 >   },
->   "return_module_results": true  // Return results from each module used in the orchestration
 > }
 > 
 > ```

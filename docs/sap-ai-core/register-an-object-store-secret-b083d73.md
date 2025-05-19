@@ -6,23 +6,6 @@ Connect SAP AI Core to a cloud object store and manage access using an object st
 
 Your cloud storage credentials are managed using secrets. Secrets are a means of allowing and controlling connections across directories and tools, without compromising your credentials.
 
-> ### Note:  
-> For input artifacts only
-> 
-> You can create multiple secrets using different values for `name`, but you must create a default first.
-
-> ### Restriction:
-> Output artifacts can only use the default object store
-
-> ### Tip:  
-> The `pathPrefix` is useful if you share the same bucket for different projects. You can set the name of your project folder to `my-ml-project1`, for example. All data is then stored in that folder.
-
-> ### Note:  
-> If the `AI-Resource-Group` header is not specified, the *<Resource Group\>* is assigned the value `"default"` automatically.
-
-> ### Restriction:  
-> When using an SAP HANA Data Lake object store with output artifacts pointing to a directory, you cannot use `archive: none: {}` in your workflow templates to disable artifact archiving. For more information, see [Workflow Templates](workflow-templates-83523ab.md).
-
 <a name="task_i3h_n13_tcc"/>
 
 <!-- task\_i3h\_n13\_tcc -->
@@ -156,8 +139,8 @@ Register your object store secret details using the endpoint `/v2/admin/objectSt
 > 
 > You can create multiple secrets using different values for `name`, but you must create a default first.
 
-> ### Restriction:
-> Output artifacts can only use the default object store
+> ### Restriction:  
+> Output artifacts can only use the default object store.
 
 > ### Tip:  
 > The `pathPrefix` is useful if you share the same bucket for different projects. You can set the name of your project folder to `my-ml-project1`, for example. All data is then stored in that folder.
@@ -289,15 +272,13 @@ You have completed the initial setup. For more information, see [Initial Setup](
         ```
 
 
-3.  Send the request.
-
     > ### Note:  
     > For input artifacts only
     > 
     > You can create multiple secrets using different values for `name`, but you must create a default first.
 
-    > ### Restriction:
-    > Output artifacts can only use the default object store
+    > ### Restriction:  
+    > Output artifacts can only use the default object store.
 
     > ### Tip:  
     > The `pathPrefix` is useful if you share the same bucket for different projects. You can set the name of your project folder to `my-ml-project1`, for example. All data is then stored in that folder.
@@ -307,5 +288,7 @@ You have completed the initial setup. For more information, see [Initial Setup](
 
     > ### Restriction:  
     > When using an SAP HANA Data Lake object store with output artifacts pointing to a directory, you cannot use `archive: none: {}` in your workflow templates to disable artifact archiving. For more information, see [Workflow Templates](workflow-templates-83523ab.md).
+
+3.  Send the request.
 
 
