@@ -67,7 +67,7 @@ Name of the generic secret to be created
 </td>
 <td valign="top">
 
-Base64 encoded value in the format <code>https://s3-<i class="varname">&lt;region&gt;</i>.amazonaws.com</code>
+Base64 encoded value in the format <code>https://s3.<i class="varname">&lt;region&gt;</i>.amazonaws.com</code>
 
 </td>
 </tr>
