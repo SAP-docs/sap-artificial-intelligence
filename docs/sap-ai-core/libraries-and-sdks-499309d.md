@@ -112,7 +112,7 @@ The SAP AI Core SDK is a Python-based SDK that lets you access SAP AI Core using
 </td>
 <td valign="top">
 
--   [SAP AI Core SDK](https://pypi.org/project/ai-core-sdk/)
+-   [SAP AI Core SDK](https://pypi.org/project/sap-ai-sdk-core/)
 
 -   [Business Accelerator Hub](https://api.sap.com/package/SAPAICore/overview)
 
@@ -134,7 +134,7 @@ The AI API client SDK is a Python-based SDK that enables you to access the AI AP
 </td>
 <td valign="top">
 
--   [AI API Client SDK](https://pypi.org/project/ai-api-client-sdk/)
+-   [AI API Client SDK](https://pypi.org/project/sap-ai-sdk-base/)
 
 -   [AI API](https://help.sap.com/doc/2cefe221fddf410aab23dce890b5c603/CLOUD/en-US/index.html)
 
