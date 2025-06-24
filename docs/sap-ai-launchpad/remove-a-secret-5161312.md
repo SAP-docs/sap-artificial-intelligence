@@ -49,5 +49,5 @@ You remove a secret if the name is no longer valid or contains errors, or if the
 
 ## Results
 
-The secret no longer appears on the *Docker Registry Secret* screen. Any workflow or serving templates that use the removed secret to create executions or deployments will no longer work.
+The secret no longer appears on the *Docker Registry Secret* screen. Any workflow or serving templates that use the removed secret to create executions or deployments no longer work.
 

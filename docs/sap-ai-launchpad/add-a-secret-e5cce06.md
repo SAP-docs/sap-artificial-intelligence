@@ -10,8 +10,8 @@
 
 ## Prerequisites
 
--   You have the `aicore_admin_genericsecret_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
--   You are using the SAP AI Core runtime.
+-   You have the role `aicore_admin_genericsecret_editor` or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
+-   You're using the SAP AI Core runtime.
 
 
 
@@ -19,7 +19,7 @@
 
 ## Context
 
-You use the *SAP AI Core Administration* app to add generic secrets at the main-tenant or resource-group level. For tenant-wide generic secrets, use the SAP AI Core API.
+You use the *SAP AI Core Administration* app to add generic secrets at the main-tenant level or resource-group level. For tenant-wide generic secrets, use the SAP AI Core API.
 
 To allow the rotation of tenant-wide secrets for long-running deployments without requiring a restart, the deployment must mount the tenant-wide secret. It must also monitor the mounted secret for changes instead of relying on an in-memory copy. When a tenant-wide secret is updated, the tenant must observe the `resourceGroupSecretReplicationStatus` field in the `Get Secret` endpoint to confirm that the secret has been successfully replicated across the required resource groups. For more information, see [Consume Generic Secrets in Executions or Deployments](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/185a3245692542a78bfeff87220410c6.html).
 
@@ -31,7 +31,7 @@ To allow the rotation of tenant-wide secrets for long-running deployments withou
 
 1.  In the *Workspaces* app, choose the AI API connection.
 
-2.  If you want to add your secret at the resource group level, choose the resource group. Alternatively you can use the toggles in the header or dialog box, where you will be prompted to specify a resource group.
+2.  If you want to add your secret at the resource group level, choose the resource group. Alternatively, use the toggles in the header or dialog box, where the system prompts you to specify a resource group.
 
 3.  Open the *SAP AI Core Administration* app and choose *Generic Secrets*.
 
@@ -51,7 +51,7 @@ To allow the rotation of tenant-wide secrets for long-running deployments withou
 
         -   Contain only lowercase alphanumeric characters, hyphens \(-\), or numbers
 
-        -   Do not start or end with a hyphen \(-\)
+        -   Don't start or end with a hyphen \(-\)
 
 
     4.  Enter the secret in `JSON` format. For example:
@@ -66,7 +66,7 @@ To allow the rotation of tenant-wide secrets for long-running deployments withou
         > ### Note:  
         > The API expects sensitive data to be Base64-encoded. You can easily encode your data in Base64 format using the following command on Linux or MacOS: `echo -n 'my-sensitive-data' | base64`
 
-    5.  **Optional:** Add labels to your secrets. Labels are only required for specific services, they are predefined and are outlined in the related documentation.
+    5.  **Optional:** Add labels to your secrets. Labels are only required for specific services. They're predefined and are outlined in the related documentation.
 
 
 6.  Choose *Add* to save the secret details.

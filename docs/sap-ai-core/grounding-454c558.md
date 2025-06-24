@@ -6,9 +6,9 @@ Grounding integrates external, contextually relevant, domain-specific, or real-t
 
 Grounding is a service designed to handle data-related tasks, such as grounding and retrieval, using vector databases. It provides specialized data retrieval through these databases, grounding the retrieval process with your own external and context-relevant data. Grounding combines generative AI capabilities with the ability to use real-time, precise data to improve decision-making and business operations for specific AI-driven business solutions.
 
-Grounding converts user provided documents into vector reprentations which are stored as a database. The indexing pipeline preprocesses unstructured and semi structured data into chunks and embeddings. For more information, see [Pipeline API](pipeline-api-a9badce.md) and [Vector API](vector-api-0358c5c.md).
+Grounding converts user provided documents into vector representations which are stored as a database. The indexing pipeline preprocesses unstructured and semi structured data into chunks and embeddings. For more information, see [Pipelines API](pipelines-api-a9badce.md) and [Vector API](vector-api-0358c5c.md).
 
-The retrieval pipeline takes incoming user queries and converts them into vector representations. The query vectors are used to search the database and retrieva relevant information. For more information, see [Retrieval API](retrieval-api-a27f4ad.md).
+The retrieval pipeline takes incoming user queries and converts them into vector representations. The query vectors are used to search the database and retrieval relevant information. For more information, see [Retrieval API](retrieval-api-a27f4ad.md).
 
 The Pipeline API is compatible with the following data repositories:
 
@@ -49,7 +49,7 @@ Microsoft SharePoint
 </td>
 <td valign="top">
 
-PDF, DOCX
+PDF, DOCX, HTML, TXT
 
 </td>
 <td valign="top">
@@ -64,7 +64,7 @@ Plain Text
 </td>
 <td valign="top">
 
-Maximum of 2000 Documents
+Maximum of 2000 Documents per Pipeline
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ AWS S3
 </td>
 <td valign="top">
 
-PDF, DOCX
+PDF, DOCX, HTML, TXT
 
 </td>
 <td valign="top">
@@ -91,7 +91,7 @@ Plain Text
 </td>
 <td valign="top">
 
-Maximum of 2000 Documents
+Maximum of 2000 Documents per Pipeline
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ SFTP
 </td>
 <td valign="top">
 
-PDF, DOCX
+PDF, DOCX, HTML, TXT
 
 </td>
 <td valign="top">
@@ -118,7 +118,7 @@ Plain Text
 </td>
 <td valign="top">
 
-Maximum of 2000 Documents
+Maximum of 2000 Documents per Pipeline
 
 </td>
 </tr>
@@ -138,8 +138,8 @@ To use the *Grounding* module in the orchestration pipeline, you need to prepare
 
 Generative AI hub offers multiple options for users to provide data \(prepare knowledge base\):
 
--   For Option 1: Upload the documents to a supported data repository and run the data pipeline to vectorize the documents. For more information, see [Pipeline API](pipeline-api-a9badce.md).
--   For Option 2: Provide the chunks of document via Vector API directly. Provide the chunks of document via Vector API directly. For more information, see [Vector API](vector-api-0358c5c.md).
+-   For Option 1: Upload the documents to a supported data repository and run the data pipeline to vectorize the documents. For more information, see [Pipelines API](pipelines-api-a9badce.md).
+-   For Option 2: Provide the chunks of document via Vector API directly. For more information, see [Vector API](vector-api-0358c5c.md).
 
 To use grounding, choose from one of the following options.
 

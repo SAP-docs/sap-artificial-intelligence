@@ -25,7 +25,7 @@ You have access to the Docker registry over the Internet.
 You edit a secret when its credentials \(user name and access token\) change.
 
 > ### Note:  
-> You cannot change the name for a secret. If the name is no longer valid or contains errors, you'll need to remove the secret and re-create it with the correct details. See [Remove a Secret](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/5161312a87b34805868b00404e7640d4.html).
+> You can't change the name for a secret. If the name is no longer valid or contains errors, you need to remove the secret and re-create it with the correct details. See [Remove a Secret](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/5161312a87b34805868b00404e7640d4.html).
 
 
 

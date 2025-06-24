@@ -12,6 +12,4 @@
 
 2.  Enter the basic information for your Cloud Foundry environment instance and click *Create*.
 
-    ![](images/Enable_Cloud_Foundry_Dialog_91c344a.png)
-
 

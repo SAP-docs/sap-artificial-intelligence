@@ -34,7 +34,7 @@ Application details include sync status and health information, source repositor
 
     The *Applications* screen appears with a tile for each existing application.
 
-3.  Find the tile for the application you would like to display, and click the tile.
+3.  Find the tile for the application you want to display, and click the tile.
 
     The *Application Details* screen appears with summary, source, and sync resource details.
 

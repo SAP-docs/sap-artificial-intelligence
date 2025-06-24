@@ -102,8 +102,7 @@ You can get document details from an execution, including its processing status 
 > ### Sample Code:  
 > ```
 > curl --request GET \
-> --url $AI_API_URL/v2/lm/document-grounding/pipelines/{{pipelineId}}/executions/{{executionId}}/documents/{{documentID}}
->                          \  # URL to details of specific execution document by pipeline ID, execution ID and Document ID
+> --url $AI_API_URL/v2/lm/document-grounding/pipelines/{{pipelineId}}/executions/{{executionId}}/documents/{{documentID}} \  # URL to details of specific execution document by pipeline ID, execution ID and Document ID
 > --header 'AI-Resource-Group: {{resource_group}}'  # Add the resource group ID in the header
 > ```
 

@@ -5,199 +5,414 @@
 All available tutorials for SAP AI Core.
 
 
+<table>
+<tr>
+<th valign="top">
 
-<a name="loioa5c80a6eb24e42488eb409136b0c0f8c__section_p5c_rj5_r5b"/>
+Tutorial
 
-## Starter Tutorials
+</th>
+<th valign="top">
 
+Description
 
-<dl>
-<dt><b>
+</th>
+<th valign="top">
 
-[Quick Start for SAP AI Core](https://developers.sap.com/group.ai-core-get-started-basics.html)
+AI Focus
 
-</b></dt>
-<dd>
+</th>
+<th valign="top">
 
-Provision your account, register your keys and set up tools to connect with and operate the SAP AI Core SDK. Learn the basics by using SAP AI Core from beginning to end in a simple use case. The necessary codes are all provided directly in the steps of the tutorials, with YAML files made available in GitHub additionally.
+Category
 
+</th>
+<th valign="top">
 
+Expertise Level
 
-</dd><dt><b>
+</th>
+</tr>
+<tr>
+<td valign="top">
 
-[Quick Start for SAP AI Core with VS Code](https://developers.sap.com/tutorials/ai-core-vs-code-toolkit.html)
+[Create an Object Detection Project using Computer Vision Package and SAP AI Core](https://developers.sap.com/group.cv-package-basic.html) 
 
-</b></dt>
-<dd>
+</td>
+<td valign="top">
 
-Provision your account, register your keys and set up tools to connect with and operate the SAP AI Core SDK. Learn the basics by using SAP AI Core from beginning to end in a simple use case. The necessary codes are all provided directly in the steps of the tutorials, with YAML files made available in GitHub additionally. This tutorial is the starter tutorial using VS Code.
+Integrate the computer vision package with SAP AI Core, create an AI workflow to train an object detection model, and serve the model
 
+</td>
+<td valign="top">
 
+Predictive AI
 
-</dd><dt><b>
+</td>
+<td valign="top">
 
-[Metrics](https://developers.sap.com/tutorials/ai-core-metrics.html)
 
-</b></dt>
-<dd>
 
-Explore different ways of logging metrics and comparing models with SAP AI Core.
+</td>
+<td valign="top">
 
+Advanced
 
+</td>
+</tr>
+<tr>
+<td valign="top">
 
-</dd>
-</dl>
+[Predictive AI with SAP AI Core](https://developers.sap.com/group.ai-core-get-started-basics.html) 
 
+</td>
+<td valign="top">
 
+Get started with SAP AI Core, learn the fundamentals, create your first Predictive AI workflow, and move your machine learning code to a production cloud.
 
-<a name="loioa5c80a6eb24e42488eb409136b0c0f8c__section_hfz_mj5_r5b"/>
+</td>
+<td valign="top">
 
-## Advanced Tutorials
+Predictive AI
 
-In addition to the basic tutorials, the following tutorials are available for you in SAP Developer Center:
+</td>
+<td valign="top">
 
+Getting Started
 
-<dl>
-<dt><b>
+</td>
+<td valign="top">
 
-[Computer Vision Package for SAP AI Core](https://developers.sap.com/group.cv-package-basic.html)
+Beginner
 
-</b></dt>
-<dd>
+</td>
+</tr>
+<tr>
+<td valign="top">
 
-Discover the Computer Vision Package with SAP AI Core.
+[Generate Metrics and Compare Models in SAP AI Core](https://developers.sap.com/tutorials/ai-core-metrics.html) 
 
+</td>
+<td valign="top">
 
+Explore different ways of logging metrics during training and compare generated models.
 
-</dd><dt><b>
+</td>
+<td valign="top">
 
-[Pretrained Tensorflow Models](https://developers.sap.com/tutorials/ai-core-tensorflow-byod.html)
+Predictive AI
 
-</b></dt>
-<dd>
+</td>
+<td valign="top">
 
-Use Pre-Trained Tensorflow Models with a GPU in SAP AI Core.
+Metrics
 
+</td>
+<td valign="top">
 
+Beginner
 
-</dd>
-</dl>
+</td>
+</tr>
+<tr>
+<td valign="top">
 
+[Use Pre-Trained Tensorflow Models with a GPU in SAP AI Core](https://developers.sap.com/tutorials/ai-core-tensorflow-byod.html) 
 
+</td>
+<td valign="top">
 
-<a name="loioa5c80a6eb24e42488eb409136b0c0f8c__section_ekr_pvy_3zb"/>
+Bring a pre-trained text classifier Tensorflow model to SAP AI Core, and write a workflow which will enable GPU deployment of this model, for movie review classification.
 
-## Generative AI Hub Tutorials
+</td>
+<td valign="top">
 
+Predictive AI
 
-<dl>
-<dt><b>
+</td>
+<td valign="top">
 
-[Generative AI Hub Starter Tutorial](https://developers.sap.com/tutorials/ai-core-generative-ai.html)
+Model Deployment
 
-</b></dt>
-<dd>
+</td>
+<td valign="top">
 
-Activate the generative AI hub and learn the basics of composing prompts.
+Advanced
 
+</td>
+</tr>
+<tr>
+<td valign="top">
 
+[Use Boosters for Free Tier Use of SAP AI Core and SAP AI Launchpad](https://developers.sap.com/tutorials/ai-core-launchpad-provisioning.html) 
 
-</dd>
-</dl>
+</td>
+<td valign="top">
 
+Use a booster to get started with the free tier plans for SAP AI Core and SAP AI Launchpad 
 
-<dl>
-<dt><b>
+</td>
+<td valign="top">
 
-[Consumption of GenAI models using Orchestration – A Beginner’s Guide](https://developers.sap.com/tutorials/ai-core-orchestration-consumption.html)
+-   Predictive AI
+-   Generative AI
 
-</b></dt>
-<dd>
 
-Get started with consumption of generative AI models using orchestration.
 
+</td>
+<td valign="top">
 
+Provisioning
 
-</dd>
-</dl>
+</td>
+<td valign="top">
 
+Beginner
 
-<dl>
-<dt><b>
+</td>
+</tr>
+<tr>
+<td valign="top">
 
-[Using foundation models with SAP AI Core](https://developers.sap.com/tutorials/ai-core-consumption-llm.html)
+[Build a House Price Predictor with SAP AI Core Using VS Code Toolkit](https://developers.sap.com/tutorials/ai-core-vs-code-toolkit.html) 
 
-</b></dt>
-<dd>
+</td>
+<td valign="top">
 
-Learn how to consume foundation models using SAP AI Core.
+Build portable AI code with the VS Code Toolkit and use it with SAP AI Core.
 
+</td>
+<td valign="top">
 
+Predictive AI
 
-</dd>
-</dl>
+</td>
+<td valign="top">
 
+Tooling & Dev Setup
 
-<dl>
-<dt><b>
+</td>
+<td valign="top">
 
-[Leveraging Orchestration Capabilities to Enhance Responses](https://developers.sap.com/tutorials/ai-core-orchestration-consumption-opt.html)
+Beginner
 
-</b></dt>
-<dd>
+</td>
+</tr>
+<tr>
+<td valign="top">
 
-Discover advanced orchestration capabilities such as data masking and content filtering.
+[Prompt LLMs in the Generative AI Hub in SAP AI Core & Launchpad](https://developers.sap.com/tutorials/ai-core-generative-ai.html) 
 
+</td>
+<td valign="top">
 
+Activate the generative AI hub and learn the basics of composing prompts.
 
-</dd>
-</dl>
+</td>
+<td valign="top">
 
+Generative AI
 
-<dl>
-<dt><b>
+</td>
+<td valign="top">
 
-[Orchestration with Grounding capabilities](https://developers.sap.com/tutorials/ai-core-orchestration-grounding.html)
+Foundation
 
-</b></dt>
-<dd>
+</td>
+<td valign="top">
+
+Beginner
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Using Foundation Models on SAP AI Core](https://developers.sap.com/tutorials/ai-core-consumption-llm.html) 
+
+</td>
+<td valign="top">
+
+Learn how to consume a large language model using SAP AI Core.
+
+</td>
+<td valign="top">
+
+Generative AI
+
+</td>
+<td valign="top">
+
+Foundation
+
+</td>
+<td valign="top">
+
+Beginner
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Retrieval Augmented Generation using generative-ai-hub-sdk and HANA vector search](https://developers.sap.com/tutorials/ai-core-genai-hana-vector.html) 
+
+</td>
+<td valign="top">
+
+Explore how to use HANA vector store to store vector embeddings and use them in Retrieval Augmented Generation.
+
+</td>
+<td valign="top">
+
+Generative AI
+
+</td>
+<td valign="top">
+
+Foundation
+
+</td>
+<td valign="top">
+
+Beginner
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Consume Generative AI Models Using Orchestration](https://developers.sap.com/tutorials/ai-core-orchestration-consumption.html) 
+
+</td>
+<td valign="top">
+
+Learn how to consume generative AI models using orchestration
+
+</td>
+<td valign="top">
+
+Generative AI
+
+</td>
+<td valign="top">
+
+Orchestration
+
+</td>
+<td valign="top">
+
+Beginner
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Leveraging Orchestration Capabilities to Enhance Responses](https://developers.sap.com/tutorials/ai-core-orchestration-consumption-opt.html) 
+
+</td>
+<td valign="top">
+
+Explore optional orchestration capabilities available in the generative AI hub, such as data masking and content filtering.
+
+</td>
+<td valign="top">
+
+Generative AI
+
+</td>
+<td valign="top">
+
+Orchestration
+
+</td>
+<td valign="top">
+
+Beginner
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Orchestration with Grounding Capabilities in SAP AI Core](https://developers.sap.com/tutorials/ai-core-orchestration-grounding.html) 
+
+</td>
+<td valign="top">
 
 Learn how to prepare data pipelines and retrieve contextually relevant information by incorporating your own documents into your orchestration workflow.
 
+</td>
+<td valign="top">
 
+Generative AI
 
-</dd>
-</dl>
+</td>
+<td valign="top">
 
+Orchestration
 
-<dl>
-<dt><b>
+</td>
+<td valign="top">
 
-[Leveraging Prompt Registry for Seamless Orchestration](https://developers.sap.com/tutorials/ai-core-genaibub-prompt-registry.html)
+Beginner
 
-</b></dt>
-<dd>
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Leveraging Prompt Registry for Seamless Orchestration](https://developers.sap.com/tutorials/ai-core-genaibub-prompt-registry.html) 
+
+</td>
+<td valign="top">
 
 Learn how to manage the lifecycle of your prompt templates using prompt registry, and utilize them as part of your orchestration workflow.
 
+</td>
+<td valign="top">
 
+Generative AI
 
-</dd>
-</dl>
+</td>
+<td valign="top">
 
+Orchestration
 
-<dl>
-<dt><b>
+</td>
+<td valign="top">
 
-[Using Small Language Models on SAP AI Core](https://developers.sap.com/tutorials/ai-core-custom-slm.html)
+Beginner
 
-</b></dt>
-<dd>
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Using Small Language Models on SAP AI Core](https://developers.sap.com/tutorials/ai-core-custom-slm.html) 
+
+</td>
+<td valign="top">
 
 Learn how to deploy a custom LLM using SAP AI Core.
 
+</td>
+<td valign="top">
 
+Generative AI
 
-</dd>
-</dl>
+</td>
+<td valign="top">
+
+Orchestration
+
+</td>
+<td valign="top">
+
+Beginner
+
+</td>
+</tr>
+</table>
 

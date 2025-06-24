@@ -24,7 +24,7 @@ You have access to the hyperscaler object store over the Internet.
 
 You can use the *SAP AI Core Administration* app to add secrets for multiple object stores. The object stores must already exist with valid credentials.
 
-Supported cloud object stores include Amazon S3 \(S3\), Alicloud Object Storage Service \(OSS\), Azure and SAP HANA Cloud, data lake \(WebHDFS\).
+Supported cloud object stores include Amazon S3 \(S3\), Alibaba Cloud Object Storage Service \(OSS\), Azure, and SAP HANA Cloud, data lake \(WebHDFS\).
 
 
 
@@ -83,5 +83,5 @@ Supported cloud object stores include Amazon S3 \(S3\), Alicloud Object Storage 
 
 The new secret appears on the *Object Store Secrets* screen.
 
-The saved secret enables read-access to the nominated hyperscaler object store, enabling stored files to be used in your launchpad processes.
+The saved secret enables read access to the nominated hyperscaler object store, enabling stored files to be used in your launchpad processes.
 

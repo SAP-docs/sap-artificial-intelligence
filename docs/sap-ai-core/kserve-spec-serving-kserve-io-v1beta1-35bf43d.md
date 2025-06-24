@@ -101,6 +101,11 @@ Field
 Description
 
 </th>
+<th valign="top">
+
+Default Value
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -110,7 +115,21 @@ Description
 </td>
 <td valign="top">
 
-Knative autoscaling metric to be used for autoscaling \(for example, “rps”, “concurrency”\)
+Metric to be used for autoscaling.
+
+Allowed values:
+
+-   `concurrency`
+-   `rps`
+-   `cpu`
+-   `memory`
+
+
+
+</td>
+<td valign="top">
+
+`concurrency`
 
 </td>
 </tr>
@@ -122,7 +141,14 @@ Knative autoscaling metric to be used for autoscaling \(for example, “rps”, 
 </td>
 <td valign="top">
 
-Knative autoscaling target number \(for example, “1”\)
+Target value for the configured metric.
+
+Allowed values: integer
+
+</td>
+<td valign="top">
+
+100
 
 </td>
 </tr>
@@ -134,7 +160,14 @@ Knative autoscaling target number \(for example, “1”\)
 </td>
 <td valign="top">
 
-Knative autoscaling target burst capacity number \(for example, “70”\)
+Size of traffic burst deployment can handle without buffering.
+
+Allowed values: Float \(0 means requests will only be buffered when number of replicas is 0; -1 means the request is always buffered\)
+
+</td>
+<td valign="top">
+
+0
 
 </td>
 </tr>
@@ -146,7 +179,14 @@ Knative autoscaling target burst capacity number \(for example, “70”\)
 </td>
 <td valign="top">
 
-Knative autoscaling window \(for example, “10s”\)
+Amount of time that autoscaler uses before making decisions. The smaller the number, the faster the autoscaler will react.
+
+Allowed values: Integer in seconds \(s\) or hours \(h\)
+
+</td>
+<td valign="top">
+
+60s
 
 </td>
 </tr>
@@ -158,7 +198,14 @@ Knative autoscaling window \(for example, “10s”\)
 </td>
 <td valign="top">
 
-Determines the minimum amount of time that the last pod will remain active after the Autoscaler decides to scale pods to zero. Default: 0s
+Minimum amount of time that the last pod will remain active after the Autoscaler decides to scale pods to zero.
+
+Allowed values: Non-negative duration string
+
+</td>
+<td valign="top">
+
+0s
 
 </td>
 </tr>
@@ -170,7 +217,7 @@ Determines the minimum amount of time that the last pod will remain active after
 >    annotations: |
 >       autoscaling.knative.dev/metric: rps
 >       autoscaling.knative.dev/target: {{inputs.parameters.MyAutoScalingTarget}}
->       autoscaling.knative.dev/targetBurstCapacity: 70
+>       autoscaling.knative.dev/targetBurstCapacity: 0
 >       autoscaling.knative.dev/window: 10s
 > ```
 

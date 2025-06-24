@@ -11,8 +11,9 @@
     -   [Generative AI Hub in SAP AI Core Overview](generative-ai-hub-in-sap-ai-core-overview-a126bd6.md)
 -   [Service Plans](service-plans-c7244c6.md)
     -   [Free Tier](free-tier-4533adc.md)
-    -   [Metering and Pricing for SAP AI Core](metering-and-pricing-for-sap-ai-core-b5c7215.md)
-    -   [Metering and Pricing for the Generative AI Hub](metering-and-pricing-for-the-generative-ai-hub-a5212f3.md)
+    -   [Metering and Pricing for SAP AI Core](metering-and-pricing-for-sap-ai-core-1e6cbac.md)
+        -   [Metering and Pricing for Generative AI](metering-and-pricing-for-generative-ai-41e8d85.md)
+        -   [Metering and Pricing for Predictive AI](metering-and-pricing-for-predictive-ai-32f8775.md)
     -   [Choose a Resource Plan](choose-a-resource-plan-c58d4e5.md)
     -   [Update a Service Plan](update-a-service-plan-924f892.md)
 -   [Initial Setup](initial-setup-38c4599.md)
@@ -74,7 +75,7 @@
                             -   Contextualization Using Metadata
                                 -   [Generic Secrets for Contextualization](generic-secrets-for-contextualization-97779db.md)
                         -   Data Preparation
-                            -   [Pipeline API](pipeline-api-a9badce.md)
+                            -   [Pipelines API](pipelines-api-a9badce.md)
                                 -   [Preparing Data Using the Pipeline API](preparing-data-using-the-pipeline-api-9c972e2.md)
                                 -   [Manage Data Pipelines](manage-data-pipelines-2f94a67.md)
                             -   [Vector API](vector-api-0358c5c.md)

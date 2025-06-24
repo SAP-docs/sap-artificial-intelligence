@@ -25,6 +25,8 @@
 
 You have completed the initial setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
 
+You have access to a public facing Docker registry over the internet. It is not possible to use a Docker registry behind a VPN or corporate network.
+
 
 
 <a name="task_i3h_n13_tcc__context_mqx_wzw_kxb"/>
@@ -32,7 +34,7 @@ You have completed the initial setup. For more information, see [Initial Setup](
 ## Context
 
 > ### Note:  
-> Resource group Ids must be of length minimum: 3, maximum: 253. The first and last characters must be either a lowercase letter, an uppercase letter, or a number. Character entries from the second to penultimate, may include a lower case letter, an upper case letter, a number, a period \(.\), or a hyphen \(-\). No other special characters are permitted.
+> Resource group Ids must be of length minimum: 3, maximum: 253. The first and last characters must be either a lowercase letter, an uppercase letter, or a number. Character entries from the second to penultimate can include a lower case letter, an upper case letter, a number, a period \(.\), or a hyphen \(-\). No other special characters are permitted.
 
 
 
@@ -61,6 +63,8 @@ curl --location --request POST "$AI_API_URL/v2/admin/resourceGroups" --header "A
 
 You have completed the initial setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
 
+You have access to a public facing Docker registry over the internet. It is not possible to use a Docker registry behind a VPN or corporate network.
+
 
 
 <a name="task_cxf_n13_tcc__context_zyr_lcy_ycc"/>
@@ -68,7 +72,7 @@ You have completed the initial setup. For more information, see [Initial Setup](
 ## Context
 
 > ### Note:  
-> Resource group Ids must be of length minimum: 3, maximum: 253. The first and last characters must be either a lowercase letter, an uppercase letter, or a number. Character entries from the second to penultimate, may include a lower case letter, an upper case letter, a number, a period \(.\), or a hyphen \(-\). No other special characters are permitted.
+> Resource group Ids must be of length minimum: 3, maximum: 253. The first and last characters must be either a lowercase letter, an uppercase letter, or a number. Character entries from the second to penultimate can include a lower case letter, an upper case letter, a number, a period \(.\), or a hyphen \(-\). No other special characters are permitted.
 
 
 

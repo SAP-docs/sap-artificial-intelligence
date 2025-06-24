@@ -23,7 +23,7 @@ You have access to the hyperscaler object store over the Internet.
 You edit a secret when its credentials \(user name and access token\) change.
 
 > ### Note:  
-> You cannot change the name or the resource group for a secret. If the name or resource group is no longer valid or contains errors, you'll need to remove the secret and re-create it with the correct details. See [Remove an Object Store Secret](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/775b3068af37416caa3ac4122389ac66.html).
+> You can't change the name or the resource group for a secret. If the name or resource group is no longer valid or contains errors, you need to remove the secret and re-create it with the correct details. See [Remove an Object Store Secret](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/775b3068af37416caa3ac4122389ac66.html).
 
 
 
@@ -43,7 +43,7 @@ You edit a secret when its credentials \(user name and access token\) change.
 
 4.  Change the secret details.
 
-    1.  Edit the path prefix, if required. The path prefix is used to differentiate between different projects which are stored in the same location.
+    1.  Edit the path prefix, if necessary. The path prefix is used to differentiate between different projects which are stored in the same location.
 
     2.  Complete the information requested in the dialog box.
 

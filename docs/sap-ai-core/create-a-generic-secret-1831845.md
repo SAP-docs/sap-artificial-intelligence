@@ -18,6 +18,8 @@ A generic secret authorizes SAP AI Core to use your resource group without expos
 
 You have completed the initial setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
 
+You have access to a public facing Docker registry over the internet. It is not possible to use a Docker registry behind a VPN or corporate network.
+
 
 
 <a name="task_i3h_n13_tcc__context_lm3_sy2_zcc"/>
@@ -30,7 +32,7 @@ SAP AI Core lets you use generic secrets at various levels:
 
 -   Main-tenant scope
 
--   Tenant wide level
+-   Tenant-wide level
 
 -   Resource-group level
 
@@ -39,15 +41,15 @@ Generic secrets differ from system secrets, like those for object stores or Dock
 
 To allow the rotation of tenant-wide secrets for long-running deployments without requiring a restart, the deployment must mount the tenant-wide secret. It must also monitor the mounted secret for changes instead of relying on an in-memory copy. When a tenant-wide secret is updated, the tenant must observe the `resourceGroupSecretReplicationStatus` field in the `Get Secret` endpoint to confirm that the secret has been successfully replicated across the required resource groups. For more information, see [Consume Generic Secrets in Executions or Deployments](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/185a3245692542a78bfeff87220410c6.html).
 
-Each tenant can have a maximum of five tenant-wide secrets. If you reach this limit, you'll receive an error message. To free up space, you can delete some tenant-wide secrets as described at [Delete a Generic Secret](delete-a-generic-secret-d5d5187.md). Alternatively, you can submit a ticket to request an increase in your quota.
+Each tenant can have a maximum of five tenant-wide secrets. If you reach this limit, you receive an error message. To free up space, delete tenant-wide secrets as described at [Delete a Generic Secret](delete-a-generic-secret-d5d5187.md). Alternatively, submit a ticket to request an increase in your quota.
 
 > ### Tip:  
-> Generic secrets created at the tenant level automatically propagate to all resource groups. However, if a generic secret with the same name is created at the resource-group level, it replaces the tenant-level secret at the time of creation. The system periodically overrides resource-group level secrets with the corresponding tenant-level secret, but this process may take some time. If a resource-group user creates a secret with the same name as an existing tenant-wide secret, it temporarily overwrites the tenant-wide secret at the resource-group level. This can cause issues, especially for critical operations such as metering.
+> Generic secrets created at the tenant level automatically propagate to all resource groups. However, if a generic secret with the same name is created at the resource-group level, it replaces the tenant-level secret at the time of creation. The system periodically overrides resource-group level secrets with the corresponding tenant-level secret, but this process can take some time. If a resource-group user creates a secret with the same name as an existing tenant-wide secret, it temporarily overwrites the tenant-wide secret at the resource-group level. This behavior can cause issues, especially for critical operations such as metering.
 > 
 > To prevent unintended overwrites, ensure that the tenant prevents resource-group users from creating arbitrary secrets. You can do so in the following ways:
 > 
 > -   Restrict users at resource-group level from accessing the `secrets` endpoint by withholding the JWT token.
-> -   Allow users at resource-group level to create generic secrets by making a request using a different authentication mechanism. The main tenant can then validate and transform these requests before propagating them to the runtime adapter, ensuring that secret names remain consistent and critical secrets are not unintentionally modified.
+> -   Allow users at resource-group level to create generic secrets by making a request using a different authentication mechanism. The main tenant can then validate and transform these requests before propagating them to the runtime adapter, ensuring that secret names remain consistent and critical secrets aren't unintentionally modified.
 
 
 
@@ -91,6 +93,8 @@ curl --location --request POST "$AI_API_URL/v2/admin/secrets" \
 
 You have completed the initial setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
 
+You have access to a public facing Docker registry over the internet. It is not possible to use a Docker registry behind a VPN or corporate network.
+
 
 
 <a name="task_cxf_n13_tcc__context_rw3_ry2_zcc"/>
@@ -103,7 +107,7 @@ SAP AI Core lets you use generic secrets at various levels:
 
 -   Main-tenant scope
 
--   Tenant wide level
+-   Tenant-wide level
 
 -   Resource-group level
 
@@ -112,15 +116,15 @@ Generic secrets differ from system secrets, like those for object stores or Dock
 
 To allow the rotation of tenant-wide secrets for long-running deployments without requiring a restart, the deployment must mount the tenant-wide secret. It must also monitor the mounted secret for changes instead of relying on an in-memory copy. When a tenant-wide secret is updated, the tenant must observe the `resourceGroupSecretReplicationStatus` field in the `Get Secret` endpoint to confirm that the secret has been successfully replicated across the required resource groups. For more information, see [Consume Generic Secrets in Executions or Deployments](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/185a3245692542a78bfeff87220410c6.html).
 
-Each tenant can have a maximum of five tenant-wide secrets. If you reach this limit, you'll receive an error message. To free up space, you can delete some tenant-wide secrets as described at [Delete a Generic Secret](delete-a-generic-secret-d5d5187.md). Alternatively, you can submit a ticket to request an increase in your quota.
+Each tenant can have a maximum of five tenant-wide secrets. If you reach this limit, you receive an error message. To free up space, delete tenant-wide secrets as described at [Delete a Generic Secret](delete-a-generic-secret-d5d5187.md). Alternatively, submit a ticket to request an increase in your quota.
 
 > ### Tip:  
-> Generic secrets created at the tenant level automatically propagate to all resource groups. However, if a generic secret with the same name is created at the resource-group level, it replaces the tenant-level secret at the time of creation. The system periodically overrides resource-group level secrets with the corresponding tenant-level secret, but this process may take some time. If a resource-group user creates a secret with the same name as an existing tenant-wide secret, it temporarily overwrites the tenant-wide secret at the resource-group level. This can cause issues, especially for critical operations such as metering.
+> Generic secrets created at the tenant level automatically propagate to all resource groups. However, if a generic secret with the same name is created at the resource-group level, it replaces the tenant-level secret at the time of creation. The system periodically overrides resource-group level secrets with the corresponding tenant-level secret, but this process can take some time. If a resource-group user creates a secret with the same name as an existing tenant-wide secret, it temporarily overwrites the tenant-wide secret at the resource-group level. This behavior can cause issues, especially for critical operations such as metering.
 > 
 > To prevent unintended overwrites, ensure that the tenant prevents resource-group users from creating arbitrary secrets. You can do so in the following ways:
 > 
 > -   Restrict users at resource-group level from accessing the `secrets` endpoint by withholding the JWT token.
-> -   Allow users at resource-group level to create generic secrets by making a request using a different authentication mechanism. The main tenant can then validate and transform these requests before propagating them to the runtime adapter, ensuring that secret names remain consistent and critical secrets are not unintentionally modified.
+> -   Allow users at resource-group level to create generic secrets by making a request using a different authentication mechanism. The main tenant can then validate and transform these requests before propagating them to the runtime adapter, ensuring that secret names remain consistent and critical secrets aren't unintentionally modified.
 
 
 

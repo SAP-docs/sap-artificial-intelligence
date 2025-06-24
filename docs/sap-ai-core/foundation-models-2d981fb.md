@@ -55,7 +55,7 @@ aicore-opensource
 </td>
 <td valign="top">
 
-Open source models hosted and accessed through SAP AI Core.
+Open source models that are hosted and managed by SAP and accessed through SAP AI Core.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ aicore-mistralai
 </td>
 <td valign="top">
 
-Models from Mistral AI hosted and accessed through SAP AI Core.
+Models from Mistral AI that are hosted and managed by SAP and accessed through SAP AI Core.
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ aicore-ibm
 </td>
 <td valign="top">
 
-Models from IBM hosted and accessed through SAP AI Core.
+Models from IBM that are are hosted and managed by SAP and accessed through SAP AI Core.
 
 </td>
 </tr>

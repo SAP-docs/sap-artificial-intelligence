@@ -92,6 +92,350 @@ Generative AI hub
 </td>
 <td valign="top">
 
+GPT-4 versions 0613 and turbo-2024-04-09 and gpt-4-32k version 0613 have been deprecated.
+
+It's recommended that users of these models migrate to GPT-4.1 as a replacement.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+Deprecated
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-06-02
+
+</td>
+<td valign="top">
+
+2025-06-02
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Gemini-1.5-pro and gemini-1.5-flash have been deprecated.
+
+It's recommended that users of these models migrate to gemini-2.0-flash, or gemini-2.0-flash-lite as replacements.
+
+For more information, see SAP Note[3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+Deprecated
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-06-02
+
+</td>
+<td valign="top">
+
+2025-06-02
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Mistralai--mixtral08x7b-v01 has been deprecated.
+
+It's recommended that users of this model migrate to mistralai--mistral-small-instruct as a replacement.
+
+For more information, see SAP Note[3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+Deprecated
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-06-02
+
+</td>
+<td valign="top">
+
+2025-06-02
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+An additional module has been added to orchestration.
+
+The translation module translates text, and can be configured for input and output text.
+
+The input translation module helps improve answer quality when the configured model performs better when input is provided in a specific language, for example English.
+
+For more information, see [Input Translation](input-translation-7ff3489.md) and [Output Translation](output-translation-e350c56.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-06-02
+
+</td>
+<td valign="top">
+
+2025-06-02
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+The retirement of Chat and Prompt editor via LLM deployments is complete. Going forward, users will need an orchestration deployment to use the Chat and Prompt Editor apps.
+
+You likely already have an orchestration deployment running. You can check by viewing your deployments in the *ML Ops* app. For more information, see [View a Deployment](view-a-deployment-d6f793e.md).
+
+To create a new orchestration deployment, see [Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4344c5b.md).
+
+Alternatively, administrators can use the *Enable Orchestration* button available through the interface.
+
+</td>
+<td valign="top">
+
+Required
+
+</td>
+<td valign="top">
+
+Deprecated
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-05-27
+
+</td>
+<td valign="top">
+
+2025-05-27
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
 Going forward, users will need an orchestration deployment to use the Prompt Editor and Chat apps.
 
 You likely already have an orchestration deployment running. You can check by viewing your deployments in the *ML Ops* app. For more information, see [View a Deployment](view-a-deployment-d6f793e.md).
@@ -597,6 +941,72 @@ SAP Business Technology Platform
 <td valign="top">
 
 2025-04-14
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+We now support the Anthropic models Claude Opus 4 and Claude Sonnet 4.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-06-23
+
+</td>
+<td valign="top">
+
+2025-06-23
 
 </td>
 </tr>

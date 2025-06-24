@@ -6,10 +6,10 @@ Enable SAP AI Core using the standard procedures for the SAP BTP Cloud Foundry e
 
 You provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Platform. After you have provisioned the service, you will have your service key, which provides URLs and credentials for accessing the SAP AI Core instance.
 
-The SAP AI Core service is a tenant-aware reuse service. It isolates tenants based on the ID of the zone \(representing the subaccount\). The SAP AI Core service instance is created within a subaccount. Each subaccount represents an SAP AI Core tenant.
+SAP AI Core is a tenant-aware reuse service that isolates tenants based on the zone ID, which represents the subaccount. When you create an SAP AI Core service instance within a subaccount, it represents an SAP AI Core tenant.
 
 > ### Note:  
-> The SAP AI Core service does not isolate tenants based on the service instance ID. If you create multiple service instances within the same subaccount, all of them will reference the same SAP AI Core tenant.
+> The SAP AI Core service doesn't isolate tenants based on the service instance ID. If you create multiple service instances within the same subaccount, they all reference the same SAP AI Core tenant.
 
 ![](images/Multitenancy_diagram_29a8dde.png)
 

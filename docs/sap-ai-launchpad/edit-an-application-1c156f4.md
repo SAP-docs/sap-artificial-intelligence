@@ -21,7 +21,7 @@ You have the `aicore_admin_applications_editor` role or a role collection that c
 You edit an application if its source repository, path, or revision details change.
 
 > ### Note:  
-> You cannot change the name for an application. If the name is no longer valid or contains errors, you'll need to delete the application and re-create it with the correct details. See [Delete an Application](delete-an-application-d503fb0.md).
+> You can't change the name for an application. If the name is no longer valid or contains errors, you'll need to delete the application and re-create it with the correct details. See [Delete an Application](delete-an-application-d503fb0.md).
 
 
 
@@ -43,7 +43,7 @@ You edit an application if its source repository, path, or revision details chan
 
 4.  Change the reference details in the *Edit Application* dialog box as required:
 
-    1.  Select an alternative source repository, if required. If you choose an alternative repository, you'll need to enter a path and version.
+    1.  Select an alternative source repository, if necessary. If you choose an alternative repository, you'll need to enter a path and version.
 
     2.  Change the path in the repository.
 

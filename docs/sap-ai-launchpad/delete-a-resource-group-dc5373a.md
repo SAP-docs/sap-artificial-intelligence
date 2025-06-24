@@ -18,7 +18,7 @@ You have the `aicore_admin_resourcegroup_editor` role or a role collection that 
 
 ## Context
 
-You delete a resource group if it is invalid or contains errors, or if it is no longer required.
+You delete a resource group if it's invalid or contains errors, or if it's no longer required.
 
 > ### Caution:  
 > You can't delete the default resource group. The default resource group is automatically created when your tenant is onboarded, and it can't be deleted using the *SAP AI Core Administration* app.
@@ -53,5 +53,5 @@ You delete a resource group if it is invalid or contains errors, or if it is no 
 The resource group is deleted, and any object store secrets added to the resource group are also deleted.
 
 > ### Note:  
-> Runtime entities created using the deleted resource group, such as executions and deployments, remain in the launchpad for reference purposes. However, when the associated resource group is deleted, the entities will no longer contain a reference to the deleted resource group.
+> Runtime entities created using the deleted resource group, such as executions and deployments, remain in the launchpad for reference purposes. However, when the associated resource group is deleted, the entities no longer contain a reference to the deleted resource group.
 

@@ -63,7 +63,7 @@ aicore-opensource
 </td>
 <td valign="top">
 
-Open source models hosted and accessed through SAP AI Core.
+Open-source models hosted and accessed through SAP AI Core.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ aws-bedrock
 </td>
 <td valign="top">
 
-AWS Bedrock provides access to Foundation models from Anthropic, Amazon and other providers.
+AWS Bedrock provides access to foundation models from Anthropic, Amazon, and other providers.
 
 </td>
 </tr>

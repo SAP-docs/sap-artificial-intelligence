@@ -14,7 +14,7 @@ As a system administrator, you can add Docker registry secrets for use within yo
 
 You have the `aicore_admin_dockerregistrysecret_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
-You have access to the Docker registry over the Internet.
+You have access to a public facing Docker registry over the internet. It is not possible to use a Docker registry behind a VPN or corporate network.
 
 
 
@@ -40,7 +40,7 @@ You can use the *SAP AI Core Administration* app to add multiple secrets. The Do
 
 4.  Complete the fields in the *Add a Docker Registry Secret* dialog box as follows:
 
-    1.  Enter a name for the secret. This is your choice of identifier for your secret.
+    1.  Enter a name for the secret. This entry is your choice of identifier for your secret.
 
         Secret names must comply with the following criteria:
 
@@ -75,7 +75,7 @@ You can use the *SAP AI Core Administration* app to add multiple secrets. The Do
 
 The new secret appears on the *Docker Registry Secrets* screen.
 
-The saved credentials enable read-access to the Docker registry, thereby enabling the Docker image to be pulled when an execution or deployment is created.
+The saved credentials enable read access to the Docker registry, and so enable the Docker image to be pulled when an execution or deployment is created.
 
 **Related Information**  
 

@@ -75,7 +75,211 @@ Available as of
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+GPT-4 versions 0613 and turbo-2024-04-09 and gpt-4-32k version 0613 have been deprecated.
+
+It's recommended that users of these models migrate to GPT-4.1 as a replacement.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+Deprecated
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-06-02
+
+</td>
+<td valign="top">
+
+2025-06-02
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Gemini-1.5-pro and gemini-1.5-flash have been deprecated.
+
+It's recommended that users of these models migrate to gemini-2.0-flash, or gemini-2.0-flash-lite as replacements.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+Deprecated
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-06-02
+
+</td>
+<td valign="top">
+
+2025-06-02
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Mistralai--mixtral08x7b-v01 has been deprecated.
+
+It's recommended that users of this model migrate to mistralai--mistral-small-instruct as a replacement.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+Deprecated
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-06-02
+
+</td>
+<td valign="top">
+
+2025-06-02
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -141,7 +345,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -211,7 +415,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -230,7 +434,7 @@ SAP BTP Cockpit
 
 A detailed consumption report is available in SAP BTP for Generative AI hub as the part of SAP AI Core service. You can see the consumption specific to an LLM model and Orchestration service, and consumption for each resource group.
 
-For more information, see [Metering and Pricing for the Generative AI Hub](metering-and-pricing-for-the-generative-ai-hub-a5212f3.md).
+For more information, see [Metering and Pricing for Generative AI](metering-and-pricing-for-generative-ai-41e8d85.md).
 
 </td>
 <td valign="top">
@@ -277,7 +481,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -343,7 +547,139 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+We now support the Anthropic models Claude Opus 4 and Claude Sonnet 4.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-06-23
+
+</td>
+<td valign="top">
+
+2025-06-23
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+More endpoints have been added to the Pipeline API, so you can retrieve information about the documents within a pipeline, including processing status.
+
+For more information, see [Manage Data Pipelines](manage-data-pipelines-2f94a67.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-02-03
+
+</td>
+<td valign="top">
+
+2025-02-03
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -409,7 +745,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -475,7 +811,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -945,7 +1281,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -1013,7 +1349,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -1079,7 +1415,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -1145,7 +1481,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -1211,7 +1547,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -1277,7 +1613,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -1343,7 +1679,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -1411,7 +1747,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -1477,7 +1813,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -1543,7 +1879,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -1807,7 +2143,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -1871,7 +2207,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -1937,7 +2273,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -2003,7 +2339,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -2069,7 +2405,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -2135,7 +2471,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -2201,7 +2537,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -2267,7 +2603,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -2284,7 +2620,7 @@ Resource groups limit per tenant
 </td>
 <td valign="top">
 
-The maximum number of resource groups is limited at tenant level to 50. If you reach this limit, you will receive an error message. To free up space, delete some resource groups. Alternatively, raise a ticket to increase your quota.
+The maximum number of resource groups is limited at tenant level to 50. If you reach this limit, you receive an error message. To free up space, delete some resource groups. Alternatively, raise a ticket to increase your quota.
 
 For more information, see [Delete a Resource Group](delete-a-resource-group-40d83a2.md).
 
@@ -2333,7 +2669,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -2399,7 +2735,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -2411,14 +2747,14 @@ SAP AI Core
 </td>
 <td valign="top">
 
-generative ai hub sdk
+generative AI hub SDK
 
 </td>
 <td valign="top">
 
-The generative ai hub sdk is now available.
+The generative AI hub SDK is now available.
 
-For more information, see [generative ai hub sdk](https://pypi.org/project/generative-ai-hub-sdk/).
+For more information, see [generative AI hub SDK](https://pypi.org/project/generative-ai-hub-sdk/).
 
 </td>
 <td valign="top">
@@ -2465,7 +2801,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -2529,7 +2865,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -2593,7 +2929,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -2659,7 +2995,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -2725,7 +3061,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -2791,7 +3127,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -2855,7 +3191,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -2921,7 +3257,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -2992,7 +3328,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -3056,7 +3392,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -3122,7 +3458,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -3188,7 +3524,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -3252,7 +3588,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -3316,7 +3652,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -3380,7 +3716,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -3444,7 +3780,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -3510,7 +3846,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -3576,7 +3912,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -3640,7 +3976,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -3706,7 +4042,7 @@ Not applicable
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -3770,7 +4106,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -3834,7 +4170,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -3900,7 +4236,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -3966,7 +4302,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -4030,7 +4366,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -4094,7 +4430,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -4106,12 +4442,12 @@ SAP AI Core
 </td>
 <td valign="top">
 
-Documentation for the ai api client sdk has moved to PyPi.org.
+Documentation for the AI api client SDK has moved to PyPi.org.
 
 </td>
 <td valign="top">
 
-Documentation for the ai api client sdk has moved to PyPi.org. For more information, [Libraries and SDKs](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/499309d6e371419fb7a88b7d68c20a31.html?version=CLOUD).
+Documentation for the AI api client SDK has moved to PyPi.org. For more information, [Libraries and SDKs](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/499309d6e371419fb7a88b7d68c20a31.html?version=CLOUD).
 
 </td>
 <td valign="top">
@@ -4158,7 +4494,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -4170,12 +4506,12 @@ SAP AI Core
 </td>
 <td valign="top">
 
-Documentation for the SAP AI Core SDK has moved to PyPi.org.
+Documentation for the SAP AI SDK Core has moved to PyPi.org.
 
 </td>
 <td valign="top">
 
-Documentation for the SAP AI Core SDK has moved to PyPi.org. For more information, [Libraries and SDKs](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/499309d6e371419fb7a88b7d68c20a31.html?version=CLOUD) .
+Documentation for the SAP AI SDK Core has moved to PyPi.org. For more information, [Libraries and SDKs](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/499309d6e371419fb7a88b7d68c20a31.html?version=CLOUD) .
 
 </td>
 <td valign="top">
@@ -4222,7 +4558,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -4286,7 +4622,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -4350,7 +4686,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -4414,7 +4750,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">
@@ -4478,7 +4814,7 @@ SAP Business Technology Platform
 <tr>
 <td valign="top">
 
-SAP AI Core
+SAP AI Core 
 
 </td>
 <td valign="top">

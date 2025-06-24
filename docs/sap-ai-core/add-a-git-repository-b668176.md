@@ -16,8 +16,8 @@ You can use your own git repository to version control your SAP AI Core template
 
 ## Prerequisites
 
--   You've access to a git repository over the Internet.
--   You've generated a personal access token for your git repository. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+-   You have access to a git repository over the Internet.
+-   You have generated a personal access token for your git repository. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 -   If you want to onboard a git repository hosted on GitLab, make sure that the repository URL contains the `.git` suffix.
 -   Secrets aren't permitted in your repository. If secrets are used, it isn't possible to synchronize content.
 
@@ -33,7 +33,7 @@ You can use your own git repository to version control your SAP AI Core template
 
 ## Context
 
-Git repositories are managed by creating personal access tokens registering them in SAP AI Core. Personal access tokens are a means of allowing and controlling connections to GitHub repositories without compromising your credentials.
+Git repositories are managed by creating personal access tokens and registering them in SAP AI Core. Personal access tokens are a means of allowing and controlling connections to GitHub repositories without compromising your credentials.
 
 
 
@@ -59,7 +59,7 @@ You specify your unique git repository details as follows:
 
 -   `url`: URL of the git repository
 
--   `username`: \(Service\) user that is accessing the git repository
+-   `username`: \(Service\) user that’s accessing the git repository
 
 -   `password`: git personal access token. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 
@@ -84,8 +84,8 @@ Create an application to sync your folders. For more information, see [Create an
 
 ## Prerequisites
 
--   You've access to a git repository over the Internet.
--   You've generated a personal access token for your git repository. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+-   You have access to a git repository over the Internet.
+-   You have generated a personal access token for your git repository. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 -   If you want to onboard a git repository hosted on GitLab, make sure that the repository URL contains the `.git` suffix.
 -   Secrets aren't permitted in your repository. If secrets are used, it isn't possible to synchronize content.
 
@@ -101,7 +101,7 @@ Create an application to sync your folders. For more information, see [Create an
 
 ## Context
 
-Git repositories are managed by creating personal access tokens registering them in SAP AI Core. Personal access tokens are a means of allowing and controlling connections to GitHub repositories without compromising your credentials.
+Git repositories are managed by creating personal access tokens and registering them in SAP AI Core. Personal access tokens are a means of allowing and controlling connections to GitHub repositories without compromising your credentials.
 
 
 
@@ -115,7 +115,7 @@ You specify your unique git repository details as follows:
 
 -   `url`: URL of the git repository
 
--   `username`: \(Service\) user that is accessing the git repository
+-   `username`: \(Service\) user that’s accessing the git repository
 
 -   `password`: git personal access token. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 

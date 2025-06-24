@@ -8,9 +8,9 @@
 
 ## Prerequisites
 
--   You have the `aicore_admin_genericsecret_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations). You can change the secret credentials, but not the secret name or resource group. To change these, delete the existing secret and create a new one.
+-   You have the role `aicore_admin_genericsecret_editor` or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations). You can change the secret credentials, but not the secret name or resource group. To change the secret name, delete the existing secret and create a new one.
 
--   You are using the SAP AI Core runtime.
+-   You're using the SAP AI Core runtime.
 
 
 
@@ -21,7 +21,7 @@
 
 1.  In the *Workspaces* app, choose the AI API connection.
 
-2.  For secrets at the resource group level, choose your resource group. Alternatively you can use the toggles in the header or dialog box, where you will be prompted to specify a resource group.
+2.  For secrets at the resource group level, choose your resource group. Alternatively, use the toggles in the header or dialog box, where the system prompts you to specify a resource group.
 
 3.  Open the *SAP AI Core Administration* app and choose *Generic Secrets*.
 
@@ -41,7 +41,7 @@
     > ### Note:  
     > The API expects sensitive data to be Base64-encoded. You can easily encode your data in Base64 format using the following command on Linux or MacOS: `echo -n 'my-sensitive-data' | base64`
 
-    Add labels to your secrets. Labels are only required for specific services, they are predefined and are outlined in the related documentation.
+    Add labels to your secrets. Labels are only required for specific services. They’re predefined and are outlined in the related documentation.
 
 
 

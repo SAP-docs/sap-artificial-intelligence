@@ -21,7 +21,7 @@ You have the `aicore_admin_resourcegroup_editor` role or a role collection that 
 You edit a resource group when its labels change, or if you need to add or remove related object store secrets.
 
 > ### Note:  
-> You cannot change the name for a resource group. If the name is no longer valid or contains errors, you must remove the resource group and recreate it with the correct details. See [Delete a Resource Group](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/dc5373a8566a47f29ed121f798bd036d.html).
+> You can't change the name for a resource group. If the name is no longer valid or contains errors, you must remove the resource group and recreate it with the correct details. See [Delete a Resource Group](https://help.sap.com/docs/AI_LAUNCHPAD/92d77f26188e4582897b9106b9cb72e0/dc5373a8566a47f29ed121f798bd036d.html).
 
 
 
@@ -41,11 +41,11 @@ You edit a resource group when its labels change, or if you need to add or remov
 
 4.  Complete the fields in the *Edit Resource Group* dialog box.
 
-    1.  Change the `subaccount_id` value, if required.
+    1.  Change the `subaccount_id` value, if necessary.
 
-    2.  Change the `zone_id` value, if required.
+    2.  Change the `zone_id` value, if necessary.
 
-    3.  Change the `instance_id` value, if required.
+    3.  Change the `instance_id` value, if necessary.
 
     4.  If additional label changes are required, then change the label key or corresponding value.
 

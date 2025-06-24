@@ -169,11 +169,11 @@ curl --location --request POST "$AI_API_URL/v2/admin/secrets" \
   },
   "labels": [
     {
-      "key": "ext.ai.sap.com/document-grounding",         // Label for Document Grounding feature
+      "key": "ext.ai.sap.com/document-grounding",
       "value": "true"
     },
     {
-      "key": "ext.ai.sap.com/documentRepositoryType",     // Label for Document Repository Type
+      "key": "ext.ai.sap.com/documentRepositoryType",
       "value": "SFTP"
     }
     }

@@ -28,7 +28,7 @@
 ## Context
 
 > ### Caution:  
-> SAP does not take any responsibility for quality of the content in the input to or output of the underlying generative AI models. This includes but is not limited to bias, hallucinations, or inaccuracies. The user is responsible for verifying the content.
+> SAP does not take any responsibility for the quality of the content in the input to or output of the underlying generative AI models. This includes but is not limited to bias, hallucinations, or inaccuracies. The user is responsible for verifying the content.
 
 
 

@@ -61,7 +61,7 @@ The resource group used in the activation steps
 </table>
 
 > ### Caution:  
-> SAP does not take any responsibility for quality of the content in the input to or output of the underlying generative AI models. This includes but is not limited to bias, hallucinations, or inaccuracies. The user is responsible for verifying the content.
+> SAP does not take any responsibility for the quality of the content in the input to or output of the underlying generative AI models. This includes but is not limited to bias, hallucinations, or inaccuracies. The user is responsible for verifying the content.
 
 > ### Caution:  
 > Do not store personally identifiable information in prompts when using the generative AI hub. Personally identifiable information is any data that can be used alone, or in combination, to identify the person that the data refers to.
@@ -90,7 +90,7 @@ For information about the supported API versions, see [Chat completions](https:/
 
 
 
-### GPT-4-32k | GPT-4 | GPT-3.5-Turbo-16k | GPT-3.5-Turbo
+### gpt-4-32k | gpt-4 | gpt-3.5-Turbo-16k | gpt-3.5-Turbo | o4-mini | o3 | gpt-4.1 | gpt-4.1-mini | gpt-4.1-nano
 
 **Text Input**
 
@@ -188,6 +188,24 @@ curl --location '$DEPLOYMENT_URL/embeddings?api-version=2023-05-15' \
 <a name="concept_ynz_mgh_tzb__section_gqg_fxc_z1c"/>
 
 ## Aleph Alpha
+
+
+
+### alephalpha-pharia-1-7b-control
+
+```
+curl --location '$DEPLOYMENT_URL/chat/completions' \
+--header 'AI-Resource-Group: default' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer $AUTH_TOKEN' \
+--data '{
+    "model": "alephalpha-pharia-1-7b-control",
+    "messages": [{
+        "role": "user",
+        "content": "Say Hi"
+    }]
+}'
+```
 
 
 
@@ -443,7 +461,9 @@ curl --location '$DEPLOYMENT_URL/models/textembedding-gecko-multilingual:predict
 
 
 
-### Claude 3 Sonnet | Claude 3.5 Sonnet |Claude 3 Opus | Claude 3 Haiku
+### Claude 3 Sonnet | Claude 3.5 Sonnet | Claude 3 Opus | Claude 3 Haiku | Claude 4 Sonnet | Claude 4 Opus
+
+Invoke:
 
 ```
 curl --location '$DEPLOYMENT_URL/invoke' \
@@ -460,6 +480,31 @@ curl --location '$DEPLOYMENT_URL/invoke' \
         }
     ]
   }'
+```
+
+Converse:
+
+```
+curl --location '$DEPLOYMENT_URL/converse' \
+--header 'AI-Resource-Group: default' \
+--header 'Content-Type: application/json' \
+--header "Authorization: Bearer $AUTH_TOKEN" \
+--data '{
+   "inferenceConfig": { 
+      "maxTokens": 100,
+      "stopSequences": [ "blab" ],
+      "temperature": 0.7
+   },
+   "messages": [ 
+      { 
+         "content": [ { 
+           "text": "Perplexity means?" 
+         }],
+         "role": "user"
+      }
+   ]
+}'
+
 ```
 
 
@@ -558,6 +603,8 @@ curl --location '$DEPLOYMENT_URL/converse' \
 
 ### Llama-3.1-70b-instruct | mistralai--mixtral-8x7b-instruct-v01
 
+Without streaming:
+
 ```
 curl --location '$DEPLOYMENT_URL/chat/completions' \
 --header 'AI-Resource-Group: default' \
@@ -575,6 +622,26 @@ curl --location '$DEPLOYMENT_URL/chat/completions' \
   }'
 ```
 
+With streaming:
+
+```
+curl --location '$DEPLOYMENT_URL/chat/completions' \
+--header 'AI-Resource-Group: default' \
+--header 'Content-Type: application/json' \
+--header "Authorization: Bearer $AUTH_TOKEN" \
+--data '{
+    "model": "<ModelName>",
+    "messages": [
+        {
+        "role": "user",
+        "content": "Sample prompt"
+        }
+    ],
+    "max_tokens": 100.
+    "stream": true
+  }'
+```
+
 
 
 <a name="concept_ynz_mgh_tzb__section_hj4_yjh_tcc"/>
@@ -583,7 +650,11 @@ curl --location '$DEPLOYMENT_URL/chat/completions' \
 
 
 
-### mistralai--mistral-large-instruct
+### mistralai--mistral-large-instruct | mistralai--mistral-small-instruct
+
+Text input
+
+Without streaming:
 
 ```
 
@@ -628,6 +699,85 @@ curl --location '$DEPLOYMENT_URL/chat/completions' \
         "total_tokens": 123
     }
 ```
+
+With streaming:
+
+```
+curl --location '$DEPLOYMENT_URL/chat/completions' \
+--header 'AI-Resource-Group: default' \
+--header 'Content-Type: application/json' \
+--header "Authorization: Bearer $AUTH_TOKEN" \
+--data '{
+    "model": "<ModelName>",
+    "messages": [
+        {
+        "role": "user",
+        "content": "Sample prompt"
+        }
+    ],
+    "max_tokens": 100.
+    "stream": true
+  }'
+```
+
+Image input for mistralai--mistral-small-instruct only
+
+```
+curl --location '$DEPLOYMENT_URL/chat/completions' \
+--header 'AI-Resource-Group: default' \
+--header 'Content-Type: application/json' \
+--header "Authorization: Bearer $AUTH_TOKEN" \
+--data '
+    {
+      "model": "mistralai--mistral-small-instruct",
+      "messages": [
+        {
+          "role":"user",
+          "content": [
+              {
+                  "type": "image_url",
+                  "image_url": {
+                    "url": "https://raw.githubusercontent.com/vi-kas/sample_images/refs/heads/main/pexels-field-1-1024×683.jpg"
+                  }
+              }
+          ]
+        }
+      ],
+      "max_tokens": 10
+    }'
+
+# Response
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "The image shows a picturesque countryside landscape, likely",
+        "reasoning_content": null,
+        "role": "assistant",
+        "tool_calls": []
+      },
+      "stop_reason": null
+    }
+  ],
+  "created": 1748573681,
+  "id": "chatcmpl-4eec2750-95bc-991d-a7e5-74c53d510966",
+  "model": "mistralai--mistral-small-instruct",
+  "object": "chat.completion",
+  "prompt_logprobs": null,
+  "usage": {
+    "completion_tokens": 10,
+    "prompt_tokens": 953,
+    "prompt_tokens_details": null,
+    "total_tokens": 963
+  }
+}
+```
+
+> ### Note:  
+> For information on metering of image input, see[Images](metering-and-pricing-for-generative-ai-41e8d85.md#loio41e8d85586f64e7184f388f8d58624a8__section_w4y_hpl_nfc).
 
 
 

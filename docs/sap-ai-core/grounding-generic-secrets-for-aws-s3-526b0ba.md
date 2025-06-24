@@ -33,6 +33,10 @@ The following API request is used to create a generic secret with base64-encoded
 
 The `name` attribute is written without hyphens to make it simple to consume as a Unix environment variable later. It is written in capitals as is convention.
 
+You can use `Client Secret` or `Client Certificate` for the authentication with `OAuth2ClientCredentials`.
+
+Common fields are as follows:
+
 
 <table>
 <tr>
@@ -62,12 +66,24 @@ Name of the generic secret to be created
 <tr>
 <td valign="top">
 
+*Description*
+
+</td>
+<td valign="top">
+
+Base64-encoded value for the description of the generic secret to be created
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 *URL*
 
 </td>
 <td valign="top">
 
-Base64 encoded value in the format <code>https://s3-<i class="varname">&lt;region&gt;</i>.amazonaws.com</code>
+Base64 encoded value for MetaData API Server URL
 
 </td>
 </tr>
@@ -79,91 +95,139 @@ Base64 encoded value in the format <code>https://s3-<i class="varname">&lt;regio
 </td>
 <td valign="top">
 
-Base64 encoded value for `NoAuthentication`
+Base64-encoded value for `OAuth2ClientCredentials`
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-*Description*
+*Client ID* 
 
 </td>
 <td valign="top">
 
-Base64 encoded value for the description of the generic secret to be created
+Base64-encoded value for client id
+
+</td>
+</tr>
+</table>
+
+Additional fields specific to client secret are as follows:
+
+
+<table>
+<tr>
+<th valign="top">
+
+Field
+
+</th>
+<th valign="top">
+
+Value
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+*Client Secret* 
+
+</td>
+<td valign="top">
+
+Base64 encoded value for your Client Secret
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-*Access Key ID* 
+*Token Service URL* 
 
 </td>
 <td valign="top">
 
-Base64 encoded value for access key id
+Base64 encoded value for token service url for client secret based authentication
+
+</td>
+</tr>
+</table>
+
+Additional fields specific to Client Certificate are as follows:
+
+
+<table>
+<tr>
+<th valign="top">
+
+Field
+
+</th>
+<th valign="top">
+
+Value
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+*Certificate Type* 
+
+</td>
+<td valign="top">
+
+Base64-encoded value for `P12` or `PEM` 
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-*Bucket* 
+*Certificate Content* 
 
 </td>
 <td valign="top">
 
-Base64 encoded value for AWS S3 bucket name
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Host* 
-
-</td>
-<td valign="top">
-
-Base64 encoded value for AWS S3 host
+Base64-encoded value for certificate content
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-*Region* 
+*Certificate Password* 
 
 </td>
 <td valign="top">
 
-Base64 encoded value for AWS S3 region
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Secret Access Key* 
-
-</td>
-<td valign="top">
-
-Base64 encoded value for AWS S3 credentials
+Base64-encoded value for password of the certificate if set
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-*Username* 
+*Token Service URL* 
 
 </td>
 <td valign="top">
 
-Base64 encoded value for AWS S3 credentials
+Base64 encoded value for token service url for certificate based authentication
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Token Service Body Parameters* 
+
+</td>
+<td valign="top">
+
+Base64-encoded value for valid JSON object with key-value pair |
 
 </td>
 </tr>
@@ -174,6 +238,9 @@ Base64 encoded value for AWS S3 credentials
 > 
 > -   *type*: `"HTTP"`
 > -   *proxyType*: `"Internet"`
+> -   *tokenServiceURLType*: `"Dedicated"`
+
+**Example with Client Secret**
 
 ```
 curl --location --request POST "$AI_API_URL/v2/admin/secrets" \
@@ -183,27 +250,57 @@ curl --location --request POST "$AI_API_URL/v2/admin/secrets" \
 --data-raw '{
   "name": "<generic secret name>",                     
   "data": {
-    "url": "<url>",                                       
-    "authentication": "Tm9BdXRoZW50aWNhdGlvbg==",          
-    "description": "<description of generic secret>",    
-    "access_key_id": "<access key id>",                 
-    "bucket": "<bucket>",                               
-    "host": "<host>",                                    
-    "region": "<region>",                                
-    "secret_access_key": "<secret access key>",          
-    "username": "<username>"                           
+    "url": <url>,
+    "description": "<description of generic secret>",
+    "authentication": "T0F1dGgyQ2xpZW50Q3JlZGVudGlhbHM=",
+    "clientId": "<client id>",
+    "clientSecret": "<client secret>",
+    "tokenServiceURL": "<token service url for client secret based authentication>",           
   },
   "labels": [
     {
-      "key": "ext.ai.sap.com/document-grounding",         // Label for Document Grounding feature
+      "key": "ext.ai.sap.com/document-grounding", 
       "value": "true"
     },
     {
-      "key": "ext.ai.sap.com/documentRepositoryType",     // Label for Document Repository Type
+      "key": "ext.ai.sap.com/documentRepositoryType", 
       "value": "S3"
     }
   ]
-}'					
+  }'					
+```
+
+**Example with Client Certificate**
+
+```
+curl --location --request POST "$AI_API_URL/v2/admin/secrets" \
+--header "Authorization: Bearer $TOKEN" \
+--header 'Content-Type: application/json' \
+--header 'AI-Resource-Group: <resource group created for grounding>' \
+--data-raw '{
+  "name": "<generic secret name>", 
+  "data": {
+     "url": <url>,
+    "description": "<description of generic secret>",
+    "authentication": "T0F1dGgyQ2xpZW50Q3JlZGVudGlhbHM=",
+    "clientId": "<client id>",
+    "certificateType": "UDEyCg== [P12] / UEVNCg== [PEM]",
+    "certificateContent": "<certificate content>",
+    "certificatePassword": "<certificate password>",
+    "tokenServiceBodyParameters": "<valid json with key-value pairs>",
+    "tokenServiceURL": "<token service url for certificate based authentication>",
+  },
+  "labels": [
+    {
+      "key": "ext.ai.sap.com/document-grounding", 
+      "value": "true"
+    },
+    {
+    "key": "ext.ai.sap.com/documentRepositoryType", 
+    "value": "S3"
+    }
+  ]
+  }'
 ```
 
 **Related Information**  
@@ -212,4 +309,6 @@ curl --location --request POST "$AI_API_URL/v2/admin/secrets" \
 [Update a Generic Secret](update-a-generic-secret-b5d5970.md "")
 
 [Delete a Generic Secret](delete-a-generic-secret-d5d5187.md "")
+
+[Making requests using the REST API](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTAPI.html)
 

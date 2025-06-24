@@ -28,7 +28,7 @@ More Information
 <tr>
 <td valign="top">
 
-SAP Cloud SDK for AI: JavaScript
+SAP Cloud SDK for AI : JavaScript
 
 ![](images/CloudSDKLogo_7bceb89.png)
 
@@ -65,7 +65,7 @@ You can use SAP Cloud SDK for AI to:
 <tr>
 <td valign="top">
 
-SAP Cloud SDK for AI: Java
+SAP Cloud SDK for AI : Java
 
 ![](images/CloudSDKLogo_7bceb89.png)
 
@@ -102,17 +102,17 @@ You can use SAP Cloud SDK for AI to:
 <tr>
 <td valign="top">
 
-SAP AI Core SDK 
+SAP AI SDK Core 
 
 </td>
 <td valign="top">
 
-The SAP AI Core SDK is a Python-based SDK that lets you access SAP AI Core using Python methods and data structures. It can be used to interact with SAP AI Core, and provides access to all public lifecycle and administration APIs.
+The SAP AI SDK Core is a Python-based SDK that lets you access SAP AI Core using Python methods and data structures. It can be used to interact with SAP AI Core, and provides access to all public lifecycle and administration APIs.
 
 </td>
 <td valign="top">
 
--   [SAP AI Core SDK](https://pypi.org/project/sap-ai-sdk-core/)
+-   [SAP AI SDK Core](https://pypi.org/project/sap-ai-sdk-core/)
 
 -   [Business Accelerator Hub](https://api.sap.com/package/SAPAICore/overview)
 
@@ -124,17 +124,17 @@ The SAP AI Core SDK is a Python-based SDK that lets you access SAP AI Core using
 <tr>
 <td valign="top">
 
-AI API Client SDK
+SAP AI SDK Base 
 
 </td>
 <td valign="top">
 
-The AI API client SDK is a Python-based SDK that enables you to access the AI API using Python methods and data structures.
+The SAP AI SDK Base is a Python-based SDK that enables you to access the AI API using Python methods and data structures.
 
 </td>
 <td valign="top">
 
--   [AI API Client SDK](https://pypi.org/project/sap-ai-sdk-base/)
+-   [SAP AI SDK Base](https://pypi.org/project/sap-ai-sdk-base/)
 
 -   [AI API](https://help.sap.com/doc/2cefe221fddf410aab23dce890b5c603/CLOUD/en-US/index.html)
 
@@ -146,7 +146,7 @@ The AI API client SDK is a Python-based SDK that enables you to access the AI AP
 <tr>
 <td valign="top">
 
-SAP generative AI hub SDK
+SAP AI SDK Gen
 
 </td>
 <td valign="top">
@@ -156,7 +156,7 @@ With this SDK, you can leverage the power of generative AI models available in t
 </td>
 <td valign="top">
 
-[Generative AI hub SDK](https://help.sap.com/doc/generative-ai-hub-sdk/CLOUD/en-US/index.html)
+[SAP AI SDK Gen](https://help.sap.com/doc/generative-ai-hub-sdk/CLOUD/en-US/index.html)
 
 </td>
 </tr>

@@ -22,7 +22,7 @@ SAP AI Core lets you use generic secrets at various levels:
 
 -   Main-tenant scope
 
--   Tenant wide level
+-   Tenant-wide level
 
 -   Resource-group level
 
@@ -73,7 +73,7 @@ SAP AI Core lets you use generic secrets at various levels:
 
 -   Main-tenant scope
 
--   Tenant wide level
+-   Tenant-wide level
 
 -   Resource-group level
 

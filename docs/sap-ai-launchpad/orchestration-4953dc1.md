@@ -16,6 +16,8 @@ Key features include:
 
 -   **Grounding:** This feature lets you integrate external, contextually relevant, domain-specific, or real-time data into AI processes. This data enhances the natural language processing capabilities of pretrained models, which are trained on general material.
 
+-   **Translation:** This feature lets you integrate translation into your orchestration workflow for both input and output.
+
 
 The following scenarios are available:
 

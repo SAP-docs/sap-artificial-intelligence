@@ -49,5 +49,5 @@ You remove a Git repository from a connection if its URL is invalid or contains 
 
 ## Results
 
-The repo no longer appears on the *Git Repositories* screen. Any applications that use the removed repo as a source repository will no longer work.
+The repo no longer appears on the *Git Repositories* screen. Any applications that use the removed repo as a source repository no longer work.
 

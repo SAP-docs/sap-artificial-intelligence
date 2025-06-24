@@ -27,7 +27,16 @@ The order in which the pipeline is executed is defined centrally in orchestratio
 
 **The image below is interactive. Click each part of the workflow for more information.**
 
-![](images/data_masking_1799e70.png)
+![](images/4a_orchstration_workflow_2083f88.png)
+
+-   [Grounding](grounding-2d495d3.md)
+-   [Templating](templating-11d44e6.md)
+-   [Input Translation](input-translation-7ff3489.md)
+-   [Data Masking](data-masking-79911bd.md)
+-   [Input Filtering](input-filtering-f5c7223.md)
+-   [Model Configuration](model-configuration-be3cd61.md)
+-   [Output Filtering](output-filtering-32a0e42.md)
+-   [Output Translation](output-translation-e350c56.md)
 
 
 
@@ -118,6 +127,8 @@ You can upload your own orchestration workflow in JSON format. The workflow stru
 
 -   **[Templating](templating-11d44e6.md "")**  
 
+-   **[Input Translation](input-translation-7ff3489.md "")**  
+
 -   **[Data Masking](data-masking-79911bd.md "The data masking module is optional and serves to anonymize or pseudonymize personally
 		identifiable information from the input for selected entities.")**  
 The data masking module is optional and serves to anonymize or pseudonymize personally identifiable information from the input for selected entities.
@@ -126,5 +137,7 @@ The data masking module is optional and serves to anonymize or pseudonymize pers
 -   **[Model Configuration](model-configuration-be3cd61.md "")**  
 
 -   **[Output Filtering](output-filtering-32a0e42.md "")**  
+
+-   **[Output Translation](output-translation-e350c56.md "")**  
 
 

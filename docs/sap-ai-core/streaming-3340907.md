@@ -9,7 +9,7 @@ Streaming is optional. Where models support streaming, output is generated in ch
 > 
 > Streaming can decrease the accuracy of filtering and unmasking, because smaller chunks contain less context. Benchmarking and testing with actual use case data is recommended to ensure output quality in relation to chunk size.
 > 
-> For more information, see [Metering and Pricing for the Generative AI Hub](metering-and-pricing-for-the-generative-ai-hub-a5212f3.md) and [SAP Note 3505347](https://me.sap.com/notes/3505347).
+> For more information, see [Metering and Pricing for Generative AI](metering-and-pricing-for-generative-ai-41e8d85.md) and [SAP Note 3505347](https://me.sap.com/notes/3505347).
 
 
 
@@ -43,7 +43,13 @@ You can configure streaming behavior in the following ways:
 
 ### Configure Streaming Using Chunk Size
 
-The `chunk_size` parameter defines the maximum number of characters contained in a single chunk, and takes an integer value. The default value is 100.
+The `chunk_size` parameter defines the maximum number of characters contained in a single chunk, and takes an integer value.
+
+This means that if a model produces chunks that are larger than the configured `chunk_size`, the Orchestration Service will emit these chunks as is, instead of splitting them into multiple chunks.
+
+This minimizes latency and maximizes the context provided to subsequent tasks like content filtering.
+
+The default value for `chunk_size` is 100.
 
 You can configure the `chunk_size` using the `stream_options` parameter in the `orchestration_config`:
 

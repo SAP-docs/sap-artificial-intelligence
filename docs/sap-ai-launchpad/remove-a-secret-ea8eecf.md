@@ -8,8 +8,8 @@
 
 ## Prerequisites
 
--   You have the `aicore_admin_genericsecret_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
--   You are using the SAP AI Core runtime.
+-   You have the role `aicore_admin_genericsecret_editor` or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
+-   You're using the SAP AI Core runtime.
 
 
 
@@ -27,7 +27,7 @@ You remove a secret if the name is no longer valid or contains errors, or if the
 
 1.  In the *Workspaces* app, choose the AI API connection.
 
-2.  For secrets at the resource group level, choose your resource group. Alternatively you can use the toggles in the header or dialog box, where you will be prompted to specify a resource group.
+2.  For secrets at the resource group level, choose your resource group. Alternatively, use the toggles in the header or dialog box, where the system prompts you to specify a resource group.
 
 3.  Open the *SAP AI Core Administration* app and choose *Generic Secrets*.
 

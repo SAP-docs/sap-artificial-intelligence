@@ -12,15 +12,15 @@ When your tenant is onboarded, a default resource group is automatically created
 
 As an administrator, you create, edit, or delete resource groups, based on your service consumers and usage scenarios.
 
-Runtime entities such as executions, deployments, configurations, and artifacts belong to a specific resource group and are not shared across resource groups. Scenarios, executables, and Docker registry secrets are shared by all resource groups within a tenant.
+Runtime entities such as executions, deployments, configurations, and artifacts belong to a specific resource group and aren't shared across resource groups. Scenarios, executables, and Docker registry secrets are shared by all resource groups within a tenant.
 
-A resource group may also be referred to as an instance.
+A resource group is also referred to as an instance.
 
 > ### Remember:  
-> Your SAP global account may consist of several accounts. Each account can be associated with a tenant. A tenant can contain multiple resource groups. A tenant always contains a default resource group, as well as the resource groups defined for your usage scenarios.
+> Your SAP global account can consist of several accounts. Each account can be associated with a tenant. A tenant can contain multiple resource groups. A tenant always contains a default resource group, as well as the resource groups defined for your usage scenarios.
 
 > ### Restriction:  
-> The maximum number of resource groups is limited at tenant level to 50. If you reach this limit, you will receive an error message. To free up space, delete some resource groups. Alternatively, raise a ticket to increase your quota.
+> The maximum number of resource groups is limited at tenant level to 50. If you reach this limit, you receive an error message. To free up space, delete some resource groups. Alternatively, raise a ticket to increase your quota.
 > 
 > For more information, see [Delete a Resource Group](delete-a-resource-group-40d83a2.md).
 
@@ -39,9 +39,9 @@ A resource group may also be referred to as an instance.
 
 ## Resource Group Level Resources
 
-Executables at tenant level are shared across all resource groups. In contrast, runtime entities such as executions, deployments, configurations, and artifacts belong to a specific resource group and cannot be shared across resource groups. Similarly, generic secrets created within a resource group can be used only for workloads within that group.
+Executables at the tenant level are shared across all resource groups. In contrast, runtime entities such as executions, deployments, configurations, and artifacts belong to a specific resource group and cannot be shared across resource groups. Similarly, generic secrets created within a resource group can be used only for workloads within that group.
 
-You can register an object store at resource-group level by setting the resource group header. We recommend that you do not use the same object store bucket with the same IAM user for multiple resource groups.
+You can register an object store at the resource-group level by setting the resource group header. We recommend that you do not use the same object store bucket with the same IAM user for multiple resource groups.
 
 Example resource group mappings are outlined in the figure below:
 

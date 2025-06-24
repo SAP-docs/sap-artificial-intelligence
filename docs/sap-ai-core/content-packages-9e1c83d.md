@@ -50,7 +50,7 @@ Computer vision package
 </td>
 <td valign="top">
 
-The content package for image use cases in SAP AI Core adds image classification and feature extraction and is used with the AI Core SDK.
+The content package for image use cases in SAP AI Core adds image classification and feature extraction and is used with the SAP AI SDK Core.
 
 </td>
 <td valign="top">

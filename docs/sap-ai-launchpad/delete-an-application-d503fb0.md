@@ -18,7 +18,7 @@ You have the `aicore_admin_applications_editor` role or a role collection that c
 
 ## Context
 
-You delete an application if it is invalid or contains errors, or if it is no longer required.
+You delete an application if it's invalid or contains errors, or if it's no longer required.
 
 
 

@@ -90,7 +90,7 @@ Standard
 -   For region information, see [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core?region=all&tab=feature&commercialModel=cpea).
 
 
-For more information, see [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md) and [Metering and Pricing for SAP AI Core](metering-and-pricing-for-sap-ai-core-b5c7215.md).
+For more information, see [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md) and [Metering and Pricing for SAP AI Core](metering-and-pricing-for-sap-ai-core-1e6cbac.md).
 
 </td>
 <td valign="top">
@@ -114,7 +114,7 @@ Extended
 -   For region information, see [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core?region=all&tab=feature&commercialModel=cpea).
 
 
-For more information, see [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md) and [Metering and Pricing for SAP AI Core](metering-and-pricing-for-sap-ai-core-b5c7215.md).
+For more information, see [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md) and [Metering and Pricing for SAP AI Core](metering-and-pricing-for-sap-ai-core-1e6cbac.md).
 
 </td>
 <td valign="top">
@@ -142,7 +142,7 @@ Alternatively, you can request an increase to your quota by creating a ticket on
 ## Resource Group Quotas
 
 > ### Restriction:  
-> The maximum number of resource groups is limited at tenant level to 50. If you reach this limit, you will receive an error message. To free up space, delete some resource groups. Alternatively, raise a ticket to increase your quota.
+> The maximum number of resource groups is limited at tenant level to 50. If you reach this limit, you receive an error message. To free up space, delete some resource groups. Alternatively, raise a ticket to increase your quota.
 > 
 > For more information, see [Delete a Resource Group](delete-a-resource-group-40d83a2.md).
 
@@ -152,18 +152,15 @@ Alternatively, you can request an increase to your quota by creating a ticket on
 
 ## Tenant-Wide Generic Secrets Quotas
 
-Each tenant can have a maximum of five tenant-wide secrets. If you reach this limit, you'll receive an error message. To free up space, you can delete some tenant-wide secrets as described at [Delete a Generic Secret](delete-a-generic-secret-d5d5187.md). Alternatively, you can submit a ticket to request an increase in your quota.
+Each tenant can have a maximum of five tenant-wide secrets. If you reach this limit, you receive an error message. To free up space, delete tenant-wide secrets as described at [Delete a Generic Secret](delete-a-generic-secret-d5d5187.md). Alternatively, submit a ticket to request an increase in your quota.
 
 -   **[Free Tier](free-tier-4533adc.md "Enable the free tier option to get to know SAP AI Core with usage
 		limits, to familiarize yourself with the service. Note that usage is limited with this option.")**  
 Enable the free tier option to get to know SAP AI Core with usage limits, to familiarize yourself with the service. Note that usage is limited with this option.
--   **[Metering and Pricing for SAP AI Core](metering-and-pricing-for-sap-ai-core-b5c7215.md "SAP AI Core is metered based on various nonbillable units of measure
-		(UoM), depending on which resources of SAP AI Core are
-		consumed.")**  
-SAP AI Core is metered based on various nonbillable units of measure \(UoM\), depending on which resources of SAP AI Core are consumed.
--   **[Metering and Pricing for the Generative AI Hub](metering-and-pricing-for-the-generative-ai-hub-a5212f3.md "The use of models in the generative AI hub is metered using
-			GenAI tokens and capacity units.")**  
-The use of models in the generative AI hub is metered using GenAI tokensand capacity units.
+-   **[Metering and Pricing for SAP AI Core](metering-and-pricing-for-sap-ai-core-1e6cbac.md "SAP AI Core
+		provides a scalable infrastructure for AI model management, with usage-based pricing that
+		lets you pay only for the resources you use.")**  
+SAP AI Core provides a scalable infrastructure for AI model management, with usage-based pricing that lets you pay only for the resources you use.
 -   **[Choose a Resource Plan](choose-a-resource-plan-c58d4e5.md "You can configure SAP AI Core to use different infrastructure
 		resources for
 		different

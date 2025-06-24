@@ -10,15 +10,15 @@ When your tenant is onboarded, a default resource group is automatically created
 
 As an administrator, you create, edit, or delete resource groups, based on your service consumers and usage scenarios.
 
-Runtime entities such as executions, deployments, configurations, and artifacts belong to a specific resource group and are not shared across resource groups. Scenarios, executables, and Docker registry secrets are shared by all resource groups within a tenant.
+Runtime entities such as executions, deployments, configurations, and artifacts belong to a specific resource group and aren't shared across resource groups. Scenarios, executables, and Docker registry secrets are shared by all resource groups within a tenant.
 
-A resource group may also be referred to as an instance.
+A resource group is also referred to as an instance.
 
 > ### Remember:  
-> Your SAP global account may consist of several accounts. Each account can be associated with a tenant. A tenant can contain multiple resource groups. A tenant always contains a default resource group, as well as the resource groups defined for your usage scenarios.
+> Your SAP global account can consist of several accounts. Each account can be associated with a tenant. A tenant can contain multiple resource groups. A tenant always contains a default resource group, as well as the resource groups defined for your usage scenarios.
 
 > ### Restriction:  
-> The maximum number of resource groups is limited at tenant level to 50. If you reach this limit, you will receive an error message. To free up space, delete some resource groups. Alternatively, raise a ticket to increase your quota.
+> The maximum number of resource groups is limited at tenant level to 50. If you reach this limit, you receive an error message. To free up space, delete some resource groups. Alternatively, raise a ticket to increase your quota.
 > 
 > For more information, see [Delete a Resource Group](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/40d83a2716894174b4b9b407396a0708.html "") :arrow_upper_right:.
 

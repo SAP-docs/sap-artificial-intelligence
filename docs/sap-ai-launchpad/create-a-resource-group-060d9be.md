@@ -43,7 +43,7 @@ When creating a resource group, subaccount ID, instance ID, and zone ID are stan
     1.  Enter a resource group ID.
 
         > ### Note:  
-        > Ensure that the resource group ID is unique. If the ID is not unique and is currently in use, then the new resource group and its details will overwrite the existing resource group.
+        > Ensure that the resource group ID is unique. If the ID isn't unique and is currently in use, the new resource group and its details overwrite the existing resource group.
 
     2.  Choose the `subaccount_id` label key and enter a value.
 

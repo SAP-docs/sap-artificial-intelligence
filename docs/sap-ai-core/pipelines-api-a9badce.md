@@ -1,12 +1,21 @@
 <!-- loioa9badce6a4da4df68e98549d64aa2217 -->
 
-# Pipeline API
+# Pipelines API
 
-The Pipeline API allows you to provide unstructured documents from your data repositories.
+The Pipelines API allows you to provide unstructured documents from your data repositories, and create a document grounding pipeline for your resource group.
 
-The API is proxied through the generative AI hub and incorporates vector stores, such as the managed HANA database. This pipeline segments data into chunks and generates embeddings, which are multidimensional representations of textual information. These embeddings are stored in a vector database.
+The API is proxied through the generative AI hub and incorporates vector stores, such as the managed HANA database.
 
-The Pipeline API is compatible with the following data repositories:
+Each pipeline represents a configured end-to-end process including the following steps:
+
+1.  Fetches documents from a supported data source
+
+2.  Preprocesses and chunks the document content, and generates semantic embeddings. Semantic embeddings are multidimensional representations of textual information.
+
+3.  Stores semantic embeddings into the HANA Vector Store
+
+
+The Pipielines API is compatible with the following data repositories:
 
 
 <table>
@@ -45,7 +54,7 @@ Microsoft SharePoint
 </td>
 <td valign="top">
 
-PDF, DOCX
+PDF, DOCX, HTML, TXT
 
 </td>
 <td valign="top">
@@ -60,7 +69,7 @@ Plain Text
 </td>
 <td valign="top">
 
-Maximum of 2000 Documents
+Maximum of 2000 Documents per Pipeline
 
 </td>
 </tr>
@@ -72,7 +81,7 @@ AWS S3
 </td>
 <td valign="top">
 
-PDF, DOCX
+PDF, DOCX, HTML, TXT
 
 </td>
 <td valign="top">
@@ -87,7 +96,7 @@ Plain Text
 </td>
 <td valign="top">
 
-Maximum of 2000 Documents
+Maximum of 2000 Documents per Pipeline
 
 </td>
 </tr>
@@ -99,7 +108,7 @@ SFTP
 </td>
 <td valign="top">
 
-PDF, DOCX
+PDF, DOCX, HTML, TXT
 
 </td>
 <td valign="top">
@@ -114,11 +123,13 @@ Plain Text
 </td>
 <td valign="top">
 
-Maximum of 2000 Documents
+Maximum of 2000 Documents per Pipeline
 
 </td>
 </tr>
 </table>
+
+The endpoint for the pipelines API is `$AI_API_URL/v2/lm/document-grounding/pipelines`.
 
 For region and pricing information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
 

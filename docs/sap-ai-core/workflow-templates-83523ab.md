@@ -24,12 +24,12 @@ In SAP AI Core, Argo Workflows are used to:
 Workflows are executed in batch mode. A workflow can produce multiple output artifacts, but only an output artifact with a `globalName` is considered to be the final output artifact of the workflow.
 
 > ### Restriction:  
-> Output artifacts can only use the default object store.
+> Output artifacts can only use the **default** object store.
 
 For the model training code, SAP AI Core is language-agnostic. However, you need to specify the relevant programming language in the workflow parameters. If you're importing any packages, list them in a separate file named `requirements.txt` and store it in the same directory.
 
 > ### Restriction:  
-> The maximum number of workflow templates is limited at tenant level to 50. If you reach this limit, you will receive an error message. To free up space, delete some workflow templates. Alternatively, raise a ticket to increase your quota.
+> The maximum number of workflow templates is limited at tenant level to 50. If you reach this limit, you receive an error message. To free up space, delete some workflow templates. Alternatively, raise a ticket to increase your quota.
 
 To get started, copy the generic workflow template below and add your own values as required. You can use any text editor with a YAML plugin to create your templates. Workflows support the following parameters:
 
