@@ -16,9 +16,9 @@ Docker packages and runs applications in remote containers. Connect SAP AI Core 
 
 ## Prerequisites
 
-You have completed the initial setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
+You've completed the initial setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
 
-You have access to a public facing Docker registry over the internet. It is not possible to use a Docker registry behind a VPN or corporate network.
+You have access to a public-facing Docker registry over the internet. It isn't possible to use a Docker registry behind a VPN or corporate network.
 
 
 
@@ -89,9 +89,9 @@ Your Docker registry secret lets you authorize SAP AI Core to pull your **privat
 
 ## Prerequisites
 
-You have completed the initial setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
+You've completed the initial setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
 
-You have access to a public facing Docker registry over the internet. It is not possible to use a Docker registry behind a VPN or corporate network.
+You have access to a public-facing Docker registry over the internet. It isn't possible to use a Docker registry behind a VPN or corporate network.
 
 
 

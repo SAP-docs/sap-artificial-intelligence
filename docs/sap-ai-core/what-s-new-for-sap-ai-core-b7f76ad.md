@@ -92,6 +92,532 @@ Generative AI hub
 </td>
 <td valign="top">
 
+New models are supported, including Mistral Medium Instruct, and Cohere Reasoning A Command.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-09-22
+
+</td>
+<td valign="top">
+
+2025-09-22
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+SAP Document Management is supported as a repository type for the orchestration grounding module.
+
+For more information, see [Grounding Generic Secrets for SAP Document Management Service](grounding-generic-secrets-for-sap-document-management-service-f8919a4.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-09-01
+
+</td>
+<td valign="top">
+
+2025-09-01
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Orchestration model configurations have timeout and max tries parameters.
+
+For more information, see [Templating](templating-3e2ea66.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-09-01
+
+</td>
+<td valign="top">
+
+2025-09-01
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+New models are supported, including GPT 5, GPT 5 Mini, and GPT 5 Nano.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-08-18
+
+</td>
+<td valign="top">
+
+2025-08-18
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+New models are supported, including Gemini Embeddings.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-08-06
+
+</td>
+<td valign="top">
+
+2025-08-06
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+This initial orchestration endpoint is deprecated and is scheduled for decommissioning on October 31, 2026. Following that date, the endpoint will no longer be available. We recommend that you create new orchestration workflows using version 2, and that you migrate existing workflows from version 1 to version 2. To use version 2, you'll need to update your endpoint from `/completion` to `/v2/completion` and modify your existing payloads. For more information, see SAP Note [Orchestration Workflow V2](orchestration-workflow-v2-41a0247.md) and [3634540](https://me.sap.com/notes/3634540).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+Deprecated
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-07-21
+
+</td>
+<td valign="top">
+
+2025-07-21
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+New models are supported, including Nova Premier from AWS Bedrock.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-07-21
+
+</td>
+<td valign="top">
+
+2025-07-21
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Prompt shields are available as part of input filtering with Azure Content Safety. Prompt shields detect and mitigate prompt attacks, such as prompts designed to bypass safety mechanisms or override previous instruction.
+
+For more information, see [Harm categories in Azure AI Content Safety](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/concepts/harm-categories?tabs=warning) and [Input Filtering](https://help.sap.com/viewer/92d77f26188e4582897b9106b9cb72e0/CLOUD/en-US/f5c722331f0d4151991886ebcf3f0f73.html "") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-06-23
+
+</td>
+<td valign="top">
+
+2025-06-23
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
 GPT-4 versions 0613 and turbo-2024-04-09 and gpt-4-32k version 0613 have been deprecated.
 
 It's recommended that users of these models migrate to GPT-4.1 as a replacement.
@@ -632,7 +1158,7 @@ Generative AI hub
 
 More endpoints have been added to the Pipeline API, so you can retrieve information about the documents within a pipeline, including processing status.
 
-For more information, see [Manage Data Pipelines](manage-data-pipelines-2f94a67.md).
+For more information, see [Data Pipelines](data-pipelines-9d9eb37.md).
 
 </td>
 <td valign="top">
@@ -970,7 +1496,7 @@ The vector API can be used for managing collections and documents in the Vector 
 
 The retrieval API searches data repositories and returns the relevant chunks for the user query.
 
-For more information, see [Preparing Data Using the Vector API](preparing-data-using-the-vector-api-221b03f.md) and [Retrieval API](retrieval-api-a27f4ad.md).
+For more information, see [Preparing Data Using the Vector API](preparing-data-using-the-vector-api-2a9f149.md) and [Retrieval API](retrieval-api-281e8cf.md).
 
 </td>
 <td valign="top">
@@ -1302,7 +1828,7 @@ Pipeline API added.
 
 This pipeline segments data into chunks and generates embeddings, which are multidimensional representations of textual information. The embeddings are stored in a vector database.
 
-For more information, see [Preparing Data Using the Pipeline API](preparing-data-using-the-pipeline-api-9c972e2.md).
+For more information, see [Create a Document Grounding Pipeline Using the Pipelines API \(without Metadata\)](create-a-document-grounding-pipeline-using-the-pipelines-api-without-metadata-ff73612.md).
 
 </td>
 <td valign="top">
@@ -1368,7 +1894,7 @@ Generative AI hub
 
 A new module has been added to the orchestration system. The grounding module enhances AI processes by integrating external data that is contextually relevant, domain-specific, or real-time. This additional data complements the natural language processing abilities of pretrained models, which are typically based on general information.
 
-For more information, see [Grounding](grounding-454c558.md).
+For more information, see [Grounding](grounding-035c455.md).
 
 </td>
 <td valign="top">
@@ -1700,7 +2226,7 @@ Additional module added to orchestration.
 
 The data masking module anonymizes or pseudonymizes personally identifiable information from input.
 
-For more information, see [Orchestration Workflow](orchestration-workflow-b233648.md).
+For more information, see [Orchestration Workflow V1 \(Deprecated\)](orchestration-workflow-v1-deprecated-b233648.md).
 
 </td>
 <td valign="top">
@@ -3865,7 +4391,7 @@ Free Tier Service Plan
 
 To try SAP AI Core for free, you can use a free tier service plan. A free tier service plan can be easily upgraded to a standard plan, retaining your users and data.
 
-For more information, see [Free Tier](free-tier-4533adc.md).
+For more information, see [Set Up the Free Plan](set-up-the-free-plan-4533adc.md).
 
 </td>
 <td valign="top">
@@ -4506,12 +5032,12 @@ SAP AI Core
 </td>
 <td valign="top">
 
-Documentation for the SAP AI SDK Core has moved to PyPi.org.
+Documentation for the sap-ai-sdk-core has moved to PyPi.org.
 
 </td>
 <td valign="top">
 
-Documentation for the SAP AI SDK Core has moved to PyPi.org. For more information, [Libraries and SDKs](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/499309d6e371419fb7a88b7d68c20a31.html?version=CLOUD) .
+Documentation for the sap-ai-sdk-core has moved to PyPi.org. For more information, [Libraries and SDKs](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/499309d6e371419fb7a88b7d68c20a31.html?version=CLOUD) .
 
 </td>
 <td valign="top">

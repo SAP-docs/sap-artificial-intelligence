@@ -17,6 +17,20 @@
 
 You can import a declarative prompt template as a single file export in yaml format.
 
+By default, prompt templates are handled on the main-tenant level. To handle them on resource-group level, add the `AI-Resource-Group-Scope` and `AI-Resource-Group` headers to your requests. For example:
+
+```
+
+--header 'AI-Resource-Group-Scope: true'
+--header 'AI-Resource-Group: <resource group>'
+```
+
+> ### Note:  
+> For CaaS users the resource-group-id is extracted automatically, and does not need to be provided in the headers.
+
+> ### Note:  
+> CaaS users only have write access to prompt templates on a resource-group level.
+
 
 
 ## Procedure

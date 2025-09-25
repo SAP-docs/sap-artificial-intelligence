@@ -139,10 +139,10 @@ curl is likely to be installed on your operating system by default. To check, op
 
     ```
     $SECRET = $env:CLIENTID + ":" + $env:CLIENTSECRET
-    $base64SECRET = [Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes("$SECRET"))
-    $TOKENRESPONSE = curl --location --request POST "$XSUAA_URL/oauth/token?grant_type=client_credentials" --header "Authorization: Basic $base64SECRET"
-    $TOKENRESPONSE = $TOKENRESPONSE | ConvertFrom-Json
-    $TOKEN = $TOKENRESPONSE.access_token
+    $base64SECRET = [Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes($SECRET))
+    $TOKENRESPONSE = Invoke-WebRequest -Method Post "$env:XSUAA_URL/oauth/token" -Headers @{ "Authorization" = "Basic $base64SECRET"; "Content-Type" = "application/x-www-form-urlencoded" } -Body "grant_type=client_credentials"
+    $TOKENJSON = $TOKENRESPONSE.Content | ConvertFrom-Json
+    $TOKEN = $TOKENJSON.access_token
     ```
 
     > ### Note:  

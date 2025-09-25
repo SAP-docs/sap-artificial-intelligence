@@ -69,7 +69,7 @@ If the updated deployment reaches the “running” state, *latestRunningConfigu
     ```
     curl --request PATCH $AI_API_URL/v2/lm/deployments/$DEPLOYMENT_ID \
     --header “Authorization: Bearer $TOKEN” \
-    --header “ai-resource-group: $RESOURCE_GROUP” \
+    --header “AI-Resource-Group: $RESOURCE_GROUP” \
     --header 'Content-Type: application/json' \
     --data-raw '{
         "configurationId": "490a02b0-4b97-48e8-b905-1c6ae5ea5b1c"
@@ -89,7 +89,7 @@ If the updated deployment reaches the “running” state, *latestRunningConfigu
 3.  Check the status of the deployment by submitting a GET request to `{{apiurl}}/v2/lm/deployments/{{deploymentid}}`.
 
     ```
-    curl --request GET $AI_API_URL/v2/lm/deployments/$DEPLOYMENT_ID \ --header "Authorization: Bearer $TOKEN" \ --header "ai-resource-group: $RESOURCE_GROUP"
+    curl --request GET $AI_API_URL/v2/lm/deployments/$DEPLOYMENT_ID \ --header "Authorization: Bearer $TOKEN" \ --header "AI-Resource-Group: $RESOURCE_GROUP"
     ```
 
     > ### Output Code:  

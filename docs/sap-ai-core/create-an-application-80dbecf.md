@@ -14,16 +14,10 @@
 
 ## Context
 
-After you've registered your git repository, you need to create an application to sync the templates in your repository. The first sync takes some time, but you can check the status of the application to see when it's complete. After the first sync, syncing takes place automatically, every ~3 minutes, or can be requested manually.
+After registering your Git repository, create an application to sync the templates in your repository. The first sync takes some time. You can check the application's status to see when it's complete. After the initial sync, syncing occurs automatically approximately every three minutes. You can also request it manually.
 
--   `applicationName`: Set a name for your application. The name must be between 3 and 64 characters long and match `[A-Za-z0-9\-\_]+`.
-
--   `repositoryUrl`: The URL of a registered git repository.
-
--   `revision`: The revision to target. *<HEAD\>* refers to the most recent.
-
--   `path`: The path to the target folder that contains the templates to be synced.
-
+> ### Note:  
+> Do not create applications that attempt to sync the same source. If two apps have the same `repositoryURL`, `revision`, and `path`, synching will fail.
 
 
 
@@ -45,11 +39,13 @@ curl --location --request POST "$AI_API_URL/v2/admin/applications" \
     }'
 ```
 
--   `url`: URL of the git repository
+-   `applicationName`: Set a name for your application. The name must be between 3 and 64 characters long and match `[A-Za-z0-9\-\_]+`.
 
--   `username`: \(Service\) user that’s accessing the git repository
+-   `repositoryUrl`: The URL of a registered git repository.
 
--   `password`: git personal access token. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+-   `revision`: The revision to target. *<HEAD\>* refers to the most recent.
+
+-   `path`: The path to the target folder that contains the templates to be synced.
 
 
 Because each application points to a particular path and revision in the repository, multiple applications can be created for the same `repositoryUrl`.
@@ -90,16 +86,10 @@ As `applicationName`, enter the name of your application that you specified when
 
 ## Context
 
-After you've registered your git repository, you need to create an application to sync the templates in your repository. The first sync takes some time, but you can check the status of the application to see when it's complete. After the first sync, syncing takes place automatically, every ~3 minutes, or can be requested manually.
+After registering your Git repository, create an application to sync the templates in your repository. The first sync takes some time. You can check the application's status to see when it's complete. After the initial sync, syncing occurs automatically approximately every three minutes. You can also request it manually.
 
--   `applicationName`: Set a name for your application. The name must be between 3 and 64 characters long and match `[A-Za-z0-9\-\_]+`.
-
--   `repositoryUrl`: The URL of a registered git repository.
-
--   `revision`: The revision to target. *<HEAD\>* refers to the most recent.
-
--   `path`: The path to the target folder that contains the templates to be synced.
-
+> ### Note:  
+> Do not create applications that attempt to sync the same source. If two apps have the same `repositoryURL`, `revision`, and `path`, synching will fail.
 
 
 
@@ -109,11 +99,13 @@ After you've registered your git repository, you need to create an application t
 
 Send a POST request to the endpoint `{{apiurl}}/v2/admin/applications` including details of your application:
 
--   `url`: URL of the git repository
+-   `applicationName`: Set a name for your application. The name must be between 3 and 64 characters long and match `[A-Za-z0-9\-\_]+`.
 
--   `username`: \(Service\) user that’s accessing the git repository
+-   `repositoryUrl`: The URL of a registered git repository.
 
--   `password`: git personal access token. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+-   `revision`: The revision to target. *<HEAD\>* refers to the most recent.
+
+-   `path`: The path to the target folder that contains the templates to be synced.
 
 
 Because each application points to a particular path and revision in the repository, multiple applications can be created for the same `repositoryUrl`.

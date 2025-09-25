@@ -38,7 +38,7 @@
     ```
     curl --location --request POST “$AI_API_URL/v2/lm/executionSchedules/$EXECUTION_SCHEDULE” \\
     --header “Authorization: Bearer $TOKEN” \
-    --header “ai-resource-group: $RESOURCE_GROUP” \
+    --header “AI-Resource-Group: $RESOURCE_GROUP” \
     --data-raw '{ \
     	"cron": "0 * * * *",\
     	"name": "Hourly training run",\
@@ -53,7 +53,7 @@
     ```
     curl --location -- request GET “$AI_API_URL/v2/lm/executionSchedules/$EXECUTION_SCHEDULE” \\
     --header “Authorization: Bearer $TOKEN” \
-    --header “ai-resource-group: $RESOURCE_GROUP”
+    --header “AI-Resource-Group: $RESOURCE_GROUP”
     ```
 
 

@@ -33,7 +33,7 @@ Update the request body to:
 ```
 curl --request PATCH $AI_API_URL/v2/lm/deployments/$DEPLOYMENT_ID \
 --header "authorization: Bearer $TOKEN" \
---header "ai-resource-group: $RESOURCE_GROUP" \
+--header "AI-Resource-Group: $RESOURCE_GROUP" \
 --header 'content-Type: application/json' \
 --data-raw '{
 "targetStatus": "STOPPED"
@@ -59,7 +59,7 @@ curl --request PATCH $AI_API_URL/v2/lm/deployments/$DEPLOYMENT_ID \
 Check the status of the deployment by submitting a GET request to `{{apiurl}}/v2/lm/deployments/{{deploymentid}}`.
 
 ```
-curl --request GET $AI_API_URL/v2/lm/deployments/$DEPLOYMENT_ID \ --header "Authorization: Bearer $TOKEN" \ --header "ai-resource-group: $RESOURCE_GROUP"
+curl --request GET $AI_API_URL/v2/lm/deployments/$DEPLOYMENT_ID \ --header "Authorization: Bearer $TOKEN" \ --header "AI-Resource-Group: $RESOURCE_GROUP"
 ```
 
 <a name="task_cxf_n13_tcc"/>

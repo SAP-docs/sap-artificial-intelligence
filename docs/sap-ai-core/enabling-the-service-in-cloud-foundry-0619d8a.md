@@ -2,9 +2,12 @@
 
 # Enabling the Service in Cloud Foundry
 
-Enable SAP AI Core using the standard procedures for the SAP BTP Cloud Foundry environment.
+Enable SAP AI Core using the standard procedures for the SAP BTP, Cloud Foundry environment.
 
-You provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Platform. After you have provisioned the service, you will have your service key, which provides URLs and credentials for accessing the SAP AI Core instance.
+> ### Tip:  
+> You can use the booster *Set Up Account for SAP AI Core* to automate the steps described in this section on the SAP BTP cockpit. For more information, see [Use Boosters for Free Tier Use of SAP AI Core and SAP AI Launchpad](https://developers.sap.com/tutorials/ai-core-launchpad-provisioning.html).
+
+When you provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Platform, the system generates a service key. This key contains the URLs and credentials you need to access the SAP AI Core instance.
 
 SAP AI Core is a tenant-aware reuse service that isolates tenants based on the zone ID, which represents the subaccount. When you create an SAP AI Core service instance within a subaccount, it represents an SAP AI Core tenant.
 
@@ -13,16 +16,16 @@ SAP AI Core is a tenant-aware reuse service that isolates tenants based on the z
 
 ![](images/Multitenancy_diagram_29a8dde.png)
 
-The steps below guide you through the provisioning procedure. Alternatively, a booster is available for both SAP AI Core and SAP AI Launchpad. For more information, see [AI Boosters Tutorial](https://developers.sap.com/tutorials/ai-core-launchpad-provisioning.html). If you choose to use the booster, you can skip the remaining steps to [SAP AI Core Starter Tutorials](sap-ai-core-starter-tutorials-9795b63.md).
-
--   **[Create a Subaccount](create-a-subaccount-3e3ae83.md "")**  
-
+-   **[Create a Subaccount](create-a-subaccount-3e3ae83.md "Create a subsaccount in your global account using the SAP BTP
+                                    cockpit.")**  
+Create a subsaccount in your global account using the SAP BTP cockpit.
 -   **[Enable Cloud Foundry](enable-cloud-foundry-cf0d5d2.md "")**  
 
 -   **[Create a Space](create-a-space-4c1190c.md "")**  
 
--   **[Add a Service Plan](add-a-service-plan-86002d9.md ">")**  
-\>
+-   **[Add a Service Plan](add-a-service-plan-86002d9.md "Configure the required entitlements to make SAP AI Core accessible in
+		your subaccount.")**  
+Configure the required entitlements to make SAP AI Core accessible in your subaccount.
 -   **[Create a Service Instance](create-a-service-instance-34761f9.md "")**  
 
 -   **[Create a Service Key](create-a-service-key-7323ff4.md "")**  

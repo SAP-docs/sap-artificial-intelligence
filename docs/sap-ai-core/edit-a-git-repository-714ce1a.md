@@ -37,6 +37,9 @@ You specify your unique git repository details as follows:
 -   `password`: git personal access token. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 
 
+> ### Tip:  
+> To share a repository between two tenants, register the repository in SAP AI Core separately for each tenant and provide the **same** `username` and `password`.
+
 <a name="task_cxf_n13_tcc"/>
 
 <!-- task\_cxf\_n13\_tcc -->
@@ -59,4 +62,7 @@ You specify your unique git repository details as follows:
 
 -   `password`: git personal access token. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 
+
+> ### Tip:  
+> To share a repository between two tenants, register the repository in SAP AI Core separately for each tenant and provide the **same** `username` and `password`.
 

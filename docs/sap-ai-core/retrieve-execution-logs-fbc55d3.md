@@ -117,7 +117,7 @@ For example, see the following JSON output from the API.
 Run the following code:
 
 ```
-curl --request GET "$AI_API_URL/v2/lm/executions/$EXCUTION_ID/logs?start=2021-05-19T00:00:14.347Z" --header "Authorization: Bearer $TOKEN" --header "ai-resource-group: $RESOURCE_GROUP"
+curl --request GET "$AI_API_URL/v2/lm/executions/$EXCUTION_ID/logs?start=2021-05-19T00:00:14.347Z" --header "Authorization: Bearer $TOKEN" --header "AI-Resource-Group: $RESOURCE_GROUP"
 ```
 
 
@@ -242,7 +242,7 @@ curl --request GET "$AI_API_URL/v2/lm/executions/$EXCUTION_ID/logs?start=2021-05
     <tr>
     <td valign="top">
     
-    *ai-resource-group*
+    *AI-Resource-Group*
     
     </td>
     <td valign="top">

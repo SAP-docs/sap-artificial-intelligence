@@ -26,7 +26,7 @@ Use the *ML Operations* app to search for a dataset or artifact.
 Run the following code:
 
 ```
-curl --request GET "$AI_API_URL/v2/lm/artifacts" --header "Authorization: Bearer $TOKEN" --header "ai-resource-group: $RESOURCE_GROUP"
+curl --request GET "$AI_API_URL/v2/lm/artifacts" --header "Authorization: Bearer $TOKEN" --header "AI-Resource-Group: $RESOURCE_GROUP"
 ```
 
 
@@ -114,7 +114,7 @@ curl --request GET "$AI_API_URL/v2/lm/artifacts" --header "Authorization: Bearer
     <tr>
     <td valign="top">
     
-    `ai-resource-group` 
+    `AI-Resource-Group` 
     
     </td>
     <td valign="top">

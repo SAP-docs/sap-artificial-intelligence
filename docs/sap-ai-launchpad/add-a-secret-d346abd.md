@@ -14,7 +14,7 @@ As a system administrator, you can add Docker registry secrets for use within yo
 
 You have the `aicore_admin_dockerregistrysecret_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
-You have access to a public facing Docker registry over the internet. It is not possible to use a Docker registry behind a VPN or corporate network.
+You have access to a public-facing Docker registry over the internet. It isn't possible to use a Docker registry behind a VPN or corporate network.
 
 
 

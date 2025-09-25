@@ -42,7 +42,7 @@
     ```
     curl --request POST $AI_API_URL/v2/lm/deployments \
         --header "Authorization: Bearer $TOKEN" \
-        --header "ai-resource-group: $RESOURCE_GROUP"
+        --header "AI-Resource-Group: $RESOURCE_GROUP"
         --data-raw '{
             "configurationId": " 2b72d740-5a89-4cf7-b37c-85973eeed6ae "
         }'
@@ -66,7 +66,7 @@
     ```
     curl --request GET $AI_API_URL/v2/lm/deployments/$DEPLOYMENT_ID \
         --header "Authorization: Bearer $TOKEN" \
-        --header "ai-resource-group: $RESOURCE_GROUP"   
+        --header "AI-Resource-Group: $RESOURCE_GROUP"   
     ```
 
     > ### Note:  
@@ -145,7 +145,7 @@
 
 
 
-<a name="concept_z3s_f3h_vcc__d99e1165"/>
+<a name="concept_z3s_f3h_vcc__d117e1165"/>
 
 ## Optional Parameters
 
@@ -153,7 +153,7 @@ The duration of a deployment can be limited using the `ttl` parameter. It takes 
 
 
 
-<a name="concept_z3s_f3h_vcc__d99e1196"/>
+<a name="concept_z3s_f3h_vcc__d117e1196"/>
 
 ## Deployment Quotas
 

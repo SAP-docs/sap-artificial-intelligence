@@ -14,7 +14,7 @@ When you submit a POST request for an execution or a configuration, you get the 
 
 ### Check the following:
 
-1.  Check that you are passing the correct `token` and `ai-resource-group header`.
+1.  Check that you are passing the correct `token` and `AI-Resource-Group header`.
 2.  Check your tenant provisioning.
 
 

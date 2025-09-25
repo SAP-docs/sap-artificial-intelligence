@@ -48,7 +48,7 @@ A scenario is an implementation of a specific AI use case within a user's tenant
 Run the following code:
 
 ```
-curl --request GET "$AI_API_URL/v2/lm/scenarios" --header "Authorization: Bearer $TOKEN" --header "ai-resource-group: $RESOURCE_GROUP"
+curl --request GET "$AI_API_URL/v2/lm/scenarios" --header "Authorization: Bearer $TOKEN" --header "AI-Resource-Group: $RESOURCE_GROUP"
 ```
 
 
@@ -146,7 +146,7 @@ curl --location --request GET '$API_URL/v2/lm/scenarios/$SCENARIO_ID/versions' \
     <tr>
     <td valign="top">
     
-    `ai-resource-group` 
+    `AI-Resource-Group` 
     
     </td>
     <td valign="top">

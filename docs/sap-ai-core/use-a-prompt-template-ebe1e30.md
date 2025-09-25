@@ -13,6 +13,26 @@
 
 
 
+<a name="loioebe1e30694ea46269cfe4cdcf1caa5a8__context_tdx_xdn_ngc"/>
+
+## Context
+
+By default, prompt templates are handled on the main-tenant level. To handle them on resource-group level, add the `AI-Resource-Group-Scope` and `AI-Resource-Group` headers to your requests. For example:
+
+```
+
+--header 'AI-Resource-Group-Scope: true'
+--header 'AI-Resource-Group: <resource group>'
+```
+
+> ### Note:  
+> For CaaS users the resource-group-id is extracted automatically, and does not need to be provided in the headers.
+
+> ### Note:  
+> CaaS users only have write access to prompt templates on a resource-group level.
+
+
+
 <a name="loioebe1e30694ea46269cfe4cdcf1caa5a8__steps_h1s_lwh_hdc"/>
 
 ## Procedure

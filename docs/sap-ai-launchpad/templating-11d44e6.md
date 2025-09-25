@@ -19,7 +19,7 @@ For each placeholder, you can enter a default value that is used to test your mo
 
 You can add more message blocks using the :heavy_plus_sign:.
 
-For selected models, image inputs are supported, and can be added using the <span class="SAP-icons-V5"></span> \(add image\)icon or copy and paste. Prompt messages are limited to 2.50 MB across all inputs.
+For selected models, image inputs are supported, and can be added using the <span class="SAP-icons-V5"></span> \(add image\)icon or copy and paste. Prompt messages are limited to 5.00mb across all inputs.
 
 You can check which models support image input in the *Model Library*, or you can choose your model configuration through the catalog view. For more information, see [Model Library](model-library-fce6fea.md) and [Model Configuration](model-configuration-be3cd61.md).
 

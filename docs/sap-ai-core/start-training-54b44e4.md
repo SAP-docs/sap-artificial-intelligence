@@ -64,7 +64,7 @@
     ```
     curl --request GET $AI_API_URL/v2/lm/executions/$EXECUTION \ \
         --header "Authorization: Bearer $TOKEN" \
-        --header "ai-resource-group: $RESOURCE_GROUP"  
+        --header "AI-Resource-Group: $RESOURCE_GROUP"  
     ```
 
     > ### Restriction:  
@@ -129,7 +129,7 @@
     <tr>
     <td valign="top">
     
-    ai-resource-group
+    AI-Resource-Group
     
     </td>
     <td valign="top">

@@ -31,7 +31,7 @@ Run the following code:
 ```
 curl --request DELETE $AI_API_URL/v2/lm/executions/$EXECUTION \ \
 							--header "Authorization: Bearer $TOKEN" \
-							--header "ai-resource-group: $RESOURCE_GROUP"  
+							--header "AI-Resource-Group: $RESOURCE_GROUP"  
 							
 						
 ```

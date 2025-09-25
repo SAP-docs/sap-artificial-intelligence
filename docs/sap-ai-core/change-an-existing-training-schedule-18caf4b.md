@@ -34,7 +34,7 @@ Submit a PATCH request:
 ```
 curl --location --request PATCH $AI_API_URL/v2/lm/executions?executionScheduleId=$EXECUTION_SCHEDULE
 --header “Authorization: Bearer $TOKEN” \
---header “ai-resource-group: $RESOURCE_GROUP” \
+--header “AI-Resource-Group: $RESOURCE_GROUP” \
 --data-raw '{ "cron": "0 0 * * *"
 }'
 ```

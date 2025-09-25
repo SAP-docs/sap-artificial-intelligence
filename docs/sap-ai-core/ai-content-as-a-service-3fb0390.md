@@ -45,6 +45,8 @@ SAP AI Core helps users provide their AI content available as a service on the S
 The service provider main tenant needs to prepare the service custom resource. The custom resource contains service details, reference to broker credentials or secrets, and capabilities configured for service consumers.
 -   **[Getting Started as a Service Provider](getting-started-as-a-service-provider-50a6d9f.md "")**  
 
+-   **[Metering](metering-6152f95.md "Describes how SubaccountID and ServiceInstanceID are available as environment variables in the workflow runtime for metering.")**  
+Describes how SubaccountID and ServiceInstanceID are available as environment variables in the workflow runtime for metering.
 -   **[Offboarding](offboarding-1a33323.md "")**  
 
 -   **[Shared Resource Group](shared-resource-group-dc1e577.md "")**  

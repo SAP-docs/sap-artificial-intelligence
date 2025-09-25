@@ -2,7 +2,7 @@
 
 # Update a Generic Secret
 
-To update a generic secret, use the PATCH endpoint as shown below. The PATCH operation replaces the secret with the data provided. This can be used for rotating secret credentials.
+To update a generic secret, use the PATCH endpoint as shown below. The PATCH operation updates the data and/or labels provided. This can be used for rotating secret credentials.
 
 <a name="task_i3h_n13_tcc"/>
 
@@ -39,6 +39,8 @@ To allow the rotation of tenant-wide secrets for long-running deployments withou
 
 Submit a PATCH request to the endpoint `/v2/admin/secrets/"$SECRET_NAME"`. Specify the scope via the headers:
 
+Specify the scope of the request via the header `AI-Tenant-Scope` and specify the scope via the or `AI-Resource-Group`:
+
 -   `AI-Tenant-Scope` : `true`. The operation will be performed at the main-tenant level.
 -   `AI-Resource-Group` : <code><i class="varname">&lt;resource-group-name&gt;</i></code>. The operation will be performed at the resource-group level.
 -   `AI-Tenant-Scope` : `true` and `AI-Resource-Group`: `*`. The operation will be performed at the tenant-wide level.
@@ -52,8 +54,28 @@ curl --location --request PATCH "$AI_API_URL/v2/admin/secrets/$SECRET_NAME" \
 		"data": {
 			"some-credential": "bXktc2Vuc2l0aXZlLWRhdGE="
 			}
+		"labels": [
+			{"key": "ext.ai.sap.com/<key1>", "value": "<value1>"},
+			{"key": "ext.ai.sap.com/<key2>", "value": "<value2>"}
+			]
 }'
 ```
+
+
+
+<a name="task_i3h_n13_tcc__result_wgs_ylt_ngc"/>
+
+## Results
+
+> ### Output Code:  
+> ```
+> {
+> "message": "The secret has been modified",
+> "name": "my-generic-secret"
+> }
+> ```
+
+The response confirms the successful update of the secret. Label updates are applied immediately without requiring secret recreation. You can verify label updates by retrieving the secret using the GET endpoint.
 
 <a name="task_cxf_n13_tcc"/>
 
@@ -98,6 +120,10 @@ To allow the rotation of tenant-wide secrets for long-running deployments withou
     > 	"data": {
     > 		"updated-credentials": "bXktc2VjcmV0LW90aGVyLWNyZWRlbnRpYWw="
     > 	}
+    > 	"labels": [
+    > 			{"key": "ext.ai.sap.com/<key1>", "value": "<value1>"},
+    > 			{"key": "ext.ai.sap.com/<key2>", "value": "<value2>"}
+    > 			]
     > }
     > 					
     > ```
@@ -107,6 +133,16 @@ To allow the rotation of tenant-wide secrets for long-running deployments withou
     -   `AI-Tenant-Scope` : `true`. The operation will be performed at the main-tenant level.
     -   `AI-Resource-Group` : <code><i class="varname">&lt;resource-group-name&gt;</i></code>. The operation will be performed at the resource-group level.
     -   `AI-Tenant-Scope` : `true` and `AI-Resource-Group`: `*`. The operation will be performed at the tenant-wide level.
+
+    You can update labels alongside or instead of secret data. Only labels with the `ext.ai.sap.com/` prefix can be modified.
+
+    > ### Restriction:  
+    > The following labels cannot be updated via PATCH:
+    > 
+    > -   `ext.ai.sap.com/document-grounding`
+    > -   `ext.ai.sap.com/documentRepositoryType`
+
+    To remove a label, set its value to an empty string \(""\).
 
 2.  Send the request.
 
@@ -124,4 +160,6 @@ To allow the rotation of tenant-wide secrets for long-running deployments withou
 > "name": "my-generic-secret"
 > }
 > ```
+
+The response confirms the successful update of the secret. Label updates are applied immediately without requiring secret recreation. You can verify label updates by retrieving the secret using the GET endpoint.
 

@@ -188,10 +188,10 @@ The grounding management app lets you manage the lifecycle of your data pipeline
 		
 	")**  
 
--   **[Orchestration](orchestration-4953dc1.md "The orchestration service operates under the global AI scenario
-                orchestration, which is managed by SAP AI Core. This service enables the use of various generative AI
-            models with a unified code, configuration, and deployment.")**  
-The orchestration service operates under the global AI scenario `orchestration`, which is managed by SAP AI Core. This service enables the use of various generative AI models with a unified code, configuration, and deployment.
+-   **[Orchestration](orchestration-4953dc1.md "The orchestration service runs on SAP AI Core under the global AI scenario
+                orchestration. It provides unified access to multiple generative AI models through consistent
+            code, configuration, and deployment.")**  
+The orchestration service runs on SAP AI Core under the global AI scenario `orchestration`. It provides unified access to multiple generative AI models through consistent code, configuration, and deployment.
 -   **[Administration](administration-3d03a2e.md "")**  
 
 

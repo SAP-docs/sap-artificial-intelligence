@@ -24,6 +24,17 @@ Prompt templates can also be retrieved and consumed in orchestration. For more i
 > 
 > Retrieval by name, scenario, and version are not immutable, and the latest iteration of the prompt template is retrieved.
 
+By default, prompt templates are handled on the main-tenant level. To handle them on resource-group level, add the `AI-Resource-Group-Scope` and `AI-Resource-Group` headers to your requests. For example:
+
+```
+
+--header 'AI-Resource-Group-Scope: true'
+--header 'AI-Resource-Group: <resource group>'
+```
+
+> ### Note:  
+> For CaaS users the resource-group-id is extracted automatically, and does not need to be provided in the headers.
+
 
 
 ## Procedure

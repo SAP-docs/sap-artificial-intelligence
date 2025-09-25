@@ -178,9 +178,9 @@ Register your object store secret details using the endpoint `/v2/admin/objectSt
 
 ## Prerequisites
 
-You have completed the initial setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
+You've completed the initial setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
 
-You have access to a public facing Docker registry over the internet. It is not possible to use a Docker registry behind a VPN or corporate network.
+You have access to a public-facing Docker registry over the internet. It isn't possible to use a Docker registry behind a VPN or corporate network.
 
 
 

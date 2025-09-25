@@ -240,11 +240,10 @@ Infer-L
 </tr>
 </table>
 
-> ### Restriction:  
-> For the Free Tier service plan, only the Starter resource plan is available. Specifying other plans will result in error. For the Standard service plan, all resource plans are available. For more information, see [Free Tier](free-tier-4533adc.md) and [Service Plans](service-plans-c7244c6.md).
-
 > ### Note:  
-> There are limits to the default disk storage size for all of these nodes. Datasets that are loaded to the nodes will consume disk space. If you have large data sets \(larger than 30 GB\), or have large models, you may have to increase the disk size. To do so, use the persistent volume claim in Argo Workflows to specify the required disk size \(see [Volumes](https://argoproj.github.io/argo-workflows/walk-through/volumes/)\).
+> For the Free service plan, only the Starter resource plan is available. Specifying other plans will result in error. For the Standard service plan, all resource plans are available.
+
+There are limits to the default disk storage size for all these nodes. Datasets that are loaded to the nodes will consume disk space. If you have large data sets \(larger than 30 GB\), or have large models, you may have to increase the disk size. To do so, use the persistent volume claim in Argo Workflows to specify the required disk size \(see [Volumes](https://argoproj.github.io/argo-workflows/walk-through/volumes/)\).
 
 **Parent topic:**[Train Your Model](train-your-model-a9ceb06.md "You execute a training workflow to train your AI learning model.")
 

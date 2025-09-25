@@ -52,7 +52,7 @@ To allow the rotation of tenant-wide secrets for long-running deployments withou
         -   It doesn't start or end with a hyphen \(-\).
 
 
-    4.  Enter the secret in `JSON` format. The following example uses Microsoft SharePoint:
+    4.  Enter the secret in `JSON` format. For example:
 
 
     ```

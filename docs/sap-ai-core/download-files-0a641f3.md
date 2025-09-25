@@ -19,7 +19,7 @@ Run the following code:
 ```
 curl --location --request GET “$AI_API_URL/v2/lm/dataset/files/$SECRET_NAME/$FILE_PATH” \\
 	--header “Authorization: Bearer $TOKEN” \
-	--header “ai-resource-group: $RESOURCE_GROUP” \
+	--header “AI-Resource-Group: $RESOURCE_GROUP” \
 	--data @$FILE_LOCATION
 ```
 

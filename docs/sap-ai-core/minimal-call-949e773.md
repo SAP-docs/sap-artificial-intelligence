@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
-You have a running orchestration deployment. For more information, see [Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4387aa7.md).
+You have a running orchestration deployment and have retrieved your orchestration deployment URL. For more information, see [Get Your Orchestration Deployment URL](get-your-orchestration-deployment-url-ec7c703.md) and [Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4387aa7.md).
 
 
 
@@ -22,7 +22,7 @@ A minimal call to orchestration contains only configurations of the required tem
 curl --request POST $ORCH_DEPLOYMENT_URL/completion \
     --header 'content-type: application/json' \
     --header "Authorization: Bearer $TOKEN" \
-    --header "ai-resource-group: $RESOURCE_GROUP" \
+    --header "AI-Resource-Group: $RESOURCE_GROUP" \
     --data-raw '{
   "orchestration_config": {
     "module_configurations": {

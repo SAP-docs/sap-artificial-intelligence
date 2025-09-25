@@ -52,7 +52,7 @@
 
         For selected models, image inputs are supported, and can be added using the <span class="SAP-icons-V5"></span> \(add image\)icon or copy and paste.
 
-        Prompt messages are limited to 2.50mb across all inputs.
+        Prompt messages are limited to 5.00mb across all inputs.
 
         > ### Tip:  
         > If the result of paste \([ctrl\] + [v\]  or [cmd\] + [v\] \) is not as expected, use [ctrl\] + [shift\] + [v\]  or [cmd\] + [shift\] + [v\] .

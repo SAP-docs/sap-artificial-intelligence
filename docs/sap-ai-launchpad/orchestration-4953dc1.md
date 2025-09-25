@@ -2,21 +2,21 @@
 
 # Orchestration
 
-The orchestration service operates under the global AI scenario `orchestration`, which is managed by SAP AI Core. This service enables the use of various generative AI models with a unified code, configuration, and deployment.
+The orchestration service runs on SAP AI Core under the global AI scenario `orchestration`. It provides unified access to multiple generative AI models through consistent code, configuration, and deployment.
 
-In this orchestration, the harmonized API allows you to use different foundation models without changing the client code. To use different foundation models and versions, you need to create at least one orchestration deployment, or use the orchestration deployment in your default resource group.
+Orchestration offers a harmonized API that allows you to use different foundation models without changing the client code. To use different foundation models and versions, you need to create at least one orchestration deployment, or use the orchestration deployment in your default resource group.
 
-Key features include:
+Key features of orchestration include:
 
--   **Templating:** This feature lets you compose prompts with placeholders that are filled during inference.
+-   **Templating:** This feature lets you compose prompts with placeholders that are populated during inference.
 
--   **Content filtering:** This feature allows you to restrict the type of content passed to and received from a generative AI model.
+-   **Content filtering:** This feature allows you to restrict the type of content passed to and received from generative AI models.
 
--   **Data masking:** This feature enables data masking through anonymization or pseudonymization before passing it into a generative AI model. If pseudonymization is used, masked data in the model's response will be unmasked.
+-   **Data masking:** This feature enables anonymization or pseudonymization of data before passing it to a generative AI model. With pseudonymization, masked data in the model's response is automatically restored.
 
--   **Grounding:** This feature lets you integrate external, contextually relevant, domain-specific, or real-time data into AI processes. This data enhances the natural language processing capabilities of pretrained models, which are trained on general material.
+-   **Grounding:** This feature lets you integrate external, domain-specific, or real-time data to enhance pretrained models with contextually relevant information beyond their general training material.
 
--   **Translation:** This feature lets you integrate translation into your orchestration workflow for both input and output.
+-   **Translation:** This feature lets you add translation capabilities for both input and output in your orchestration workflow.
 
 
 The following scenarios are available:

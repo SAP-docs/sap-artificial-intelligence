@@ -29,20 +29,20 @@ You can stop a running execution by submitting a PATCH request to `$AI_API_URL/v
 Run the following code:
 
 ```
-curl --request PATCH $AI_API_URL/v2/lm/executions/$EXECUTION \ --header "Authorization: Bearer $TOKEN" --header "ai-resource-group: $RESOURCE_GROUP" --header "Content-Type: application/json"
-                            -d '{
-                            "targetStatus": "STOPPED"
-                            }'
+curl --request PATCH $AI_API_URL/v2/lm/executions/$EXECUTION \ --header "Authorization: Bearer $TOKEN" --header "AI-Resource-Group: $RESOURCE_GROUP" --header "Content-Type: application/json"
+    -d '{
+    "targetStatus": "STOPPED"
+    }'
                         
 ```
 
 > ### Output Code:  
 > ```json
 > {
->                                 "id": "ee6769e4dc19c0fd",
->                                 "message": "Execution modification scheduled"
->                                 }
->                             
+>     "id": "ee6769e4dc19c0fd",
+>     "message": "Execution modification scheduled"
+> }
+>     
 > ```
 
 <a name="task_cxf_n13_tcc"/>

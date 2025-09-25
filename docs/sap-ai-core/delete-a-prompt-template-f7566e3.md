@@ -21,6 +21,20 @@
 
 Delete a specific version of the prompt template, for imperatively managed prompt templates only.
 
+By default, prompt templates are handled on the main-tenant level. To handle them on resource-group level, add the `AI-Resource-Group-Scope` and `AI-Resource-Group` headers to your requests. For example:
+
+```
+
+--header 'AI-Resource-Group-Scope: true'
+--header 'AI-Resource-Group: <resource group>'
+```
+
+> ### Note:  
+> For CaaS users the resource-group-id is extracted automatically, and does not need to be provided in the headers.
+
+> ### Note:  
+> CaaS users only have write access to prompt templates on a resource-group level.
+
 
 
 <a name="loiof7566e322c334901aab8e670a35a9216__steps_b3t_dwq_fdc"/>

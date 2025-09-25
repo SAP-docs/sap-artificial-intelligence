@@ -10,7 +10,7 @@ A minimal call to orchestration contains only configurations of the required tem
 curl --request POST $ORCH_DEPLOYMENT_URL/completion \
     --header 'content-type: application/json' \
     --header "Authorization: Bearer $TOKEN" \
-    --header "ai-resource-group: $RESOURCE_GROUP" \
+    --header "AI-Resource-Group: $RESOURCE_GROUP" \
     --data-raw '{
   "orchestration_config": {
     "module_configurations": {

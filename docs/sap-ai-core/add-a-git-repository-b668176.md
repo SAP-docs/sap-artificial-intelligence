@@ -17,15 +17,15 @@ You can use your own git repository to version control your SAP AI Core template
 ## Prerequisites
 
 -   You have access to a git repository over the Internet.
--   You have generated a personal access token for your git repository. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+-   You've generated a personal access token for your git repository. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 -   If you want to onboard a git repository hosted on GitLab, make sure that the repository URL contains the `.git` suffix.
 -   Secrets aren't permitted in your repository. If secrets are used, it isn't possible to synchronize content.
 
--   You have completed the initial setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
+-   You've completed the initial setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
 
 
 > ### Note:  
-> When you synchronize resources, make sure that there are no naming collisions. This is important if you use multiple repositories or applications in one tenant. If you experience difficulties during synchronization, we recommend that you use only one repository or application per tenant.
+> When you synchronize resources, make sure that there are no naming collisions, especially if you use multiple repositories or applications in one tenant. If you experience difficulties during synchronization, we recommend that you use only one repository or application per tenant.
 
 
 
@@ -64,6 +64,9 @@ You specify your unique git repository details as follows:
 -   `password`: git personal access token. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 
 
+> ### Tip:  
+> To share a repository between two tenants, register the repository in SAP AI Core separately for each tenant and provide the **same** `username` and `password`.
+
 
 
 <a name="task_i3h_n13_tcc__postreq_cdx_fz1_wcc"/>
@@ -85,15 +88,15 @@ Create an application to sync your folders. For more information, see [Create an
 ## Prerequisites
 
 -   You have access to a git repository over the Internet.
--   You have generated a personal access token for your git repository. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+-   You've generated a personal access token for your git repository. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 -   If you want to onboard a git repository hosted on GitLab, make sure that the repository URL contains the `.git` suffix.
 -   Secrets aren't permitted in your repository. If secrets are used, it isn't possible to synchronize content.
 
--   You have completed the initial setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
+-   You've completed the initial setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
 
 
 > ### Note:  
-> When you synchronize resources, make sure that there are no naming collisions. This is important if you use multiple repositories or applications in one tenant. If you experience difficulties during synchronization, we recommend that you use only one repository or application per tenant.
+> When you synchronize resources, make sure that there are no naming collisions, especially if you use multiple repositories or applications in one tenant. If you experience difficulties during synchronization, we recommend that you use only one repository or application per tenant.
 
 
 
@@ -119,6 +122,9 @@ You specify your unique git repository details as follows:
 
 -   `password`: git personal access token. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 
+
+> ### Tip:  
+> To share a repository between two tenants, register the repository in SAP AI Core separately for each tenant and provide the **same** `username` and `password`.
 
 
 

@@ -9,7 +9,7 @@
 ## Prerequisites
 
 -   You have an SAP AI Core service instance and service key. For more information, see [SAP AI Core Initial Setup Documentation](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/38c4599432d74c1d94e70f7c955a717d.html?locale=en-US&state=PRODUCTION&version=CLOUD).
--   You’re using the `extended` service plan. For more information, see [Service Plans](service-plans-c7244c6.md) and [Update a Service Plan](update-a-service-plan-924f892.md).
+-   You’re using the `extended` service plan. For more information, see [Service Plans](service-plans-c7244c6.md) and [Upgrade a Service Plan](upgrade-a-service-plan-924f892.md).
 -   You have completed the client authorization for your preferred user interface. For more information, see [Use a Service Key](use-a-service-key-3a97465.md).
 
 
@@ -28,7 +28,7 @@ Your default resource group contains a running orchestration deployment. You can
     ```
     curl --request GET $AI_API_URL/v2/lm/deployments \
         --header "Authorization: Bearer $TOKEN" \
-        --header "ai-resource-group: default"  
+        --header "AI-Resource-Group: default"  
     ```
 
 2.  In the response, search for the deployment object where the `configurationName` is `defaultOrchestrationConfig`, and note the `deploymentUrl` associated with this deployment.

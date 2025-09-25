@@ -48,7 +48,7 @@ A configuration is a collection of parameters, artifact references \(such as dat
 Run the following code:
 
 ```
-curl --request POST "$AI_API_URL/v2/lm/configurations" --header "Authorization: Bearer $TOKEN" --header "ai-resource-group: $RESOURCE_GROUP" --header "Content-Type: application/json" \
+curl --request POST "$AI_API_URL/v2/lm/configurations" --header "Authorization: Bearer $TOKEN" --header "AI-Resource-Group: $RESOURCE_GROUP" --header "Content-Type: application/json" \
 -d '{ 
     "name": "dummy-configuration", 
     "executableId": "'"$EXECUTABLE"'", 
@@ -113,7 +113,7 @@ curl --request POST "$AI_API_URL/v2/lm/configurations" --header "Authorization: 
     <tr>
     <td valign="top">
     
-    `ai-resource-group` 
+    `AI-Resource-Group` 
     
     </td>
     <td valign="top">

@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
-You have a running orchestration deployment. For more information, see [Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4387aa7.md).
+You have a running orchestration deployment and have retrieved your orchestration deployment URL. For more information, see [Get Your Orchestration Deployment URL](get-your-orchestration-deployment-url-ec7c703.md) and [Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4387aa7.md).
 
 
 
@@ -24,7 +24,7 @@ In the following example, we use the data masking module to anonymize people, or
 > curl --request POST $ORCH_DEPLOYMENT_URL/completion \
 >     --header 'content-type: application/json' \
 >     --header "Authorization: Bearer $TOKEN" \
->     --header "ai-resource-group: $RESOURCE_GROUP" \
+>     --header "AI-Resource-Group: $RESOURCE_GROUP" \
 >     --data-raw '{
 >   "orchestration_config": {
 >     "module_configurations": {
@@ -234,6 +234,73 @@ When the grounding module is used, the masking module also supports masking of t
 >   }
 > }
 > ```
+
+
+
+<a name="loio592c570f22734ec5ba7881a0aeb49c50__section_xd2_fnt_nfc"/>
+
+## Configuring Replacement Methods
+
+You can configure the replacement method for each entity in the `masking_module_config`. The following methods are supported:
+
+-   `fabricated_data`: Replaces the entity with a randomly generated value of the same type. For example, a person's name might be replaced with another name, and a phone number with a different phone number.
+
+-   `constant`: Replaces the entity with a specified constant value.
+
+    -   In anonymization, the constant value is used directly without any modification \(for example, `MASKED_PERSON`\).
+    -   In pseudonymization, the constant is appended with an incrementing number to ensure uniqueness \(for example, `MASKED_PERSON_1`, `MASKED_PERSON_2`\).
+
+
+If no replacement strategy is specified, the default `constant` replacement method is used with a default constant value \(for example, `MASKED_PERSON` for person entities\).
+
+The following example shows code for fabricated data replacement:
+
+```
+"entities": [
+  {
+    "type": "profile-person",
+    "replacement_strategy": {
+      "method": "fabricated_data"
+    }
+  }
+]
+```
+
+The following example shows code for constant replacement with a custom value:
+
+```
+"entities": [
+  {
+    "type": "profile-person",
+    "replacement_strategy": {
+      "method": "constant",
+      "value": "PERSON_REDACTED"
+    }
+  }
+]
+```
+
+
+
+### Using Custom Entities
+
+In addition to the standard entity types, you can define custom entities using regular expressions. This allows you to mask specific patterns in your data that are not covered by the standard entity types. Custom entities require specifing the `constant` replacement strategy.
+
+The following example shows code for constant replacement with a custom entity:
+
+```
+"entities": [
+  {
+    "regex": "[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+",
+    "replacement_strategy": {
+      "method": "constant",
+      "value": "REDACTED_EMAIL"
+    }
+  }
+]
+```
+
+In this example, the regular expression `[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+` is used to identify email addresses. The identified email addresses will be replaced with `REDACTED_EMAIL_1`, `REDACTED_EMAIL_2`, and so on.
 
 **Related Information**  
 

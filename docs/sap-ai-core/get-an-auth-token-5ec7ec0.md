@@ -41,7 +41,7 @@ curl is likely to be installed on your operating system by default. To check, op
     curl --request POST \
       --url "${AUTH_URL}/oauth/token" \
       --header 'content-type: application/x-www-form-urlencoded' \
-      --data grant_type=client_credentials \
+      --data 'grant_type=client_credentials' \
       --data client_id="$CLIENT_ID" \
       --data client_secret="$CLIENT_SECRET"
     ```

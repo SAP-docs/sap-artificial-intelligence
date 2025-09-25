@@ -10,9 +10,8 @@ As a system administrator, you create applications which sync with Git repositor
 
 ## Prerequisites
 
-You have the `aicore_admin_applications_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
-
-The source Git repository required for the application has been added. See [Add a Git Repository](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/add-git-repository).
+-   You have the `aicore_admin_applications_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
+-   The source Git repository required for the application has been added. See [Add a Git Repository](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/add-git-repository).
 
 
 
@@ -68,7 +67,7 @@ The new application is created.
 
 
 
-<a name="task_jdm_nrg_4xb__d78e869"/>
+<a name="task_jdm_nrg_4xb__d79e885"/>
 
 ## Prerequisites
 
@@ -76,15 +75,15 @@ You have successfully created an application.
 
 
 
-<a name="task_jdm_nrg_4xb__d78e875"/>
+<a name="task_jdm_nrg_4xb__d79e891"/>
 
 ## Context
 
-For the SAP AI Core runtime only, automatic syncs take place at ~3-minute intervals, and it's possible to start the sync manually.
+For the SAP AI Core runtime only, automatic syncs occur approximately every three minutes. You can also start the sync manually.
 
 
 
-<a name="task_jdm_nrg_4xb__d78e883"/>
+<a name="task_jdm_nrg_4xb__d79e899"/>
 
 ## Procedure
 

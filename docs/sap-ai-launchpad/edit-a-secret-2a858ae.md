@@ -34,14 +34,13 @@
     ```
     {
     		"some-credential": "bXktc2VjcmV0LWNyZWRlbnRpYWw=",
-    		"other-credentials": "bXktc2VjcmV0LW90aGVyLWNyZWRlbnRpYWw="
-    		}
+    		"other-credentials": "bXktc2VjcmV0LW90aGVyLWNyZWRlbnRpYWw="}
     ```
 
     > ### Note:  
     > The API expects sensitive data to be Base64-encoded. You can easily encode your data in Base64 format using the following command on Linux or MacOS: `echo -n 'my-sensitive-data' | base64`
 
-    Add labels to your secrets. Labels are only required for specific services. They’re predefined and are outlined in the related documentation.
+    Add or update your secret labels.Labels are only required for specific services. They’re predefined and are outlined in the related documentation.
 
 
 

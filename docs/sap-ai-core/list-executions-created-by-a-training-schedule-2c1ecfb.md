@@ -30,7 +30,7 @@ Run the following code:
 ```
 curl --location -- request GET “$AI_API_URL/v2/lm/executionSchedules/$EXECUTION_SCHEDULE” \\
 --header “Authorization: Bearer $TOKEN” \
---header “ai-resource-group: $RESOURCE_GROUP”
+--header “AI-Resource-Group: $RESOURCE_GROUP”
 ```
 
 <a name="task_cxf_n13_tcc"/>

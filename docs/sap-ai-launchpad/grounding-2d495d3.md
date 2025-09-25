@@ -14,5 +14,5 @@ You can provide input variables for data retrieval, which can be used in the tem
 
 You can select a data source. If no sources are selected, all available sources will be used.
 
-![](images/grounding_wo_sap_help_3c875e8.png)
+![](images/grounding_6b_e37f77f.png)
 

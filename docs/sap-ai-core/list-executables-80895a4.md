@@ -48,7 +48,7 @@ An executable is a reusable template that defines a workflow or pipeline for tas
 Run the following code:
 
 ```
-curl --request GET "$AI_API_URL/v2/lm/scenarios" --header "Authorization: Bearer $TOKEN" --header "ai-resource-group: $RESOURCE_GROUP"
+curl --request GET "$AI_API_URL/v2/lm/scenarios" --header "Authorization: Bearer $TOKEN" --header "AI-Resource-Group: $RESOURCE_GROUP"
 ```
 
 
@@ -228,7 +228,7 @@ curl --request GET "$AI_API_URL/v2/lm/scenarios" --header "Authorization: Bearer
 Run the following code:
 
 ```
-curl --request GET "{{apiurl}}/v2/lm/scenarios/{{scenarioid}}/executables" --header "Authorization: Bearer $TOKEN" --header "ai-resource-group: $RESOURCE_GROUP" 
+curl --request GET "{{apiurl}}/v2/lm/scenarios/{{scenarioid}}/executables" --header "Authorization: Bearer $TOKEN" --header "AI-Resource-Group: $RESOURCE_GROUP" 
 ```
 
 
@@ -318,7 +318,7 @@ curl --request GET "{{apiurl}}/v2/lm/scenarios/{{scenarioid}}/executables" --hea
     <tr>
     <td valign="top">
     
-    `ai-resource-group` 
+    `AI-Resource-Group` 
     
     </td>
     <td valign="top">
@@ -393,7 +393,7 @@ curl --request GET "{{apiurl}}/v2/lm/scenarios/{{scenarioid}}/executables" --hea
     <tr>
     <td valign="top">
     
-    `ai-resource-group` 
+    `AI-Resource-Group` 
     
     </td>
     <td valign="top">

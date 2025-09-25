@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
-You have a running orchestration deployment. For more information, see [Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4387aa7.md).
+You have a running orchestration deployment and have retrieved your orchestration deployment URL. For more information, see [Get Your Orchestration Deployment URL](get-your-orchestration-deployment-url-ec7c703.md) and [Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4387aa7.md).
 
 
 
@@ -18,7 +18,7 @@ You have a running orchestration deployment. For more information, see [Create a
 
 In this example, you configure content filtering on inputs using the `filtering_module_config` field within `module_configurations`. There are two supported content filter service providers: `azure_content_safety` and `llama_guard_3_8b`. You can configure either or both in the `input.filters` field of `filtering_module_config`.
 
-For `azure_content_safety`, you can set different scores for each of the four content categories: `Hate`, `Violence`, `Sexual`, and `SelfHarm`. Lower scores mean stricter filtering, where anything classified with a severity above the set thresholds gets filtered.
+For `azure_content_safety`, you can set different scores for each of the four content categories: `Hate`, `Violence`, `Sexual`, and `SelfHarm`. Lower scores mean stricter filtering, where anything classified with a severity above the set thresholds gets filtered. Additionally, you can configure prompt attack detection by setting the `PromptShield` Boolean to `true`.
 
 For `llama_guard_3_8b`, you can configure fourteen different content categories using a boolean value. Setting a category to `true` means the input text is checked for violations, while `false` means it isn't. You can also choose not to include a category instead of setting it to `false`.
 
@@ -28,7 +28,7 @@ The input is sent to the LLM deployment only if it passes the configured filters
 curl --request POST $ORCH_DEPLOYMENT_URL/completion \
     --header 'content-type: application/json' \
     --header "Authorization: Bearer $TOKEN" \
-    --header "ai-resource-group: $RESOURCE_GROUP" \
+    --header "AI-Resource-Group: $RESOURCE_GROUP" \
     --data-raw '{
   "orchestration_config": {
     "module_configurations": {
@@ -56,7 +56,7 @@ curl --request POST $ORCH_DEPLOYMENT_URL/completion \
             {
               "type": "azure_content_safety",
               "config": {
-                "Hate": 0, "Violence": 2, "Sexual": 4, "SelfHarm": 6
+                "Hate": 0, "Violence": 2, "Sexual": 4, "SelfHarm": 6, "PromptShield": true
               }
             },
             {
@@ -112,6 +112,9 @@ Note that if you configure multiple filters, a violation of any filter results i
       "message": "Content filtered due to Safety violations. Please modify the prompt and try again.",
       "data": {
         "azure_content_safety": {
+        "userPromptAnalysis": {
+            "attackDetected": false
+          },
           "Hate": 0,
           "SelfHarm": 0,
           "Sexual": 0,

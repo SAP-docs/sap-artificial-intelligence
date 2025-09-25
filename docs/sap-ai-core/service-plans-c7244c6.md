@@ -1,43 +1,122 @@
 <!-- loioc7244c6a7e3b4ffc928a2564c216e7c7 -->
 
+<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
+
 # Service Plans
 
 The SAP AI Core service plan you choose determines pricing, conditions of use, resources, available services, and hosts.
 
-Your use case will determine whether you choose a free tier option for SAP AI Core or a paid service plan.
+Your choice depends on your use case:
 
-The following service plans are available:
+-   Use the *Free* plan to explore the service with limited resources and community-only support.
 
--   Free
+-   Use the *Standard* plan for production workloads without generative AI.
 
--   Standard
-
--   Extended
+-   Use the *Extended* plan for production workloads with generative AI hub access.
 
 
-> ### Restriction:  
-> SAP AI Core free tier is only available in SAP BTP free tier, not SAP BTP trial.
+
+
+<a name="loioc7244c6a7e3b4ffc928a2564c216e7c7__section_afd_psm_lgc"/>
+
+## Comparison of Service Plans
 
 
 <table>
 <tr>
 <th valign="top">
 
-Service Plan
+Feature / Plan
 
 </th>
 <th valign="top">
 
-Details
+Free \(Exploration\)
 
 </th>
 <th valign="top">
 
-Account Type
+Standard \(Production\)
+
+</th>
+<th valign="top">
+
+Extended \(Production + Generative AI\)
 
 </th>
 </tr>
 <tr>
+<td valign="top">
+
+Account type
+
+</td>
+<td valign="top">
+
+Enterprise account \(SAP BTP free tier only; not available in SAP BTP trial\)
+
+</td>
+<td valign="top">
+
+Enterprise account
+
+</td>
+<td valign="top">
+
+Enterprise account
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Support
+
+</td>
+<td valign="top">
+
+Community support only \(no SLA\)
+
+</td>
+<td valign="top">
+
+Full SAP support with SLA
+
+</td>
+<td valign="top">
+
+Full SAP support with SLA
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Generative AI hub
+
+</td>
+<td valign="top">
+
+<span style="color:#cc1919;"><span class="SAP-icons-V5"></span></span> Not included
+
+</td>
+<td valign="top">
+
+<span style="color:#cc1919;"><span class="SAP-icons-V5"></span></span> Not included
+
+</td>
+<td valign="top">
+
+<span style="color:#007833;"><span class="SAP-icons-V5"></span></span> Included
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Pricing
+
+</td>
 <td valign="top">
 
 Free
@@ -45,91 +124,143 @@ Free
 </td>
 <td valign="top">
 
--   Get to know SAP AI Core using a free service, with limitations.
--   Only community support is available for free tier service plans and these are not subject to SLAs.
-
--   Limitations:
-    -   Limited to one instance per Global account
-    -   Limited to one execution or deployment running at any given time
-    -   Limited to the default resource group
-    -   Limited to the Starter AI Core resource plan
-    -   Limited to active instance\(s\) of either free or standard plan \(mutually exclusive\) within a subaccount
-    -   Generative AI hub not included
-
--   For region information, see [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core?region=all&tab=feature&commercialModel=cpea).
-
-
-> ### Note:  
-> Customers can create one SAP AI Core free plan instance, if and only if there are no active standard plan instances within the subaccount. Tenants can update their plan from free to standard, but not from standard to free. A standard plan SAP AI Core instance cannot be created if there is an active free plan instance in the subaccount.
-
-For more information, see [Free Tier](free-tier-4533adc.md), the Starter plan in [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md) and [Using Free Service Plans](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/524e1081d8dc4b0f9d055a6bec383ec3.html?q=using%20free%20service%20plans).
+Pay per resource + baseline charge
 
 </td>
 <td valign="top">
 
-Enterprise
+Pay per resource + model/token usage
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-Standard
+Instances per subaccount
 
 </td>
 <td valign="top">
 
--   Service plan intended for productive usage.
-
--   Use of resources for custom workloads is charged using adaptable pricing according to the resource type used, with the addition of a baseline charge for service use.
-
--   Limitations:
-    -   An SAP AI Core standard plan instance cannot be created if there is an active free plan instance
-    -   Generative AI hub not included
-
--   For region information, see [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core?region=all&tab=feature&commercialModel=cpea).
-
-
-For more information, see [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md) and [Metering and Pricing for SAP AI Core](metering-and-pricing-for-sap-ai-core-1e6cbac.md).
+1 instance \(mutually exclusive with Standard\)
 
 </td>
 <td valign="top">
 
-Enterprise
+1+ instances \(mutually exclusive with Free\)
+
+</td>
+<td valign="top">
+
+1+ instances
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-Extended
+Executions/Deployments
 
 </td>
 <td valign="top">
 
--   Includes the Standard plan, with the addition of generative AI capabilities in the generative AI hub.
-
--   Use of provided generative AI models is charged using adaptable pricing according to model choice, and the number of tokens sent and received.
-
--   For region information, see [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core?region=all&tab=feature&commercialModel=cpea).
-
-
-For more information, see [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md) and [Metering and Pricing for SAP AI Core](metering-and-pricing-for-sap-ai-core-1e6cbac.md).
+1 running execution or deployment at a time
 
 </td>
 <td valign="top">
 
-Enterprise
+Multiple
+
+</td>
+<td valign="top">
+
+Multiple
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Resource groups
+
+</td>
+<td valign="top">
+
+Default group only
+
+</td>
+<td valign="top">
+
+Multiple \(quota applies\)
+
+</td>
+<td valign="top">
+
+Multiple \(quota applies\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Resource plan
+
+</td>
+<td valign="top">
+
+Starter plan only
+
+</td>
+<td valign="top">
+
+Choice of resource plans
+
+</td>
+<td valign="top">
+
+Choice of resource plans
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Upgrade/downgrade rules
+
+</td>
+<td valign="top">
+
+Upgrade from Free to Standard is possible.
+
+Downgrade from Standard to Free is not possible.
+
+</td>
+<td valign="top">
+
+Cannot be created if a Free plan is active in the same subaccount.
+
+</td>
+<td valign="top">
+
+Cannot be created if a Free plan is active in the same subaccount.
 
 </td>
 </tr>
 </table>
 
+> ### Note:  
+> You can only run either a Free or a Standard plan in the same subaccount — not both. Extended follows the same rules as Standard.
+
+For supported regions, see [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core?region=all&tab=feature&commercialModel=cpea).
 
 
-<a name="loioc7244c6a7e3b4ffc928a2564c216e7c7__section_w5l_cf2_1vb"/>
 
-## Deployment Quotas
+<a name="loioc7244c6a7e3b4ffc928a2564c216e7c7__section_ncg_5wm_lgc"/>
+
+## Quotas
+
+
+
+### Deployment Quotas
 
 Each tenant is assigned a default quota that limits the number of deployments and replicas per deployment. If you reach this quota, your deployment will not be created and you will be notified accordingly. You can free up your quota by deleting existing deployments.
 
@@ -137,9 +268,7 @@ Alternatively, you can request an increase to your quota by creating a ticket on
 
 
 
-<a name="loioc7244c6a7e3b4ffc928a2564c216e7c7__section_dyl_5kb_r1c"/>
-
-## Resource Group Quotas
+### Resource Group Quotas
 
 > ### Restriction:  
 > The maximum number of resource groups is limited at tenant level to 50. If you reach this limit, you receive an error message. To free up space, delete some resource groups. Alternatively, raise a ticket to increase your quota.
@@ -148,34 +277,22 @@ Alternatively, you can request an increase to your quota by creating a ticket on
 
 
 
-<a name="loioc7244c6a7e3b4ffc928a2564c216e7c7__section_ytk_tjz_ydc"/>
-
-## Tenant-Wide Generic Secrets Quotas
+### Tenant-Wide Generic Secrets Quotas
 
 Each tenant can have a maximum of five tenant-wide secrets. If you reach this limit, you receive an error message. To free up space, delete tenant-wide secrets as described at [Delete a Generic Secret](delete-a-generic-secret-d5d5187.md). Alternatively, submit a ticket to request an increase in your quota.
 
--   **[Free Tier](free-tier-4533adc.md "Enable the free tier option to get to know SAP AI Core with usage
-		limits, to familiarize yourself with the service. Note that usage is limited with this option.")**  
-Enable the free tier option to get to know SAP AI Core with usage limits, to familiarize yourself with the service. Note that usage is limited with this option.
--   **[Metering and Pricing for SAP AI Core](metering-and-pricing-for-sap-ai-core-1e6cbac.md "SAP AI Core
-		provides a scalable infrastructure for AI model management, with usage-based pricing that
-		lets you pay only for the resources you use.")**  
-SAP AI Core provides a scalable infrastructure for AI model management, with usage-based pricing that lets you pay only for the resources you use.
--   **[Choose a Resource Plan](choose-a-resource-plan-c58d4e5.md "You can configure SAP AI Core to use different infrastructure
-		resources for
-		different
-		tasks, based on demand.
-		SAP AI Core provides several preconfigured infrastructure bundles called
-			“resource plans” for this purpose.")**  
-You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.
--   **[Update a Service Plan](update-a-service-plan-924f892.md "Learn how to update to the SAP AI Core standard or extended plan,
-		after exploring the product in Free Tier.")**  
-Learn how to update to the SAP AI Core standard or extended plan, after exploring the product in Free Tier.
+-   **[Set Up the Free Plan](set-up-the-free-plan-4533adc.md "The Free service plan lets you try out SAP AI Core for testing
+		and familiarization purposes at no cost.")**  
+The Free service plan lets you try out SAP AI Core for testing and familiarization purposes at no cost.
+-   **[Upgrade a Service Plan](upgrade-a-service-plan-924f892.md "Upgrade your SAP AI Core service
+		instance from the Free plan to a Standard or Extended plan while keeping your data and
+		models.")**  
+Upgrade your SAP AI Core service instance from the Free plan to a Standard or Extended plan while keeping your data and models.
 
 **Related Information**  
 
 
-[Free Tier](free-tier-4533adc.md "Enable the free tier option to get to know SAP AI Core with usage limits, to familiarize yourself with the service. Note that usage is limited with this option.")
+[Set Up the Free Plan](set-up-the-free-plan-4533adc.md "The Free service plan lets you try out SAP AI Core for testing and familiarization purposes at no cost.")
 
 [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core?service_plan=standard&region=europe(frankfurt)&tab=service_plan)
 

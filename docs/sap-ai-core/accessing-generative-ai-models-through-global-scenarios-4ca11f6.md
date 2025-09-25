@@ -24,10 +24,10 @@ Access to generative AI models falls under the global AI scenarios `foundation-m
 
 -   Open Source Framework Support: While we support LangChain, a popular open-source framework, we can't support every framework available. If a specific open-source framework is required, you might need to extend it for support or consider alternative integration methods.
 
--   **[Orchestration](orchestration-8d02235.md "The orchestration service operates under the global AI scenario
-                orchestration, which is managed by SAP AI Core. This service enables the use of various generative AI
-            models with a unified code, configuration, and deployment.")**  
-The orchestration service operates under the global AI scenario `orchestration`, which is managed by SAP AI Core. This service enables the use of various generative AI models with a unified code, configuration, and deployment.
+-   **[Orchestration](orchestration-8d02235.md "The orchestration service runs on SAP AI Core under the global AI scenario
+                orchestration. It provides unified access to multiple generative AI models through consistent
+            code, configuration, and deployment.")**  
+The orchestration service runs on SAP AI Core under the global AI scenario `orchestration`. It provides unified access to multiple generative AI models through consistent code, configuration, and deployment.
 -   **[Foundation Models](foundation-models-2d981fb.md "The foundation models service operates under the global AI scenario
 			foundation-models, which is managed by SAP AI Core.")**  
 The foundation models service operates under the global AI scenario `foundation-models`, which is managed by SAP AI Core.
@@ -35,7 +35,7 @@ The foundation models service operates under the global AI scenario `foundation-
 **Related Information**  
 
 
-[Orchestration](orchestration-8d02235.md "The orchestration service operates under the global AI scenario orchestration, which is managed by SAP AI Core. This service enables the use of various generative AI models with a unified code, configuration, and deployment.")
+[Orchestration](orchestration-8d02235.md "The orchestration service runs on SAP AI Core under the global AI scenario orchestration. It provides unified access to multiple generative AI models through consistent code, configuration, and deployment.")
 
 [Foundation Models](foundation-models-2d981fb.md "The foundation models service operates under the global AI scenario foundation-models, which is managed by SAP AI Core.")
 

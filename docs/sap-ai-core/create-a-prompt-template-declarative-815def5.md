@@ -22,6 +22,9 @@
 > ### Recommendation:  
 > The declarative API utilizes SAP AI Core applications and is recommended for runtime application use cases and CI/CD pipelines. You can manage your prompt templates in a git repository declaratively. Your commits are automatically synchronized with the prompt registry.
 
+> ### Note:  
+> Declarative prompt templates are always handled on the main-tenant level.
+
 
 
 <a name="loio815def52a7254a8f8e3e48db41ab57a3__steps_khq_fbq_hdc"/>

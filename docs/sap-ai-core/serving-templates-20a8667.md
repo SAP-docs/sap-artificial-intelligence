@@ -263,47 +263,93 @@ metadata:
     artifacts.ai.sap.com/textmodel.labels: | 
         {"ext.ai.sap.com/customkey1":"customvalue1", "ext.ai.sap.com/customkey2":"customvalue2"}
   labels:
-    scenarios.ai.sap.com/id: "text-clf-tutorial"
-    ai.sap.com/version: "1.0.0"
+    ai.sap.com/version: 0.1.0
+    scenarios.ai.sap.com/id: "text-clf-tutorial" 
 spec:
   inputs:
-    parameters: 
-       - name: modelName
-         default: value
-         type: string
-         description: description of the parameter
+    parameters:
+      - name: modelName
+        default: value
+        type: string
+        description: description of the parameter
+      - name: image
+        default: default-image-value
+        type: string
+        description: description of the parameter
     artifacts:
       - name: textmodel
   template:
     apiVersion: "serving.kserve.io/v1beta1"
     metadata:
       annotations: |
-        autoscaling.knative.dev/metric: concurrency
-        autoscaling.knative.dev/target: 1
-        autoscaling.knative.dev/targetBurstCapacity: 0
+        autoscaling.knative.dev/metric: rps
+        autoscaling.knative.dev/target: 100
+        autoscaling.knative.dev/targetBurstCapacity: 70
       labels: |
         ai.sap.com/resourcePlan: starter
     spec: |
       predictor:
         imagePullSecrets:
-        - name: <Name of your Docker registry secret>
+          - name: <Name of your Docker registry secret>
         minReplicas: 0
         maxReplicas: 5
         containers:
         - name: kserve-container
-          image: "<DOCKER IMAGE URL GOES HERE>"
+          image: {{inputs.parameters.image}}
           ports:
-            - containerPort: 9001
-              protocol: TCP
+          - containerPort: 9001
+            protocol: TCP
           env:
-            - name: STORAGE_URI
-              value: "{{inputs.artifacts.textmodel}}"
+          - name: STORAGE_URI
+            value: "{{inputs.artifacts.textmodel}}"
 ```
 
 
 
 -   STORAGE\_URI environment variable name is currently hard-coded in KServe to indicate that the model should be downloaded when a custom predictor is configured with the env varSTORAGE\_URI.
 -   /mnt/models is currently hard-coded in KServe. When you try this example with your own docker container, read the models from that path.
+
+> ### Caution:  
+> In the example above, the image parameter is provided as an input. The image value is resolved during rendering, based on priority. `{{inputs.parameters.image}}` can be rendered from two possible sources, with the following priority:
+> 
+> 1.  The image value may be specified in `configuration/<configuration_id>` when creating the configuration
+> 
+>     ```
+>     curl --location --request POST '{{apiurl}}/v2/lm/configurations'  \
+>     --header 'AI-Resource-Group: default' \
+>     --header 'Authorization: Bearer {TOKEN}' \
+>     --header 'Content-Type: application/json' \
+>     --data-raw '{
+>       "name": "<configuration_id>",
+>       "executableId": "<executable_id>",
+>       "scenarioId": "<scenario_id>",
+>       "versionId": "0.1.0",
+>       "parameterBindings": [
+>         {
+>           "key": "image",
+>           "value": "source-1-image-value"
+>         }
+>       ],
+>       "inputArtifactBindings": [
+>       ]
+>     }'
+>     ```
+> 
+> 2.  The default image value may be specified in the ServingTemplate
+> 
+>     ```
+>     spec:
+>       inputs:
+>         parameters:
+>         - default: "default-image-value"
+>           name: image
+>           type: string
+>     ```
+> 
+> 
+> If source 1 exists, updating the default value in source 2 will NOT affect the rendered deployment image.
+> 
+> If source 1 does not exist, the deployment image will use \(and respond to changes in\) the default value from source 2.
 
 
 

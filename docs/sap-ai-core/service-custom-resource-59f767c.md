@@ -23,6 +23,7 @@ spec:
 			staticDeployments: true
 			userDeployments: true
 			createExecutions: true
+			userPromptTemplates: true
 		logs:
 			executions: true
 			deployments: true
@@ -138,12 +139,12 @@ Key reference for password from registered Secret.
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="6">
+<td valign="top" rowspan="7">
 
 capabilities
 
 </td>
-<td valign="top" rowspan="3">
+<td valign="top" rowspan="4">
 
 basic
 
@@ -180,6 +181,18 @@ createExecutions
 <td valign="top">
 
 Consumers can create executions \(default: true\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+userPromptTemplates
+
+</td>
+<td valign="top">
+
+Consumers can create prompt templates \(default: true\).
 
 </td>
 </tr>

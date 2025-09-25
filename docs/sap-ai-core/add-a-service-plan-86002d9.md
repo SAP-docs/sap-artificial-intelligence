@@ -2,7 +2,7 @@
 
 # Add a Service Plan
 
-\>
+Configure the required entitlements to make SAP AI Core accessible in your subaccount.
 
 
 
@@ -10,7 +10,7 @@
 
 1.  In SAP BTP cockpit, navigate to your global account and choose *Entitlements* and then *Entity Assignments*.
 
-2.  From the *Select Entities* box, select your subaccount and click *Select*.
+2.  Use the input help to select your subaccount and click *Edit*.
 
 3.  Choose *Edit*.
 
@@ -31,6 +31,10 @@
 
     ![](images/Save_Standard_Plan_58d9353.png)
 
+
+-   **[Service Plans](service-plans-c7244c6.md "The SAP AI Core service plan you choose determines pricing,
+		conditions of use, resources, available services, and hosts.")**  
+The SAP AI Core service plan you choose determines pricing, conditions of use, resources, available services, and hosts.
 
 **Related Information**  
 

@@ -38,7 +38,7 @@
 
 2.  In the side navigation, expand the *Generative AI Hub* and choose *Chat*.
 
-    1.  **Optional:** Adjust the model settings by choosing *Configure*, then the *Model Settings* tab.
+    1.  **Optional:** Adjust the model settings by choosing the :gear: icon, then the *Model Settings* tab.
 
         Settings include:
 
@@ -46,7 +46,7 @@
 
             When choosing a model, you can filter by input type.
 
-            ![](images/configure_chat_4732b30.png)
+            ![](images/model_config_7a_a647393.png)
 
         -   **Parameters:** Different models support different parameters and values. For more information, see the documentation from the model provider. Also see [Models and Scenarios in the Generative AI Hub](models-and-scenarios-in-the-generative-ai-hub-fef463b.md).
         -   **Streaming Response:** Where supported, chat responses are output in real time, as they are generated.
@@ -76,15 +76,15 @@
         > If you get an exceeded token count error, reduce the context history.
 
 
-3.  Enter your chat input and press the *Send* icon.
+3.  Enter your chat input and press the <span class="SAP-icons-V5"></span> \(send\) icon.
 
     For selected models, image inputs are supported, and can be added using the <span class="SAP-icons-V5"></span> \(add image\)icon or copy and paste.
 
-    Prompt messages are limited to 2.50 MB across all inputs, including the context history and system message.
+    Prompt messages are limited to 5.00mb across all inputs, including the context history and system message.
 
     If you change your model configuration from a model that supports images to one that doesn't, you will start a new chat.
 
-    ![](images/chat_w_image_4e528a2.png)
+    ![](images/chat_7a_d54e8dc.png)
 
 
 

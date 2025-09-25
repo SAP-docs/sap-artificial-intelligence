@@ -8,6 +8,8 @@ In this section, we'll show you how you can get started with the generative AI h
 
 ## Prerequisites
 
+You have completed the steps described under [Initial Setup](initial-setup-38c4599.md).
+
 The generative AI hub is available only with the `extended` service plan.
 
 

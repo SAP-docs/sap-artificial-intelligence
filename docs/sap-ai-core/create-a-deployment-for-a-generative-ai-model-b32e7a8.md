@@ -11,7 +11,7 @@
 ## Prerequisites
 
 -   You have an SAP AI Core service instance and service key. For more information, see [SAP AI Core Initial Setup Documentation](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/38c4599432d74c1d94e70f7c955a717d.html?locale=en-US&state=PRODUCTION&version=CLOUD).
--   You’re using the `extended` service plan. For more information, see [Service Plans](service-plans-c7244c6.md) and [Update a Service Plan](update-a-service-plan-924f892.md).
+-   You’re using the `extended` service plan. For more information, see [Service Plans](service-plans-c7244c6.md) and [Upgrade a Service Plan](upgrade-a-service-plan-924f892.md).
 
 
 
@@ -252,7 +252,7 @@ Suggests if the modelVersion is latest. See Model Lifecycle for more information
 
     > ### Sample Code:  
     > ```
-    > curl --location '$AI_API_URL/lm/configurations' \
+    > curl --location '$AI_API_URL/v2/lm/configurations' \
     > --header 'AI-Resource-Group: default' \
     > --header 'Content-Type: application/json' \
     > --header "Authorization: Bearer $AUTH_TOKEN" \
@@ -286,7 +286,7 @@ Suggests if the modelVersion is latest. See Model Lifecycle for more information
 
     > ### Sample Code:  
     > ```
-    > curl --location '$AI_API_URL/lm/deployments' \
+    > curl --location '$AI_API_URL/v2/lm/deployments' \
     > --header 'AI-Resource-Group: default' \
     > --header 'Content-Type: application/json' \
     > --header "Authorization: Bearer $AUTH_TOKEN" \
@@ -298,7 +298,7 @@ Suggests if the modelVersion is latest. See Model Lifecycle for more information
 5.  Retrieve the details of your deployment by sending a GET request to the endpoint`{{apiurl}}/v2/lm/deployments`.
 
     ```
-    curl --location 'AI_API_URL/v2/lm/deployments/<deploymentID>' \
+    curl --location '$AI_API_URL/v2/lm/deployments/$DEPLOYMENT_ID' \
     --header 'AI-Resource-Group: default' \
     --header "Authorization: Bearer $AUTH_TOKEN"
     ```

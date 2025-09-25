@@ -464,7 +464,26 @@ Mixed
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+profile-ethnicity
+
+</td>
+<td valign="top">
+
+Ethnicity
+
+</td>
+<td valign="top">
+
+Global
+
+</td>
+</tr>
 </table>
+
+To mask entities based on regular expressions, use custom entities. For more information, see [Configuring Replacement Methods](enhancing-model-consumption-with-data-masking-592c570.md#loio592c570f22734ec5ba7881a0aeb49c50__section_xd2_fnt_nfc).
 
 > ### Caution:  
 > The masking service can obscure personally identifiable information in prompts. However, since it relies on automated detection mechanisms, it can't guarantee that all such information is identified and masked.

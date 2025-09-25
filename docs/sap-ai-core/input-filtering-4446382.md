@@ -24,6 +24,19 @@ The Azure Content Safety classification service recognizes four distinct content
 
 
 
+### Prompt Attack Detection
+
+The Azure Content Safety service also supports prompt attack detection for input text via `PromptShield` configuration. For more information see [Prompt Shields in Azure AI Content Safety](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/concepts/jailbreak-detection).
+
+A prompt attack is a malicious input that is designed to bypass a model's safety mechanisms or override previous instructions. Prompt attacks can lead to the generation of harmful content or the execution of malicious actions. The Azure Content Safety service detects prompt attacks and returns a Boolean value.
+
+If both prompt attack detection and harm classification are configured, the orchestration service performs the prompt attack detection call first, and then performs the harm classification call. If a prompt attack is detected, the orchestration service does not make the harm classification request and returns the prompt attack detection result only.
+
+> ### Remember:  
+> Prompt attack detection and content safety classification are two separate requests. If both are configured, costs will be incurred for both requests.
+
+
+
 <a name="loio44463822e86b45a59068dd3acf9aec99__section_fj1_2vh_tdc"/>
 
 ## LLama Guard 3

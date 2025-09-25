@@ -121,8 +121,6 @@ Allowed values:
 
 -   `concurrency`
 -   `rps`
--   `cpu`
--   `memory`
 
 
 

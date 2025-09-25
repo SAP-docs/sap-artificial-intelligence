@@ -35,7 +35,7 @@ curl --location --request GET "$AI_API_URL/v2/admin/secrets/$SECRET_NAME" \
 
 ## Results
 
-The response contains the name, and the creation timestamp of the requested generic secrets. No sensitive information is revealed in the response.
+The response contains the name, labels, and the creation timestamp of the requested generic secrets. No sensitive information is revealed in the response.
 
 In the case of a tenant-wide secret, the response additionally includes a list of all resource groups associated with the tenant and the current replication status of the secret to these resource groups.
 
@@ -47,12 +47,18 @@ In the case of a tenant-wide secret, the response additionally includes a list o
 >   "resourceGroupSecretReplicationStatus":{
 >       "rg-id-1" : true,  # secret was replicated correctly in this namespace
 >       "rg-id-2" : false, # secret was not replicated or does not exist in this namespace yet
->   }
+> },
+>    "labels":{
+>      "<key>": "<value>"
+>    }
 > }
 > # Example response for tenant-scoped or resource group level secrets:
 > {
->   "name": "secret-1",
->   "createdAt": "<timestamp>"
+>    "name": "secret-1",
+>    "createdAt": "<timestamp   ",
+>    "labels": {
+>      "<key>": "<value>,
+>    }
 > }
 > ```
 
@@ -85,7 +91,7 @@ curl --location --request GET "$AI_API_URL/v2/admin/secrets" \
 
 ## Results
 
-The response contains the name, and the creation timestamp of the requested generic secrets. No sensitive information is revealed in the response.
+The response contains the name, labels, and the creation timestamp of the requested generic secrets. No sensitive information is revealed in the response.
 
 <a name="task_cxf_n13_tcc"/>
 
@@ -116,7 +122,7 @@ Send a GET request to the endpoint `{{apiurl}}/v2/admin/secrets/{{secret_name]]`
 
 ## Results
 
-The response contains the name, and the creation timestamp of the requested generic secrets. No sensitive information is revealed in the response.
+The response contains the name, labels, and the creation timestamp of the requested generic secrets. No sensitive information is revealed in the response.
 
 In the case of a tenant-wide secret, the response additionally includes a list of all resource groups associated with the tenant and the current replication status of the secret to these resource groups.
 
@@ -128,12 +134,18 @@ In the case of a tenant-wide secret, the response additionally includes a list o
 >   "resourceGroupSecretReplicationStatus":{
 >       "rg-id-1" : true,  # secret was replicated correctly in this namespace
 >       "rg-id-2" : false, # secret was not replicated or does not exist in this namespace yet
->   }
+>   },
+>   "labels":{
+>     "<key>": "<value>",
+>  }
 > }
 > # Example response for tenant-scoped or resource group level secrets:
 > {
->   "name": "secret-1",
->   "createdAt": "<timestamp>"
+>    "name": "secret-1",
+>    "createdAt": "<timestamp>",
+>    "labels": {
+>      "<key>": "<value>",
+>    }
 > }
 > ```
 
@@ -160,9 +172,7 @@ Send a GET request to the endpoint `{{apiurl}}/v2/admin/secrets`.
 
 
 
-<a name="task_imv_l3m_22c__result_jmv_l3m_22c"/>
-
 ## Results
 
-The response includes a list of generic secrets, their name, and their creation timestamp. No sensitive information is revealed in the response.
+The response contains the name, labels, and the creation timestamp of the requested generic secrets. No sensitive information is revealed in the response.
 
