@@ -2,11 +2,14 @@
 
 # AI Content as a Service
 
-SAP AI Core helps users provide their AI content available as a service on the SAP BTP *Service Marketplace*, using GitOps.
+With SAP AI Core, you can publish AI content such as workflows, serving templates, or Docker images as a managed service on the SAP BTP *Service Marketplace*. This allows other tenants to consume your content through standard APIs.
 
-**Service Providers** are an entity acting as SAP AI Core main tenant, who have chosen to make their AI Content \(for example Serving Template, Workflow Template, Docker Container\) available for consumption as a service through SAP BTP *Service Marketplace*.
+A **service provider** is the main SAP AI Core tenant that publishes AI content as a service. For example, the service provider provides a workflow template for other users.
 
-**Service Consumer** are an entity acting as a consumer for Service exposing AI content from a Service Provider. Consumers can create service instance and use AI API \(serviceUrl\) to use available AI content. They can start executions or deployments.
+> ### Note:  
+> A service provider tenant can provision only one service.
+
+A **service consumer** is the tenant that consumes AI content published by a provider. Consumers create service instances, generate service keys, and use the provided service URL to access the content. They can also start executions or deployments.
 
 
 
@@ -14,29 +17,41 @@ SAP AI Core helps users provide their AI content available as a service on the S
 
 ## Service Provider Flow
 
-1.  Create AI content such as a workflow, serving template, or Docker registry that is consumer ready.
+As a service provider, you publish your AI content to the SAP BTP *Service Marketplace* as follows:
+
+1.  Create consumer-ready AI content \(for example, a workflow, serving template, or Docker image\).
+
 2.  Create a generic secret for broker registration. For more information, see [Create a Generic Secret](create-a-generic-secret-1831845.md).
+
 3.  Provide a service custom resource YAML in a registered git repository.
-4.  SAP AI Core creates a service broker for the content to be made available to the SAP BTP *Service Marketplace*. The service broker handles onboarding and offboarding for end consumers.
-5.  Fetch the service broker information by calling the endpoint: `{{apiurl}}/v2/admin/services`.
-6.  Register the service broker in the SAP BTP *Service Marketplace* and SAP Cloud Management service.
+
+4.  Fetch the service broker information by calling the endpoint: `{{apiurl}}/v2/admin/services`.
+
+5.  Register the service broker in the SAP BTP *Service Marketplace* and SAP Cloud Management service.
+
 
 ![](images/SAAS_producer_4a_ecde38a.png)
+
+Your AI content is now available in the SAP BTP *Service Marketplace* for consumers to use. The service broker manages onboarding and offboarding of consumers automatically.
 
 
 
 <a name="loio3fb039080ce14bad9a773e1a473ce24e__section_g43_ws3_1fc"/>
 
-## Service Conusmer Flow
+## Service Consumer Flow
 
-1.  The consumer creates service instance from the SAP BTP *Service Marketplace*.
-2.  SAP AI Core creates a resource group for the consumer with *<resourceGroupId\>* == `serviceInstanceId`.
-3.  The consumer creates a service key and starts using the service.
+As a service consumer, you create and use a service instance based on the provider’s content.
 
-    > ### Note:  
-    > The service provider main tenant is allowed to provision only 1 Service.
+1.  In the SAP BTP *Service Marketplace*, create a service instance.
 
-4.  Consumer: Starts consuming the service via provided url.
+    SAP AI Core creates a resource group for you with:
+
+    <code><i class="varname">&lt;resourceGroupId&gt;</i> == <code>serviceInstanceId</code></code>.
+
+2.  Create a service key to authenticate against the service.
+
+3.  Use the service URL to start executions or deployments with the AI API \(`serviceUrl`\).
+
 
 ![](images/SAAS_consumer_4a_08451cf.png)
 

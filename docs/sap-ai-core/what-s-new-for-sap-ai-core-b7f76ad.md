@@ -92,7 +92,7 @@ Generative AI hub
 </td>
 <td valign="top">
 
-New models are supported, including Mistral Medium Instruct, and Cohere Reasoning A Command.
+New models are supported, including Perplexity Sonar and Sonar Pro.
 
 For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
 
@@ -129,12 +129,12 @@ SAP Business Technology Platform
 </td>
 <td valign="top">
 
-2025-09-22
+2025-10-20
 
 </td>
 <td valign="top">
 
-2025-09-22
+2025-10-20
 
 </td>
 </tr>

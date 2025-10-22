@@ -14,6 +14,9 @@
 
     ![](images/New_Service_Key_0019ba4.png)
 
+    > ### Remember:  
+    > You are responsible for the rotation of your access credentials and certificates of SAP AI Core within BTP according to regional policy.
+
 3.  **Optional:** To use an x.509 certificate instead of client secret credentials, specify the credentials by adjusting and uploading the following JSON code:
 
     ```
@@ -48,6 +51,9 @@
 ## Results
 
 You now have your service key, which provides URLs and credentials for accessing the SAP AI Core instance through SAP AI Launchpad, SAP AI Core toolkit, a Third-Party API Platform, or curl.
+
+> ### Remember:  
+> You are responsible for the rotation of your access credentials and certificates of SAP AI Core within BTP according to regional policy.
 
 ![](images/Service_Key_Credentials_1e1342e.png)
 

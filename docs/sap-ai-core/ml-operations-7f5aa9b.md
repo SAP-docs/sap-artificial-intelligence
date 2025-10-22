@@ -20,5 +20,3 @@ You deploy your AI learning model to run inferences against it.
 
 [Metrics](metrics-36f8bec.md "The AI API provides the ability to track metrics, and to customize or filter which metrics are reported.")
 
-[Advanced Features](advanced-features-24f2fbb.md "Explore advanced features, within SAP AI Core.")
-

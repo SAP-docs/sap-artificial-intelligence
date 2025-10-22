@@ -236,7 +236,7 @@ labels \(mandatory\)
 </td>
 <td valign="top">
 
-You must specify the chosen `resourcePlan`The value is the string value of the selected resource plan \(see [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md)\).
+You must specify the chosen `resourcePlan`The value is the string value of the selected resource plan \(see [Choose an Instance](choose-an-instance-57f4f19.md)\).
 
 </td>
 </tr>
@@ -369,7 +369,7 @@ If you change a serving template, you can automatically update the deployments t
 **Related Information**  
 
 
-[Choose a Resource Plan](choose-a-resource-plan-abd672f.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
+[Choose an Instance](choose-an-instance-abd672f.md "You can configure SAP AI Core to use different infrastructure instances for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” and “instance types” for this purpose.")
 
 [List Executables](list-executables-6af8e60.md "An executable is a reusable template that defines a workflow or pipeline for tasks such as training a machine learning model or creating a deployment. It contains placeholders for input artifacts (datasets or models) and parameters (custom key-pair values) that enable the template to be reused in different scenarios.. You can list all of the executables in a resource group and get details of specific executables from a resource group. Serving templates are mapped to deployment executables.")
 

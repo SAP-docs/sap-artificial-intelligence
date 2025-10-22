@@ -11,6 +11,9 @@ Your cloud storage credentials are managed using secrets. Secrets are a means of
 > 
 > For **input training artifacts only**, you can create multiple object store secrets with different names as needed.
 
+> ### Remember:  
+> You are responsible for the rotation of your access credentials and certificates of SAP AI Core within BTP according to regional policy.
+
 <a name="task_i3h_n13_tcc"/>
 
 <!-- task\_i3h\_n13\_tcc -->

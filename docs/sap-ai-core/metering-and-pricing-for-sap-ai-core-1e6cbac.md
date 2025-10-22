@@ -4,7 +4,7 @@
 
 SAP AI Core provides a scalable infrastructure for AI model management, with usage-based pricing that lets you pay only for the resources you use.
 
-The service offers various plans, including a free tier, standard plan, and extended plan. If you want to access all capabilities, we recommend the extended plan.
+The service offers various plans, including a free, standard, and extended plan. If you want to access all capabilities, we recommend the extended plan.
 
 We offer the following model options:
 
@@ -37,11 +37,11 @@ To see detailed consumption information in SAP BTP cockpit, open your global acc
 
 For more information, see [Monitoring Usage and Consumption Costs in Your Global Account in SAP BTP.](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/de6f0db8919f4e6f97e54bc4ddaf2ab8.html)
 
--   **[Metering and Pricing for Generative AI](metering-and-pricing-for-generative-ai-41e8d85.md "Generative AI usage in SAP AI Core is measured
+-   **[Metering and Pricing for Generative AI](metering-and-pricing-for-generative-ai-41e8d85.md "The use of generative AI in SAP AI Core is measured
 		using tokens, which are converted into capacity units based on input and output volume.
 		Billing is calculated according to these capacity units and varies by model type and usage
 		pattern.")**  
-Generative AI usage in SAP AI Core is measured using tokens, which are converted into capacity units based on input and output volume. Billing is calculated according to these capacity units and varies by model type and usage pattern.
+The use of generative AI in SAP AI Core is measured using tokens, which are converted into capacity units based on input and output volume. Billing is calculated according to these capacity units and varies by model type and usage pattern.
 -   **[Metering and Pricing for Predictive AI](metering-and-pricing-for-predictive-ai-32f8775.md "")**  
 
 

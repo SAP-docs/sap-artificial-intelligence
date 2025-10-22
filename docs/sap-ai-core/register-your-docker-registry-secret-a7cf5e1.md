@@ -28,6 +28,9 @@ You have access to a public-facing Docker registry over the internet. It isn't p
 
 Your Docker credentials are managed using secrets. Secrets allow and control connections across directories and tools without compromising your credentials.
 
+> ### Remember:  
+> You are responsible for the rotation of your access credentials and certificates of SAP AI Core within BTP according to regional policy.
+
 Your Docker registry secret lets you authorize SAP AI Core to pull your **private** Docker images from your Docker repository. You specify the name of the secret in your workflows to authenticate the Docker image pull. For more information, see [Workflow Templates](workflow-templates-83523ab.md) and [Serving Templates](serving-templates-20a8667.md).
 
 

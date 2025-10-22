@@ -179,4 +179,6 @@ This API call creates a pipeline for indexing documents for a resource group.
 
 -   **[Manually Restart a Document Grounding Pipeline](manually-restart-a-document-grounding-pipeline-b8e880a.md "This endpoint allows you to retrain an existing pipeline manually. ")**  
 This endpoint allows you to retrain an existing pipeline manually.
+-   **[Search a Pipeline](search-a-pipeline-5e2f4aa.md "")**  
+
 

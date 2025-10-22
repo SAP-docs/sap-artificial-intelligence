@@ -2,9 +2,9 @@
 
 # Generic Secrets for Grounding
 
+The grounding module in SAP AI Core connects to external document repositories through generic secrets. These secrets store the credentials and connection details required to access repository content used in retrieval and grounding pipelines.
 
-
-The following data repositories are supported in the grounding module:
+The grounding module in SAP AI Core supports the following data repositories:
 
 -   Microsoft SharePoint
 
@@ -17,47 +17,16 @@ The following data repositories are supported in the grounding module:
 -   SAP Document Management service
 
 
-The following authentication types for each document repository type:
+Each repository type supports specific authentication methods. For Microsoft SharePoint, both `OAuth2Password` and `OAuth2ClientCredentials` authentication are supported. AWS S3 and SFTP use `NoAuthentication`. Although this authentication type is listed as `NoAuthentication`, the implementation still performs a basic authentication check for security purposes.
 
--   Microsoft SharePoint
-    -   OAuth2Password
+You must onboard at least one repository to enable grounding. For detailed onboarding instructions, see:
 
-    -   OAuth2ClientCredentials
+-   [Grounding Generic Secrets for Microsoft SharePoint](grounding-generic-secrets-for-microsoft-sharepoint-0cd2b30.md).
+-   [Grounding Generic Secrets for AWS S3](grounding-generic-secrets-for-aws-s3-15eb50b.md).
+-   [Grounding Generic Secrets for SFTP](grounding-generic-secrets-for-sftp-4085952.md).
+-   [Grounding Generic Secrets for SAP Build Work Zone](grounding-generic-secrets-for-sap-build-work-zone-8737ceb.md).
 
-
--   AWS S3
-    -   NoAuthentication
-
-        > ### Note:  
-        > Although the authentication type is `NoAuthentication`, the implementation includes a basic authentication check.
-
-
--   SFTP
-    -   NoAuthentication
-
-        > ### Note:  
-        > Although the authentication type is `NoAuthentication`, the implementation includes a basic authentication check.
-
-
-
-Metadata is also supported. Metadata stores additional details about the repository that can be used during document indexing. The following authentication types are available for metadata:
-
--   OAuth2ClientCredentials
-
-
-You need to onboard a minimum one repository for grounding.
-
-To onboard a Microsoft SharePoint repository, see [Grounding Generic Secrets for Microsoft SharePoint](grounding-generic-secrets-for-microsoft-sharepoint-0cd2b30.md)
-
-To onboard a AWS S3 repository, see [Grounding Generic Secrets for AWS S3](grounding-generic-secrets-for-aws-s3-15eb50b.md)
-
-To onboard a SFTP repository, see [Grounding Generic Secrets for SFTP](grounding-generic-secrets-for-sftp-4085952.md)
-
-To onboard a WorkZone repository, see [Grounding Generic Secrets for WorkZone](grounding-generic-secrets-for-workzone-8737ceb.md)
-
-Metadata is an optional extra, that can be used alongside the repository of your choice.
-
-To onboard metadata, see [Generic Secrets for Contextualization with Metadata](generic-secrets-for-contextualization-with-metadata-dade07e.md)
+The grounding module also supports metadata, which provides additional information about repositories for document indexing and contextualization. Metadata onboarding uses the `OAuth2ClientCredentials` authentication type and can be configured alongside any repository. For more information, see [Generic Secrets for Contextualization with Metadata](generic-secrets-for-contextualization-with-metadata-dade07e.md).
 
 -   **[Grounding Generic Secrets for Microsoft SharePoint](grounding-generic-secrets-for-microsoft-sharepoint-0cd2b30.md "Your cloud storage credentials are managed using secrets. Secrets are a means of allowing and controlling connections across directories
     and tools, without compromising your credentials.")**  
@@ -68,7 +37,7 @@ Your cloud storage credentials are managed using secrets. Secrets are a means of
 -   **[Grounding Generic Secrets for SFTP](grounding-generic-secrets-for-sftp-4085952.md "Your cloud storage credentials are managed using secrets. Secrets are a means of allowing and controlling connections across directories
     and tools, without compromising your credentials.")**  
 Your cloud storage credentials are managed using secrets. Secrets are a means of allowing and controlling connections across directories and tools, without compromising your credentials.
--   **[Grounding Generic Secrets for WorkZone](grounding-generic-secrets-for-workzone-8737ceb.md "Your cloud storage credentials are managed using secrets. Secrets are a means of allowing and controlling connections across directories
+-   **[Grounding Generic Secrets for SAP Build Work Zone](grounding-generic-secrets-for-sap-build-work-zone-8737ceb.md "Your cloud storage credentials are managed using secrets. Secrets are a means of allowing and controlling connections across directories
     and tools, without compromising your credentials.")**  
 Your cloud storage credentials are managed using secrets. Secrets are a means of allowing and controlling connections across directories and tools, without compromising your credentials.
 -   **[Grounding Generic Secrets for SAP Document Management Service](grounding-generic-secrets-for-sap-document-management-service-f8919a4.md "")**  

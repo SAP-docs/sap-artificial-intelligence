@@ -530,3 +530,73 @@ curl --location '$DEPLOYMENT_URL/embeddings' \
 
 The `executableId` is `aicore-cohere`
 
+
+
+## Reasoning
+
+
+
+### Command A Reasoning
+
+For more information from the model provider, see [Cohere Comman A Reasoning](https://docs.cohere.com/docs/command-a-reasoning).
+
+```
+curl --location "$DEPLOYMENT_URL/v2/chat" \
+--header 'AI-Resource-Group: <Resource Group Id>' \
+--header 'Content-Type: application/json' \
+--header "Authorization: Bearer $AUTH_TOKEN" \
+--data '{
+    "model": "cohere--command-a-reasoning",
+    "stream": false,
+    "frequency_penalty": 0.8,
+    "thinking": {
+        "type": "enabled"
+    },
+    "messages": [
+        {
+            "role": "user",
+            "content": "Tell me about the reflection?"
+        }
+    ]
+}'
+```
+
+<a name="concept_tmp_jwn_zgc"/>
+
+<!-- concept\_tmp\_jwn\_zgc -->
+
+## Perplexity
+
+The `executableId` is `perplexity-ai`
+
+
+
+## Completions
+
+
+
+### sonar | sonar-pro
+
+> ### Sample Code:  
+> ```
+> curl --location '$DEPLOYMENT_URL/chat/completions' \
+> --header 'AI-Resource-Group: default' \
+> --header 'Content-Type: application/json' \
+> --header "Authorization: Bearer $AUTH_TOKEN" \
+> --data '{
+>     "model": "<modelName>",
+>     "stream": false,
+>     "max_tokens": 20,
+>     "messages": [
+>       {
+>         "role": "system",
+>         "content": "You are a powerful business AI assistant."
+>       },
+>       {
+>         "role": "user",
+>         "content": "Who is the president of the USA?"
+>       }
+>     ]
+> }'
+> ```
+

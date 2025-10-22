@@ -1,6 +1,6 @@
 <!-- loio8737ceb3ac2b4178aafc84994323b76a -->
 
-# Grounding Generic Secrets for WorkZone
+# Grounding Generic Secrets for SAP Build Work Zone
 
 Your cloud storage credentials are managed using secrets. Secrets are a means of allowing and controlling connections across directories and tools, without compromising your credentials.
 
@@ -17,6 +17,13 @@ You have created a resource group for grounding. For more information, see [Crea
 ## Procedure
 
 1.  Send a POST request and enter the URL `{{apiurl}}/v2/admin/secrets`.
+
+    Include the following headers in your request:
+
+    -   `AI_API_URL`: the base URL of your SAP AI Core environment.
+    -   `{{access_token}}`: Your access token for SAP AI Core
+
+    Choose one from the following headers to set your scope:
 
     -   `AI-Tenant-Scope` : `true`. The operation is performed at the main tenant level.
     -   `AI-Resource-Group` : <code><i class="varname">&lt;resource-group-for-grounding&gt;</i></code>. The operation is performed at the resource-group level.
@@ -78,7 +85,7 @@ Base64 encoded value for the description of the generic secret to be created
 </td>
 <td valign="top">
 
-Base64 encoded value for your WorkZone URL
+Base64 encoded value for your SAP Build Work Zone URL
 
 </td>
 </tr>
@@ -150,7 +157,7 @@ curl --request POST \
     "data": { 
     "description": "<any string base64 encoded>", 
     "authentication": "T0F1dGgyQ2xpZW50Q3JlZGVudGlhbHM=", 
-    "url": "< base64 encoded workzone-server-url>", 
+    "url": "< base64 encoded SAP Build Work Zone-server-url>", 
     "clientId": "< base64 encoded client-id>", 
     "clientSecret": "< base64 encoded client-secret>", 
     "tokenServiceURL": "< base64 encoded token-service-url>" 
@@ -162,7 +169,7 @@ curl --request POST \
     }, 
     { 
       "key": "ext.ai.sap.com/documentRepositoryType", 
-      "value": "WorkZone" 
+      "value": "SAP Build Work Zone" 
     } 
   ] 
 }'

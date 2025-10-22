@@ -23,7 +23,7 @@ For more information, see [Scope of Resources](scope-of-resources-c9518c0.md).
     > ### Note:  
     > Resource group Ids must be of length minimum: 3, maximum: 253. The first and last characters must be either a lowercase letter, an uppercase letter, or a number. Character entries from the second to penultimate can include a lower case letter, an upper case letter, a number, a period \(.\), or a hyphen \(-\). No other special characters are permitted.
 
-    Populate the code snippet with the following:
+    Set the following in the headers:
 
     -   `AI_API_URL`: the base URL of your SAP AI Core environment.
     -   `{{resource_group}}`: The AI resource group ID or document grounding management

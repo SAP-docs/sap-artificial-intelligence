@@ -35,6 +35,9 @@ You can use your own git repository to version control your SAP AI Core template
 
 Git repositories are managed by creating personal access tokens and registering them in SAP AI Core. Personal access tokens are a means of allowing and controlling connections to GitHub repositories without compromising your credentials.
 
+> ### Remember:  
+> You are responsible for the rotation of your access credentials and certificates of SAP AI Core within BTP according to regional policy.
+
 
 
 <a name="task_i3h_n13_tcc__steps_ryt_dy1_wcc"/>
@@ -105,6 +108,9 @@ Create an application to sync your folders. For more information, see [Create an
 ## Context
 
 Git repositories are managed by creating personal access tokens and registering them in SAP AI Core. Personal access tokens are a means of allowing and controlling connections to GitHub repositories without compromising your credentials.
+
+> ### Remember:  
+> You are responsible for the rotation of your access credentials and certificates of SAP AI Core within BTP according to regional policy.
 
 
 

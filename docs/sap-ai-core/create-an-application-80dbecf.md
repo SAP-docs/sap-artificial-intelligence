@@ -41,7 +41,7 @@ curl --location --request POST "$AI_API_URL/v2/admin/applications" \
 
 -   `applicationName`: Set a name for your application. The name must be between 3 and 64 characters long and match `[A-Za-z0-9\-\_]+`.
 
--   `repositoryUrl`: The URL of a registered git repository.
+-   `repositoryUrl`: The URL of a registered git repository. The URL is case-sensitive and has to match the URL of a registered git repository.
 
 -   `revision`: The revision to target. *<HEAD\>* refers to the most recent.
 
@@ -101,7 +101,7 @@ Send a POST request to the endpoint `{{apiurl}}/v2/admin/applications` including
 
 -   `applicationName`: Set a name for your application. The name must be between 3 and 64 characters long and match `[A-Za-z0-9\-\_]+`.
 
--   `repositoryUrl`: The URL of a registered git repository.
+-   `repositoryUrl`: The URL of a registered git repository. The URL is case-sensitive and has to match the URL of a registered git repository.
 
 -   `revision`: The revision to target. *<HEAD\>* refers to the most recent.
 

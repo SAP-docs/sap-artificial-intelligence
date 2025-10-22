@@ -4,6 +4,9 @@
 
 Deployment and execution logs contain information about API processing and metrics.
 
+> ### Note:  
+> All STDOUT from the user containers will be saved by SAP AI Core and be available during log retrieval. As a user of SAP AI Core, If you do not want to keep logs, do not send anything to STDOUT or STDERR. Instead, redirect all output to a file.
+
 
 
 You can retrieve the logs for a specific deployment or execution by submitting a GET request. Use the following endpoints to retrieve the logs:
@@ -78,7 +81,7 @@ For example, see the following JSON output from the API.
 **Related Information**  
 
 
-[Choose a Resource Plan](choose-a-resource-plan-57f4f19.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
+[Choose an Instance](choose-an-instance-57f4f19.md "You can configure SAP AI Core to use different infrastructure instances for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” and “instance types” for this purpose.")
 
 [Workflow Templates](workflow-templates-83523ab.md "Here, you'll find a basic workflow example template. Feel free to adjust it to suit your workflow needs.")
 

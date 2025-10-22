@@ -4,6 +4,9 @@
 
 AI content covers workflow templates and serving templates, as well as the Docker images used in them. Docker images contain the machine-learning algorithms or code, along with the machine-learning libraries, frameworks, and other dependent packages. Ensure that you follow standard practices for developing secure software when working with AI content.
 
+> ### Note:  
+> Users of AI core are responsible of the content of their docker images and assume the risk of running compromised containers in the platform.
+
 **Security Practices**
 
 

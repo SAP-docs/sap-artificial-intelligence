@@ -17,7 +17,11 @@ The content filtering module allows you to configure multiple distinct filters f
 
 ## Azure Content Safety
 
-The Azure Content Safety classification service recognizes four distinct content categories: `Hate`, `Violence`, `Sexual`, and `SelfHarm`. For more information, see [Harm categories in Azure AI Content Safety](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/concepts/harm-categories?tabs=warning). Text can have more than one label \(for example, a text sample can be classified as both `Hate` and `Violence`\). The returned content categories include a severity level rating of 0, 2, 4, or 6. The value increases with the severity of the content.
+
+
+### Harm Categories
+
+The Azure Content Safety classification service recognizes the following distinct content categories: `Hate`, `Violence`, `Sexual`, and `SelfHarm`. For more information, see [Harm categories in Azure AI Content Safety](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/concepts/harm-categories?tabs=warning). Text can have more than one label \(for example, a text sample can be classified as both `Hate` and `Violence`\). The returned content categories include a severity level rating of 0, 2, 4, or 6. The value increases with the severity of the content.
 
 > ### Note:  
 > For all Azure OpenAI models, a global content filter is configured on the Azure AI platform. This global filter removes all input and output that is classified as medium \(4\) or high \(6\) in any of the categories.
@@ -33,13 +37,13 @@ A prompt attack is a malicious input that is designed to bypass a model's safety
 If both prompt attack detection and harm classification are configured, the orchestration service performs the prompt attack detection call first, and then performs the harm classification call. If a prompt attack is detected, the orchestration service does not make the harm classification request and returns the prompt attack detection result only.
 
 > ### Remember:  
-> Prompt attack detection and content safety classification are two separate requests. If both are configured, costs will be incurred for both requests.
+> When multiple content filtering types are configured together, each type is processed as a separate request. Costs will be incurred for each filtering type applied.
 
 
 
 <a name="loiof80417519ea04adb86f7169ae871f884__section_fj1_2vh_tdc"/>
 
-## LLama Guard 3
+## Llama Guard 3
 
 Llama Guard 3 recognizes the following content categories:
 
@@ -59,6 +63,11 @@ Llama Guard 3 recognizes the following content categories:
 -   `code_interpreter_abuse`
 
 For more information, see [Hazard Taxonomy and Policy in Llama Guard 3 8B](https://github.com/meta-llama/PurpleLlama/blob/main/Llama-Guard3/8B/MODEL_CARD.md#hazard-taxonomy-and-policy). Texts can have multiple labels. The returned content categories include a boolean value that shows whether the text contains content triggering the filter for each respective category.
+
+> ### Note:  
+> Llama Guard 3 8B can report violations for categories that have not been requested by the user
+> 
+> The orchestration service doesn't take these violations into account when processing Llama Guard responses, and only filters violations in categories that have been requested by the user.
 
 -   **[Enhancing Model Consumption with Input Filtering](enhancing-model-consumption-with-input-filtering-75c6d42.md "")**  
 

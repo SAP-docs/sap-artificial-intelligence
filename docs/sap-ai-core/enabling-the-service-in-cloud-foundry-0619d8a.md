@@ -30,8 +30,8 @@ Configure the required entitlements to make SAP AI Core accessible in your subac
 
 -   **[Create a Service Key](create-a-service-key-7323ff4.md "")**  
 
--   **[Use a Service Key](use-a-service-key-3a97465.md "After you have configured your  service key, it can be used by local clients, apps in
-		other spaces, or entities outside your deployment to access SAP AI Core through one
+-   **[Use a Service Key](use-a-service-key-3a97465.md "After you have created your service key, it can be used by local clients, apps in other
+		spaces, or entities outside your deployment to access SAP AI Core through one
 		of the available interfaces. ")**  
-After you have configured your service key, it can be used by local clients, apps in other spaces, or entities outside your deployment to access SAP AI Core through one of the available interfaces.
+After you have created your service key, it can be used by local clients, apps in other spaces, or entities outside your deployment to access SAP AI Core through one of the available interfaces.
 

@@ -86,7 +86,7 @@ labels \(mandatory\)
 </td>
 <td valign="top">
 
-You must specify the chosen `resourcePlan`. The value is the string value of the selected resource plan. For more information, see [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md).
+You must specify the chosen `resourcePlan`. The value is the string value of the selected resource plan. For more information, see [Choose an Instance](choose-an-instance-57f4f19.md).
 
 </td>
 </tr>
@@ -316,7 +316,7 @@ Applications sync with your GitHub repository automatically at intervals of ~3 m
 **Related Information**  
 
 
-[Choose a Resource Plan](choose-a-resource-plan-57f4f19.md "You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.")
+[Choose an Instance](choose-an-instance-57f4f19.md "You can configure SAP AI Core to use different infrastructure instances for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” and “instance types” for this purpose.")
 
 [List Scenarios](list-scenarios-deedde5.md "A scenario is an implementation of a specific AI use case within a user's tenant. It consists of a pre-defined set of AI capabilities in the form of executables and templates.")
 

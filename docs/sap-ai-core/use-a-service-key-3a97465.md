@@ -2,7 +2,7 @@
 
 # Use a Service Key
 
-After you have configured your service key, it can be used by local clients, apps in other spaces, or entities outside your deployment to access SAP AI Core through one of the available interfaces.
+After you have created your service key, it can be used by local clients, apps in other spaces, or entities outside your deployment to access SAP AI Core through one of the available interfaces.
 
 <a name="task_dn3_jnn_fyb"/>
 
@@ -16,7 +16,7 @@ After you have configured your service key, it can be used by local clients, app
 
 ## Prerequisites
 
--   You have downloaded and installed the API platform API platform of your choice.
+-   You have downloaded and installed the API platform of your choice.
 -   You have familiarized yourself with the documentation and interface of the platform.
 
 

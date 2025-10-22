@@ -79,8 +79,6 @@ Consume your generative AI deployment using your deployment URL and the example 
 
 -   **[Example Payloads for Inferencing - SAP AI Core Hosted](example-payloads-for-inferencing-sap-ai-core-hosted-951d388.md)**  
 
--   **[Prompt Examples](prompt-examples-543f373.md "")**  
-
 -   **[Supported Parameters](supported-parameters-55d2197.md "The chat completions API supports a range of parameters that influence model responses, influencing aspects like creativity, length, and
 		formatting of the output. ")**  
 The chat completions API supports a range of parameters that influence model responses, influencing aspects like creativity, length, and formatting of the output.

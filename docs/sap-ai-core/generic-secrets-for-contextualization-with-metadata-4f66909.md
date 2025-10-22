@@ -16,6 +16,13 @@ You have created a resource group for grounding. For more information, see [Crea
 
 1.  Send a POST request and enter the URL `{{apiurl}}/v2/admin/secrets`.
 
+    Include the following headers in your request:
+
+    -   `AI_API_URL`: the base URL of your SAP AI Core environment.
+    -   `{{access_token}}`: Your access token for SAP AI Core
+
+    Choose one from the following headers to set your scope:
+
     -   `AI-Tenant-Scope` : `true`. The operation is performed at the main tenant level.
     -   `AI-Resource-Group` : <code><i class="varname">&lt;resource-group-for-grounding&gt;</i></code>. The operation is performed at the resource-group level.
 
@@ -108,7 +115,7 @@ Base64 encoded value for client ID
 </td>
 <td valign="top">
 
-If pagination is required, enter an integer from 1 to 1000.
+If pagination is required, enter a Base64 encoded value of integer from 1 to 1000.
 
 > ### Restriction:  
 > Pagination and the page size attribute are only supported if you have a metadata server with pagination implemented. For more information, see [Prepare your Metadata API Server](prepare-your-metadata-api-server-23a0741.md).
@@ -308,7 +315,7 @@ Base64 encoded value for valid JSON object with key-value pair
 >     "clientId": "<client id>",
 >     "clientSecret": "<client secret>",
 >     "tokenServiceURL": "<token service url for client secret based authentication>",
->     "pageSize": "<integer 1-1000>"
+>     "pageSize": "<Base64 encoded integer 1-1000>"
 >   },
 >   "labels": [
 >     {

@@ -2,7 +2,7 @@
 
 # Set Up the Free Plan
 
-The Free service plan lets you try out SAP AI Core for testing and familiarization purposes at no cost.
+The free plan lets you try out SAP AI Core for testing and familiarization purposes at no cost.
 
 
 

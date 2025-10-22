@@ -1,20 +1,50 @@
 <!-- copyabd672fa709b430080ffe76a99f06cee -->
 
-# Choose a Resource Plan
+# Choose an Instance
 
-You can configure SAP AI Core to use different infrastructure resources for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” for this purpose.
+You can configure SAP AI Core to use different infrastructure instances for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” and “instance types” for this purpose.
 
 
-
-<a name="copyabd672fa709b430080ffe76a99f06cee__context_q1p_fpm_zqb"/>
 
 ## Context
 
-Resource plans are used to select resources in workflow and serving templates. Different steps of a workflow can have different resource plans.
+You must choose at least one instance. If you select a resource plan, an instance type isn't required and vice versa.
 
-In general, if your workload needs GPU acceleration, you should use one of the GPU-enabled resource plans. Otherwise, choose a resource plan based on the anticipated CPU and memory need of your workloads.
+Resource plans and instance types are used to select instances in workflow and serving templates. Different steps of a workflow can have different instances assigned.
 
-Within SAP AI Core, the resource plan is selected via the `ai.sap.com/resourcePlan` label at pod level. It maps the selected resource plan and takes a string value, which can be any of the following resource plan IDs:
+In general, if your workload needs GPU acceleration, use one of the GPU-enabled instances. Otherwise, choose a plan based on the anticipated CPU and memory need of your workloads.
+
+Within SAP AI Core, the instances are selected via the `ai.sap.com/resourcePlan` and `ai.sap.com/instanceType` labels at pod level. It maps the selected instance and takes a string value, which is the ID of the instance.
+
+There are limits to the default disk storage size for all these nodes. Datasets that are loaded to the nodes consume disk space. If you have large data sets \(larger than 30 GB\), or have large models, you may have to increase the disk size. To do so, use the persistent volume claim in Argo Workflows to specify the required disk size \(see [Volumes](https://argoproj.github.io/argo-workflows/walk-through/volumes/)\).
+
+
+
+## Instance Types
+
+> ### Restriction:  
+> Instance types are only available as part of the “extended” service plan. For more information on instances that can be used with the “standard” service plan.
+
+Within SAP AI Core, the instances are selected via the `ai.sap.com/instanceType` label in your workflow templates. It maps the selected resource and takes a string value, which is the ID of the instance
+
+For information about available instance types and their IDs, see SAP Note [3660109](https://me.sap.com/notes/3660109), or send a GET request to the following endpoint:
+
+`{{apiurl}}/v2/admin/resources/instanceType`
+
+For example:
+
+> ### Sample Code:  
+> ```
+> curl GET "$AI_API_URL/v2/admin/resources/instanceType" \
+> --header "Authorization: Bearer $TOKEN" \
+> 
+> ```
+
+
+
+## Resource Plans
+
+Within SAP AI Core, the instances are selected via the `ai.sap.com/resourcePlan` label in your workflow templates. It maps the selected resource and takes a string value, which is the ID of the instance.
 
 **Resource Plan Specifications for AWS**
 
@@ -43,7 +73,7 @@ Memory GBs
 </th>
 <th valign="top">
 
-Code to Allocate Resources
+Code to Allocate instances
 
 in Workflow Templates
 
@@ -241,9 +271,7 @@ Infer-L
 </table>
 
 > ### Note:  
-> For the Free service plan, only the Starter resource plan is available. Specifying other plans will result in error. For the Standard service plan, all resource plans are available.
-
-There are limits to the default disk storage size for all these nodes. Datasets that are loaded to the nodes will consume disk space. If you have large data sets \(larger than 30 GB\), or have large models, you may have to increase the disk size. To do so, use the persistent volume claim in Argo Workflows to specify the required disk size \(see [Volumes](https://argoproj.github.io/argo-workflows/walk-through/volumes/)\).
+> For the free service plan, only the Starter resource plan is available. Specifying other plans results in an error. For the standard service plan, all resource plans are available.
 
 **Parent topic:**[Use Your Model](use-your-model-7f93e8f.md "You deploy your AI learning model to run inferences against it.")
 

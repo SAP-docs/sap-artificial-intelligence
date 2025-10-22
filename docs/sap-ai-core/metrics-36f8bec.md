@@ -14,5 +14,3 @@ You can use AI API to track and fetch metrics for executions and models. In addi
 
 [ML Operations](ml-operations-7f5aa9b.md "This section guides you through the end-to-end AI lifecycle of SAP AI Core.")
 
-[Advanced Features](advanced-features-24f2fbb.md "Explore advanced features, within SAP AI Core.")
-

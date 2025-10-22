@@ -12,7 +12,7 @@ Your cloud storage credentials are managed using secrets. Secrets are a means of
 
 -   You've prepared your SharePoint integration. For more information, see [Prepare SharePoint Integration with Joule](https://help.sap.com/docs/joule/integrating-joule-with-sap/prepare-sharepoint-integration).
 
--   -   You've created a resource group for grounding. For more information, see [Create a Resource Group for Grounding](create-a-resource-group-for-grounding-e32efa5.md).
+-   You've created a resource group for grounding. For more information, see [Create a Resource Group for Grounding](create-a-resource-group-for-grounding-e32efa5.md).
 
 
 
@@ -20,6 +20,13 @@ Your cloud storage credentials are managed using secrets. Secrets are a means of
 ## Procedure
 
 1.  Send a POST request and enter the URL `{{apiurl}}/v2/admin/secrets`.
+
+    Include the following headers in your request:
+
+    -   `AI_API_URL`: the base URL of your SAP AI Core environment.
+    -   `{{access_token}}`: Your access token for SAP AI Core
+
+    Choose one from the following headers to set your scope:
 
     -   `AI-Tenant-Scope` : `true`. The operation is performed at the main tenant level.
     -   `AI-Resource-Group` : <code><i class="varname">&lt;resource-group-for-grounding-name&gt;</i></code>. The operation is performed at the resource-group level.

@@ -2,7 +2,7 @@
 
 # SAP AI Core Starter Tutorials
 
-You can use a booster to get started with the Free Tier plans for SAP AI Core and SAP AI Launchpad using the tutorial: [AI Boosters](https://developers.sap.com/tutorials/ai-core-launchpad-provisioning.html).
+You can use a booster to get started with the free plans for SAP AI Core and SAP AI Launchpad using the tutorial: [AI Boosters](https://developers.sap.com/tutorials/ai-core-launchpad-provisioning.html).
 
 Alternatively, to complete the booster tutorial, then learn the basics of SAP AI Core from beginning to end in a simple use case, follow the tutorial: [Quick Start for SAP AI Core](https://developers.sap.com/group.ai-core-get-started-basics.html). If you have already provisioned SAP AI Core, you can skip through to the second tutorial in this guide.
 

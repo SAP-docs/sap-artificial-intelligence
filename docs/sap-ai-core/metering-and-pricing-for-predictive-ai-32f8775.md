@@ -15,7 +15,7 @@ or example, compute-heavy AI models on high-performance instances consume more r
 Custom AI development requirements vary significantly based on the use case. A range of compute infrastructure resources is available, differing in CPU cores, memory \(GB\), and GPU presence for GPU-powered workloads like model training. Available resources are shown in the table.
 
 > ### Note:  
-> Infrastructure specifications depend on the chosen hyperscaler. For more information, see [Choose a Resource Plan](choose-a-resource-plan-57f4f19.md).
+> Infrastructure specifications depend on the chosen hyperscaler. For more information, see [Choose an Instance](choose-an-instance-57f4f19.md).
 
 
 <table>

@@ -18,6 +18,13 @@ You have created a resource group for grounding. For more information, see [Crea
 
 1.  Send a POST request and enter the URL `{{apiurl}}/v2/admin/secrets`.
 
+    Include the following headers in your request:
+
+    -   `AI_API_URL`: the base URL of your SAP AI Core environment.
+    -   `{{access_token}}`: Your access token for SAP AI Core
+
+    Choose one from the following headers to set your scope:
+
     -   `AI-Tenant-Scope` : `true`. The operation is performed at the main tenant level.
     -   `AI-Resource-Group` : <code><i class="varname">&lt;resource-group-for-grounding-name&gt;</i></code>. The operation is performed at the resource-group level.
 

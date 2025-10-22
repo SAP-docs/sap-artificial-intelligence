@@ -9,6 +9,4 @@ This section guides you through the end-to-end AI lifecycle of SAP AI Core.
 -   **[Metrics](metrics-36f8bec.md "The AI API provides the ability to track metrics, and to customize or filter which metrics
 			are reported. ")**  
 The AI API provides the ability to track metrics, and to customize or filter which metrics are reported.
--   **[Advanced Features](advanced-features-24f2fbb.md "Explore advanced features, within SAP AI Core.")**  
-Explore advanced features, within SAP AI Core.
 

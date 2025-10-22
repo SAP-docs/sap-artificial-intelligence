@@ -28,6 +28,9 @@ You have access to a public-facing Docker registry over the internet. It isn't p
 
 Generic secrets store sensitive information when system secrets aren't applicable. They're useful in integration scenarios where SAP AI Core acts as an orchestration layer.
 
+> ### Remember:  
+> You are responsible for the rotation of your access credentials and certificates of SAP AI Core within BTP according to regional policy.
+
 SAP AI Core lets you use generic secrets at various levels:
 
 -   Main-tenant scope
@@ -102,6 +105,9 @@ You have access to a public-facing Docker registry over the internet. It isn't p
 ## Context
 
 Generic secrets store sensitive information when system secrets aren't applicable. They're useful in integration scenarios where SAP AI Core acts as an orchestration layer.
+
+> ### Remember:  
+> You are responsible for the rotation of your access credentials and certificates of SAP AI Core within BTP according to regional policy.
 
 SAP AI Core lets you use generic secrets at various levels:
 

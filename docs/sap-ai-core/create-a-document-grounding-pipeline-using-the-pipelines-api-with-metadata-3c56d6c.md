@@ -158,6 +158,25 @@ The name of the generic secret created for Microsoft SharePoint MetaData Server
 
 The metadata attribute is optional. It accepts the destination name, which is used to connect to the Microsoft SharePoint metadata server to retrieve metadata for document indexing.
 
+To make your pipeline searchable, add `dataRepositoryMetadata` to the `metadata` field. For example:
+
+```
+...
+    "metadata": {
+        "dataRepositoryMetadata": [
+            {
+                "key": "example",
+                "value": [
+                    "demo"
+                ]
+            }
+        ]
+    }
+...
+```
+
+For more information, see [Search a Pipeline](search-a-pipeline-5e6727e.md).
+
 
 
 <a name="loio3c56d6c230534adc8e4157570bde5624__section_pgh_z2y_m2c"/>
@@ -270,6 +289,25 @@ The name of the generic secret created for the AWS S3 MetaData Server
 
 The metadata attribute is optional. It accepts the destination name, which is used to connect to the AWS S3 metadata server to retrieve metadata for document indexing.
 
+To make your pipeline searchable, add `dataRepositoryMetadata` to the `metadata` field. For example:
+
+```
+...
+    "metadata": {
+        "dataRepositoryMetadata": [
+            {
+                "key": "example",
+                "value": [
+                    "demo"
+                ]
+            }
+        ]
+    }
+...
+```
+
+For more information, see [Search a Pipeline](search-a-pipeline-5e6727e.md).
+
 
 
 <a name="loio3c56d6c230534adc8e4157570bde5624__section_e1l_cfy_m2c"/>
@@ -380,6 +418,25 @@ The name of the generic secret created for the SFTP MetaData Server
 > ```
 
 The metadata attribute is optional. It accepts the destination name, which is used to connect to the SFTP metadata server to retrieve metadata for document indexing.
+
+To make your pipeline searchable, add `dataRepositoryMetadata` to the `metadata` field. For example:
+
+```
+...
+    "metadata": {
+        "dataRepositoryMetadata": [
+            {
+                "key": "example",
+                "value": [
+                    "demo"
+                ]
+            }
+        ]
+    }
+...
+```
+
+For more information, see [Search a Pipeline](search-a-pipeline-5e6727e.md).
 
 
 

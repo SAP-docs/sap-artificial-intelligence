@@ -100,7 +100,7 @@ You can also set default values for the placeholders. For example, to request ei
 
 Templates can also be retrieved from the prompt registry. For more information, see [Prompt Registry](prompt-registry-5392e7d.md).
 
-Templates can be retrieved by ID \(immutable\) or the combination of scenario, name, and version \(mutable\). For examples:
+Templates can be retrieved by ID \(immutable\) or the combination of scenario, name, and version \(mutable\).Additionally, a 'scope' parameter can be specified to define whether the requested template is shared across all resource groups within the 'tenant' \(default\), or is only accessible within the specific 'resource\_group'. For example:
 
 > ### Sample Code:  
 > ```
@@ -108,6 +108,7 @@ Templates can be retrieved by ID \(immutable\) or the combination of scenario, n
 >           "prompt": {
 >               "template_ref": {
 >                   "id": "d22342e7-1f91-4c52-a794-04833bc2574a"
+>                   "scope": "tenant"
 >          }
 >     }
 > },
@@ -124,6 +125,7 @@ Templates can be retrieved by ID \(immutable\) or the combination of scenario, n
 >                   "scenario": "test-scenario",
 >                   "name": "test-template",
 >                   "version": "0.0.1"
+>                   "scope": "tenant"
 >               }
 >           }
 >  },
