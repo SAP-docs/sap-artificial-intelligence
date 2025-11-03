@@ -206,7 +206,7 @@ You configure the Pipeline API to read unstructured data from data repositories 
 2.  Store the multidimensional representations of the textual information in the vector database.
 3.  Provide a repository ID to access the data.
 
-For more information, see [Create a Document Grounding Pipeline Using the Pipelines API \(without Metadata\)](create-a-document-grounding-pipeline-using-the-pipelines-api-without-metadata-ff73612.md).
+For more information, see [Create a Document Grounding Pipeline Using the Pipelines API](create-a-document-grounding-pipeline-using-the-pipelines-api-d32b146.md).
 
 
 

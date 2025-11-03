@@ -167,9 +167,7 @@ For region and pricing information, see SAP Note [3437766](https://me.sap.com/no
 > ### Caution:  
 > Do not expose personally identifiable or privileged information in the documents exposed to your pipeline when using generative AI hub. Personally identifiable information is any data that can be used alone, or in combination, to identify the person that the data refers to. The document grounding capability has no mechanism for determining the type of data that it processes, and does not filter confidential or other privileged information.
 
--   **[Create a Document Grounding Pipeline Using the Pipelines API \(without Metadata\)](create-a-document-grounding-pipeline-using-the-pipelines-api-without-metadata-58fcc5e.md "This API call creates a pipeline for indexing documents for a resource group.")**  
-This API call creates a pipeline for indexing documents for a resource group.
--   **[Create a Document Grounding Pipeline Using the Pipelines API \(with Metadata\)](create-a-document-grounding-pipeline-using-the-pipelines-api-with-metadata-c272711.md "This API call creates a pipeline for indexing documents for a resource group.")**  
+-   **[Create a Document Grounding Pipeline Using the Pipelines API](create-a-document-grounding-pipeline-using-the-pipelines-api-0a13e1c.md "This API call creates a pipeline for indexing documents for a resource group.")**  
 This API call creates a pipeline for indexing documents for a resource group.
 -   **[Data Pipelines](data-pipelines-4af7e1f.md "")**  
 

@@ -1,6 +1,6 @@
 <!-- loio90586e67c82449d1b1ccb69bc3c9cfc8 -->
 
-# Functions Explorer
+# Functions Explorer \(Deprecated\)
 
 
 

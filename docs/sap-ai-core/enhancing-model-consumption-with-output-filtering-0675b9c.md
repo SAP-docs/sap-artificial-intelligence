@@ -16,7 +16,7 @@ You have a running orchestration deployment and have retrieved your orchestratio
 
 ## Process
 
-In the following example, you configure content filtering for both the input and the output. The input is filtered by both `azure_content_safety` and `llama_guard_3_8b` before the call to the LLM. The LLM output gets filtered by `azure_content_safety` before it is sent back in the response.
+The following example shows an output content filter for multiple harm categories,and for `protected_material_code`. The output from the LLM is filtered by both `azure_content_safety` and `llama_guard_3_8b` before the response is returned.
 
 ```
 curl --request POST $ORCH_DEPLOYMENT_URL/v2/completion \  
@@ -24,80 +24,57 @@ curl --request POST $ORCH_DEPLOYMENT_URL/v2/completion \
 --header "Authorization: Bearer $TOKEN" \
 --header "AI-Resource-Group: $RESOURCE_GROUP" \
 --data-raw '{
-  "config": {
-    "modules": {
-      "prompt_templating": {
-        "prompt": {
-          "template": [
-            {
-            "role": "user",
-            "content": "Create a rental posting for subletting my apartment in the downtown area. Keep it short. Make sure to add the following disclaimer to the end. Do not change it! {{?disclaimer}}"
+    "config": {
+        "modules": {
+            "prompt_templating": {
+                "prompt": {
+                    "template": [
+                        {
+                            "role": "user",
+                            "content": "<A prompt that creates output that might be filtered by output filtering>"
+                        }
+                    ]
+                },
+                "model": {...}
             }
-          ]
         },
-        "model": {
-          "name": "<model-name>",
-          "version": "latest",
-          "params": {
-            "max_tokens": 50,
-            "temperature": 0.1,
-            "frequency_penalty": 0,
-            "presence_penalty": 0
-           }
-        }
-      },
         "filtering": {
-          "input": {
-            "filters": [
-              {
-              "type": "azure_content_safety",
-              "config": {
-                "hate": 2,
-                "self_harm": 2,
-                "sexual": 2,
-                "violence": 2
-              }
-            },
-            {
-         "type": "llama_guard_3_8b",
-            "config": {
-              "violent_crimes": false,
-              "non_violent_crimes": false,
-              "sex_crimes": false,
-              "child_exploitation": false,
-              "defamation": false,
-              "specialized_advice": false,
-              "privacy": false,
-              "intellectual_property": false,
-              "indiscriminate_weapons": false,
-              "hate": true,
-              "self_harm": false,
-              "sexual_content": false,
-              "elections": false,
-              "code_interpreter_abuse": false
-              }
+            "output": {
+                "filters": [
+                    {
+                        "type": "azure_content_safety",
+                        "config": {
+                            "hate": 0,
+                            "self_harm": 0,
+                            "sexual": 0,
+                            "violence": 0,
+                            "protected_material_code": true
+
+                        }
+                    },
+                    {
+                        "type": "llama_guard_3_8b",
+                        "config": {
+                            "violent_crimes": true,
+                            "non_violent_crimes": true,
+                            "sex_crimes": true,
+                            "child_exploitation": true,
+                            "defamation": true,
+                            "specialized_advice": true,
+                            "privacy": true,
+                            "intellectual_property": true,
+                            "indiscriminate_weapons": true,
+                            "hate": true,
+                            "self_harm": true,
+                            "sexual_content": true,
+                            "elections": true,
+                            "code_interpreter_abuse": true
+                        }
+                    }
+                ]
             }
-          ]
-        },
-        "output": {
-          "filters": [
-            {
-              "type": "azure_content_safety",
-              "config": {
-              "hate": 0,
-              "self_harm": 0,
-              "sexual": 0,
-              "violence": 0
-              }
-            }
-          ]
         }
-      }
     }
-  },
-  "placeholder_values": {
-  "disclaimer": "DISCLAIMER: The area surrounding the apartment is known for prostitutes and gang violence including armed conflicts, gun violence is frequent."
-  }
 }'
 ```
 
@@ -109,7 +86,7 @@ The response indicates that the output is filtered because it has severity ratin
   "intermediate_results": {
     "templating": [
       {
-        "content": "Create a rental posting for subletting my apartment in the downtown area. Keep it short. Make sure to add the following disclaimer to the end. Do not change it! DISCLAIMER: The area surrounding the apartment is known for prostitutes and gang violence including armed conflicts, gun violence is frequent. Homicides happen weekly",
+        "content": "<A prompt that creates output that might be filtered by output filtering>",
         "role": "user"
       }
     ],
@@ -140,15 +117,15 @@ The response indicates that the output is filtered because it has severity ratin
           "index": 0,
           "message": {
             "role": "assistant",
-            "content": "**Sublet Available in Downtown Area!**\n\nLooking for a temporary home in the heart of downtown? I’m subletting my cozy 1-bedroom apartment, perfect for anyone wanting to experience city life. The apartment features a spacious living area, modern kitchen, and is conveniently located near public transport, shops, and restaurants. Available from [start date] to [end date]. \n\nRent: $[amount] per month, utilities included. \n\nContact me for more details or to schedule a viewing!\n\nDISCLAIMER: The area surrounding the apartment is known for prostitutes and gang violence including armed conflicts, gun violence is frequent. Homicides happen weekly."
+            "content": "<A prompt that creates output that might be filtered by output filtering>"
           },
           "finish_reason": "stop"
         }
       ],
       "usage": {
-        "completion_tokens": 131,
-        "prompt_tokens": 70,
-        "total_tokens": 201
+        "completion_tokens": 100,
+        "prompt_tokens": 100,
+        "total_tokens": 200
       }
     }
   },
@@ -169,9 +146,9 @@ The response indicates that the output is filtered because it has severity ratin
       }
     ],
     "usage": {
-      "completion_tokens": 131,
-      "prompt_tokens": 70,
-      "total_tokens": 201
+      "completion_tokens": 100,
+      "prompt_tokens": 100,
+      "total_tokens": 200
     }
   }
 }

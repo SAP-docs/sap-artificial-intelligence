@@ -92,6 +92,140 @@ Generative AI hub
 </td>
 <td valign="top">
 
+The *Functions Explorer* app is deprecated and will be decommissioned in November 2026.
+
+Users of the *Functions Explorer* app can access their scenarios, runs, and deployments through the *ML Operations* app.
+
+For more information, see [ML Operations](ml-operations-df78271.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+Deprecated
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-11-03
+
+</td>
+<td valign="top">
+
+2025-11-03
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+New models are supported, including Anthropic Claude 4.5 Sonnet.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-11-03
+
+</td>
+<td valign="top">
+
+2025-11-03
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
 New models are supported, including Cohere Command A Reasoning, Perplexity Sonar and Sonar Pro.
 
 For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
@@ -1892,7 +2026,7 @@ Model library
 
 Explore models available in generative AI hub and their metadata, using the catalog mode.
 
-Inform your decision making using benchmarking data, using the leaderboard mode.
+Inform your decision making using bench marking data, using the leaderboard mode.
 
 View detailed information for a single model such as data input types, cost information and metrics where available on its model card.
 
@@ -5606,7 +5740,7 @@ Based on user feedback, the Functions Explorer app has been enhanced. App naviga
 -   Jobs are now called runs
 
 
-See [Functions Explorer](functions-explorer-90586e6.md).
+See [Functions Explorer \(Deprecated\)](functions-explorer-deprecated-90586e6.md).
 
 </td>
 <td valign="top">

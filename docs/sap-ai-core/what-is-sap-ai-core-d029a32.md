@@ -285,7 +285,7 @@ You can configure SAP AI Core to use different infrastructure instances for diff
 **Related Information**  
 
 
-[Generative AI Hub in SAP AI Core](generative-ai-hub-in-sap-ai-core-7db524e.md "The generative AI hub incorporates generative AI into your AI activities in SAP AI Core and SAP AI Launchpad.")
+[Generative AI Hub](generative-ai-hub-7db524e.md "The generative AI hub incorporates generative AI into your AI activities in SAP AI Core and SAP AI Launchpad.")
 
 [AI API Overview](ai-api-overview-716d4c3.md "The AI API lets you manage your AI assets (such as training scripts, data, models, and model servers) across multiple runtimes.")
 

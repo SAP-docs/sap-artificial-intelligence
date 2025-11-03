@@ -46,6 +46,15 @@ Explore the concepts around SAP AI Launchpad and learn how to provision the serv
                 -   [Output Filtering](output-filtering-32a0e42.md)
                 -   [Output Translation](output-translation-e350c56.md)
             -   [Test Your Orchestration Workflow](test-your-orchestration-workflow-5b0183d.md)
+        -   Optimizations
+            -   Prerequisites
+                -   [Register an Object Store for Optimizations](register-an-object-store-for-optimizations-9ee15fb.md)
+                -   [Dataset preparation](dataset-preparation-b2625d7.md)
+                -   [Register an Artifact for Optimizations](register-an-artifact-for-optimizations-06ec70c.md)
+            -   [Prompt Optimization](prompt-optimization-029dad5.md)
+                -   [Create a Prompt Optimization](create-a-prompt-optimization-0b920f6.md)
+                -   [View Prompt Optimizations](view-prompt-optimizations-3a8374a.md)
+                -   [View Prompt Optimization Run Details](view-prompt-optimization-run-details-acfce87.md)
         -   Prompt Management
             -   [View a Saved Prompt](view-a-saved-prompt-d07a272.md)
             -   [Edit a Saved Prompt](edit-a-saved-prompt-5f53a57.md)
@@ -153,7 +162,7 @@ Explore the concepts around SAP AI Launchpad and learn how to provision the serv
             -   [Add Connection](add-connection-867cf53.md)
             -   [Manage a Connection](manage-a-connection-7387401.md)
             -   [Assign Connection to Workspace](assign-connection-to-workspace-c05f144.md)
-        -   [Functions Explorer](functions-explorer-90586e6.md)
+        -   [Functions Explorer \(Deprecated\)](functions-explorer-deprecated-90586e6.md)
             -   [Functions Explorer Overview](functions-explorer-overview-4988fa9.md)
             -   [Scenarios](scenarios-3b5d965.md)
                 -   [Investigate a Scenario](investigate-a-scenario-4547979.md)

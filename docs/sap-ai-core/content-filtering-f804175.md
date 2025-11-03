@@ -36,6 +36,16 @@ A prompt attack is a malicious input that is designed to bypass a model's safety
 
 If both prompt attack detection and harm classification are configured, the orchestration service performs the prompt attack detection call first, and then performs the harm classification call. If a prompt attack is detected, the orchestration service does not make the harm classification request and returns the prompt attack detection result only.
 
+
+
+### Protected Material Detection for Code
+
+The Azure Content Safety service includes an output content filter that identifies code matching existing GitHub repository code.
+
+The filter scans publicly available code, and has a knowledge cutoff date. Only code matching publicly available code added to GitHub after the knowledge cutoff date can be detected.
+
+For more information see [Protected Material Detection for Code in Azure AI Content Safety](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/quickstart-protected-material-code?pivots=programming-language-rest).
+
 > ### Remember:  
 > When multiple content filtering types are configured together, each type is processed as a separate request. Costs will be incurred for each filtering type applied.
 

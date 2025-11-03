@@ -1,6 +1,6 @@
 <!-- loio7db524ee75e74bf8b50c167951fe34a5 -->
 
-# Generative AI Hub in SAP AI Core
+# Generative AI Hub
 
 The generative AI hub incorporates generative AI into your AI activities in SAP AI Core and SAP AI Launchpad.
 

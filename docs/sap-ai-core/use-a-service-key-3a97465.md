@@ -67,7 +67,7 @@ After you have created your service key, it can be used by local clients, apps i
 
 To train and deploy your own AI models, follow the procedure in [Administration](administration-7937fc1.md).
 
-To use generative AI models provided in the generative AI hub, see [Generative AI Hub in SAP AI Core](generative-ai-hub-in-sap-ai-core-7db524e.md).
+To use generative AI models provided in the generative AI hub, see [Generative AI Hub](generative-ai-hub-7db524e.md).
 
 <a name="task_wqc_b4n_fyb"/>
 
@@ -129,10 +129,13 @@ curl is likely to be installed on your operating system by default. To check, op
     **For Linux:**
 
     ```
-    SECRET=`echo -n ‘$CLIENTID:$CLIENTSECRET’ | base64 -i - ` 
-    TOKEN=`curl --location --request POST "$XSUAA_URL/oauth/token?grant_type=client_credentials" 
-     --header "Authorization: Basic $SECRET" | jq -r '.access_token'` 
-    
+    SECRET=`echo -n "$CLIENTID:$CLIENTSECRET" | base64 -i - ` 
+    TOKEN=`curl --request POST \
+      --url "$XSUAA_URL/oauth/token" \
+      --header "Content-Type: application/x-www-form-urlencoded" \
+      --data "grant_type=client_credentials" \
+      --data "client_id=$CLIENTID" \
+      --data "client_secret=$CLIENTSECRET"`
     ```
 
     **For Windows PowerShell:**
@@ -178,5 +181,5 @@ curl is likely to be installed on your operating system by default. To check, op
 
 To train and deploy your own AI models, follow the procedure in [Administration](administration-7937fc1.md).
 
-To use generative AI models provided in the generative AI hub, see [Generative AI Hub in SAP AI Core](generative-ai-hub-in-sap-ai-core-7db524e.md).
+To use generative AI models provided in the generative AI hub, see [Generative AI Hub](generative-ai-hub-7db524e.md).
 

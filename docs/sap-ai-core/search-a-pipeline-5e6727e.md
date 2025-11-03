@@ -6,7 +6,7 @@
 
 ## Prerequisites
 
-You've created a document grounding pipeline, and included your choice of metadata in the `dataRepositoryMetadata` field. For more information, see [Create a Document Grounding Pipeline Using the Pipelines API \(with Metadata\)](create-a-document-grounding-pipeline-using-the-pipelines-api-with-metadata-3c56d6c.md).
+You've created a document grounding pipeline, and included your choice of metadata in the `dataRepositoryMetadata` field. For more information, see [Create a Document Grounding Pipeline Using the Pipelines API](create-a-document-grounding-pipeline-using-the-pipelines-api-d32b146.md).
 
 
 

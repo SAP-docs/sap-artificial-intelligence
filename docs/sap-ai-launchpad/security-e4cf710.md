@@ -1332,7 +1332,7 @@ Custom evaluation access in generative AI hub, for creating and viewing custom e
 **Related Information**  
 
 
-[Functions Explorer](functions-explorer-90586e6.md "")
+[Functions Explorer \(Deprecated\)](functions-explorer-deprecated-90586e6.md "")
 
 [Workspaces](workspaces-6bde2c8.md "The Workspaces app is a dashboard to manage the connection between SAP AI Launchpad and subscribed AI services.")
 

@@ -582,7 +582,7 @@ The `executableId` is `perplexity-ai`
 > curl --location '$DEPLOYMENT_URL/chat/completions' \
 > --header 'AI-Resource-Group: default' \
 > --header 'Content-Type: application/json' \
-> --header "Authorization: Bearer $AUTH_TOKEN" \
+> --heder "Authorization: Bearer $AUTH_TOKEN" \
 > --data '{
 >     "model": "<modelName>",
 >     "stream": false,
