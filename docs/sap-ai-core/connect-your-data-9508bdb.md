@@ -4,13 +4,9 @@
 
 Use cloud storage with SAP AI Core to store AI assets such as datasets and model files. You use Artifacts in SAP AI Core to reference to your AI Assets.
 
--   **[Manage Files](manage-files-386ba71.md "An artifact
-      refers
-      to data or a file that is produced or consumed by
-      executions or
-      deployments.
-      They are managed through SAP AI Core and your connected object
-      store.")**  
+-   **[Manage Files](manage-files-386ba71.md "An artifact refers to data or a file that is produced or consumed by executions or
+      deployments. They are managed through SAP AI Core and your
+      connected object store.")**  
 An artifact refers to data or a file that is produced or consumed by executions or deployments. They are managed through SAP AI Core and your connected object store.
 -   **[Manage Files Using the Dataset API](manage-files-using-the-dataset-api-ba8ac5c.md "Where direct access to files in the object store is not possible or desirable (for example, in Content as a Service Scenarios, where the
 		Service Consumers might not be the owners of the object store) you can upload, download, and delete files from the pre-registered object store

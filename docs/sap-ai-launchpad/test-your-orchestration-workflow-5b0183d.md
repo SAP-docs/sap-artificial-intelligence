@@ -29,5 +29,9 @@ SAP AI Launchpad displays the response to your prompt, which you can copy to the
 
 If you want to download the JSON, you can do so by clicking *Download*.
 
-![](images/test_orchestation_9b_95deaf1.png)
+
+
+## Next Steps
+
+You can save your workflow as an orchestration configuration. For more information, see [Save an Orchestration Config](save-an-orchestration-config-b687c7d.md).
 

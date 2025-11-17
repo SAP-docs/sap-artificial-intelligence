@@ -155,7 +155,7 @@ curl --request POST \
     "data": { 
     "description": "<any string base64 encoded>", 
     "authentication": "T0F1dGgyQ2xpZW50Q3JlZGVudGlhbHM=", 
-    "url": "< base64 encoded SAP Build Work Zone-server-url>", 
+    "url": "< base64 encoded SAP Document Management service server-url>", 
     "clientId": "< base64 encoded client-id>", 
     "clientSecret": "< base64 encoded client-secret>", 
     "tokenServiceURL": "< base64 encoded token-service-url>" 

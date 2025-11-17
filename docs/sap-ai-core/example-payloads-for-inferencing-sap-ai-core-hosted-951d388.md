@@ -500,7 +500,7 @@ The `executableId` is `aicore-nvidia`
 
 
 
-## Granite
+## Llama
 
 For more information from the model provider, see [Nvidia](https://build.nvidia.com/nvidia/llama-3_2-nv-embedqa-1b-v2/modelcard).
 

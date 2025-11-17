@@ -2,8 +2,6 @@
 
 # List Files
 
-Use the *ML Operations* app to search for a dataset or artifact.
-
 **Parent topic:**[Manage Files](manage-files-386ba71.md "An artifact refers to data or a file that is produced or consumed by executions or deployments. They are managed through SAP AI Core and your connected object store.")
 
 **Related Information**  

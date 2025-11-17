@@ -8,6 +8,8 @@ The embeddings endpoint is harmonized across different LLMs and can be used alon
 
 For more information about supported models, see references to orchestration in [Supported Models](supported-models-509e588.md).
 
+This feature is only available in orchestration V2.
+
 Send POST request to the endpoint `{{Orchestration URL}}/v2/embeddings` and populate the sample code with the following values:
 
 
@@ -120,7 +122,7 @@ curl --request POST \
         }
       },
       "masking": {
-        "masking_providers": [
+        "providers": [
           {
             "type": "sap_data_privacy_integration",
             "method": "anonymization",
@@ -159,9 +161,74 @@ curl --request POST \
     }
   },
   "input": {
-    "text": "Hello, Jake! I had a great meeting with the English stakeholder from Oxford University, located at 1 Infinite Loop, London. They left their contacts: manufacturer@gmail.com, or we may call them via +49 1522 3433333 . Their organization, SAP Public, provided the following details: National ID 123456789, IBAN DE89370400440532013000, SSN 987-65-4320, passport number X1234567, and credit card number 4111 1111 1111 1111. Their gender is male, nationality is British, and their political group is Green Party. For more info, visit https://sap.com or use the username: jake_user and password: SuperSecret123!",
-    "type": "text"
+    "text": "Hello, Jake! I had a great meeting with the English stakeholder from Oxford University, located at 1 Infinite Loop, London. They left their contacts: manufacturer@gmail.com, or we may call them via +49 1522 3433333 . Their organization, SAP Public, provided the following details: National ID 123456789, IBAN DE89370400440532013000, SSN 987-65-4320, passport number X1234567, and credit card number 4111 1111 1111 1111. Their gender is male, nationality is British, and their political group is Green Party. For more info, visit https://sap.com or use the username: jake_user and password: SuperSecret123!"
   }
 }'
 ```
+
+
+
+## Harmonization
+
+Orchestration harmonizes the different model provider interfaces under one API. Where supported, the parameter `input_types` defines the mode of embedding generation. Specifying the correct mode can increase accuracy.
+
+> ### Note:  
+> For most models this parameter is optional or not supported. For `nvidia--llama-3.2-nv-embedqa-1b` it is mandatory.
+> 
+> For more information, see the documentation from the model provider.
+
+Orchestration accepts the following input types:
+
+-   `document`: Indexing of document chunks for information retrieval scenarios.
+-   `query`: Embedding creation of search queries for document search in information retrieval scenarios.
+-   `text`: Generation of embeddings that are optimized for obtaining similarity scores.
+
+The input type mapping of Orchestration to provider API is as follows:
+
+
+
+### Google
+
+```
+{
+    "document": "RETRIEVAL_DOCUMENT",
+    "query": "RETRIEVAL_QUERY",
+    "text": "SEMANTIC_SIMILARITY"
+}
+```
+
+
+
+### NVIDIA `nvidia--llama-3.2-nv-embedqa-1b`
+
+`input_types` is mandatory for this model.
+
+```
+{
+    "document": "passage",
+    "query": "query",
+    "type": "query"
+}
+```
+
+For example:
+
+> ### Sample Code:  
+> ```
+> {
+>     "config": {
+>         "modules": {
+>             "embeddings": {
+>                 "model": {
+>                     "name": "nvidia-llama-3.2-nv-embedqa-1b"
+>                 }
+>             }
+>         }
+>     },
+>     "input": {
+>         "text": "My name is Tom. I am applying as a Senior Software Dev. I work closely with Jerry:",
+>         "type": "query"
+>     }
+> }
+> ```
 

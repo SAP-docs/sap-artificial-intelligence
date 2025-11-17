@@ -77,7 +77,7 @@ Set the following in the headers:
 >   "count": 3,
 >   "resources": [
 >     {
->       "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+>       "id": "<orchestrationConfigId1>",
 >       "name": "example-orchestration-config",
 >       "version": "0.0.1",
 >       "scenario": "customer-support",
@@ -86,7 +86,7 @@ Set the following in the headers:
 >       "is_version_head": true
 >     },
 >     {
->       "id": "b23cd456-ef78-9012-3456-789abcdef012",
+>       "id": "<orchestrationConfigId2>",
 >       "name": "another-orchestration-config",
 >       "version": "1.0.0",
 >       "scenario": "data-analysis",

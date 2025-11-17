@@ -23,6 +23,8 @@ This API call creates a pipeline for indexing documents for a resource group.
 
 You can schedule automatic content updates by using a `cronExpression` when you create your pipeline. For more information, see [Cron Expressions](cron-expressions-6175008.md).
 
+For repositories that support it, you can include metadata in your pipeline. Metadata is additional information associated with data that can help in identifying, categorizing, and retrieving relevant content.
+
 > ### Tip:  
 > If you use the pipelines API, you do not need to call the Vector API separately. After the data is embedded, you can directly use the Retrieval API to query the vector store for relevant sections.
 
@@ -61,5 +63,7 @@ You can manually restart a pipeline. For more information, see [Manually Restart
 -   **[Create a Pipeline with SAP Document Management Service](create-a-pipeline-with-sap-document-management-service-5718584.md "")**  
 
 -   **[Cron Expressions](cron-expressions-515e839.md "")**  
+
+-   **[Update Metadata](update-metadata-3df4881.md "")**  
 
 

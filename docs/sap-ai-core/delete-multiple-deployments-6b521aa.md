@@ -5,7 +5,7 @@
 Deleting a deployment releases the SAP AI Core resources that it used.
 
 > ### Restriction:  
-> If your deployment is running, you must stop it first.You can stop a deployment by submitting a PATCH request to `{{apiurl}}/v2/lm/deployments/{{deploymentid}}`. For more information, see [Stop Multiple Deployments](stop-multiple-deployments-331cdf5.md).
+> If your deployment is running, you must first stop it by submitting a PATCH request to `{{apiurl}}/v2/lm/deployments/{{deploymentid}}`. For more information, see [Stop Multiple Deployments](stop-multiple-deployments-331cdf5.md).
 
 
 

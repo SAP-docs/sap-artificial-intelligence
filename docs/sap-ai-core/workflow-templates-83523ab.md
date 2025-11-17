@@ -81,12 +81,22 @@ labels \(mandatory\)
 </td>
 <td valign="top">
 
-`ai.sap.com/resourcePlan`
+Choose one of the following:
+
+-   `ai.sap.com/resourcePlan`
+-   `ai.sap.com/instanceType`
+
+
 
 </td>
 <td valign="top">
 
-You must specify the chosen `resourcePlan`. The value is the string value of the selected resource plan. For more information, see [Choose an Instance](choose-an-instance-57f4f19.md).
+You must specify a `resourcePlan` or `instanceType`. The value is the string value of the selected item. For more information, see [Choose an Instance](choose-an-instance-57f4f19.md).
+
+> ### Tip:  
+> Instance types are recommended because they provide access to newer hardware and higher performance specifications compared to resource plans.
+
+
 
 </td>
 </tr>
@@ -146,7 +156,7 @@ The name of the executable.
 <tr>
 <td valign="top">
 
-`artifacts.ai.sap.com/<argo_artifact_name>.suffix`
+<code>artifacts.ai.sap.com/<i class="varname">&lt;argo_artifact_name&gt;</i>.suffix</code>
 
 </td>
 <td valign="top">
@@ -158,7 +168,7 @@ A suffix added to the file or folder of the output artifact on the object store.
 <tr>
 <td valign="top">
 
-`artifacts.ai.sap.com/<argo_artifact_name>.kind`
+<code>artifacts.ai.sap.com/<i class="varname">&lt;argo_artifact_name&gt;</i>.kind</code>
 
 </td>
 <td valign="top">
@@ -170,7 +180,7 @@ The type of output artifact \(for example, a dataset or model\).
 <tr>
 <td valign="top">
 
-`artifacts.ai.sap.com/<argo_artifact_name>.name`
+<code>artifacts.ai.sap.com/<i class="varname">&lt;argo_artifact_name&gt;</i>.name</code>
 
 </td>
 <td valign="top">
@@ -182,9 +192,9 @@ The name under which the output artifact is registered in the AI API.
 <tr>
 <td valign="top">
 
-`artifacts.ai.sap.com/<argo_artifact_name>.description` \(optional\)
+<code>artifacts.ai.sap.com/<i class="varname">&lt;argo_artifact_name&gt;</i>.description</code> \(optional\)
 
-`artifacts.ai.sap.com/<argo_artifact_name>.labels: | {"ext.ai.sap.com/customkey1":"customvalue1", "ext.ai.sap.com/customkey2":"customvalue2"}` \(optional\)
+<code>artifacts.ai.sap.com/<i class="varname">&lt;argo_artifact_name&gt;</i>.labels: | {"ext.ai.sap.com/customkey1":"customvalue1", "ext.ai.sap.com/customkey2":"customvalue2"}</code> \(optional\)
 
 </td>
 <td valign="top">
@@ -194,7 +204,7 @@ You can add further metadata for an artifact using these annotations.
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="2">
+<td valign="top" rowspan="3">
 
 `labels`
 
@@ -222,10 +232,22 @@ The compatibility version of this executable. You can use the compatibility vers
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+`ai.sap.com/instanceType` \(mandatory\)
+
+</td>
+<td valign="top">
+
+The string value for the instance type \(for example, `m5.xlarge`\).
+
+</td>
+</tr>
 </table>
 
 > ### Note:  
-> In the artifact-related parameters above, `<argo_artifact_name>` refers to the `globalName` of an output artifact.
+> In the artifact-related parameters above, <code><i class="varname">&lt;argo_artifact_name&gt;</i></code> refers to the `globalName` of an output artifact.
 
 
 
@@ -265,7 +287,7 @@ spec:
     - name: text-clf-sk-training
       metadata:
         labels:
-          ai.sap.com/resourcePlan: starter
+          ai.sap.com/instanceType: m7i.xlarge
       inputs:
         artifacts:
           - name: text-data
@@ -287,7 +309,7 @@ spec:
 ```
 
 > ### Tip:  
-> It is recommended that you specify a value for `activeDeadlineSeconds` in the workflow template. `activeDeadlineSeconds` prevents the workflow from running indefinitely and incurring high costs, for example if a linux process gets stuck. The `activeDeadlineSeconds` parameter is specified in the `spec` section of the workflow template, and defines the maximum duration in seconds that the workflow can run before it is stopped. For more information, see [Argo Workflow Timeouts](https://argo-workflows.readthedocs.io/en/latest/walk-through/timeouts/).
+> We recommend that you specify a value for `activeDeadlineSeconds` in the workflow template. `activeDeadlineSeconds` prevents the workflow from running indefinitely and incurring high costs, for example if a linux process gets stuck. The `activeDeadlineSeconds` parameter is specified in the `spec` section of the workflow template, and defines the maximum duration in seconds that the workflow can run before it is stopped. For more information, see [Argo Workflow Timeouts](https://argo-workflows.readthedocs.io/en/latest/walk-through/timeouts/).
 
 > ### Note:  
 > For every container in the template, the `command: ["/bin/sh", "-c"]` field is mandatory. The contents of the argument can be amended, but must not be empty. The `CMD` and `ENDPOINT` specified in the Dockerfile of a container are ignored.

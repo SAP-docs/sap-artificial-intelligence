@@ -33,7 +33,7 @@ You can start an existing pipeline by sending a POST request to the endpoint: `/
     <tr>
     <td valign="top">
     
-    \{\{resource\_group\}\}
+    `{{resource_group}}`
     
     </td>
     <td valign="top">
@@ -45,7 +45,7 @@ You can start an existing pipeline by sending a POST request to the endpoint: `/
     <tr>
     <td valign="top">
     
-    $AI\_API\_URL
+    `$AI_API_URL`
     
     </td>
     <td valign="top">
@@ -57,7 +57,7 @@ You can start an existing pipeline by sending a POST request to the endpoint: `/
     <tr>
     <td valign="top">
     
-    \{\{access\_token\}\}
+    `{{access_token}}`
     
     </td>
     <td valign="top">
@@ -69,12 +69,28 @@ You can start an existing pipeline by sending a POST request to the endpoint: `/
     <tr>
     <td valign="top">
     
-    \{\{pipelineId\}\}
+    `{{pipelineId}}` 
     
     </td>
     <td valign="top">
     
     The ID of the pipeline that you want to start
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `metadataOnly`
+    
+    </td>
+    <td valign="top">
+    
+    A Boolean value.
+
+    `true` updates the metadata only.
+
+    `false` updates you semantic embeddings by processing the documents in your repository.
     
     </td>
     </tr>
@@ -89,7 +105,8 @@ You can start an existing pipeline by sending a POST request to the endpoint: `/
     >   --header 'Authorization: Bearer {{access_token}}'
     >   --header 'content-type: application/json' \ 
     >   --data '{ 
-    >     "pipelineId":"{{pipelineId}}" 
+    >     "pipelineId":"{{pipelineId}}",
+    > 	"metadataOnly": "<Boolean>"
     >   }' 
     > ```
 

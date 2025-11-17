@@ -89,7 +89,7 @@ Enhance content generation with additional capabilities for business AI scenario
 </td>
 <td valign="top">
 
-[Orchestration API](https://api.sap.com/api/ORCHESTRATION_API/overview) 
+[Orchestration API](https://api.sap.com/api/ORCHESTRATION_API_v2/overview) 
 
 </td>
 </tr>

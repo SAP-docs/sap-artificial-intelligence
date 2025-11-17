@@ -20,7 +20,7 @@ Custom AI development requirements vary significantly based on the use case. A r
 
 <table>
 <tr>
-<th valign="top">
+<th valign="top" colspan="2">
 
 Resource Type
 
@@ -37,19 +37,36 @@ Unit of Measure \(UoM\)
 </th>
 </tr>
 <tr>
-<td valign="top" rowspan="7">
+<td valign="top" rowspan="8">
 
 Compute
 
 </td>
 <td valign="top">
 
-Starter Instance \(min. 2.5 GB, 1 CPU core\)
+Instance Types
 
 </td>
-<td valign="top" rowspan="7">
+<td valign="top">
+
+For information about available instance types, see SAP Note [3660109](https://me.sap.com/notes/3660109).
+
+</td>
+<td valign="top" rowspan="8">
 
 Node hour
+
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="7">
+
+Resource Plans
+
+</td>
+<td valign="top">
+
+Starter Instance \(min. 2.5 GB, 1 CPU core\)
 
 </td>
 </tr>
@@ -96,7 +113,7 @@ Train-L Instance \(min. 47 GB, 5 CPU cores, advanced GPU\)
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" colspan="2">
 
 Storage
 
@@ -113,7 +130,7 @@ Gigabyte hour
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" colspan="2">
 
 Baseline
 

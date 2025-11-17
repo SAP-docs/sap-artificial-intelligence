@@ -45,9 +45,9 @@ Set the following in the headers:
 >     prompt_templating:
 >       prompt:
 >         template_ref:
->           id: a460d210-df38-4867-9535-7a556701a4b0
+>           id: <promptTemplateId>
 >       model:
->         name: gpt-4o-mini
+>         name: <model>
 >         params:
 >           temperature: 0.7
 >           max_tokens: 500

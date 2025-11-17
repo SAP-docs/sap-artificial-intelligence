@@ -4,8 +4,10 @@
 
 Deleting a training instance releases the SAP AI Core resources that it used.
 
-> ### Restriction:  
-> If your execution is running, you must stop it first.You can stop a running execution by submitting a PATCH request to `$AI_API_URL/v2/lm/executions/$EXECUTION \`. For more information, see [Stop a Single Training Instance](stop-a-single-training-instance-07870df.md) and [Stop Multiple Training Instances](stop-multiple-training-instances-09b4810.md).
+> ### Note:  
+> Before you can delete an instance, you must stop any running exeuctions. You do so by submitting a PATCH request to `$AI_API_URL/v2/lm/executions/$EXECUTION \`.
+> 
+> For more information, see [Stop a Single Training Instance](stop-a-single-training-instance-07870df.md) and [Stop Multiple Training Instances](stop-multiple-training-instances-09b4810.md).
 
 
 

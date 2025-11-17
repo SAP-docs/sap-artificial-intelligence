@@ -33,7 +33,7 @@ Set the following in the headers:
 >   "count": 5,
 >   "resources": [
 >     {
->       "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+>       "id": "<orchestrationConfigId>",
 >       "name": "example-orchestration-config",
 >       "version": "0.0.1",
 >       "scenario": "customer-support",
@@ -45,11 +45,11 @@ Set the following in the headers:
 >           "prompt_templating": {
 >             "prompt": {
 >               "template_ref": {
->                 "id": "a460d210-df38-4867-9535-7a556701a4b0"
+>                 "id": "<promptTemplateId>"
 >               }
 >             },
 >             "model": {
->               "name": "gpt-4o-mini",
+>               "name": "<model>",
 >               "params": {
 >                 "temperature": 0.7,
 >                 "max_tokens": 500

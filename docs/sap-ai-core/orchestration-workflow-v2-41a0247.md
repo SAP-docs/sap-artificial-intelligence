@@ -276,7 +276,7 @@ Data repository IDs of repositories to be used for document grounding
 >         "model": {
 >           "name": "gpt-4o",
 >           "params": {
->             "max_tokens": 300,
+>             "max_completion_tokens": 300,
 >             "temperature": 0.1,
 >             "frequency_penalty": 0,
 >             "presence_penalty": 0
@@ -312,7 +312,7 @@ Data repository IDs of repositories to be used for document grounding
 >         }
 >       },
 >       "masking": {
->         "masking_providers": [
+>         "providers": [
 >           {
 >             "type": "sap_data_privacy_integration",
 >             "method": "pseudonymization",

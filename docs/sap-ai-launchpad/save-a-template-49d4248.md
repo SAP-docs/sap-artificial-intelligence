@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
--   Users with only the `genai_experimenter` or `prompt_experimenter` roles are not able to save prompts .For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
+-   Users with only the `genai_experimenter` or `prompt_experimenter` roles are not able to save prompts. For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
 
 
 
@@ -29,7 +29,8 @@ Templates containing images can't be saved.
 
 1.  Choose *Save Template* and add the following to the dialogue box:
 
-    -   Enter or select a scenrio name
+    -   Choose an access level
+    -   Enter or select a scenario name
     -   Enter or select a template name
     -   Enter or select a version
 
@@ -37,7 +38,5 @@ Templates containing images can't be saved.
 
     > ### Caution:  
     > Do not store personally identifiable information in prompts when using the generative AI hub. Personally identifiable information is any data that can be used alone, or in combination, to identify the person that the data refers to.
-
-    ![](images/savetemplate_49f3247.png)
 
 

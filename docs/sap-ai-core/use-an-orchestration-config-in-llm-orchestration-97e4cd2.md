@@ -41,7 +41,7 @@ curl -X POST "{{apiurl}}/v2/completion" \
      -H "Content-Type: application/json" \
      -d '{
            "config_ref": {
-             "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479"
+             "id": "<orchestrationConfigId>"
            },
            "placeholder_values": {
              "userQuery": "What are the benefits of SAP AI Core?",
@@ -104,7 +104,7 @@ curl -X POST "{{apiurl}}/v2/completion" \
                    ]
                  },
                  "model": {
-                   "name": "gpt-4o-mini"
+                   "name": "<model>"
                  }
                }
              }

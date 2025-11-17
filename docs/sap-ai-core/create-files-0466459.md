@@ -30,7 +30,7 @@ Where direct access to files in the object store is not possible or desirable \(
 
 ## Context
 
-For full details on the Dataset API specification, see [SAP AI Core API documentation](https://api.sap.com/api/AI_CORE_API/overview).
+For full details on the Dataset API specification, see [SAP AI Core Dataset API documentation](https://help.sap.com/doc/9baaf43ec67448e6b994c760139106a5/CLOUD/en-US/dataset_management.html).
 
 
 
@@ -81,7 +81,7 @@ curl --location --request PUT “$AI_API_URL/v2/lm/dataset/files/$SECRET_NAME/$F
 
 ## Context
 
-For full details on the Dataset API specification, see [SAP AI Core API documentation](https://api.sap.com/api/AI_CORE_API/overview).
+For full details on the Dataset API specification, see [SAP AI Core Dataset API documentation](https://help.sap.com/doc/9baaf43ec67448e6b994c760139106a5/CLOUD/en-US/dataset_management.html).
 
 
 

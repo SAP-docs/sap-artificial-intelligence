@@ -140,9 +140,9 @@ Setting to allow changes to the serving template to be cascaded to associated de
 <tr>
 <td valign="top">
 
-`artifacts.ai.sap.com/<argo_artifact_name>.description` \(optional\)
+<code>artifacts.ai.sap.com/<i class="varname">&lt;argo_artifact_name&gt;</i>.description</code> \(optional\)
 
-`artifacts.ai.sap.com/<argo_artifact_name>.labels: | {"ext.ai.sap.com/customkey1":"customvalue1", "ext.ai.sap.com/customkey2":"customvalue2"}` \(optional\)
+<code>artifacts.ai.sap.com/<i class="varname">&lt;argo_artifact_name&gt;</i>.labels: | {"ext.ai.sap.com/customkey1":"customvalue1", "ext.ai.sap.com/customkey2":"customvalue2"}</code> \(optional\)
 
 </td>
 <td valign="top">
@@ -231,12 +231,22 @@ labels \(mandatory\)
 </td>
 <td valign="top">
 
-`ai.sap.com/resourcePlan`
+Choose one of the following:
+
+-   `ai.sap.com/resourcePlan`
+-   `ai.sap.com/instanceType`
+
+
 
 </td>
 <td valign="top">
 
-You must specify the chosen `resourcePlan`The value is the string value of the selected resource plan \(see [Choose an Instance](choose-an-instance-57f4f19.md)\).
+You must specify a `resourcePlan` or `instanceType`. The value is the string value of the selected item. For more information, see [Choose an Instance](choose-an-instance-57f4f19.md).
+
+> ### Tip:  
+> Instance types are recommended because they provide access to newer hardware and higher performance specifications compared to resource plans.
+
+
 
 </td>
 </tr>
@@ -286,7 +296,7 @@ spec:
         autoscaling.knative.dev/target: 100
         autoscaling.knative.dev/targetBurstCapacity: 70
       labels: |
-        ai.sap.com/resourcePlan: starter
+        ai.sap.com/instanceType: m7i.xlarge
     spec: |
       predictor:
         imagePullSecrets:

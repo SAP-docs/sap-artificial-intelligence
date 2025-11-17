@@ -40,7 +40,7 @@ In the following example, we use the data masking module to anonymize people, or
 >             "model": {
 >               "name": "gpt-4o",
 >               "params": {
->                 "max_tokens": 300,
+>                 "max_completion_tokens": 300,
 >                 "temperature": 0.1,
 >                 "frequency_penalty": 0,
 >                 "presence_penalty": 0
@@ -48,7 +48,7 @@ In the following example, we use the data masking module to anonymize people, or
 >            }
 >           },
 >         "masking": {
->           "masking_providers": [
+>           "providers": [
 >             {
 >               "type": "sap_data_privacy_integration",
 >               "method": "anonymization",
@@ -220,7 +220,7 @@ When the grounding module is used, the masking module also supports masking of t
 >   "config": {
 >     "modules": {
 >       "masking": {
->         "masking_providers": [
+>         "providers": [
 >           {
 >             "type": "sap_data_privacy_integration",
 >             "method": "pseudonymization",

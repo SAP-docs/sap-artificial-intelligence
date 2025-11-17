@@ -18,12 +18,14 @@ Within SAP AI Core, the instances are selected via the `ai.sap.com/resourcePlan`
 
 There are limits to the default disk storage size for all these nodes. Datasets that are loaded to the nodes consume disk space. If you have large data sets \(larger than 30 GB\), or have large models, you may have to increase the disk size. To do so, use the persistent volume claim in Argo Workflows to specify the required disk size \(see [Volumes](https://argoproj.github.io/argo-workflows/walk-through/volumes/)\).
 
+Instance types are recommended because they provide access to newer hardware and higher performance specifications compared to resource plans.
+
 
 
 ## Instance Types
 
 > ### Restriction:  
-> Instance types are only available as part of the “extended” service plan. For more information on instances that can be used with the “standard” service plan.
+> Instance types are only available as part of the “extended” service plan. For more information on instances that can be used with the “standard” service plan, see [Resource Plans](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/choose-resource-plan-train?version=CLOUD&q=instance+types#resource-plans).
 
 Within SAP AI Core, the instances are selected via the `ai.sap.com/instanceType` label in your workflow templates. It maps the selected resource and takes a string value, which is the ID of the instance
 

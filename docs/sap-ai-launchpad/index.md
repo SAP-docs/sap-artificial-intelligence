@@ -46,6 +46,11 @@ Explore the concepts around SAP AI Launchpad and learn how to provision the serv
                 -   [Output Filtering](output-filtering-32a0e42.md)
                 -   [Output Translation](output-translation-e350c56.md)
             -   [Test Your Orchestration Workflow](test-your-orchestration-workflow-5b0183d.md)
+            -   Orchestration Registry
+                -   [Save an Orchestration Config](save-an-orchestration-config-b687c7d.md)
+                -   [View Orchestration Configs](view-orchestration-configs-cafd530.md)
+                -   [Update an Orchestration Config](update-an-orchestration-config-da97848.md)
+                -   [Delete an Orchestration Config](delete-an-orchestration-config-ad7f17d.md)
         -   Optimizations
             -   Prerequisites
                 -   [Register an Object Store for Optimizations](register-an-object-store-for-optimizations-9ee15fb.md)

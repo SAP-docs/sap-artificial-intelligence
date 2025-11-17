@@ -106,14 +106,6 @@ The name of the generic secret created for SAP Document Management service
 
 
 
-<a name="loio5718584ed35b4260bc4c0052226a4b04__section_c2d_1wg_jgc"/>
-
-## Next Steps
-
-After preparing your vectors, you can use the Retrieval API for chunks relevant to a query, or use the grounding module as part of an orchestration workflow for information retrieval and LLM interaction. For more information, see [Retrieval API](retrieval-api-281e8cf.md) or [Using the Grounding Module](using-the-grounding-module-e1c4dd1.md).
-
-
-
 ### Scheduling updates
 
 Optionally, you can add a `configuration` containing a `cronExpression` to schedule updates to your pipeline, at intervals of your choice.
@@ -141,4 +133,12 @@ curl --request POST \
 
 > ### Note:  
 > Each repetition of your pipeline is a new deployment, and incurs costs.
+
+
+
+<a name="loio5718584ed35b4260bc4c0052226a4b04__section_c2d_1wg_jgc"/>
+
+## Next Steps
+
+After preparing your vectors, you can use the Retrieval API for chunks relevant to a query, or use the grounding module as part of an orchestration workflow for information retrieval and LLM interaction. For more information, see [Retrieval API](retrieval-api-281e8cf.md) or [Using the Grounding Module](using-the-grounding-module-e1c4dd1.md).
 

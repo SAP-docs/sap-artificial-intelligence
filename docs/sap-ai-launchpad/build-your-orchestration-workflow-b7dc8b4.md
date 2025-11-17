@@ -19,7 +19,7 @@ You build your orchestration workflow by designing and testing a prompt that can
 
 ## The Orchestration Workflow
 
-Navigate to the landing page for orchestration by choosing *Generative AI Hub* \> *Orchestration*. SAP AI Launchpad displays the following workflow, which you can use to build your orchestration.
+Navigate to the landing page for orchestration by choosing *Generative AI Hub* \> *Orchestration* and clicking *Create*. SAP AI Launchpad displays the following workflow, which you can use to build your orchestration.
 
 In a basic orchestration scenario, you can combine different modules from orchestration into a pipeline that can be executed with a single API call. Within the pipeline, the response from one module is used as the input for the next module.
 

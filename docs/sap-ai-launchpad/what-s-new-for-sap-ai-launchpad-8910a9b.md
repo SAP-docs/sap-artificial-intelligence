@@ -92,6 +92,204 @@ Generative AI hub
 </td>
 <td valign="top">
 
+Orchestration registry
+
+You can manage the lifecycle of your orchestration workflow configurations, including saving, versioning and deleting orchestration configurations.
+
+For more information, see [Save an Orchestration Config](save-an-orchestration-config-b687c7d.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-11-16
+
+</td>
+<td valign="top">
+
+2025-11-16
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+You can choose an access level when saving prompt templates to the prompt registry. Choose from tenant level and resource group level.
+
+For more information, see [Save a Template](save-a-template-49d4248.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-11-16
+
+</td>
+<td valign="top">
+
+2025-11-16
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Help Documentation
+
+</td>
+<td valign="top">
+
+You can access the Help Documentation for SAP AI Launchpad through the interface, using the <span class="SAP-icons-V5"></span> \(help\) icon.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-11-16
+
+</td>
+<td valign="top">
+
+2025-11-16
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
 The *Functions Explorer* app is deprecated and will be decommissioned in November 2026.
 
 Users of the *Functions Explorer* app can access their scenarios, runs, and deployments through the *ML Operations* app.
@@ -4743,7 +4941,7 @@ Deployments - Duration
 </td>
 <td valign="top">
 
-If your runtime supports deployment durations, you'll be able to set durations for new deployments. Deployments run until this time and are then automatically stopped and deleted.
+If your runtime supports deployment duration, you'll be able to set durations for new deployments. Deployments run until this time and are then automatically stopped and deleted.
 
 See [Create a Deployment](create-a-deployment-33b34e9.md).
 

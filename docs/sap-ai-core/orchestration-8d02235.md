@@ -84,6 +84,8 @@ The Harmonized API lets you use different foundation models without the need to 
 
 -   **[Error Handling](error-handling-7597e89.md "")**  
 
+-   **[Orchestration with Fallbacks](orchestration-with-fallbacks-ff33cb8.md "")**  
+
 -   **[Orchestration Tutorials](orchestration-tutorials-d051b35.md "Find your use case with orchestration capabilities.")**  
 Find your use case with orchestration capabilities.
 

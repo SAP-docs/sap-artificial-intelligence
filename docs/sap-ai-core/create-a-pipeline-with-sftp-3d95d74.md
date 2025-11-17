@@ -120,6 +120,8 @@ The name of the generic secret created for SFTP
 
 ## With Metadata
 
+Metadata is additional information associated with data that can help in identifying, categorizing, and retrieving relevant content.
+
 The metadata attribute is optional. It accepts the destination name, which is used to connect to the Microsoft SharePoint metadata server to retrieve metadata for document indexing.
 
 The metadata attribute should be used only if a metadata server is configured. To create a grounding pipeline without metadata, see [Create a Document Grounding Pipeline Using the Pipelines API](create-a-document-grounding-pipeline-using-the-pipelines-api-d32b146.md).
@@ -229,7 +231,7 @@ The name of the generic secret created for the SFTP Metadata Server
 
 The metadata attribute is optional. It accepts the destination name, which is used to connect to the SFTP metadata server to retrieve metadata for document indexing.
 
-To make your pipeline searchable, add `dataRepositoryMetadata` to the `metadata` field. For example:
+You can search a pipeline later in your workflow by using the `dataRepositoryMetadata` attribute in the `metadata` field. Metadata organizes information using categories \(keys\) paired with their related values. For example:
 
 ```
 ...
@@ -366,4 +368,6 @@ For more information, see [Cron Expressions](cron-expressions-6175008.md).
 ## Next Steps
 
 After preparing your vectors, you can use the Retrieval API for chunks relevant to a query, or use the grounding module as part of an orchestration workflow for information retrieval and LLM interaction. For more information, see [Retrieval API](retrieval-api-281e8cf.md) or [Using the Grounding Module](using-the-grounding-module-e1c4dd1.md).
+
+You can add metadata to your pipeline, or update existing metadata by sending a patch request. For more information, see [Update Metadata](update-metadata-fb69180.md).
 

@@ -277,10 +277,6 @@ SAP AI Launchpad is a multitenant software as a service \(SaaS\) application on 
 		provides a scalable infrastructure for AI model management, with usage-based pricing that
 		lets you pay only for the resources you use.")**  
 SAP AI Core provides a scalable infrastructure for AI model management, with usage-based pricing that lets you pay only for the resources you use.
--   **[Choose an Instance](choose-an-instance-c58d4e5.md "You can configure SAP AI Core to use different infrastructure
-		instances for different tasks, based on demand. SAP AI Core provides
-		several preconfigured infrastructure bundles called “resource plans” and “instance types” for this purpose.")**  
-You can configure SAP AI Core to use different infrastructure instances for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” and “instance types” for this purpose.
 
 **Related Information**  
 

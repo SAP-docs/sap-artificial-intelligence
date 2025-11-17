@@ -65,7 +65,7 @@ The following examples show only the `prompt_templating` module for simplicity. 
 >             }
 >           },
 >           "model": {
->             "name": "gpt-4o-mini",
+>             "name": "<model>",
 >             "params": {
 >               "temperature": 0.7,
 >               "max_tokens": 500
@@ -95,11 +95,11 @@ The following examples show only the `prompt_templating` module for simplicity. 
 >         "prompt_templating": {
 >           "prompt": {
 >             "template_ref": {
->               "id": "a460d210-df38-4867-9535-7a556701a4b0"
+>               "id": "<templateId>"
 >             }
 >           },
 >           "model": {
->             "name": "gpt-4o-mini",
+>             "name": "model",
 >             "params": {
 >               "temperature": 0.7,
 >               "max_tokens": 500
@@ -113,7 +113,7 @@ The following examples show only the `prompt_templating` module for simplicity. 
 
 
 
-### Example With Prompt Template Reference by ID
+### Example With Scenario, Template Name, and Version Combination
 
 > ### Sample Code:  
 > ```
@@ -135,7 +135,7 @@ The following examples show only the `prompt_templating` module for simplicity. 
 >             }
 >           },
 >           "model": {
->             "name": "gpt-4o-mini",
+>             "name": "<model>",
 >             "params": {
 >               "temperature": 0.7,
 >               "max_tokens": 500
@@ -156,7 +156,7 @@ You will receive an output JSON containing details about your configuration, inc
 > ### Output Code:  
 > ```
 > {
->   "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+>   "id": "<orchestrationConfigId>",
 >   "name": "example-orchestration-config",
 >   "version": "0.0.1",
 >   "scenario": "customer-support",

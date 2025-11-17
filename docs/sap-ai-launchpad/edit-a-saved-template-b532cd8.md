@@ -29,6 +29,9 @@
 3.  Choose *Open in Prompt Editor*. Make your changes.
 
     > ### Note:  
+    > If you change the access level of your template, you'll create a separate template item. Both templates can be updated and saved independently of each other
+
+    > ### Note:  
     > If the model used for your prompt is no longer available you will be notified when you open the prompt in the editor and you must choose another model.
 
     ![](images/choose_new_model_e70d769.png)

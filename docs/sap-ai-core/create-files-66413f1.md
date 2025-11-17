@@ -14,7 +14,7 @@ The object store secret lets SAP AI Core access your cloud storage and data, wit
 **Related Information**  
 
 
-[List Files](list-files-1d613e0.md "Use the ML Operations app to search for a dataset or artifact.")
+[List Files](list-files-1d613e0.md "")
 
 <a name="task_xp1_532_scc"/>
 
