@@ -26,6 +26,11 @@ You can use your own git repository to version control your SAP AI Core template
 
 > ### Note:  
 > When you synchronize resources, make sure that there are no naming collisions, especially if you use multiple repositories or applications in one tenant. If you experience difficulties during synchronization, we recommend that you use only one repository or application per tenant.
+> 
+> For example, the following repository URLs are all considered the same repository:
+> - `https://github.com/user/repo`
+> - `https://github.com/user/repo/`
+> - `https://github.com/user/REPO/`
 
 
 
@@ -100,6 +105,11 @@ Create an application to sync your folders. For more information, see [Create an
 
 > ### Note:  
 > When you synchronize resources, make sure that there are no naming collisions, especially if you use multiple repositories or applications in one tenant. If you experience difficulties during synchronization, we recommend that you use only one repository or application per tenant.
+> 
+> For example, the following repository URLs are all considered the same repository:
+> - `https://github.com/user/repo`
+> - `https://github.com/user/repo/`
+> - `https://github.com/user/REPO/`
 
 
 
@@ -139,4 +149,3 @@ You specify your unique git repository details as follows:
 ## Next Steps
 
 Create an application to sync your folders. For more information, see [Create an Application](create-an-application-80dbecf.md).
-
