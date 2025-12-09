@@ -92,6 +92,421 @@ Generative AI hub
 </td>
 <td valign="top">
 
+Prompt storage is not enabled in some data centers, meaning that some users are not be able to save prompts.
+
+Users who can't save prompts should save a prompt template instead.
+
+For more information, see [Save a Template](save-a-template-49d4248.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-12-08
+
+</td>
+<td valign="top">
+
+2025-12-08
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Evaluations added to Optimizations
+
+Evaluations provides tools for benchmarking large language models and prompts via orchestration configurations.
+
+Evaluations can be used for the following use cases:
+
+-   Evaluating prompt templates and models as orchestration configurations to determine the most effective combination for a use case.
+
+-   Use industry standard pre-defined metrics for model and prompt comparison with your use case specific dataset.
+
+-   Use your own custom defined metrics for your prompt and model evaluation.
+
+
+For more information, see [Evaluations](evaluations-14699b0.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-12-08
+
+</td>
+<td valign="top">
+
+2025-12-08
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Metrics added to Optimizations
+
+You can choose from a selection of system defined metrics, or define your own custom llm-as-a-judge metrics, including rating criteria. You can incorporate system defined and custom metrics into your evaluation workflows.
+
+For more information, see [Metrics](metrics-0d71105.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-12-08
+
+</td>
+<td valign="top">
+
+2025-12-08
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+New models are supported, including Anthropic Claude 4.5 Haiku.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766)
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-12-08
+
+</td>
+<td valign="top">
+
+2025-12-08
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Change of the default model from Mistral Large.
+
+For users with an active Mistral Large deployment, Mistral Medium is the default model.
+
+For users without an active Mistral Medium deployment, another available model will be selected as the default model.
+
+Users without an active deployment for any other model, should create a new deployment for a model of their choice.
+
+For more information, see [Create a Deployment for a Generative AI Model](create-a-deployment-for-a-generative-ai-model-96b65bb.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-12-08
+
+</td>
+<td valign="top">
+
+2025-12-08
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+ML Ops app
+
+</td>
+<td valign="top">
+
+You can refresh table list contents using the <span class="SAP-icons-V5"></span> \(refresh\) icon. For example, when viewing scenarios, configurations and so on.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-12-08
+
+</td>
+<td valign="top">
+
+2025-12-08
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
 Orchestration registry
 
 You can manage the lifecycle of your orchestration workflow configurations, including saving, versioning and deleting orchestration configurations.
@@ -2360,7 +2775,7 @@ Generative AI hub
 
 Additional selected models and model versions from Anthropic via AWS Bedrock are supported.
 
-For more information, see [Foundation Models](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/2d981fb192f84837a64df26b4983156f.html "The foundation models service operates under the global AI scenario foundation-models, which is managed by SAP AI Core.") :arrow_upper_right: and SAP Note [3437766](https://me.sap.com/notes/3437766).
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
 
 </td>
 <td valign="top">

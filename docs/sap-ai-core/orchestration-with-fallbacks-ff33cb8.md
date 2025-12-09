@@ -2,7 +2,7 @@
 
 # Orchestration with Fallbacks
 
-You can define multiple sets of module configurations for completions in your orchestration workflow to incorporate fallbacks in case of processing failure, such as unsupported models in the deployed region. Requests are processed using the configuration with the highest preference. If processing fails, the next preferred configuration is automatically useed for processing. Preference order follows the list sequence: the first item has highest priority, and the last item has lowest priority.
+You can define multiple sets of module configurations for completions in your orchestration workflow to incorporate fallbacks in case of processing failure, such as unsupported models in the deployed region. Requests are processed using the configuration with the highest preference. If processing fails, the next preferred configuration is automatically used for processing. Preference order follows the sequence of the list: the first item has the highest priority, and the last item has the lowest priority.
 
 This feature is only available in orchestration V2.
 
@@ -12,11 +12,11 @@ This feature is only available in orchestration V2.
 
 **For streaming and non-streaming requests:** orchestration switches to fallback configurations when the specified model in the higher-preference instance is not supported in the deployed region.
 
-**For non-streaming requests:** orchestration may also switch to the next fallback if it encounters certain errors during processing. This allows orchestration to leverage fallback configurations and to provide successful responses in case of transient errors, for example, temporary unavailability of a model or service. For streaming requests, switching to a fallback configuration is not straightforward once the stream has started.
+**For non-streaming requests:** orchestration may also switch to the next fallback if it encounters certain errors during processing. This allows orchestration to leverage fallback configurations and to provide successful responses in case of transient errors, such as, temporary unavailability of a model or service. For streaming requests, switching to a fallback configuration is not straightforward once the stream has started.
 
 Orchestration will only switch to the next defined fallback configuration if it encounters specific errors during processing. For all other errors, orchestration will fail the request and return the corresponding error in the response.
 
-The fallback configuration will be used in the following scenarios::
+The fallback configuration will be used in the following scenarios:
 
 -   For streaming requests:
     -   If specified model is not supported in the deployed region or environment
@@ -49,13 +49,13 @@ The following example shows a request with: the specified `modules` list indicat
 > --data-raw '{
 >     "config": {
 >         "modules": [
->             { //1st prererence
+>             { //1st preference
 >                "prompt_templating": {
 >                     "prompt": {
 >                         "template": [
 >                             {
 >                                 "role": "system",
->                                 "content": "You a language translation model that translates English to German."
+>                                 "content": "You are a language translation model that translates English to German."
 >                             },
 >                             {
 >                                 "role": "user",
@@ -90,7 +90,7 @@ The following example shows a request with: the specified `modules` list indicat
 >                         "template": [
 >                             {
 >                                 "role": "system",
->                                 "content": "You a language translation model that translates English to German."
+>                                 "content": "You are a language translation model that translates English to German."
 >                             },
 >                             {
 >                                 "role": "user",

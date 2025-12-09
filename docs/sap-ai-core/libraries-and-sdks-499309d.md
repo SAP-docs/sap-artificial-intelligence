@@ -30,7 +30,7 @@ More Information
 
 SAP Cloud SDK for AI : JavaScript
 
-![](images/CloudSDKLogo_7bceb89.png)
+![SAP AI Cloud SDK Logo](images/CloudSDKLogo_7bceb89.png)
 
 </td>
 <td valign="top">
@@ -67,7 +67,7 @@ You can use SAP Cloud SDK for AI to:
 
 SAP Cloud SDK for AI : Java
 
-![](images/CloudSDKLogo_7bceb89.png)
+![SAP AI Cloud SDK Logo](images/CloudSDKLogo_7bceb89.png)
 
 </td>
 <td valign="top">
@@ -104,7 +104,7 @@ You can use SAP Cloud SDK for AI to:
 
 SAP Cloud SDK for AI : Python
 
-![](images/CloudSDKLogo_7bceb89.png)
+![SAP AI Cloud SDK Logo](images/CloudSDKLogo_7bceb89.png)
 
 </td>
 <td valign="top">

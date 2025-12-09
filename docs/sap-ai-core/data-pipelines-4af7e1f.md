@@ -57,7 +57,7 @@ Populate the code snippet with the following:
 
 This endpoint returns a response containing an array of pipeline objects, in JSON format.
 
-The available statuses for pipelines are the following:
+Available statuses for pipelines are as follows:
 
 -   NEW
 -   UNKNOWN
@@ -195,7 +195,7 @@ Populate the code snippet with the following:
 
 This endpoint returns a response containing details of the pipeline configuration and metadata, in JSON format.
 
-The available statuses for pipelines are the following:
+Available statuses for pipelines are as follows:
 
 -   NEW
 -   UNKNOWN
@@ -235,7 +235,7 @@ Populate the code snippet with the following:
 
 This endpoint returns a response containing details of the pipeline status, in JSON format.
 
-The available statuses for pipelines are the following:
+Available statuses for pipelines are as follows:
 
 -   NEW
 -   UNKNOWN

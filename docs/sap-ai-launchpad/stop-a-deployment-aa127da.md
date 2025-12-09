@@ -44,5 +44,5 @@ The deployment is stopped, and the computing resources that your deployment was 
 **Related Information**  
 
 
-[Stop Deployments](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/b7d2577088c84417bbab370173d38cd8.html "") :arrow_upper_right:
+ <?sap-ot O2O class="- topic/link " href="b7d2577088c84417bbab370173d38cd8.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/ayn1620809929290/loio62559d01add8414eb0c4d76d2d9f48bd_en-US/src/content/localization/en-us/aa127da70b224c1c854fc4b1d3144647.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 

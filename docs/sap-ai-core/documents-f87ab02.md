@@ -31,7 +31,7 @@ This endpoint returns a response in JSON format. The response includes the list 
 > 
 > ```
 
-The available statuses for documents are the following:
+Available statuses for documents are as follows:
 
 -   TO\_BE\_PROCESSED
 -   INDEXED
@@ -129,7 +129,7 @@ If `true`, includes the total count in the response. If `false`, includes the to
 >   --header 'Authorization: Bearer {{access_token}}'
 > ```
 
-The available statuses for documents are the following:
+Available statuses for documents are as follows:
 
 -   TO\_BE\_PROCESSED
 -   INDEXED
@@ -167,7 +167,7 @@ This endpoint returns a response in JSON format. The response includes the speci
 >   --header 'Authorization: Bearer {{access_token}}'
 > ```
 
-The available statuses for documents are the following:
+Available statuses for documents are as follows:
 
 -   TO\_BE\_PROCESSED
 -   INDEXED
@@ -203,7 +203,7 @@ This endpoint returns a response in JSON format.
 >   --header 'Authorization: Bearer {{access_token}}'
 > ```
 
-The available statuses for documents are the following:
+Available statuses for documents are as follows:
 
 -   TO\_BE\_PROCESSED
 -   INDEXED
@@ -326,7 +326,7 @@ This endpoint returns a response in JSON format. The response includes the speci
 >   --header 'Authorization: Bearer {{access_token}}'
 > ```
 
-The available statuses for documents are the following:
+Available statuses for documents are as follows:
 
 -   TO\_BE\_PROCESSED
 -   INDEXED

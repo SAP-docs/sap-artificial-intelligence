@@ -43,12 +43,24 @@ Bearer $AUTH\_TOKEN
 <tr>
 <td valign="top">
 
-AI\_API\_URL
+AI-Resource-Group
 
 </td>
 <td valign="top">
 
-Your deployment URL
+The resource group used in the activation steps
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+$AI\_API\_URL
+
+</td>
+<td valign="top">
+
+The base URL of your SAP AI Core environment. This can also be set as an environment variable.
 
 </td>
 </tr>
@@ -58,13 +70,13 @@ Your deployment URL
 
 ## Get Rate Limits
 
-Send a GET request to the endpoint `{{AI_API_URL}}/admin/quota/model`
+Send a GET request to the endpoint `$AI_API_URL/v2/admin/quota/model`,
 
 For example:
 
 ```
 
-curl --location "$AI_API_URL/admin/quota/model" \
+curl --location "$AI_API_URL/v2/admin/quota/model" \
 --header "Authorization: Bearer $AUTH_TOKEN"
 ```
 
@@ -93,7 +105,7 @@ By default, tenant-level quota applies to all resource groups. If quota is reque
 
 ```
 
-curl --location "$AI_API_URL/admin/quota/model" \
+curl --location "$AI_API_URL/v2/admin/quota/model" \
 --header 'AI-Resource-Group: <Resource Group Id>' \
 --header "Authorization: Bearer $AUTH_TOKEN"
 ```
@@ -102,16 +114,16 @@ curl --location "$AI_API_URL/admin/quota/model" \
 
 ## Create a Rate Limit Update
 
-You can request a rate limit update by sending a POST request to the endpoint `{{AI_API_URL}}/admin/quota/requests`. Include the details of your rate limit update in your request
+You can request a rate limit update by sending a POST request to the endpoint `$AI_API_URL/v2/admin/quota/requests`. Include the details of your rate limit update in your request.
 
 
 
-### Tentant level Request
+### Tenant level Request
 
 Populate the following request with your values:
 
 ```
-curl --location "$AI_API_URL/admin/quota/requests" \
+curl --location "$AI_API_URL/v2/admin/quota/requests" \
 --header 'AI-Resource-Group: <Resource Group Id>' \
 --header 'Content-Type: application/json' \
 --header "Authorization: Bearer $AUTH_TOKEN" \
@@ -147,7 +159,7 @@ To request a rate limit update for a particular resource-group, include the reso
 For example:
 
 ```
-curl --location "$AI_API_URL/admin/quota/requests" \
+curl --location "$AI_API_URL/v2/admin/quota/requests" \
 --header 'AI-Resource-Group: <Resource Group Id>' \
 --header 'Content-Type: application/json' \
 --header "Authorization: Bearer $AUTH_TOKEN" \
@@ -171,19 +183,19 @@ curl --location "$AI_API_URL/admin/quota/requests" \
 
 ## List Rate Limit Update Results
 
-You can check the status of your rate limits by sending a GET request to the endpoint `{{AI_API_URL}}/admin/quota/requests`.
+You can check the status of your rate limits by sending a GET request to the endpoint `$AI_API_URL/v2/admin/quota/requests`.
 
 For example:
 
 ```
-curl --location "$AI_API_URL/admin/quota/requests" \
+curl --location "$AI_API_URL/v2/admin/quota/requests" \
 --header "Authorization: Bearer $AUTH_TOKEN"
 ```
 
 For resource group level requests, include your resource group in the header. For example:
 
 ```
-curl --location "$AI_API_URL/admin/quota/requests" \
+curl --location "$AI_API_URL/v2/admin/quota/requests" \
 --header 'AI-Resource-Group: <Resource Group Id>' \
 --header "Authorization: Bearer $AUTH_TOKEN"
 ```

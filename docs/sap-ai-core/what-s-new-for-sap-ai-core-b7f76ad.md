@@ -92,6 +92,487 @@ Generative AI hub
 </td>
 <td valign="top">
 
+SAP-RPT-1 launched.
+
+`SAP-RPT-1` is a relational pre-trained transformer for use on relational and structured data. It is developed and maintained by SAP.
+
+Relational Foundation Models \(RFMs\) are large-scale machine learning models designed to understand, represent, and reason about relationships between entities in structured or semi-structured data.
+
+RFMs are useful for tasks such as knowledge graph completion, recommendation systems, complex query answering, and any application where understanding the connections and interactions between different entities is crucial.
+
+For more information, see [SAP-RPT-1](sap-rpt-1-f128f5e.md) and [Example Payloads for Inferencing - sap-rpt-1](example-payloads-for-inferencing-sap-rpt-1-399566e.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-12-08
+
+</td>
+<td valign="top">
+
+2025-12-08
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Evaluations added to Optimizations
+
+Evaluations provides tools for benchmarking large language models and prompts via orchestration configurations.
+
+Evaluations can be used for the following use cases:
+
+-   Evaluating prompt templates and models as orchestration configurations to determine the most effective combination for a use case.
+
+-   Use industry standard pre-defined metrics for model and prompt comparison with your use case specific dataset.
+
+-   Use your own custom defined metrics for your prompt and model evaluation.
+
+
+For more information, see [Evaluations](evaluations-14699b0.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-12-08
+
+</td>
+<td valign="top">
+
+2025-12-08
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Metrics added to Optimizations
+
+You can choose from a selection of system defined metrics, or define your own custom llm-as-a-judge metrics, including rating criteria. You can incorporate system defined and custom metrics into your evaluation workflows, and manage the lifecycle of your custom metrics.
+
+For more information, see [Metrics](metrics-8f2c277.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-12-08
+
+</td>
+<td valign="top">
+
+2025-12-08
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+New models are supported, including Anthropic Claude 4.5 Haiku.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-12-08
+
+</td>
+<td valign="top">
+
+2025-12-08
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+New models are supported, including Gemini 2.5 Flash Lite.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-12-01
+
+</td>
+<td valign="top">
+
+2025-12-01
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Orchestration V2 includes support for a unified embeddings endpoint that works consistently across different LLM providers. This endpoint can be used independently or combined with data anonymization capabilities.
+
+For more information, see [Embeddings](embeddings-67fdf29.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-11-17
+
+</td>
+<td valign="top">
+
+2025-11-17
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+You can define multiple model configuations in your orchestration workflow, enabling automatic fallbacks if processing fails \(for example, due to unsupported models in a region\).
+
+For more information, see [Orchestration with Fallbacks](orchestration-with-fallbacks-ff33cb8.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-11-17
+
+</td>
+<td valign="top">
+
+2025-11-17
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
 New models are supported, including Perplexity Sonar and Sonar Pro.
 
 For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
@@ -135,6 +616,204 @@ SAP Business Technology Platform
 <td valign="top">
 
 2025-10-20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+You can optimize prompts to by evaluating them against a specified metric. The optimized prompt is saved, improving model performance and output quality with prompt reuse.
+
+For more information, see [Prompt Optimization](prompt-optimization-f5af0bd.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-10-20
+
+</td>
+<td valign="top">
+
+2025-10-20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+You can manage the lifecycle of your orchestration configs, including creating, saving, versioning, reuse. CRUD functionality, and import and export of orchestration configs are also supported.
+
+For more information, see [Orchestration Config Management](orchestration-config-management-332bd1e.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-10-20
+
+</td>
+<td valign="top">
+
+2025-10-20
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+You can use the quota management API endpoints to check and update your rate limits for models in the generative AI hub.
+
+For more information, see [Rate Limit Management](rate-limit-management-6cbc230.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-10-06
+
+</td>
+<td valign="top">
+
+2025-10-06
 
 </td>
 </tr>

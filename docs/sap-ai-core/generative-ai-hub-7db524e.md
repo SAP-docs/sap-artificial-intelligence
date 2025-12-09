@@ -28,9 +28,9 @@ Click the tiles below to find out more about the generative AI hub.
 
 -   **[Quick Start](quick-start-ef03b58.md "In this section, we'll show you how you can get started with the generative AI hub.")**  
 In this section, we'll show you how you can get started with the generative AI hub.
--   **[Accessing Generative AI Models Through Global Scenarios](accessing-generative-ai-models-through-global-scenarios-4ca11f6.md "")**  
+-   **[Models](models-6440777.md "")**  
 
--   **[Supported Models](supported-models-509e588.md "")**  
+-   **[Accessing Generative AI Models Through Global Scenarios](accessing-generative-ai-models-through-global-scenarios-4ca11f6.md "")**  
 
 
 **Related Information**  

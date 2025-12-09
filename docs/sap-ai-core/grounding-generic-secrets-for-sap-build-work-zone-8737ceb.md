@@ -169,7 +169,7 @@ curl --request POST \
     }, 
     { 
       "key": "ext.ai.sap.com/documentRepositoryType", 
-      "value": "SAP Build Work Zone" 
+      "value": "WorkZone" 
     } 
   ] 
 }'

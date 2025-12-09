@@ -8,11 +8,11 @@
 
 1.  On the *Instances and Subscriptions* page, find your new instance and choose *Create Service Key* from the dropdown.
 
-    ![](images/View_Service_Instances_7ff0ecc.png)
+    ![Screenshot of a subaccount](images/View_Service_Instances_7ff0ecc.png)
 
 2.  Enter a name for your service key and click *Create*.
 
-    ![](images/New_Service_Key_0019ba4.png)
+    ![Screenshot of create a service key](images/New_Service_Key_0019ba4.png)
 
     > ### Remember:  
     > You are responsible for the rotation of your access credentials and certificates of SAP AI Core within BTP according to regional policy.
@@ -55,7 +55,7 @@ You now have your service key, which provides URLs and credentials for accessing
 > ### Remember:  
 > You are responsible for the rotation of your access credentials and certificates of SAP AI Core within BTP according to regional policy.
 
-![](images/Service_Key_Credentials_1e1342e.png)
+![Screenshot of an example service key](images/Service_Key_Credentials_1e1342e.png)
 
 If you have generated a client secret, your key will include:
 

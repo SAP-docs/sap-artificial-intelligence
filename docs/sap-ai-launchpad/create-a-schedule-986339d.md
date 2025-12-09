@@ -38,8 +38,8 @@ You have the `mloperations_editor` or `execution_schedules_editor role`, or you 
 
 5.  In the *Schedule* step, choose from:
 
-    -   To create a *One-Time* schedule, choose *One-Time* schedule and selecting the end date and time. ![](images/Create_Schedule_One_Time_1498ba3.png)
-    -   To create a *Recurring* schedule choose *Recurring*. Optionally, you can enter a cron expression to provide a start and end time. ![](images/Create_Schedule_Recurring_d0d39a3.png)
+    -   To create a *One-Time* schedule, choose *One-Time* schedule and selecting the end date and time. ![Screenshot of the SAP AI Launchpad user interface](images/Create_Schedule_One_Time_1498ba3.png)
+    -   To create a *Recurring* schedule choose *Recurring*. Optionally, you can enter a cron expression to provide a start and end time. ![Screenshot of the SAP AI Launchpad user interface](images/Create_Schedule_Recurring_d0d39a3.png)
 
         > ### Note:  
         > Your AI runtime can specify a minimum frequency expected for the cron expression. For more information, see [About the AI API](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/about-ai-api).

@@ -34,7 +34,7 @@
     > ### Note:  
     > If the model used for your prompt is no longer available you will be notified when you open the prompt in the editor and you must choose another model.
 
-    ![](images/choose_new_model_e70d769.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/choose_new_model_e70d769.png)
 
 
 

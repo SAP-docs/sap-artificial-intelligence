@@ -38,7 +38,7 @@ Alternatively, you can use a booster to set up the free plan for SAP AI Core. Fo
 
 6.  In the *Plan* field, choose *Free*.
 
-    ![](images/enable_free_tier_b8a2916.png)
+    ![Screenshot of select free tier](images/enable_free_tier_b8a2916.png)
 
 
 

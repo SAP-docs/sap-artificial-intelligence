@@ -83,7 +83,7 @@ Base64 encoded value for the description of the generic secret to be created
 </td>
 <td valign="top">
 
-Base64 encoded value for your SAP Document Management service URL
+Base64 encoded value for your AI Bridge Service URL and repository path. For example, `https://sdm-ai-bridge.cfapps.<region>.hana.ondemand.com/rest/v1/repositories/<repoID>/metadata`.
 
 </td>
 </tr>
@@ -135,6 +135,23 @@ Base64 encoded value for token service URL for client secret based authenticatio
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+`pageSize` \(optional\)
+
+</td>
+<td valign="top">
+
+If pagination is required, enter a Base64 encoded value of integer from 1 to 500.
+
+> ### Restriction:  
+> Pagination and the page size attribute are only supported if you have a metadata server with pagination implemented. For more information, see [Prepare your Metadata API Server](prepare-your-metadata-api-server-23a0741.md).
+
+
+
+</td>
+</tr>
 </table>
 
 > ### Note:  
@@ -155,11 +172,11 @@ curl --request POST \
     "data": { 
     "description": "<any string base64 encoded>", 
     "authentication": "T0F1dGgyQ2xpZW50Q3JlZGVudGlhbHM=", 
-    "url": "< base64 encoded SAP Document Management service server-url>", 
+    "url": "<base64 encoded AI Bridge Service URL>", 
     "clientId": "< base64 encoded client-id>", 
     "clientSecret": "< base64 encoded client-secret>", 
     "tokenServiceURL": "< base64 encoded token-service-url>" 
-    
+    "pageSize": "<Base64 encoded integer 1-500>"
   }, 
   "labels": [ 
     { 
@@ -188,4 +205,6 @@ After registering your repository with grounding, you can use the document groun
 [Update a Generic Secret](update-a-generic-secret-b5d5970.md "")
 
 [Delete a Generic Secret](delete-a-generic-secret-d5d5187.md "")
+
+[SAP Document Management Service](https://help.sap.com/docs/DOCUMENT_MANAGEMENT/f6e70dd4bffa4b65965b43feed4c9429/72f18b043abd463aba2a680edc897439.html)
 

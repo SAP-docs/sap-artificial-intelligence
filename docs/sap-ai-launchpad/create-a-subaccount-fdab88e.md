@@ -28,7 +28,7 @@ We improve the product incrementally, therefore screenshots may differ from the 
 
 1.  In the SAP BTP cockpit, choose *Account Explorer* and then choose *Create* \> *Subaccount*.
 
-    ![](images/Subaccount_Name_and_Region_0af449d.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/Subaccount_Name_and_Region_0af449d.png)
 
 2.  Enter the details for your subaccount as follows:
 
@@ -57,7 +57,7 @@ We improve the product incrementally, therefore screenshots may differ from the 
     6.  Click *Create*.
 
 
-    ![](images/Image_AI_Launchpad_Provisioning_Production_7_74eeb59.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/Image_AI_Launchpad_Provisioning_Production_7_74eeb59.png)
 
 3.  Save your changes.
 

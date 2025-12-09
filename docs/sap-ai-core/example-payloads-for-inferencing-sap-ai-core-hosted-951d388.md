@@ -7,7 +7,7 @@ The following examples show how you can consume various generative AI models usi
 > ### Tip:  
 > If you use a Windows device, use Windows Powershell, and replace `curl` with `curl.exe`.
 
-Ensure that you have the following headers set:
+Ensure that you have set the following headers:
 
 
 <table>

@@ -18,15 +18,15 @@ You can assign role collections to specific users to allow access to SAP AI Laun
 
 3.  Choose *Security* \> *Users* and click *Create*.
 
-    ![](images/BTP_Create_Users_4b25733.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/BTP_Create_Users_4b25733.png)
 
 4.  Choose the user by clicking the corresponding row in the table.
 
-    ![](images/BTP_Choose_User_e98d951.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/BTP_Choose_User_e98d951.png)
 
 5.  In the *Role Collections* section, choose *Assign Role Collection* \(you may have to click the *More* icon \(<span class="SAP-icons-V5"></span>\) to see this\).
 
-    ![](images/BTP_Assign_Role_Collection_a341408.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/BTP_Assign_Role_Collection_a341408.png)
 
 6.  Choose the role collections as required.
 

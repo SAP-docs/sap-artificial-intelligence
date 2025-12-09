@@ -46,6 +46,6 @@ This procedure explains how to delete templates in the generative AI hub. You ca
 
     To delete a template, delete all of its revisions.
 
-    ![](images/Delete_template_4b_20f8ee5.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/Delete_template_4b_20f8ee5.png)
 
 

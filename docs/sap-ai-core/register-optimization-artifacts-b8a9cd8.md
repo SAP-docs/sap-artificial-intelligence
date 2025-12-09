@@ -9,7 +9,7 @@
 ## Prerequisites
 
 -   You've registered an object store for Amazon S3, OSS, or Azure Blob Storage. For more information, see [Register an Object Store for Optimizations](register-an-object-store-for-optimizations-54068a9.md).
--   You've prepared a dataset in JSON format and stored it in your registered object store. For more information, see [Dataset preparation](dataset-preparation-b2625d7.md).
+-   You've prepared a dataset in JSON format and stored it in your registered object store. For more information, see [Dataset Preparation](dataset-preparation-b2625d7.md).
 
 
 
@@ -53,7 +53,7 @@ Send a request to the endpoint `$AI_API_URL/v2/lm/artifacts`, and include the pr
 
 The data path specified in the URL field uses the name of the OSS you created as the path prefix. This replaces the originally assigned path prefix, as shown in the image below.
 
-![](images/Data_Path_for_Evaluation_Artifacts_de48b42.png)
+![Diagram showing a path prefic extraction](images/Data_Path_for_Evaluation_Artifacts_de48b42.png)
 
 
 

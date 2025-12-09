@@ -168,6 +168,8 @@ curl --request POST \
 
 
 
+<a name="loio67fdf29b483042d49e26c7970336bc3a__Harmonization"/>
+
 ## Harmonization
 
 Orchestration harmonizes the different model provider interfaces under one API. Where supported, the parameter `input_types` defines the mode of embedding generation. Specifying the correct mode can increase accuracy.

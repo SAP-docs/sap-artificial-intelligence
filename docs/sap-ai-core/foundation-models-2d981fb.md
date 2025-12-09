@@ -167,7 +167,7 @@ GCP Vertex AI provides access to PaLM 2 and Gemini models from Google.
 
 **For more information about available models, including conversion rates for tokens, rate limits and deprecation dates, see SAP Note [3437766](https://me.sap.com/notes/3437766).**
 
-After creating a deployment for your model, you consume the model using prompts. For more information, see [Consume Generative AI Models](consume-generative-ai-models-bf0373b.md).
+After creating a deployment for your model, you consume the model using prompts. For more information, see [Consume Models](consume-models-bf0373b.md).
 
 -   **[Get an Auth Token](get-an-auth-token-5ec7ec0.md "Start by setting the required environment variables, which you can get from your SAP AI Core instance.")**  
 Start by setting the required environment variables, which you can get from your SAP AI Core instance.
@@ -175,7 +175,7 @@ Start by setting the required environment variables, which you can get from your
 		
 	")**  
 
--   **[Consume Generative AI Models](consume-generative-ai-models-bf0373b.md "The generative AI hub helps you
+-   **[Consume Models](consume-models-bf0373b.md "The generative AI hub helps you
 		to complete tasks like summarizing text, inferencing, and transforming content. To do so,
 		you consume a generative AI model by sending a request to the model's endpoint.")**  
 The generative AI hub helps you to complete tasks like summarizing text, inferencing, and transforming content. To do so, you consume a generative AI model by sending a request to the model's endpoint.

@@ -47,7 +47,7 @@ The following figure shows how execution states can change following the initial
   
 **Execution Status Flow**
 
-![](images/Execution_Status_Flow_0029ead.png "Execution Status Flow")
+![SAP AI Core architecture diagram showing system components and workflow](images/Execution_Status_Flow_0029ead.png "Execution Status Flow")
 
 When an execution leaves the *Running* status, the computing resources that were used by the AI runtime are released.
 

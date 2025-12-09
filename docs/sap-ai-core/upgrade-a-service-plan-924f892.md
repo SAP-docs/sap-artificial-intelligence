@@ -37,7 +37,7 @@ You can also upgrade from the standard plan to the extended plan.
 
 5.  At the end of the subscription row, select the ellipsis \(…\) and choose *Update*.
 
-    ![](images/upgrade_free_tier_27775d6.jpg)
+    ![Screenshot of update a service plan](images/upgrade_free_tier_27775d6.jpg)
 
 6.  In the wizard that opens, select *default* and click *Update Subscription*.
 

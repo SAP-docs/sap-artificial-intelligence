@@ -8,7 +8,7 @@ You can use your own git repository to version control your SAP AI Core template
 
 <!-- task\_i3h\_n13\_tcc -->
 
-## Using Curl
+## Using the API
 
 
 
@@ -26,6 +26,12 @@ You can use your own git repository to version control your SAP AI Core template
 
 > ### Note:  
 > When you synchronize resources, make sure that there are no naming collisions, especially if you use multiple repositories or applications in one tenant. If you experience difficulties during synchronization, we recommend that you use only one repository or application per tenant.
+> 
+> For example, the following repository URLs are all considered the same repository:
+> 
+> -   `https://github.com/user/repo`
+> -   `https://github.com/user/repo/`
+> -   `https://github.com/user/REPO/`
 
 
 
@@ -50,7 +56,8 @@ Submit a POST request to the endpoint <code><code>{{apiurl}}/v2/admin/repositori
 curl --location --request POST "$AI_API_URL/v2/admin/repositories" \
 --header "Authorization: Bearer $TOKEN" \
 --header 'Content-Type: application/json' \
---data-raw '{
+--data '{
+        "name":"ukkkuf9m5zg70w1knmkfv2lw7nbh5428jay7wgd13ccm-oozy"
         "url": "https://github.com/john/examplerepo",
         "username": "john",
         "password": "<GIT_PAT_USER_TOKEN>"
@@ -69,6 +76,8 @@ You specify your unique git repository details as follows:
 
 > ### Tip:  
 > To share a repository between two tenants, register the repository in SAP AI Core separately for each tenant and provide the **same** `username` and `password`.
+
+Your response will include the following response code**200**.
 
 
 
@@ -100,6 +109,12 @@ Create an application to sync your folders. For more information, see [Create an
 
 > ### Note:  
 > When you synchronize resources, make sure that there are no naming collisions, especially if you use multiple repositories or applications in one tenant. If you experience difficulties during synchronization, we recommend that you use only one repository or application per tenant.
+> 
+> For example, the following repository URLs are all considered the same repository:
+> 
+> -   `https://github.com/user/repo`
+> -   `https://github.com/user/repo/`
+> -   `https://github.com/user/REPO/`
 
 
 

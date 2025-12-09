@@ -119,7 +119,7 @@ If `true`, includes the total count in the response. If `false`, includes the to
 >   --header 'Authorization: Bearer {{access_token}}'
 > ```
 
-The available statuses for executions are the following:
+Available statuses for executions are as follows:
 
 -   NEW
 -   UNKNOWN
@@ -155,7 +155,7 @@ This endpoint returns a response in JSON format. The response includes fields su
 >   --header 'Authorization: Bearer {{access_token}}'
 > ```
 
-The available statuses for executions are the following:
+Available statuses for executions are as follows:
 
 -   NEW
 -   UNKNOWN

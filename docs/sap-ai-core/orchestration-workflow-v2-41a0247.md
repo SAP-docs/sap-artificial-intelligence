@@ -23,7 +23,7 @@ The order in which the pipeline is executed is defined centrally in orchestratio
 
 The image shows the orchestration workflow.
 
-![](images/orchestration_workflow_v2_9f78b7e.png)
+![A flow diagram showing the orchestration workflow.](images/orchestration_workflow_v2_9f78b7e.png)
 
 
 

@@ -17,5 +17,5 @@ The module supports the following filters:
 
 If you edit the workflow, you can hide the filter section.
 
-![](images/output2503b_49d3618.png)
+![Screenshot of the SAP AI Launchpad user interface](images/output2503b_49d3618.png)
 

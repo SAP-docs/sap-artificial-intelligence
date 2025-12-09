@@ -8,11 +8,11 @@
 
 1.  On the overview page for your subaccount, choose *Create Space*.
 
-    ![](images/Create_Space_Button_1e76b96.png)
+    ![Screenshot of a subaccount](images/Create_Space_Button_1e76b96.png)
 
 2.  Enter a name for your space, assign the required roles, and click *Create*.
 
-    ![](images/Create_Space_Dialog_94469e8.png)
+    ![Screenshot of create a space.](images/Create_Space_Dialog_94469e8.png)
 
 
 **Related Information**  

@@ -19,6 +19,12 @@ You have the `aicore_admin_repositories_editor` role or a role collection that c
 
 > ### Note:  
 > When you synchronize resources, make sure that there are no naming collisions, especially if you use multiple repositories or applications in one tenant. If you experience difficulties during synchronization, we recommend that you use only one repository or application per tenant.
+> 
+> For example, the following repository URLs are all considered the same repository:
+> 
+> -   `https://github.com/user/repo`
+> -   `https://github.com/user/repo/`
+> -   `https://github.com/user/REPO/`
 
 
 

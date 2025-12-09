@@ -7,6 +7,7 @@ Explore the concepts around SAP AI Launchpad and learn how to provision the serv
 -   [Concepts](concepts-4c6b2da.md)
     -   [SAP AI Launchpad Overview](sap-ai-launchpad-overview-b5aaac6.md)
     -   [Custom Runtime Capabilities Using the Meta API](custom-runtime-capabilities-using-the-meta-api-ac3d92b.md)
+    -   [Resource Groups](resource-groups-26c6c6b.md)
 -   [Service Plans](service-plans-ec1717d.md)
     -   [Free Tier](free-tier-87e4fb1.md)
     -   [Metering and Pricing](metering-and-pricing-b363ad6.md)
@@ -51,15 +52,27 @@ Explore the concepts around SAP AI Launchpad and learn how to provision the serv
                 -   [View Orchestration Configs](view-orchestration-configs-cafd530.md)
                 -   [Update an Orchestration Config](update-an-orchestration-config-da97848.md)
                 -   [Delete an Orchestration Config](delete-an-orchestration-config-ad7f17d.md)
-        -   Optimizations
+        -   [Optimizations](optimizations-4b6c5a5.md)
             -   Prerequisites
                 -   [Register an Object Store for Optimizations](register-an-object-store-for-optimizations-9ee15fb.md)
-                -   [Dataset preparation](dataset-preparation-b2625d7.md)
                 -   [Register an Artifact for Optimizations](register-an-artifact-for-optimizations-06ec70c.md)
+            -   [Evaluations](evaluations-14699b0.md)
+                -   [Create an Evaluation](create-an-evaluation-c15182a.md)
+                -   [View Evaluations](view-evaluations-9bbaa26.md)
+                -   [View Evaluation Run Details](view-evaluation-run-details-fe6b3e9.md)
+                -   [View Metric Details](view-metric-details-db90bc4.md)
+                -   [View Evaluation Job Details](view-evaluation-job-details-200ccaf.md)
+                -   [Compare Runs](compare-runs-6dc7cb8.md)
+                -   Prerequisites
             -   [Prompt Optimization](prompt-optimization-029dad5.md)
+                -   Prerequisites
+                    -   [Dataset Preparation](dataset-preparation-b2625d7.md)
                 -   [Create a Prompt Optimization](create-a-prompt-optimization-0b920f6.md)
                 -   [View Prompt Optimizations](view-prompt-optimizations-3a8374a.md)
                 -   [View Prompt Optimization Run Details](view-prompt-optimization-run-details-acfce87.md)
+            -   [Metrics](metrics-0d71105.md)
+                -   [Create a Custom Metric](create-a-custom-metric-8519d00.md)
+                -   [View Metrics](view-metrics-98a63b9.md)
         -   Prompt Management
             -   [View a Saved Prompt](view-a-saved-prompt-d07a272.md)
             -   [Edit a Saved Prompt](edit-a-saved-prompt-5f53a57.md)

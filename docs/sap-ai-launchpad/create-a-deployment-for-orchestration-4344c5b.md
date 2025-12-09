@@ -36,11 +36,11 @@ You create a deployment to make orchestration capabilities available for use. Af
 
 1.  Select the connection to your SAP AI Core runtime in the *Workspaces* app and choose a resource group.
 
-    ![](images/1_0630503.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/1_0630503.png)
 
     The *Generative AI Hub* app is now clickable in your side navigation panel and resource groups are listed. 
 
-    ![](images/2_0cb9cb3.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/2_0cb9cb3.png)
 
 2.  In the *ML Ops* app, choose *Scenarios* and check that a scenario called *orchestration* exists.
 
@@ -48,11 +48,11 @@ You create a deployment to make orchestration capabilities available for use. Af
 
 3.  In the *ML Ops* app, choose *Configurations* and click *Create*.
 
-    ![](images/4_94fba83.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/4_94fba83.png)
 
 4.  Enter a name for your configuration, choose the *orchestration* scenario, enter a version number, and select the *orchestration* executable.
 
-    ![](images/configuration_274104c.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/configuration_274104c.png)
 
 5.  **Optional:** Add your model to a *modelFilterList*.
 
@@ -72,7 +72,7 @@ You create a deployment to make orchestration capabilities available for use. Af
     -   `allow`: only allows the models and defined versions in the modelFilterList to be used within orchestration.
 
 
-    ![](images/ModelRestriction_fa08dea.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/ModelRestriction_fa08dea.png)
 
 6.  After you’ve created your configuration, select *Create Deployment*.
 

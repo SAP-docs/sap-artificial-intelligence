@@ -26,7 +26,7 @@ You have either the `genai_manager` or `prompt_manager` role, or you are assigne
     > ### Note:  
     > Deleting a prompt deletes all versions.
 
-    ![](images/deleteprompts2503b_02e9f7d.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/deleteprompts2503b_02e9f7d.png)
 
 
 <a name="loio734d9ed5aac546c8a23c8a95f29853f0"/>
@@ -49,10 +49,10 @@ You have either the `genai_manager` or `prompt_manager` role, or you are assigne
 
 4.  Choose the *Delete* icon.
 
-    ![](images/delete_saved_prompt_editor_37716dc.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/delete_saved_prompt_editor_37716dc.png)
 
     Alternatively, you can delete all prompt versions by choosing *Delete*.
 
-    ![](images/deleteversions_2503b_23771c6.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/deleteversions_2503b_23771c6.png)
 
 

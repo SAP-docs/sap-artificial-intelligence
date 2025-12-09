@@ -46,19 +46,19 @@
 
             When choosing a model, you can filter by input type.
 
-            ![](images/model_config_7a_a647393.png)
+            ![Screenshot of the SAP AI Launchpad user interface](images/model_config_7a_a647393.png)
 
         -   **Parameters:** Different models support different parameters and values. For more information, see the documentation from the model provider. Also see [Models and Scenarios in the Generative AI Hub](models-and-scenarios-in-the-generative-ai-hub-fef463b.md).
         -   **Streaming Response:** Where supported, chat responses are output in real time, as they are generated.
 
 
-        ![](images/model_settings_6f25852.png)
+        ![Screenshot of the SAP AI Launchpad user interface](images/model_settings_6f25852.png)
 
     2.  **Optional:** Adjust the chat context by choosing *Configure*, then the *Chat Context* tab.
 
         Settings include:
 
-        -   **Select Template:** Users with an orchestration deployment and exisiting templates can select a template using the *Select Template* button.
+        -   **Select Template:** Users with an orchestration deployment and exisiting templates can select a template using the <span class="SAP-icons-V5"></span> \(select template\) icon.
         -   **Context History:** The number of previous interactions that form the context for the chat. A single interaction consists of a user input and model response.
 
         -   **System Message:** Instructions or context to guide the behavior of the model. Available for selected models.
@@ -68,7 +68,7 @@
             Examples can be removed using the *Decline* icon.
 
 
-        ![](images/configure_chat_with_template_ad5a09b.png)
+        ![Screenshot of the SAP AI Launchpad user interface](images/configure_chat_with_template_ad5a09b.png)
 
         > ### Tip:  
         > Chat contexts are passed to the model with each chat message, and are included in the token count. Smaller contexts consume fewer tokens.
@@ -84,7 +84,7 @@
 
     If you change your model configuration from a model that supports images to one that doesn't, you will start a new chat.
 
-    ![](images/chat_7a_d54e8dc.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/chat_7a_d54e8dc.png)
 
 
 

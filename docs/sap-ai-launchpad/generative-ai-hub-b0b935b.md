@@ -166,9 +166,9 @@ For more information about models and their parameters, see the documentation fr
 
 
 
-Models from Azure OpenAI are accessed through a private instance of the `chat-completions API.` The access points are not publicly accessible, and are accessed through SAP AI Core. For more information, see [Azure OpenAI Chat Completions API](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions).
+Models from Azure OpenAI are accessed through a private instance of the `chat-completions API.` The access points aren't publicly accessible, and are accessed through SAP AI Core. For more information, see [Azure OpenAI Chat Completions API](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions).
 
-Open Source models are hosted by SAP AI Core and can be accessed via OpenAI compatible API schema.
+Open Source models are hosted by SAP AI Core and can be accessed via an OpenAI-compatible API schema.
 
 For more information on the generative AI hub in SAP AI Core, see [SAP AI Core documentation.](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/Generative-AI-Hub)
 
@@ -188,10 +188,13 @@ The grounding management app lets you manage the lifecycle of your data pipeline
 		
 	")**  
 
--   **[Orchestration](orchestration-4953dc1.md "The orchestration service runs on SAP AI Core under the global AI scenario
-                orchestration. It provides unified access to multiple generative AI models through consistent
-            code, configuration, and deployment.")**  
+-   **[Orchestration](orchestration-4953dc1.md "The orchestration service runs on SAP AI Core under the
+            global AI scenario orchestration. It provides
+            unified access to multiple generative AI models through consistent code, configuration,
+            and deployment.")**  
 The orchestration service runs on SAP AI Core under the global AI scenario `orchestration`. It provides unified access to multiple generative AI models through consistent code, configuration, and deployment.
+-   **[Optimizations](optimizations-4b6c5a5.md "Optimizations lets you evaluate and refine your generative AI workflows and prompts.")**  
+Optimizations lets you evaluate and refine your generative AI workflows and prompts.
 -   **[Administration](administration-3d03a2e.md "")**  
 
 

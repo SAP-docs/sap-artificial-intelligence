@@ -1,6 +1,6 @@
 <!-- loio4526dde03400477f87702e529e941727 -->
 
-# Template preparation
+# Template Preparation
 
 You prepare a prompt template and make it available for optimization by storing it in the prompt registry. For more information, see [Prompt Registry](prompt-registry-5392e7d.md).
 

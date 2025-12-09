@@ -7,13 +7,6 @@ Stopping a deployment releases the SAP AI Core runtime computing resources that 
 > ### Note:  
 > Stop is only enabled if the status is running or pending.
 
-**Parent topic:**[Stop Deployments](stop-deployments-b7d2577.md " ")
-
-**Related Information**  
-
-
-[Stop Multiple Deployments](stop-multiple-deployments-331cdf5.md "")
-
 <a name="task_i3h_n13_tcc"/>
 
 <!-- task\_i3h\_n13\_tcc -->
@@ -81,8 +74,6 @@ Stop the deployment by submitting a PATCH request to `{{apiurl}}/v2/lm/deploymen
 "targetStatus": "STOPPED"
 }
 ```
-
-![](images/StopDeployment_f690e37.png)
 
 
 

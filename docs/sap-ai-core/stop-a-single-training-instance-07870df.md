@@ -7,13 +7,6 @@ You can stop a running execution by submitting a PATCH request to `$AI_API_URL/v
 > ### Note:  
 > Stop is only enabled if the status is running or pending.
 
-**Parent topic:**[Stop Training Instances](stop-training-instances-3d85344.md "")
-
-**Related Information**  
-
-
-[Stop Multiple Training Instances](stop-multiple-training-instances-09b4810.md "")
-
 <a name="task_i3h_n13_tcc"/>
 
 <!-- task\_i3h\_n13\_tcc -->

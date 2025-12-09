@@ -23,7 +23,7 @@ The order in which the pipeline is executed is defined centrally in orchestratio
 
 **The image below is interactive. Click each part of the workflow for more information.**
 
-![](images/4a_orchstration_workflow_2083f88.png)
+![A flow diagram showing the orchestration workflow.](images/4a_orchstration_workflow_2083f88.png)
 
 -   [Grounding](grounding-035c455.md)
 -   [Templating](templating-88c5608.md)

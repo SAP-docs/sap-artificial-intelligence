@@ -15,6 +15,13 @@
 -   Users with only the `genai_experimenter` or `prompt_experimenter` roles are not able to save prompts.
 
 
+> ### Restriction:  
+> Prompt storage is not enabled in some data centers, meaning that some users can't save prompts.
+> 
+> Users who are not able to save prompts should save a prompt template instead.
+> 
+> For more information, see [Save a Template](save-a-template-49d4248.md).
+
 
 
 <a name="loioe8c656f9f51243dd8978dc1bc39d227d__context_q5l_gbq_rzb"/>
@@ -40,8 +47,8 @@ Prompts containing images can't be saved.
 2.  Choose *Save*.
 
     > ### Caution:  
-    > Do not store personally identifiable information in prompts when using the generative AI hub. Personally identifiable information is any data that can be used alone, or in combination, to identify the person that the data refers to.
+    > Don't store personally identifiable information in prompts when using the generative AI hub. Personally identifiable information is any data that can be used alone, or in combination, to identify the person that the data refers to.
 
-    ![](images/saveprompt2503b_6050ae6.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/saveprompt2503b_6050ae6.png)
 
 

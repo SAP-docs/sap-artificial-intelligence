@@ -37,13 +37,6 @@ About `bulkUpdates`:
 -   An ID can only appear once per bulk request. For multiple modifications of the same ID, multiple requests are needed.
 
 
-**Parent topic:**[Delete Training Instances](delete-training-instances-612ce17.md "")
-
-**Related Information**  
-
-
-[Delete a Single Training Instance](delete-a-single-training-instance-dd71f16.md "")
-
 <a name="task_i3h_n13_tcc"/>
 
 <!-- task\_i3h\_n13\_tcc -->

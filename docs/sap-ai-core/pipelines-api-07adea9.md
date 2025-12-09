@@ -21,7 +21,7 @@ Each pipeline represents a configured end-to-end process including the following
 
 ## Data Repositories
 
-The following repostories and document types are supported:
+The following repositories and document types are supported:
 
 -   Microsoft SharePoint
 
@@ -150,6 +150,35 @@ Maximum of 2000 Documents per Pipeline
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+SAP Document Management service
+
+</td>
+<td valign="top">
+
+PDF, HTML, TXT, JPEG, JPG, DOCX, PNG, TIFF, PPT
+
+</td>
+<td valign="top">
+
+Daily
+
+</td>
+<td valign="top">
+
+Plain Text
+
+PPT only: Images, Plain Text, Table
+
+</td>
+<td valign="top">
+
+Maximum of 2000 Documents per Pipeline
+
+</td>
+</tr>
 </table>
 
 
@@ -179,4 +208,9 @@ This API call creates a pipeline for indexing documents for a resource group.
 This endpoint allows you to retrain an existing pipeline manually.
 -   **[Search a Pipeline](search-a-pipeline-5e2f4aa.md "")**  
 
+
+**Related Information**  
+
+
+[SAP Document Management Service](https://help.sap.com/docs/DOCUMENT_MANAGEMENT/f6e70dd4bffa4b65965b43feed4c9429/72f18b043abd463aba2a680edc897439.html)
 

@@ -35,12 +35,8 @@ About `bulkUpdates`:
 -   An ID can only appear once per bulk request. For multiple modifications of the same ID, multiple requests are needed.
 
 
-**Parent topic:**[Delete Deployments](delete-deployments-0193d17.md " ")
-
 **Related Information**  
 
-
-[Delete a Single Deployment](delete-a-single-deployment-1b0b361.md "")
 
 [AI API Overview](ai-api-overview-716d4c3.md "The AI API lets you manage your AI assets (such as training scripts, data, models, and model servers) across multiple runtimes.")
 

@@ -10,7 +10,7 @@ The *ML Operations* app helps you manage the lifecycle tasks for an AI use case 
 
 
 
-![](images/AI_Use_Case_Realized_by_Scenario_4471eab.png)
+![SAP AI Core architecture diagram showing system components and workflow](images/AI_Use_Case_Realized_by_Scenario_4471eab.png)
 
 A use case is a scoped project to realize business value through AI technology.
 
@@ -22,11 +22,11 @@ A scenario is a technical realization of \(part of\) a use case benefitting from
 > ### Example:  
 > In the [Example End-to-End Use Case](example-end-to-end-use-case-80e56fc.md) to classify feedback, the `text-clf-tutorial-scenario` scenario is used.
 > 
-> ![](images/Scenarios_List_9658d02.png)
+> \#![Screenshot of the SAP AI Launchpad user interface](images/Scenarios_List_9658d02.png)
 
 The components within the *ML Operations* app are used to complete lifecycle tasks for AI scenarios.
 
-![](images/ML_Operations_75df03c.png)
+![Screenshot of the SAP AI Launchpad user interface](images/ML_Operations_75df03c.png)
 
 Use the *ML Operations* app components to complete the following:
 
@@ -123,11 +123,11 @@ To access the app:
 
     The *ML Operations* app is now visible in your side navigation panel, and resource groups are listed.
 
-    ![](images/ML_Operations_-_View_1_9827bde.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/ML_Operations_-_View_1_9827bde.png)
 
 2.  Select the resource group from the *Resource Group* pane in the *Workspaces* app. This enables access to the components within the *ML Operations*.
 
-    ![](images/ML_Operations_-_View_2_7d311c1.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/ML_Operations_-_View_2_7d311c1.png)
 
 
 > ### Note:  

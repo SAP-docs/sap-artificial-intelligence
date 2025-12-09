@@ -7,7 +7,7 @@ The following examples show how you can consume various generative AI models usi
 > ### Tip:  
 > If you use a Windows device, use Windows Powershell, and replace `curl` with `curl.exe`.
 
-Ensure that you have the following headers set:
+Ensure that you have set the following headers:
 
 
 <table>
@@ -204,103 +204,7 @@ For more information from the model provider, see [Vertex AI Gemini](https://clo
 
 
 
-### Gemini 1.0 Pro
-
-```
-curl --location '$DEPLOYMENT_URL/models/gemini-1.0-pro:generateContent' \
---header 'AI-Resource-Group: <Resource Group Id>' \
---header 'Content-Type: application/json' \
---header "Authorization: Bearer $AUTH_TOKEN" \
---data '{
-    "contents": [
-        {
-            "role": "user",
-            "parts": {
-                "text": "Hello!"
-            }
-        },
-        {
-            "role": "model",
-            "parts": {
-                "text": "Argh! What brings ye to my ship?"
-            }
-        },
-        {
-            "role": "user",
-            "parts": {
-                "text": "Wow! You are a real-life pirate!"
-            }
-        }
-    ],
-    "safety_settings": {
-        "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
-        "threshold": "BLOCK_LOW_AND_ABOVE"
-    },
-    "generation_config": {
-        "temperature": 0.9,
-        "topP": 1,
-        "candidateCount": 1,
-        "maxOutputTokens": 2048
-    }
-}'
-```
-
-
-
-### Gemini 1.5 Pro
-
-**Text Input**
-
-```
-curl --location '$DEPLOYMENT_URL/models/gemini-1.5-pro:generateContent' \
---header 'AI-Resource-Group: <Resource Group Id>' \
---header 'Content-Type: application/json' \
---header "Authorization: Bearer $AUTH_TOKEN" \
---data '{
-    "generation_config":{
-        "maxOutputTokens":100
-    }, 
-    "contents": {
-      "role": "user",
-      "parts": {
-          "text": "Give me a recipe for banana bread."
-       }
-      },
-    "safety_settings": {
-      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
-      "threshold": "BLOCK_LOW_AND_ABOVE"
-    }
-}'
-```
-
-**Image input**
-
-```
-curl --request POST --location "$DEPLOYMENT_URL/models/gemini-1.5-pro:generateContent" \
---header 'AI-Resource-Group: <Resource Group Id>' \
---header 'Content-Type: application/json' \
---header "Authorization: Bearer $AUTH_TOKEN" \
---data '{
-    "contents": {
-        "role": "user",
-        "parts": [
-            {
-                "fileData": {
-                    "mimeType": "image/png",
-                    "fileUri": "filepath/images/scones.jpg"
-                }
-            },
-            {
-                "text": "Describe this picture."
-            }
-        ]
-    }
-}'
-```
-
-
-
-### Gemini 1.5 Flash Gemini 2.0 Flash | Gemini 2.0 Flash Lite
+### Gemini 2.0 Flash | Gemini 2.0 Flash Lite | Gemini 2.5 Flash | Gemini 2.5 Flash Lite
 
 **Text Input**
 
@@ -397,7 +301,7 @@ For more information from the model provider, see [AWS Bedrock Claude](https://d
 
 
 
-### Claude 3 Sonnet | Claude 3.5 Sonnet | Claude 3 Opus | Claude 3 Haiku | Claude 4 Sonnet | Claude 4 Opus
+### Claude 3 Sonnet | Claude 3.5 Sonnet | Claude 3 Opus | Claude 3 Haiku | Claude 4 Sonnet | Claude 4 Opus || Claude 4.5 Haiku
 
 **Invoke:**
 

@@ -18,5 +18,5 @@ The target language is mandatory, choose from the available languages. The avail
 > ### Caution:  
 > Using unsupported pairs through auto-detect or source language input errors may result in error or poor quality results.
 
-![](images/output_translation_5b_3937a98.png)
+![Screenshot of the SAP AI Launchpad user interface](images/output_translation_5b_3937a98.png)
 

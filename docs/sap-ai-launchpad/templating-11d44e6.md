@@ -27,5 +27,5 @@ If you include an image in your template, and then configure a model that does n
 
 You can use prompts saved in your prompt registry by clicking *Select* and choosing a template. For more information, see [Prompt Registry in SAP AI Core](https://help.sap.com/docs/AI_CORE/52b4adb30e6744709d6226d2b0659dea/5392e7dbbdef4011ab511f33416aa8b1.html).
 
-![](images/template_b9bb394.png)
+![Screenshot of the SAP AI Launchpad user interface](images/template_b9bb394.png)
 

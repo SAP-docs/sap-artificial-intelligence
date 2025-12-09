@@ -26,7 +26,7 @@ By default, prompt templates are handled on the main-tenant level. To handle the
 ```
 
 > ### Note:  
-> For CaaS users the resource-group-id is extracted automatically, and does not need to be provided in the headers.
+> For CaaS users, the resource-group-id is extracted automatically, and doesn't need to be provided in the headers.
 
 
 

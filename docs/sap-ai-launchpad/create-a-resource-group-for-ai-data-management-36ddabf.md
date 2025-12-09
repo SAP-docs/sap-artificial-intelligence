@@ -37,7 +37,7 @@ Your tenant has been onboarded and a default resource group automatically create
 
 4.  Complete the fields in the *Create Resource Group* dialog box.
 
-    ![](images/resourcegroup_with_toggle_9a316a8.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/resourcegroup_with_toggle_9a316a8.png)
 
     1.  Enter a resource group ID.
 

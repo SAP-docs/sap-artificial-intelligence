@@ -1,10 +1,10 @@
-<!-- copy9bc02ba4cb7346afab8c645c5f472e50 -->
+<!-- copy6249d8ebe5f34a828a37054d6aa9d47b -->
 
 # Grounding Generic Secrets for SAP Document Management Service
 
 
 
-<a name="copy9bc02ba4cb7346afab8c645c5f472e50__section_udx_nph_fdc"/>
+<a name="copy6249d8ebe5f34a828a37054d6aa9d47b__section_udx_nph_fdc"/>
 
 ## Prerequisites
 
@@ -16,6 +16,13 @@ You have created a resource group for grounding. For more information, see [Crea
 
 1.  Send a POST request and enter the URL `{{apiurl}}/v2/admin/secrets`.
 
+    Include the following headers in your request:
+
+    -   `AI_API_URL`: the base URL of your SAP AI Core environment.
+    -   `{{access_token}}`: Your access token for SAP AI Core
+
+    Choose one from the following headers to set your scope:
+
     -   `AI-Tenant-Scope` : `true`. The operation is performed at the main tenant level.
     -   `AI-Resource-Group` : <code><i class="varname">&lt;resource-group-for-grounding&gt;</i></code>. The operation is performed at the resource-group level.
 
@@ -24,7 +31,7 @@ You have created a resource group for grounding. For more information, see [Crea
 
 
 
-<a name="copy9bc02ba4cb7346afab8c645c5f472e50__section_ytf_w5v_c2c"/>
+<a name="copy6249d8ebe5f34a828a37054d6aa9d47b__section_ytf_w5v_c2c"/>
 
 ## Example
 
@@ -76,7 +83,7 @@ Base64 encoded value for the description of the generic secret to be created
 </td>
 <td valign="top">
 
-Base64 encoded value for your SAP Document Management service URL
+Base64 encoded value for your AI Bridge Service URL and repository path. For example, `https://sdm-ai-bridge.cfapps.<region>.hana.ondemand.com/rest/v1/repositories/<repoID>/metadata`.
 
 </td>
 </tr>
@@ -128,6 +135,23 @@ Base64 encoded value for token service URL for client secret based authenticatio
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+`pageSize` \(optional\)
+
+</td>
+<td valign="top">
+
+If pagination is required, enter a Base64 encoded value of integer from 1 to 500.
+
+> ### Restriction:  
+> Pagination and the page size attribute are only supported if you have a metadata server with pagination implemented. For more information, see [Prepare your Metadata API Server](prepare-your-metadata-api-server-23a0741.md).
+
+
+
+</td>
+</tr>
 </table>
 
 > ### Note:  
@@ -148,10 +172,11 @@ curl --request POST \
     "data": { 
     "description": "<any string base64 encoded>", 
     "authentication": "T0F1dGgyQ2xpZW50Q3JlZGVudGlhbHM=", 
-    "url": "< base64 encoded workzone-server-url>", 
+    "url": "<base64 encoded AI Bridge Service URL>", 
     "clientId": "< base64 encoded client-id>", 
     "clientSecret": "< base64 encoded client-secret>", 
     "tokenServiceURL": "< base64 encoded token-service-url>" 
+    "pageSize": "<Base64 encoded integer 1-500>"
   }, 
   "labels": [ 
     { 
@@ -168,7 +193,7 @@ curl --request POST \
 
 
 
-<a name="copy9bc02ba4cb7346afab8c645c5f472e50__section_m4v_r1z_3gc"/>
+<a name="copy6249d8ebe5f34a828a37054d6aa9d47b__section_m4v_r1z_3gc"/>
 
 ## Next Steps
 
@@ -180,4 +205,6 @@ After registering your repository with grounding, you can use the document groun
 [Update a Generic Secret](update-a-generic-secret-b5d5970.md "")
 
 [Delete a Generic Secret](delete-a-generic-secret-d5d5187.md "")
+
+[SAP Document Management Service](https://help.sap.com/docs/DOCUMENT_MANAGEMENT/f6e70dd4bffa4b65965b43feed4c9429/72f18b043abd463aba2a680edc897439.html)
 

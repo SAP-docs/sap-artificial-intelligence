@@ -60,7 +60,7 @@ You can manually restart a pipeline. For more information, see [Manually Restart
 
 -   **[Create a Pipeline with SAP Build Work Zone](create-a-pipeline-with-sap-build-work-zone-57af498.md "")**  
 
--   **[Create a Pipeline with SAP Document Management Service](create-a-pipeline-with-sap-document-management-service-306fea4.md "")**  
+-   **[Create a Pipeline with SAP Document Management Service](create-a-pipeline-with-sap-document-management-service-5718584.md "")**  
 
 -   **[Cron Expressions](cron-expressions-6175008.md "")**  
 

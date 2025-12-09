@@ -28,12 +28,12 @@
 
 3.  Choose *Open in Editor*. Make your changes.
 
-    ![](images/eidutsavedprompt2503b_69091b3.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/eidutsavedprompt2503b_69091b3.png)
 
     > ### Note:  
     > If the model used for your prompt is no longer available you will be notified when you open the prompt in the editor and you must choose another model.
 
-    ![](images/choose_new_model_e70d769.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/choose_new_model_e70d769.png)
 
     For changes to the prompt message, the *Save* button is available, and saving creates a new prompt version.
 

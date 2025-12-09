@@ -2,13 +2,6 @@
 
 # Stop Multiple Training Instances
 
-**Parent topic:**[Stop Training Instances](stop-training-instances-3d85344.md "")
-
-**Related Information**  
-
-
-[Stop a Single Training Instance](stop-a-single-training-instance-07870df.md "")
-
 <a name="task_i3h_n13_tcc"/>
 
 <!-- task\_i3h\_n13\_tcc -->

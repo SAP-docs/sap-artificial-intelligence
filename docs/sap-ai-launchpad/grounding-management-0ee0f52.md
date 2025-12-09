@@ -27,7 +27,7 @@ For users who want to create a data repository pipeline: you have a generic secr
 2.  In the side navigation, expand the *Generative AI Hub* and choose *Grounding Management*.
 
 
-![](images/grounding_managment_0119107.png)
+![Screenshot of the SAP AI Launchpad user interface](images/grounding_managment_0119107.png)
 
 
 
@@ -37,7 +37,7 @@ For users who want to create a data repository pipeline: you have a generic secr
 
 Your data repositories are listed in the *Grounding Management* app.
 
-![](images/repositorie_7694607.png)
+![Screenshot of the SAP AI Launchpad user interface](images/repositorie_7694607.png)
 
 Users with the `grounding_manager`or `genai_manager` can create a new repository.
 
@@ -50,7 +50,7 @@ For data repositories created without including metadata, you can specify which 
 > ### Remember:  
 > You must choose a grounding generic secret that is associated with the document store type that you have selected.
 
-![](images/grounding_choose_an_object_store_f61d2ed.png)
+![Screenshot of the SAP AI Launchpad user interface](images/grounding_choose_an_object_store_f61d2ed.png)
 
 Users with the `grounding_manager` or `genai_manager` roles can duplicate a repository. To duplicate a repository, use the *Duplicate* icon, and update the repository details in the dialog box.
 
@@ -78,7 +78,7 @@ Users with the `grounding_manager`or `genai_manager` can delete a repository. To
 
 To configure a search over a pipeline, choose *Run Search*.
 
-![](images/repository_details_e57de98.png)
+![Screenshot of the SAP AI Launchpad user interface](images/repository_details_e57de98.png)
 
 
 
@@ -107,5 +107,5 @@ To delete a filter configuration, use the *Delete* icon.
 
 To pass your search results to orchestration, choose *Use in Orchestration*
 
-![](images/search_config_7d4f05c.png)
+![Screenshot of the SAP AI Launchpad user interface](images/search_config_7d4f05c.png)
 

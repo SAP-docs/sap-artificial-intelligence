@@ -7,7 +7,7 @@ The object store secret lets SAP AI Core access your cloud storage and data, wit
 > ### Restriction:  
 > The `objectStore name`, `data path` and `scenarioId` refer to pre-existing values. For the `objectStore name` and `data path` values, you must use the values that you used when registering the object storage, following the naming convention outlined in the diagram below. In example output code blocks, these values are represented by `ai://default/data`.
 
-![](images/solution11image1_d2bc541.png)
+![SAP AI Core architecture diagram showing system components and workflow](images/solution11image1_d2bc541.png)
 
 **Parent topic:**[Manage Files](manage-files-386ba71.md "An artifact refers to data or a file that is produced or consumed by executions or deployments. They are managed through SAP AI Core and your connected object store.")
 

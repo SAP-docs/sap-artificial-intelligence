@@ -37,6 +37,6 @@ Templates containing images can't be saved.
 2.  Choose *Save*.
 
     > ### Caution:  
-    > Do not store personally identifiable information in prompts when using the generative AI hub. Personally identifiable information is any data that can be used alone, or in combination, to identify the person that the data refers to.
+    > Don't store personally identifiable information in prompts when using the generative AI hub. Personally identifiable information is any data that can be used alone, or in combination, to identify the person that the data refers to.
 
 

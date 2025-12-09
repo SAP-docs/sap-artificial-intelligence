@@ -15,6 +15,8 @@ You cannot change the name field.
 
 [List Executions Created by a Training Schedule](list-executions-created-by-a-training-schedule-2c1ecfb.md "")
 
+[Stop or Resume a Schedule](stop-or-resume-a-schedule-d6ab976.md "")
+
 [Delete a Training Schedule](delete-a-training-schedule-9dc25e1.md "")
 
 <a name="task_i3h_n13_tcc"/>

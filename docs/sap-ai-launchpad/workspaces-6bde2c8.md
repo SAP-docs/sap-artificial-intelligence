@@ -16,7 +16,7 @@ You use the *Workspaces* app to add connections to one or more subscribed AI ser
 
 The *Workspaces* app is available in SAP AI Launchpad from the navigation panel.
 
-![](images/workspaces_a1561c3.png)
+![Screenshot of the SAP AI Launchpad user interface](images/workspaces_a1561c3.png)
 
 
 

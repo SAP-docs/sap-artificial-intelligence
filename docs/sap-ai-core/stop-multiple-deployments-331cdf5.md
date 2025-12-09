@@ -35,13 +35,6 @@ About `bulkUpdates`:
 -   An ID can only appear once per bulk request. For multiple modifications of the same ID, multiple requests are needed.
 
 
-**Parent topic:**[Stop Deployments](stop-deployments-b7d2577.md " ")
-
-**Related Information**  
-
-
-[Stop a Single Deployment](stop-a-single-deployment-1fa8955.md "")
-
 <a name="task_i3h_n13_tcc"/>
 
 <!-- task\_i3h\_n13\_tcc -->

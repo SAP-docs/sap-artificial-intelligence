@@ -6,7 +6,7 @@ SAP AI Core lets you make data-driven decisions confidently and efficiently, tai
 
 -   **[ML Operations](ml-operations-7f5aa9b.md "This section guides you through the end-to-end AI lifecycle of SAP AI Core.")**  
 This section guides you through the end-to-end AI lifecycle of SAP AI Core.
--   **[Metrics](metrics-36f8bec.md "The AI API provides the ability to track metrics, and to customize or filter which metrics
-			are reported. ")**  
+-   **[Metrics](metrics-36f8bec.md "The AI API provides the ability to track metrics, and to customize or filter which
+			metrics are reported. ")**  
 The AI API provides the ability to track metrics, and to customize or filter which metrics are reported.
 

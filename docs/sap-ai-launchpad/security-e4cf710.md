@@ -22,7 +22,7 @@ Data protection is associated with numerous legal requirements and privacy conce
 SAP Data Protection and Privacy \(DPP\) requirements and the European Union's General Data Protection Regulations \(GDPR\) mandate the protection of personal and private data at higher standards than other customer data. SAP machine learning services do not import, output, or process any structured personal or private customer data, and cannot distinguish personal or private data from other types of data. Customers are therefore obliged to fulfill the GDPR personal data broker obligations if such data is present.
 
 > ### Caution:  
-> Do not store personally identifiable information in prompts when using the generative AI hub. Personally identifiable information is any data that can be used alone, or in combination, to identify the person that the data refers to.
+> Don't store personally identifiable information in prompts when using the generative AI hub. Personally identifiable information is any data that can be used alone, or in combination, to identify the person that the data refers to.
 
 
 
@@ -1369,28 +1369,28 @@ You create custom role collections to manage access settings for the following:
 
 1.  In SAP BTP cockpit, navigate to your subaccount and choose *Role Collections*.
 
-    ![](images/AIL_Role_1_c434107.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/AIL_Role_1_c434107.png)
 
 2.  Choose :heavy_plus_sign: to add a role collection.
 
     > ### Remember:  
     > A role collection groups roles and users \(and their email IDs\) with a shared persona.
 
-    ![](images/AIL_Plus_Icon_for_Role_Collections_08a5def.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/AIL_Plus_Icon_for_Role_Collections_08a5def.png)
 
 3.  Enter a name and description for the group of target users and choose *Create*.
 
-    ![](images/AIL_Create_Role_Collection_Dialog_2d867b6.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/AIL_Create_Role_Collection_Dialog_2d867b6.png)
 
 4.  Choose *Edit* to add nominated users to this role collection.
 
-    ![](images/AIL_Edit_Button_for_Role_Collection_a57fbbd.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/AIL_Edit_Button_for_Role_Collection_a57fbbd.png)
 
 5.  Enter the email ID of the nominated user and choose *Save*.
 
     If required, you can add more users \(and their emails IDs\) by choosing :heavy_plus_sign:.
 
-    ![](images/AIL_Add_Emails_for_Role_Collection_bfa5120.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/AIL_Add_Emails_for_Role_Collection_bfa5120.png)
 
 6.  Choose *Save* to save the role collection.
 
@@ -1434,7 +1434,7 @@ You manage access to connections by creating a custom role collection within SAP
 
 1.  In SAP BTP cockpit, navigate to your subaccount and choose *Roles* to access the list of roles.
 
-    ![](images/BTP_role_31090d2.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/BTP_role_31090d2.png)
 
 2.  Within the `ailaunchpad` application, find the `allow_connections` role template and choose *Create Role*.
 
@@ -1498,11 +1498,11 @@ You can selectively control access to resource groups within an AI runtime conne
 
 1.  In SAP BTP cockpit, navigate to your subaccount and choose *Roles* to access the list of roles.
 
-    ![](images/BTP_role_31090d2.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/BTP_role_31090d2.png)
 
 2.  Within the `ailaunchpad` application, find the `allow_all_resourcegroups` role template, and choose *Add Using Same Role Template*.
 
-    ![](images/AIL_role_rg_collection_96ceb84.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/AIL_role_rg_collection_96ceb84.png)
 
     The *Create Role* wizard appears.
 
@@ -1510,19 +1510,19 @@ You can selectively control access to resource groups within an AI runtime conne
 
     1.  In the *Configure Role* wizard step, enter a name and description for the group of target users. You'll see that the `allow_all_resourcegroups` role template is automatically assigned to the role. Choose *Next* to continue.
 
-        ![](images/AIL_Role_24c33e8.png)
+        ![Screenshot of the SAP AI Launchpad user interface](images/AIL_Role_24c33e8.png)
 
     2.  In the *Configure Attributes* wizard step, enter the required resource group IDs in the *Values* column for the attribute `allowed_all_resourcegroups`. Choose *Next* to continue.
 
-        ![](images/AIL_Role_2_9f11247.png)
+        ![Screenshot of the SAP AI Launchpad user interface](images/AIL_Role_2_9f11247.png)
 
     3.  In the *Select Role Collections* wizard step, search for and select the custom role collection that you've created for custom access. Choose *Next* to continue.
 
-        ![](images/AIL_Role_f35dd61.png)
+        ![Screenshot of the SAP AI Launchpad user interface](images/AIL_Role_f35dd61.png)
 
     4.  In the *Review* wizard step, check the role details and choose *Finish*.
 
-        ![](images/AIL_Role_16caa35.png)
+        ![Screenshot of the SAP AI Launchpad user interface](images/AIL_Role_16caa35.png)
 
 
 

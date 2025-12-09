@@ -56,7 +56,7 @@ For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef
 
 6.  **Optional:** Filter for a dataset in the list by choosing <span class="SAP-icons-V5"></span> \(Filter\). The *Filter* dialog appears.
 
-    ![](images/Investigate_a_deployment_f5e5d68.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/Investigate_a_deployment_f5e5d68.png)
 
     1.  Enter either the dataset name or other attributes.
 

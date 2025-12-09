@@ -15,7 +15,7 @@ Storage consumption is displayed on a progress bar as a proportion of total avai
 
 Other capabilities are accessed through the corresponding tabs.
 
-![](images/Admin_overview_2a77a00.png)
+![Screenshot of the SAP AI Launchpad user interface](images/Admin_overview_2a77a00.png)
 
 -   **[Manual User Offboarding](manual-user-offboarding-0d8d3cc.md "")**  
 

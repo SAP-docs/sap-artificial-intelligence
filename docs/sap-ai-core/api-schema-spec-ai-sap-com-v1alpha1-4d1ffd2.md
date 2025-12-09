@@ -474,10 +474,3 @@ A multiline string template for [KServe InferenceServiceSpec](kserve-spec-servin
 </tr>
 </table>
 
-**Parent topic:**[Serving Template API Reference](serving-template-api-reference-51b2271.md "")
-
-**Related Information**  
-
-
-[KServe Spec serving.kserve.io/v1beta1](kserve-spec-serving-kserve-io-v1beta1-35bf43d.md "Package v1beta1 contains API Schema definitions for the serving v1beta1 API group (serving.kserve.io/v1beta1).")
-

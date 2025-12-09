@@ -39,8 +39,8 @@ It’s possible to train the same model multiple times, with varying parameters 
 
 -   **[Choose an Instance](choose-an-instance-57f4f19.md "You can configure SAP AI Core to use different infrastructure
 		instances for different tasks, based on demand. SAP AI Core provides
-		several preconfigured infrastructure bundles called “resource plans” and “instance types” for this purpose.")**  
-You can configure SAP AI Core to use different infrastructure instances for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” and “instance types” for this purpose.
+		several preconfigured infrastructure bundles called “instance types” and “resource plans” for this purpose.")**  
+You can configure SAP AI Core to use different infrastructure instances for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “instance types” and “resource plans” for this purpose.
 -   **[Workflow Templates](workflow-templates-83523ab.md " Here, you'll find a basic workflow example template. Feel free to adjust it to suit
     your workflow needs.")**  
  Here, you'll find a basic workflow example template. Feel free to adjust it to suit your workflow needs.
@@ -62,10 +62,6 @@ A configuration is a collection of parameters, artifact references \(such as dat
 -   **[Using Artifact Signatures](using-artifact-signatures-2f02a1d.md "Artifact signatures in the form of a hash can be added to output artifacts from executions.")**  
 Artifact signatures in the form of a hash can be added to output artifacts from executions.
 -   **[Start Training](start-training-54b44e4.md "")**  
-
--   **[Stop Training Instances](stop-training-instances-3d85344.md "")**  
-
--   **[Delete Training Instances](delete-training-instances-612ce17.md "")**  
 
 -   **[Efficiency Features](efficiency-features-4cb76f7.md "Discover features of the SAP AI Core runtime that improve
 		efficiency and help manage resource consumption.")**  

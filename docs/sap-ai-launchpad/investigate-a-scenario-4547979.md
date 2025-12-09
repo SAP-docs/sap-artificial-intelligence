@@ -34,7 +34,7 @@ For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef
 
     The *Scenario Details* screen appears, with the scenario name, ID, created on and changed on timestamps.
 
-    ![](images/Image_AIL_FE_Scenario_Details_d29509c.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/Image_AIL_FE_Scenario_Details_d29509c.png)
 
     The objects associated with the scenario can be explored in more detail using the tabs:
 

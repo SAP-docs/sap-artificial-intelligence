@@ -9,7 +9,7 @@ Grounding integrates external, contextually relevant, domain-specific, or real-t
 
 Grounding is a service designed to handle data-related tasks, such as grounding and retrieval, using vector databases. It provides specialized data retrieval through these databases, grounding the retrieval process with your own external and context-relevant data. Grounding combines generative AI capabilities with the ability to use real-time, precise data to improve decision-making and business operations for specific AI-driven business solutions.
 
-Grounding converts user provided documents into vector representations which are stored as a database. The indexing pipeline preprocesses unstructured and semi structured data into chunks and embeddings. For more information, see [Pipelines API](pipelines-api-d8cc0e3.md) and [Vector API](vector-api-08e3d00.md).
+Grounding converts user-provided documents into vector representations which are stored as a database. The indexing pipeline preprocesses unstructured and semi structured data into chunks and embeddings. For more information, see [Pipelines API](pipelines-api-d8cc0e3.md) and [Vector API](vector-api-08e3d00.md).
 
 The retrieval pipeline takes incoming user queries and converts them into vector representations. The query vectors are used to search the database and retrieval relevant information. For more information, see [Retrieval API](retrieval-api-281e8cf.md).
 
@@ -19,7 +19,7 @@ The retrieval pipeline takes incoming user queries and converts them into vector
 
 ## Data Repositories
 
-The following repostories and document types are supported:
+The following repositories and document types are supported:
 
 -   Microsoft SharePoint
 
@@ -148,6 +148,35 @@ Maximum of 2000 Documents per Pipeline
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+SAP Document Management service
+
+</td>
+<td valign="top">
+
+PDF, HTML, TXT, JPEG, JPG, DOCX, PNG, TIFF, PPT
+
+</td>
+<td valign="top">
+
+Daily
+
+</td>
+<td valign="top">
+
+Plain Text
+
+PPT only: Images, Plain Text, Table
+
+</td>
+<td valign="top">
+
+Maximum of 2000 Documents per Pipeline
+
+</td>
+</tr>
 </table>
 
 
@@ -158,7 +187,7 @@ Maximum of 2000 Documents per Pipeline
 
 The grounding architecture in generative AI hub is as follows:
 
-![](images/grounding_e89c744.png)
+![SAP AI Core architecture diagram showing system components and workflow](images/grounding_e89c744.png)
 
 
 
@@ -168,7 +197,7 @@ The grounding architecture in generative AI hub is as follows:
 
 To use the *Grounding* module in the orchestration pipeline, you need to prepare the knowledge base in advance.
 
-Generative AI hub offers multiple options for users to provide data \(prepare knowledge base\):
+Generative AI hub offers multiple options for users to provide data \(prepare a knowledge base\):
 
 -   For Option 1: Upload the documents to a supported data repository and run the data pipeline to vectorize the documents. For more information, see [Pipelines API](pipelines-api-d8cc0e3.md).
 -   For Option 2: Provide the chunks of document via Vector API directly. For more information, see [Vector API](vector-api-08e3d00.md).
@@ -185,7 +214,7 @@ In this case, the pipeline collects documents and segments the data into chunks.
 
 The process for providing unstructured documents with the Pipeline API looks like this:
 
-![](images/Initial_One-Time_Administrative_Steps_017554a.png)
+![Diagram showing the data pipeline](images/Initial_One-Time_Administrative_Steps_017554a.png)
 
 
 
@@ -229,7 +258,7 @@ In this case, you provide chunks of data directly and store them using the Vecto
 
 The process for providing chunks of data with the Vector API looks like this:
 
-![](images/Initial_One-Time_Administrative_Steps_017554a.png)
+![Diagram showing the data pipeline](images/Initial_One-Time_Administrative_Steps_017554a.png)
 
 
 
@@ -244,7 +273,7 @@ Hover over each action for a description. Click the action for more information.
 Before you can prepare your data for the Vector API, you must create a resource group. For more information, see [Create a Resource Group for Grounding](create-a-resource-group-for-grounding-e32efa5.md).
 
 > ### Note:  
-> When working with the Vector API, you do not need to create a generic secret for grounding.
+> When working with the Vector API, you don't need to create a generic secret for grounding.
 
 
 

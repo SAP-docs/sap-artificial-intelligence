@@ -49,7 +49,7 @@ labels:
 
 1.  Ensure you have created an object store secret using the naming convention *<name\>* and the `pathPrefix` from your AWS S3 path. Refer to the following diagram:
 
-    ![](images/solution11image1_d2bc541.png)
+    ![SAP AI Core architecture diagram showing system components and workflow](images/solution11image1_d2bc541.png)
 
 2.  When creating the artifact, don’t add the trailing forward slash \(/\) in URL parameter:
     -   Incorrect usage: `"url": "ai://yourObjectStoreSecretName/folder/subfolder/"`

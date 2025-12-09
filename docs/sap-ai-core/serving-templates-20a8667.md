@@ -241,10 +241,10 @@ Choose one of the following:
 </td>
 <td valign="top">
 
-You must specify a `resourcePlan` or `instanceType`. The value is the string value of the selected item. For more information, see [Choose an Instance](choose-an-instance-57f4f19.md).
+You must specify a `resourcePlan` or `instanceType`. The value is the string value of the selected item. For more information, see [Choose an Instance](choose-an-instance-57f4f19.md). For available`instanceType`s, see SAP Note [3660109](https://me.sap.com/notes/3660109) . For available `resourcePlan`s, see[Table 1](choose-an-instance-57f4f19.md#loio57f4f19d9b3b46208ee1d72017d0eab6__table_qzy_f4n_zqb) .
 
 > ### Tip:  
-> Instance types are recommended because they provide access to newer hardware and higher performance specifications compared to resource plans.
+> `instanceType`s are recommended because they provide access to newer hardware and higher performance specifications compared to `resourcePlan`s.
 
 
 
@@ -296,7 +296,7 @@ spec:
         autoscaling.knative.dev/target: 100
         autoscaling.knative.dev/targetBurstCapacity: 70
       labels: |
-        ai.sap.com/instanceType: m7i.xlarge
+        ai.sap.com/instanceType: <yourChoiceOfInstanceType> # or ai.sap.com/resourcePlan: <yourChoiceOfresourcePlan>
     spec: |
       predictor:
         imagePullSecrets:
@@ -369,33 +369,15 @@ spec:
 
 Applications sync with your GitHub repository automatically at intervals of ~3 minutes. Use the endpoint below to manually request a sync:`{{apiurl}}/admin/applications/{{appName}}/refresh`
 
--   **[Serving Template API Reference](serving-template-api-reference-51b2271.md "")**  
-
+-   **[Template Synchronization](template-synchronization-298d392.md "Your GitOps implementation integrates with SAP AI
+									Core to enable CI/CD. Templates sync from your
+		Git repository to a Kubernetes cluster. Your training and serving templates are regularly
+		synchronized every few minutes. SAP AI
+									Core checks the template syntax, and if
+		synchronization fails, it displays error messages.")**  
+Your GitOps implementation integrates with SAP AI Core to enable CI/CD. Templates sync from your Git repository to a Kubernetes cluster. Your training and serving templates are regularly synchronized every few minutes. SAP AI Core checks the template syntax, and if synchronization fails, it displays error messages.
 -   **[Change Serving Template and Update Deployments](change-serving-template-and-update-deployments-9555fe1.md "If you change a serving template, you can automatically update the deployments that are associated with that template.")**  
 If you change a serving template, you can automatically update the deployments that are associated with that template.
-
-**Parent topic:**[Use Your Model](use-your-model-7f93e8f.md "You deploy your AI learning model to run inferences against it.")
-
-**Related Information**  
-
-
-[Choose an Instance](choose-an-instance-abd672f.md "You can configure SAP AI Core to use different infrastructure instances for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” and “instance types” for this purpose.")
-
-[List Executables](list-executables-6af8e60.md "An executable is a reusable template that defines a workflow or pipeline for tasks such as training a machine learning model or creating a deployment. It contains placeholders for input artifacts (datasets or models) and parameters (custom key-pair values) that enable the template to be reused in different scenarios.. You can list all of the executables in a resource group and get details of specific executables from a resource group. Serving templates are mapped to deployment executables.")
-
-[Deploy Models](deploy-models-dd16e8e.md "")
-
-[Inferencing](inferencing-e348ecf.md "")
-
-[Update a Deployment](update-a-deployment-9789ddd.md "")
-
-[Stop Deployments](stop-deployments-b7d2577.md " ")
-
-[Delete Deployments](delete-deployments-0193d17.md " ")
-
-[Efficiency Features](efficiency-features-9fad26a.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
-
-[Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md "Deployment and execution logs contain information about API processing and metrics.")
 
 <a name="concept_dcw_41k_lwb"/>
 

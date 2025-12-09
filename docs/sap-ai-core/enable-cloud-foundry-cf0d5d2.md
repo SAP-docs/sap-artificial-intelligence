@@ -8,7 +8,7 @@
 
 1.  Click your subaccount and on the *Overview* page, choose *Enable Cloud Foundry*.
 
-    ![](images/Enable_Cloud_Foundry_Button_d0dbc30.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/Enable_Cloud_Foundry_Button_d0dbc30.png)
 
 2.  Enter the basic information for your Cloud Foundry environment instance and click *Create*.
 

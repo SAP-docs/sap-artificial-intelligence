@@ -9,9 +9,9 @@
 -   You're using the `extended` service plan. For more information, see [Service Plans](service-plans-c7244c6.md).
 -   You've registered an object store secret with the name `default` for output artifacts. For more information, see [Register an Object Store for Optimizations](register-an-object-store-for-optimizations-54068a9.md).
 -   If you want to separate your input and output object stores, you've registered an object store secret for input artifacts with a name of your choice. For more information, see [Register an Object Store for Optimizations](register-an-object-store-for-optimizations-54068a9.md).
--   You've prepared an optimization dataset and registered it as an optimization artifact. For more information, see [Dataset preparation](dataset-preparation-b2625d7.md) and [Register Optimization Artifacts](register-optimization-artifacts-b8a9cd8.md).
+-   You've prepared an optimization dataset and registered it as an optimization artifact. For more information, see [Dataset Preparation](dataset-preparation-b2625d7.md) and [Register Optimization Artifacts](register-optimization-artifacts-b8a9cd8.md).
 
--   You've prepared a prompt template, and your template is available in the prompt registry. For more information, see [Template preparation](template-preparation-4526dde.md).
+-   You've prepared a prompt template, and your template is available in the prompt registry. For more information, see [Template Preparation](template-preparation-4526dde.md).
 
 
 

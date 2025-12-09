@@ -29,20 +29,20 @@ You can create a custom disclaimer message which will be shown to every user of 
 
 
 
-    ![](images/1_be96b1c.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/1_be96b1c.png)
 
     You will see a preview of your disclaimer message in the *Preview* field.
 
 4.  Publish your disclaimer message using the *Activate Disclaimer* toggle button.
 
-    ![](images/3_a38a0f0.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/3_a38a0f0.png)
 
     If you want to remove your disclaimer message in the future, you do so by deactivating the *Activate Disclaimer* toggle button.
 
     After publishing, your disclaimer message will show on the *Prompt Editor*and *Chat* applications.
 
-    ![](images/inplace_6e43e5e.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/inplace_6e43e5e.png)
 
-    ![](images/chat_w_discalaimer_a3da443.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/chat_w_discalaimer_a3da443.png)
 
 

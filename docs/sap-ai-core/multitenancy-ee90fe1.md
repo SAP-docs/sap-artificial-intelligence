@@ -4,7 +4,7 @@
 
 SAP AI Core is a tenant-aware BTP reuse service, supporting main tenants and resource groups. Resources are defined for tenants or resource groups as outlined below:
 
-![](images/Multitenancy_diagram_29a8dde.png)
+![SAP AI Core architecture diagram showing system components and workflow](images/Multitenancy_diagram_29a8dde.png)
 
 Each main tenant and resource group is mapped to a namespace. The main tenant namespace only contains templates for workflows and model serving. The instances of these objects are created in the respective resource group namespaces and reference the corresponding templates in the main tenant namespace. Each main tenant has a default resource group, which can be used for workloads from the main tenant.
 

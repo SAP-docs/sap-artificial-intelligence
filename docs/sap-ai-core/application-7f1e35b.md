@@ -220,7 +220,7 @@ The revision you specified in your application doesn’t exist in your repositor
 
 ### Follow the solution:
 
-Delete your application and create a new one using the correct revision. The revision number is found in GitHub here: ![](images/git_revision_eeb085b.png)
+Delete your application and create a new one using the correct revision. The revision number is found in GitHub here: ![Screenshot of last revision number in GitHub](images/git_revision_eeb085b.png)
 
 Alternatively, enter `HEAD` to refer to the latest commit.
 

@@ -22,18 +22,18 @@ You have been assigned a role or role collection that grants you access to SAP A
 
 3.  Choose *Instances and Subscriptions*.
 
-    ![](images/AIL_Instances_and_Subscriptions_4b47371.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/AIL_Instances_and_Subscriptions_4b47371.png)
 
 4.  On the *Subscriptions* tab, click the row that contains your SAP AI Launchpad application.
 
-    ![](images/AIL_Subscriptions_4f9a1d2.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/AIL_Subscriptions_4f9a1d2.png)
 
 5.  In the SAP AI Launchpad details area, choose *Go to Application*.
 
-    ![](images/AIL_Go_to_Application_b6ff91c.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/AIL_Go_to_Application_b6ff91c.png)
 
     You will be redirected to the initial screen of SAP AI Launchpad.
 
-    ![](images/AIL_Initial_Interface_3743378.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/AIL_Initial_Interface_3743378.png)
 
 

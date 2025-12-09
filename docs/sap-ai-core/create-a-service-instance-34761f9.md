@@ -10,23 +10,23 @@
 
     You will see a tile for SAP AI Core.
 
-    ![](images/SAP_AI_Core_Tile_on_Service_Marketplace_c6346e1.png)
+    ![Screenshot of service marketplace](images/SAP_AI_Core_Tile_on_Service_Marketplace_c6346e1.png)
 
 2.  Open the tile and click *Create*.
 
-    ![](images/Image_SAP_AI_Core_provisioning_create_ee8c247.png)
+    ![Screenshot highlighting the SAP AI Core service](images/Image_SAP_AI_Core_provisioning_create_ee8c247.png)
 
 3.  Enter a name for your service instance and choose *Next* \(all other details will be filled by default\).
 
-    ![](images/Create_Instance_720c94d.png)
+    ![Screenshot of new instance or subscription](images/Create_Instance_720c94d.png)
 
 4.  At present, the JSON file upload feature is not supported. Choose *Next* to proceed.
 
-    ![](images/Configure_Parameters_a1fe56a.png)
+    ![Screenshot showing choose next](images/Configure_Parameters_a1fe56a.png)
 
 5.  Check the data and choose *Create*.
 
-    ![](images/Create_Instance_751beca.png)
+    ![Screenshot of create an instance](images/Create_Instance_751beca.png)
 
 
 
@@ -37,5 +37,5 @@
 
 When your service instance is created, you can view it on the *Instances and Subscriptions* page of your subaccount.
 
-![](images/Instances_and_Subscriptions_Page_e198958.png)
+![Screenshot of results](images/Instances_and_Subscriptions_Page_e198958.png)
 

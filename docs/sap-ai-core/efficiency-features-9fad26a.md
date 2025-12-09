@@ -178,28 +178,8 @@ To update the number of nodes reserved, repeat the reservation procedure, with u
 
 To delete reserved nodes, repeat the reservation procedure, with quantities in the `request` field set to *0*.
 
-**Parent topic:**[Use Your Model](use-your-model-7f93e8f.md "You deploy your AI learning model to run inferences against it.")
-
 **Related Information**  
 
-
-[Choose an Instance](choose-an-instance-abd672f.md "You can configure SAP AI Core to use different infrastructure instances for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” and “instance types” for this purpose.")
-
-[Serving Templates](serving-templates-20a8667.md "You use serving templates to manage your serving instances at the level of the main tenant. Serving templates define how a model is to be deployed.")
-
-[List Executables](list-executables-6af8e60.md "An executable is a reusable template that defines a workflow or pipeline for tasks such as training a machine learning model or creating a deployment. It contains placeholders for input artifacts (datasets or models) and parameters (custom key-pair values) that enable the template to be reused in different scenarios.. You can list all of the executables in a resource group and get details of specific executables from a resource group. Serving templates are mapped to deployment executables.")
-
-[Deploy Models](deploy-models-dd16e8e.md "")
-
-[Inferencing](inferencing-e348ecf.md "")
-
-[Update a Deployment](update-a-deployment-9789ddd.md "")
-
-[Stop Deployments](stop-deployments-b7d2577.md " ")
-
-[Delete Deployments](delete-deployments-0193d17.md " ")
-
-[Retrieve Deployment Logs](retrieve-deployment-logs-4c86b88.md "Deployment and execution logs contain information about API processing and metrics.")
 
 [Service Plans](service-plans-c7244c6.md "The SAP AI Core service plan you choose determines pricing, conditions of use, resources, available services, and hosts.")
 

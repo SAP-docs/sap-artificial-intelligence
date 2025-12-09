@@ -97,7 +97,7 @@ The name of the generic secret created for SAP Build Work Zone
 >   --header 'Content-Type: application/json' \ 
 >   --header 'Authorization: Bearer {{access_token}}'
 >   --data '{
->   "type": "SAP Build Work Zone",
+>   "type": "WorkZone",
 >   "metadata": {
 >     "destination": "<generic secret name>"
 >   }
@@ -121,7 +121,7 @@ curl --request POST \
   --header 'Content-Type: application/json' \ 
   --header 'Authorization: Bearer {{access_token}}'
   --data '{
-    "type": "SAP Build Work Zone",
+    "type": "WorkZone",
     "metadata": {
         "destination": "<generic secret name>"
     },

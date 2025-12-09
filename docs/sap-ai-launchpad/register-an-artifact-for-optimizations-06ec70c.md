@@ -10,7 +10,9 @@
 
 ## Prerequisites
 
-You have the `genai_manager` or `custom_evaluation` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
+-   You have the `genai_manager` or `custom_evaluation` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
+
+-   You're using the `extended` service plan. For more information, see [Service Plans](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/c7244c6a7e3b4ffc928a2564c216e7c7.html "The SAP AI Core service plan you choose determines pricing, conditions of use, resources, available services, and hosts.") :arrow_upper_right:.
 
 
 
@@ -49,7 +51,7 @@ You have the `genai_manager` or `custom_evaluation` role, or you are assigned a 
         3.  Use the switch to specify whether or not your upload should replace an existing file
         4.  Select your file
 
-        ![](images/upload_evaluations_artifact_8b_a446a74.png)
+        ![Screenshot of the SAP AI Launchpad user interface](images/upload_evaluations_artifact_8b_a446a74.png)
 
     -   **Option 2:** Use an existing URL by choosing the *Existing URL* switch
 
@@ -59,7 +61,7 @@ You have the `genai_manager` or `custom_evaluation` role, or you are assigned a 
         1.  Add your object store
         2.  Specify a sub path, relative to your object store
 
-        ![](images/upload_evaluations_artifact_existing_URL_8b_2d09c94.png)
+        ![Screenshot of the SAP AI Launchpad user interface](images/upload_evaluations_artifact_existing_URL_8b_2d09c94.png)
 
 
 7.  Add labels to your artifact by choosing *Add Labels*.
@@ -82,6 +84,8 @@ Your artifact is registered.
 <a name="loio06ec70c426c047f99e3f7ce6db0ba70f__postreq_w5x_ttb_kgc"/>
 
 ## Next Steps
+
+You can use your artifact as part of an evaluations workflow. For more information, see [Create an Evaluation](create-an-evaluation-c15182a.md).
 
 You can use your artifact as part of a prompt optimizations workflow. For more information, see [Create a Prompt Optimization](create-a-prompt-optimization-0b920f6.md).
 

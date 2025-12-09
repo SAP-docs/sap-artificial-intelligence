@@ -26,14 +26,14 @@
 
 3.  Check for a user in the system by entering the user's email in the *User Data* tab bar. Choose search.
 
-    ![](images/4_7307007.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/4_7307007.png)
 
 4.  If the user is found, you can choose *Delete* to delete their entire data.
 
     > ### Note:  
     > The user data won't be fetched.
 
-    ![](images/5_48bcbf1.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/5_48bcbf1.png)
 
     If the user is not found, you will be informed.
 

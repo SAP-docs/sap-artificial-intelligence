@@ -28,6 +28,23 @@ More Information
 <tr>
 <td valign="top">
 
+Content package for large language models for SAP AI Core
+
+</td>
+<td valign="top">
+
+The content package for large language models for SAP AI Core simplifies the deployment of large language models with integrated and automated workflows.
+
+</td>
+<td valign="top">
+
+[Content package for large language models for SAP AI Core](https://pypi.org/project/sap-ai-core-llm/) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Data robot package
 
 </td>

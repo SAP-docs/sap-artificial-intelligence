@@ -38,7 +38,7 @@ By default, your users can access all resource groups. If required, you can defi
 
 [Manage Resource Groups](manage-resource-groups-7217afb.md "")
 
-[Resource Groups](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/26c6c6b50e3f412f8bc0cd6a8ebdb850.html "SAP AI Core tenants use resource groups to isolate related ML resources and workloads. Scenarios, executables, and Docker registry secrets are shared across all resource groups.") :arrow_upper_right:
+[Resource Groups](resource-groups-26c6c6b.md "Tenants use resource groups to isolate related ML resources and workloads. Scenarios, executables, and Docker registry secrets are shared across all resource groups.")
 
 <a name="loioa0204f94a94e4407abf772e76104d834"/>
 
@@ -145,5 +145,5 @@ The *ML Operations* app and its functions are now available in the navigation pa
 
 [Create a Resource Group](create-a-resource-group-060d9be.md "As an administrator, you create resource groups to isolate your ML workloads and processes.")
 
-[Resource Groups](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/26c6c6b50e3f412f8bc0cd6a8ebdb850.html "SAP AI Core tenants use resource groups to isolate related ML resources and workloads. Scenarios, executables, and Docker registry secrets are shared across all resource groups.") :arrow_upper_right:
+[Resource Groups](resource-groups-26c6c6b.md "Tenants use resource groups to isolate related ML resources and workloads. Scenarios, executables, and Docker registry secrets are shared across all resource groups.")
 

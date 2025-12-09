@@ -207,16 +207,36 @@ Allowed values: Non-negative duration string
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+`autoscaling.knative.dev/scale-down-delay`
+
+</td>
+<td valign="top">
+
+Amount of time that must elapse at reduced concurrency before scaling down, helping to prevent cold start penalties by keeping containers active for a configurable duration.
+
+Allowed values: Non-negative duration string, min 0s, max 1h.
+
+</td>
+<td valign="top">
+
+0s
+
+</td>
+</tr>
 </table>
 
 > ### Example:  
 > ```
 > metadata:
 >    annotations: |
->       autoscaling.knative.dev/metric: rps
->       autoscaling.knative.dev/target: {{inputs.parameters.MyAutoScalingTarget}}
->       autoscaling.knative.dev/targetBurstCapacity: 0
->       autoscaling.knative.dev/window: 10s
+>       autoscaling.knative.dev/metric: "rps"
+>       autoscaling.knative.dev/target: "{{inputs.parameters.MyAutoScalingTarget}}"
+>       autoscaling.knative.dev/targetBurstCapacity: "0"
+>       autoscaling.knative.dev/window: "10s"
+>       autoscaling.knative.dev/scale-down-delay: "15m"
 > ```
 
 
@@ -457,11 +477,4 @@ Optional duration in seconds that the pod needs to terminate gracefully, may be 
 >          - name: STORAGE_URI
 >             value: "{{inputs.artifacts.textmodel}}"
 > ```
-
-**Parent topic:**[Serving Template API Reference](serving-template-api-reference-51b2271.md "")
-
-**Related Information**  
-
-
-[API Schema Spec ai.sap.com/v1alpha1](api-schema-spec-ai-sap-com-v1alpha1-4d1ffd2.md "Package valpha1 contains API Schema definitions for the serving v1alpha1 API group (ai.sap.com/v1alpha1).")
 

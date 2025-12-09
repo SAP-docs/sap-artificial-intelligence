@@ -10,25 +10,25 @@ Create a subsaccount in your global account using the SAP BTP cockpit.
 
 1.  In the SAP BTP cockpit, choose *Account Explorer* and then click *Create* \> *Subaccount*.
 
-    ![](images/Create_Subaccount_5178ebd.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/Create_Subaccount_5178ebd.png)
 
 2.  In the *Create Subaccount* dialog, enter a name for your subaccount and select the region.
 
     The parent defaults to the name of your global account.
 
-    ![](images/Subaccount_Name_and_Region_0af449d.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/Subaccount_Name_and_Region_0af449d.png)
 
 3.  **Optional:** If your subaccount is used for production purposes, under *Advanced* select the *Used for production* checkbox.
 
     This setting does not change the configuration of your subaccount. It is intended to help you manage the production subaccounts in your global account. For example, your cloud operator can refer to it when handling incidents related to mission-critical accounts.
 
-    ![](images/Used_for_Production_Checkbox_0e8d722.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/Used_for_Production_Checkbox_0e8d722.png)
 
 4.  Click *Create*.
 
 5.  Return to the *Account Explorer* to view your subaccount.
 
-    ![](images/Created_Subaccount_4ec1c4b.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/Created_Subaccount_4ec1c4b.png)
 
 
 **Related Information**  

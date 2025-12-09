@@ -23,6 +23,26 @@ You make a model available for use by creating a deployment. You can do so one t
 
 You can view the available models and their details by sending a GET request to the endpoint `{{apiurl}}/v2/lm/scenarios/foundation-models/models` 
 
+<a name="concept_aw2_z2r_khc"/>
+
+<!-- concept\_aw2\_z2r\_khc -->
+
+## Choose a Model
+
+Decide which LLM you want to deploy and note the following information:
+
+-   Executable ID
+
+-   Model name
+
+-   Model version
+
+    > ### Note:  
+    > -   Instead of specifying a model version, using “latest” will use the latest version of the model available in SAP AI Core.
+    > 
+    > -   Where the model version is not listed, it is not applicable.
+
+
 ```
 curl --location '$AI_API_URL/v2/lm/scenarios/foundation-models/models' \
 --header 'AI-Resource-Group: default' \
@@ -196,121 +216,124 @@ Suggests if the modelVersion is latest. See Model Lifecycle for more information
 </tr>
 </table>
 
-<a name="task_m15_5kw_tyb"/>
-
-<!-- task\_m15\_5kw\_tyb -->
-
-## Using the API
+**For more information about available models, including conversion rates for tokens, rate limits and deprecation dates, see SAP Note [3437766](https://me.sap.com/notes/3437766).**
 
 
 
-<a name="task_m15_5kw_tyb__steps_n15_5kw_tyb"/>
+## Check Scenario
 
-## Procedure
+Check that you have access to the scenario containing generative AI by sending a GET request to `{{apiurl}}/v2/lm/scenarios`.
 
-1.  Decide which LLM you want to deploy and note the following information:
+> ### Note:  
+> You must use the same resource group for all of your generative AI activities. To use a different resource group, these steps must be repeated for each resource group.For more information, see [Manage Resource Groups](manage-resource-groups-8aae6cb.md).
 
-    -   Executable ID
-
-    -   Model name
-
-    -   Model version
-
-        > ### Note:  
-        > -   Instead of specifying a model version, using “latest” will use the latest version of the model available in SAP AI Core.
-        > 
-        > -   Where model version is not listed, it is not applicable.
-
-
-    **For more information about available models, including conversion rates for tokens, rate limits and deprecation dates, see SAP Note [3437766](https://me.sap.com/notes/3437766).**
-
-2.  Check that you have access to the scenario containing generative AI by sending a GET request to `{{apiurl}}/v2/lm/scenarios`.
-
-    > ### Note:  
-    > You must use the same resource group for all of your generative AI activities. To use a different resource group, these steps must be repeated for each resource group.For more information, see [Manage Resource Groups](manage-resource-groups-8aae6cb.md).
-
-    ```
-    curl --location '{{apiurl}}/v2/lm/scenarios' \
-    --header 'AI-Resource-Group: default' \
-    --header "Authorization: Bearer $AUTH_TOKEN"
-    ```
-
-    The scenarios listed contain a scenario with the id `foundation-models`.
-
-3.  Create a configuration by sending a POST request to the endpoint `{{apiurl}}/v2/lm/configurations`.
-
-    Include details of the model to which you want to provide access by passing in the following parameters:
-
-    -   `name` is your free choice of identifier.
-
-    -   `executableId`, `modelName`, and `modelVersion` are provided in SAP Note [3437766](https://me.sap.com/notes/3437766).
-
-    -   `scenarioId` must be `foundation-models`.
-
-    -   `versionId` is your own version reference.
-
-
-    > ### Sample Code:  
-    > ```
-    > curl --location '$AI_API_URL/v2/lm/configurations' \
-    > --header 'AI-Resource-Group: default' \
-    > --header 'Content-Type: application/json' \
-    > --header "Authorization: Bearer $AUTH_TOKEN" \
-    > --data '{
-    > 	"name": "yourNameChoice",
-    > 	"executableId": "<executableId>",
-    > 	"scenarioId": "foundation-models",
-    > 	"versionId": "0.0.1",
-    > 	"parameterBindings": [
-    > 		{
-    > 			"key":"modelName",
-    > 			"value":"<ModelName>"
-    > 		},
-    > 		{
-    > 			"key": "modelVersion",
-    > 			"value": "<ModelVersion>"
-    > 		}
-    >   ]
-    > }'
-    >    
-    > ```
-
-    > ### Tip:  
-    > You can specify the value `latest` for the `modelVersion` to use the most recent model version available in SAP AI Core.
-
-    You receive a unique `configurationId` in the response.
-
-4.  Create a deployment by sending a POST request to the endpoint `{{apiurl}}/v2/lm/deployments`.
-
-    Include the `configurationId` from the previous step in your request.
-
-    > ### Sample Code:  
-    > ```
-    > curl --location '$AI_API_URL/v2/lm/deployments' \
-    > --header 'AI-Resource-Group: default' \
-    > --header 'Content-Type: application/json' \
-    > --header "Authorization: Bearer $AUTH_TOKEN" \
-    > --data '{
-    >  "configurationId": "yourConfigurationId"
-    > }'
-    > ```
-
-5.  Retrieve the details of your deployment by sending a GET request to the endpoint`{{apiurl}}/v2/lm/deployments`.
-
-    ```
-    curl --location '$AI_API_URL/v2/lm/deployments/$DEPLOYMENT_ID' \
-    --header 'AI-Resource-Group: default' \
-    --header "Authorization: Bearer $AUTH_TOKEN"
-    ```
+```
+curl --location '{{apiurl}}/v2/lm/scenarios' \
+--header 'AI-Resource-Group: default' \
+--header "Authorization: Bearer $AUTH_TOKEN"
+```
 
 
 
+### Step Result
 
-<a name="task_m15_5kw_tyb__postreq_yrz_5cd_5yb"/>
+The scenarios listed contain a scenario with the id `foundation-models`.
+
+<a name="concept_xkc_32j_mhc"/>
+
+<!-- concept\_xkc\_32j\_mhc -->
+
+### Create a Deployment
+
+
+
+<a name="concept_xkc_32j_mhc__section_xxd_bdj_mhc"/>
+
+## Create a Configuration
+
+Create a configuration by sending a POST request to the endpoint `{{apiurl}}/v2/lm/configurations`.
+
+Include details of the model to which you want to provide access by passing in the following parameters:
+
+-   `name` is your free choice of identifier.
+
+-   `executableId`, `modelName`, and `modelVersion` are provided in SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+-   `scenarioId` must be `foundation-models`.
+
+-   `versionId` is your own version reference.
+
+
+> ### Sample Code:  
+> ```
+> curl --location '$AI_API_URL/v2/lm/configurations' \
+> --header 'AI-Resource-Group: default' \
+> --header 'Content-Type: application/json' \
+> --header "Authorization: Bearer $AUTH_TOKEN" \
+> --data '{
+> 	"name": "yourNameChoice",
+> 	"executableId": "<executableId>",
+> 	"scenarioId": "foundation-models",
+> 	"versionId": "0.0.1",
+> 	"parameterBindings": [
+> 		{
+> 			"key":"modelName",
+> 			"value":"<ModelName>"
+> 		},
+> 		{
+> 			"key": "modelVersion",
+> 			"value": "<ModelVersion>"
+> 		}
+>   ]
+> }'
+>    
+> ```
+
+> ### Tip:  
+> You can specify the value `latest` for the `modelVersion` to use the most recent model version available in SAP AI Core.
+
+**Step Result**
+
+You receive a unique `configurationId` in the response.
+
+
+
+## Create a deployment
+
+Create a deployment by sending a POST request to the endpoint `{{apiurl}}/v2/lm/deployments`.
+
+Include the `configurationId` from the previous step in your request.
+
+> ### Sample Code:  
+> ```
+> curl --location '$AI_API_URL/v2/lm/deployments' \
+> --header 'AI-Resource-Group: default' \
+> --header 'Content-Type: application/json' \
+> --header "Authorization: Bearer $AUTH_TOKEN" \
+> --data '{
+>  "configurationId": "yourConfigurationId"
+> }'
+> ```
+
+<a name="concept_xtz_52j_mhc"/>
+
+<!-- concept\_xtz\_52j\_mhc -->
 
 ## Next Steps
 
-When the deployment is running, the model can be accessed using the `deploymentUrl` provided in the response. For more information, see [Consume Generative AI Models](consume-generative-ai-models-bf0373b.md).
+
+
+## Get Your Deployment ID
+
+Retrieve the details of your deployment by sending a GET request to the endpoint`{{apiurl}}/v2/lm/deployments`.
+
+```
+curl --location '$AI_API_URL/v2/lm/deployments/$DEPLOYMENT_ID' \
+--header 'AI-Resource-Group: default' \
+--header "Authorization: Bearer $AUTH_TOKEN"
+```
+
+When the deployment is running, the model can be accessed using the `deploymentUrl` provided in the response. For more information, see [Consume Models](consume-models-bf0373b.md).
 
 <a name="concept_fn1_2qy_szb"/>
 
@@ -318,13 +341,13 @@ When the deployment is running, the model can be accessed using the `deploymentU
 
 ## Model Lifecycle
 
-Model versions have deprecation dates. Where a model version is specified in a deployment, the deployment will stop working on the deprecation date of that model version.
+Model versions have deprecation dates. Where a model version is specified in a deployment, the deployment stops working on the deprecation date of that model version.
 
 Implement one of the following model upgrade options:
 
 -   **Auto Upgrade:** Create a new generative AI configuration and deployment or patch a deployment with a new configuration, specifying `modelVersion` `latest`. When a new `modelVersion` is supported by SAP AI Core, existing generative AI deployments will automatically use the latest version of the given model.
 
--   **Manual Upgrade:** Create a new generative AI configuration with your chosen replacement `modelVersion` and use it to patch your deployment. This model version will be used in generative AI deployments irrespective of updates to the models supported by SAP AI Core.
+-   **Manual Upgrade:** Create a new generative AI configuration with your chosen replacement `modelVersion` and use it to patch your deployment. This model version is used in generative AI deployments irrespective of updates to the models supported by SAP AI Core.
 
     > ### Note:  
     > If `modelVersion` isn’t specified, it will be `latest` by default. To upgrade manually, you **must** specify a `modelVersion`.

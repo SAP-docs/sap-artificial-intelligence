@@ -19,9 +19,9 @@ Prompt Optimization utilizes an input prompt template from the prompt registry a
 The workflow for prompt optimization is as follows:
 
 1.  Register your object store secrets. You need one for output artifacts with the name `default`. If you want separate object stores for input and output artifacts, register another object store secret with a name of your choice. For more information, see [Register an Object Store for Optimizations](register-an-object-store-for-optimizations-54068a9.md).
-2.  Prepare a prompt template. For more information, see [Template preparation](template-preparation-4526dde.md).
+2.  Prepare a prompt template. For more information, see [Template Preparation](template-preparation-4526dde.md).
 
-3.  Prepare an optimization dataset. For more information, see [Dataset preparation](dataset-preparation-b2625d7.md).
+3.  Prepare an optimization dataset. For more information, see [Dataset Preparation](dataset-preparation-b2625d7.md).
 
 4.  Register your optimization dataset as a prompt optimization artifact. For more information, see [Register Optimization Artifacts](register-optimization-artifacts-b8a9cd8.md).
 

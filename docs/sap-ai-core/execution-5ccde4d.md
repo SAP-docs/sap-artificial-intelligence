@@ -36,7 +36,7 @@
     ...
     ```
 
-    If you do not already know your domain name, refer to the image:![](images/solution3image2_0979d8d.png)
+    If you do not already know your domain name, refer to the image:![Screenshot showing the domain name in the Docker Hub](images/solution3image2_0979d8d.png)
 
 2.  Specify your Docker Image digest instead of the image version in your templates:
 

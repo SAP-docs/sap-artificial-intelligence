@@ -23,7 +23,7 @@ You have either the `genai_manager` or `prompt_manager` role, or you are assigne
 
 2.  In the *Workspaces* app, expand the *Generative AI Hub* and choose *Prompt Management*. Select the *Templates* tab.
 
-    ![](images/viewtemplate_9351990.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/viewtemplate_9351990.png)
 
     Your templates will be listed. Use the filters to navigate to your desired template.
 

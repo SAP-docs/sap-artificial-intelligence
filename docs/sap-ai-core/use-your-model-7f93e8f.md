@@ -27,8 +27,8 @@ Restrict the number of nodes used for processing by specifying parameters minRep
 
 -   **[Choose an Instance](choose-an-instance-abd672f.md "You can configure SAP AI Core to use different infrastructure
 		instances for different tasks, based on demand. SAP AI Core provides
-		several preconfigured infrastructure bundles called “resource plans” and “instance types” for this purpose.")**  
-You can configure SAP AI Core to use different infrastructure instances for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” and “instance types” for this purpose.
+		several preconfigured infrastructure bundles called “instance types” and “resource plans” for this purpose.")**  
+You can configure SAP AI Core to use different infrastructure instances for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “instance types” and “resource plans” for this purpose.
 -   **[Serving Templates](serving-templates-20a8667.md "You use serving templates to manage your serving instances at the level of the main
     tenant. Serving templates define how a model is to be deployed.")**  
 You use serving templates to manage your serving instances at the level of the main tenant. Serving templates define how a model is to be deployed.
@@ -44,10 +44,6 @@ An executable is a reusable template that defines a workflow or pipeline for tas
 -   **[Inferencing](inferencing-e348ecf.md "")**  
 
 -   **[Update a Deployment](update-a-deployment-9789ddd.md "")**  
-
--   **[Stop Deployments](stop-deployments-b7d2577.md " ")**  
-
--   **[Delete Deployments](delete-deployments-0193d17.md " ")**  
 
 -   **[Efficiency Features](efficiency-features-9fad26a.md "Discover features of the SAP AI Core runtime that improve efficiency
 		and help manage resource consumption.")**  

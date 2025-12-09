@@ -9,6 +9,8 @@
 
 [Create a Training Schedule](create-a-training-schedule-bd409a9.md "")
 
+[Stop or Resume a Schedule](stop-or-resume-a-schedule-d6ab976.md "")
+
 [Change an Existing Training Schedule](change-an-existing-training-schedule-18caf4b.md "")
 
 [Delete a Training Schedule](delete-a-training-schedule-9dc25e1.md "")

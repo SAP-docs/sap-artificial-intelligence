@@ -36,11 +36,11 @@ An entitlement is the service plan that you're entitled to use.
 
 3.  Choose *Edit*.
 
-    ![](images/Configure_Entitlements_Button_a0bbbf0.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/Configure_Entitlements_Button_a0bbbf0.png)
 
 4.  Choose *Add Service Plans*.
 
-    ![](images/Add_Service_Plans_Button_d42d394.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/Add_Service_Plans_Button_d42d394.png)
 
 5.  Select the SAP AI Launchpad application, set the checkbox for the standard plan, and click *Add Service Plans*.
 

@@ -91,10 +91,10 @@ Choose one of the following:
 </td>
 <td valign="top">
 
-You must specify a `resourcePlan` or `instanceType`. The value is the string value of the selected item. For more information, see [Choose an Instance](choose-an-instance-57f4f19.md).
+You must specify a `resourcePlan` or `instanceType`. The value is the string value of the selected item. For more information, see [Choose an Instance](choose-an-instance-57f4f19.md). For available`instanceType`s, see SAP Note [3660109](https://me.sap.com/notes/3660109) . For available `resourcePlan`s, see[Table 1](choose-an-instance-57f4f19.md#loio57f4f19d9b3b46208ee1d72017d0eab6__table_qzy_f4n_zqb) .
 
 > ### Tip:  
-> Instance types are recommended because they provide access to newer hardware and higher performance specifications compared to resource plans.
+> `instanceType`s are recommended because they provide access to newer hardware and higher performance specifications compared to `resourcePlan`s.
 
 
 
@@ -287,7 +287,7 @@ spec:
     - name: text-clf-sk-training
       metadata:
         labels:
-          ai.sap.com/instanceType: m7i.xlarge
+          ai.sap.com/instanceType: <yourChoiceOfInstanceType> # or ai.sap.com/resourcePlan: <yourChoiceOfresourcePlan>
       inputs:
         artifacts:
           - name: text-data
@@ -333,34 +333,13 @@ User ID and group ID 65534 is required to run the Docker image. This user has pe
 
 Applications sync with your GitHub repository automatically at intervals of ~3 minutes. Use the endpoint below to manually request a sync:`{{apiurl}}/admin/applications/{{appName}}/refresh`
 
-**Parent topic:**[Train Your Model](train-your-model-a9ceb06.md "You execute a training workflow to train your AI learning model.")
-
-**Related Information**  
-
-
-[Choose an Instance](choose-an-instance-57f4f19.md "You can configure SAP AI Core to use different infrastructure instances for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” and “instance types” for this purpose.")
-
-[List Scenarios](list-scenarios-deedde5.md "A scenario is an implementation of a specific AI use case within a user's tenant. It consists of a pre-defined set of AI capabilities in the form of executables and templates.")
-
-[List Executables](list-executables-80895a4.md "An executable is a reusable template that defines a workflow or pipeline for tasks such as training a machine learning model or creating a deployment. It contains placeholders for input artifacts (datasets or models) and parameters (custom key-pair values) that enable the template to be reused in different scenarios.")
-
-[Create Configurations](create-configurations-884ae34.md "A configuration is a collection of parameters, artifact references (such as datasets or models), and environment settings that are used to instantiate and run an execution or deployment of an executable or template.")
-
-[List Configurations](list-configurations-8074b2a.md "")
-
-[Using Artifact Signatures](using-artifact-signatures-2f02a1d.md "Artifact signatures in the form of a hash can be added to output artifacts from executions.")
-
-[Start Training](start-training-54b44e4.md "")
-
-[Stop Training Instances](stop-training-instances-3d85344.md "")
-
-[Delete Training Instances](delete-training-instances-612ce17.md "")
-
-[Efficiency Features](efficiency-features-4cb76f7.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
-
-[Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "Deployment and execution logs contain information about API processing and metrics.")
-
-[Training Schedules](training-schedules-2b702f8.md "")
+-   **[Template Synchronization](template-synchronization-a34bdf4.md "Your GitOps implementation integrates with SAP AI
+									Core to enable CI/CD. Templates sync from your
+		Git repository to a Kubernetes cluster. Your training and serving templates are regularly
+		synchronized every few minutes. SAP AI
+									Core checks the template syntax, and if
+		synchronization fails, it displays error messages.")**  
+Your GitOps implementation integrates with SAP AI Core to enable CI/CD. Templates sync from your Git repository to a Kubernetes cluster. Your training and serving templates are regularly synchronized every few minutes. SAP AI Core checks the template syntax, and if synchronization fails, it displays error messages.
 
 <a name="concept_vwr_y1k_lwb"/>
 

@@ -48,7 +48,7 @@
 
         Not available to the `genai_experimenter` or `prompt_experimenter` roles.
 
-    3.  Enter your input data in the *Message* boxand assign a role to your messge using the tabs. You can add more message blocks using the :heavy_plus_sign:.
+    3.  You can open a saved template using the <span class="SAP-icons-V5"></span> \(select template\) icon, or create a new template by entering your input data in the *Message* boxand assign a role to your messge using the tabs. You can add more message blocks using the :heavy_plus_sign:.
 
         For selected models, image inputs are supported, and can be added using the <span class="SAP-icons-V5"></span> \(add image\)icon or copy and paste.
 
@@ -65,7 +65,7 @@
 
         When choosing a model, you can filter by input type.
 
-        ![](images/configure_chat_4732b30.png)
+        ![Screenshot of the SAP AI Launchpad user interface](images/configure_chat_4732b30.png)
 
     6.  **Optional:** Adjust the parameters to refine the generated response.
 
@@ -79,13 +79,13 @@
         Not available to the `genai_experimenter` or `prompt_experimenter` roles.
 
 
-    ![](images/prompt_editor_2503b_9535463.png)
+
 
 4.  Choose *Run*.
 
     Selected models support streaming for response generation. When the streaming switch is available, you can turn streaming on and off as needed.
 
-    ![](images/switch_770fce5.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/switch_770fce5.png)
 
     You will see your response as it generates.
 

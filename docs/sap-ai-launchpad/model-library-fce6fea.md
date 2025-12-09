@@ -43,7 +43,7 @@ To view detailed information for a single model such as data input types, cost i
 3.  In the side navigation, expand the *Generative AI Hub* and choose *Model Library*.
 
 
-![](images/ML_menu_69acb1a.png)
+![Screenshot of the SAP AI Launchpad user interface](images/ML_menu_69acb1a.png)
 
 You can view model specifications and benchmarking data through the following modes:
 
@@ -63,7 +63,7 @@ Choose a model to see it's model card. The model card provides detailed informat
 
 To view a deprecation notice, hover over the deprecation icon.
 
-![](images/model_library4a_8bf78d3.png)
+![Screenshot of the SAP AI Launchpad user interface](images/model_library4a_8bf78d3.png)
 
 
 
@@ -85,7 +85,7 @@ Choose a model from the list to see it's model card. The model card provides det
 
 For models with tiered pricing, select the pricing entry to view pricing details.
 
-![](images/leaderboard_4a_d64d500.png)
+![Screenshot of the SAP AI Launchpad user interface](images/leaderboard_4a_d64d500.png)
 
 
 
@@ -109,7 +109,7 @@ To view the chart in a separate window, use the *Full Screen* icon.
 
 Choose a data point to see a small summary. Choose *View Details* to view the model card. The model card provides detailed information on the model, such as data input types, cost information and metrics where available.
 
-![](images/chart_a14a2d1.png)
+![Screenshot of the SAP AI Launchpad user interface](images/chart_a14a2d1.png)
 
 
 
@@ -133,5 +133,5 @@ To use the model, select *Use in *<App\>** where available. For example, *Use in
 > 
 > Only users with `genai_experimenter` or `genai_manager` roles, and who have selected a resource group, and who have a running orchestration deployment can select *Use in Chat*.
 
-![](images/Model_card_4b_b46d04b.png)
+![Screenshot of the SAP AI Launchpad user interface](images/Model_card_4b_b46d04b.png)
 

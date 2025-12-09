@@ -33,29 +33,6 @@ For example:
 -   `/v2/lm/executions/{executionId}/logs` - returns execution logs from the preceding hour
 
 
-**Parent topic:**[Use Your Model](use-your-model-7f93e8f.md "You deploy your AI learning model to run inferences against it.")
-
-**Related Information**  
-
-
-[Choose an Instance](choose-an-instance-abd672f.md "You can configure SAP AI Core to use different infrastructure instances for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” and “instance types” for this purpose.")
-
-[Serving Templates](serving-templates-20a8667.md "You use serving templates to manage your serving instances at the level of the main tenant. Serving templates define how a model is to be deployed.")
-
-[List Executables](list-executables-6af8e60.md "An executable is a reusable template that defines a workflow or pipeline for tasks such as training a machine learning model or creating a deployment. It contains placeholders for input artifacts (datasets or models) and parameters (custom key-pair values) that enable the template to be reused in different scenarios.. You can list all of the executables in a resource group and get details of specific executables from a resource group. Serving templates are mapped to deployment executables.")
-
-[Deploy Models](deploy-models-dd16e8e.md "")
-
-[Inferencing](inferencing-e348ecf.md "")
-
-[Update a Deployment](update-a-deployment-9789ddd.md "")
-
-[Stop Deployments](stop-deployments-b7d2577.md " ")
-
-[Delete Deployments](delete-deployments-0193d17.md " ")
-
-[Efficiency Features](efficiency-features-9fad26a.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
-
 <a name="task_i3h_n13_tcc"/>
 
 <!-- task\_i3h\_n13\_tcc -->

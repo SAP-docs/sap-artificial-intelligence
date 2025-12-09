@@ -1,6 +1,6 @@
 <!-- loiob2625d72bc644233b80f148846cc04b2 -->
 
-# Dataset preparation
+# Dataset Preparation
 
 The dataset shows the desirable outcome of an input prompt and corresponding values for placeholders in the input prompt.
 
@@ -8,7 +8,7 @@ Your dataset must meet the following conditions:
 
 -   It has a minimum of 25 and maximum of 200 samples
 
--   It contains the exact placeholder names that are used in the template in the “fields” object.
+-   It contains the exact placeholder names that are used in the template in the `fields` object.
 
 
 > ### Caution:  

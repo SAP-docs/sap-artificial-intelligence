@@ -13,6 +13,8 @@ You can delete training schedules that are in states ACTIVE and INACTIVE.
 
 [List Executions Created by a Training Schedule](list-executions-created-by-a-training-schedule-2c1ecfb.md "")
 
+[Stop or Resume a Schedule](stop-or-resume-a-schedule-d6ab976.md "")
+
 [Change an Existing Training Schedule](change-an-existing-training-schedule-18caf4b.md "")
 
 <a name="task_i3h_n13_tcc"/>

@@ -8,11 +8,11 @@ In this section, you select the model that you want to use in your workflow. If 
 
 You can see which models are available within an orchestration deployment by selecting the deployment ID.
 
-![](images/model_config_7a_a647393.png)
+![Screenshot of the SAP AI Launchpad user interface](images/model_config_7a_a647393.png)
 
 You can adjust the parameters by using the sliders
 
-![](images/model_config_1_7a_27ff4d0.png)
+![Screenshot of the SAP AI Launchpad user interface](images/model_config_1_7a_27ff4d0.png)
 
 You can add custom parameters by choosing the <span class="SAP-icons-V5"></span> \(code\) icon and entering additional parameters in JSON format. Custom parametersand their values must be supported by the model selected. For information about supported parameters, check the documentation from the model provider.
 
@@ -21,7 +21,7 @@ When you run the workflow, you will receive one response from the model. If you 
 > ### Example:  
 > If you enter `"n":3` in the model configuration, the model will generate three different responses based on your prompt template.
 > 
-> ![](images/model_config_2_7a_f42e324.png)
+> ![Screenshot of the SAP AI Launchpad user interface](images/model_config_2_7a_f42e324.png)
 
 > ### Note:  
 > For models from Anthropic, the `max_tokens` parameter is mandatory and is added to *additional parameters* automatically. Users can update the parameter value, but the parameter should not be removed.

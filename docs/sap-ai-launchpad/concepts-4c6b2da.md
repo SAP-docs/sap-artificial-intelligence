@@ -577,4 +577,7 @@ The SAP AI Launchpad service is intended to be used together with the SAP AI Cor
 		applicable for a given AI service or runtime. The SAP AI Launchpad then shows
 		the capabilities in the user interface.")**  
 The AI API `Meta API` is used to identify what capabilities are applicable for a given AI service or runtime. The SAP AI Launchpad then shows the capabilities in the user interface.
+-   **[Resource Groups](resource-groups-26c6c6b.md " Tenants use resource groups to isolate related ML resources and workloads. Scenarios,
+		executables, and Docker registry secrets are shared across all resource groups.")**  
+ Tenants use resource groups to isolate related ML resources and workloads. Scenarios, executables, and Docker registry secrets are shared across all resource groups.
 

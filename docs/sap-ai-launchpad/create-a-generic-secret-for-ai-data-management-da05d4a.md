@@ -69,7 +69,7 @@ To allow the rotation of tenant-wide secrets for long-running deployments withou
 
 7.  Choose *Add* to save the secret details.
 
-    ![](images/generic_secret_4a_0083aa4.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/generic_secret_4a_0083aa4.png)
 
 
 

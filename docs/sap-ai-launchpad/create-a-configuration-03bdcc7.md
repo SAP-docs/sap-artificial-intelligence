@@ -38,7 +38,7 @@ You have either the `mloperations_editor` or `scenario_configuration_editor` rol
         -   *Serving Executable* for a serving \(deploying\) template
 
 
-    ![](images/Example_Producer_Deployment_3_d766823.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/Example_Producer_Deployment_3_d766823.png)
 
 4.  Choose *Next* to display the *Input Parameters* step.
 
@@ -47,7 +47,7 @@ You have either the `mloperations_editor` or `scenario_configuration_editor` rol
     > ### Restriction:  
     > A configuration can contain up to 1000 input parameters. An input parameter value can't exceed 5000 characters.
 
-    ![](images/Image_AI_Launchpad_CC_3_bd68061.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/Image_AI_Launchpad_CC_3_bd68061.png)
 
     > ### Tip:  
     > The *Reset* button clears the mandatory fields and enters default values, where they are assigned. The *Enable Description* switch show descriptions and types, where available.
@@ -59,7 +59,7 @@ You have either the `mloperations_editor` or `scenario_configuration_editor` rol
     > ### Tip:  
     > Use the *Enable Description* switch to view artifact description as popovers.
 
-    ![](images/create-a-configuration_2565523.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/create-a-configuration_2565523.png)
 
 8.  Choose *Review* to check the details you've entered for the configuration. Check the details then choose *Create*.
 

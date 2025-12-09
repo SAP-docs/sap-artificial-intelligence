@@ -2,36 +2,78 @@
 
 # Choose an Instance
 
-You can configure SAP AI Core to use different infrastructure instances for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “resource plans” and “instance types” for this purpose.
+You can configure SAP AI Core to use different infrastructure instances for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “instance types” and “resource plans” for this purpose.
 
 
 
 ## Context
 
-You must choose at least one instance. If you select a resource plan, an instance type isn't required and vice versa.
+You must choose at least one instance. If you select an instance type, a resource plan isn't required and vice versa.
 
-Resource plans and instance types are used to select instances in workflow and serving templates. Different steps of a workflow can have different instances assigned.
+> ### Tip:  
+> `instanceType`s are recommended because they provide access to newer hardware and higher performance specifications compared to `resourcePlan`s.
+
+Instance types amd resource plans and are used to select instances in workflow and serving templates. Different steps of a workflow can have different instances assigned.
 
 In general, if your workload needs GPU acceleration, use one of the GPU-enabled instances. Otherwise, choose a plan based on the anticipated CPU and memory need of your workloads.
 
-Within SAP AI Core, the instances are selected via the `ai.sap.com/resourcePlan` and `ai.sap.com/instanceType` labels at pod level. It maps the selected instance and takes a string value, which is the ID of the instance.
+Within SAP AI Core, the instances are selected via the `ai.sap.com/instanceType` and `ai.sap.com/resourcePlan` labels at pod level. It maps the selected instance and takes a string value, which is the ID of the instance.
 
 There are limits to the default disk storage size for all these nodes. Datasets that are loaded to the nodes consume disk space. If you have large data sets \(larger than 30 GB\), or have large models, you may have to increase the disk size. To do so, use the persistent volume claim in Argo Workflows to specify the required disk size \(see [Volumes](https://argoproj.github.io/argo-workflows/walk-through/volumes/)\).
-
-Instance types are recommended because they provide access to newer hardware and higher performance specifications compared to resource plans.
 
 
 
 ## Instance Types
 
-> ### Restriction:  
-> Instance types are only available as part of the “extended” service plan. For more information on instances that can be used with the “standard” service plan, see [Resource Plans](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/choose-resource-plan-train?version=CLOUD&q=instance+types#resource-plans).
 
-Within SAP AI Core, the instances are selected via the `ai.sap.com/instanceType` label in your workflow templates. It maps the selected resource and takes a string value, which is the ID of the instance
+
+### Available Instance Types
 
 For information about available instance types and their IDs, see SAP Note [3660109](https://me.sap.com/notes/3660109), or send a GET request to the following endpoint:
 
-`{{apiurl}}/v2/admin/resources/instanceType`
+`$AI_API_URL/v2/admin/resources/instanceType`
+
+Ensure that you have the following headers set:
+
+
+<table>
+<tr>
+<th valign="top">
+
+Header
+
+</th>
+<th valign="top">
+
+Value
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Authorization
+
+</td>
+<td valign="top">
+
+Bearer $AUTH\_TOKEN
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+$AI\_API\_URL
+
+</td>
+<td valign="top">
+
+The base URL of your SAP AI Core environment. This can also be set as an environment variable.
+
+</td>
+</tr>
+</table>
 
 For example:
 
@@ -44,7 +86,60 @@ For example:
 
 
 
+### Using an Instance Type
+
+Within SAP AI Core, the instances are selected via the `ai.sap.com/instanceType` label in your workflow templates. It maps the selected resource and takes a string value, which is the ID of the instance.
+
+> ### Restriction:  
+> The `ai.sap.com/instanceType` label is only available as part of the “extended” service plan.
+> 
+> `ai.sap.com/resourcePlans` can be used with the “standard” service plan,
+> 
+> For more information, see [Resource Plans](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/choose-resource-plan-train?version=CLOUD&q=instance+types#resource-plans) and [Service Plans](service-plans-c7244c6.md).
+
+The following snippet shows an example placement of the label in a workflow template:
+
+```
+kind: WorkflowTemplate
+metadata: ...
+spec:
+   templates:
+      - name: <template name>
+        metadata:
+           labels: |
+               ai.sap.com/instanceType: <instanceType value>
+
+               ...
+```
+
+The following snippet shows an example placement of the label in a serving template:
+
+```
+kind: ServingTemplate
+
+metadata: ...
+spec:
+  inputs:
+    parameters:
+      ...
+  template:
+    ...
+    metadata:
+      ...
+      labels: |
+        ai.sap.com/instanceType: <yourChoiceOfInstanceType>
+         ...
+```
+
+For more information about specifying an `ai.sap.com/instanceType` within a template, see [Workflow Templates](workflow-templates-83523ab.md) and [Serving Templates](serving-templates-20a8667.md).
+
+
+
 ## Resource Plans
+
+
+
+### Available Resource Plans
 
 Within SAP AI Core, the instances are selected via the `ai.sap.com/resourcePlan` label in your workflow templates. It maps the selected resource and takes a string value, which is the ID of the instance.
 
@@ -275,34 +370,43 @@ Infer-L
 > ### Note:  
 > For the free service plan, only the Starter resource plan is available. Specifying other plans results in an error. For the standard service plan, all resource plans are available.
 
-**Parent topic:**[Train Your Model](train-your-model-a9ceb06.md "You execute a training workflow to train your AI learning model.")
-
-**Related Information**  
 
 
-[Workflow Templates](workflow-templates-83523ab.md "Here, you'll find a basic workflow example template. Feel free to adjust it to suit your workflow needs.")
+### Using a Resource Plan
 
-[List Scenarios](list-scenarios-deedde5.md "A scenario is an implementation of a specific AI use case within a user's tenant. It consists of a pre-defined set of AI capabilities in the form of executables and templates.")
+The following snippet shows an example placement of the label in a workflow template:
 
-[List Executables](list-executables-80895a4.md "An executable is a reusable template that defines a workflow or pipeline for tasks such as training a machine learning model or creating a deployment. It contains placeholders for input artifacts (datasets or models) and parameters (custom key-pair values) that enable the template to be reused in different scenarios.")
+```
+kind: WorkflowTemplate
+metadata: ...
+spec:
+   templates:
+      - name: <template name>
+        metadata:
+           labels: |
+               ai.sap.com/resourcePlan: <resourcePlan value>
+               ...
+```
 
-[Create Configurations](create-configurations-884ae34.md "A configuration is a collection of parameters, artifact references (such as datasets or models), and environment settings that are used to instantiate and run an execution or deployment of an executable or template.")
+The following snippet shows an example placement of the label in a serving template:
 
-[List Configurations](list-configurations-8074b2a.md "")
+```
+kind: ServingTemplate
+metadata: ...
+spec:
+  inputs:
+    parameters:
+      ...
+  template:
+    ...
+    metadata:
+      ...
+      labels: |
+        ai.sap.com/resourcePlan: <yourChoiceOfresourcePlan>
+         ...
+```
 
-[Using Artifact Signatures](using-artifact-signatures-2f02a1d.md "Artifact signatures in the form of a hash can be added to output artifacts from executions.")
-
-[Start Training](start-training-54b44e4.md "")
-
-[Stop Training Instances](stop-training-instances-3d85344.md "")
-
-[Delete Training Instances](delete-training-instances-612ce17.md "")
-
-[Efficiency Features](efficiency-features-4cb76f7.md "Discover features of the SAP AI Core runtime that improve efficiency and help manage resource consumption.")
-
-[Retrieve Execution Logs](retrieve-execution-logs-fbc55d3.md "Deployment and execution logs contain information about API processing and metrics.")
-
-[Training Schedules](training-schedules-2b702f8.md "")
+For more information about specifying a `ai.sap.com/resourcePlan` within a template, see [Workflow Templates](workflow-templates-83523ab.md) and [Serving Templates](serving-templates-20a8667.md).
 
 <a name="loiocf3a9a5bb3f1476caf3099281da96a67"/>
 

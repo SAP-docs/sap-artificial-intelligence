@@ -181,9 +181,9 @@ For more information about models and their parameters, see the documentation fr
 
 
 
-Models from Azure OpenAI are accessed through a private instance of the `chat-completions API.` The access points are not publicly accessible, and are accessed through SAP AI Core. For more information, see [Azure OpenAI Chat Completions API](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions).
+Models from Azure OpenAI are accessed through a private instance of the `chat-completions API.` The access points aren't publicly accessible, and are accessed through SAP AI Core. For more information, see [Azure OpenAI Chat Completions API](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions).
 
-Open Source models are hosted by SAP AI Core and can be accessed via OpenAI compatible API schema.
+Open Source models are hosted by SAP AI Core and can be accessed via an OpenAI-compatible API schema.
 
 
 
@@ -194,5 +194,5 @@ Open Source models are hosted by SAP AI Core and can be accessed via OpenAI comp
 > 
 > -   Complex orchestration of LLM calls
 > 
-> -   Training own models
+> -   Training your own models
 

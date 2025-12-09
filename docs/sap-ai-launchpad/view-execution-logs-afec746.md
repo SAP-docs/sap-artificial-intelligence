@@ -18,7 +18,7 @@ You check the logs for an execution to debug an issue with a training pipeline.
 
     Log details include a timestamp and message. By default, logs are displayed in descending order based on timestamp.
 
-    ![](images/Image_AIL_Execution_Enhanced_Logs_b72f296.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/Image_AIL_Execution_Enhanced_Logs_b72f296.png)
 
 3.  Choose :gear: to sort <span class="SAP-icons-V5"></span> \(Sort\)\) or filter <span class="SAP-icons-V5"></span> \(Filter\) the logs by timestamp.
 

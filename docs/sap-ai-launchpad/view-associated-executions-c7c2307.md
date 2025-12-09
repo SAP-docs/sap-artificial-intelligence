@@ -22,6 +22,6 @@ Executions created by this schedule are shown in the *Associated Executions* tab
 
 2.  Choose the *Associated Executions* tab to view the executions created by this schedule.
 
-    ![](images/Associated_Executions_Tab_618f986.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/Associated_Executions_Tab_618f986.png)
 
 

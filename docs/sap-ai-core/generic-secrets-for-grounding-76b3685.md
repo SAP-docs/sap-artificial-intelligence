@@ -40,6 +40,6 @@ Your cloud storage credentials are managed using secrets. Secrets are a means of
 -   **[Grounding Generic Secrets for SAP Build Work Zone](grounding-generic-secrets-for-sap-build-work-zone-2a9a95a.md "Your cloud storage credentials are managed using secrets. Secrets are a means of allowing and controlling connections across directories
     and tools, without compromising your credentials.")**  
 Your cloud storage credentials are managed using secrets. Secrets are a means of allowing and controlling connections across directories and tools, without compromising your credentials.
--   **[Grounding Generic Secrets for SAP Document Management Service](grounding-generic-secrets-for-sap-document-management-service-9bc02ba.md "")**  
+-   **[Grounding Generic Secrets for SAP Document Management Service](grounding-generic-secrets-for-sap-document-management-service-6249d8e.md "")**  
 
 

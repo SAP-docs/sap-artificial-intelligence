@@ -1,6 +1,6 @@
 <!-- loiobf0373b1cf2a4680a7044e1a562d3853 -->
 
-# Consume Generative AI Models
+# Consume Models
 
 The generative AI hub helps you to complete tasks like summarizing text, inferencing, and transforming content. To do so, you consume a generative AI model by sending a request to the model's endpoint.
 
@@ -64,7 +64,7 @@ The resource group used in the activation steps
 > SAP does not take any responsibility for the quality of the content in the input to or output of the underlying generative AI models. This includes but is not limited to bias, hallucinations, or inaccuracies. The user is responsible for verifying the content.
 
 > ### Caution:  
-> Do not store personally identifiable information in prompts when using the generative AI hub. Personally identifiable information is any data that can be used alone, or in combination, to identify the person that the data refers to.
+> Don't store personally identifiable information in prompts when using the generative AI hub. Personally identifiable information is any data that can be used alone, or in combination, to identify the person that the data refers to.
 
 
 
@@ -75,9 +75,11 @@ Consume your generative AI deployment using your deployment URL and the example 
 -   [Example Payloads for Inferencing - SAP AI Core Hosted](example-payloads-for-inferencing-sap-ai-core-hosted-951d388.md) for models with `executionId`s indicating a third party provider.
 -   [Example Payloads for Inferencing - Remote Models](example-payloads-for-inferencing-remote-models-8c80ea2.md) for models with `executionId`s indicating that a model is hosted on SAP AI Core \(beginning with `aicore-`\).
 
--   **[Example Payloads for Inferencing - Remote Models](example-payloads-for-inferencing-remote-models-8c80ea2.md)**  
+-   **[Example Payloads for Inferencing - sap-rpt-1](example-payloads-for-inferencing-sap-rpt-1-399566e.md)**  
 
 -   **[Example Payloads for Inferencing - SAP AI Core Hosted](example-payloads-for-inferencing-sap-ai-core-hosted-951d388.md)**  
+
+-   **[Example Payloads for Inferencing - Remote Models](example-payloads-for-inferencing-remote-models-8c80ea2.md)**  
 
 -   **[Supported Parameters](supported-parameters-55d2197.md "The chat completions API supports a range of parameters that influence model responses, influencing aspects like creativity, length, and
 		formatting of the output. ")**  

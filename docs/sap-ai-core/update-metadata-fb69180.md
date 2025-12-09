@@ -14,7 +14,7 @@
 
 ## Context
 
-Metadata is additional information associated with data that can help in identifying, categorizing, and retrieving relevant content.You can use your metadata values later, to search your pipeline. For more information, see [Search a Pipeline](search-a-pipeline-5e6727e.md).
+Metadata is additional information associated with data that can help in identifying, categorizing, and retrieving relevant content.You can use your metadata values later to search your pipeline. For more information, see [Search a Pipeline](search-a-pipeline-5e6727e.md).
 
 
 

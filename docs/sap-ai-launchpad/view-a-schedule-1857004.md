@@ -39,7 +39,7 @@ You have the `mloperations_viewer` or `execution_schedules_viewer` role, or you 
         > The cron expression entered is in UTC time.
 
 
-    ![](images/View_Schedule_Details_d5592c2.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/View_Schedule_Details_d5592c2.png)
 
 5.  Choose the *Associated Executions* tab to view the executions created by the schedule. For more information, see [View Associated Executions](view-associated-executions-c7c2307.md)
 

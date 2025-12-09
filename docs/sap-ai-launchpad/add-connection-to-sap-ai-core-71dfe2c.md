@@ -39,7 +39,7 @@ You have the `connections_editor` role or a role collection that contains it. Fo
 
     Service key data then defaults to the remaining fieldsincluding the connection type.
 
-    ![](images/create_a_connection_image_ca4cc2b.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/create_a_connection_image_ca4cc2b.png)
 
 4.  If a service key file is not available, complete the followingbased on the service key and connection type you have:
 

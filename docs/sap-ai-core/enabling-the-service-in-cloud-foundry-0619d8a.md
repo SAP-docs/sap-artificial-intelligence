@@ -14,7 +14,7 @@ SAP AI Core is a tenant-aware reuse service that isolates tenants based on the z
 > ### Note:  
 > The SAP AI Core service doesn't isolate tenants based on the service instance ID. If you create multiple service instances within the same subaccount, they all reference the same SAP AI Core tenant.
 
-![](images/Multitenancy_diagram_29a8dde.png)
+![SAP AI Core architecture diagram showing system components and workflow](images/Multitenancy_diagram_29a8dde.png)
 
 -   **[Create a Subaccount](create-a-subaccount-3e3ae83.md "Create a subsaccount in your global account using the SAP BTP
                                     cockpit.")**  

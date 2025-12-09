@@ -45,7 +45,7 @@ You have either the `mloperations_viewer` or `scenario_metadata_viewer` role, or
         -   You can delete a template by deleting all of its revisions.
 
 
-    ![](images/scenarios_d1d183a.png)
+    ![Screenshot of the SAP AI Launchpad user interface](images/scenarios_d1d183a.png)
 
 
 
