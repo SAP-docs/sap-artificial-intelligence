@@ -12,7 +12,7 @@ Evaluating a grounding system involves assessing both the retrieval and generati
 
 You can evaluate your grounding pipelines using the metrics in this section.
 
--   **[Metric Validation](metric-validation-30c8ff8.md "")**  
+-   **[Validated Metrics](validated-metrics-30c8ff8.md "")**  
 
 -   **[Computed Metrics vs LLM-as-a-Judge Metrics](computed-metrics-vs-llm-as-a-judge-metrics-c148a1e.md "")**  
 

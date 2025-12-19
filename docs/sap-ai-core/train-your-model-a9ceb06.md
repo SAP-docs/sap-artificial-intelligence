@@ -28,6 +28,8 @@ The execution service includes:
 > 
 > For **input training artifacts only**, you can create multiple object store secrets with different names as needed.
 > 
+> All artifacts are required to have a name. Templates that include artifacts without names, will return an error.
+> 
 > For more information, see [Register an Object Store Secret](register-an-object-store-secret-b083d73.md).
 
 The execution engine in SAP AI Core leverages the [Argo Workflows](https://argoproj.github.io/workflows/) open source project. It supports container-native workflows and pipelines modeled as direct acyclic graphs or steps. The Argo Workflows are used to ingest data, perform preprocessing and postprocessing, and train models and execute batch inference pipelines. SAP AI Core also leverages the parallel processing of steps in the form of a [DAG \( Directed Acyclic Graph\) structure](https://argoproj.github.io/argo-workflows/workflow-concepts/#dag) in workflow templates. For information about how using parallel nodes may affect your costs, see [Metering and Pricing for SAP AI Core](metering-and-pricing-for-sap-ai-core-1e6cbac.md).

@@ -284,10 +284,10 @@ Each tenant can have a maximum of five tenant-wide secrets. If you reach this li
 -   **[Set Up the Free Plan](set-up-the-free-plan-4533adc.md "The free plan lets you try out SAP AI Core for testing
 		and familiarization purposes at no cost.")**  
 The free plan lets you try out SAP AI Core for testing and familiarization purposes at no cost.
--   **[Upgrade a Service Plan](upgrade-a-service-plan-924f892.md "Upgrade your SAP AI Core service
+-   **[Update a Service Plan](update-a-service-plan-924f892.md "Update your SAP AI Core service
 		instance from the free plan to a standard or extended plan while keeping your data and
 		models.")**  
-Upgrade your SAP AI Core service instance from the free plan to a standard or extended plan while keeping your data and models.
+Update your SAP AI Core service instance from the free plan to a standard or extended plan while keeping your data and models.
 
 **Related Information**  
 

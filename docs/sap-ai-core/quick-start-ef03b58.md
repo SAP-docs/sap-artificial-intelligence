@@ -25,8 +25,10 @@ To get started, complete the following steps:
 3.  [Consume Models with the Harmonized API](consume-models-with-the-harmonized-api-2392d9a.md): This step explains how to use the Harmonized API to interact with and consume your deployed AI models without creating multiple deployments.
 4.  [Next Steps](next-steps-6106eed.md): This section outlines the subsequent actions you can take after completing the initial simple model consumption, such as exploring further orchestration capabilities \(grounding, content filtering, data masking\)
 
--   **[Get an Auth Token](get-an-auth-token-0808d42.md "Start by setting the required environment variables, which you can get from your SAP AI Core instance.")**  
-Start by setting the required environment variables, which you can get from your SAP AI Core instance.
+-   **[Get an Auth Token](get-an-auth-token-0808d42.md "Authentication token retrieval enables secure access to your SAP instance by setting
+		environment variables and using curl commands to obtain and use an access token. Use this
+		process to authenticate API requests in subsequent steps")**  
+Authentication token retrieval enables secure access to your SAP instance by setting environment variables and using curl commands to obtain and use an access token. Use this process to authenticate API requests in subsequent steps
 -   **[Get Your Orchestration Deployment URL](get-your-orchestration-deployment-url-ec7c703.md "")**  
 
 -   **[Consume Models with the Harmonized API](consume-models-with-the-harmonized-api-2392d9a.md "In this section, we will provide a minimal inference call without any orchestration

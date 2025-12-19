@@ -17,7 +17,7 @@
 -   You have an object store with the name `default`. For more information, see [Register an Object Store for Optimizations](register-an-object-store-for-optimizations-9ee15fb.md).
 -   If you're creating an evaluation with a prompt template: you've prepared a prompt template. For more information, see [Prompt Experimentation](prompt-experimentation-384cc0c.md) and [Save a Template](save-a-template-49d4248.md).
 -   If you're creating an evaluation with an orchestration configuration: you've prepared an orchestration configuration. For more information, see [Build Your Orchestration Workflow](build-your-orchestration-workflow-b7dc8b4.md) and [Save an Orchestration Config](save-an-orchestration-config-b687c7d.md).
--   If you want to use a custom LLM-as-a-judge metric: you've created a custom metric. For more information, see [Create a Custom Metric](create-a-custom-metric-8519d00.md).
+-   If you want to use a custom LLM-as-a-judge metric: you've created a custom metric. For more information, see [Create a Custom Metric Evaluator](create-a-custom-metric-evaluator-8519d00.md).
 
 
 

@@ -72,7 +72,7 @@ $AI\_API\_URL
 </td>
 <td valign="top">
 
-The base URL of your SAP AI Core environment. This can also be set as an environment variable.
+The base URL of your SAP AI Core environment. This URL can also be set as an environment variable.
 
 </td>
 </tr>

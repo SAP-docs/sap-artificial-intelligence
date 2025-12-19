@@ -1,6 +1,6 @@
 <!-- loio8c80ea225b094cf999d8de11e5eb2850 -->
 
-# Example Payloads for Inferencing - Remote Models
+# Example Payloads for Inferencing: Remote Models
 
 The following examples show how you can consume various generative AI models using curl. For more information about prompts, see the tutorial [Prompt LLMs in the Generative AI Hub in SAP AI Core & Launchpad](https://developers.sap.com/tutorials/ai-core-generative-ai.html).
 

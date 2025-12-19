@@ -169,8 +169,10 @@ GCP Vertex AI provides access to PaLM 2 and Gemini models from Google.
 
 After creating a deployment for your model, you consume the model using prompts. For more information, see [Consume Models](consume-models-bf0373b.md).
 
--   **[Get an Auth Token](get-an-auth-token-5ec7ec0.md "Start by setting the required environment variables, which you can get from your SAP AI Core instance.")**  
-Start by setting the required environment variables, which you can get from your SAP AI Core instance.
+-   **[Get an Auth Token](get-an-auth-token-5ec7ec0.md "Authentication token retrieval enables secure access to your SAP instance by setting
+		environment variables and using curl commands to obtain and use an access token. Use this
+		process to authenticate API requests in subsequent steps")**  
+Authentication token retrieval enables secure access to your SAP instance by setting environment variables and using curl commands to obtain and use an access token. Use this process to authenticate API requests in subsequent steps
 -   **[Create a Deployment for a Generative AI Model](create-a-deployment-for-a-generative-ai-model-b32e7a8.md "
 		
 	")**  

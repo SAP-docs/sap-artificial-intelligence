@@ -278,6 +278,14 @@ spec:
   imagePullSecrets:
     - name: <name of your Docker registry secret>
   entrypoint: text-clf-sk-training
+  volumeClaimTemplates:                 # Define volume, same syntax as k8s Pod spec. This is the official way to add more disk storage space in AI Core
+  - metadata:
+      name: workdir                     # Name of volume claim
+    spec:
+      accessModes: [ "ReadWriteOnce" ]
+      resources:
+        requests:
+          storage: 1Gi                  # Gi => 1024 * 1024 * 1024
   arguments:
     parameters: # placeholder for string like inputs
       - name: DEPTH # identifier local to this workflow
@@ -290,11 +298,11 @@ spec:
           ai.sap.com/instanceType: <yourChoiceOfInstanceType> # or ai.sap.com/resourcePlan: <yourChoiceOfresourcePlan>
       inputs:
         artifacts:
-          - name: text-data
+          - name: text-data # A name is required for input and output artifacts
             path: /app/data/
       outputs:
         artifacts:
-          - name: text-model-tutorial
+          - name: text-model-tutorial # A name is required for input and output artifacts
             path: /app/model
             globalName: text-model-tutorial
             archive:
@@ -306,7 +314,43 @@ spec:
         args:
           - >
             set -e && echo "---Start Training---" && python /app/src/train_scikit.py && ls -lR /app/model && echo "---End Training---"
+# Mount the requested workdir volume at /mnt/vol before invoking the container
+      	volumeMounts:                     # same syntax as k8s Pod spec
+      	- name: workdir
+          mountPath: /mnt/vol
 ```
+
+
+
+## Define a volume claim to use in your workflow
+
+```
+
+spec:
+  volumeClaimTemplates:                 # Define volume, same syntax as k8s Pod spec. This is the official way to add more disk storage space in AI Core
+  - metadata:
+      name: workdir                     # Name of volume claim
+    spec:
+      accessModes: [ "ReadWriteOnce" ]
+      resources:
+        requests:
+          storage: 1Gi                  # Gi => 1024 * 1024 * 1024
+```
+
+
+
+## Use a volume claim in your workflow
+
+```
+
+container:
+  # Mount the requested workdir volume at /mnt/vol before invoking the container
+  volumeMounts:                     # same syntax as k8s Pod spec
+  - name: workdir
+    mountPath: /mnt/vol
+```
+
+
 
 > ### Tip:  
 > We recommend that you specify a value for `activeDeadlineSeconds` in the workflow template. `activeDeadlineSeconds` prevents the workflow from running indefinitely and incurring high costs, for example if a linux process gets stuck. The `activeDeadlineSeconds` parameter is specified in the `spec` section of the workflow template, and defines the maximum duration in seconds that the workflow can run before it is stopped. For more information, see [Argo Workflow Timeouts](https://argo-workflows.readthedocs.io/en/latest/walk-through/timeouts/).

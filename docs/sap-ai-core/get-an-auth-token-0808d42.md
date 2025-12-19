@@ -2,7 +2,7 @@
 
 # Get an Auth Token
 
-Start by setting the required environment variables, which you can get from your SAP AI Core instance.
+Authentication token retrieval enables secure access to your SAP instance by setting environment variables and using curl commands to obtain and use an access token. Use this process to authenticate API requests in subsequent steps
 
 
 
@@ -18,6 +18,12 @@ curl is likely to be installed on your operating system by default. To check, op
 > 1.  Install brew from [https://brew.sh/](https://brew.sh/).
 > 
 > 2.  In a Terminal session, run `brew install jq` to install `jq` in your shell environment.
+
+
+
+## Context
+
+Start by setting the required environment variables, which you can get from your SAP AI Core instance.
 
 
 
@@ -38,12 +44,13 @@ curl is likely to be installed on your operating system by default. To check, op
 2.  Obtain the auth token by sending the following request:
 
     ```
-    curl --request POST \
-      --url "${AUTH_URL}/oauth/token" \
-      --header 'content-type: application/x-www-form-urlencoded' \
-      --data 'grant_type=client_credentials' \
-      --data client_id="$CLIENT_ID" \
-      --data client_secret="$CLIENT_SECRET"
+    SECRET=`echo -n "$CLIENTID:$CLIENTSECRET" | base64 -i - ` 
+    TOKEN=`curl --request POST \
+      --url "$AUTH_URL/oauth/token" \
+      --header "Content-Type: application/x-www-form-urlencoded" \
+      --data "grant_type=client_credentials" \
+      --data "client_id=$CLIENTID" \
+      --data "client_secret=$CLIENTSECRET"'
     ```
 
     The response includes an access token.

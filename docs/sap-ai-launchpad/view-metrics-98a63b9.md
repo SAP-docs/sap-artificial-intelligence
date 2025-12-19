@@ -33,5 +33,10 @@ You can choose a metric to see its details.
 
 To search for a metric by name, use the search bar.
 
-You can create a new custom metric by choosing *Create*. For more information, see [Create a Custom Metric](create-a-custom-metric-8519d00.md).
+You can duplicate a metric by choosing the *Duplicate* button. A wizard will open, where you can review and make changes to the configuration.
+
+**Related Information**  
+
+
+[View Metric Details](view-metric-details-db90bc4.md "")
 

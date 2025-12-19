@@ -1,6 +1,6 @@
 <!-- loio951d388a27004e15b8de9d026123fd3a -->
 
-# Example Payloads for Inferencing - SAP AI Core Hosted
+# Example Payloads for Inferencing: SAP AI Core-Hosted
 
 The following examples show how you can consume various generative AI models using curl. For more information about prompts, see the tutorial [Prompt LLMs in the Generative AI Hub in SAP AI Core & Launchpad](https://developers.sap.com/tutorials/ai-core-generative-ai.html).
 

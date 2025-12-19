@@ -12,7 +12,7 @@ Key features include:
 
 -   **Custom Metrics:** In addition to system-defined metrics, you can define and register your own custom metrics to address specific evaluation needs. This flexibility allows you to tailor performance measurement to your unique use cases and business requirements.
 
-    For more information, see [Create a Custom Metric](create-a-custom-metric-8519d00.md).
+    For more information, see [Create a Custom Metric Evaluator](create-a-custom-metric-evaluator-8519d00.md).
 
 -   **Integration with Evaluations:** Metrics are seamlessly integrated into the evaluation workflows. When you run an evaluation job, you can specify which metrics to compute, and the results are automatically stored and made available for analysis.
 
@@ -23,7 +23,7 @@ Key features include:
     For more information, see [Compare Runs](compare-runs-6dc7cb8.md).
 
 
--   **[Create a Custom Metric](create-a-custom-metric-8519d00.md "")**  
+-   **[Create a Custom Metric Evaluator](create-a-custom-metric-evaluator-8519d00.md "")**  
 
 -   **[View Metrics](view-metrics-98a63b9.md "")**  
 

@@ -92,6 +92,138 @@ Generative AI hub
 </td>
 <td valign="top">
 
+The data repository details mode of *Grounding Management* shows the history and status details of your synchronizations. You can also request a sync manually from this mode.
+
+For more information, see [Data Repository Details Mode](grounding-management-0ee0f52.md#loio0ee0f52c4a824cd1b2950fb349fadbc5__section_apm_nlh_22c).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-12-22
+
+</td>
+<td valign="top">
+
+2025-12-22
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+When defining custom metrics, you can define categorical rubrics. Existing metrics containing numerical rubrics can be updated.
+
+For more information, see [Create a Custom Metric Evaluator](create-a-custom-metric-evaluator-8519d00.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-12-22
+
+</td>
+<td valign="top">
+
+2025-12-22
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
 Prompt storage is not enabled in some data centers, meaning that some users are not be able to save prompts.
 
 Users who can't save prompts should save a prompt template instead.

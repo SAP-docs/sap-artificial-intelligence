@@ -358,12 +358,3 @@ Models from Azure OpenAI are accessed through a private instance of the chat-com
 
 Open Source models are hosted by SAP AI Core and are accessible through an OpenAI-compatible API schema.
 
-**Parent topic:**[Models](models-6440777.md "")
-
-**Related Information**  
-
-
-[Large Language Models](large-language-models-c45166a.md "Large Language Models (LLMs) are trained on vast amounts of text data to understand and generate human-like language.LLMs are useful for tasks such as text generation, summarization, translation, question answering, and conversational AI.")
-
-[SAP-RPT-1](sap-rpt-1-f128f5e.md "")
-

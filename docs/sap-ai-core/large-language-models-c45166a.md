@@ -32,12 +32,3 @@ Next, create a configuration and deployment using the `foundation-models` and `e
 
 To use a model through the `orchestration` scenario, using the harmonized API, see [Orchestration](orchestration-8d02235.md).
 
-**Parent topic:**[Models](models-6440777.md "")
-
-**Related Information**  
-
-
-[SAP-RPT-1](sap-rpt-1-f128f5e.md "")
-
-[Supported Models](supported-models-509e588.md "")
-

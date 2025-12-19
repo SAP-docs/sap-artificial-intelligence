@@ -1,8 +1,8 @@
 <!-- loio924f892e67b7443fbb4476b3e81959b2 -->
 
-# Upgrade a Service Plan
+# Update a Service Plan
 
-Upgrade your SAP AI Core service instance from the free plan to a standard or extended plan while keeping your data and models.
+Update your SAP AI Core service instance from the free plan to a standard or extended plan while keeping your data and models.
 
 
 
@@ -10,9 +10,9 @@ Upgrade your SAP AI Core service instance from the free plan to a standard or ex
 
 ## Context
 
-During the upgrade, all metadata and transaction data, including trained models, is retained.
+During the update, all metadata and transaction data, including trained models, is retained.
 
-You can also upgrade from the standard plan to the extended plan.
+You can also update from the standard plan to the extended plan.
 
 > ### Restriction:  
 > You cannot downgrade from the standard or extended plan to the free plan.

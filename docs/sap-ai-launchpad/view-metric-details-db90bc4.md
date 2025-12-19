@@ -1,5 +1,7 @@
 <!-- loiodb90bc45a7a04c4c97c511deaaef034d -->
 
+<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
+
 # View Metric Details
 
 
@@ -38,4 +40,8 @@
 You can view the prompt details using the *Definition* tab
 
 You can view the model parameters using the *Model Configuration* tab
+
+You can duplicate a metric by choosing the *Duplicate* button. A wizard will open, where you can review and make changes to the configuration.
+
+You can update a metric by choosing the :pencil2: icon.
 

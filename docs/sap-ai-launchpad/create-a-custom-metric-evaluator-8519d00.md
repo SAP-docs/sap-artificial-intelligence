@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
 
-# Create a Custom Metric
+# Create a Custom Metric Evaluator
 
 
 
@@ -61,19 +61,21 @@ You only need to define a custom metric if you want to create a custom LLM-as-a-
 
     5.  **Optional:** Enter your evaluation criteria
 
-    6.  Enter at least one rating rubric
+    6.  Choose an output type by using the switch
+
+    7.  Enter at least one rating rubric
 
         You can add more rubrics using the :heavy_plus_sign: icon. You can delete rubrics using the :wastebasket: icon.
 
-    7.  **Optional:** Describe any steps the judge model should follow
+    8.  **Optional:** Describe any steps the judge model should follow
 
         You can add more steps using the :heavy_plus_sign: icon. You can delete steps using the :wastebasket: icon.
 
-    8.  **Optional:** Set precedents by adding few shot examples
+    9.  **Optional:** Set precedents by adding few shot examples
 
         You can add more examples using the :heavy_plus_sign: icon. You can delete examples using the :wastebasket: icon.
 
-    9.  Choose *Review*
+    10. Choose *Review*
 
 
 6.  To make changes, choose previous. To continue, choose *Create*.

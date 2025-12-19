@@ -92,15 +92,81 @@ Generative AI hub
 </td>
 <td valign="top">
 
-SAP-RPT-1 launched.
+You can now use the `SAP-ABAP-1` model to better understand ABAP code. `SAP-ABAP-1` is a foundation model built by SAP and is fine-tuned on a large amount of ABAP code.
+
+For more information, see [SAP-ABAP-1](sap-abap-1-d197270.md) and [Example Payloads for Inferencing: SAP-ABAP-1](example-payloads-for-inferencing-sap-abap-1-9ea7333.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2025-12-22
+
+</td>
+<td valign="top">
+
+2025-12-22
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+`SAP-RPT-1` launched.
 
 `SAP-RPT-1` is a relational pre-trained transformer for use on relational and structured data. It is developed and maintained by SAP.
 
-Relational Foundation Models \(RFMs\) are large-scale machine learning models designed to understand, represent, and reason about relationships between entities in structured or semi-structured data.
+Relational Foundation Models \(RFMs\) are large-scale machine learning models designed to understand, process, and do predictions on tabular and relational data.
 
-RFMs are useful for tasks such as knowledge graph completion, recommendation systems, complex query answering, and any application where understanding the connections and interactions between different entities is crucial.
+RPT-1 solves predictive tasks such as classification and regression out-of-the-box without requiring any training or fine-tuning via in-context learning. Due to its table-native architecture, prediction quality on enterprise data is typically very high, ahead of state-of-the-art narrow AI models and LLMs employed for such tasks.
 
-For more information, see [SAP-RPT-1](sap-rpt-1-f128f5e.md) and [Example Payloads for Inferencing - sap-rpt-1](example-payloads-for-inferencing-sap-rpt-1-399566e.md).
+For more information, see [SAP-RPT-1](sap-rpt-1-f128f5e.md) and [Example Payloads for Inferencing: sap-rpt-1](example-payloads-for-inferencing-sap-rpt-1-399566e.md).
 
 </td>
 <td valign="top">
@@ -1496,7 +1562,7 @@ SAP AI Core
 </td>
 <td valign="top">
 
-Generative AI hub
+Generative AI hub 
 
 </td>
 <td valign="top">

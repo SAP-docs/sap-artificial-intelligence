@@ -54,7 +54,7 @@ Reference Required
 </td>
 <td valign="top">
 
-Uses pretrained embeddings and cosine similarity to incorporate semantic similarity where two tokens aren't an exact match. Returns precision, recall, and F1 measure.
+BERTScore is a metric for evaluating the quality of text generation by comparing candidate text to reference text. It uses a pre-trained BERT model to generate contextual embeddings for each token, then measures similarity between these embeddings to assess how closely the candidate aligns with the references.
 
 </td>
 <td valign="top">
@@ -76,7 +76,7 @@ Yes
 </td>
 <td valign="top">
 
-Compares a translated text to a ground truth reference using n-grams, with a focus on precision.
+BLEU \(Bilingual Evaluation Understudy\) evaluates machine-translated text quality by calculating n-gram precision between candidate and reference translations. Scores range from 0 to 1, with higher values indicating greater similarity.
 
 </td>
 <td valign="top">
@@ -98,7 +98,7 @@ Yes
 </td>
 <td valign="top">
 
-Compares a translated or summarized text to a ground truth reference using n-grams, with a focus on recall.
+ROUGE \(Recall-Oriented Understudy for Gisting Evaluation\) is a set of metrics for evaluating summarization and machine translation by measuring overlap in n-grams, word sequences, and word pairs between generated and reference texts. This implementation is case-insensitive.
 
 </td>
 <td valign="top">
@@ -120,7 +120,7 @@ Yes
 </td>
 <td valign="top">
 
-Validates LLM-generated responses against a predefined JSON schema, returns Boolean result.
+Validates an LLM-generated response against a predefined JSON Schema, returning a boolean indicating whether the response matches the schema.
 
 For more information, see [JSON Schema Match](json-schema-match-57d88de.md).
 
@@ -144,7 +144,7 @@ No
 </td>
 <td valign="top">
 
-Records whether orchestration input was rejected by the input filter.
+Boolean indicating whether the input content filter was invoked.
 
 </td>
 <td valign="top">
@@ -166,7 +166,7 @@ No
 </td>
 <td valign="top">
 
-Records whether orchestration input was rejected by the output filter
+Boolean indicating whether the output content filter was invoked.
 
 </td>
 <td valign="top">
@@ -188,7 +188,7 @@ No
 </td>
 <td valign="top">
 
-Records whether the output exactly matches the reference.
+Boolean indicating whether the output exactly matches the reference.
 
 </td>
 <td valign="top">
@@ -210,7 +210,7 @@ Yes
 </td>
 <td valign="top">
 
-Returns `true` or `false` to indicate if the text matches the given language.
+Indicates whether the output matches the expected language. Results may be inaccurate when the text is very short.
 
 For more information, see [Language Match](language-match-c74df7d.md).
 
@@ -266,7 +266,7 @@ Reference Required
 </td>
 <td valign="top">
 
-Assesses the model's ability to follow instructions provided in the user prompt.
+Evaluates the model’s ability to follow the instructions provided in the user prompt. Scores range from 1 to 5, with 1 indicating no fulfillment and 5 indicating complete fulfillment.
 
 </td>
 <td valign="top">
@@ -288,12 +288,12 @@ No
 </td>
 <td valign="top">
 
-Evaluates whether an LLM response is correct, accurate, and factual, for both general and retrieval-augmented \(RAG\) use cases.
+Evaluates whether an LLM response is correct, accurate, and factual using a user-provided reference, for both general and retrieval-augmented \(RAG\) use cases. Scores range from 1 to 5, with 1 indicating completely incorrect and 5 indicating fully correct
 
 </td>
 <td valign="top">
 
-Yes
+No
 
 </td>
 </tr>
@@ -310,7 +310,7 @@ Yes
 </td>
 <td valign="top">
 
-Assesses whether the model's response is related to user prompt, for both general and retrieval-augmented \(RAG\) use cases.
+Measures how closely the model’s response relates to the user prompt, for both general and RAG use cases. Scores range from 1 to 5, with higher values indicating greater relevance.
 
 </td>
 <td valign="top">
@@ -332,7 +332,7 @@ No
 </td>
 <td valign="top">
 
-Assesses whether the model's response is a short and concise answer to user prompt.
+Measures how short and concise the model’s response is. Scores range from 1 to 5, with higher values indicating a more concise answer.
 
 </td>
 <td valign="top">
@@ -354,7 +354,7 @@ No
 </td>
 <td valign="top">
 
-Evaluates if the LLM response is supported by the provided context, measuring factual consistency for retrieval-augmented \(RAG\) use cases.
+Evaluates whether the model’s response is supported by the provided context, measuring factual consistency in RAG use cases. Scores range from 1 to 3, with higher values indicating stronger grounding in the context.
 
 </td>
 <td valign="top">
@@ -376,7 +376,7 @@ No
 </td>
 <td valign="top">
 
-Evaluates how relevant the retrieved context is to the user query, indicating the quality of the context retrieval stage in RAG systems.
+Evaluates how relevant the retrieved context is to the user prompt, indicating the quality of the context retrieval stage in RAG systems. Scores range from 1 to 3, with higher values indicating that the context directly addresses the user prompt.
 
 </td>
 <td valign="top">
@@ -398,7 +398,7 @@ No
 </td>
 <td valign="top">
 
-Measures how much of the provided context is relevant and useful compared to user query.
+Measures how much of the provided context is relevant and useful relative to the user prompt. Scores range from 1 to 3, with higher values indicating a greater proportion of relevant context.
 
 </td>
 <td valign="top">
@@ -420,7 +420,7 @@ No
 </td>
 <td valign="top">
 
-Evaluates how effectively the response incorporates all relevant information from the provided context that’s necessary to fully address the user query.
+Evaluates how effectively the model’s response incorporates all relevant information from the provided context that is necessary to fully address the user prompt. Scores range from 1 to 5, with higher values indicating minimal relevant omissions.
 
 </td>
 <td valign="top">

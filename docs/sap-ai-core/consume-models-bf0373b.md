@@ -72,14 +72,14 @@ The resource group used in the activation steps
 
 Consume your generative AI deployment using your deployment URL and the example payloads provided. For more information, see the following:
 
--   [Example Payloads for Inferencing - SAP AI Core Hosted](example-payloads-for-inferencing-sap-ai-core-hosted-951d388.md) for models with `executionId`s indicating a third party provider.
--   [Example Payloads for Inferencing - Remote Models](example-payloads-for-inferencing-remote-models-8c80ea2.md) for models with `executionId`s indicating that a model is hosted on SAP AI Core \(beginning with `aicore-`\).
+-   [Example Payloads for Inferencing: SAP AI Core-Hosted](example-payloads-for-inferencing-sap-ai-core-hosted-951d388.md) for models with `executionId`s indicating a third party provider.
+-   [Example Payloads for Inferencing: Remote Models](example-payloads-for-inferencing-remote-models-8c80ea2.md) for models with `executionId`s indicating that a model is hosted on SAP AI Core \(beginning with `aicore-`\).
 
--   **[Example Payloads for Inferencing - sap-rpt-1](example-payloads-for-inferencing-sap-rpt-1-399566e.md)**  
+-   **[Example Payloads for Inferencing: sap-rpt-1](example-payloads-for-inferencing-sap-rpt-1-399566e.md)**  
 
--   **[Example Payloads for Inferencing - SAP AI Core Hosted](example-payloads-for-inferencing-sap-ai-core-hosted-951d388.md)**  
+-   **[Example Payloads for Inferencing: SAP AI Core-Hosted](example-payloads-for-inferencing-sap-ai-core-hosted-951d388.md)**  
 
--   **[Example Payloads for Inferencing - Remote Models](example-payloads-for-inferencing-remote-models-8c80ea2.md)**  
+-   **[Example Payloads for Inferencing: Remote Models](example-payloads-for-inferencing-remote-models-8c80ea2.md)**  
 
 -   **[Supported Parameters](supported-parameters-55d2197.md "The chat completions API supports a range of parameters that influence model responses, influencing aspects like creativity, length, and
 		formatting of the output. ")**  

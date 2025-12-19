@@ -71,7 +71,7 @@ Explore the concepts around SAP AI Launchpad and learn how to provision the serv
                 -   [View Prompt Optimizations](view-prompt-optimizations-3a8374a.md)
                 -   [View Prompt Optimization Run Details](view-prompt-optimization-run-details-acfce87.md)
             -   [Metrics](metrics-0d71105.md)
-                -   [Create a Custom Metric](create-a-custom-metric-8519d00.md)
+                -   [Create a Custom Metric Evaluator](create-a-custom-metric-evaluator-8519d00.md)
                 -   [View Metrics](view-metrics-98a63b9.md)
         -   Prompt Management
             -   [View a Saved Prompt](view-a-saved-prompt-d07a272.md)

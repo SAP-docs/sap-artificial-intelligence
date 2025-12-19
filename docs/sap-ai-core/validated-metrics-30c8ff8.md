@@ -1,6 +1,6 @@
 <!-- loio30c8ff8e901945ba9475b93ef5bf7428 -->
 
-# Metric Validation
+# Validated Metrics
 
 Following are llm-as-a-judge metrics, which use another LLM to assess the response for specific criteria.
 

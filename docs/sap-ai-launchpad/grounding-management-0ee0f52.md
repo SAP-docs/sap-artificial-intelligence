@@ -1,5 +1,7 @@
 <!-- loio0ee0f52c4a824cd1b2950fb349fadbc5 -->
 
+<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
+
 # Grounding Management
 
 The grounding management app lets you manage the lifecycle of your data pipelines.
@@ -37,7 +39,7 @@ For users who want to create a data repository pipeline: you have a generic secr
 
 Your data repositories are listed in the *Grounding Management* app.
 
-![Screenshot of the SAP AI Launchpad user interface](images/repositorie_7694607.png)
+![Screenshot of the SAP AI Launchpad user interface](images/grounding_repos_7694607.png)
 
 Users with the `grounding_manager`or `genai_manager` can create a new repository.
 
@@ -63,6 +65,12 @@ Choose a repository to view the data repository details.
 <a name="loio0ee0f52c4a824cd1b2950fb349fadbc5__section_apm_nlh_22c"/>
 
 ## Data Repository Details Mode
+
+You can view your documents and their upload status in the *Documents* panel.
+
+You can view the status of the synchronization of your pipeline by choosing the :clock3: icon. You can select a synchronization to see more details about its documents, where available.
+
+You can trigger a manual sync using the :arrows_clockwise: icon.
 
 To see the chunk preview, choose a document. Use the *Expand* icon to expand the chunks from preview to full.
 

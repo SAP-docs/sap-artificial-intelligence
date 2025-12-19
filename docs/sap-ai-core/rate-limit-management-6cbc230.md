@@ -2,15 +2,15 @@
 
 # Rate Limit Management
 
-Quota-management APIs let you check and modify rate-limits for generative AI model inference calls.
+Quota-management APIs let you check and modify rate limits for generative AI model inference calls.
 
 AI Core implements rate-limiting controls that restrict the number of requests per minute \(RPM\) for each model within a tenant environment. When these limits are exceeded, the system responds with a 429 error code.
 
-The rate-limits are model-specific and reset on a per-minute basis.
+The rate limits are model-specific and reset on a per-minute basis.
 
-By default, all resource groups within a tenant operate under the same rate-limit threshold, though this can be customized through specific configuration. Additionally, all versions of a particular model share the same configured rate-limit allocation.
+By default, all resource groups within a tenant operate under the same rate-limit threshold, although you can customize this behavior through specific configuration. Additionally, all versions of a particular model share the same configured rate-limit allocation.
 
-You can use the following API endpoints to check your quota limits and request quota limit updates.
+You can use the following API endpoints to check your quota limits and request updates to them.
 
 Ensure that you have the following headers set:
 
@@ -60,7 +60,7 @@ $AI\_API\_URL
 </td>
 <td valign="top">
 
-The base URL of your SAP AI Core environment. This can also be set as an environment variable.
+The base URL of your SAP AI Core environment. This URL can also be set as an environment variable.
 
 </td>
 </tr>
@@ -70,7 +70,7 @@ The base URL of your SAP AI Core environment. This can also be set as an environ
 
 ## Get Rate Limits
 
-Send a GET request to the endpoint `$AI_API_URL/v2/admin/quota/model`,
+Send a GET request to the endpoint `$AI_API_URL/v2/admin/quota/model`
 
 For example:
 
@@ -101,7 +101,7 @@ curl --location "$AI_API_URL/v2/admin/quota/model" \
 > ]
 > ```
 
-By default, tenant-level quota applies to all resource groups. If quota is requested for a specific resource-group, it'll appear as part of the response. To get a resource group level quota, include a resource group in your request. For example:
+By default, the tenant-level quota applies to all resource groups. If a quota is requested for a specific resource group, it appears as part of the response. To get a quota at the level of the resource group, include the resource group in your request. For example:
 
 ```
 
@@ -192,7 +192,7 @@ curl --location "$AI_API_URL/v2/admin/quota/requests" \
 --header "Authorization: Bearer $AUTH_TOKEN"
 ```
 
-For resource group level requests, include your resource group in the header. For example:
+For requests at the level of the resource group, include the resource group in the header. For example:
 
 ```
 curl --location "$AI_API_URL/v2/admin/quota/requests" \
@@ -200,5 +200,5 @@ curl --location "$AI_API_URL/v2/admin/quota/requests" \
 --header "Authorization: Bearer $AUTH_TOKEN"
 ```
 
-To follow up on a request create a SNOW support ticket for component CA-ML-AIC. For more information, see [Support Process](support-process-c484783.md) .
+To follow up on a request, create a support ticket on component CA-ML-AIC. For more information, see [Support Process](support-process-c484783.md) .
 

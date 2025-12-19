@@ -8,7 +8,7 @@ You can use your own git repository to version control your SAP AI Core template
 
 <!-- task\_i3h\_n13\_tcc -->
 
-## Using the API
+## Using Curl
 
 
 
@@ -56,8 +56,7 @@ Submit a POST request to the endpoint <code><code>{{apiurl}}/v2/admin/repositori
 curl --location --request POST "$AI_API_URL/v2/admin/repositories" \
 --header "Authorization: Bearer $TOKEN" \
 --header 'Content-Type: application/json' \
---data '{
-        "name":"ukkkuf9m5zg70w1knmkfv2lw7nbh5428jay7wgd13ccm-oozy"
+--data-raw '{
         "url": "https://github.com/john/examplerepo",
         "username": "john",
         "password": "<GIT_PAT_USER_TOKEN>"
@@ -76,8 +75,6 @@ You specify your unique git repository details as follows:
 
 > ### Tip:  
 > To share a repository between two tenants, register the repository in SAP AI Core separately for each tenant and provide the **same** `username` and `password`.
-
-Your response will include the following response code**200**.
 
 
 

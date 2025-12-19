@@ -4,11 +4,11 @@
 
 `SAP-RPT-1` is a relational pretrained transformer for use on relational and structured data. It's developed and maintained by SAP.
 
-Relational Foundation Models \(RFMs\) are large-scale machine learning models designed to understand, represent, and reason about relationships between entities in structured or semi-structured data.
-
-RFMs are useful for tasks such as knowledge graph completion, recommendation systems, complex query answering, and any application where understanding the connections and interactions between different entities is crucial.
+Relational Foundation Models \(RFMs\) are large-scale machine learning models designed to understand, process, and do predictions on tabular and relational data.
 
 `SAP-RPT-1` is a table-native model aiming to achieve highest prediction quality and lowest error rates for predictions on tabular business data. It's pretrained, and doesn't need additional training or fine-tuning steps.
+
+RPT-1 solves predictive tasks such as classification and regression out-of-the-box without requiring any training or fine-tuning via in-context learning. Due to its table-native architecture, prediction quality on enterprise data is typically very high, ahead of state-of-the-art narrow AI models and LLMs employed for such tasks.
 
 You can get predictions directly in one API call from provided context examples.
 
@@ -268,18 +268,9 @@ Both model versions allow up to 128 simultaneous prediction rows and up to 10 si
 
 ## Workflow
 
-You can access coding models through the `foundation-models` scenario and the `aicore-sap` executable ID.
+You can access the models through the `foundation-models` scenario and the `aicore-sap` executable ID.
 
-To use a model through the `foundation-models` scenario, you must create a configuration and deployment. You need the `executableId`: `aicore-sap` and `modelVersion`: `sap-rpt-1-small` or `sap-rpt-1-large`. For more information, see [Create a Deployment](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide-dev/activate-generative-ai-hub-for-sap-ai-core#create-a-deploymentl).
+To use a model through the `foundation-models` scenario, you must create a configuration and deployment. You need the `executableId`: `aicore-sap` and `modelVersion`: `sap-rpt-1-small` or `sap-rpt-1-large`. For more information, see [Create a Deployment for a Generative AI Model](create-a-deployment-for-a-generative-ai-model-b32e7a8.md).
 
-You consume the model through API calls. For more information, see [Example Payloads for Inferencing - sap-rpt-1](example-payloads-for-inferencing-sap-rpt-1-399566e.md).
-
-**Parent topic:**[Models](models-6440777.md "")
-
-**Related Information**  
-
-
-[Large Language Models](large-language-models-c45166a.md "Large Language Models (LLMs) are trained on vast amounts of text data to understand and generate human-like language.LLMs are useful for tasks such as text generation, summarization, translation, question answering, and conversational AI.")
-
-[Supported Models](supported-models-509e588.md "")
+You consume the model through API calls. For more information, see [Example Payloads for Inferencing: sap-rpt-1](example-payloads-for-inferencing-sap-rpt-1-399566e.md).
 
