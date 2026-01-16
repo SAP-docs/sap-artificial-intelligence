@@ -139,5 +139,27 @@ You can use sap-ai-sdk-gen to:
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+LiteLLM
+
+</td>
+<td valign="top">
+
+The LLMs in the generative AI hub can be accessed from LiteLLM.
+
+LiteLLM is an open-source library that supports over 100 LLMs from various providers. It lets you connect LLM and agentic frameworks to the generative AI hub.
+
+</td>
+<td valign="top">
+
+-   [LiteLLM - Getting Started](https://docs.litellm.ai/docs/)
+-   [Agentic code samples](https://sap-contributions.github.io/litellm-agentic-examples/)
+
+
+
+</td>
+</tr>
 </table>
 

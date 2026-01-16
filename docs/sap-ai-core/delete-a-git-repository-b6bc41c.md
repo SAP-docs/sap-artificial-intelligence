@@ -33,7 +33,7 @@ curl --location --request DELETE "{{apiurl}}/v2/admin/repositories/{{repositoryN
 
 ## Context
 
-You remove a Git repository from a connection if its URL is invalid or contains errors, or if the repo is no longer required. Once a Git repository is removed, it can no longer be selected as a source repository for an application.
+You remove a Git repository from a connection if its URL is invalid or contains errors, or if the repository is no longer required. Once a Git repository is removed, it can no longer be selected as a source repository for an application.
 
 
 
@@ -60,7 +60,7 @@ curl --location --request DELETE "{{apiurl}}/v2/admin/repositories/{{repositoryN
 
 ## Context
 
-You remove a Git repository from a connection if its URL is invalid or contains errors, or if the repo is no longer required. Once a Git repository is removed, it can no longer be selected as a source repository for an application.
+You remove a Git repository from a connection if its URL is invalid or contains errors, or if the repository is no longer required. Once a Git repository is removed, it can no longer be selected as a source repository for an application.
 
 
 

@@ -48,8 +48,3 @@ You can stop an execution if it has a *Running* or *Pending* status. For executi
 
 The execution is stopped, and the computing resources acquired for the execution are released.
 
-**Related Information**  
-
-
- <?sap-ot O2O class="- topic/link " href="3d853443027449d9a33723165b19b25a.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/ayn1620809929290/loio62559d01add8414eb0c4d76d2d9f48bd_en-US/src/content/localization/en-us/9554f1cd889f4e2c8f0f4065bb5bfbc6.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
-

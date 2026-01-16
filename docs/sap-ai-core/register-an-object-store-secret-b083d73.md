@@ -119,7 +119,7 @@ Register your object store secret details using the endpoint `/v2/admin/objectSt
     ```
 
     > ### Restriction:  
-    > When using an SAP HANA Data Lake object store with output artifacts pointing to a directory, you can't use `archive: none: {}` in your workflow templates to disable artifact archiving. For more information, see [Workflow Templates](workflow-templates-83523ab.md).
+    > When using an SAP HANA Data Lake object store with output artifacts pointing to a directory, you can't use `archive: none: {}` in your workflow templates to disable artifact archiving. For more information, see [Workflow Templates](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/83523ab8b49245bcbc9f1bf0969e32d8.html "Here, you'll find a basic workflow example template. Feel free to adjust it to suit your workflow needs.") :arrow_upper_right:.
 
 -   For Azure Blob Storage:
 
@@ -273,7 +273,7 @@ You have access to a public-facing Docker registry over the internet. It isn't p
         ```
 
         > ### Restriction:  
-        > When using an SAP HANA Data Lake object store with output artifacts pointing to a directory, you can't use `archive: none: {}` in your workflow templates to disable artifact archiving. For more information, see [Workflow Templates](workflow-templates-83523ab.md).
+        > When using an SAP HANA Data Lake object store with output artifacts pointing to a directory, you can't use `archive: none: {}` in your workflow templates to disable artifact archiving. For more information, see [Workflow Templates](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/83523ab8b49245bcbc9f1bf0969e32d8.html "Here, you'll find a basic workflow example template. Feel free to adjust it to suit your workflow needs.") :arrow_upper_right:.
 
     -   For Azure Blob Storage:
 

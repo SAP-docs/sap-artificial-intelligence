@@ -23,8 +23,6 @@ Evaluations can be used for the following use cases:
 
 -   **[View Evaluation Run Details](view-evaluation-run-details-fe6b3e9.md "")**  
 
--   **[View Metric Details](view-metric-details-db90bc4.md "")**  
-
 -   **[View Evaluation Job Details](view-evaluation-job-details-200ccaf.md "")**  
 
 -   **[Compare Runs](compare-runs-6dc7cb8.md "")**  

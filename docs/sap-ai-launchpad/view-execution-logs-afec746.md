@@ -27,8 +27,3 @@ You check the logs for an execution to debug an issue with a training pipeline.
 5.  To view the details for an individual log, select the log in the list or choose <span class="SAP-icons-V5"></span> \(More\). The log event details are displayed in the right pane.
 
 
-**Related Information**  
-
-
-[Retrieve Execution Logs](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/fbc55d35ab7e45aab01d05509361808c.html "Deployment and execution logs contain information about API processing and metrics.") :arrow_upper_right:
-

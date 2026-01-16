@@ -12,7 +12,7 @@ As an administrator, you can add object store secrets for use within your AI pro
 
 ## Prerequisites
 
--   You're using the `extended` service plan. For more information, see [Service Plans](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/c7244c6a7e3b4ffc928a2564c216e7c7.html "The SAP AI Core service plan you choose determines pricing, conditions of use, resources, available services, and hosts.") :arrow_upper_right:.
+-   You're using the `extended` service plan. For more information, see [Service Plans](service-plans-ec1717d.md).
 -   You have the `aicore_admin_objectstoresecret_editor` role or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
 

@@ -10,6 +10,8 @@ As a system administrator, you can add Git repositories which can be used within
 
 ## Prerequisites
 
+-   You've completed the initial setup. For more information, see [Initial Setup](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/38c4599432d74c1d94e70f7c955a717d.html "Get started with SAP AI Core using the standard procedures for the SAP BTP, Cloud Foundry environment or Kyma environment.") :arrow_upper_right:.
+
 -   You have access to a git repository over the Internet.
 -   You've generated a personal access token for your git repository. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 -   If you want to onboard a git repository hosted on GitLab, make sure that the repository URL contains the `.git` suffix.

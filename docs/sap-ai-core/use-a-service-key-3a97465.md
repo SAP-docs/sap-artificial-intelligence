@@ -67,7 +67,7 @@ After you have created your service key, it can be used by local clients, apps i
 
 To train and deploy your own AI models, follow the procedure in [Administration](administration-7937fc1.md).
 
-To use generative AI models provided in the generative AI hub, see [Generative AI Hub](generative-ai-hub-7db524e.md).
+To use generative AI models provided in the generative AI hub, see [Generative AI Hub](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/7db524ee75e74bf8b50c167951fe34a5.html "The generative AI hub incorporates generative AI into your AI activities in SAP AI Core and SAP AI Launchpad.") :arrow_upper_right:.
 
 <a name="task_wqc_b4n_fyb"/>
 
@@ -181,5 +181,5 @@ curl is likely to be installed on your operating system by default. To check, op
 
 To train and deploy your own AI models, follow the procedure in [Administration](administration-7937fc1.md).
 
-To use generative AI models provided in the generative AI hub, see [Generative AI Hub](generative-ai-hub-7db524e.md).
+To use generative AI models provided in the generative AI hub, see [Generative AI Hub](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/7db524ee75e74bf8b50c167951fe34a5.html "The generative AI hub incorporates generative AI into your AI activities in SAP AI Core and SAP AI Launchpad.") :arrow_upper_right:.
 

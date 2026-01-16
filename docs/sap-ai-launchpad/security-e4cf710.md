@@ -22,7 +22,7 @@ Data protection is associated with numerous legal requirements and privacy conce
 SAP Data Protection and Privacy \(DPP\) requirements and the European Union's General Data Protection Regulations \(GDPR\) mandate the protection of personal and private data at higher standards than other customer data. SAP machine learning services do not import, output, or process any structured personal or private customer data, and cannot distinguish personal or private data from other types of data. Customers are therefore obliged to fulfill the GDPR personal data broker obligations if such data is present.
 
 > ### Caution:  
-> Don't store personally identifiable information in prompts when using the generative AI hub. Personally identifiable information is any data that can be used alone, or in combination, to identify the person that the data refers to.
+> Don't store personal data in prompts when using the generative AI hub. Personal data is any data that can be used alone, or in combination, to identify the person that the data refers to.
 
 
 

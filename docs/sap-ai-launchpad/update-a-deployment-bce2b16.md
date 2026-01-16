@@ -56,8 +56,3 @@ The updated deployment retains the inference URL. If you use a new deployment co
     ![Deployment with a dead status and an error message containing the last running configuration.](images/Image_AIL_MLOps_Deployment_Update_Error_ea6de0a.jpg)
 
 
-**Related Information**  
-
-
-[Update a Deployment](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/9789ddda860e4056b12efa892e6e4e1b.html "") :arrow_upper_right:
-

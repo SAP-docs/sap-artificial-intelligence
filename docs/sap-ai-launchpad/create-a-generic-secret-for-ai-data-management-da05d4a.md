@@ -12,14 +12,15 @@
 
 -   You have the role `aicore_admin_genericsecret_editor` or a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 -   You're using the SAP AI Core runtime.
+-   You've prepared your SharePoint integration. For more information, see [Prepare SharePoint Integration with Joule](https://help.sap.com/docs/joule/integrating-joule-with-sap/prepare-sharepoint-integration).
 
 
 
-<a name="loioda05d4a4b0114fb9bdf3aa294155443d__context_k5q_fmx_rxb"/>
+<a name="loioda05d4a4b0114fb9bdf3aa294155443d__context_GenericSecret"/>
 
 ## Context
 
-You use the *SAP AI Core Administration* app to add generic secrets at the main-tenant level or resource-group level. For tenant-wide generic secrets, use the SAP AI Core API.
+You use the *SAP AI Core Administration* app to add generic secrets at the level of the main tenant or resource group. For tenant-wide generic secrets, use the SAP AI Core API.
 
 To allow the rotation of tenant-wide secrets for long-running deployments without requiring a restart, the deployment must mount the tenant-wide secret. It must also monitor the mounted secret for changes instead of relying on an in-memory copy. When a tenant-wide secret is updated, the tenant must observe the `resourceGroupSecretReplicationStatus` field in the `Get Secret` endpoint to confirm that the secret has been successfully replicated across the required resource groups. For more information, see [Consume Generic Secrets in Executions or Deployments](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/185a3245692542a78bfeff87220410c6.html).
 
@@ -71,14 +72,6 @@ To allow the rotation of tenant-wide secrets for long-running deployments withou
 
     ![Screenshot of the SAP AI Launchpad user interface](images/generic_secret_4a_0083aa4.png)
 
-
-
-
-<a name="loioda05d4a4b0114fb9bdf3aa294155443d__result_s1w_gmx_rxb"/>
-
-## Results
-
-The new secret appears on the *Generic Secrets* screen.
 
 **Related Information**  
 

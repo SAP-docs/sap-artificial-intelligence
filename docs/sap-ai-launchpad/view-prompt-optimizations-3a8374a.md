@@ -14,7 +14,7 @@
 
 -   You have deployed a prompt optimization. For more information, see [Create a Prompt Optimization](create-a-prompt-optimization-0b920f6.md).
 
--   You're using the `extended` service plan. For more information, see [Service Plans](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/c7244c6a7e3b4ffc928a2564c216e7c7.html "The SAP AI Core service plan you choose determines pricing, conditions of use, resources, available services, and hosts.") :arrow_upper_right:.
+-   You're using the `extended` service plan. For more information, see [Service Plans](service-plans-ec1717d.md).
 
 
 

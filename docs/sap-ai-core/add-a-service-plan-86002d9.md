@@ -24,8 +24,8 @@ Configure the required entitlements to make SAP AI Core accessible in your subac
 
     ![Screenshot of select a service plan](images/Add_a_service_Plan_a1d54a9.png)
 
-    > ### Tip:  
-    > To use generative AI capabilities, choose the extended plan. For more information, see [Service Plans](service-plans-c7244c6.md).
+    > ### Note:  
+    > To use generative AI capabilities, choose the extended plan.For more information, see [Service Plans](service-plans-c7244c6.md). 
 
 6.  Save your changes.
 
@@ -35,9 +35,4 @@ Configure the required entitlements to make SAP AI Core accessible in your subac
 -   **[Service Plans](service-plans-c7244c6.md "The SAP AI Core service plan you choose determines pricing,
 		conditions of use, resources, available services, and hosts.")**  
 The SAP AI Core service plan you choose determines pricing, conditions of use, resources, available services, and hosts.
-
-**Related Information**  
-
-
-[Service Plans](service-plans-c7244c6.md "The SAP AI Core service plan you choose determines pricing, conditions of use, resources, available services, and hosts.")
 

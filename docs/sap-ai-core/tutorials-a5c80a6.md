@@ -26,6 +26,23 @@ Description
 <tr>
 <td valign="top">
 
+Getting Started
+
+</td>
+<td valign="top">
+
+[Use Boosters for Free Tier Use of SAP AI Core and SAP AI Launchpad](https://developers.sap.com/tutorials/ai-core-launchpad-provisioning.html) 
+
+</td>
+<td valign="top">
+
+Use a booster to quickly provision the SAP AI Core and SAP AI Launchpad services.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Generative AI
 
 </td>
@@ -77,7 +94,61 @@ Explore foundation large language models that are part of SAP AI Core in a numbe
 <tr>
 <td valign="top">
 
-Predictive AI
+Generative AI
+
+</td>
+<td valign="top">
+
+[Generative AI with SAP AI Core - Setup](https://developers.sap.com/group.setup-ai-core.html) 
+
+</td>
+<td valign="top">
+
+Set up your SAP Business Technology Platform environment to explore SAP AI Core.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Generative AI
+
+</td>
+<td valign="top">
+
+[Generative AI with SAP AI Core - Orchestration](https://developers.sap.com/group.sap-ai-core-generative.html) 
+
+</td>
+<td valign="top">
+
+Get started with generative AI workflows with different vendors of Large language models in SAP AI Core and learn the fundamentals of promoting and embedding with generative AI SDK in SAP AI Core.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Generative AI
+
+</td>
+<td valign="top">
+
+[Generative AI with SAP AI Core - Foundation Models](https://developers.sap.com/group.ai-core-foundation-models.html) 
+
+</td>
+<td valign="top">
+
+Explore foundation large language models that are part of SAP AI Core in a number of use cases.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+-   Getting Started
+-   Predictive AI
+
+
 
 </td>
 <td valign="top">

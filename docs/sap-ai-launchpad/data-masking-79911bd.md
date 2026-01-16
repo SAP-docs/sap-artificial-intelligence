@@ -18,7 +18,9 @@ When masking data, you can choose the types of data that are to be masked. For e
 > 
 > Anonymization replaces personally identifiable information in an irreversible way. This leads to a loss of context, which may limit the model's ability to process the input. For instance, if tasked with writing a story about Michael and Donna, anonymization of profile-person would result in a story about `MASKED_PERSON` and `MASKED_PERSON`, making it impossible to distinguish between the two.
 
-You can enter strings that you do not want to mask in the *Exeption List*.
+You can enter strings that you do not want to mask in the *Allow List*.
+
+To include the data masking module in your orchestration workflow, activate it via the *Advanced* modules switch.
 
 ![Screenshot of the SAP AI Launchpad user interface](images/data_making_6b_95be013.png)
 

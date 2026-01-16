@@ -14,7 +14,7 @@
 
 -   You have deployed an evaluation run. For more information, see [Create an Evaluation](create-an-evaluation-c15182a.md).
 
--   You're using the `extended` service plan. For more information, see [Service Plans](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/c7244c6a7e3b4ffc928a2564c216e7c7.html "The SAP AI Core service plan you choose determines pricing, conditions of use, resources, available services, and hosts.") :arrow_upper_right:.
+-   You're using the `extended` service plan. For more information, see [Service Plans](service-plans-ec1717d.md).
 
 
 
@@ -26,22 +26,26 @@
 
 3.  Navigate to the*Metric Evaluators* tab, and select the metric that you want to view.
 
-    You can refine the selection by using the filters icon
+    You can refine the selection by applying the filters.
 
-    .
+    To search for a metric by name, use the search bar.
+
+4.  Choose a metric to see its details.
 
     You'll see an overview of the metric, including timestamps and ID, and tabs with more information.
+
+    You can view the prompt details using the *Definition* tab
+
+    You can view the model parameters using the *Model Configuration* tab
 
 
 
 
 ## Next Steps
 
-You can view the prompt details using the *Definition* tab
-
-You can view the model parameters using the *Model Configuration* tab
+You can update a metric by choosing the :pencil2: icon.
 
 You can duplicate a metric by choosing the *Duplicate* button. A wizard will open, where you can review and make changes to the configuration.
 
-You can update a metric by choosing the :pencil2: icon.
+You can delete a revision by using the :wastebasket: icon. You can delete a metric by deleting all of its revisions.
 

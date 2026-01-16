@@ -274,6 +274,8 @@ Alternatively, you can request an increase to your quota by creating a ticket on
 > The maximum number of resource groups is limited at tenant level to 50. If you reach this limit, you receive an error message. To free up space, delete some resource groups. Alternatively, raise a ticket to increase your quota.
 > 
 > For more information, see [Delete a Resource Group](delete-a-resource-group-40d83a2.md).
+> 
+> For more information, see [Delete a Resource Group](https://help.sap.com/viewer/92d77f26188e4582897b9106b9cb72e0/CLOUD/en-US/dc5373a8566a47f29ed121f798bd036d.html "As an administrator, you delete resource groups which contain errors or which are no longer required in your AI processes.") :arrow_upper_right:.
 
 
 
@@ -298,5 +300,5 @@ Update your SAP AI Core service instance from the free plan to a standard or ext
 
 [SAP BTP Service Description Guide](https://www.sap.com/about/agreements/policies/cloud-platform.html)
 
-[Choose an Instance](choose-an-instance-57f4f19.md "You can configure SAP AI Core to use different infrastructure instances for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “instance types” and “resource plans” for this purpose.")
+[Choose an Instance](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/57f4f19d9b3b46208ee1d72017d0eab6.html "You can configure SAP AI Core to use different infrastructure instances for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called "instance types" and "resource plans" for this purpose.") :arrow_upper_right:
 

@@ -77,7 +77,3 @@ You have the `mloperations_viewer` or `scenario_deployment_viewer` role, or you 
 
 [Update a Deployment](update-a-deployment-bce2b16.md "You can update a deployment with your choice of configuration.")
 
-[Deploy Models](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/dd16e8ef75654dde831e7b812688e4fa.html "") :arrow_upper_right:
-
-[Choose an Instance](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/57f4f19d9b3b46208ee1d72017d0eab6.html "You can configure SAP AI Core to use different infrastructure instances for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called "instance types" and "resource plans" for this purpose.") :arrow_upper_right:
-

@@ -10,7 +10,7 @@
 
 ## Prerequisites
 
--   You're using the `extended` service plan. For more information, see [Service Plans](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/c7244c6a7e3b4ffc928a2564c216e7c7.html "The SAP AI Core service plan you choose determines pricing, conditions of use, resources, available services, and hosts.") :arrow_upper_right:.
+-   You're using the `extended` service plan. For more information, see [Service Plans](service-plans-ec1717d.md).
 -   You have the `genai_manager` or `custom_evaluation` role, or you are assigned a role collection that contains one of these roles.
 -   You've prepared your evaluation files and registered them as an artifact. For more information, see [Register an Artifact for Optimizations](register-an-artifact-for-optimizations-06ec70c.md).
 -   You've prepared your variable mapping. For more information, see [Variable Mappings in SAP AI Core](https://help.sap.com/docs/AI_CORE/52b4adb30e6744709d6226d2b0659dea/56727a392781470e926145571edcaf9f.html).
@@ -67,7 +67,7 @@
 
     To search for a metric by name, use the search bar.
 
-    To view the details of a metric, see [View Metrics](view-metrics-98a63b9.md).
+    To view the details of a metric, see [View Metric Details](view-metric-details-db90bc4.md).
 
 
 

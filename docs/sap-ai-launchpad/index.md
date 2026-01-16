@@ -24,7 +24,8 @@ Explore the concepts around SAP AI Launchpad and learn how to provision the serv
     -   [Generative AI Hub](generative-ai-hub-b0b935b.md)
         -   [Models and Scenarios in the Generative AI Hub](models-and-scenarios-in-the-generative-ai-hub-fef463b.md)
         -   [Tutorial](tutorial-c0018f1.md)
-        -   [Create a Deployment for a Generative AI Model](create-a-deployment-for-a-generative-ai-model-96b65bb.md)
+        -   [Create a Deployment for a Generative AI Model](create-a-deployment-for-a-generative-ai-model-96b65bb.md#loio96b65bbe3d8a4681830f575a146b5071)
+            -   [Model Lifecycle](create-a-deployment-for-a-generative-ai-model-96b65bb.md#loio313fe258c6b8471eaf10dcb5e09bb07f)
         -   [Model Library](model-library-fce6fea.md)
         -   [Grounding Management](grounding-management-0ee0f52.md)
         -   [Chat](chat-d84b5a1.md)
@@ -60,7 +61,6 @@ Explore the concepts around SAP AI Launchpad and learn how to provision the serv
                 -   [Create an Evaluation](create-an-evaluation-c15182a.md)
                 -   [View Evaluations](view-evaluations-9bbaa26.md)
                 -   [View Evaluation Run Details](view-evaluation-run-details-fe6b3e9.md)
-                -   [View Metric Details](view-metric-details-db90bc4.md)
                 -   [View Evaluation Job Details](view-evaluation-job-details-200ccaf.md)
                 -   [Compare Runs](compare-runs-6dc7cb8.md)
                 -   Prerequisites
@@ -72,7 +72,7 @@ Explore the concepts around SAP AI Launchpad and learn how to provision the serv
                 -   [View Prompt Optimization Run Details](view-prompt-optimization-run-details-acfce87.md)
             -   [Metrics](metrics-0d71105.md)
                 -   [Create a Custom Metric Evaluator](create-a-custom-metric-evaluator-8519d00.md)
-                -   [View Metrics](view-metrics-98a63b9.md)
+                -   [View Metric Details](view-metric-details-db90bc4.md)
         -   Prompt Management
             -   [View a Saved Prompt](view-a-saved-prompt-d07a272.md)
             -   [Edit a Saved Prompt](edit-a-saved-prompt-5f53a57.md)

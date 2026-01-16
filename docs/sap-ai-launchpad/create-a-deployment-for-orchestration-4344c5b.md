@@ -19,7 +19,7 @@
 
 -   You have completed the client authorization for your preferred user interface.For more information, see [Use a Service Key in SAP AI Core](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/3a97465bf6164400a4b5c1641007e3d6.html?locale=en-US&state=DRAFT&version=CLOUD).
 
--   You have at least one orchestration compatible deployment for a generative AI model running. For more information, see [Models and Scenarios in the Generative AI Hub](models-and-scenarios-in-the-generative-ai-hub-fef463b.md) and [Create a Deployment for a Generative AI Model](create-a-deployment-for-a-generative-ai-model-96b65bb.md).
+-   You have at least one orchestration compatible deployment for a generative AI model running. For more information, see [Models and Scenarios in the Generative AI Hub](models-and-scenarios-in-the-generative-ai-hub-fef463b.md) and [Create a Deployment for a Generative AI Model](create-a-deployment-for-a-generative-ai-model-96b65bb.md#loio96b65bbe3d8a4681830f575a146b5071).
 
 
 

@@ -18,5 +18,7 @@ The target language is mandatory, choose from the available languages. The avail
 > ### Caution:  
 > Using unsupported pairs through auto-detect or source language input errors may result in error or poor quality results.
 
+To include the output translation module in your orchestration workflow, activate it via the *Advanced* modules switch.
+
 ![Screenshot of the SAP AI Launchpad user interface](images/output_translation_5b_3937a98.png)
 

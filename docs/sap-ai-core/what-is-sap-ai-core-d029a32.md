@@ -281,7 +281,7 @@ SAP AI Core provides a scalable infrastructure for AI model management, with usa
 **Related Information**  
 
 
-[Generative AI Hub](generative-ai-hub-7db524e.md "The generative AI hub incorporates generative AI into your AI activities in SAP AI Core and SAP AI Launchpad.")
+[Generative AI Hub](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/7db524ee75e74bf8b50c167951fe34a5.html "The generative AI hub incorporates generative AI into your AI activities in SAP AI Core and SAP AI Launchpad.") :arrow_upper_right:
 
 [AI API Overview](ai-api-overview-716d4c3.md "The AI API lets you manage your AI assets (such as training scripts, data, models, and model servers) across multiple runtimes.")
 

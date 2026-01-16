@@ -144,11 +144,11 @@ Each tenant can have a maximum of five tenant-wide secrets. If you reach this li
 
     ```
     {
-    "name": "MY_GENERIC_SECRET",
-    "data": {
-    		"some-credential": "bXktc2VjcmV0LWNyZWRlbnRpYWw=",
-    		"other-credentials": "bXktc2VjcmV0LW90aGVyLWNyZWRlbnRpYWw="
-    		}
+      "name": "MY_GENERIC_SECRET",
+      "data": {
+        "some-credential": "bXktc2VjcmV0LWNyZWRlbnRpYWw=",
+        "other-credentials": "bXktc2VjcmV0LW90aGVyLWNyZWRlbnRpYWw="
+      }
     }
     ```
 

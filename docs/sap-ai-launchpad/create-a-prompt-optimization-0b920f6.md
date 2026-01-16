@@ -11,7 +11,7 @@
 ## Prerequisites
 
 -   You have the `genai_manager` or `custom_evaluation` role, or you are assigned a role collection that contains one of these roles.
--   You're using the `extended` service plan. For more information, see [Service Plans](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/c7244c6a7e3b4ffc928a2564c216e7c7.html "The SAP AI Core service plan you choose determines pricing, conditions of use, resources, available services, and hosts.") :arrow_upper_right:.
+-   You're using the `extended` service plan. For more information, see [Service Plans](service-plans-ec1717d.md).
 -   You have an object store with the name `default`. For more information, see [Register an Object Store for Optimizations](register-an-object-store-for-optimizations-9ee15fb.md).
 -   You've prepared your prompt optimization dataset and registered it as an artifact. For more information, see [Register an Artifact for Optimizations](register-an-artifact-for-optimizations-06ec70c.md).
 -   You've prepared a prompt template and your template is available in the prompt registry. For more information, see [Save a Template](save-a-template-49d4248.md).

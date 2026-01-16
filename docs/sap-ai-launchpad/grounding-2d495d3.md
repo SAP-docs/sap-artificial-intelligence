@@ -14,5 +14,7 @@ You can provide input variables for data retrieval, which can be used in the tem
 
 You can select a data source. If no sources are selected, all available sources will be used.
 
+To include the grounding module in your orchestration workflow, activate it via the *Advanced* modules switch.
+
 ![Screenshot of the SAP AI Launchpad user interface](images/grounding_6b_e37f77f.png)
 

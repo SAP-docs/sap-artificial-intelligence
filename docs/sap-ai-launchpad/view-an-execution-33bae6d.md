@@ -58,5 +58,3 @@ You have either the `mloperations_viewer` or `scenario_execution_viewer` role, o
 
 [Compare Executions](compare-executions-9b75f67.md "You can compare executions to determine which configuration parameters result in optimum results.")
 
-[List Executables](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/80895a495b4a466b8976735995e23753.html "An executable is a reusable template that defines a workflow or pipeline for tasks such as training a machine learning model or creating a deployment. It contains placeholders for input artifacts (datasets or models) and parameters (custom key-pair values) that enable the template to be reused in different scenarios.") :arrow_upper_right:
-

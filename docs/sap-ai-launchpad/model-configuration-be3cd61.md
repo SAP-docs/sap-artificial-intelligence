@@ -8,11 +8,13 @@ In this section, you select the model that you want to use in your workflow. If 
 
 You can see which models are available within an orchestration deployment by selecting the deployment ID.
 
-![Screenshot of the SAP AI Launchpad user interface](images/model_config_7a_a647393.png)
+![Screenshot of the SAP AI Launchpad user interface](images/model_library4a_8bf78d3.png)
 
 You can adjust the parameters by using the sliders
 
-![Screenshot of the SAP AI Launchpad user interface](images/model_config_1_7a_27ff4d0.png)
+![Screenshot of the SAP AI Launchpad user interface](images/template_b9bb394.png)
+
+
 
 You can add custom parameters by choosing the <span class="SAP-icons-V5"></span> \(code\) icon and entering additional parameters in JSON format. Custom parametersand their values must be supported by the model selected. For information about supported parameters, check the documentation from the model provider.
 

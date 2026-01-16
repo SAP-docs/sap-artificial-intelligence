@@ -41,10 +41,12 @@ You can maintain a list of applications used within your AI processes.
 You can maintain a list of Docker registry secrets for use within your AI processes.
 -   **[Manage Resource Groups](manage-resource-groups-7217afb.md "")**  
 
--   **[Manage Generic Secrets in SAP AI Core](manage-generic-secrets-in-sap-ai-core-678fd23.md " Main Tenant users of the SAP AI Core runtime can create, edit and
-		delete generic secrets at both the main tenant and resource group levels of SAP AI Core, through the SAP AI Core
-                                    Administration app.")**  
- Main Tenant users of the SAP AI Core runtime can create, edit and delete generic secrets at both the main tenant and resource group levels of SAP AI Core, through the *SAP AI Core Administration* app.
+-   **[Manage Generic Secrets in SAP AI Core](manage-generic-secrets-in-sap-ai-core-678fd23.md " As the main tenant user of the SAP AI Core runtime, you
+		can create, edit, and delete generic secrets at the level of both the main tenant and the
+		resource group. To do so, you use SAP AI Core
+                                    Administration
+		app.")**  
+ As the main tenant user of the SAP AI Core runtime, you can create, edit, and delete generic secrets at the level of both the main tenant and the resource group. To do so, you use *SAP AI Core Administration* app.
 
 **Related Information**  
 

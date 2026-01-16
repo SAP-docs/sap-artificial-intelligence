@@ -14,7 +14,7 @@
 
 ## Context
 
-After registering your Git repository, create an application to sync the templates in your repository. The first sync takes some time. You can check the application's status to see when it's complete. After the initial sync, syncing occurs automatically approximately every three minutes. You can also request it manually.
+After you register your Git repository, create an application to sync the templates in your repository. The first sync takes some time. You can check the application status to see when it completes. After the initial sync, the system syncs the templates automatically every three minutes. You can also request it manually.
 
 > ### Note:  
 > Do not create applications that attempt to sync the same source. If two apps have the same `repositoryURL`, `revision`, and `path`, synching will fail.
@@ -39,16 +39,16 @@ curl --location --request POST "$AI_API_URL/v2/admin/applications" \
     }'
 ```
 
--   `applicationName`: Set a name for your application. The name must be between 3 and 64 characters long and match `[A-Za-z0-9\-\_]+`.
+-   `applicationName`: Specify a name for your application. The name must be between 3 and 64 characters long and match `[A-Za-z0-9\-\_]+`.
 
--   `repositoryUrl`: The URL of a registered git repository. The URL is case-sensitive and has to match the URL of a registered git repository.
+-   `repositoryUrl`: The URL of a registered git repository. The URL is case-sensitive and must match the URL of a registered git repository.
 
--   `revision`: The revision to target. *<HEAD\>* refers to the most recent.
+-   `revision`: The revision to target. *<HEAD\>* refers to the most recent revision.
 
 -   `path`: The path to the target folder that contains the templates to be synced.
 
 
-Because each application points to a particular path and revision in the repository, multiple applications can be created for the same `repositoryUrl`.
+Because each application refers to a particular path and revision in the repository, you can create multiple applications for the same `repositoryUrl`.
 
 
 
@@ -56,7 +56,7 @@ Because each application points to a particular path and revision in the reposit
 
 ## Results
 
-After the GitOps setup is completed, the templates in your git repository are automatically synced to SAP AI Core Approximately every three minutes.
+After the GitOps setup is completed, the templates in your git repository are automatically synced to SAP AI Core. The synchronization runs approximately every three minutes.
 
 
 
@@ -86,7 +86,7 @@ As `applicationName`, enter the name of your application that you specified when
 
 ## Context
 
-After registering your Git repository, create an application to sync the templates in your repository. The first sync takes some time. You can check the application's status to see when it's complete. After the initial sync, syncing occurs automatically approximately every three minutes. You can also request it manually.
+After you register your Git repository, create an application to sync the templates in your repository. The first sync takes some time. You can check the application status to see when it completes. After the initial sync, the system syncs the templates automatically every three minutes. You can also request it manually.
 
 > ### Note:  
 > Do not create applications that attempt to sync the same source. If two apps have the same `repositoryURL`, `revision`, and `path`, synching will fail.
@@ -99,16 +99,16 @@ After registering your Git repository, create an application to sync the templat
 
 Send a POST request to the endpoint `{{apiurl}}/v2/admin/applications` including details of your application:
 
--   `applicationName`: Set a name for your application. The name must be between 3 and 64 characters long and match `[A-Za-z0-9\-\_]+`.
+-   `applicationName`: Specify a name for your application. The name must be between 3 and 64 characters long and match `[A-Za-z0-9\-\_]+`.
 
--   `repositoryUrl`: The URL of a registered git repository. The URL is case-sensitive and has to match the URL of a registered git repository.
+-   `repositoryUrl`: The URL of a registered git repository. The URL is case-sensitive and must match the URL of a registered git repository.
 
--   `revision`: The revision to target. *<HEAD\>* refers to the most recent.
+-   `revision`: The revision to target. *<HEAD\>* refers to the most recent revision.
 
 -   `path`: The path to the target folder that contains the templates to be synced.
 
 
-Because each application points to a particular path and revision in the repository, multiple applications can be created for the same `repositoryUrl`.
+Because each application refers to a particular path and revision in the repository, you can create multiple applications for the same `repositoryUrl`.
 
 
 
@@ -116,7 +116,7 @@ Because each application points to a particular path and revision in the reposit
 
 ## Results
 
-After the GitOps setup is completed, the templates in your git repository are automatically synced to SAP AI Core Approximately every three minutes.
+After the GitOps setup is completed, the templates in your git repository are automatically synced to SAP AI Core. The synchronization runs approximately every three minutes.
 
 
 

@@ -92,9 +92,207 @@ Generative AI hub
 </td>
 <td valign="top">
 
+You can provide separate test and train datasets for use in prompt optimizations.
+
+For more information, see [Create a Configuration for an Optimization](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/40ba1683832d4c3a92eaac8c0c399b18.html "Configuration for an optimization defines the parameters, artifacts, and model settings that SAP AI Core uses to execute a prompt optimization.") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-01-19
+
+</td>
+<td valign="top">
+
+2026-01-19
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+When using the Vector API, you can assign a UUID during collection creation and bulk delete documents by ID.
+
+For more information, see [Create a Collection](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/c124fb9b68864fa187243ee4edcf213c.html "This endpoint allows you to create a new collection. Collections are logical containers used to store and manage embedded documents and their associated chunks.") :arrow_upper_right: and [Delete Documents](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/3a93b6df878842219b767955b097436a.html "This endpoint allows you to bulk delete specific documents using document IDs.") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-01-19
+
+</td>
+<td valign="top">
+
+2026-01-19
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+You can now use the Claude Opus 4.5 model with Amazon Bedrock. The model is available with the extended service plan.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-01-19
+
+</td>
+<td valign="top">
+
+2026-01-19
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
 You can now use the `SAP-ABAP-1` model to better understand ABAP code. `SAP-ABAP-1` is a foundation model built by SAP and is fine-tuned on a large amount of ABAP code.
 
-For more information, see [SAP-ABAP-1](sap-abap-1-d197270.md) and [Example Payloads for Inferencing: SAP-ABAP-1](example-payloads-for-inferencing-sap-abap-1-9ea7333.md).
+For more information, see [SAP-ABAP-1](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/d1972706d69a46acb01873ebe0c54689.html "SAP-ABAP-1 is a foundation model built by SAP that helps with coding tasks. It is fine-tuned on a large amount of SAP ABAP code.") :arrow_upper_right: and [Example Payloads for Inferencing: SAP-ABAP-1](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/9ea73334fa7e447bb47d4135616bea74.html "") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -166,7 +364,7 @@ Relational Foundation Models \(RFMs\) are large-scale machine learning models de
 
 RPT-1 solves predictive tasks such as classification and regression out-of-the-box without requiring any training or fine-tuning via in-context learning. Due to its table-native architecture, prediction quality on enterprise data is typically very high, ahead of state-of-the-art narrow AI models and LLMs employed for such tasks.
 
-For more information, see [SAP-RPT-1](sap-rpt-1-f128f5e.md) and [Example Payloads for Inferencing: sap-rpt-1](example-payloads-for-inferencing-sap-rpt-1-399566e.md).
+For more information, see [SAP-RPT-1](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/f128f5e12e40452f997a278fcff88bf5.html "SAP-RPT-1 is a relational pretrained transformer for use on relational and structured data. It's developed and maintained by SAP.") :arrow_upper_right: and [Example Payloads for Inferencing: sap-rpt-1](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/399566eec2404915ac69077cfa23f7b8.html "") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -243,7 +441,7 @@ Evaluations can be used for the following use cases:
 -   Use your own custom defined metrics for your prompt and model evaluation.
 
 
-For more information, see [Evaluations](evaluations-14699b0.md).
+For more information, see [Evaluations](https://help.sap.com/viewer/92d77f26188e4582897b9106b9cb72e0/CLOUD/en-US/14699b00e7944751bbf07f148bdcb44b.html "") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -311,7 +509,7 @@ Metrics added to Optimizations
 
 You can choose from a selection of system defined metrics, or define your own custom llm-as-a-judge metrics, including rating criteria. You can incorporate system defined and custom metrics into your evaluation workflows, and manage the lifecycle of your custom metrics.
 
-For more information, see [Metrics](metrics-8f2c277.md).
+For more information, see [Metrics](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/8f2c2776293b48a3aceba88b2d001fa5.html "Metrics are quantitative measures used to evaluate the performance of machine generative AI models within SAP AI Core. By tracking and analyzing metrics, you can assess model quality, compare different model versions, and ensure that your prompts generate responses that meet your standards and criteria.") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -509,7 +707,7 @@ Generative AI hub
 
 Orchestration V2 includes support for a unified embeddings endpoint that works consistently across different LLM providers. This endpoint can be used independently or combined with data anonymization capabilities.
 
-For more information, see [Embeddings](embeddings-67fdf29.md).
+For more information, see [Embeddings](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/67fdf29b483042d49e26c7970336bc3a.html "") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -575,7 +773,7 @@ Generative AI hub
 
 You can define multiple model configuations in your orchestration workflow, enabling automatic fallbacks if processing fails \(for example, due to unsupported models in a region\).
 
-For more information, see [Orchestration with Fallbacks](orchestration-with-fallbacks-ff33cb8.md).
+For more information, see [Orchestration with Fallbacks](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/ff33cb8d121f4093901596c55170b815.html "") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -707,7 +905,7 @@ Generative AI hub
 
 You can optimize prompts to by evaluating them against a specified metric. The optimized prompt is saved, improving model performance and output quality with prompt reuse.
 
-For more information, see [Prompt Optimization](prompt-optimization-f5af0bd.md).
+For more information, see [Prompt Optimization](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/f5af0bdc021041e0a3fb69ede1b4a545.html "") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -773,7 +971,7 @@ Generative AI hub
 
 You can manage the lifecycle of your orchestration configs, including creating, saving, versioning, reuse. CRUD functionality, and import and export of orchestration configs are also supported.
 
-For more information, see [Orchestration Config Management](orchestration-config-management-332bd1e.md).
+For more information, see [Orchestration Config Management](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/332bd1ed3bb040cca58e17b3b9ca1702.html "") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -839,7 +1037,7 @@ Generative AI hub
 
 You can use the quota management API endpoints to check and update your rate limits for models in the generative AI hub.
 
-For more information, see [Rate Limit Management](rate-limit-management-6cbc230.md).
+For more information, see [Rate Limit Management](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/6cbc230d86874672b03c1eb0ac89b092.html "Quota-management APIs let you check and modify rate limits for generative AI model inference calls.") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -905,7 +1103,7 @@ Generative AI hub
 
 SAP Document Management is supported as a repository type for the orchestration grounding module.
 
-For more information, see [Grounding Generic Secrets for SAP Document Management Service](grounding-generic-secrets-for-sap-document-management-service-f8919a4.md).
+For more information, see [Grounding Generic Secrets for SAP Document Management Service](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/f8919a4c43994141a5581352d94a4666.html "") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -971,7 +1169,7 @@ Generative AI hub
 
 Orchestration model configurations have timeout and max tries parameters.
 
-For more information, see [Templating](templating-3e2ea66.md).
+For more information, see [Templating](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/3e2ea66d870043c6b0046ce41850c87e.html "") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -1167,7 +1365,7 @@ Generative AI hub
 </td>
 <td valign="top">
 
-This initial orchestration endpoint is deprecated and is scheduled for decommissioning on October 31, 2026. Following that date, the endpoint will no longer be available. We recommend that you create new orchestration workflows using version 2, and that you migrate existing workflows from version 1 to version 2. To use version 2, you'll need to update your endpoint from `/completion` to `/v2/completion` and modify your existing payloads. For more information, see SAP Note [Orchestration Workflow V2](orchestration-workflow-v2-41a0247.md) and [3634540](https://me.sap.com/notes/3634540).
+This initial orchestration endpoint is deprecated and is scheduled for decommissioning on October 31, 2026. Following that date, the endpoint will no longer be available. We recommend that you create new orchestration workflows using version 2, and that you migrate existing workflows from version 1 to version 2. To use version 2, you'll need to update your endpoint from `/completion` to `/v2/completion` and modify your existing payloads. For more information, see SAP Note [Orchestration Workflow V2](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/41a024780c834de68e070160af93efa5.html "In a basic orchestration scenario, you can combine different modules from orchestration into a pipeline that can be executed with a single API call. Within the pipeline, the response from one module is used as the input for the next module.") :arrow_upper_right: and [3634540](https://me.sap.com/notes/3634540).
 
 </td>
 <td valign="top">
@@ -1639,7 +1837,7 @@ The translation module translates text, and can be configured for input and outp
 
 The input translation module helps improve answer quality when the configured model performs better when input is provided in a specific language, for example English.
 
-For more information, see [Input Translation](input-translation-c43ad1d.md) and [Output Translation](output-translation-8f7fb8e.md).
+For more information, see [Input Translation](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/c43ad1d2dfed4a7e87e3dfd3c68b111f.html "") :arrow_upper_right: and [Output Translation](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/8f7fb8edcae14063aca11dc5e32c20e3.html "") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -1903,7 +2101,7 @@ Generative AI hub
 
 More endpoints have been added to the Pipeline API, so you can retrieve information about the documents within a pipeline, including processing status.
 
-For more information, see [Data Pipelines](data-pipelines-9d9eb37.md).
+For more information, see [Data Pipelines](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/9d9eb377f0bd4baab1f7e196df512bb7.html "") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -2103,7 +2301,7 @@ You can now configure your orchestration workflow so that Llama Guard 3 filters 
 
 Azure Content Safety is still supported.
 
-For more information, see [Input Filtering](input-filtering-4446382.md) and [Output Filtering](output-filtering-b021a5e.md).
+For more information, see [Input Filtering](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/44463822e86b45a59068dd3acf9aec99.html "") :arrow_upper_right: and [Output Filtering](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/b021a5e4e3ae433e9f5250cec058efd9.html "") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -2171,7 +2369,7 @@ Prompt registry
 
 Prompt registry integrates prompt templates into SAP AI Core, making them discoverable across your applications and orchestration It reduces the complexity of dealing with prompt templates and leveraging integration capabilities.
 
-For more information, see [Prompt Registry](prompt-registry-5392e7d.md).
+For more information, see [Prompt Registry](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/5392e7dbbdef4011ab511f33416aa8b1.html "Manage the life cycle of your prompts, from design to runtime.") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -2241,7 +2439,7 @@ The vector API can be used for managing collections and documents in the Vector 
 
 The retrieval API searches data repositories and returns the relevant chunks for the user query.
 
-For more information, see [Preparing Data Using the Vector API](preparing-data-using-the-vector-api-2a9f149.md) and [Retrieval API](retrieval-api-281e8cf.md).
+For more information, see [Preparing Data Using the Vector API](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/2a9f1493456d40daafe1a0006a8c7058.html "Vector API is a microservice provided with a Rest API and endpoints for creating and managing collection and documents.") :arrow_upper_right: and [Retrieval API](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/281e8cf31d654b108a6e128a4a6cdbae.html "The Retrieval API lets you retrieve repositories or collections created through the Vector API. It also lets you perform similarity searches on the vector database to obtain relevant chunks and documents.") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -2307,7 +2505,7 @@ Generative AI hub
 
 Additional selected models and model versions from Anthropic via AWS Bedrock are supported.
 
-For more information, see [Foundation Models](foundation-models-2d981fb.md) and SAP Note [3437766](https://me.sap.com/notes/3437766).
+For more information, see [Foundation Models](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/2d981fb192f84837a64df26b4983156f.html "The foundation models service operates under the global AI scenario foundation-models, which is managed by SAP AI Core.") :arrow_upper_right: and SAP Note [3437766](https://me.sap.com/notes/3437766).
 
 </td>
 <td valign="top">
@@ -2573,7 +2771,7 @@ Pipeline API added.
 
 This pipeline segments data into chunks and generates embeddings, which are multidimensional representations of textual information. The embeddings are stored in a vector database.
 
-For more information, see [Create a Document Grounding Pipeline Using the Pipelines API](create-a-document-grounding-pipeline-using-the-pipelines-api-d32b146.md).
+For more information, see [Create a Document Grounding Pipeline Using the Pipelines API](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/d32b1465461149749b00129c02e05142.html "This API call creates a pipeline for indexing documents for a resource group.") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -2639,7 +2837,7 @@ Generative AI hub
 
 A new module has been added to the orchestration system. The grounding module enhances AI processes by integrating external data that is contextually relevant, domain-specific, or real-time. This additional data complements the natural language processing abilities of pretrained models, which are typically based on general information.
 
-For more information, see [Grounding](grounding-035c455.md).
+For more information, see [Grounding](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/035c455a5a424697b60f4a24b6d791fe.html "Grounding integrates external, contextually relevant, domain-specific, or real-time data into AI processes. This data enhances the natural language processing capabilities of pretrained models, which are trained on general material.") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -2837,7 +3035,7 @@ Generative AI hub
 
 For selected models, response streaming is supported in the generative AI hub orchestration service.
 
-For more information, see [Streaming](streaming-3340907.md).
+For more information, see [Streaming](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/33409072eac14f0d96b23e21a0d85bff.html "") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -2903,7 +3101,7 @@ Generative AI hub
 
 When creating a deployment for orchestration, you can restrict the choice of models using an allow or disallow list. You can use this to implement internal standards, for example where only certain LLMs are approved for use.
 
-For more information, see [Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4387aa7.md).
+For more information, see [Create a Deployment for Orchestration](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/4387aa7a9fa44402822ad6bc3631f846.html "") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -2971,7 +3169,7 @@ Additional module added to orchestration.
 
 The data masking module anonymizes or pseudonymizes personally identifiable information from input.
 
-For more information, see [Orchestration Workflow V1 \(Deprecated\)](orchestration-workflow-v1-deprecated-b233648.md).
+For more information, see [Orchestration Workflow V1 (Deprecated)](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/b233648e0696461984410c38448fc81b.html "In a basic orchestration scenario, you can combine different modules from orchestration into a pipeline that can be executed with a single API call. Within the pipeline, the response from one module is used as the input for the next module.") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -3761,7 +3959,7 @@ Deployments
 
 When deployments are submitted, configurations are checked for errors, synchronously.
 
-For more information, see [Deploy Models](deploy-models-dd16e8e.md).
+For more information, see [Deploy Models](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/dd16e8ef75654dde831e7b812688e4fa.html "") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -4153,7 +4351,7 @@ Artifact signatures for artifact outputs from executions
 </td>
 <td valign="top">
 
-Artifact signatures \(hashes\) can be generated and made available to other executions and deployments to verify the integrity of an artifact. For more information, see [Using Artifact Signatures](using-artifact-signatures-2f02a1d.md).
+Artifact signatures \(hashes\) can be generated and made available to other executions and deployments to verify the integrity of an artifact. For more information, see [Using Artifact Signatures](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/2f02a1d6e3974464a4dcf7bd85fcdcac.html "Artifact signatures in the form of a hash can be added to output artifacts from executions.") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -4481,7 +4679,7 @@ Metadata in Response to List Executables
 
 When you use the endpoint to list executables, the response body now contains metadata about the parameters and artifacts. For parameters, the `description` and `default` values are returned. For artifacts, the `kind`, `description`, and `labels` can be added using annotations.
 
-For more information, see [List Executables](list-executables-80895a4.md), [Workflow Templates](workflow-templates-83523ab.md), and [Serving Templates](serving-templates-20a8667.md).
+For more information, see [List Executables](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/80895a495b4a466b8976735995e23753.html "An executable is a reusable template that defines a workflow or pipeline for tasks such as training a machine learning model or creating a deployment. It contains placeholders for input artifacts (datasets or models) and parameters (custom key-pair values) that enable the template to be reused in different scenarios.") :arrow_upper_right:, [Workflow Templates](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/83523ab8b49245bcbc9f1bf0969e32d8.html "Here, you'll find a basic workflow example template. Feel free to adjust it to suit your workflow needs.") :arrow_upper_right:, and [Serving Templates](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/20a8667ef19e4de59a4469cb542a7457.html "You use serving templates to manage your serving instances at the level of the main tenant. Serving templates define how a model is to be deployed.") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -4616,7 +4814,7 @@ Bulk PATCH Endpoint to STOP or DELETE Multiple Executions or Deployments
 </td>
 <td valign="top">
 
-Executions and Deployments can now receive PATCH requests for bulk adjustments, provided `bulkUpdates` is enabled in the relevant template. For more information, see [Workflow Templates](workflow-templates-83523ab.md) and [Serving Templates](serving-templates-20a8667.md).
+Executions and Deployments can now receive PATCH requests for bulk adjustments, provided `bulkUpdates` is enabled in the relevant template. For more information, see [Workflow Templates](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/83523ab8b49245bcbc9f1bf0969e32d8.html "Here, you'll find a basic workflow example template. Feel free to adjust it to suit your workflow needs.") :arrow_upper_right: and [Serving Templates](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/20a8667ef19e4de59a4469cb542a7457.html "You use serving templates to manage your serving instances at the level of the main tenant. Serving templates define how a model is to be deployed.") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -4812,7 +5010,7 @@ Periodic Scheduling
 </td>
 <td valign="top">
 
-Executions can be run automatically, to a prepared schedule. For more information, see [Training Schedules](training-schedules-2b702f8.md).
+Executions can be run automatically, to a prepared schedule. For more information, see [Training Schedules](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/2b702f8b3d0746f685ac4eea4eeb1755.html "") :arrow_upper_right:.
 
 </td>
 <td valign="top">

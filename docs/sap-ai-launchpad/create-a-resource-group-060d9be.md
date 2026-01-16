@@ -69,8 +69,3 @@ When creating a resource group, subaccount ID, instance ID, and zone ID are stan
 
 The new resource group is created. Executions, deployments, configurations, and artifacts that are created using the resource group are uniquely associated with the resource group.
 
-**Related Information**  
-
-
-[Create a Resource Group](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/01753f4dcb454401b539ecc4def641be.html "") :arrow_upper_right:
-

@@ -92,9 +92,75 @@ Generative AI hub
 </td>
 <td valign="top">
 
+The orchestration workflow has been optimized, and protected material detection is available in output filtering.
+
+For more information, see [Output Filtering](output-filtering-32a0e42.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-01-19
+
+</td>
+<td valign="top">
+
+2026-01-19
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
 The data repository details mode of *Grounding Management* shows the history and status details of your synchronizations. You can also request a sync manually from this mode.
 
-For more information, see [Data Repository Details Mode](grounding-management-0ee0f52.md#loio0ee0f52c4a824cd1b2950fb349fadbc5__section_apm_nlh_22c).
+For more information, see [Grounding Management](grounding-management-0ee0f52.md).
 
 </td>
 <td valign="top">
@@ -511,7 +577,7 @@ For users without an active Mistral Medium deployment, another available model w
 
 Users without an active deployment for any other model, should create a new deployment for a model of their choice.
 
-For more information, see [Create a Deployment for a Generative AI Model](create-a-deployment-for-a-generative-ai-model-96b65bb.md).
+For more information, see [Create a Deployment for a Generative AI Model](create-a-deployment-for-a-generative-ai-model-96b65bb.md#loio96b65bbe3d8a4681830f575a146b5071).
 
 </td>
 <td valign="top">
@@ -1908,7 +1974,7 @@ SAP AI Launchpad
 </td>
 <td valign="top">
 
-Generative AI hub
+Generative AI hub 
 
 </td>
 <td valign="top">
@@ -3247,7 +3313,7 @@ For users without an active Mistral Large deployment, another available model wi
 
 Users without an active deployment for any other model, should create a new deployment for a model of their choice.
 
-For more information, see [Create a Deployment for a Generative AI Model](create-a-deployment-for-a-generative-ai-model-96b65bb.md).
+For more information, see [Create a Deployment for a Generative AI Model](create-a-deployment-for-a-generative-ai-model-96b65bb.md#loio96b65bbe3d8a4681830f575a146b5071).
 
 </td>
 <td valign="top">

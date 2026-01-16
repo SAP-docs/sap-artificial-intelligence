@@ -14,7 +14,9 @@ The module supports the following filters:
 
 If you edit the workflow, you can hide the filter section.
 
-![](images/input_filtering_7a_c027dff.png)
+To include the input filtering module in your orchestration workflow, activate it via the *Advanced* modules switch.
+
+![Screenshot of the SAP AI Launchpad user interface](images/input_filtering_7a_c027dff.png)
 
 
 

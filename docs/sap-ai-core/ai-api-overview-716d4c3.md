@@ -415,9 +415,9 @@ The dataset extension contains endpoints for uploading and downloading files
 **Related Information**  
 
 
-[Serving Templates](serving-templates-20a8667.md "You use serving templates to manage your serving instances at the level of the main tenant. Serving templates define how a model is to be deployed.")
+[Serving Templates](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/20a8667ef19e4de59a4469cb542a7457.html "You use serving templates to manage your serving instances at the level of the main tenant. Serving templates define how a model is to be deployed.") :arrow_upper_right:
 
-[Workflow Templates](workflow-templates-83523ab.md "Here, you'll find a basic workflow example template. Feel free to adjust it to suit your workflow needs.")
+[Workflow Templates](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/83523ab8b49245bcbc9f1bf0969e32d8.html "Here, you'll find a basic workflow example template. Feel free to adjust it to suit your workflow needs.") :arrow_upper_right:
 
 [AI API Specification](https://help.sap.com/doc/2cefe221fddf410aab23dce890b5c603/CLOUD/en-US/index.html)
 

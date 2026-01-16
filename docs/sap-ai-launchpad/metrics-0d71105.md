@@ -25,6 +25,6 @@ Key features include:
 
 -   **[Create a Custom Metric Evaluator](create-a-custom-metric-evaluator-8519d00.md "")**  
 
--   **[View Metrics](view-metrics-98a63b9.md "")**  
+-   **[View Metric Details](view-metric-details-db90bc4.md "")**  
 
 
