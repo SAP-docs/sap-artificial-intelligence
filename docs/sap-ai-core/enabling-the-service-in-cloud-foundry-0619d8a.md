@@ -5,7 +5,7 @@
 Enable SAP AI Core using the standard procedures for the SAP BTP, Cloud Foundry environment.
 
 > ### Tip:  
-> You can use the booster *Set Up Account for SAP AI Core* to automate the steps described in this section on the SAP BTP cockpit. For more information, see [Use Boosters for Free Tier Use of SAP AI Core and SAP AI Launchpad](https://developers.sap.com/tutorials/ai-core-launchpad-provisioning.html).
+> You can use the booster *Set Up Account for SAP AI Core* to automate the steps described in this section on the SAP BTP cockpit. For more information, see [Use Boosters for Free Plan Use of SAP AI Core and SAP AI Launchpad](https://developers.sap.com/tutorials/ai-core-launchpad-provisioning.html).
 
 When you provision SAP AI Core from the SAP BTP cockpit in SAP Business Technology Platform, the system generates a service key. This key contains the URLs and credentials you need to access the SAP AI Core instance.
 
@@ -14,7 +14,7 @@ SAP AI Core is a tenant-aware reuse service that isolates tenants based on the z
 > ### Note:  
 > The SAP AI Core service doesn't isolate tenants based on the service instance ID. If you create multiple service instances within the same subaccount, they all reference the same SAP AI Core tenant.
 
-![SAP AI Core architecture diagram showing system components and workflow](images/Multitenancy_diagram_29a8dde.png)
+![Architecture diagram showing system components and workflow](images/Multitenancy_diagram_29a8dde.png)
 
 -   **[Create a Subaccount](create-a-subaccount-3e3ae83.md "Create a subsaccount in your global account using the SAP BTP
                                     cockpit.")**  

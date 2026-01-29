@@ -158,6 +158,76 @@ Generative AI hub
 </td>
 <td valign="top">
 
+You can now enter generic secrets using a form instead of JSON. The form appears in the *Add Generic Secret* dialog when you activate document grounding.
+
+A dropdown menu lets you choose the type of document repository. Depending on your selection, the remaining fields adjust dynamically, allowing you to complete the data. Some fields are already prefilled.
+
+If you prefer working directly with JSON, switch to the code view by clicking the <span class="SAP-icons-V5"></span> icon.
+
+For more information, see [Add a Secret](add-a-secret-e5cce06.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-01-30
+
+</td>
+<td valign="top">
+
+2026-01-30
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
 The data repository details mode of *Grounding Management* shows the history and status details of your synchronizations. You can also request a sync manually from this mode.
 
 For more information, see [Grounding Management](grounding-management-0ee0f52.md).
@@ -5745,14 +5815,14 @@ SAP AI Launchpad
 </td>
 <td valign="top">
 
-Free Tier Service Plan
+Free Service Plan
 
 </td>
 <td valign="top">
 
-To try SAP AI Launchpad for free, you can use a free tier service plan. A free tier service plan can be easily updated to a standard plan, retaining your users and data.
+To try SAP AI Launchpad for free, you can use a free service plan. A free service plan can be easily updated to a standard plan, retaining your users and data.
 
-See [Service Plans](service-plans-ec1717d.md) and [Free Tier](free-tier-87e4fb1.md).
+See [Service Plans](service-plans-ec1717d.md) and [Free Plan](free-plan-87e4fb1.md).
 
 </td>
 <td valign="top">

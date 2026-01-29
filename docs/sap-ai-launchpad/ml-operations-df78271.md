@@ -10,7 +10,7 @@ The *ML Operations* app helps you manage the lifecycle tasks for an AI use case 
 
 
 
-![SAP AI Core architecture diagram showing system components and workflow](images/AI_Use_Case_Realized_by_Scenario_4471eab.png)
+![Architecture diagram showing system components and workflow](images/AI_Use_Case_Realized_by_Scenario_4471eab.png)
 
 A use case is a scoped project to realize business value through AI technology.
 

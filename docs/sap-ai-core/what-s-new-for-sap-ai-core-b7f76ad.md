@@ -92,9 +92,75 @@ Generative AI hub
 </td>
 <td valign="top">
 
+You can specify the `promptTemplateScope` access level in evaluation and prompt optimization configurations.
+
+For more information, see [Create an Evaluation](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/77ebfe5b28ef4442aff752cfe26a0db7.html "") :arrow_upper_right: and [Create a Configuration for a Prompt Optimization](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/40ba1683832d4c3a92eaac8c0c399b18.html "Configuration for a prompt optimization defines the parameters, artifacts, and model settings that SAP AI Core uses to execute a prompt optimization.") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-01-30
+
+</td>
+<td valign="top">
+
+2026-01-30
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
 You can provide separate test and train datasets for use in prompt optimizations.
 
-For more information, see [Create a Configuration for an Optimization](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/40ba1683832d4c3a92eaac8c0c399b18.html "Configuration for an optimization defines the parameters, artifacts, and model settings that SAP AI Core uses to execute a prompt optimization.") :arrow_upper_right:.
+For more information, see [Create a Configuration for a Prompt Optimization](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/40ba1683832d4c3a92eaac8c0c399b18.html "Configuration for a prompt optimization defines the parameters, artifacts, and model settings that SAP AI Core uses to execute a prompt optimization.") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -5327,12 +5393,12 @@ SAP AI Core
 </td>
 <td valign="top">
 
-Free Tier Service Plan
+Free Service Plan
 
 </td>
 <td valign="top">
 
-To try SAP AI Core for free, you can use a free tier service plan. A free tier service plan can be easily upgraded to a standard plan, retaining your users and data.
+To try SAP AI Core for free, you can use a free service plan. A free service plan can be easily upgraded to a standard plan, retaining your users and data.
 
 For more information, see [Set Up the Free Plan](set-up-the-free-plan-4533adc.md).
 

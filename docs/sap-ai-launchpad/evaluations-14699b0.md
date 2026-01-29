@@ -15,7 +15,7 @@ Evaluations can be used for the following use cases:
 
 **Evaluations Overview**
 
-![SAP AI Core architecture diagram showing system components and workflow](images/Evaluations_b0b98ba.png)
+![Architecture diagram showing system components and workflow](images/Evaluations_b0b98ba.png)
 
 -   **[Create an Evaluation](create-an-evaluation-c15182a.md "")**  
 

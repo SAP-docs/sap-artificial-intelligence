@@ -4,7 +4,7 @@
 
 Resources that are available for tenants and resource groups differ based on the available scope.
 
-![SAP AI Core architecture diagram showing system components and workflow](images/Multitenancy_Resource_Scope_b15f28a.png)
+![Architecture diagram showing system components and workflow](images/Multitenancy_Resource_Scope_b15f28a.png)
 
 
 
@@ -46,5 +46,5 @@ Runtime entities such as executions, deployments, configurations, and artifacts 
 
 ## Examples of Resource Group Mapping
 
-![SAP AI Core architecture diagram showing system components and workflow](images/Multitenancy_Examples_of_Resource_Group_Mapping_b98a835.png)
+![Architecture diagram showing system components and workflow](images/Multitenancy_Examples_of_Resource_Group_Mapping_b98a835.png)
 

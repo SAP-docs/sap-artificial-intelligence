@@ -31,7 +31,7 @@ Getting Started
 </td>
 <td valign="top">
 
-[Use Boosters for Free Tier Use of SAP AI Core and SAP AI Launchpad](https://developers.sap.com/tutorials/ai-core-launchpad-provisioning.html) 
+[Use Boosters for Free Plan Use of SAP AI Core and SAP AI Launchpad](https://developers.sap.com/tutorials/ai-core-launchpad-provisioning.html) 
 
 </td>
 <td valign="top">

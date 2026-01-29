@@ -48,7 +48,7 @@ The following figure shows how deployment statuses change following the initial 
   
 **Deployment Status Flow**
 
-![SAP AI Core architecture diagram showing system components and workflow](images/Deployments_State_Flow_0a118b8.png)
+![Architecture diagram showing system components and workflow](images/Deployments_State_Flow_0a118b8.png)
 
 When a deployment leaves *Running* status, the computing resources that were used by the AI runtime are released.
 

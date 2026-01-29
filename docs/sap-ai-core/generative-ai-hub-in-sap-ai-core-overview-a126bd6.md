@@ -14,5 +14,5 @@ SAP AI Core and the generative AI hub help you to integrate LLMs and AI into new
   
 **Generative AI Hub Architecture Overview**
 
-![SAP AI Core architecture diagram showing system components and workflow](images/LLM_Infrastructure_8b7110e.png "Generative AI Hub Architecture Overview")
+![Architecture diagram showing system components and workflow](images/LLM_Infrastructure_8b7110e.png "Generative AI Hub Architecture Overview")
 

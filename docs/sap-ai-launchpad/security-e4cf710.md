@@ -417,7 +417,7 @@ Provides roles to view all contents of scenarios and resource groups without gen
 </td>
 <td valign="top">
 
-Provides roles to view all contents of scenarios, and to view and edit contents of resource groups without generative AI hub 
+Provides roles to viewand edit all contents of scenarios, and to view and edit contents of resource groups without generative AI hub
 
 </td>
 <td valign="top">
@@ -1192,7 +1192,11 @@ Explore available models in the generative AI hub and make an informed model sel
 </td>
 <td valign="top">
 
-Create, update and run prompts in the <code>generative AI hub prompt editor</code>, read and delete your saved prompts in the <code>generative AI hub</code> prompt managerBuild and test orchestration workflows in the <code>generative AI hub orchestration service</code>
+Create, update and run prompts in the <code>generative AI hub prompt editor</code> 
+
+Read and delete your saved prompts in the <code>generative AI hub</code> prompt manager
+
+Build, test, and manage orchestration workflows in the <code>generative AI hub orchestration service</code>
 
 Explore available models in the generative AI hub and make an informed model selection using the model library
 
@@ -1319,6 +1323,90 @@ View document repositories and pipelines in the grounding management app in gene
 <td valign="top">
 
 Custom evaluation access in generative AI hub, for creating and viewing custom evaluation jobs and viewing results.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`files_editor`
+
+</td>
+<td valign="top">
+
+View, download, create, update, and delete data in registered object stores.in the SAP AI Core runtime.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`files_viewer`
+
+</td>
+<td valign="top">
+
+Download data in registered object stores.in the SAP AI Core runtime.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`orchestration_experimenter`
+
+</td>
+<td valign="top">
+
+View and run orchestration workflows in the generative AI hub
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`orchestration_manager`
+
+</td>
+<td valign="top">
+
+View, create and run orchestration workflows in the generative AI hub
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`prompt_template_experimenter`
+
+</td>
+<td valign="top">
+
+View and run prompt templates in the <code>generative AI hub</code>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`prompt_template_manager`
+
+</td>
+<td valign="top">
+
+Create and view prompt templates in the <code>generative AI hub</code>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`prompt_template_developer`
+
+</td>
+<td valign="top">
+
+Manage the lifecycle of prompt templates in the <code>generative AI hub</code>
 
 </td>
 </tr>
@@ -1991,12 +2079,12 @@ Data containing “Failed to read for all workspaces”
 <tr>
 <td valign="top">
 
-Create Workspace for free tier
+Create Workspace for free plan
 
 </td>
 <td valign="top">
 
-Data containing “Tenant having free tier plan is trying to create more than one connection”
+Data containing “Tenant having free plan is trying to create more than one connection”
 
 </td>
 </tr>

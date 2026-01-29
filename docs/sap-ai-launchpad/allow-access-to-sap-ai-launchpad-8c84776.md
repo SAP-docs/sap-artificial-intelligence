@@ -346,7 +346,7 @@ You can assign role collections to specific users to allow access to SAP AI Laun
     </td>
     <td valign="top">
     
-    Provides roles to view all contents of scenarios, and to view and edit contents of resource groups without generative AI hub 
+    Provides roles to viewand edit all contents of scenarios, and to view and edit contents of resource groups without generative AI hub
     
     </td>
     <td valign="top">

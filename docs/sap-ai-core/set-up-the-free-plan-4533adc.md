@@ -18,7 +18,7 @@ You have a global account in the free tier model for SAP BTP \(not available in 
 
 ## Context
 
-Alternatively, you can use a booster to set up the free plan for SAP AI Core. For more information, see the tutorial [Use Boosters for Free Tier Use of SAP AI Core and SAP AI Launchpad](https://developers.sap.com/tutorials/ai-core-launchpad-provisioning.html).
+Alternatively, you can use a booster to set up the free plan for SAP AI Core. For more information, see the tutorial [Use Boosters for Free Plan Use of SAP AI Core and SAP AI Launchpad](https://developers.sap.com/tutorials/ai-core-launchpad-provisioning.html).
 
 
 
@@ -38,7 +38,7 @@ Alternatively, you can use a booster to set up the free plan for SAP AI Core. Fo
 
 6.  In the *Plan* field, choose *Free*.
 
-    ![Screenshot of select free tier](images/enable_free_tier_b8a2916.png)
+    ![Screenshot of select free Plan](images/enable_free_tier_b8a2916.png)
 
 
 

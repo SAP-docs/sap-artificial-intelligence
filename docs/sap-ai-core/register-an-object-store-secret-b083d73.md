@@ -11,14 +11,14 @@ Your cloud storage credentials are managed using secrets. Secrets are a means of
 > 
 > For **input training artifacts only**, you can create multiple object store secrets with different names as needed.
 
-> ### Remember:  
+> ### Caution:  
 > You are responsible for the rotation of your access credentials and certificates of SAP AI Core within BTP according to regional policy.
 
 <a name="task_i3h_n13_tcc"/>
 
 <!-- task\_i3h\_n13\_tcc -->
 
-## Using Curl
+## Using the API
 
 
 
@@ -147,7 +147,7 @@ Register your object store secret details using the endpoint `/v2/admin/objectSt
 -   For Google Cloud Storage \(GCS\):
 
     ```
-     curl --location --request PATCH "$AI_API_URL/v2/admin/objectStoreSecrets/{{objectStoreName}}" \
+     curl --location --request POST "$AI_API_URL/v2/admin/objectStoreSecrets/{{objectStoreName}}" \
         --header "Authorization: Bearer $TOKEN" \
         --header 'Content-Type: application/json' \
         --header 'AI-Resource-Group: <Resource group>' \
