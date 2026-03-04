@@ -12,7 +12,7 @@ Use the *ML Operations* app to search for a dataset.
 
 ## Prerequisites
 
--   You have files which are stored in hyperscaler object storage and which have been registered as a dataset.
+-   You have files which are stored in hyperscaler object storage and which have been added as a dataset.
 
 -   You have the `scenario_artifact_viewer` role or you are assigned a role collection that contains it. For more information, see [Roles and Authorizations](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/roles-and-authorizations).
 
@@ -27,7 +27,7 @@ Use the *ML Operations* app to search for a dataset.
 
 1.  In the *ML Operations* app, choose *Datasets*.
 
-    The *Datasets* screen appears listing all of the datasets registered to your resource group for your runtime.
+    The *Datasets* screen appears listing all of the datasets added to your resource group for your runtime.
 
     Datasets are listed by name, and with additional details such as description, ID, scenario, URL, execution ID, labels, created on timestamp, and changed on timestamp.
 

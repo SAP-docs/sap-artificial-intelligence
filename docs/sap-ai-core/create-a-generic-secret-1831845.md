@@ -8,7 +8,7 @@ A generic secret authorizes SAP AI Core to use your resource group without expos
 
 <!-- task\_i3h\_n13\_tcc -->
 
-## Using Curl
+## Using the API
 
 
 
@@ -60,7 +60,7 @@ Each tenant can have a maximum of five tenant-wide secrets. If you reach this li
 
 ## Procedure
 
-Send a POST request and enter the URL `{{apiurl}}/v2/admin/secrets`.
+Send a POST request and enter the URL `$AI_API_URL/v2/admin/secrets`.
 
 -   `AI-Tenant-Scope` : `true`. The operation will be performed at the main-tenant level.
 -   `AI-Resource-Group` : <code><i class="varname">&lt;resource-group-name&gt;</i></code>. The operation will be performed at the resource-group level.
@@ -72,7 +72,7 @@ curl --location --request POST "$AI_API_URL/v2/admin/secrets" \
 --header 'Content-Type: application/json' \
 --header 'AI-Resource-Group: default' \
 --data-raw '{
-	"name": "MY_GENERIC_SECRET",
+	"name": "my-generic-secret",
 	"data": {
 		"some-credential": "bXktc2Vuc2l0aXZlLWRhdGE="
 			}
@@ -80,7 +80,7 @@ curl --location --request POST "$AI_API_URL/v2/admin/secrets" \
 ```
 
 > ### Note:  
-> The secret name is written without hyphens to make it simple to consume as a Unix environment variable later. It is written in capitals as is convention.
+> As a convention the secret name can be written without hyphens to make it simple to consume as a Unix environment variable later.
 
 <a name="task_cxf_n13_tcc"/>
 
@@ -144,7 +144,7 @@ Each tenant can have a maximum of five tenant-wide secrets. If you reach this li
 
     ```
     {
-      "name": "MY_GENERIC_SECRET",
+      "name": "my-generic-secret",
       "data": {
         "some-credential": "bXktc2VjcmV0LWNyZWRlbnRpYWw=",
         "other-credentials": "bXktc2VjcmV0LW90aGVyLWNyZWRlbnRpYWw="
@@ -156,7 +156,7 @@ Each tenant can have a maximum of five tenant-wide secrets. If you reach this li
     -   `data`: Enter a JSON string that represents your generic secret.
 
     > ### Note:  
-    > The secret name is written without hyphens to make it simple to consume as a Unix environment variable later. It is written in capitals as is convention.
+    > As a convention the secret name can be written without hyphens to make it simple to consume as a Unix environment variable later.
 
 3.  Specify the scope of the request via the header `AI-Tenant-Scope` and `AI-Resource-Group`:
 
@@ -207,7 +207,7 @@ Each tenant can have a maximum of five tenant-wide secrets. If you reach this li
 > ```
 > {
 > "message": "secret has been created",
-> "name": "MY_GENERIC_SECRET"
+> "name": "my-generic-secret"
 > }
 > ```
 

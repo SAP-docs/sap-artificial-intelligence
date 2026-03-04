@@ -61,5 +61,5 @@ You edit a resource group when its labels change, or if you need to add or remov
 
 ## Results
 
-The resource group is changed. The updated resource group appears on the *All Resource Groups* screen.
+The resource group is changed. The updated resource group appears on the *Resource Groups* screen.
 

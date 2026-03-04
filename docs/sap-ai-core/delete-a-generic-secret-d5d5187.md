@@ -25,7 +25,7 @@ Submit a DELETE request to the endpoint `/v2/admin/secrets/"$SECRET_NAME"`. Spec
 In this example we use the resource-group scope:
 
 ```
-curl --location --request DELETE "$AI_API_URL/v2/admin/secrets/$SECRET_NAME$AI_API_URL/v2/admin/secrets/$SECRET_NAME" \
+curl --location --request DELETE "$AI_API_URL/v2/admin/secrets/$SECRET_NAME" \
 --header "Authorization: Bearer $TOKEN" \
 --header 'AI-Resource-Group: default' 
 

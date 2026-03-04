@@ -57,19 +57,7 @@ Supported cloud object stores include Amazon S3 \(S3\), Alibaba Cloud Object Sto
 
     3.  Choose the type of object store.
 
-    4.  Enter the path prefix. The path prefix is used to differentiate between different projects that are stored in the same location.
-
-    5.  Complete the information requested in the dialog box.
-
-        > ### Note:  
-        > The type of object store determines what fields are required for the object store secret.
-
-        For S3:
-
-        -   Choose `Verify SSL` to apply the SSL security protocol to data transferred from the object store.
-        -   Choose `Use HTTPS` to apply the HTTPS communication protocol to data transferred from the object store.
-
-    6.  Enter the secret in `JSON` format. For more information, see [Register Your Object Store Secret](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/b083d73f672c428faac3048b74733546.html).
+    4.  Enter the path prefix of the location of your documents.
 
 
 5.  Choose *Add* to save the secret details.

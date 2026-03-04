@@ -19,7 +19,7 @@ You have the `artifact.register` role, or you have been assigned a role collecti
 ## Context
 
 > ### Caution:  
-> If the files for a registered result set are deleted from your object store, or if the datapath or object store secret changes, then the registered result set can no longer be used.
+> If the files for a result set that you've added are deleted from your object store, or if the datapath or object store secret changes, then the result set can no longer be used.
 
 
 

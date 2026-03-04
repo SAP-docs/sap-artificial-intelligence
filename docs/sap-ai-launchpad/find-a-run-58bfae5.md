@@ -32,7 +32,7 @@ A run's details consists of two tabs: *Overview* and *Metric Resource*.
 
 
 > ### Tip:  
-> In the *Functions Explorer* app, there are multiple ways to investigate a run's details. You can find a run via it's scenario and template, or search for it via *All Runs*.
+> In the *Functions Explorer* app, there are multiple ways to investigate a run's details. You can find a run via it's scenario and template, or search for it via *Runs*.
 
 
 

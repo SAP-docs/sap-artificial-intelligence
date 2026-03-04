@@ -42,7 +42,7 @@ You only need to define a custom metric if you want to create a custom LLM-as-a-
 
     3.  **Optional:** Provide a description of your metric
 
-    4.  Give your metric a type
+    4.  **Optional:** Select a metric type
 
     5.  Give your metric an evaluation method
 

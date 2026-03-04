@@ -31,9 +31,9 @@ A run's details consists of two tabs: *Overview* and *Metric Resource*.
 
 ## Procedure
 
-1.  In the *Functions Explorer* app, choose *All Runs*.
+1.  In the *Functions Explorer* app, choose *Runs*.
 
-    The *All Runs* screen appears listing all of the runs by ID, and with additional details such as configuration name and ID, current and target status, created on and changed on timestamps.
+    The *Runs* screen appears listing all of the runs by ID, and with additional details such as configuration name and ID, current and target status, created on and changed on timestamps.
 
 2.  **Optional:** To compare metrics for up to five runs, see [Compare Run Metrics](compare-run-metrics-0255655.md).
 

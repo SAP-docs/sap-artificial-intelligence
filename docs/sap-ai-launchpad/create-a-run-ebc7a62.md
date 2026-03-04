@@ -24,9 +24,9 @@ Runs are used to train a model.
 
 ## Procedure
 
-1.  In the *Functions Explorer* app, choose *All Runs*.
+1.  In the *Functions Explorer* app, choose *Runs*.
 
-    The *All Runs* screen appears listing all existing runs. Runs are listed by ID, and with additional details such as configuration name and ID, current and target status, created on timestamp, and changed on timestamp.
+    The *Runs* screen appears listing all existing runs. Runs are listed by ID, and with additional details such as configuration name and ID, current and target status, created on timestamp, and changed on timestamp.
 
 2.  Choose *Create* to create a new run.
 
@@ -54,6 +54,6 @@ Runs are used to train a model.
     4.  In the *Review* step, review the data that you've selected for the new run. Choose *Create* to create the run.
 
 
-    The new run is created and is now displayed in the *All Runs* screen.
+    The new run is created and is now displayed in the *Runs* screen.
 
 

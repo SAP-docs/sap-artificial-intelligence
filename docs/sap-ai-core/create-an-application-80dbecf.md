@@ -14,7 +14,7 @@
 
 ## Context
 
-After you register your Git repository, create an application to sync the templates in your repository. The first sync takes some time. You can check the application status to see when it completes. After the initial sync, the system syncs the templates automatically every three minutes. You can also request it manually.
+After you add your Git repository, create an application to sync the templates in your repository. The first sync takes some time. You can check the application status to see when it completes. After the initial sync, the system syncs the templates automatically every three minutes. You can also request it manually.
 
 > ### Note:  
 > Do not create applications that attempt to sync the same source. If two apps have the same `repositoryURL`, `revision`, and `path`, synching will fail.
@@ -86,7 +86,7 @@ As `applicationName`, enter the name of your application that you specified when
 
 ## Context
 
-After you register your Git repository, create an application to sync the templates in your repository. The first sync takes some time. You can check the application status to see when it completes. After the initial sync, the system syncs the templates automatically every three minutes. You can also request it manually.
+After you add your Git repository, create an application to sync the templates in your repository. The first sync takes some time. You can check the application status to see when it completes. After the initial sync, the system syncs the templates automatically every three minutes. You can also request it manually.
 
 > ### Note:  
 > Do not create applications that attempt to sync the same source. If two apps have the same `repositoryURL`, `revision`, and `path`, synching will fail.

@@ -1,8 +1,8 @@
 <!-- loio0efde3f977b5459ebb1877e3f487fbeb -->
 
-# Register a Result Set
+# Add a Result Set
 
-Use the *ML Operations* app to manually register a result set that is stored in your object store.
+Use the *ML Operations* app to manually add a result set that is stored in your object store.
 
 
 
@@ -22,10 +22,10 @@ Details for the object store secret have been added using the *SAP AI Core Admin
 
 ## Context
 
-After you've registered a result set, you can use it in the *ML Operations* app.
+After you've added a result set, you can use it in the *ML Operations* app.
 
 > ### Caution:  
-> If the files for a registered result set are deleted from your object store, or if the datapath or object store secret changes, then the registered result set can no longer be used.
+> If the files for a added result set are deleted from your object store, or if the datapath or object store secret changes, then the added result set can no longer be used.
 
 
 
@@ -39,9 +39,9 @@ After you've registered a result set, you can use it in the *ML Operations* app.
 
     The *Result Sets* screen appears listing all of the results sets for the selected resource group.
 
-3.  Choose *Add* to manually register a result set.
+3.  Choose *Add* to manually add a result set.
 
-    The register result set wizard appears. This wizard has five steps.
+    The add result set wizard appears. This wizard has five steps.
 
 4.  Enter the details for the result set.
 
@@ -68,7 +68,7 @@ After you've registered a result set, you can use it in the *ML Operations* app.
 
 ## Results
 
-The result set that you have registered now appears in the list of result sets for the resource group.
+The result set that you have added now appears in the list of result sets for the resource group.
 
 **Related Information**  
 

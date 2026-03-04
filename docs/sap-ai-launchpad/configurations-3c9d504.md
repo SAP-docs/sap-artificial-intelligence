@@ -34,7 +34,7 @@ A configuration combines parameters, artifacts \(for example, a dataset or model
 
 [Executables](executables-06f4794.md "An executable is used to define training or serving pipelines for an AI use case. Executables for the same AI use case are grouped by scenario.")
 
-[Datasets](datasets-e299ed5.md "A dataset is a type of artifact which is registered in your AI runtime. A registered dataset references files that are stored in your connected hyperscaler object store.")
+[Datasets](datasets-e299ed5.md "A dataset is a type of artifact which is added in your AI runtime. A added dataset references files that are stored in your connected hyperscaler object store.")
 
 [Models](models-aba8797.md "A model is a type of artifact that results from a training process.")
 

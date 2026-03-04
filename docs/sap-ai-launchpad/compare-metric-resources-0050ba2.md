@@ -29,7 +29,7 @@ When you compare metrics, multiple model/ execution metrics are compared against
 
 2.  Select the executions for comparison and choose *View Metrics*.
 
-    ![All Executions screen with 3 executions selected and navigation options highlighted.](images/Image_AIL_FE_AlL_MLOps_Ex_View_Metrics_d6f9931.png)
+    ![Executions screen with 3 executions selected and navigation options highlighted.](images/Image_AIL_FE_AlL_MLOps_Ex_View_Metrics_d6f9931.png)
 
     The *Metrics Overview* appears for the selected executions. The execution IDs and descriptions are listed in the *My Selection* pane. The *Metrics Comparison* pane defaults to the chart view.
 

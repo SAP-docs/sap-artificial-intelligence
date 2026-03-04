@@ -12,9 +12,9 @@
 
 -   You're using the `extended` service plan. For more information, see [Service Plans](service-plans-ec1717d.md).
 -   You have the `genai_manager` or `custom_evaluation` role, or you are assigned a role collection that contains one of these roles.
--   You've prepared your evaluation files and registered them as an artifact. For more information, see [Register an Artifact for Optimizations](register-an-artifact-for-optimizations-06ec70c.md).
+-   You've prepared your evaluation files and registered them as an artifact. For more information, see [Add an Artifact for Optimizations](add-an-artifact-for-optimizations-06ec70c.md).
 -   You've prepared your variable mapping. For more information, see [Variable Mappings in SAP AI Core](https://help.sap.com/docs/AI_CORE/52b4adb30e6744709d6226d2b0659dea/56727a392781470e926145571edcaf9f.html).
--   You have an object store with the name `default`. For more information, see [Register an Object Store for Optimizations](register-an-object-store-for-optimizations-9ee15fb.md).
+-   You have an object store with the name `default`. For more information, see [Add an Object Store for Optimizations](add-an-object-store-for-optimizations-9ee15fb.md).
 -   If you're creating an evaluation with a prompt template: you've prepared a prompt template. For more information, see [Prompt Experimentation](prompt-experimentation-384cc0c.md) and [Save a Template](save-a-template-49d4248.md).
 -   If you're creating an evaluation with an orchestration configuration: you've prepared an orchestration configuration. For more information, see [Build Your Orchestration Workflow](build-your-orchestration-workflow-b7dc8b4.md) and [Save an Orchestration Config](save-an-orchestration-config-b687c7d.md).
 -   If you want to use a custom LLM-as-a-judge metric: you've created a custom metric. For more information, see [Create a Custom Metric Evaluator](create-a-custom-metric-evaluator-8519d00.md).
@@ -34,7 +34,7 @@
 
 1.  Select the connection to your SAP AI Core runtime in the *Workspaces* app, and choose the resource group used for your generative AI hub deployment.
 
-2.  In the side navigation, expand the *Generative AI Hub* and choose *Optimization*.
+2.  In the side navigation, expand the *Generative AI Hub* and choose *Optimizations*.
 
 3.  Choose *Create* and choose *Evaluation* if prompted.
 

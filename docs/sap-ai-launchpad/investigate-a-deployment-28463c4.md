@@ -28,9 +28,9 @@ A deployment's details consists of scenario and template, parameters, and input 
 
 ## Procedure
 
-1.  In the *Functions Explorer* app, choose *All Deployments*.
+1.  In the *Functions Explorer* app, choose *Deployments*.
 
-    The *All Deployments* screen appears listing all existing deployments. Deployments are listed by ID, and with additional details such as configuration name and ID, current and target status, created on and changed on timestamps.
+    The *Deployments* screen appears listing all existing deployments. Deployments are listed by ID, and with additional details such as configuration name and ID, current and target status, created on and changed on timestamps.
 
 2.  **Optional:** Filter the list by choosing <span class="SAP-icons-V5"></span> \(Filter\). The *Filter* dialog appears.
 

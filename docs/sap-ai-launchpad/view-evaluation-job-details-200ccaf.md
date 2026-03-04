@@ -64,5 +64,7 @@ You can stop an evaluation job by choosing *Stop*.
 
 You can delete an evaluation job by choosing *Delete*.
 
+You can create a duplicate evaluation job by choosing the *Duplicate* button.
+
 .
 

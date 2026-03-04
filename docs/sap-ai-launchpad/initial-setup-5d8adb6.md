@@ -4,6 +4,9 @@
 
 You can get started with SAP AI Launchpad using the standard procedures for SAP BTP, Cloud Foundry environment.
 
+> ### Tip:  
+> If you want a guided, hands-on environment, you can explore the generative AI hub using the 30-day free trial. For more information, see [Try now: 30-Day Basic Trial](https://www.sap.com/products/artificial-intelligence/generative-ai-hub-trial.html).
+
 
 
 <a name="loio5d8adb6f43ea4eeca97c9a2b2bb93c6b__section_jnw_gbj_snb"/>

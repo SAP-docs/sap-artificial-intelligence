@@ -12,8 +12,8 @@
 
 -   You have the `genai_manager` or `custom_evaluation` role, or you are assigned a role collection that contains one of these roles.
 -   You're using the `extended` service plan. For more information, see [Service Plans](service-plans-ec1717d.md).
--   You have an object store with the name `default`. For more information, see [Register an Object Store for Optimizations](register-an-object-store-for-optimizations-9ee15fb.md).
--   You've prepared your prompt optimization dataset and registered it as an artifact. For more information, see [Register an Artifact for Optimizations](register-an-artifact-for-optimizations-06ec70c.md).
+-   You have an object store with the name `default`. For more information, see [Add an Object Store for Optimizations](add-an-object-store-for-optimizations-9ee15fb.md).
+-   You've prepared your prompt optimization dataset and registered it as an artifact. For more information, see [Add an Artifact for Optimizations](add-an-artifact-for-optimizations-06ec70c.md).
 -   You've prepared a prompt template and your template is available in the prompt registry. For more information, see [Save a Template](save-a-template-49d4248.md).
 
 
@@ -22,7 +22,7 @@
 
 1.  Select the connection to your SAP AI Core runtime in the *Workspaces* app, and choose the resource group used for your generative AI hub deployment.
 
-2.  In the side navigation, expand the *Generative AI Hub* and choose *Optimization*.
+2.  In the side navigation, expand the *Generative AI Hub* and choose *Optimizations*.
 
 3.  Choose *Create* and choose *Prompt Optimization* if prompted.
 
@@ -32,20 +32,22 @@
 
     1.  Choose a prompt template
 
-    2.  **Optional:** Choose an origin model to establish a baseline.
+    2.  **Optional:** Choose an origin model to establish a baseline
 
-    3.  Choose at least one target model.
+    3.  Choose at least one target model
 
-    4.  Choose a dataset artifact
+    4.  Use the switch to specify the dataset split type
 
-    5.  Provide the subpath to your test dataset, relative to your selected test dataset artifact URL
+    5.  Choose a dataset artifact
 
-    6.  Choose *Next*
+    6.  Provide the subpath to your test dataset, relative to your selected test dataset artifact URL
+
+    7.  Choose *Next*
 
 
 5.  Choose a metric from the available metrics:
 
-    You can refine the selection by applying the filters.
+    You can refine the selection by applying the filters
 
 6.  **Optional:** Add additional configuration such as prompt template name and version and configuration of advanced settings.
 

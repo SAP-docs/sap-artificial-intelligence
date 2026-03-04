@@ -1,5 +1,7 @@
 <!-- loioea8eecfbbc764b5aa77cdcc86b73c7b4 -->
 
+<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
+
 # Remove a Secret
 
 
@@ -33,11 +35,7 @@ You remove a secret if the name is no longer valid or contains errors, or if the
 
     The *Generic Secrets* screen appears with a tile for each existing secret.
 
-4.  Find the tile for the secret and choose *Remove*.
-
-    The *Remove Generic Secret* dialog box appears.
-
-5.  Choose *Remove* and confirm the removal.
+4.  Find the tile for the secret that you want to remove.. Choose the :wastebasket: icon.and confirm your removal.
 
 
 

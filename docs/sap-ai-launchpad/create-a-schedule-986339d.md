@@ -20,7 +20,7 @@ You have the `mloperations_editor` or `execution_schedules_editor role`, or you 
 
 2.  In the *ML Operations* app, choose *Schedules*.
 
-    The **All Schedules** screen appears listing all of the schedules for the selected resource group.
+    The **Schedules** screen appears listing all of the schedules for the selected resource group.
 
 3.  Choose *Create* to create a new schedule.
 

@@ -1,8 +1,8 @@
 <!-- loio8162c5df09e844688a72a74f53ea2972 -->
 
-# Register a Model
+# Add a Model
 
-Use the *ML Operations* app to manually register a model that is stored in your object store.
+Use the *ML Operations* app to manually add a model that is stored in your object store.
 
 
 
@@ -20,10 +20,10 @@ Details for the object store secret have been added using the *SAP AI Core Admin
 
 ## Context
 
-After you've registered a model, you can use it with deployments in the *ML Operations* app.
+After you've added a model, you can use it with deployments in the *ML Operations* app.
 
 > ### Caution:  
-> If the files for a registered model are deleted from your object store, or if the datapath or object store secret changes, then the registered model can no longer be used.
+> If the files for a model that you've added are deleted from your object store, or if the datapath or object store secret changes, then the model can no longer be used.
 
 
 
@@ -37,9 +37,9 @@ After you've registered a model, you can use it with deployments in the *ML Oper
 
     The *Models* screen appears listing all of the models for the selected resource group.
 
-3.  Choose *Add* to manually register a model.
+3.  Choose *Add* to manually add a model.
 
-    The register model wizard appears. This wizard has five steps.
+    The add model wizard appears. This wizard has five steps.
 
 4.  Enter the details for the model.
 
@@ -66,5 +66,5 @@ After you've registered a model, you can use it with deployments in the *ML Oper
 
 ## Results
 
-The model's details screen appears. Unlike models that result from an execution, registered models don't contain source execution details. The model that you have registered is now available for use, and is listed with all the models for the resource group.
+The model's details screen appears. Unlike models that result from an execution, added models don't contain source execution details. The model that you have added is now available for use, and is listed with all the models for the resource group.
 

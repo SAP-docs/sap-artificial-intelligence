@@ -4,7 +4,7 @@
 
 # Investigate a Scenario
 
-In the *Functions Explorer* app, you can view a list of the scenarios available to you and explore their details.
+In the *Functions Explorer* app, you can view a list of available scenarios and explore their details.
 
 
 
@@ -12,7 +12,7 @@ In the *Functions Explorer* app, you can view a list of the scenarios available 
 
 ## Prerequisites
 
-You have the `scenario_metadata_viewer` role, or you have been assigned a role collection that contains this role.
+You have the `scenario_metadata_viewer` role, or you've been assigned a role collection that contains this role.
 
 For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
 
@@ -26,23 +26,23 @@ For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef
 
     The *All Scenarios* screen appears listing all the scenarios in the resource group along with their description, created on and changed on timestamps, and number of templates and versions.
 
-    ![Functions Explorer All Scenarios screen with key features highlighted.](images/Image_AIL_FE_All_Scenarios_1fcaa9e.png)
+    ![Functions Explorer Scenarios screen with key features highlighted.](images/Image_AIL_FE_All_Scenarios_1fcaa9e.png)
 
 2.  **Optional:** Scroll to a scenario or use :mag: to search for a scenario by name.
 
 3.  To view the details for an individual scenario, select the scenario in the list or choose <span class="SAP-icons-V5"></span> \(More\).
 
-    The *Scenario Details* screen appears, with the scenario name, ID, created on and changed on timestamps.
+    The *Scenario Details* screen appears, with the scenario name, ID, created on timestamp, and changed on timestamp.
 
     ![Screenshot of the SAP AI Launchpad user interface](images/Image_AIL_FE_Scenario_Details_d29509c.png)
 
-    The objects associated with the scenario can be explored in more detail using the tabs:
+    You can explore the objects associated with the scenario in more detail using the tabs.
 
-4.  **Optional:** Investigate the scenario.
+4.  Investigate the scenario.
 
     -   Choose the *Templates* tab for run and deployment template details. See [Templates](templates-442a7e8.md).
     -   Choose the *Previous Runs* tab to list runs associated with this scenario. See [Investigate a Run](investigate-a-run-e479244.md).
-    -   Choose the *Previous Deployments*, for deployments associated with this scenario. See [Investigate a Deployment](investigate-a-deployment-28463c4.md) .
-    -   Choose the *Associated Contents*, for related input datasets and output models. See [Associated Contents](associated-contents-680eae9.md).
+    -   Choose the *Previous Deployments* for deployments associated with this scenario. See [Investigate a Deployment](investigate-a-deployment-28463c4.md) .
+    -   Choose the *Associated Contents* for related input datasets and output models. See [Associated Contents](associated-contents-680eae9.md).
 
 

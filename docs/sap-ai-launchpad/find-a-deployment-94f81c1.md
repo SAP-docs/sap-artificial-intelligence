@@ -25,7 +25,7 @@ For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef
 A deployment is a process which deploys a model. A deployment is created using a configuration and a deployment template. Multiple deployments can be created for a deployment template.
 
 > ### Tip:  
-> In the *Functions Explorer* app, there are multiple ways to investigate a deployment's details. You can find a deployment via it's scenario and deployment template, or search for it via *All Deployments*.
+> In the *Functions Explorer* app, there are multiple ways to investigate a deployment's details. You can find a deployment via it's scenario and deployment template, or search for it via *Deployments*.
 
 
 

@@ -38,7 +38,7 @@ You specify your unique git repository details as follows:
 
 
 > ### Tip:  
-> To share a repository between two tenants, register the repository in SAP AI Core separately for each tenant and provide the **same** `username` and `password`.
+> To share a repository between two tenants, add the repository in SAP AI Core separately for each tenant and provide the **same** `username` and `password`.
 
 <a name="task_cxf_n13_tcc"/>
 
@@ -64,5 +64,5 @@ You specify your unique git repository details as follows:
 
 
 > ### Tip:  
-> To share a repository between two tenants, register the repository in SAP AI Core separately for each tenant and provide the **same** `username` and `password`.
+> To share a repository between two tenants, add the repository in SAP AI Core separately for each tenant and provide the **same** `username` and `password`.
 

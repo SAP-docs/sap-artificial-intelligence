@@ -19,7 +19,7 @@ You have the `scenario_artifact_viewer` role, or you are assigned to a role coll
 ## Context
 
 > ### Caution:  
-> If the files for a registered artifact are deleted from your object store, or if the datapath or object store secret changes, then the registered artifact can no longer be used.
+> If the files for an artifact that you've added are deleted from your object store, or if the datapath or object store secret changes, then the artifact can no longer be used.
 
 
 
@@ -49,6 +49,6 @@ You have the `scenario_artifact_viewer` role, or you are assigned to a role coll
     3.  Choose *Apply* to apply the filter and conditions to the list.
 
 
-5.  Check the *Labels* column for the number of classifying phrases/ names applied to the artifact. Labels are specified when registering the artifact to the selected resource group.
+5.  Check the *Labels* column for the number of classifying phrases/ names applied to the artifact. Labels are specified when adding the artifact to the selected resource group.
 
 

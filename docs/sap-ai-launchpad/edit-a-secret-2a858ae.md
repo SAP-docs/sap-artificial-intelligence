@@ -1,5 +1,7 @@
 <!-- loio2a858aed9c7b4d8598ecbc8f6982af31 -->
 
+<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
+
 # Edit a Secret
 
 
@@ -25,22 +27,38 @@
 
 3.  Open the *SAP AI Core Administration* app and choose *Generic Secrets*.
 
-4.  Find the tile for the secret and choose *Edit*.
+4.  Find the tile for the secret and choose the :pencil2: icon.
 
     The *Edit Generic Secret* dialog box appears.
 
-5.  Change the secret details. Enter the secret in `JSON` format. For example:
+5.  Update the key:value pairs for your secret in one of the following ways:
 
-    ```
-    {
-    		"some-credential": "bXktc2VjcmV0LWNyZWRlbnRpYWw=",
-    		"other-credentials": "bXktc2VjcmV0LW90aGVyLWNyZWRlbnRpYWw="}
-    ```
+    -   Deselect the *Document Grounding* switch and enter your secret in JSON format.
+    -   Leave the *Document Grounding* switch selected and choose the document repository type from the dropdown list. The dialog adjusts dynamically for you to fill the remaining information.
+    -   Leave the *Document Grounding* switch selected and switch to code view \(<span class="SAP-icons-V5"></span>\), where you can enter your secret in JSON format.
+
+    The following examples show an Amazon S3 secret in JSON and form format. Different object stores require different information.
+
+    ![](images/generic_secrets_2602b_5a2f53d.png)
 
     > ### Note:  
-    > The API expects sensitive data to be Base64-encoded. You can easily encode your data in Base64 format using the following command on Linux or MacOS: `echo -n 'my-sensitive-data' | base64`
+    > The JSON key-value pairs correspond to the form fields shown in form mode, and may differ in format from the information provided by your object store provider.
 
-    Add or update your secret labels.Labels are only required for specific services. They’re predefined and are outlined in the related documentation.
+    > ### Sample Code:  
+    > ```
+    > {
+    >   "url": "<your repository URL",
+    >   "description": "<your choice of decription>",
+    >   "access_key_id": "<your access key ID>",
+    >   "bucket": "<your S3 bucket name>",
+    >   "host": "your S3 host",
+    >   "region": "<your region>",
+    >   "secret_access_key": "<your secret access key>",
+    >   "username": "your AWS credentials username"
+    > }
+    > ```
+
+6.  Choose *Edit* to save the changes to the secret.
 
 
 

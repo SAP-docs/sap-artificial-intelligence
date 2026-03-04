@@ -21,7 +21,7 @@ You can create multiple charts and view them in the *Chart View*.
 
 ## Procedure
 
-1.  In the *Functions Explorer* app, choose *All Runs*.
+1.  In the *Functions Explorer* app, choose *Runs*.
 
 2.  **Optional:** If you have a large list of runs, you can filter the list by choosing <span class="SAP-icons-V5"></span> \(Filter\). The *Filter* dialog appears.
 
@@ -32,7 +32,7 @@ You can create multiple charts and view them in the *Chart View*.
 
 3.  Select the runs for comparison and choose *View Metrics*.
 
-    ![All Runs screen with four runs selected for metrics comparison.](images/Image_AIL_FE_All_All_Runs_Compare_Metrics_fbaf644.png)
+    ![Runs screen with four runs selected for metrics comparison.](images/Image_AIL_FE_All_All_Runs_Compare_Metrics_fbaf644.png)
 
     The *Metrics Overview* appears for the selected runs. The run IDs and descriptions are listed in the *My Selection* pane. The *Metrics Comparison* pane defaults to the chart view.
 

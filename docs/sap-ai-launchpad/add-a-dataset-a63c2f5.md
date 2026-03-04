@@ -1,8 +1,8 @@
 <!-- loioa63c2f56360d4174b2120383704ec15c -->
 
-# Register a Dataset
+# Add a Dataset
 
-Use the *ML Operations* app to manually register a dataset that is stored in your object store.
+Use the *ML Operations* app to manually add a dataset that is stored in your object store.
 
 
 
@@ -18,10 +18,10 @@ Details for the object store secret have been added using the *SAP AI Core Admin
 
 ## Context
 
-After you've registered a dataset, you can use it as input for configurations in the *ML Operations* app.
+After you've added a dataset, you can use it as input for configurations in the *ML Operations* app.
 
 > ### Caution:  
-> If the files for a registered dataset are deleted from your object store, or if the datapath or object store secret changes, then the registered dataset can no longer be used.
+> If the files for a dataset that you added are deleted from your object store, or if the datapath or object store secret changes, then the dataset can no longer be used.
 
 
 
@@ -35,9 +35,9 @@ After you've registered a dataset, you can use it as input for configurations in
 
     The *Datasets* screen appears listing all of the datasets for the selected resource group.
 
-3.  Choose *Add* to manually register a dataset.
+3.  Choose *Add* to manually add a dataset.
 
-    The register dataset wizard appears. This wizard has five steps.
+    The add dataset wizard appears. This wizard has five steps.
 
 4.  Enter the details for the dataset.
 
@@ -64,5 +64,5 @@ After you've registered a dataset, you can use it as input for configurations in
 
 ## Results
 
-The dataset that you have registered now appears in the list of datasets for the resource group.
+The dataset that you have added now appears in the list of datasets for the resource group.
 

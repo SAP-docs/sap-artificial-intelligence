@@ -169,6 +169,12 @@ Register your object store secret details using the endpoint `/v2/admin/objectSt
 > ### Note:  
 > If the `AI-Resource-Group` header isn't specified, the *<Resource Group\>* is assigned the value `"default"` automatically.
 
+
+
+## Results
+
+Successful responses return code **202** and include a success message.
+
 <a name="task_cxf_n13_tcc"/>
 
 <!-- task\_cxf\_n13\_tcc -->

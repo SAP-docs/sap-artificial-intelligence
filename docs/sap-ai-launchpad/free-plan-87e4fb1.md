@@ -13,7 +13,7 @@ You can use the free plan option and benefit from the following advantages:
 
 **Free Plan Scope**
 
--   For region information, see [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-launchpad?service_plan=standard&region=all&tab=service_plan).
+-   For region information, see [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-launchpad?region=all&tab=service_plan).
 
 -   Support for the free plan option is provided by the SAP Community.
 

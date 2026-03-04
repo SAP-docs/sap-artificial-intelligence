@@ -24,9 +24,9 @@ Deployments are used to make online predictions.
 
 ## Procedure
 
-1.  In the *Functions Explorer* app, choose *All Deployments*.
+1.  In the *Functions Explorer* app, choose *Deployments*.
 
-    The *All Deployments* screen appears listing all existing deployments. Deployments are listed by ID, and with additional details such as configuration name and ID, current and target status, created on timestamp, and changed on timestamp.
+    The *Deployments* screen appears listing all existing deployments. Deployments are listed by ID, and with additional details such as configuration name and ID, current and target status, created on timestamp, and changed on timestamp.
 
 2.  Choose *Create* to create a new deployment.
 
@@ -51,6 +51,6 @@ Deployments are used to make online predictions.
     4.  In the *Review* step, review the data that you've selected for the new deployment. Choose *Create* to create the deployment.
 
 
-    The new deployment is created and is now displayed in the *All Deployments* screen.
+    The new deployment is created and is now displayed in the *Deployments* screen.
 
 

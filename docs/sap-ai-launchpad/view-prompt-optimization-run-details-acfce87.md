@@ -49,3 +49,5 @@ You can edit the values of existing tags using the :pencil2: icon, and delete ex
 
 You can delete a prompt optimization using the :wastebasket: button.
 
+You can create a duplicate prompt optimzation run by choosing the *Duplicate* button.
+

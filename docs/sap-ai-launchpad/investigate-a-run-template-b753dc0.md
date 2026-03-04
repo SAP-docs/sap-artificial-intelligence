@@ -18,7 +18,7 @@ For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef
 
 ## Procedure
 
-1.  In the *Functions Explorer* app, choose *All Scenarios*.
+1.  In the *Functions Explorer* app, choose *Scenarios*.
 
 2.  Find the scenario and display its details. For more information, see [Investigate a Scenario](investigate-a-scenario-4547979.md).
 

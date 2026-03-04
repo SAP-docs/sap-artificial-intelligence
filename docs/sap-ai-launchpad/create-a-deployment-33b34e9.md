@@ -32,7 +32,7 @@ If your runtime supports deployment durations, you'll be able to set a timeframe
 
 2.  In the *ML Operations* app, choose *Deployments*.
 
-    The *All Deployments* screen appears listing all of the deployments for the selected resource group. Deployments are listed by ID, and with additional details such as configuration name and ID, current and target status, created on timestamp, and changed on timestamp.
+    The *Deployments* screen appears listing all of the deployments for the selected resource group. Deployments are listed by ID, and with additional details such as configuration name and ID, current and target status, created on timestamp, and changed on timestamp.
 
 3.  Choose *Create Deployment* to create a new deployment.
 
@@ -77,7 +77,7 @@ If your runtime supports deployment durations, you'll be able to set a timeframe
 
 ## Results
 
-The new deployment is created and is now displayed on the *All Deployments* screen.
+The new deployment is created and is now displayed on the *Deployments* screen.
 
 **Related Information**  
 

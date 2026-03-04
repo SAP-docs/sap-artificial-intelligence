@@ -15,15 +15,15 @@ Result sets are unique to a resource group.
 
 **About Result Set Registration**
 
--   A result set can be manually registered using SAP AI Launchpad \(see [Register a Result Set](register-a-result-set-0efde3f.md)\). You register a result set using the *ML Operations* app. After you register a result set, you'll see it listed with all other result sets in the app.
+-   A result set can be manually added using SAP AI Launchpad \(see [Add a Result Set](add-a-result-set-0efde3f.md)\). You add a result set using the *ML Operations* app. After you add a result set, you'll see it listed with all other result sets in the app.
 
--   A result set can be manually registered using SAP AI Core \(see [Create Artifacts](https://help.sap.com/docs/AI_CORE/808d9d442fb0484e9b818924feeb9add/CLOUD/66413f1d9fbf4758a0d739eaf1c95dc7.html)\).
+-   A result set can be manually added using SAP AI Core \(see [Create Artifacts](https://help.sap.com/docs/AI_CORE/808d9d442fb0484e9b818924feeb9add/CLOUD/66413f1d9fbf4758a0d739eaf1c95dc7.html)\).
 
 
--   **[Register a Result Set](register-a-result-set-0efde3f.md "Use the ML
-                                    Operations app to manually register a result set
-		that is stored in your object store.")**  
-Use the *ML Operations* app to manually register a result set that is stored in your object store.
+-   **[Add a Result Set](add-a-result-set-0efde3f.md "Use the ML
+                                    Operations app to manually add a result set that
+		is stored in your object store.")**  
+Use the *ML Operations* app to manually add a result set that is stored in your object store.
 -   **[Find a Result Set](find-a-result-set-079f5dc.md "Use the ML
                                     Operations app to search for a result
 		set.")**  

@@ -57,7 +57,7 @@ Your tenant has been onboarded and a default resource group automatically create
 
 5.  Choose *Create* to create the resource group.
 
-    The *All Resource Groups* screen appears and shows the new resource group.
+    The *Resource Groups* screen appears and shows the new resource group.
 
 
 

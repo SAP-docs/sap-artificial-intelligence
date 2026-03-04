@@ -30,7 +30,7 @@ A configuration is required to create a run. The configuration provides values f
 
 ## Procedure
 
-1.  In the *Functions Explorer* app, choose *All Scenarios*.
+1.  In the *Functions Explorer* app, choose *Scenarios*.
 
 2.  Find the run template and display its details. For more information, see [Investigate a Run Template](investigate-a-run-template-b753dc0.md).
 

@@ -4,6 +4,9 @@
 
 The generative AI hub incorporates generative AI into your AI activities in SAP AI Core and SAP AI Launchpad.
 
+> ### Tip:  
+> If you want a guided, hands-on environment, you can explore the generative AI hub using the 30-day free trial. For more information, see [Try now: 30-Day Basic Trial](https://www.sap.com/products/artificial-intelligence/generative-ai-hub-trial.html).
+
 
 
 <a name="loiob0b935b86cc944e2875ba01321ff3fc6__section_k14_k3y_bzb"/>

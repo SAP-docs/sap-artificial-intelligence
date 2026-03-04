@@ -41,7 +41,7 @@ You can use your own git repository to version control your SAP AI Core template
 
 ## Context
 
-Git repositories are managed by creating personal access tokens and registering them in SAP AI Core. Personal access tokens are a means of allowing and controlling connections to GitHub repositories without compromising your credentials.
+Git repositories are managed by creating personal access tokens and adding them in SAP AI Core. Personal access tokens are a means of allowing and controlling connections to GitHub repositories without compromising your credentials.
 
 > ### Remember:  
 > You are responsible for the rotation of your access credentials and certificates of SAP AI Core within BTP according to regional policy.
@@ -76,7 +76,7 @@ You specify your unique git repository details as follows:
 
 
 > ### Tip:  
-> To share a repository between two tenants, register the repository in SAP AI Core separately for each tenant and provide the **same** `username` and `password`.
+> To share a repository between two tenants, add the repository in SAP AI Core separately for each tenant and provide the **same** `username` and `password`.
 
 
 
@@ -123,7 +123,7 @@ Create an application to sync your folders. For more information, see [Create an
 
 ## Context
 
-Git repositories are managed by creating personal access tokens and registering them in SAP AI Core. Personal access tokens are a means of allowing and controlling connections to GitHub repositories without compromising your credentials.
+Git repositories are managed by creating personal access tokens and adding them in SAP AI Core. Personal access tokens are a means of allowing and controlling connections to GitHub repositories without compromising your credentials.
 
 > ### Remember:  
 > You are responsible for the rotation of your access credentials and certificates of SAP AI Core within BTP according to regional policy.
@@ -146,7 +146,7 @@ You specify your unique git repository details as follows:
 
 
 > ### Tip:  
-> To share a repository between two tenants, register the repository in SAP AI Core separately for each tenant and provide the **same** `username` and `password`.
+> To share a repository between two tenants, add the repository in SAP AI Core separately for each tenant and provide the **same** `username` and `password`.
 
 
 

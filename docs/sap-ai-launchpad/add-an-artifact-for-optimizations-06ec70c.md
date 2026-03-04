@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
 
-# Register an Artifact for Optimizations
+# Add an Artifact for Optimizations
 
 
 
@@ -77,7 +77,7 @@
 
 ## Results
 
-Your artifact is registered.
+Your artifact is added.
 
 
 

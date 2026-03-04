@@ -40,37 +40,44 @@ To allow the rotation of tenant-wide secrets for long-running deployments withou
 
 4.  Choose *Add* to enter reference details for a new secret.
 
-5.  Complete the fields in the *Add Generic Secret* dialog box as follows:
+5.  Complete the fields in the*Add Generic Secret* dialog box as follows:
 
     1.  Switch between tenant-level secrets and resource-group-level secrets.
 
-    2.  If your secret is at the resource-group level, confirm the resource group. To change the resource group, choose <span class="SAP-icons-V5"></span> \(Change Value\).
+    2.  If your secret is at the level of the resource group, confirm the resource group or select a different one by choosing <span class="SAP-icons-V5"></span> \(Change Value\).
 
-    3.  Enter a name for the secret, making sure that the name meets the following criteria.
+    3.  Enter a name for your secret.
 
-        -   It contains only lowercase alphanumeric characters, hyphens \(-\), and numbers.
+    4.  Enter the key:value pairs for your secret in one of the following ways:
 
-        -   It doesn't start or end with a hyphen \(-\).
+        -   Leave the *Document Grounding* switch selected and choose the document repository type from the dropdown list. The dialog adjusts dynamically for you to fill the remaining information.
+        -   Leave the *Document Grounding* switch selected and switch to code view \(<span class="SAP-icons-V5"></span>\), where you can enter your secret in JSON format.
+
+        The following examples show an Amazon S3 secret in JSON and form format. Different object stores require different information.
+
+        ![](images/generic_secrets_2602b_5a2f53d.png)
+
+        > ### Note:  
+        > The JSON key-value pairs correspond to the form fields shown in form mode, and may differ in format from the information provided by your object store provider.
+        > 
+        > Entries should not be Base-64 encoded.
+
+        > ### Sample Code:  
+        > ```
+        > {
+        >   "url": "<your repository URL",
+        >   "description": "<your choice of decription>",
+        >   "access_key_id": "<your access key ID>",
+        >   "bucket": "<your S3 bucket name>",
+        >   "host": "your S3 host",
+        >   "region": "<your region>",
+        >   "secret_access_key": "<your secret access key>",
+        >   "username": "your AWS credentials username"
+        > }
+        > ```
 
 
-    4.  Enter the secret in `JSON` format. For example:
-
-
-    ```
-    {
-      "some-credential": "bXktc2VjcmV0LWNyZWRlbnRpYWw=",
-      "other-credentials": "bXktc2VjcmV0LW90aGVyLWNyZWRlbnRpYWw=",
-    }
-    ```
-
-    > ### Note:  
-    > The API expects sensitive data to be Base64-encoded. You can easily encode your data in Base64 format using the following command on Linux or MacOS: `echo -n 'my-sensitive-data' | base64`
-
-6.  In the *Labels* field, enter *Key* `document-grounding` and choose *Value* `true`, and enter *Key* `documentRepositoryType` and choose your repository type from the dropdown list.
-
-7.  Choose *Add* to save the secret details.
-
-    ![Screenshot of the SAP AI Launchpad user interface](images/generic_secret_4a_0083aa4.png)
+6.  Choose *Add* to save the secret details.
 
 
 **Related Information**  

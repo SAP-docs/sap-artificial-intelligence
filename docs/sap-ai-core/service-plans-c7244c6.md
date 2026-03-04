@@ -15,6 +15,9 @@ Your choice depends on your use case:
 -   Use the *Extended* plan for production workloads with generative AI hub access.
 
 
+> ### Tip:  
+> If you want a guided, hands-on environment, you can explore the generative AI hub using the 30-day free trial. For more information, see [Try now: 30-Day Basic Trial](https://www.sap.com/products/artificial-intelligence/generative-ai-hub-trial.html).
+
 
 
 <a name="loioc7244c6a7e3b4ffc928a2564c216e7c7__section_afd_psm_lgc"/>

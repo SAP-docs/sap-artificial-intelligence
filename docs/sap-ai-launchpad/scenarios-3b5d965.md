@@ -17,8 +17,8 @@ Scenarios and their templates are available to all AI scenario consumers.
 
 -   **[Investigate a Scenario](investigate-a-scenario-4547979.md "In the Functions
                                     Explorer app, you
-		can view a list of the scenarios available to you and explore their details.")**  
-In the *Functions Explorer* app, you can view a list of the scenarios available to you and explore their details.
+		can view a list of available scenarios and explore their details.")**  
+In the *Functions Explorer* app, you can view a list of available scenarios and explore their details.
 -   **[Templates](templates-442a7e8.md "As an AI scenario consumer, you subscribe to an AI service. The AI service comes with
 		predefined scenarios which contain templates.")**  
 As an AI scenario consumer, you subscribe to an AI service. The AI service comes with predefined scenarios which contain templates.

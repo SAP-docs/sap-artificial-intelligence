@@ -172,17 +172,22 @@ A deployment runs a model for serving \(inferencing\) purposes. You use deployme
 -   **[Schedules](schedules-06a6cde.md "Set up a periodic scheduling of workflow executions to automate execution creation, and define its parameters such as the recurrence
 		period and recurrence duration. Users can update a schedule to change its recurrence period of operation and job.")**  
 Set up a periodic scheduling of workflow executions to automate execution creation, and define its parameters such as the recurrence period and recurrence duration. Users can update a schedule to change its recurrence period of operation and job.
--   **[Datasets](datasets-e299ed5.md " A dataset is a type of artifact which is registered in your AI runtime. A registered dataset references files that are stored in your
-		connected hyperscaler object store.")**  
- A dataset is a type of artifact which is registered in your AI runtime. A registered dataset references files that are stored in your connected hyperscaler object store.
+-   **[Datasets](datasets-e299ed5.md " A dataset is a type of artifact which is
+		added
+		in your AI runtime. A
+		added
+		dataset references files that are stored in your connected hyperscaler object store.")**  
+ A dataset is a type of artifact which is added in your AI runtime. A added dataset references files that are stored in your connected hyperscaler object store.
 -   **[Models](models-aba8797.md "A model is a type of artifact that results from a training process. ")**  
 A model is a type of artifact that results from a training process.
 -   **[Result Sets](result-sets-cc7bacc.md "A result set is a type of artifact that results from an execution used for batch inferencing. ")**  
 A result set is a type of artifact that results from an execution used for batch inferencing.
--   **[Other Artifacts](other-artifacts-fae21be.md "Any artifact that cannot be categorized as a dataset, model, or result set is registered as an
-			“other”
+-   **[Other Artifacts](other-artifacts-fae21be.md "Any artifact that cannot be categorized as a dataset, model, or result set is
+		added
+		as an
+		“other”
 		artifact.")**  
-Any artifact that cannot be categorized as a dataset, model, or result set is registered as an “other” artifact.
+Any artifact that cannot be categorized as a dataset, model, or result set is added as an “other” artifact.
 
 **Related Information**  
 

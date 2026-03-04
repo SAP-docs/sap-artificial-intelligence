@@ -24,7 +24,7 @@ You have the `mloperations_viewer` or `scenario_deployment_viewer` role, or you 
 
 2.  In the *ML Operations* app, choose *Deployments*.
 
-    The *All Deployments* screen appears listing all of the deployments for the selected resource group. Deployments are listed by ID, and with additional details such as configuration name and ID, current and target status, created on timestamp, and changed on timestamp.
+    The *Deployments* screen appears listing all of the deployments for the selected resource group. Deployments are listed by ID, and with additional details such as configuration name and ID, current and target status, created on timestamp, and changed on timestamp.
 
     > ### Note:  
     > If your runtime supports deployment durations, you'll see running until dates. Deployments run until this time, and are then automatically stopped and deleted.

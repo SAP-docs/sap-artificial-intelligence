@@ -20,7 +20,7 @@ For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef
 
 ## Procedure
 
-1.  In the *Functions Explorer* app, choose *All Scenarios*.
+1.  In the *Functions Explorer* app, choose *Scenarios*.
 
 2.  Find the deployment template and display its details. See [Investigate a Deployment Template](investigate-a-deployment-template-0f68ee0.md).
 

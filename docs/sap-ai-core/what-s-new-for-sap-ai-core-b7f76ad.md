@@ -92,6 +92,666 @@ Generative AI hub
 </td>
 <td valign="top">
 
+SAP RPT 1 supports `top_k` as an input parameter, and outputs now include confidence intervals.
+
+For more information, see [Example Payloads for Inferencing: sap-rpt-1](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/399566eec2404915ac69077cfa23f7b8.html "") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-03-01
+
+</td>
+<td valign="top">
+
+2026-03-01
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+PDF documents are supported in the Data Masking module in Orchestration, and Service Now has been added as a grounding repository.
+
+For more information, see [Enhancing Model Consumption with Data Masking](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/66ad6f469afc4c2cbaa91a27a33f7b21.html "") :arrow_upper_right: and [Generic Secrets for Grounding](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/e1a201c1fc2e4eb3a570efd81a3b3616.html "The grounding module in SAP AI Core connects to external document repositories through generic secrets. These secrets store the credentials and connection details required to access repository content used in retrieval and grounding pipelines.") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-03-01
+
+</td>
+<td valign="top">
+
+2026-03-01
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+New models are supported, including Gemini 3.0 Pro, Perplexity Deep Research and Anthropic Claude Opus 4.6.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-03-01
+
+</td>
+<td valign="top">
+
+2026-03-01
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+You can now manage metadata for your documents, collections and chunks created using the Vector API, to enable advanced filtering and organization of your content.
+
+For more information, see [Metadata](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/f3dd96febef648dea39f2187ba040038.html "") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-02-16
+
+</td>
+<td valign="top">
+
+2026-02-16
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+You can merge and rank search results from multiple data repositories using post-processing capabilities of the Retrieval API.
+
+For more information, see [Retrieval Search](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/65fc276752c148eebc0aac1ae028c806.html "") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-02-16
+
+</td>
+<td valign="top">
+
+2026-02-16
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Vector search supports advanced filtering capabilities including metadata filtering.
+
+For more information, see [Vector Search](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/255589ab034e4c1394ddf9498cf58dce.html "This endpoint allows you to perform a search for relevant chunks within a specific collection or across all collections based on a user query. The response includes chunks that match the query, filtered by collection and document metadata.") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-02-16
+
+</td>
+<td valign="top">
+
+2026-02-16
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Custom metrics are supported in prompt optimizations, enabling you to define and optimize prompts based on your specific evaluation criteria. Only LLM-as-a-judge metrics with numerical or Boolean output types can be used in optimization tasks.
+
+For more information, see [Create a Custom Metric](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/ab1160ebd60d4f4c86d1a723cca0c90c.html "") :arrow_upper_right: and [Create a Configuration for a Prompt Optimization](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/40ba1683832d4c3a92eaac8c0c399b18.html "Configuration for a prompt optimization defines the parameters, artifacts, and model settings that SAP AI Core uses to execute a prompt optimization.") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-02-16
+
+</td>
+<td valign="top">
+
+2026-02-16
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Custom metric creation has been enhanced.
+
+For more information, see [Create a Custom Metric](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/ab1160ebd60d4f4c86d1a723cca0c90c.html "") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+Deprecated
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-02-16
+
+</td>
+<td valign="top">
+
+2026-02-16
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+The Prompt Registry now enables you to create and manage orchestration configurations declaratively, allowing you to version and track complex AI workflows alongside your prompts for better governance and reproducibility.
+
+For more information, see [Create an Orchestration Config (Imperative)](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/2f273172fc1d468d833760ac4302ad21.html "") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-02-16
+
+</td>
+<td valign="top">
+
+2026-02-16
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+New models are supported, including Open AI GPT 5.2..
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-02-16
+
+</td>
+<td valign="top">
+
+2026-02-16
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
 You can specify the `promptTemplateScope` access level in evaluation and prompt optimization configurations.
 
 For more information, see [Create an Evaluation](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/77ebfe5b28ef4442aff752cfe26a0db7.html "") :arrow_upper_right: and [Create a Configuration for a Prompt Optimization](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/40ba1683832d4c3a92eaac8c0c399b18.html "Configuration for a prompt optimization defines the parameters, artifacts, and model settings that SAP AI Core uses to execute a prompt optimization.") :arrow_upper_right:.
@@ -312,7 +972,7 @@ Announcement
 </td>
 <td valign="top">
 
-Technology
+
 
 </td>
 <td valign="top">
@@ -2903,7 +3563,7 @@ Generative AI hub
 
 A new module has been added to the orchestration system. The grounding module enhances AI processes by integrating external data that is contextually relevant, domain-specific, or real-time. This additional data complements the natural language processing abilities of pretrained models, which are typically based on general information.
 
-For more information, see [Grounding](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/035c455a5a424697b60f4a24b6d791fe.html "Grounding integrates external, contextually relevant, domain-specific, or real-time data into AI processes. This data enhances the natural language processing capabilities of pretrained models, which are trained on general material.") :arrow_upper_right:.
+For more information, see [Grounding](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/035c455a5a424697b60f4a24b6d791fe.html "The grounding module integrates external, domain-specific, or real-time data into generative AI workflows. By enriching pretrained models with contextually relevant information, grounding improves response accuracy and relevance beyond the models’ general training data.") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -4946,7 +5606,7 @@ Sync Endpoint for ArgoCD
 
 In addition to automatically syncing applications, you can request a sync manually by using an API endpoint.
 
-For more information on synching applications, see [Create an Application](create-an-application-80dbecf.md) .
+For more information on syncing applications, see [Create an Application](create-an-application-80dbecf.md) .
 
 </td>
 <td valign="top">

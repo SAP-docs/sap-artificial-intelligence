@@ -651,6 +651,11 @@ Role
 Allows Users To
 
 </th>
+<th valign="top">
+
+Scopes
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -661,6 +666,11 @@ Allows Users To
 <td valign="top">
 
 Manage custom access to runtime connections in SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+`allowed_connection`
 
 </td>
 </tr>
@@ -675,6 +685,11 @@ Manage custom access to runtime connections in SAP AI Launchpad
 View runtime connections in SAP AI Launchpad 
 
 </td>
+<td valign="top">
+
+`workspaces.read`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -685,6 +700,17 @@ View runtime connections in SAP AI Launchpad
 <td valign="top">
 
 Edit runtime connections in SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+`workspaces.read`
+
+`workspaces.create` 
+
+`workspaces.update`
+
+`workspaces.delete`
 
 </td>
 </tr>
@@ -699,6 +725,45 @@ Edit runtime connections in SAP AI Launchpad
 Access SAP AI Launchpad \(default role for all users\)
 
 </td>
+<td valign="top">
+
+`ailaunchpad.viewer`
+
+`workspaces.read`
+
+`scenarios.read`
+
+`scenarios.deployments.read`
+
+`scenarios.executables.read`
+
+`scenarios.configurations.read`
+
+`genai.prompt.executor`
+
+`genai.prompt.read`
+
+`genai.prompt.create`
+
+`genai.prompt.update`
+
+`genai.prompt.delete`
+
+`genai.disclaimermessage.read`
+
+`genai.orchestration.execute`
+
+`genai.prompt.media.executor`
+
+`genai.modellibrary.read`
+
+`genai.document_grounding.retrieval.read`
+
+`genai.document_grounding.vector.read`
+
+`genai.document_grounding.pipeline.read`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -709,6 +774,13 @@ Access SAP AI Launchpad \(default role for all users\)
 <td valign="top">
 
 View Git repositories in the *SAP AI Core Administration* app
+
+</td>
+<td valign="top">
+
+`admin.manager`
+
+`aicore.repositories.read`
 
 </td>
 </tr>
@@ -723,6 +795,19 @@ View Git repositories in the *SAP AI Core Administration* app
 Add, edit, or remove Git repositories in the *SAP AI Core Administration* app
 
 </td>
+<td valign="top">
+
+`admin.manager`
+
+`aicore.repositories.read`
+
+`aicore.repositories.create`
+
+`aicore.repositories.update`
+
+`aicore.repositories.delete`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -733,6 +818,13 @@ Add, edit, or remove Git repositories in the *SAP AI Core Administration* app
 <td valign="top">
 
 View applications in the *SAP AI Core Administration* app
+
+</td>
+<td valign="top">
+
+`admin.manager`
+
+`aicore.applications.read`
 
 </td>
 </tr>
@@ -747,6 +839,19 @@ View applications in the *SAP AI Core Administration* app
 Create, edit, or delete applications in the *SAP AI Core Administration* app
 
 </td>
+<td valign="top">
+
+`admin.manager`
+
+`aicore.applications.read`
+
+`aicore.applications.create`
+
+`aicore.applications.update`
+
+`aicore.applications.delete`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -757,6 +862,13 @@ Create, edit, or delete applications in the *SAP AI Core Administration* app
 <td valign="top">
 
 View Docker registry secrets in the *SAP AI Core Administration* app
+
+</td>
+<td valign="top">
+
+`admin.manager`
+
+`aicore.dockerregistrysecret.credentials.read`
 
 </td>
 </tr>
@@ -771,6 +883,19 @@ View Docker registry secrets in the *SAP AI Core Administration* app
 Add, edit, or remove Docker registry secrets in the *SAP AI Core Administration* app
 
 </td>
+<td valign="top">
+
+`admin.manager`
+
+`aicore.dockerregistrysecret.credentials.read`
+
+`aicore.dockerregistrysecret.credentials.create`
+
+`aicore.dockerregistrysecret.credentials.update`
+
+`aicore.dockerregistrysecret.credentials.delete`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -783,16 +908,36 @@ Add, edit, or remove Docker registry secrets in the *SAP AI Core Administration*
 View resource groups in the *SAP AI Core Administration* app
 
 </td>
+<td valign="top">
+
+`admin.manager`
+
+`aicore.resourcegroups.read`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
 
-`aicore_admin_resourcegroup_editor`
+`aicore_admin_resourcegroups_editor`
 
 </td>
 <td valign="top">
 
 Create, edit, or delete resource groups in the *SAP AI Core Administration* app
+
+</td>
+<td valign="top">
+
+`admin.manager`
+
+`aicore.resourcegroups.read`
+
+`aicore.resourcegroups.create`
+
+`aicore.resourcegroups.update`
+
+`aicore.resourcegroups.delete`
 
 </td>
 </tr>
@@ -807,6 +952,13 @@ Create, edit, or delete resource groups in the *SAP AI Core Administration* app
 View object store secrets in the *SAP AI Core Administration* app
 
 </td>
+<td valign="top">
+
+`admin.manager`
+
+`aicore.objectstoresecret.credentials.read`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -817,6 +969,19 @@ View object store secrets in the *SAP AI Core Administration* app
 <td valign="top">
 
 Add, edit, or remove object store secrets in the *SAP AI Core Administration* app
+
+</td>
+<td valign="top">
+
+`admin.manager`
+
+`aicore.objectstoresecret.credentials.read`
+
+`aicore.objectstoresecret.credentials.create`
+
+`aicore.objectstoresecret.credentials.update`
+
+`aicore.objectstoresecret.credentials.delete`
 
 </td>
 </tr>
@@ -831,6 +996,11 @@ Add, edit, or remove object store secrets in the *SAP AI Core Administration* ap
 View scenarios and scenario versions
 
 </td>
+<td valign="top">
+
+`scenarios.read`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -841,6 +1011,11 @@ View scenarios and scenario versions
 <td valign="top">
 
 View executables of a scenario
+
+</td>
+<td valign="top">
+
+`scenarios.executables.read`
 
 </td>
 </tr>
@@ -855,6 +1030,11 @@ View executables of a scenario
 View configurations of a scenario
 
 </td>
+<td valign="top">
+
+`scenarios.configurations.read`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -865,6 +1045,13 @@ View configurations of a scenario
 <td valign="top">
 
 Edit configurations of a scenario
+
+</td>
+<td valign="top">
+
+`scenarios.configurations.read`
+
+`scenarios.configurations.create`
 
 </td>
 </tr>
@@ -879,6 +1066,13 @@ Edit configurations of a scenario
 View deployments of a scenario
 
 </td>
+<td valign="top">
+
+`scenarios.deployments.read`
+
+`scenarios.deployments.logs.read`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -889,6 +1083,17 @@ View deployments of a scenario
 <td valign="top">
 
 Edit deployments of a scenario
+
+</td>
+<td valign="top">
+
+`scenarios.deployments.read`
+
+`scenarios.deployments.create`
+
+`scenarios.deployments.update`
+
+`scenarios.deployments.delete`
 
 </td>
 </tr>
@@ -903,6 +1108,11 @@ Edit deployments of a scenario
 Invoke deployments of a scenario
 
 </td>
+<td valign="top">
+
+`scenarios.deployments.predict`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -913,6 +1123,13 @@ Invoke deployments of a scenario
 <td valign="top">
 
 View executions of a scenario
+
+</td>
+<td valign="top">
+
+`scenarios.executions.read`
+
+`scenarios.executions.logs.read`
 
 </td>
 </tr>
@@ -927,6 +1144,19 @@ View executions of a scenario
 Edit executions of a scenario
 
 </td>
+<td valign="top">
+
+`scenarios.executions.read`
+
+`scenarios.executions.create`
+
+`scenarios.executions.cancel`
+
+`scenarios.executions.delete`
+
+`scenarios.metrics.create`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -937,6 +1167,11 @@ Edit executions of a scenario
 <td valign="top">
 
 View artifacts of a scenario
+
+</td>
+<td valign="top">
+
+`scenarios.artifacts.read`
 
 </td>
 </tr>
@@ -951,6 +1186,13 @@ View artifacts of a scenario
 Edit artifacts of a scenario
 
 </td>
+<td valign="top">
+
+`scenarios.artifacts.read`
+
+`scenarios.artifacts.register`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -961,6 +1203,11 @@ Edit artifacts of a scenario
 <td valign="top">
 
 View tracking metrics of an execution
+
+</td>
+<td valign="top">
+
+`scenarios.metrics.read`
 
 </td>
 </tr>
@@ -975,6 +1222,11 @@ View tracking metrics of an execution
 View resource groups
 
 </td>
+<td valign="top">
+
+`resourcegroup.read`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -985,6 +1237,11 @@ View resource groups
 <td valign="top">
 
 Template for allowing access to all resource groups for a connection
+
+</td>
+<td valign="top">
+
+`allow_all_resourcegroups`
 
 </td>
 </tr>
@@ -999,6 +1256,11 @@ Template for allowing access to all resource groups for a connection
 Template for viewing functions explorer for SAP AI Launchpad 
 
 </td>
+<td valign="top">
+
+`functions.explorer`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1009,6 +1271,11 @@ Template for viewing functions explorer for SAP AI Launchpad
 <td valign="top">
 
 Template for viewing operations manager for SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+`operations.manager`
 
 </td>
 </tr>
@@ -1023,6 +1290,11 @@ Template for viewing operations manager for SAP AI Launchpad
 View jobs of a scenario
 
 </td>
+<td valign="top">
+
+`scenarios.executions.read`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1033,6 +1305,19 @@ View jobs of a scenario
 <td valign="top">
 
 Edit jobs of a scenario
+
+</td>
+<td valign="top">
+
+`scenarios.executions.read`
+
+`scenarios.executions.create`
+
+`scenarios.executions.cancel`
+
+`scenarios.executions.delete`
+
+`scenarios.metrics.create`
 
 </td>
 </tr>
@@ -1047,6 +1332,39 @@ Edit jobs of a scenario
 Viewer role for *ML Operations* app
 
 </td>
+<td valign="top">
+
+`workspaces.read`
+
+`resourcegroup.read`
+
+`scenarios.read`
+
+`scenarios.executables.read`
+
+`scenarios.configurations.read`
+
+`scenarios.deployments.read`
+
+`scenarios.executions.read`
+
+`scenarios.metrics.read`
+
+`scenarios.artifacts.read`
+
+`operations.manager`
+
+`scenarios.executions.logs.read`
+
+`scenarios.deployments.logs.read`
+
+`scenarios.executionschedules.read`
+
+`genai.prompttemplate.read`
+
+`genai.orchestration_config.read`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1056,19 +1374,64 @@ Viewer role for *ML Operations* app
 </td>
 <td valign="top">
 
-Editor role for *ML Operations* app
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`artifact_register`
+Editor role for *ML Operations* 
 
 </td>
 <td valign="top">
 
-Register artifacts in *ML Operations* app
+`workspaces.read`
+
+`resourcegroup.read`
+
+`scenarios.read`
+
+`scenarios.executables.read`
+
+`scenarios.configurations.read`
+
+`scenarios.configurations.create`
+
+`scenarios.deployments.read`
+
+`scenarios.deployments.create`
+
+`scenarios.deployments.update`
+
+`scenarios.deployments.delete`
+
+`scenarios.executions.read`
+
+`scenarios.executions.create`
+
+`scenarios.executions.cancel`
+
+`scenarios.executions.delete`
+
+`scenarios.metrics.create`
+
+`scenarios.metrics.read`
+
+`scenarios.artifacts.read`
+
+`operations.manager`
+
+`scenarios.artifacts.register`
+
+`scenarios.executions.logs.read`
+
+`scenarios.deployments.logs.read`
+
+`scenarios.executionschedules.read`
+
+`scenarios.executionschedules.create`
+
+`scenarios.executionschedules.update`
+
+`scenarios.executionschedules.delete`
+
+`genai.prompttemplate.read`
+
+`genai.orchestration_config.read`
 
 </td>
 </tr>
@@ -1083,6 +1446,33 @@ Register artifacts in *ML Operations* app
 Viewer role *Functions Explorer* app
 
 </td>
+<td valign="top">
+
+`workspaces.read`
+
+`functions.explorer`
+
+`scenarios.executables.read`
+
+`scenarios.read`
+
+`scenarios.configurations.read`
+
+`scenarios.executions.read`
+
+`scenarios.artifacts.read`
+
+`scenarios.metrics.read`
+
+`scenarios.deployments.read`
+
+`files.download`
+
+`genai.prompttemplate.read`
+
+`genai.orchestration_config.read`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1093,6 +1483,55 @@ Viewer role *Functions Explorer* app
 <td valign="top">
 
 Editor role *Functions Explorer* app
+
+</td>
+<td valign="top">
+
+`workspaces.read`
+
+`functions.explorer`
+
+`scenarios.executables.read`
+
+`scenarios.read`
+
+`scenarios.metrics.read`
+
+`scenarios.configurations.read`
+
+`scenarios.configurations.create`
+
+`scenarios.executions.read`
+
+`scenarios.executions.create`
+
+`scenarios.executions.cancel`
+
+`scenarios.executions.delete`
+
+`scenarios.metrics.create`
+
+`scenarios.artifacts.read`
+
+`scenarios.artifacts.register`
+
+`scenarios.deployments.read`
+
+`scenarios.deployments.create`
+
+`scenarios.deployments.update`
+
+`scenarios.deployments.delete`
+
+`files.upload`
+
+`files.download`
+
+`files.delete`
+
+`genai.prompttemplate.read`
+
+`genai.orchestration_config.read`
 
 </td>
 </tr>
@@ -1107,6 +1546,23 @@ Editor role *Functions Explorer* app
 Viewer role *SAP AI Core Administration* app
 
 </td>
+<td valign="top">
+
+`admin.manager`
+
+`aicore.repositories.read`
+
+`aicore.applications.read`
+
+`aicore.dockerregistrysecret.credentials.read`
+
+`aicore.objectstoresecret.credentials.read`
+
+`aicore.genericsecret.credentials.read`
+
+`aicore.resourcegroups.read`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1117,6 +1573,59 @@ Viewer role *SAP AI Core Administration* app
 <td valign="top">
 
 Editor role *SAP AI Core Administration* app
+
+</td>
+<td valign="top">
+
+`admin.manager`
+
+`aicore.repositories.read`
+
+`aicore.applications.read`
+
+`aicore.dockerregistrysecret.credentials.read`
+
+`aicore.objectstoresecret.credentials.read`
+
+`aicore.genericsecret.credentials.read`
+
+`aicore.resourcegroups.read`
+
+`aicore.repositories.create`
+
+`aicore.repositories.update`
+
+`aicore.repositories.delete`
+
+`aicore.applications.create`
+
+`aicore.applications.update`
+
+`aicore.applications.delete`
+
+`aicore.dockerregistrysecret.credentials.create`
+
+`aicore.dockerregistrysecret.credentials.update`
+
+`aicore.dockerregistrysecret.credentials.delete`
+
+`aicore.objectstoresecret.credentials.create`
+
+`aicore.objectstoresecret.credentials.update`
+
+`aicore.objectstoresecret.credentials.delete`
+
+`aicore.genericsecret.credentials.create`
+
+`aicore.genericsecret.credentials.update`
+
+`aicore.genericsecret.credentials.delete`
+
+`aicore.resourcegroups.create`
+
+`aicore.resourcegroups.update`
+
+`aicore.resourcegroups.delete`
 
 </td>
 </tr>
@@ -1131,6 +1640,17 @@ Editor role *SAP AI Core Administration* app
 Edit execution schedules
 
 </td>
+<td valign="top">
+
+`scenarios.executionschedules.read`
+
+`scenarios.executionschedules.create`
+
+`scenarios.executionschedules.update`
+
+`scenarios.executionschedules.delete`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1141,6 +1661,11 @@ Edit execution schedules
 <td valign="top">
 
 View execution schedules
+
+</td>
+<td valign="top">
+
+`scenarios.executionschedules.read`
 
 </td>
 </tr>
@@ -1155,6 +1680,17 @@ View execution schedules
 Create, edit or delete generic secrets in the SAP AI Core runtime through the *SAP AI Core Administration* app
 
 </td>
+<td valign="top">
+
+`aicore.genericsecret.credentials.read`
+
+`aicore.genericsecret.credentials.create`
+
+`aicore.genericsecret.credentials.update`
+
+`aicore.genericsecret.credentials.delete`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1165,6 +1701,13 @@ Create, edit or delete generic secrets in the SAP AI Core runtime through the *S
 <td valign="top">
 
 View generic secrets in the SAP AI Core runtime through the *SAP AI Core Administration* app
+
+</td>
+<td valign="top">
+
+`admin.manager`
+
+`aicore.genericsecret.credentials.read`
 
 </td>
 </tr>
@@ -1181,6 +1724,51 @@ Run prompts in the <code>generative AI hub prompt editor</code>
 Build and test orchestration workflows in the <code>generative AI hub orchestration service</code>
 
 Explore available models in the generative AI hub and make an informed model selection using the model library
+
+</td>
+<td valign="top">
+
+`workspaces.read`
+
+`scenarios.read`
+
+`scenarios.deployments.read`
+
+`scenarios.executables.read`
+
+`scenarios.configurations.read`
+
+`genai.prompt.executor`
+
+`genai.disclaimermessage.read`
+
+`genai.orchestration.execute`
+
+`genai.prompttemplate.read`
+
+`genai.prompt.media.executor`
+
+`genai.modellibrary.read`
+
+`genai.document_grounding.retrieval.read`
+
+`genai.document_grounding.vector.read`
+
+`genai.document_grounding.pipeline.read`
+
+`custom.evaluation`
+
+`scenarios.metrics.read`
+
+`scenarios.artifacts.read`
+
+`scenarios.executions.read`
+
+`scenarios.executions.logs.read`
+
+`evaluation_metrics.read`
+
+`genai.orchestration_config.read`
 
 </td>
 </tr>
@@ -1201,6 +1789,101 @@ Build, test, and manage orchestration workflows in the <code>generative AI hub o
 Explore available models in the generative AI hub and make an informed model selection using the model library
 
 </td>
+<td valign="top">
+
+`workspaces.read`
+
+`scenarios.read`
+
+`scenarios.deployments.read`
+
+`scenarios.deployments.create`
+
+`scenarios.executables.read`
+
+`scenarios.configurations.read`
+
+`scenarios.configurations.create`
+
+`genai.prompt.executor`
+
+`genai.prompt.read`
+
+`genai.prompt.create`
+
+`genai.prompt.update`
+
+`genai.prompt.delete`
+
+`genai.disclaimermessage.read`
+
+`genai.orchestration.execute`
+
+`genai.prompttemplate.read`
+
+`genai.prompttemplate.create`
+
+`genai.prompttemplate.delete`
+
+`genai.prompt.media.executor`
+
+`genai.modellibrary.read`
+
+`genai.document_grounding.retrieval.read`
+
+`genai.document_grounding.vector.read`
+
+`genai.document_grounding.vector.delete`
+
+`genai.document_grounding.pipeline.read`
+
+`genai.document_grounding.pipeline.create`
+
+`genai.document_grounding.pipeline.delete`
+
+`custom.evaluation`
+
+`scenarios.artifacts.read`
+
+`scenarios.artifacts.register`
+
+`scenarios.metrics.read`
+
+`scenarios.metrics.create`
+
+`scenarios.metrics.delete`
+
+`scenarios.executions.read`
+
+`scenarios.executions.create`
+
+`scenarios.executions.delete`
+
+`scenarios.executions.cancel`
+
+`scenarios.executions.logs.read`
+
+`files.download`
+
+`files.upload`
+
+`files.delete`
+
+`aicore.objectstoresecret.credentials.read`
+
+`evaluation_metrics.read`
+
+`evaluation_metrics.create`
+
+`evaluation_metrics.delete`
+
+`genai.orchestration_config.read`
+
+`genai.orchestration_config.create`
+
+`genai.orchestration_config.delete`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1215,6 +1898,33 @@ Delete user data in the **generative AI hub**
 Explore available models in the generative AI hub and make an informed model selection using the model library
 
 </td>
+<td valign="top">
+
+`workspaces.read`
+
+`scenarios.read`
+
+`scenarios.deployments.read`
+
+`scenarios.executables.read`
+
+`scenarios.configurations.read`
+
+`genai.promptadmin.delete`
+
+`genai.disclaimermessage.read`
+
+`genai.disclaimermessage.create`
+
+`genai.disclaimermessage.update`
+
+`genai.disclaimermessage.delete`
+
+`genai.dbusage.read`
+
+`genai.modellibrary.read`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1225,6 +1935,23 @@ Explore available models in the generative AI hub and make an informed model sel
 <td valign="top">
 
 Run prompts in the <code>generative AI hub prompt editor</code>. Build and test orchestration workflows in the <code>generative AI hub orchestration service</code>
+
+</td>
+<td valign="top">
+
+`scenarios.read`
+
+`scenarios.deployments.read`
+
+`scenarios.executables.read`
+
+`scenarios.configurations.read`
+
+`genai.prompt.executor`
+
+`genai.disclaimermessage.read`
+
+`genai.modellibrary.read`
 
 </td>
 </tr>
@@ -1239,6 +1966,31 @@ Run prompts in the <code>generative AI hub prompt editor</code>. Build and test 
 Create, update and run prompts in the <code>generative AI hub prompt editor</code>, read and deleted your saved prompts in the <code>generative AI hub</code> prompt manager
 
 </td>
+<td valign="top">
+
+`scenarios.read`
+
+`scenarios.deployments.read`
+
+`scenarios.executables.read`
+
+`scenarios.configurations.read`
+
+`genai.prompt.executor`
+
+`genai.prompt.read`
+
+`genai.prompt.create`
+
+`genai.prompt.update`
+
+`genai.prompt.delete`
+
+`genai.disclaimermessage.read`
+
+`genai.modellibrary.read`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1251,6 +2003,31 @@ Create, update and run prompts in the <code>generative AI hub prompt editor</cod
 Delete user data in the generative AI hub. Create, edit or delete disclaimers in the generative AI hub.
 
 </td>
+<td valign="top">
+
+`scenarios.read`
+
+`scenarios.deployments.read`
+
+`scenarios.executables.read`
+
+`scenarios.configurations.read`
+
+`genai.promptadmin.delete`
+
+`genai.disclaimermessage.read`
+
+`genai.disclaimermessage.create`
+
+`genai.disclaimermessage.update`
+
+`genai.disclaimermessage.delete`
+
+`genai.dbusage.read`
+
+`genai.modellibrary.read`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1261,6 +2038,13 @@ Delete user data in the generative AI hub. Create, edit or delete disclaimers in
 <td valign="top">
 
 Access SAP AI Launchpad, default role for users, without generative AI hub 
+
+</td>
+<td valign="top">
+
+`ailaunchpad.viewer`
+
+`workspaces.read`
 
 </td>
 </tr>
@@ -1277,16 +2061,38 @@ Build and test orchestration workflows in the <code>generative AI hub orchestrat
 Explore available models in generative AI hub and make an informed model selection using the model library
 
 </td>
+<td valign="top">
+
+`workspaces.read`
+
+`scenarios.read`
+
+`scenarios.deployments.read`
+
+`scenarios.executables.read`
+
+`scenarios.configurations.read`
+
+`genai.orchestration.execute`
+
+`genai.modellibrary.read`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
 
-`prompt_media_executor` 
+`prompt_media_experimenter` 
 
 </td>
 <td valign="top">
 
-Upload images in the <code>generative AI hub chat and prompt editor</code>.
+This role template includes prompt experimentation using medias in generative AI hub
+
+</td>
+<td valign="top">
+
+`genai.prompt.media.executor`
 
 </td>
 </tr>
@@ -1301,6 +2107,23 @@ Upload images in the <code>generative AI hub chat and prompt editor</code>.
 View, create and delete document repositories and pipelines in the grounding management app in generative AI hub.
 
 </td>
+<td valign="top">
+
+`aicore.genericsecret.credentials.read`
+
+`genai.document_grounding.retrieval.read`
+
+`genai.document_grounding.vector.read`
+
+`genai.document_grounding.vector.delete`
+
+`genai.document_grounding.pipeline.read`
+
+`genai.document_grounding.pipeline.create`
+
+`genai.document_grounding.pipeline.delete`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1311,6 +2134,15 @@ View, create and delete document repositories and pipelines in the grounding man
 <td valign="top">
 
 View document repositories and pipelines in the grounding management app in generative AI hub.
+
+</td>
+<td valign="top">
+
+`genai.document_grounding.retrieval.read`
+
+`genai.document_grounding.vector.read`
+
+`genai.document_grounding.pipeline.read`
 
 </td>
 </tr>
@@ -1325,6 +2157,55 @@ View document repositories and pipelines in the grounding management app in gene
 Custom evaluation access in generative AI hub, for creating and viewing custom evaluation jobs and viewing results.
 
 </td>
+<td valign="top">
+
+`workspaces.read`
+
+`scenarios.read`
+
+`custom.evaluation`
+
+`scenarios.artifacts.read`
+
+`scenarios.artifacts.register`
+
+`scenarios.metrics.read`
+
+`scenarios.metrics.create`
+
+`scenarios.metrics.delete`
+
+`scenarios.executions.read`
+
+`scenarios.executions.create`
+
+`scenarios.executions.delete`
+
+`scenarios.executions.cancel`
+
+`scenarios.executions.logs.read`
+
+`files.download`
+
+`files.upload`
+
+`files.delete`
+
+`scenarios.configurations.create`
+
+`aicore.objectstoresecret.credentials.read`
+
+`genai.prompttemplate.read`
+
+`evaluation_metrics.read`
+
+`evaluation_metrics.create`
+
+`evaluation_metrics.delete`
+
+`genai.orchestration_config.read`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1335,6 +2216,15 @@ Custom evaluation access in generative AI hub, for creating and viewing custom e
 <td valign="top">
 
 View, download, create, update, and delete data in registered object stores.in the SAP AI Core runtime.
+
+</td>
+<td valign="top">
+
+`files.upload`
+
+`files.delete`
+
+`files.download`
 
 </td>
 </tr>
@@ -1349,6 +2239,11 @@ View, download, create, update, and delete data in registered object stores.in t
 Download data in registered object stores.in the SAP AI Core runtime.
 
 </td>
+<td valign="top">
+
+`files.download`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1359,6 +2254,11 @@ Download data in registered object stores.in the SAP AI Core runtime.
 <td valign="top">
 
 View and run orchestration workflows in the generative AI hub
+
+</td>
+<td valign="top">
+
+`genai.orchestration_config.read`
 
 </td>
 </tr>
@@ -1373,6 +2273,17 @@ View and run orchestration workflows in the generative AI hub
 View, create and run orchestration workflows in the generative AI hub
 
 </td>
+<td valign="top">
+
+`scenarios.read`
+
+`genai.orchestration_config.read`
+
+`genai.orchestration_config.create`
+
+`genai.orchestration_config.delete`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1383,6 +2294,11 @@ View, create and run orchestration workflows in the generative AI hub
 <td valign="top">
 
 View and run prompt templates in the <code>generative AI hub</code>
+
+</td>
+<td valign="top">
+
+`genai.prompttemplate.read`
 
 </td>
 </tr>
@@ -1397,6 +2313,17 @@ View and run prompt templates in the <code>generative AI hub</code>
 Create and view prompt templates in the <code>generative AI hub</code>
 
 </td>
+<td valign="top">
+
+`scenarios.read`
+
+`genai.prompttemplate.read`
+
+`genai.prompttemplate.create`
+
+`genai.prompttemplate.delete`
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1407,6 +2334,1159 @@ Create and view prompt templates in the <code>generative AI hub</code>
 <td valign="top">
 
 Manage the lifecycle of prompt templates in the <code>generative AI hub</code>
+
+</td>
+<td valign="top">
+
+`genai.prompttemplate.read`
+
+`genai.prompttemplate.create`
+
+</td>
+</tr>
+</table>
+
+**Scopes**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Name
+
+</th>
+<th valign="top">
+
+Allows Users To
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`Callback`
+
+</td>
+<td valign="top">
+
+With this scope enabled, the system can trigger the tenant onboarding, offboarding, and getDependencies callbacks.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`workspaces.read`
+
+</td>
+<td valign="top">
+
+Read runtime connections
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`workspaces.create`
+
+</td>
+<td valign="top">
+
+Create runtime connections
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`workspaces.update`
+
+</td>
+<td valign="top">
+
+Update runtime connections
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`workspaces.delete`
+
+</td>
+<td valign="top">
+
+Delete runtime connections
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`ailaunchpad.viewer`
+
+</td>
+<td valign="top">
+
+Default scope
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`scenarios.read`
+
+</td>
+<td valign="top">
+
+List scenarios and get scenario details
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`scenarios.executables.read`
+
+</td>
+<td valign="top">
+
+List executables and retrieve an executable from a scenario
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`scenarios.configurations.read`
+
+</td>
+<td valign="top">
+
+Get configurations and list configurations in a scenario
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`scenarios.configurations.create`
+
+</td>
+<td valign="top">
+
+Create configuration
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`scenarios.deployments.read`
+
+</td>
+<td valign="top">
+
+Get deployment or list deployments in a ML Scenario
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`scenarios.deployments.create`
+
+</td>
+<td valign="top">
+
+Create deployment
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`scenarios.deployments.update`
+
+</td>
+<td valign="top">
+
+Update deployment
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`scenarios.deployments.delete`
+
+</td>
+<td valign="top">
+
+Delete deployment
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`scenarios.deployments.predict`
+
+</td>
+<td valign="top">
+
+Get prediction result
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`scenarios.executions.read`
+
+</td>
+<td valign="top">
+
+Get execution or list executions in a ML Scenario
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`scenarios.executions.create`
+
+</td>
+<td valign="top">
+
+Create execution
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`scenarios.executions.cancel`
+
+</td>
+<td valign="top">
+
+Cancel execution
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`scenarios.executions.delete`
+
+</td>
+<td valign="top">
+
+Delete execution
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`scenarios.metrics.create`
+
+</td>
+<td valign="top">
+
+Create metrics
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`scenarios.artifacts.read`
+
+</td>
+<td valign="top">
+
+Get artifact or list artifacts
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`scenarios.artifacts.register`
+
+</td>
+<td valign="top">
+
+Register artifacts
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`scenarios.metrics.read`
+
+</td>
+<td valign="top">
+
+Get metrics
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`resourcegroup.read`
+
+</td>
+<td valign="top">
+
+Get resourcegroup
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`scenarios.deployments.logs.read`
+
+</td>
+<td valign="top">
+
+Get deployments logs
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`scenarios.executions.logs.read`
+
+</td>
+<td valign="top">
+
+Get executions logs
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`operations.manager`
+
+</td>
+<td valign="top">
+
+View operation manager
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`admin.manager`
+
+</td>
+<td valign="top">
+
+View admin manager
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`functions.explorer`
+
+</td>
+<td valign="top">
+
+View functions explorer
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`aicore.dockerregistrysecret.credentials.read`
+
+</td>
+<td valign="top">
+
+Get docker registry in SAP AI Core 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`aicore.dockerregistrysecret.credentials.create`
+
+</td>
+<td valign="top">
+
+Create docker registry in SAP AI Core 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`aicore.dockerregistrysecret.credentials.update`
+
+</td>
+<td valign="top">
+
+Update docker registry in SAP AI Core 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`aicore.dockerregistrysecret.credentials.delete`
+
+</td>
+<td valign="top">
+
+Delete docker registry in SAP AI Core 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`aicore.objectstoresecret.credentials.read`
+
+</td>
+<td valign="top">
+
+Get object store secret in SAP AI Core 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`aicore.objectstoresecret.credentials.create`
+
+</td>
+<td valign="top">
+
+Create object store secret in SAP AI Core 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`aicore.objectstoresecret.credentials.update`
+
+</td>
+<td valign="top">
+
+Update object store secret in SAP AI Core 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`aicore.objectstoresecret.credentials.delete`
+
+</td>
+<td valign="top">
+
+Delete object store secret in SAP AI Core 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`aicore.genericsecret.credentials.read`
+
+</td>
+<td valign="top">
+
+Get generic secret in SAP AI Core 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`aicore.genericsecret.credentials.create`
+
+</td>
+<td valign="top">
+
+Create generic secret in SAP AI Core 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`aicore.genericsecret.credentials.update`
+
+</td>
+<td valign="top">
+
+Update generic secret in SAP AI Core 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`aicore.genericsecret.credentials.delete`
+
+</td>
+<td valign="top">
+
+Delete generic secret in SAP AI Core 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`aicore.applications.read`
+
+</td>
+<td valign="top">
+
+Get applications in SAP AI Core 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`aicore.applications.create`
+
+</td>
+<td valign="top">
+
+Create applications in SAP AI Core 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`aicore.applications.update`
+
+</td>
+<td valign="top">
+
+Update applications in SAP AI Core 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`aicore.applications.delete`
+
+</td>
+<td valign="top">
+
+Delete applications in SAP AI Core 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`aicore.repositories.read`
+
+</td>
+<td valign="top">
+
+Get repositories in SAP AI Core 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`aicore.repositories.create`
+
+</td>
+<td valign="top">
+
+Create repositories in SAP AI Core 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`aicore.repositories.update`
+
+</td>
+<td valign="top">
+
+Update repositories in SAP AI Core 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`aicore.repositories.delete`
+
+</td>
+<td valign="top">
+
+Delete repositories in SAP AI Core 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`aicore.resourcegroups.read`
+
+</td>
+<td valign="top">
+
+Get resource groups in SAP AI Core 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`aicore.resourcegroups.create`
+
+</td>
+<td valign="top">
+
+Create resource groups in SAP AI Core 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`aicore.resourcegroups.update`
+
+</td>
+<td valign="top">
+
+Update resource groups in SAP AI Core 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`aicore.resourcegroups.delete`
+
+</td>
+<td valign="top">
+
+Delete resource groups in SAP AI Core 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`files.upload`
+
+</td>
+<td valign="top">
+
+Files upload
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`files.download`
+
+</td>
+<td valign="top">
+
+Files download
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`files.delete`
+
+</td>
+<td valign="top">
+
+Files delete
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`scenarios.executionschedules.read`
+
+</td>
+<td valign="top">
+
+Get an execution schedule or list execution schedules
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`scenarios.executionschedules.create`
+
+</td>
+<td valign="top">
+
+Create an execution schedule
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`scenarios.executionschedules.update`
+
+</td>
+<td valign="top">
+
+Update an execution schedule
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`scenarios.executionschedules.delete`
+
+</td>
+<td valign="top">
+
+Delete an execution schedule
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.text`
+
+</td>
+<td valign="top">
+
+This scope is deprecated. Use Prompt‑Executor instead
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.prompt.executor`
+
+</td>
+<td valign="top">
+
+Run a prompt in the Generative AI Hub application
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.prompt.read`
+
+</td>
+<td valign="top">
+
+Read a saved prompt
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.prompt.create`
+
+</td>
+<td valign="top">
+
+Create a new prompt
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.prompt.update`
+
+</td>
+<td valign="top">
+
+Update an existing prompt
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.prompt.delete`
+
+</td>
+<td valign="top">
+
+Delete a saved prompt
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.promptadmin.delete`
+
+</td>
+<td valign="top">
+
+Delete any saved prompt data
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.disclaimermessage.read`
+
+</td>
+<td valign="top">
+
+Read generic disclaimer message
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.disclaimermessage.create`
+
+</td>
+<td valign="top">
+
+Create generic disclaimer message
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.disclaimermessage.update`
+
+</td>
+<td valign="top">
+
+Update generic disclaimer message
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.disclaimermessage.delete`
+
+</td>
+<td valign="top">
+
+Delete generic disclaimer message
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.dbusage.read`
+
+</td>
+<td valign="top">
+
+Read the tenant’s storage quota and storage usage
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.orchestration.execute`
+
+</td>
+<td valign="top">
+
+Request to orchestration deployment
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.prompttemplate.read`
+
+</td>
+<td valign="top">
+
+Read prompt templates
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.prompttemplate.create`
+
+</td>
+<td valign="top">
+
+Create new prompt templates
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.prompttemplate.update`
+
+</td>
+<td valign="top">
+
+Update prompt templates
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.prompttemplate.delete`
+
+</td>
+<td valign="top">
+
+Delete prompt templates
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.prompt.image.executor`
+
+</td>
+<td valign="top">
+
+Run a prompt containing image in the generative AI hub application
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.prompt.media.executor`
+
+</td>
+<td valign="top">
+
+Run a prompt containing media in the generative AI hub application
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.modellibrary.read`
+
+</td>
+<td valign="top">
+
+View the model library in the generative AI hub application
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.document_grounding.retrieval.read`
+
+</td>
+<td valign="top">
+
+View the grounding management in the generative AI hub application
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.document_grounding.pipeline.read`
+
+</td>
+<td valign="top">
+
+Read data pipeline
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.document_grounding.pipeline.create`
+
+</td>
+<td valign="top">
+
+Create new data pipelines
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.document_grounding.pipeline.delete`
+
+</td>
+<td valign="top">
+
+Delete existing data pipelines
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.document_grounding.vector.read`
+
+</td>
+<td valign="top">
+
+View document details in a data pipeline
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.document_grounding.vector.delete`
+
+</td>
+<td valign="top">
+
+Delete existing grounding vectors
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`scenarios.metrics.delete`
+
+</td>
+<td valign="top">
+
+Delete metrics
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`custom.evaluation`
+
+</td>
+<td valign="top">
+
+Access optimization application such as Prompt Optimizer, Evaluation etc
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`evaluation_metrics.read`
+
+</td>
+<td valign="top">
+
+Read the evaluation metrics
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`evaluation_metrics.create`
+
+</td>
+<td valign="top">
+
+Create the evaluation metrics
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`evaluation_metrics.delete`
+
+</td>
+<td valign="top">
+
+Delete the evaluation metrics
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.orchestration_config.read`
+
+</td>
+<td valign="top">
+
+Read the orchestration configuration
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.orchestration_config.create`
+
+</td>
+<td valign="top">
+
+Create new orchestration configuration
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`genai.orchestration_config.delete`
+
+</td>
+<td valign="top">
+
+Delete an orchestration configuration
 
 </td>
 </tr>

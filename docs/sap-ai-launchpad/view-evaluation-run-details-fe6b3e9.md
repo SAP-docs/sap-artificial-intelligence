@@ -121,7 +121,7 @@ You can edit the values of existing tags using the :pencil2: icon, and delete ex
 
 You can delete an evaluation using the *Delete* button.
 
-You can create a duplicate evaluation job by choosing the *Duplicate* button.
+You can create a duplicate evaluation run by choosing the *Duplicate* button.
 
 **Related Information**  
 

@@ -10,7 +10,7 @@ Key features include:
 
     For more information, see [System Designed Metrics in SAP AI Core](https://help.sap.com/docs/AI_CORE/360a8f7315e040c193bad1f5c67a3fd1/2ac6a0896b474fe8b6ba614a7b724d58.html).
 
--   **Custom Metrics:** In addition to system-defined metrics, you can define and register your own custom metrics to address specific evaluation needs. This flexibility allows you to tailor performance measurement to your unique use cases and business requirements.
+-   **Custom Metrics:** In addition to system-defined metrics, you can define and add your own custom metrics to address specific evaluation needs. This flexibility allows you to tailor performance measurement to your unique use cases and business requirements.
 
     For more information, see [Create a Custom Metric Evaluator](create-a-custom-metric-evaluator-8519d00.md).
 

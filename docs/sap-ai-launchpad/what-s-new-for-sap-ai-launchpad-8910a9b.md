@@ -9,6 +9,8 @@
 
 
 
+
+
 <table>
 <tr>
 <th valign="top">
@@ -71,6 +73,204 @@ Latest Revision
 Available as of
 
 </th>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+The process of registering an object store secret has been refined.
+
+For more information, see [Add an Object Store Secret](add-an-object-store-secret-5b4f728.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-03-01
+
+</td>
+<td valign="top">
+
+2026-03-01
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+New models are supported, including Gemini 3.0 Pro, Perplexity Deep Research and Anthropic Claude Opus 4.6.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-03-01
+
+</td>
+<td valign="top">
+
+2026-03-01
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+New models are supported, including Open AI GPT 5.2.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-02-16
+
+</td>
+<td valign="top">
+
+2026-02-16
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4837,7 +5037,7 @@ Workspaces
 
 Connection creation in Workspaces through x.509 certificates is supported.
 
-For more information, see [Create a Service Key in SAP AI Core](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/7323ff4e37ba41c198b06e9669b80920.html "") :arrow_upper_right: and [Add Connection to SAP AI Core](add-connection-to-sap-ai-core-71dfe2c.md).
+For more information, see [Create a Service Key in SAP AI Core](https://help.sap.com/docs/AI_LAUNCHPAD/46dee546c5a045feb976b161644d93de/7323ff4e37ba41c198b06e9669b80920.html) and [Add a connection to SAP AI Core](https://help.sap.com/docs/AI_LAUNCHPAD/3f71b1e9d5124e26ace1aa1edb11e450/71dfe2cab0e94cf5bec9d707140ea0d1.html).
 
 </td>
 <td valign="top">
@@ -6018,7 +6218,7 @@ Artifact Registration
 
 Users can use the *ML Operations* app to register artifacts \(such as models or datasets\) stored in hyperscale object storage.
 
-See [Register a Dataset](register-a-dataset-a63c2f5.md), [Register a Model](register-a-model-8162c5d.md), [Register a Result Set](register-a-result-set-0efde3f.md), and [Register an Other Artifact](register-an-other-artifact-c02fca9.md).
+See [Add a Dataset](add-a-dataset-a63c2f5.md), [Add a Model](add-a-model-8162c5d.md), [Add a Result Set](add-a-result-set-0efde3f.md), and [Add an Other Artifact](add-an-other-artifact-c02fca9.md).
 
 </td>
 <td valign="top">

@@ -34,7 +34,7 @@ You have the `aicore_admin_repositories_editor` role or a role collection that c
 
 ## Context
 
-Git repositories are managed by creating personal access tokens and registering them in SAP AI Core. Personal access tokens are a means of allowing and controlling connections to GitHub repositories without compromising your credentials.
+Git repositories are managed by creating personal access tokens and adding them in SAP AI Core. Personal access tokens are a means of allowing and controlling connections to GitHub repositories without compromising your credentials.
 
 You can add multiple Git repositories for a selected connection. The Git repository must already exist with valid authentication details.
 

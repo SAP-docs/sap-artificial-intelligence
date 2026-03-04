@@ -1,5 +1,7 @@
 <!-- loio775b3068af37416caa3ac4122389ac66 -->
 
+<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
+
 # Remove an Object Store Secret
 
 As an administrator, you remove an object store secret when the name is no longer valid or contains errors, or if the secret is no longer required.
@@ -34,11 +36,7 @@ You remove a secret if the name is no longer valid or contains errors, or if the
 
     The *Object Store Secrets* screen appears with a tile for each existing secret.
 
-3.  Find the tile for the secret and choose *Remove*.
-
-    The *Remove Object Store Secret* dialog box appears.
-
-4.  Choose *Remove* to confirm the removal, and remove the secret from your SAP AI Core instance.
+3.  Find the tile for the secret that you want to remove.. Choose the :wastebasket: icon.and confirm your removal.
 
 
 
