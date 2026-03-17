@@ -12,6 +12,12 @@ If you encounter an issue with this service, we recommend that you follow the pr
 
 
 
+### Retry the Action
+
+When an error message appears, choose the *Retry* option to repeat the action.
+
+
+
 ### Check Platform Status
 
 Check the availability of the platform at [SAP Trust Center](https://www.sap.com/about/trust-center/cloud-service-status.html).
@@ -23,6 +29,12 @@ For more information about platform availability, updates and notifications, see
 ### Check Guided Answers
 
 In the SAP Support Portal, check the [Guided Answers](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2065/actions/26547) section for SAP Business Technology Platform. You can find solutions for general issues as well as for specific services there.
+
+
+
+### Retry the Action
+
+When an error message appears, choose the *Retry* option to repeat the action.
 
 
 
@@ -67,4 +79,6 @@ We recommend that you include the following information when you submit the inci
 -   URL of the page where the incident or error occurs
 -   Steps or clicks used to replicate the error
 -   Screenshots, videos, or the code entered
+
+You can use *Copy Details* to capture the error information for troubleshooting.
 

@@ -25,6 +25,4 @@ Evaluations can be used for the following use cases:
 
 -   **[View Evaluation Job Details](view-evaluation-job-details-200ccaf.md "")**  
 
--   **[Compare Runs](compare-runs-6dc7cb8.md "")**  
-
 

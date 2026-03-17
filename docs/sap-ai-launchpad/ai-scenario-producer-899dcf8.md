@@ -18,14 +18,6 @@ Based on the roles assigned to you, within SAP AI Launchpad, you can:
 -   Use the *Workspaces* app to create and manage connections to multiple instances of AI runtimes which implement the AI API \(such as SAP AI Core. For more information, see [Workspaces](workspaces-c804f14.md).
 -   Use the *ML Operations* app to manage tasks over the lifecycle of your AI scenarios. For more information, see [ML Operations](ml-operations-df78271.md).
 
--   **[Prerequisites](prerequisites-9489440.md "")**  
-
--   **[Workspaces](workspaces-c804f14.md "You use the Workspaces app to create and
-		manage connections between SAP AI Launchpad and your AI
-		runtimes (for example, SAP AI Core). The app
-		lets you switch between your AI runtime instances so that you can carry out further
-		actions.")**  
-You use the *Workspaces* app to create and manage connections between SAP AI Launchpad and your AI runtimes \(for example, SAP AI Core\). The app lets you switch between your AI runtime instances so that you can carry out further actions.
 -   **[Administration](administration-cb4dd1e.md "You use the SAP AI Core
                                     Administration app in
 			SAP AI Launchpad to

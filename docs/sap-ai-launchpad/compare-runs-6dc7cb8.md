@@ -20,6 +20,9 @@
 
 You can compare the metrics of up to five runs.
 
+> ### Restriction:  
+> Only runs of the same type can be compared.
+
 
 
 ## Procedure

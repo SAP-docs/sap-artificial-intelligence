@@ -78,11 +78,11 @@
 
 3.  Enter your chat input and press the <span class="SAP-icons-V5"></span> \(send\) icon.
 
-    For selected models, image inputs are supported, and can be added using the <span class="SAP-icons-V5"></span> \(add image\)icon or copy and paste.
+    For selected models, *Images* and *PDFs*inputs are supported, and can be added using the <span class="SAP-icons-V5"></span> \(add Images or PDFs\)icon or by copying and pasting.
 
-    Prompt messages are limited to 5.00mb across all inputs, including the context history and system message.
+    Prompt messages/inputs are limited to 5.00mb across all inputs, including the context history, system message and PDF files.
 
-    If you change your model configuration from a model that supports images to one that doesn't, you will start a new chat.
+    If you change your model configuration from a model that supports images and PDF inputs to one that does not, a new chat session starts.
 
     ![Screenshot of the SAP AI Launchpad user interface](images/chat_7a_d54e8dc.png)
 
@@ -97,9 +97,9 @@ The response to your chat input will be generated.
 
 You can clear the current chat, including the context history, by clicking the *Clear* button.
 
-You can download your chat using the *Download* icon. Text data will be automatically downloaded in JSON format, and can be saved locally. Images will not be downloaded.
+You can download your chat using the *Download* icon. Text data will be automatically downloaded in JSON format, and can be saved locally. Images and PDFs can be downloaded as `Base64` format.
 
-You can copy text data from an individual chat message or response using the *copy* icon. Images will not be copied.
+You can copy text data from an individual chat message or response using the *copy* icon. Images and PDFs will be copied.
 
 
 

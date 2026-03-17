@@ -31,11 +31,11 @@ However, you receive the following response:
 
 1.  Find out why your deployment status is “Unknown” by using the endpoint:
 
-    `GET` `{{apiurl}}/v2/lm/deployments/{{deploymentid}}`
+    `GET` `$AI_API_URL/v2/lm/deployments/<deploymentid>`
 
 2.  Delete the deployment without trying to stop it \(stopping a deployment is necessary only when it's running\):
 
-    `DELETE` `{{apiurl}}/v2/lm/deployments/{{deploymentid}}`
+    `DELETE` `$AI_API_URL/v2/lm/deployments/<deploymentid>`
 
 
 

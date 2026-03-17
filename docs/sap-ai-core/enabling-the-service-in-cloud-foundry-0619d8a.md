@@ -35,3 +35,10 @@ Configure the required entitlements to make SAP AI Core accessible in your subac
 		of the available interfaces. ")**  
 After you have created your service key, it can be used by local clients, apps in other spaces, or entities outside your deployment to access SAP AI Core through one of the available interfaces.
 
+**Parent topic:**[Initial Setup](initial-setup-38c4599.md "Get started with SAP AI Core using the standard procedures for the SAP BTP, Cloud Foundry environment or Kyma environment.")
+
+**Related Information**  
+
+
+[Enabling the Service in the Kyma Environment](enabling-the-service-in-the-kyma-environment-8076566.md "Enable SAP AI Core using the standard procedures for the SAP BTP Kyma environment.")
+

@@ -21,7 +21,7 @@ Generic secrets can be attached to containers using either `envFrom.secretRef` o
         image: centaur
         envFrom:
         - secretRef:
-          name: MY_GENERIC_SECRET					
+          name: my-generic-secret					
     ```
 
     If your secret contains invalid characters, such as hyphens \(-\), this method results in error. In this case, map your secret to a valid variable name using `env.valueFrom.secretKeyRef`.
@@ -34,7 +34,7 @@ Generic secrets can be attached to containers using either `envFrom.secretRef` o
       - name: kserve-container
         image: centaur
         env:
-        - name: MY_GENERIC_SECRET
+        - name: my-generic-secret
           valueFrom:
           secretKeyRef:
             name: my-generic-secret

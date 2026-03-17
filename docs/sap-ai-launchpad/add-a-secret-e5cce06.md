@@ -47,18 +47,50 @@ To allow the rotation of tenant-wide secrets for long-running deployments withou
 
     3.  Enter a name for your secret.
 
-    4.  Enter the key:value pairs for your secret in one of the following ways:
+    4.  Select a document repository type.
 
-        -   Deselect the *Document Grounding* switch and enter your secret in JSON format.
+    5.  Enter the key:value pairs for your secret in one of the following ways.
+
+        For predictive AI use cases:
+
+        -   **Recommended:**Deselect the *Document Grounding* switch and enter your secret in JSON format.
+
+        Available for resource groups with document grounding enabled only:
+
         -   Leave the *Document Grounding* switch selected and choose the document repository type from the dropdown list. The dialog adjusts dynamically for you to fill the remaining information.
         -   Leave the *Document Grounding* switch selected and switch to code view \(<span class="SAP-icons-V5"></span>\), where you can enter your secret in JSON format.
 
-        > ### Note:  
-        > The API expects sensitive data to be Base64-encoded. You can easily encode your data in Base64 format using the following command on Linux or MacOS: `echo -n 'my-sensitive-data' | base64`
+        The following examples show an Amazon S3 secret in JSON and form format. Different object stores require different information.
 
-    5.  **Optional:** Add labels to your secrets. Labels are only required for specific services. They're predefined and are outlined in the related documentation.
+        ![](images/generic_secrets_2602b_5a2f53d.png)
+
+        > ### Note:  
+        > The JSON key-value pairs correspond to the form fields shown in form mode, and may differ in format from the information provided by your object store provider.
+        > 
+        > Entries should not be Base-64 encoded.
+
+        > ### Sample Code:  
+        > ```
+        > {
+        >   "url": "<your repository URL",
+        >   "description": "<your choice of decription>",
+        >   "access_key_id": "<your access key ID>",
+        >   "bucket": "<your S3 bucket name>",
+        >   "host": "your S3 host",
+        >   "region": "<your S3 region>",
+        >   "secret_access_key": "<your secret access key>",
+        >   "username": "your AWS credentials username"
+        > }
+        > ```
+
+    6.  **Optional:** Add labels to your secrets. Labels are only required for specific services. They're predefined and are outlined in the related documentation.
 
 
 6.  Choose *Add* to save the secret details.
 
+
+**Related Information**  
+
+
+[Create a Generic Secret for AI Data Management](create-a-generic-secret-for-ai-data-management-da05d4a.md "")
 

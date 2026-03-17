@@ -63,6 +63,8 @@ Customer data protection is handled in three ways:
 -   Customer data is protected from malicious access by security technologies that include authentication and authorization.
 -   Customer data is protected from accidental exposure to SAP administrators or support persons by security policies, access controls, and monitoring.
 
+Any data stored in SAP AI Launchpad is not used for quality improvement of SAP products for example, to train LLMs.
+
 <a name="loio42a8f0fd505d4fdca3ed1dc1de14ca07"/>
 
 <!-- loio42a8f0fd505d4fdca3ed1dc1de14ca07 -->

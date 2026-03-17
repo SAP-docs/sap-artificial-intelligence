@@ -103,4 +103,10 @@ You can assign role collections to specific users to allow access to SAP AI Laun
 You access SAP AI Launchpad from your subaccount.
 -   **[Change Language Setting](change-language-setting-85a79eb.md "")**  
 
+-   **[Workspaces](workspaces-c804f14.md "You use the Workspaces app to create and
+		manage connections between SAP AI Launchpad and your AI
+		runtimes (for example, SAP AI Core). The app
+		lets you switch between your AI runtime instances so that you can carry out further
+		actions.")**  
+You use the *Workspaces* app to create and manage connections between SAP AI Launchpad and your AI runtimes \(for example, SAP AI Core\). The app lets you switch between your AI runtime instances so that you can carry out further actions.
 

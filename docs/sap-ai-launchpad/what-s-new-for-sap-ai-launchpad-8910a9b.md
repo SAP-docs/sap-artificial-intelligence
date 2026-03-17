@@ -94,6 +94,204 @@ Generative AI hub
 </td>
 <td valign="top">
 
+You can upload PDF files to the *Chat* app.
+
+For more information, see [Chat](chat-d84b5a1.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-03-16
+
+</td>
+<td valign="top">
+
+2026-03-16
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+If an error occurs, you can use the *Retry* button to repeat the action directly from the error dialogue. You can use the *Copy Details* button to copy and paste the error when seeking further assistance.
+
+For more information, see [Monitoring and Troubleshooting](monitoring-and-troubleshooting-7a0e5a5.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-03-16
+
+</td>
+<td valign="top">
+
+2026-03-16
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+You can compare runs for prompt optimization run types in Optimizations. You can compare multiple prompt optimization runs side-by-side and analyze their resulting metrics.
+
+For more information, see [Compare Runs](compare-runs-6dc7cb8.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-03-16
+
+</td>
+<td valign="top">
+
+2026-03-16
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
 The process of registering an object store secret has been refined.
 
 For more information, see [Add an Object Store Secret](add-an-object-store-secret-5b4f728.md).

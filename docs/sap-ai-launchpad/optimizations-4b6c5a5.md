@@ -14,6 +14,8 @@ Key features of optimizations include:
 
 -   **[Prompt Optimization](prompt-optimization-029dad5.md "")**  
 
+-   **[Compare Runs](compare-runs-6dc7cb8.md "")**  
+
 -   **[Metrics](metrics-0d71105.md "Metrics are quantitative measures used to evaluate the performance of machine generative
 		AI models within SAP AI Core. By tracking
 		and analyzing metrics, you can assess model quality, compare different model versions, and

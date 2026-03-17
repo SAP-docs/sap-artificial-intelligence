@@ -37,6 +37,8 @@ Before you can carry out any AI operations in SAP AI Core, your system administr
 -   [Manage a Connection](manage-a-connection-555c83b.md#loio555c83b997db49ae9f3c302b60bf4062)
 -   [Set Resource Group](set-resource-group-0c07728.md#loio0c077289f29d4147921fb07ab0f68b7f)
 
+-   **[Prerequisites](prerequisites-9489440.md "")**  
+
 -   **[Add Connection to SAP AI Core](add-connection-to-sap-ai-core-71dfe2c.md "As an administrator, you can add multiple connections to different instances of SAP AI Core. You can
 		enter the service key details for a connection manually, or upload a service key file. ")**  
 As an administrator, you can add multiple connections to different instances of SAP AI Core. You can enter the service key details for a connection manually, or upload a service key file.

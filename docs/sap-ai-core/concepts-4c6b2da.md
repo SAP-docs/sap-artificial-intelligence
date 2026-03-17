@@ -569,9 +569,11 @@ You can see how these concepts interact from the following diagram:
 
 ![Flow chart showing the relationships between a use case, scenario, executable, and resource group](images/Interaction_of_Concepts_in_SAP_AI_Launchpad_a35d099.png)
 
--   **[SAP AI Core Overview](sap-ai-core-overview-88e0078.md "SAP AI Core is the key to integrating artificial intelligence
-		capabilities in your SAP solutions.")**  
-SAP AI Core is the key to integrating artificial intelligence capabilities in your SAP solutions.
+-   **[AI API Overview](ai-api-overview-716d4c3.md "The AI API lets you manage your AI assets (such as training scripts, data, models, and model servers) across multiple runtimes. ")**  
+The AI API lets you manage your AI assets \(such as training scripts, data, models, and model servers\) across multiple runtimes.
+-   **[Resource Groups](resource-groups-26c6c6b.md " Tenants use resource groups to isolate related ML resources and workloads. Scenarios,
+		executables, and Docker registry secrets are shared across all resource groups.")**  
+ Tenants use resource groups to isolate related ML resources and workloads. Scenarios, executables, and Docker registry secrets are shared across all resource groups.
 -   **[Generative AI Hub in SAP AI Core Overview](generative-ai-hub-in-sap-ai-core-overview-a126bd6.md "The generative AI hub incorporates generative AI into your AI activities in SAP AI Core and SAP AI Launchpad. ")**  
 The generative AI hub incorporates generative AI into your AI activities in SAP AI Core and SAP AI Launchpad.
 

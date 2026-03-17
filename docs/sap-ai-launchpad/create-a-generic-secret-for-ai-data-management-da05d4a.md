@@ -32,15 +32,13 @@ To allow the rotation of tenant-wide secrets for long-running deployments withou
 
 1.  In the *Workspaces* app, choose the AI API connection.
 
-2.  If you want to add your secret at the resource group level, choose the resource group. Alternatively, use the toggles in the header or dialog box, where the system prompts you to specify a resource group.
-
-3.  Open the *SAP AI Core Administration* app and choose *Generic Secrets*.
+2.  Open the *SAP AI Core Administration* app and choose *Generic Secrets*.
 
     The *Generic Secrets* screen appears with a tile for each existing secret.
 
-4.  Choose *Add* to enter reference details for a new secret.
+3.  Choose *Add* to enter reference details for a new secret.
 
-5.  Complete the fields in the*Add Generic Secret* dialog box as follows:
+4.  Complete the fields in the*Add Generic Secret* dialog box as follows:
 
     1.  Switch between tenant-level secrets and resource-group-level secrets.
 
@@ -48,19 +46,25 @@ To allow the rotation of tenant-wide secrets for long-running deployments withou
 
     3.  Enter a name for your secret.
 
-    4.  Enter the key:value pairs for your secret in one of the following ways:
+    4.  Select a document repository type.
 
-        -   Leave the *Document Grounding* switch selected and choose the document repository type from the dropdown list. The dialog adjusts dynamically for you to fill the remaining information.
+    5.  Enter the key:value pairs for your secret in one of the following ways:
+
+        -   **Recommended:**Leave the *Document Grounding* switch selected and choose the document repository type from the dropdown list. The dialog adjusts dynamically for you to fill the remaining information.
         -   Leave the *Document Grounding* switch selected and switch to code view \(<span class="SAP-icons-V5"></span>\), where you can enter your secret in JSON format.
-
-        The following examples show an Amazon S3 secret in JSON and form format. Different object stores require different information.
-
-        ![](images/generic_secrets_2602b_5a2f53d.png)
 
         > ### Note:  
         > The JSON key-value pairs correspond to the form fields shown in form mode, and may differ in format from the information provided by your object store provider.
         > 
         > Entries should not be Base-64 encoded.
+        > 
+        > Different object stores require different information.
+
+        The following examples show an Amazon S3 secret in JSON format.
+
+        ![](images/generic_secret_for_grounding_e6354bb.png)
+
+        The following examples show an Amazon S3 secret in JSON format.
 
         > ### Sample Code:  
         > ```
@@ -77,7 +81,7 @@ To allow the rotation of tenant-wide secrets for long-running deployments withou
         > ```
 
 
-6.  Choose *Add* to save the secret details.
+5.  Choose *Add* to save the secret details.
 
 
 **Related Information**  

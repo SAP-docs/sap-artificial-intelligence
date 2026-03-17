@@ -61,6 +61,35 @@ Supported cloud object stores include Amazon S3 \(S3\), Alibaba Cloud Object Sto
 
     4.  Enter the path prefix of the location of your documents.
 
+    5.  Add the information for your object store.
+
+        > ### Note:  
+        > The type of object store \(for example: AWS S3, Microsoft SharePoint\) determines what fields are required for the object store secret.
+
+        To enter your secret using dialogue boxes, use the <span class="SAP-icons-V5"></span> \(form\) icon.
+
+        ![](images/object_store_secret_2602b_ccfb654.png)
+
+        To enter your secret in JSON format, use the <span class="SAP-icons-V5"></span> \(code\) icon.
+
+        > ### Note:  
+        > The JSON key-value pairs correspond to the form fields shown in form mode, and may differ in format from the information provided by your object store provider.
+        > 
+        > Entries should not be Base-64 encoded.
+
+        > ### Sample Code:  
+        > ```
+        > {
+        >   "bucket": "<your S3 bucket name>",
+        >   "endpoint": "<your S3 endpoint>",
+        >   "region": "<your S3 region>",
+        >   "AWS_ACCESS_KEY_ID": "<your S3 access key>",
+        >   "AWS_SECRET_ACCESS_KEY": "<your S3 secret accces key>"
+        > }
+        > ```
+
+
+
 
 5.  Choose *Add* to save the secret details.
 

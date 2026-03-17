@@ -36,7 +36,7 @@ You remove a secret if the name is no longer valid or contains errors, or if the
 
     The *Object Store Secrets* screen appears with a tile for each existing secret.
 
-3.  Find the tile for the secret that you want to remove.. Choose the :wastebasket: icon.and confirm your removal.
+3.  Find the tile for the secret that you want to remove.. Choose the :wastebasket: icon and confirm your removal.
 
 
 

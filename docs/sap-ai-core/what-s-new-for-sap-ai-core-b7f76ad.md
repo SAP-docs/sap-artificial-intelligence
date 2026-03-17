@@ -92,6 +92,206 @@ Generative AI hub
 </td>
 <td valign="top">
 
+For security reasons, the system prompt for SAP-ABAP-1 is now predefined. The prompt is added automatically to all requests.
+
+If you include a system prompt in a request, the request fails and an error is returned.
+
+In most scenarios, a user prompt is sufficient. If you need additional instructions, include them at the beginning or end of the user prompt.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-03-01
+
+</td>
+<td valign="top">
+
+2026-03-01
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+The `masking_providers` property in the Orchestration V2 Data Masking module configuration is deprecated and has been replaced by the `providers` property. If you are currently using `masking_providers` in your masking module configurations, update your specifications to use the `providers` property instead. The deprecated `masking_providers` property will be removed on September 15, 2026.
+
+For more information, see [Enhancing Model Consumption with Data Masking](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/66ad6f469afc4c2cbaa91a27a33f7b21.html "") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+Deprecated
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-03-16
+
+</td>
+<td valign="top">
+
+2026-03-16
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+New models are supported, including Amazon Nova Lite 2.0.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-03-16
+
+</td>
+<td valign="top">
+
+2026-03-16
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
 SAP RPT 1 supports `top_k` as an input parameter, and outputs now include confidence intervals.
 
 For more information, see [Example Payloads for Inferencing: sap-rpt-1](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/399566eec2404915ac69077cfa23f7b8.html "") :arrow_upper_right:.
@@ -224,7 +424,7 @@ Generative AI hub
 </td>
 <td valign="top">
 
-New models are supported, including Gemini 3.0 Pro, Perplexity Deep Research and Anthropic Claude Opus 4.6.
+New models are supported, including Anthropic Claude Opus 4.6.
 
 For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
 
