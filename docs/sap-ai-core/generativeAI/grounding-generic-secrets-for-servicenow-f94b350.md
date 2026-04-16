@@ -1,0 +1,234 @@
+<!-- loiof94b350dd78f442cba6b5b141f122ef1 -->
+
+# Grounding Generic Secrets for ServiceNow
+
+Your cloud storage credentials are managed using secrets. Secrets are a means of allowing and controlling connections across directories and tools, without compromising your credentials.
+
+
+
+<a name="loiof94b350dd78f442cba6b5b141f122ef1__section_udx_nph_fdc"/>
+
+## Prerequisites
+
+You have created a resource group for grounding. For more information, see [Create a Resource Group for Grounding](create-a-resource-group-for-grounding-e32efa5.md).
+
+
+
+## Procedure
+
+1.  Send a POST request and enter the URL `{{apiurl}}/v2/admin/secrets`.
+
+    Ensure that you have the following headers set:
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Header
+    
+    </th>
+    <th valign="top">
+
+    Value
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Authorization
+    
+    </td>
+    <td valign="top">
+    
+    Bearer $TOKEN
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    AI-Resource-Group
+    
+    </td>
+    <td valign="top">
+    
+    The resource group used in the activation steps
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    $AI\_API\_URL
+    
+    </td>
+    <td valign="top">
+    
+    The base URL of your SAP AI Core environment. This can also be set as an environment variable.
+    
+    </td>
+    </tr>
+    </table>
+    
+    The following API request is used to create a generic secret with base64-encoded values, such as client credentials and other necessary fields, for integrating grounding in the generative AI hub. It can use OAuth2ClientCredentials with client secret.
+
+
+
+
+<a name="loiof94b350dd78f442cba6b5b141f122ef1__section_ytf_w5v_c2c"/>
+
+## Example
+
+The `name` attribute is written without hyphens to make it simple to consume as a Unix environment variable later. It is written in capitals as is convention.
+
+
+<table>
+<tr>
+<th valign="top">
+
+Field
+
+</th>
+<th valign="top">
+
+Value
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`name` 
+
+</td>
+<td valign="top">
+
+Name of the generic secret to be created
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`description` 
+
+</td>
+<td valign="top">
+
+Base64 encoded value for the description of the generic secret to be created
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`url` 
+
+</td>
+<td valign="top">
+
+Base64 encoded value for your ServiceNow instance URL
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`authentication` 
+
+</td>
+<td valign="top">
+
+Base64 encoded value for `ClientCertificateAuthentication` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`certificateType` 
+
+</td>
+<td valign="top">
+
+Base64 encoded value for pfx
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`certificateContent` 
+
+</td>
+<td valign="top">
+
+Base64 encoded value for your certificate content
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`certificatePassword` 
+
+</td>
+<td valign="top">
+
+Base64 encoded value for your certificate password
+
+</td>
+</tr>
+</table>
+
+> ### Note:  
+> The following attributes are set as default, and do not need to be passed during the API call:
+> 
+> -   `type`: `"HTTP"`
+> -   `proxyType`: `"Internet"`
+
+```
+ curl --location --request POST $AI_API_URL/v2/admin/secrets \ 
+--header "Authorization: Bearer $TOKEN" \
+--header "Content-Type: application/json" \
+--header "AI-Resource-Group: <resource-group-for-grounding>" \
+--data-raw ''{
+  "name": "<GENERIC_SECRET_NAME>",
+  "data": {
+    "authentication": "Q2xpZW50Q2VydGlmaWNhdGVBdXRoZW50aWNhdGlvbg==",
+    "description": "<BASE64_ENCODED_DESCRIPTION>",
+    "certificateType": "cGZ4",
+    "certificateContent": "<BASE64_ENCODED_CERT_CONTENT>",
+    "certificatePassword": "<BASE64_ENCODED_CERT_PASSWORD>",
+    "url": "<BASE64_ENCODED_SERVICENOW_URL>"
+  },
+  "labels": [
+    {
+      "key": "ext.ai.sap.com/document-grounding",
+      "value": "true"
+    },
+    {
+      "key": "ext.ai.sap.com/documentRepositoryType",
+      "value": "ServiceNow"
+    }
+  ]
+}' '
+```
+
+
+
+<a name="loiof94b350dd78f442cba6b5b141f122ef1__section_m4v_r1z_3gc"/>
+
+## Next Steps
+
+After registering your repository with grounding, you can use the document grounding APIs to prepare and store your vectors. For more information, see [Pipelines API](pipelines-api-d8cc0e3.md).
+
+**Related Information**  
+
+
+[Update a Generic Secret](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/b5d597051e494b49a4907470f1b238af.html "") :arrow_upper_right:
+
+[Delete a Generic Secret](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/d5d5187da4d2483baa6a203f1bcbe33a.html "") :arrow_upper_right:
+
