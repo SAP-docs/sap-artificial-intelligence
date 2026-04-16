@@ -48,7 +48,9 @@ Your tenant has been onboarded and a default resource group automatically create
 
     3.  Choose the `zone_id` label key and enter a value.
 
-    4.  Choose the `instance_id` label key and enter a value.
+        You can find this in your sub account labelled **Tenant ID** or in your SAP AI Core service key labelled `identityzoneid`.
+
+    4.  Choose the `instance_id` label key and enter the value from your SAP AI Core sub account.
 
     5.  Enter the `document-grounding` label key and switch the value *On*.
 

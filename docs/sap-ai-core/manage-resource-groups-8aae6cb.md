@@ -33,8 +33,6 @@ A resource group is also referred to as an instance.
 -   **[Delete a Resource Group](delete-a-resource-group-40d83a2.md "")**  
 
 
-**Parent topic:**[Administration](administration-7937fc1.md "Creating secrets for external programs and tools, that are used with SAP AI Core means that you can connect them without compromising your credentials.")
-
 <a name="concept_kvy_wbh_wwb"/>
 
 <!-- concept\_kvy\_wbh\_wwb -->

@@ -13,6 +13,10 @@ Your cloud storage credentials are managed using secrets. Secrets are a means of
 
 > ### Caution:  
 > You are responsible for the rotation of your access credentials and certificates of SAP AI Core within BTP according to regional policy.
+> 
+> To prevent potential data leakage with models themselves, the bucket must be configured to contain only the models and associated data.
+> 
+> You are solely responsible for configuring the object store bucket.
 
 <a name="task_i3h_n13_tcc"/>
 

@@ -43,7 +43,7 @@ Generative AI hub
 </b></dt>
 <dd>
 
-Choose from a selection of generative AI models for prompt experimentation and prompt lifecycle management.
+Access generative AI models for prompt development and experimentation. Manage the lifecycle and evaluation of prompts and generative AI workflows.
 
 
 

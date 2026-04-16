@@ -63,54 +63,52 @@ The AI API specification comprises the following parts:
 `Meta API` allows AI API clients to query the capabilities of an AI API implementation so that they can select which commands or user interfaces are available. For example, some AI API runtimes may offer executions but not deployments. They may also offer logs for executions and not for deployments. As an example, if a client of SAP AI Core such as SAP AI Launchpad queries the `Meta API` endpoint of SAP AI Core, the response will be for example:
 
 ```
-json
-						
 {
-	"aiApi": {
-		"capabilities": {
-			"logs": {
-				"deployments": true,
-				"executions": true
-			},
-			"multitenant": true,
-			"shareable": true,
-			"staticDeployments": true,
-			"timeToLiveDeployments": true,
-			"userDeployments": true,
-			"userExecutions": true
-			"executionSchedules": true
-		},
-		"limits": {
-			"deployments": {
-				"maxRunningCount": -1
-			},
-			"executions": {
-				"maxRunningCount": -1
-			},
-			"minimumFrequencyHour": 1,
-			"timeToLiveDeployments": {
-					"minimum": "10m",
-					"maximum": -1
-			}
-		},
-		"version": "2.18.0"
-	},
-	"extensions": {
-		"analytics": {
-			"version": "1.0.0"
-		},
-		"metrics": {
-			"capabilities": {
-				"extendedResults": true
-			},
-			"version": "1.0.0"
-		},
-		"resourceGroups": {
-			"version": "1.2.0"
-		}
-	},
-	"runtimeApiVersion": "2.21.0",
-	"runtimeIdentifier": "aicore"
+  "aiApi": {
+    "capabilities": {
+      "logs": {
+        "deployments": true,
+        "executions": true
+      },
+      "multitenant": true,
+      "shareable": true,
+      "staticDeployments": true,
+      "timeToLiveDeployments": true,
+      "userDeployments": true,
+      "userExecutions": true,
+      "executionSchedules": true
+    },
+    "limits": {
+      "deployments": {
+        "maxRunningCount": -1
+      },
+      "executions": {
+        "maxRunningCount": -1
+      },
+      "minimumFrequencyHour": 1,
+      "timeToLiveDeployments": {
+        "minimum": "10m",
+        "maximum": -1
+      }
+    },
+    "version": "2.18.0"
+  },
+  "extensions": {
+    "analytics": {
+      "version": "1.0.0"
+    },
+    "metrics": {
+      "capabilities": {
+        "extendedResults": true
+      },
+      "version": "1.0.0"
+    },
+    "resourceGroups": {
+      "version": "1.2.0"
+    }
+  },
+  "runtimeApiVersion": "2.21.0",
+  "runtimeIdentifier": "aicore"
 }
 ```
 
