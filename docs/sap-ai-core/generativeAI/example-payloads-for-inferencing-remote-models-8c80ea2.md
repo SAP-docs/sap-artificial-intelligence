@@ -483,5 +483,10 @@ curl --location '$DEPLOYMENT_URL/converse' \
 
 ## Streaming
 
-Where supported, streaming for Amazon Bedrock models can be invoked by replacing the deployment URL with `$DEPLOYMENT_URL/invoke-with-response-stream`.
+Where supported, streaming can be enabled for generative AI models to return responses incrementally.
+
+For **Amazon Bedrock** models, streaming can be invoked by replacing the deployment URL with `$DEPLOYMENT_URL/invoke-with-response-stream`.
+
+In addition, streaming is also supported when using the Converse API.
+To enable streaming with **Converse**, call the  `$DEPLOYMENT_URL/converse-stream` endpoint instead of `/converse`.
 
