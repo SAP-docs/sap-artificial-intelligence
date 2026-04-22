@@ -1,0 +1,104 @@
+# Mistral AI Suite
+
+Mistral AI Suite is an AI partner application available on SAP Business Technology Platform \(SAP BTP\) as part of SAP AI Partner Applications. It provides enterprise-grade access to Mistral's state-of-the-art generative AI models, deployed exclusively on SAP Cloud Infrastructure \(SCI\), enabling organizations to leverage advanced AI capabilities within a secure, sovereign, and compliant environment.
+
+Mistral AI Suite is offered as a multitenant software as a service \(SaaS\) application, commercially available through SAP. It is designed for productive enterprise usage and integrates with SAP's identity, metering, and tenant lifecycle management services. All customer data — including prompts, conversations, documents, and generated outputs — is processed and stored entirely within SAP-managed infrastructure. No customer data is transmitted to Mistral AI or any third party.
+
+> ### Note:
+> Mistral AI Suite is part of SAP AI Partner Applications. While the underlying AI models are developed by Mistral AI, all model inference, data processing, and data storage occur exclusively within SAP Cloud Infrastructure. Mistral AI does not have access to customer data. SAP provides the infrastructure, commercialization, and integration with the SAP ecosystem.
+
+
+
+## Environment
+
+This service is available on SAP BTP, deployed on SAP Cloud Infrastructure \(SCI\). Sovereign Cloud deployments are planned for future availability.
+
+
+
+## Features
+
+
+<dl>
+<dt><b>
+
+Le Chat – Conversational AI Assistant
+
+</b></dt>
+<dd>
+
+Le Chat is the primary chat interface of Mistral AI Suite, providing a conversational AI experience for end users. Users can interact with Mistral's large language models in natural language to get answers, generate content, brainstorm ideas, summarize documents, and more. Le Chat supports multi-turn conversations and is designed for intuitive, everyday use by business professionals.
+
+
+
+</dd><dt><b>
+
+AI Studio – Advanced AI Workspace
+
+</b></dt>
+<dd>
+
+AI Studio is the advanced workspace within Mistral AI Suite, offering powerful features for users who need more control over their AI interactions and workflows. Key capabilities include:
+
+-   **Chat Customization**: Configure and fine-tune chat behavior with custom system prompts, model parameters, and persona settings to tailor AI responses to specific business needs.
+
+-   **Batch Processing**: Submit large volumes of prompts for asynchronous processing, enabling efficient handling of bulk AI tasks such as content generation, data extraction, or classification at scale.
+
+-   **API Key Management**: Generate and manage API keys to integrate Mistral's AI models programmatically into custom applications, workflows, and automation pipelines.
+
+
+
+</dd><dt><b>
+
+Enterprise-Grade AI Models
+
+</b></dt>
+<dd>
+
+Access a portfolio of Mistral AI models optimized for different use cases, including:
+
+-   **Mistral Medium** – A powerful general-purpose model for complex reasoning and content generation.
+-   **Mistral Small** – A fast, efficient model for everyday tasks and high-throughput scenarios.
+-   **Codestral** – A specialized model for code generation, completion, and software engineering tasks.
+-   **Mistral OCR** – An optical character recognition model for extracting text from documents and images.
+-   **Mistral Embed** – An embedding model for semantic search, similarity matching, and retrieval-augmented generation \(RAG\).
+-   **Voxtral Transcribe** – A speech-to-text model for transcribing audio content.
+
+
+
+</dd><dt><b>
+
+Data Privacy and Sovereignty
+
+</b></dt>
+<dd>
+
+Mistral AI Suite is deployed exclusively on SAP Cloud Infrastructure. All data processing, model inference, and data storage happen entirely within SAP-managed environments. No customer data — including prompts, conversations, uploaded documents, or model outputs — leaves SAP infrastructure or is shared with Mistral AI as a company. This architecture ensures full data isolation and supports data residency, regulatory compliance, and sovereign cloud strategies, with planned availability on SAP Sovereign Cloud for customers with the highest compliance needs.
+
+
+
+</dd><dt><b>
+
+SAP Ecosystem Integration
+
+</b></dt>
+<dd>
+
+Mistral AI Suite integrates with core SAP BTP services, including SAP Cloud Identity Services for authentication, SAP Subscription Management for tenant provisioning, and Unified Metering for commercial billing. This enables a seamless experience within the SAP ecosystem.
+
+
+
+</dd>
+</dl>
+
+
+
+## Commercialization
+
+Mistral AI Suite is commercially available through SAP. Customers can subscribe to the service via SAP for Me. Subscription provisioning is handled through SAP's standard tenant lifecycle management processes.
+
+
+
+## Related Information
+
+-   [SAP AI Core](https://help.sap.com/docs/sap-ai-core)
+-   [Mistral AI Documentation and API](https://docs.mistral.ai/)
