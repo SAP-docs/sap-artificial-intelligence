@@ -2,10 +2,10 @@
 
 Mistral AI Suite is an AI partner application available on SAP Business Technology Platform \(SAP BTP\) as part of SAP AI Partner Applications. It provides enterprise-grade access to Mistral's state-of-the-art generative AI models, deployed exclusively on SAP Cloud Infrastructure \(SCI\), enabling organizations to leverage advanced AI capabilities within a secure, sovereign, and compliant environment.
 
-Mistral AI Suite is offered as a multitenant software as a service \(SaaS\) application, commercially available through SAP. It is designed for productive enterprise usage and integrates with SAP's identity, metering, and tenant lifecycle management services. All customer data — including prompts, conversations, documents, and generated outputs — is processed and stored entirely within SAP-managed infrastructure. No customer data is transmitted to Mistral AI or any third party.
+Mistral AI Suite is offered as a multitenant software as a service \(SaaS\) application, commercially available through SAP. It is designed for productive enterprise usage and integrates with SAP's identity, metering, and tenant lifecycle management services. All user and customer data - including prompts, conversations, documents, and generated outputs - is processed and stored entirely within SAP-managed infrastructure. No data is transmitted to Mistral AI or any third party.
 
 > ### Note:
-> Mistral AI Suite is part of SAP AI Partner Applications. While the underlying AI models are developed by Mistral AI, all model inference, data processing, and data storage occur exclusively within SAP Cloud Infrastructure. Mistral AI does not have access to customer data. SAP provides the infrastructure, commercialization, and integration with the SAP ecosystem.
+> Mistral AI Suite is part of SAP AI Partner Applications. While the underlying AI models are developed by Mistral AI, all model inference, data processing, and data storage occur exclusively within SAP Cloud Infrastructure. Mistral AI does not have access to user or customer data. SAP provides the infrastructure, commercialization, and integration with the SAP ecosystem.
 
 
 
@@ -58,7 +58,6 @@ Access a portfolio of Mistral AI models optimized for different use cases, inclu
 
 -   **Mistral Medium** – A powerful general-purpose model for complex reasoning and content generation.
 -   **Mistral Small** – A fast, efficient model for everyday tasks and high-throughput scenarios.
--   **Codestral** – A specialized model for code generation, completion, and software engineering tasks.
 -   **Mistral OCR** – An optical character recognition model for extracting text from documents and images.
 -   **Mistral Embed** – An embedding model for semantic search, similarity matching, and retrieval-augmented generation \(RAG\).
 -   **Voxtral Transcribe** – A speech-to-text model for transcribing audio content.
@@ -72,7 +71,11 @@ Data Privacy and Sovereignty
 </b></dt>
 <dd>
 
-Mistral AI Suite is deployed exclusively on SAP Cloud Infrastructure. All data processing, model inference, and data storage happen entirely within SAP-managed environments. No customer data — including prompts, conversations, uploaded documents, or model outputs — leaves SAP infrastructure or is shared with Mistral AI as a company. This architecture ensures full data isolation and supports data residency, regulatory compliance, and sovereign cloud strategies, with planned availability on SAP Sovereign Cloud for customers with the highest compliance needs.
+Mistral AI Suite is deployed exclusively on SAP Cloud Infrastructure. All data processing, model inference, and data storage happen entirely within SAP-managed environments. No user or customer data - including prompts, conversations, uploaded documents, or model outputs - leaves SAP infrastructure or is shared with Mistral AI as a company. This architecture ensures full data isolation and supports data residency, regulatory compliance, and sovereign cloud strategies, with planned availability on SAP Sovereign Cloud for customers with the highest compliance needs.
+
+SAP does not collect or use user or customer data for AI model training. User inputs - such as chat messages, prompts, and uploaded content - are not used to train, fine-tune, or improve any AI models. SAP does not store personal information from the Mistral AI Suite application beyond what is strictly necessary for the operation of the service.
+
+Conversation data is isolated at the user level. Data from chat interactions is only ever used within the same user context and is not accessible to other users or tenants.
 
 
 
@@ -89,6 +92,14 @@ Mistral AI Suite integrates with core SAP BTP services, including SAP Cloud Iden
 
 </dd>
 </dl>
+
+
+
+## Data Security and Responsible Use
+
+Mistral AI Suite is designed for general business productivity use. It is not intended for processing personal data or data classified as confidential under your organization's data classification policies. Users are advised not to share personal, confidential, or sensitive information in chat conversations or prompts.
+
+Usage of Mistral AI Suite is expected to be in accordance with applicable data protection regulations and your organization's data security standards. SAP's data security guidelines and acceptable use policies apply.
 
 
 
