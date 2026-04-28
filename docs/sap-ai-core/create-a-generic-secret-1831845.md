@@ -16,7 +16,7 @@ A generic secret authorizes SAP AI Core to use your resource group without expos
 
 ## Prerequisites
 
-You've completed the initial setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
+You've completed the initial setup.
 
 You have access to a public-facing Docker registry over the internet. It isn't possible to use a Docker registry behind a VPN or corporate network.
 
@@ -94,7 +94,7 @@ curl --location --request POST "$AI_API_URL/v2/admin/secrets" \
 
 ## Prerequisites
 
-You've completed the initial setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
+You've completed the initial setup.
 
 You have access to a public-facing Docker registry over the internet. It isn't possible to use a Docker registry behind a VPN or corporate network.
 

@@ -36,8 +36,13 @@ Click the following tiles to find out more about the generative AI hub.
 This section walks you through the essential steps for getting started with the generative AI hub in SAP AI Core. You'll authenticate, retrieve your orchestration deployment URL, and make your first model call using the Harmonized API.
 -   **[Models](models-6440777.md "")**  
 
--   **[Consume Models](consume-models-4ca11f6.md "")**  
-
+-   **[Foundation Models](foundation-models-2d981fb.md "The foundation models service operates under the global AI scenario
+			foundation-models, which is managed by SAP AI Core.")**  
+The foundation models service operates under the global AI scenario `foundation-models`, which is managed by SAP AI Core.
+-   **[Orchestration](orchestration-8d02235.md "The orchestration service runs on SAP AI Core under the global AI scenario
+                orchestration. It provides unified access to multiple generative AI models through consistent
+            code, configuration, and deployment.")**  
+The orchestration service runs on SAP AI Core under the global AI scenario `orchestration`. It provides unified access to multiple generative AI models through consistent code, configuration, and deployment.
 
 **Related Information**  
 

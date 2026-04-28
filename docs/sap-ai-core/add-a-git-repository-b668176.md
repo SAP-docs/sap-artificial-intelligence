@@ -16,14 +16,14 @@ You can use your own git repository to version control your SAP AI Core template
 
 ## Prerequisites
 
--   You've completed the initial setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
+-   You've completed the initial setup.
 
 -   You have access to a git repository over the Internet.
 -   You've generated a personal access token for your git repository. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 -   If you want to onboard a git repository hosted on GitLab, make sure that the repository URL contains the `.git` suffix.
 -   Secrets aren't permitted in your repository. If secrets are used, it isn't possible to synchronize content.
 
--   You've completed the initial setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
+-   You've completed the initial setup.
 
 
 > ### Note:  
@@ -98,14 +98,14 @@ Create an application to sync your folders. For more information, see [Create an
 
 ## Prerequisites
 
--   You've completed the initial setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
+-   You've completed the initial setup.
 
 -   You have access to a git repository over the Internet.
 -   You've generated a personal access token for your git repository. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 -   If you want to onboard a git repository hosted on GitLab, make sure that the repository URL contains the `.git` suffix.
 -   Secrets aren't permitted in your repository. If secrets are used, it isn't possible to synchronize content.
 
--   You've completed the initial setup. For more information, see [Initial Setup](initial-setup-38c4599.md).
+-   You've completed the initial setup.
 
 
 > ### Note:  

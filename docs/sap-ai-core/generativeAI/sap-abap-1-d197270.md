@@ -90,16 +90,8 @@ Input and output filtering is configured for the model to prevent malicious or h
 -   **[Prompting Templates](prompting-templates-214c3c3.md "")**  
 
 
-**Parent topic:**[Models](models-6440777.md "")
-
 **Related Information**  
 
-
-[Large Language Models](large-language-models-c45166a.md "Large Language Models (LLMs) are trained on vast amounts of text data to understand and generate human-like language.LLMs are useful for tasks such as text generation, summarization, translation, question answering, and conversational AI.")
-
-[SAP-RPT-1](sap-rpt-1-f128f5e.md "SAP-RPT-1 is a relational pretrained transformer for use on relational and structured data. It's developed and maintained by SAP.")
-
-[Supported Models](supported-models-509e588.md "")
 
 [Example Payloads for Inferencing: SAP-ABAP-1](example-payloads-for-inferencing-sap-abap-1-9ea7333.md "")
 

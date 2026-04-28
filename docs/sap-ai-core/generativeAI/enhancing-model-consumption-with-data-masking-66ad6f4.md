@@ -73,6 +73,9 @@ In the following example, we use the data masking module to anonymize people, or
 
 As shown in the response, the data masking module masks the configured entities before sending them to the model. The model then operates on this masked data and can still provide a summary.
 
+> ### Caution:  
+> The `intermediate_results` field may contain sensitive information. We recommend not displaying its contents to end users.
+
 > ### Output Code:  
 > ```
 > {

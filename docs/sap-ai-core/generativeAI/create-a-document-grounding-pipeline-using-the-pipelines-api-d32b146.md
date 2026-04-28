@@ -53,6 +53,9 @@ You can use API endpoints to view and manage the lifecycle of your data pipeline
 
 You can manually restart a pipeline. For more information, see [Manually Restart a Document Grounding Pipeline](manually-restart-a-document-grounding-pipeline-932f2b7.md).
 
+-   **[Create a Pipeline with Google Drive](create-a-pipeline-with-google-drive-a8d2716.md "Creates a document grounding pipeline that indexes content from Google Drive using a
+        generic secret, with optional metadata and scheduled updates.")**  
+Creates a document grounding pipeline that indexes content from Google Drive using a generic secret, with optional metadata and scheduled updates.
 -   **[Create a Pipeline with Microsoft SharePoint](create-a-pipeline-with-microsoft-sharepoint-4b8d58c.md "")**  
 
 -   **[Create a Pipeline with AWS S3](create-a-pipeline-with-aws-s3-81634e3.md "")**  

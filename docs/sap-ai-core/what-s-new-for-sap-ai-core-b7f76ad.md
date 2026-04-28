@@ -92,6 +92,336 @@ Generative AI hub
 </td>
 <td valign="top">
 
+Inference observability allows you to store and retrieve payloads from foundation model inferences for analytical purposes. You can add custom labels for filtering, attach feedback after inference completion, and store data in a registered S3 object store or opt for metadata-only storage. Use inference headers to explicitly control which requests are recorded, and leverage the REST APIs to manage labels, feedback, and retrieve records for analysis.
+
+For more information, see [Inference Observability](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/8e9daccf82af44718b26ec7eae45ac50.html "") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-04-27
+
+</td>
+<td valign="top">
+
+2026-04-27
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+The Google Drive object store has been added to orchestration workflows.
+
+For more information, see [Create a Generic Secret for Google Drive](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/99582a75db344d958155efc854ba7cf1.html "Creates a generic secret with base64‑encoded credentials required to connect Google Drive to Document Grounding in SAP AI Core.") :arrow_upper_right: and [Create a Pipeline with Google Drive](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/a8e3a7fa8ae74f92a8cef426404b2072.html "Creates a document grounding pipeline that indexes content from Google Drive using a generic secret, with optional metadata and scheduled updates.") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-04-27
+
+</td>
+<td valign="top">
+
+2026-04-27
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Predictive AI Executions
+
+</td>
+<td valign="top">
+
+You can now track the progress of long-running executions in real-time. When viewing execution status, progress details are automatically displayed in a normalized format.
+
+For more information, see [Start Training](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/54b44e4099c3436db1c02242489435d8.html "") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-04-27
+
+</td>
+<td valign="top">
+
+2026-04-27
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Administration
+
+</td>
+<td valign="top">
+
+mTLS certificate secrets are supported, enabling your AI workloads to securely authenticate to external services using mutual TLS \(mTLS\) without manual certificate management.
+
+For more information, see [Manage mTLS Certificate Secrets](manage-mtls-certificate-secrets-200810f.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-04-27
+
+</td>
+<td valign="top">
+
+2026-04-27
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+New models are supported, including GPT 5.4, GPT 5.4-nano and GPT 5.3-Codex.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-04-27
+
+</td>
+<td valign="top">
+
+2026-04-27
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
 For security reasons, the system prompt for SAP-ABAP-1 is now predefined. The prompt is added automatically to all requests.
 
 If you include a system prompt in a request, the request fails and an error is returned.

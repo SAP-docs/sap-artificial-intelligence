@@ -24,6 +24,8 @@ Consumption of generative AI in SAP AI Core is measured in GenAI tokens. GenAI t
 Generative AI resource requirements vary based on the use case. Available resources are shown in the table:
 
 
+
+
 <table>
 <tr>
 <th valign="top">
@@ -76,7 +78,26 @@ Gigabyte day
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Inference Observability
+
+</td>
+<td valign="top">
+
+Storing inference records
+
+</td>
+<td valign="top">
+
+DataVolume
+
+</td>
+</tr>
 </table>
+
+For more information on inference observability, including conversion rates between inference records and DataVolume units, see [3720903](https://me.sap.com/notes/3720903).
 
 
 
@@ -110,6 +131,7 @@ Here's an example estimation, using fictitious values:
 >     -   Data Masking \(for privacy and compliance\)
 > 
 > 
+> -   Inference Observability: The 25,000 inference requests and responses are stored with associated metadata, labels and feedback for later analysis.
 > 
 > The following orchestration services are essential to support the grounding step and introduce additional capacity usage beyond the core LLM calls.
 > 
@@ -338,6 +360,28 @@ Here's an example estimation, using fictitious values:
 > </table>
 > 
 > Total consumption = 232.25 + 186.3 = 418.55 CU
+> 
+> **Calculate Inference Observability Costs:**
+> 
+> This example assumes that an inference record consumes 0.002048 MB per day. We assume all 25,000 records are created at day one and are kept for a month.
+> 
+> 1.  Calculate total storage consumption
+> 
+>     Formula: Total storage consumption per day = Number of inference records \* 0.002048 MB
+> 
+>     Values: Total storage consumption per day = 25,000 \* 0.002048 MB = 51.2 MB
+> 
+> 2.  Calculate data volume units per day
+> 
+>     Formula: data volume units per day = total storage consumption per day \(in MB\) \* 0.00089
+> 
+>     Values: data volume units per day = 51.2 \*0.00089 = 0.045568
+> 
+> 3.  Calculate capacity units per month
+> 
+>     Formula: capacity units per month = data volume units per day \* 30
+> 
+>     Values: capacity units per month = 0.045568 \* 30 = 1.36704 CU
 
 
 

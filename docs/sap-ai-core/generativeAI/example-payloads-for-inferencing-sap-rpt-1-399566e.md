@@ -95,6 +95,8 @@ All JSON payloads must be UTF-8 encoded.
 
 -   Data as JSON organized by columns
 
+-   Data in Apache Parquet file format
+
 
 You can make requests using the following methods:
 
@@ -210,6 +212,54 @@ curl --request POST \
       }
   }
 }'
+```
+
+
+
+### Request with Parquet File
+
+Parquet files can be uploaded using multipart form-data.
+
+The request must include the following form fields:
+
+-   `file`: The parquet file to be uploaded \(<code>Content-Type: application/vnd.apache.parquet</code>\)
+
+-   `prediction_config`: A JSON string containing the prediction configuration
+
+-   `index_column`: The name of the column used to identify the row
+
+-   `parse_data_types`: A boolean that specifies whether to parse data types automatically \(default: `true`\)
+
+
+The values for the `index_column` and `parse_data_types` fields are optional but recommended. If you don't specify values for these fields, the system uses default values.
+
+The request must use `Content-Type: multipart/form-data` with an appropriate boundary string. The parquet file is read and processed similarly to row-wise and column-wise JSON inputs.
+
+```
+POST $DEPLOYMENT_URL/predict_parquet
+  --header "Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW" \
+  --header "Authorization: Bearer $AUTH_TOKEN" \
+  --header "ai-resource-group: default"
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="test_data.parquet"
+Content-Type: application/vnd.apache.parquet
+
+< ./test_data.parquet
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="prediction_config"
+
+{"target_columns": [{"name": "salary","prediction_placeholder": "[PREDICT]"}]}
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="index_column"
+
+name
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="parse_data_types"
+
+true
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
 ```
 
 
@@ -472,6 +522,181 @@ The `data_schema parameter` and `task_type` parameters are optional, but are rec
 If `data_schema` is omitted, data types are inferred automatically.
 
 If `task_type` is omitted, the model attempts to determine whether `classification` or `regression` is the intended task type.
+
+
+
+### Parameter description for `/predict_parquet` \(Parquet file input as multipart/form-data\)
+
+
+<table>
+<tr>
+<th valign="top">
+
+Name
+
+</th>
+<th valign="top">
+
+Type
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`prediction_config` 
+
+</td>
+<td valign="top">
+
+object
+
+</td>
+<td valign="top">
+
+The configuration object specifying which columns to predict
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`prediction_config.target_columns` 
+
+</td>
+<td valign="top">
+
+array
+
+</td>
+<td valign="top">
+
+The array of target-column configurations for prediction
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`prediction_config.target_columns[].name` 
+
+</td>
+<td valign="top">
+
+string
+
+</td>
+<td valign="top">
+
+The name of the column to predict
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`prediction_config.target_columns[].prediction_placeholder` 
+
+</td>
+<td valign="top">
+
+string
+
+</td>
+<td valign="top">
+
+The value used as placeholder in rows where prediction is needed
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`prediction_config.target_columns[].top_k`
+
+</td>
+<td valign="top">
+
+integer
+
+</td>
+<td valign="top">
+
+\(Optional\)
+
+default is 1. Only for task type "classification".
+
+Controls how many labels to predict for each column in each row.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`prediction_config.target_columns[].task_type` 
+
+</td>
+<td valign="top">
+
+string
+
+</td>
+<td valign="top">
+
+\(Optional\)
+
+The type of prediction task
+
+Possible values: `classification` or `regression`
+
+If omitted, the model tries to automatically determine the task type that the user intends.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`index_column` 
+
+</td>
+<td valign="top">
+
+string
+
+</td>
+<td valign="top">
+
+\(Optional\)
+
+The name of the column used to identify the row
+
+This column isn't used as an input feature for the model, and is returned in the response objects.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`file` 
+
+</td>
+<td valign="top">
+
+application/
+
+</td>
+<td valign="top">
+
+A parquet file
+
+</td>
+</tr>
+</table>
 
 
 

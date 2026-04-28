@@ -280,14 +280,6 @@ You consume the model through API calls. For more information, see [Example Payl
 
 For an estimate of projected costs, use the For an estimate of projected costs, use the SAP AI Core cost calculator, and select your preferred model. For more information, see [SAP AI Core Cost Calculator for Generative AI](https://ai-core-calculator.cfapps.eu10.hana.ondemand.com/uimodule/index.html#/gen).
 
-**Parent topic:**[Models](models-6440777.md "")
+-   **[Example Payloads for Inferencing: sap-rpt-1](example-payloads-for-inferencing-sap-rpt-1-399566e.md)**  
 
-**Related Information**  
-
-
-[Large Language Models](large-language-models-c45166a.md "Large Language Models (LLMs) are trained on vast amounts of text data to understand and generate human-like language.LLMs are useful for tasks such as text generation, summarization, translation, question answering, and conversational AI.")
-
-[SAP-ABAP-1](sap-abap-1-d197270.md "SAP-ABAP-1 is a foundation model built by SAP that helps with coding tasks. It is fine-tuned on a large amount of SAP ABAP code.")
-
-[Supported Models](supported-models-509e588.md "")
 

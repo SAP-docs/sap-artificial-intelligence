@@ -29,7 +29,7 @@ You can configure the module by passing the following information:
 
 -   Model Version \(parameter `version`\): The model version is optional and defaults to “latest”.
 
--   Timeout \(parameter `timeout`\): is optional and is specified in seconds. Min: 1, max 600, default: 600.
+-   Timeout \(parameter `timeout`\): is optional and is specified in seconds. Min: 1, , default: 600.
 
     You can use timeout to configure a timeout limit for LLM calls. 
 

@@ -52,6 +52,7 @@ The following repositories and document types are supported:
 -   SAP Document Management service
 
 -   Service Now
+-   Google Drive
 
 
 <table>
