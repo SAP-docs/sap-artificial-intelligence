@@ -7,9 +7,9 @@ Connect SAP AI Core to a cloud object store and manage access using an object st
 Your cloud storage credentials are managed using secrets. Secrets are a means of allowing and controlling connections across directories and tools, without compromising your credentials.
 
 > ### Restriction:  
-> You must create an **object store secret** named **default** to store the training output artifact \(for example, a model\). If this default object store secret is missing, the training pipeline fails.
+> You must create an **object store secret** named **default** to store the training output artifact \(for example, a model\). If this default object store secret is missing, the training pipeline will fail.
 > 
-> For **input training artifacts only**, you can create multiple object store secrets with different names as needed.
+> For **input training artifacts only**, you may create multiple object store secrets with different names as needed.
 
 > ### Caution:  
 > You are responsible for the rotation of your access credentials and certificates of SAP AI Core within BTP according to regional policy.

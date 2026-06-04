@@ -30,7 +30,7 @@ After rotation, the secret is updated with the new certificate and key. Running 
 
 Send a PATCH request to the endpoint `$AI_API_URL/v2/admin/mtlsCertificateSecrets`.
 
-Ensure that you have the following headers set:
+Make sure that you've set the following headers:
 
 
 <table>
@@ -78,7 +78,7 @@ $AI\_API\_URL
 </td>
 <td valign="top">
 
-The base URL of your SAP AI Core environment. This can also be set as an environment variable.
+The base URL of your SAP AI Core environment. You can set the URL as an environment variable.
 
 </td>
 </tr>

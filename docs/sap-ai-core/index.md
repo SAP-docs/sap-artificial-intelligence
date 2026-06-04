@@ -17,7 +17,6 @@
         -   [Create a Space](create-a-space-4c1190c.md)
         -   [Add a Service Plan](add-a-service-plan-86002d9.md)
             -   [Service Plans](service-plans-c7244c6.md)
-                -   [Set Up the Free Plan](set-up-the-free-plan-4533adc.md)
                 -   [Update a Service Plan](update-a-service-plan-924f892.md)
         -   [Create a Service Instance](create-a-service-instance-34761f9.md)
         -   [Create a Service Key](create-a-service-key-7323ff4.md)

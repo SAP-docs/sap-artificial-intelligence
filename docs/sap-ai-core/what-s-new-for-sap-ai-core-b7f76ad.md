@@ -92,6 +92,742 @@ Generative AI hub
 </td>
 <td valign="top">
 
+For prompt optimizations, you can now reconcile mismatched variables between prompts and datasets by implementing variable mapping. Additional metrics have been added, including `EXACT_MATCH`: a Boolean indicating whether the output exactly matches the reference.
+
+For more information, see [Variable Mapping](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/bb3d4f87034e4995b5f17d3f2acc090e.html "Variable mapping enables you to align variable names between prompts and test datasets, ensuring correct data flow even when attribute names differ. Use this feature to resolve naming mismatches and maintain consistency in automated prompt optimization workflows.") :arrow_upper_right: and [Create a Configuration for a Prompt Optimization](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/40ba1683832d4c3a92eaac8c0c399b18.html "Configuration for a prompt optimization defines the parameters, artifacts, and model settings that SAP AI Core uses to execute a prompt optimization.") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-06-03
+
+</td>
+<td valign="top">
+
+2026-06-03
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+We now support new models, including Chat GPT 5.5.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-06-03
+
+</td>
+<td valign="top">
+
+2026-06-03
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Service Plans
+
+</td>
+<td valign="top">
+
+The free service plan has been discontinued. For more information, see SAP Note [3735945](https://me.sap.com/notes/3735945).
+
+If you use the free plan, you can update your plan to the standard or extended plan. For more information, see [Service Plans](service-plans-c7244c6.md).
+
+Alternatively, a 30-day free trial including Generative AI hub is available. For more information, see [Trial](https://www.sap.com/products/artificial-intelligence/generative-ai-hub-trial.html).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-05-22
+
+</td>
+<td valign="top">
+
+2026-05-22
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Service Plans
+
+</td>
+<td valign="top">
+
+The free service plan will be discontinued on 2026-05-22. For more information, see SAP Note [3735945](https://me.sap.com/notes/3735945).
+
+If you use the free plan, you can update your plan to the standard or extended plan. For more information, see [Service Plans](service-plans-c7244c6.md).
+
+Alternatively, a 30-day free trial including Generative AI hub is available. For more information, see [Trial](https://www.sap.com/products/artificial-intelligence/generative-ai-hub-trial.html).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-05-19
+
+</td>
+<td valign="top">
+
+2026-05-19
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+New models are supported, including Gemini 3.1 Flash Lite.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-05-12
+
+</td>
+<td valign="top">
+
+2026-05-12
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+For model consumption through foundation models, you can reduce costs by sending requests in batches.
+
+For more information, see [Batch Consumption](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/e6a5a0ea322b4a24abdb73efd7b2fc56.html "") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-05-08
+
+</td>
+<td valign="top">
+
+2026-05-08
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+`metaConfigId` has been added as a filter for pipeline queries in the pipelines API for the grounding module of orchestration.
+
+For more information, see [Data Pipelines](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/9d9eb377f0bd4baab1f7e196df512bb7.html "") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-05-08
+
+</td>
+<td valign="top">
+
+2026-05-08
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+The templating module of orchestration has been updated to include prompt caching for use with OpenAI and Gemini models only.
+
+Prompt caching improves performance by reusing common prompt sections, enabling faster and more consistent responses across requests.
+
+For more information, see [Prompt Caching](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/77118d6cfc1f49a4944d616ad3bdb9a0.html "Prompt caching improves performance by reusing predefined sections of a prompt across multiple orchestration requests.") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-05-08
+
+</td>
+<td valign="top">
+
+2026-05-08
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+The templating module of orchestration has been updated to include response formatting.
+
+You can define schemas for the LLM to follow to guide the structure of your outputs.
+
+For more information, see [Response Formatting](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/e8278623b0584e6eafe46ce9b679af6a.html "") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-05-08
+
+</td>
+<td valign="top">
+
+2026-05-08
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub
+
+</td>
+<td valign="top">
+
+You can now track the progress of long-running prompt optimizations in real-time. When viewing execution status, progress details are automatically displayed in a normalized format.
+
+You can also use additional metrics such as ROUGE, BLEU, COMET and metrics designed to evaluate tool calling.
+
+For more information, see [Prompt Optimization](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/f5af0bdc021041e0a3fb69ede1b4a545.html "") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-05-08
+
+</td>
+<td valign="top">
+
+2026-05-08
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+New models are supported, including Claude Opus 4.7, GPT Realtime and Mistral Small. Additionally, Gemini-2.5 Flash support image generation.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-05-08
+
+</td>
+<td valign="top">
+
+2026-05-08
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
 Inference observability allows you to store and retrieve payloads from foundation model inferences for analytical purposes. You can add custom labels for filtering, attach feedback after inference completion, and store data in a registered S3 object store or opt for metadata-only storage. Use inference headers to explicitly control which requests are recorded, and leverage the REST APIs to manage labels, feedback, and retrieve records for analysis.
 
 For more information, see [Inference Observability](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/8e9daccf82af44718b26ec7eae45ac50.html "") :arrow_upper_right:.
@@ -6540,72 +7276,6 @@ General Availability
 <td valign="top">
 
 New
-
-</td>
-<td valign="top">
-
-Technology
-
-</td>
-<td valign="top">
-
-Not applicable
-
-</td>
-<td valign="top">
-
-SAP Business Technology Platform
-
-</td>
-<td valign="top">
-
-2022-10-18
-
-</td>
-<td valign="top">
-
-2022-10-18
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP AI Core 
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
-Free Service Plan
-
-</td>
-<td valign="top">
-
-To try SAP AI Core for free, you can use a free service plan. A free service plan can be easily upgraded to a standard plan, retaining your users and data.
-
-For more information, see [Set Up the Free Plan](set-up-the-free-plan-4533adc.md).
-
-</td>
-<td valign="top">
-
-Info only
-
-</td>
-<td valign="top">
-
-General Availability
-
-</td>
-<td valign="top">
-
-Announcement
 
 </td>
 <td valign="top">

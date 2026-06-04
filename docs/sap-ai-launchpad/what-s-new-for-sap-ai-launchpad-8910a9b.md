@@ -89,6 +89,340 @@ SAP AI Launchpad
 </td>
 <td valign="top">
 
+Service Plans
+
+</td>
+<td valign="top">
+
+The free service plan has been discontinued. For more information, see SAP Note [3735945](https://me.sap.com/notes/3735945).
+
+Users of the free plan can update their plan to the standard plan. For more information, see [Service Plans](service-plans-ec1717d.md).
+
+Alternatively, a 30 day free trial including Generative AI hub is available. For more information, see [Trial](https://www.sap.com/products/artificial-intelligence/generative-ai-hub-trial.html).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-05-22
+
+</td>
+<td valign="top">
+
+2026-05-22
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Service Plans
+
+</td>
+<td valign="top">
+
+The free service plan will be discontinued on 2026-05-22. For more information, see SAP Note [3735945](https://me.sap.com/notes/3735945).
+
+Users of the free plan can update their plan to the standard plan. For more information, see [Service Plans](service-plans-ec1717d.md).
+
+Alternatively, a 30 day free trial including Generative AI hub is available. For more information, see [Trial](https://www.sap.com/products/artificial-intelligence/generative-ai-hub-trial.html).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-05-19
+
+</td>
+<td valign="top">
+
+2026-05-19
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+New models are supported, including Claude Opus 4.7.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-05-08
+
+</td>
+<td valign="top">
+
+2026-05-08
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+You can request rate limit increases through the *Administration* app or the model card view in the *Prompt Library*.
+
+For more information, see [Quota Management](quota-management-408e470.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-05-08
+
+</td>
+<td valign="top">
+
+2026-05-08
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Where supported by your selected model, you can upload PDF files to the *Prompt Experimenter* and *Orchestration*.
+
+For more information, see [Prompt Experimentation](prompt-experimentation-384cc0c.md) and [Templating](templating-11d44e6.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-03-16
+
+</td>
+<td valign="top">
+
+2026-03-16
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 Generative AI hub 
 
 </td>
@@ -6236,72 +6570,6 @@ General Availability
 <td valign="top">
 
 New
-
-</td>
-<td valign="top">
-
-Technology
-
-</td>
-<td valign="top">
-
-Not applicable
-
-</td>
-<td valign="top">
-
-SAP Business Technology Platform
-
-</td>
-<td valign="top">
-
-2022-10-18
-
-</td>
-<td valign="top">
-
-2022-10-18
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP AI Launchpad 
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
-Free Service Plan
-
-</td>
-<td valign="top">
-
-To try SAP AI Launchpad for free, you can use a free service plan. A free service plan can be easily updated to a standard plan, retaining your users and data.
-
-See [Service Plans](service-plans-ec1717d.md) and [Free Plan](free-plan-87e4fb1.md).
-
-</td>
-<td valign="top">
-
-Info only
-
-</td>
-<td valign="top">
-
-General Availability
-
-</td>
-<td valign="top">
-
-Announcement
 
 </td>
 <td valign="top">

@@ -4,7 +4,7 @@
 
 SAP AI Core provides a scalable infrastructure for AI model management, with usage-based pricing that lets you pay only for the resources you use.
 
-The service offers various plans, including a free, standard, and extended plan. If you want to access all capabilities, we recommend the extended plan.
+The service offers various plans, including a standard, and extended plan. If you want to access all capabilities, we recommend the extended plan.
 
 We offer the following model options:
 

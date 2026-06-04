@@ -9,7 +9,7 @@
 
 [Create a Resource Group](create-a-resource-group-01753f4.md "")
 
-[Delete a Resource Group](delete-a-resource-group-40d83a2.md "")
+[Delete a Resource Group](delete-a-resource-group-40d83a2.md "Deletes a resource group that is invalid, contains errors, or is no longer required.")
 
 <a name="task_i3h_n13_tcc"/>
 

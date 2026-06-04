@@ -50,7 +50,7 @@
 
     3.  You can open a saved template using the <span class="SAP-icons-V5"></span> \(select template\) icon, or create a new template by entering your input data in the *Message* boxand assign a role to your messge using the tabs. You can add more message blocks using the :heavy_plus_sign:.
 
-        For selected models, image inputs are supported, and can be added using the <span class="SAP-icons-V5"></span> \(add image\)icon or copy and paste.
+        For selected models, image and pdf inputs are supported, and can be added using the <span class="SAP-icons-V5"></span> \(add document\)icon or copy and paste.
 
         Prompt messages are limited to 5.00mb across all inputs.
 

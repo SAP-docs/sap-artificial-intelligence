@@ -21,6 +21,10 @@ Other capabilities are accessed through the corresponding tabs.
 
 -   **[Create a Disclaimer](create-a-disclaimer-4ecc5ae.md "")**  
 
+-   **[Quota Management](quota-management-408e470.md "
+		
+	")**  
+
 
 **Related Information**  
 

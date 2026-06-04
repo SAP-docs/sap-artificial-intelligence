@@ -8,8 +8,6 @@ The SAP AI Core service plan you choose determines pricing, conditions of use, r
 
 Your choice depends on your use case:
 
--   Use the *Free* plan to explore the service with limited resources and community-only support.
-
 -   Use the *Standard* plan for production workloads without generative AI.
 
 -   Use the *Extended* plan for production workloads with generative AI hub access.
@@ -34,11 +32,6 @@ Feature / Plan
 </th>
 <th valign="top">
 
-Free \(Exploration\)
-
-</th>
-<th valign="top">
-
 Standard \(Production\)
 
 </th>
@@ -56,11 +49,6 @@ Account type
 </td>
 <td valign="top">
 
-Enterprise account \(SAP BTP free tier only; not available in SAP BTP trial\)
-
-</td>
-<td valign="top">
-
 Enterprise account
 
 </td>
@@ -74,11 +62,6 @@ Enterprise account
 <td valign="top">
 
 Support
-
-</td>
-<td valign="top">
-
-Community support only \(no SLA\)
 
 </td>
 <td valign="top">
@@ -105,11 +88,6 @@ Generative AI hub
 </td>
 <td valign="top">
 
-<span style="color:#cc1919;"><span class="SAP-icons-V5"></span></span> Not included
-
-</td>
-<td valign="top">
-
 <span style="color:#007833;"><span class="SAP-icons-V5"></span></span> Included
 
 </td>
@@ -118,11 +96,6 @@ Generative AI hub
 <td valign="top">
 
 Pricing
-
-</td>
-<td valign="top">
-
-Free
 
 </td>
 <td valign="top">
@@ -144,12 +117,7 @@ Instances per subaccount
 </td>
 <td valign="top">
 
-1 instance \(mutually exclusive with Standard\)
-
-</td>
-<td valign="top">
-
-1+ instances \(mutually exclusive with Free\)
+1+ instances
 
 </td>
 <td valign="top">
@@ -162,11 +130,6 @@ Instances per subaccount
 <td valign="top">
 
 Executions/Deployments
-
-</td>
-<td valign="top">
-
-1 running execution or deployment at a time
 
 </td>
 <td valign="top">
@@ -188,11 +151,6 @@ Resource groups
 </td>
 <td valign="top">
 
-Default group only
-
-</td>
-<td valign="top">
-
 Multiple \(quota applies\)
 
 </td>
@@ -206,11 +164,6 @@ Multiple \(quota applies\)
 <td valign="top">
 
 Resource plan
-
-</td>
-<td valign="top">
-
-Starter plan only
 
 </td>
 <td valign="top">
@@ -232,28 +185,19 @@ Upgrade/downgrade rules
 </td>
 <td valign="top">
 
-Upgrade from Free to Standard is possible.
-
-Downgrade from Standard to Free is not possible.
+You can upgrade from the standard plan to the extended plan.
 
 </td>
 <td valign="top">
 
-Cannot be created if a Free plan is active in the same subaccount.
-
-</td>
-<td valign="top">
-
-Cannot be created if a Free plan is active in the same subaccount.
+You cannot downgrade from the extended plan to the standard plan.
 
 </td>
 </tr>
 </table>
 
 > ### Note:  
-> You can only run either a Free or a Standard plan in the same subaccount — not both. Extended follows the same rules as Standard.
-
-For supported regions, see [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core?region=all&tab=feature&commercialModel=cpea).
+> For supported regions, see [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core?region=all&tab=feature&commercialModel=cpea).
 
 
 
@@ -277,8 +221,6 @@ Alternatively, you can request an increase to your quota by creating a ticket on
 > The maximum number of resource groups is limited at tenant level to 50. If you reach this limit, you receive an error message. To free up space, delete some resource groups. Alternatively, raise a ticket to increase your quota.
 > 
 > For more information, see [Delete a Resource Group](delete-a-resource-group-40d83a2.md).
-> 
-> For more information, see [Delete a Resource Group](https://help.sap.com/viewer/92d77f26188e4582897b9106b9cb72e0/CLOUD/en-US/dc5373a8566a47f29ed121f798bd036d.html "As an administrator, you delete resource groups which contain errors or which are no longer required in your AI processes.") :arrow_upper_right:.
 
 
 
@@ -286,18 +228,12 @@ Alternatively, you can request an increase to your quota by creating a ticket on
 
 Each tenant can have a maximum of five tenant-wide secrets. If you reach this limit, you receive an error message. To free up space, delete tenant-wide secrets as described at [Delete a Generic Secret](delete-a-generic-secret-d5d5187.md). Alternatively, submit a ticket to request an increase in your quota.
 
--   **[Set Up the Free Plan](set-up-the-free-plan-4533adc.md "The free plan lets you try out SAP AI Core for testing
-		and familiarization purposes at no cost.")**  
-The free plan lets you try out SAP AI Core for testing and familiarization purposes at no cost.
--   **[Update a Service Plan](update-a-service-plan-924f892.md "Update your SAP AI Core service
-		instance from the free plan to a standard or extended plan while keeping your data and
-		models.")**  
-Update your SAP AI Core service instance from the free plan to a standard or extended plan while keeping your data and models.
+-   **[Update a Service Plan](update-a-service-plan-924f892.md "Update your SAP AI Core service instance from the standard plan to
+		the extended plan while keeping your data and models.")**  
+Update your SAP AI Core service instance from the standard plan to the extended plan while keeping your data and models.
 
 **Related Information**  
 
-
-[Set Up the Free Plan](set-up-the-free-plan-4533adc.md "The free plan lets you try out SAP AI Core for testing and familiarization purposes at no cost.")
 
 [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-core?service_plan=standard&region=europe(frankfurt)&tab=service_plan)
 

@@ -70,6 +70,9 @@ You specify your unique git repository details as follows:
 
 -   `url`: URL of the git repository
 
+    > ### Restriction:  
+    > Only ASCII alphanumerics, digits, and the characters “.”, “ -”, “\_” and “%” are allowed.
+
 -   `username`: \(Service\) user that’s accessing the git repository
 
 -   `password`: git personal access token. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
@@ -139,6 +142,9 @@ Send a POST request to the endpoint `{{apiurl}}/v2/admin/repositories` and inclu
 You specify your unique git repository details as follows:
 
 -   `url`: URL of the git repository
+
+    > ### Restriction:  
+    > Only ASCII alphanumerics, digits, and the characters “.”, “ -”, “\_” and “%” are allowed.
 
 -   `username`: \(Service\) user that’s accessing the git repository
 

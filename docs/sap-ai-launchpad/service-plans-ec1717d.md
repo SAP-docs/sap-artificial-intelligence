@@ -6,16 +6,10 @@ Learn more about the different types of service plans for SAP AI Launchpad.
 
 The service plan that you choose determines pricing, conditions of use, resources, available services, and hosts.
 
-Your use case determines whether you choose a free plan option for SAP AI Launchpad or a paid service plan.
-
-If you plan to use your global account in productive mode, you must purchase a paid enterprise account. Take this into account when planning and setting up your account model.
-
 > ### Tip:  
 > If you want a guided, hands-on environment, you can explore the generative AI hub using the 30-day free trial. For more information, see [Try now: 30-Day Basic Trial](https://www.sap.com/products/artificial-intelligence/generative-ai-hub-trial.html).
 
 The following service plans are available:
-
--   Free plan
 
 -   Standard
 
@@ -38,36 +32,6 @@ Details
 Account Type
 
 </th>
-</tr>
-<tr>
-<td valign="top">
-
-Free plan
-
-</td>
-<td valign="top">
-
--   Get to know SAP AI Launchpad using a free service, with limitations.
--   Only community support is available for free service plans and these aren't subject to SLAs.
-
--   Limitations:
-
-    -   You can have one free plan option per enterprise account
-
-    -   Limited to one connection only, irrespective of AI runtime
-    -   Generative AI hub not included
-
--   For region information, see [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/sap-ai-launchpad?tab=service_plan&region=all).
-
-
-See [Free Plan](free-plan-87e4fb1.md) and the tutorial [Get an Account on SAP BTP to Try Out Free Plan Service Plans](https://developers.sap.com/tutorials/btp-free-tier-account.html).
-
-</td>
-<td valign="top">
-
-Enterprise
-
-</td>
 </tr>
 <tr>
 <td valign="top">
@@ -98,19 +62,6 @@ Enterprise
 </tr>
 </table>
 
--   **[Free Plan](free-plan-87e4fb1.md "The free plan is an instance of SAP AI Launchpad that lets you explore
-		the available features and capabilities without cost.")**  
-The free plan is an instance of SAP AI Launchpad that lets you explore the available features and capabilities without cost.
 -   **[Metering and Pricing](metering-and-pricing-b363ad6.md "")**  
 
--   **[Update from Free Plan to Standard Plan](update-from-free-plan-to-standard-plan-7e32a70.md "Learn how to update from a free plan option to a standard plan for SAP AI Launchpad.")**  
-Learn how to update from a free plan option to a standard plan for SAP AI Launchpad.
-
-<a name="concept_nlk_qlt_16b"/>
-
-<!-- concept\_nlk\_qlt\_16b -->
-
-## Changing Service Plans
-
-If you first subscribe to the free plan option, you can migrate the same service instance to a standard service plan \(for enterprise accounts\). If you migrate from the free plan option to standard, your metadata and transaction data, including trained models, are also migrated \(for enterprise accounts\). It isn't possible to migrate from a standard service plan to the free plan option.
 

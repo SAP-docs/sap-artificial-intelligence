@@ -4161,18 +4161,6 @@ Data containing “Failed to read for all workspaces”
 <tr>
 <td valign="top">
 
-Create Workspace for free plan
-
-</td>
-<td valign="top">
-
-Data containing “Tenant having free plan is trying to create more than one connection”
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Successful Create Workspace
 
 </td>

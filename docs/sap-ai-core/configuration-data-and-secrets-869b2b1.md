@@ -8,6 +8,10 @@ Workloads can access network resources other than object stores by using credent
 
     SAP AI Core allows you to include secrets in the form of generic secrets. Generic secrets are created and managed by the REST APIs in SAP AI Core and consumed securely in a workload.
 
+-   For **mTLS authentication**scenarios:
+
+    SAP AI Core provides mTLS certificate secrets. These secrets use managed certificates issued by the SAP BTP Certificate Service. Unlike generic secrets, you do not supply the credential payload, SAP AI Core generates the certificate and private key for you. For more information, see [Manage mTLS Certificate Secrets](manage-mtls-certificate-secrets-200810f.md).
+
 -   For **non-sensitive** information:
 
     You can include non-sensitive parameters using configurations or labels.

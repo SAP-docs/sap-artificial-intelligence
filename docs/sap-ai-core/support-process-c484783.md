@@ -22,12 +22,6 @@ For more information about platform availability, updates and notifications, see
 
 
 
-### Check Guided Answers
-
-In the SAP Support Portal, check the [Guided Answers](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2065/actions/26547) section for SAP Business Technology Platform. You can find solutions for general SAP Cloud Platform issues as well as for specific services there.
-
-
-
 ### Contact SAP Support
 
 You can report an incident or error through the [SAP Support Portal](https://support.sap.com/).

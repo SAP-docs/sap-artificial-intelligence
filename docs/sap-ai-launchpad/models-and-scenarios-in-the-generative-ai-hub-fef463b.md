@@ -175,7 +175,7 @@ Access to orchestration of generative AI models is provided under the global AI 
 
 ## Models
 
-**For more information about available models, including conversion rates for tokens, rate limits and deprecation dates, see SAP Note [3437766](https://me.sap.com/notes/3437766).**
+**For more information about available models, including conversion rates for tokens, rate limits, and deprecation dates, see SAP Note [3437766](https://me.sap.com/notes/3437766).**
 
 For more information about models and their parameters, see the documentation from the model provider.
 

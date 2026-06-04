@@ -19,6 +19,8 @@ A resource group is also referred to as an instance.
 
 > ### Note:  
 > The maximum number of resource groups is limited at tenant level to 50. If you reach this limit, you receive an error message. To free up space, delete some resource groups. Alternatively, raise a ticket to increase your quota.
+> 
+> For more information, see [Delete a Resource Group](delete-a-resource-group-dc5373a.md).
 
 -   **[Create a Resource Group](create-a-resource-group-060d9be.md "As an administrator, you create resource groups to isolate your ML workloads and processes.")**  
 As an administrator, you create resource groups to isolate your ML workloads and processes.

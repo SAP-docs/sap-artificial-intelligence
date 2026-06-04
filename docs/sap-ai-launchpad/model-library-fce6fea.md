@@ -135,3 +135,5 @@ To use the model, select *Use in *<App\>** where available. For example, *Use in
 
 ![Screenshot of the SAP AI Launchpad user interface](images/Model_card_4b_b46d04b.png)
 
+The model card includes details of your rate limits for the model. You can request a rate increase by clicking *Increase Quota*. For more information, see [Quota Management](quota-management-408e470.md).
+
