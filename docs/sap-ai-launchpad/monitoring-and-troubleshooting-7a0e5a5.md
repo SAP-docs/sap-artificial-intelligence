@@ -32,12 +32,6 @@ In the SAP Support Portal, check the [Guided Answers](https://ga.support.sap.com
 
 
 
-### Retry the Action
-
-When an error message appears, choose the *Retry* option to repeat the action.
-
-
-
 ### Contact SAP Support
 
 You can report an incident or error through the [SAP Support Portal](https://support.sap.com/).
