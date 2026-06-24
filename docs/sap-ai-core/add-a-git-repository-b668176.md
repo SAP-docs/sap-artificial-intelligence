@@ -71,7 +71,7 @@ You specify your unique git repository details as follows:
 -   `url`: URL of the git repository
 
     > ### Restriction:  
-    > Only ASCII alphanumerics, digits, and the characters “.”, “ -”, “\_” and “%” are allowed.
+    > Only ASCII alphanumerics, digits, and the characters “.”, “ -”, “\_” and “%” are allowed. IP addresses are not allowed as repository URLs.
 
 -   `username`: \(Service\) user that’s accessing the git repository
 
@@ -144,7 +144,7 @@ You specify your unique git repository details as follows:
 -   `url`: URL of the git repository
 
     > ### Restriction:  
-    > Only ASCII alphanumerics, digits, and the characters “.”, “ -”, “\_” and “%” are allowed.
+    > Only ASCII alphanumerics, digits, and the characters “.”, “ -”, “\_” and “%” are allowed. IP addresses are not allowed as repository URLs.
 
 -   `username`: \(Service\) user that’s accessing the git repository
 
