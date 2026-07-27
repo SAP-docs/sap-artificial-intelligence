@@ -10,6 +10,9 @@ SAP AI Core lets you make data-driven decisions confidently and efficiently, tai
 
 SAP AI Core allows you to experiment with and utilize natural language prompts with a variety of generative AI models in the generative AI hub.
 
+> ### Restriction:  
+> SAP AI Core, including generative AI hub must **not** be used to generate synthetic data for training or fine-tuning models. Any exceptions must be explicitly approved and documented.
+
 > ### Tip:  
 > The English version of this guide is open for contributions and feedback using GitHub. This allows you to get in contact with responsible authors of SAP Help Portal pages and the development team to discuss documentation-related issues. To contribute to this guide, or to provide feedback, choose the corresponding option on SAP Help Portal:
 > 
@@ -146,7 +149,7 @@ The SAP AI Core service works in conjunction with SAP AI Launchpad and the `AI A
   
 **Architectural Overview**
 
-![Overview of the AI Core landscape](images/Image_AI_Core_Overview_8a6312d.png)
+![](images/Image_AI_Core_Overview_8a6312d.png)
 
 
 

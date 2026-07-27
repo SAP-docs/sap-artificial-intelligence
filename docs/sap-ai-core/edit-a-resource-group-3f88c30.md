@@ -2,6 +2,8 @@
 
 # Edit a Resource Group
 
+You edit a resource group to update its configuration, such as changing labels, adjusting resource limits, or modifying access settings.
+
 **Parent topic:**[Manage Resource Groups](manage-resource-groups-8aae6cb.md "A resource group is a unique dedicated namespace or workspace environment, where users can create or add configurations, executions, deployments, and artifacts. They are used for running training jobs or model servers.")
 
 **Related Information**  
@@ -15,7 +17,7 @@
 
 <!-- task\_i3h\_n13\_tcc -->
 
-## Using Curl
+## Using the API
 
 
 
@@ -32,12 +34,23 @@
 
 ## Procedure
 
-Create a resource group by sending the following:
+Edit a resource group by sending the following:
 
 ```
-curl --location --request PATCH "$AI_API_URL/v2/admin/resourceGroups/{{resource_group_name}}" --header "Authorization: Bearer $TOKEN" --header 'Content-Type: application/json' --data-raw '{ "resourceGroupId": "<ID of your resource group>"}'
+curl --location --request PATCH "$AI_API_URL/v2/admin/resourceGroups/{{resource_group_name}}"
+--header "Authorization: Bearer $TOKEN" 
+--header 'Content-Type: application/json' 
+--data-raw '{ 
+"resourceGroupId": "<ID of your resource group>"
+}'
 
 ```
+
+
+
+## Results
+
+Successful responses return code **202** and include a success message.
 
 <a name="task_cxf_n13_tcc"/>
 

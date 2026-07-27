@@ -304,17 +304,19 @@ You have access to a public-facing Docker registry over the internet. It isn't p
         }
         ```
 
-    -   ```
-{
-        	"name": "default",
-    		"type": "gcs",
-    		"pathPrefix": "<path prefix to be appended>",
-    		"data": {
-    			"BUCKET": "<gcs bucket name>",                          //required
-    			"PRIVATE_KEY": "<base64 encoded service account key>",  //required
-    	    }
-        }
-```
+    -   For Google Cloud Storage \(GCS\):
+
+        ```
+        {
+                	"name": "default",
+            		"type": "gcs",
+            		"pathPrefix": "<path prefix to be appended>",
+            		"data": {
+            			"BUCKET": "<gcs bucket name>",                          //required
+            			"PRIVATE_KEY": "<base64 encoded service account key>",  //required
+            	    }
+                }
+        ```
 
 
     > ### Tip:  

@@ -32,7 +32,7 @@
 
     The *Run Details* will open.
 
-    You will see references to your output artifact and details of the optimized prompt template.
+    You will see references to your output artifact and details of the optimized prompt template, including *Optimization Scores*.
 
 
 
@@ -40,6 +40,8 @@
 <a name="loioacfce87917654ac5a139a10e2d57b448__postreq_nnz_tjg_s2c"/>
 
 ## Next Steps
+
+You can view details of your optimized scores, expand its entry using the <span class="SAP-icons-V5"></span> \(Expand\) icon. Details include optimization evaluation metric scores and consumption information.
 
 You can refresh the view using the <span class="SAP-icons-V5"></span> \(Refresh\) icon.
 

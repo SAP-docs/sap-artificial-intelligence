@@ -8,6 +8,11 @@ Result sets are registered as artifacts in the connection where your executions 
 
 Result sets are stored as artifacts in your connected hyperscaler object storage. SAP AI Launchpad can be used with multiple hyperscaler object stores, such as Amazon S3, OSS, and WebHDFS.
 
+> ### Tip:  
+> You can access Google Drive and other latest object stores that are supported by SAP AI Core but are **not** supported by SAP AI Launchpad, through the AI API or SDK.
+> 
+> For more information, see [Libraries and SDKs in SAP AI Core](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/499309d6e371419fb7a88b7d68c20a31.html).
+
 Result sets are unique to a resource group.
 
 > ### Note:  

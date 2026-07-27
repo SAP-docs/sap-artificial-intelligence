@@ -7,7 +7,7 @@
 **Related Information**  
 
 
-[Edit a Resource Group](edit-a-resource-group-3f88c30.md "")
+[Edit a Resource Group](edit-a-resource-group-3f88c30.md "You edit a resource group to update its configuration, such as changing labels, adjusting resource limits, or modifying access settings.")
 
 [Delete a Resource Group](delete-a-resource-group-40d83a2.md "Deletes a resource group that is invalid, contains errors, or is no longer required.")
 

@@ -23,6 +23,11 @@ You use the *SAP AI Core Administration* app to add generic secrets at the level
 
 To allow the rotation of tenant-wide secrets for long-running deployments without requiring a restart, the deployment must mount the tenant-wide secret. It must also monitor the mounted secret for changes instead of relying on an in-memory copy. When a tenant-wide secret is updated, the tenant must observe the `resourceGroupSecretReplicationStatus` field in the `Get Secret` endpoint to confirm that the secret has been successfully replicated across the required resource groups. For more information, see [Consume Generic Secrets in Executions or Deployments](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/185a3245692542a78bfeff87220410c6.html).
 
+> ### Tip:  
+> You can access Google Drive and other latest object stores that are supported by SAP AI Core but are **not** supported by SAP AI Launchpad, through the AI API or SDK.
+> 
+> For more information, see [Libraries and SDKs in SAP AI Core](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/499309d6e371419fb7a88b7d68c20a31.html).
+
 
 
 <a name="loioe5cce06c8662434abaee27e77b748259__steps_z3r_1lx_rxb"/>

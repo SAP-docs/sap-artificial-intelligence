@@ -52,9 +52,9 @@ You make a model available for use by creating a deployment. You can do so one t
     **For more information about available models, including conversion rates for tokens, rate limits and deprecation dates, see SAP Note [3437766](https://me.sap.com/notes/3437766).**
 
     > ### Note:  
-    > -   Instead of specifying a model version, using “latest” will use the latest version of the model available in SAP AI Core.
+    > -   Instead of specifying a model version, specify “latest” to use the latest version of the model available in SAP AI Core.
     > 
-    > -   Where the model version is not listed, it is not applicable.
+    > -   Where the model version isn't listed, it isn't applicable.
 
     ![Screenshot of the SAP AI Launchpad user interface](images/7_7901f11.png)
 

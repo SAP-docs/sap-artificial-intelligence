@@ -10,6 +10,11 @@ Cloud storage credentials are managed using secrets. Secrets are a means of allo
 
 Various hyperscaler object stores are supported, including Amazon S3, Alicloud Object Storage Service \(OSS\), Azure and SAP HANA Cloud, data lake \(WebHDFS\).
 
+> ### Tip:  
+> You can access Google Drive and other latest object stores that are supported by SAP AI Core but are **not** supported by SAP AI Launchpad, through the AI API or SDK.
+> 
+> For more information, see [Libraries and SDKs in SAP AI Core](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/499309d6e371419fb7a88b7d68c20a31.html).
+
 -   **[Add an Object Store Secret](add-an-object-store-secret-5b4f728.md "As an administrator, you can add object store secrets for use within your AI processes. ")**  
 As an administrator, you can add object store secrets for use within your AI processes.
 -   **[Edit an Object Store Secret](edit-an-object-store-secret-82938a5.md "As an administrator, you can edit object store secrets used within your AI processes.")**  

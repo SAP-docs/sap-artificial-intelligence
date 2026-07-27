@@ -2,11 +2,13 @@
 
 # Edit an Object Store Secret
 
+Edit an object store secret to update your cloud storage credentials and settings.
+
 <a name="task_i3h_n13_tcc"/>
 
 <!-- task\_i3h\_n13\_tcc -->
 
-## Using Curl
+## Using the API
 
 
 
@@ -153,6 +155,12 @@ Edit your object store secret details using the endpoint `$AI_API_URL/v2/admin/o
 > ### Note:  
 > If the `AI-Resource-Group` header isn't specified, the *<Resource Group\>* is assigned the value `"default"` automatically.
 
+
+
+## Results
+
+Successful responses return code **202** and include a success message.
+
 <a name="task_cxf_n13_tcc"/>
 
 <!-- task\_cxf\_n13\_tcc -->
@@ -264,17 +272,19 @@ SAP AI Core supports multiple hyperscaler object stores, including the following
         }
         ```
 
-    -   ```
-{
-        	"name": "default",
-    		"type": "gcs",
-    		"pathPrefix": "<path prefix to be appended>",
-    		"data": {
-    			"BUCKET": "<gcs bucket name>",                          //required
-    			"PRIVATE_KEY": "<base64 encoded service account key>",  //required
-    	    }
-        }
-```
+    -   For Google Cloud Storage \(GCS\):
+
+        ```
+        {
+                	"name": "default",
+            		"type": "gcs",
+            		"pathPrefix": "<path prefix to be appended>",
+            		"data": {
+            			"BUCKET": "<gcs bucket name>",                          //required
+            			"PRIVATE_KEY": "<base64 encoded service account key>",  //required
+            	    }
+                }
+        ```
 
 
     > ### Tip:  

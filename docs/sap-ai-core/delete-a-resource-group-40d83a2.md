@@ -11,7 +11,7 @@ Deletes a resource group that is invalid, contains errors, or is no longer requi
 
 [Create a Resource Group](create-a-resource-group-01753f4.md "")
 
-[Edit a Resource Group](edit-a-resource-group-3f88c30.md "")
+[Edit a Resource Group](edit-a-resource-group-3f88c30.md "You edit a resource group to update its configuration, such as changing labels, adjusting resource limits, or modifying access settings.")
 
 <a name="task_i3h_n13_tcc"/>
 

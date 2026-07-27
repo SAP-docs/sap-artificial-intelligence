@@ -8,8 +8,6 @@ As an administrator, you can add object store secrets for use within your AI pro
 
 
 
-<a name="loio9ee15fb3313f4a219b7276303f2c0343__prereq_t21_cgz_qxb"/>
-
 ## Prerequisites
 
 -   You're using the SAP AI Core`extended` service plan. For more information, see [SAP AI Core Service Plans](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/service-plans).
@@ -26,6 +24,11 @@ To use optimizations, you must add an object store with the name `default`. Opti
 You can use the *SAP AI Core Administration* app to add secrets for multiple object stores. The object stores must already exist with valid credentials.
 
 Supported cloud object stores include Amazon S3 \(S3\), Alibaba Cloud Object Storage Service \(OSS\), Azure, and SAP HANA Cloud, data lake \(WebHDFS\).
+
+> ### Tip:  
+> You can access Google Drive and other latest object stores that are supported by SAP AI Core but are **not** supported by SAP AI Launchpad, through the AI API or SDK.
+> 
+> For more information, see [Libraries and SDKs in SAP AI Core](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/499309d6e371419fb7a88b7d68c20a31.html).
 
 
 
