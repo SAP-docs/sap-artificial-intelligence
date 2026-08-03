@@ -22,5 +22,7 @@ Enable SAP AI Core using the standard procedures for the SAP BTP Kyma environmen
 
 [Enabling the Service in Cloud Foundry](enabling-the-service-in-cloud-foundry-0619d8a.md "Enable SAP AI Core using the standard procedures for the SAP BTP, Cloud Foundry environment.")
 
+[Predictive AI](predictive-ai-6c3b730.md "Predictive AI is a capability of SAP AI Core that handles large volumes of data and offers scalable machine learning capabilities within a governed, enterprise-ready runtime environment.")
+
 [Using SAP BTP Services in the Kyma Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/using-sap-btp-services-in-kyma-environment?version=Cloud)
 

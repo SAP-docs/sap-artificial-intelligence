@@ -239,5 +239,5 @@ Update your SAP AI Core service instance from the standard plan to the extended 
 
 [SAP BTP Service Description Guide](https://www.sap.com/about/agreements/policies/cloud-platform.html)
 
-[Choose an Instance](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/57f4f19d9b3b46208ee1d72017d0eab6.html "You can configure SAP AI Core to use different infrastructure instances for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called "instance types" and "resource plans" for this purpose.") :arrow_upper_right:
+[Choose an Instance](choose-an-instance-57f4f19.md "You can configure SAP AI Core to use different infrastructure instances for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “instance types” and “resource plans” for this purpose.")
 

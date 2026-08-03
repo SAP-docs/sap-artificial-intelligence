@@ -1365,7 +1365,7 @@ Predictive AI Executions
 
 You can now track the progress of long-running executions in real-time. When viewing execution status, progress details are automatically displayed in a normalized format.
 
-For more information, see [Start Training](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/54b44e4099c3436db1c02242489435d8.html "") :arrow_upper_right:.
+For more information, see [Start Training](start-training-54b44e4.md).
 
 </td>
 <td valign="top">
@@ -6354,7 +6354,7 @@ Deployments
 
 When deployments are submitted, configurations are checked for errors, synchronously.
 
-For more information, see [Deploy Models](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/dd16e8ef75654dde831e7b812688e4fa.html "") :arrow_upper_right:.
+For more information, see [Deploy Models](deploy-models-dd16e8e.md).
 
 </td>
 <td valign="top">
@@ -6746,7 +6746,7 @@ Artifact signatures for artifact outputs from executions
 </td>
 <td valign="top">
 
-Artifact signatures \(hashes\) can be generated and made available to other executions and deployments to verify the integrity of an artifact. For more information, see [Using Artifact Signatures](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/2f02a1d6e3974464a4dcf7bd85fcdcac.html "Artifact signatures in the form of a hash can be added to output artifacts from executions.") :arrow_upper_right:.
+Artifact signatures \(hashes\) can be generated and made available to other executions and deployments to verify the integrity of an artifact. For more information, see [Using Artifact Signatures](using-artifact-signatures-2f02a1d.md).
 
 </td>
 <td valign="top">
@@ -7074,7 +7074,7 @@ Metadata in Response to List Executables
 
 When you use the endpoint to list executables, the response body now contains metadata about the parameters and artifacts. For parameters, the `description` and `default` values are returned. For artifacts, the `kind`, `description`, and `labels` can be added using annotations.
 
-For more information, see [List Executables](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/80895a495b4a466b8976735995e23753.html "An executable is a reusable template that defines a workflow or pipeline for tasks such as training a machine learning model or creating a deployment. It contains placeholders for input artifacts (datasets or models) and parameters (custom key-pair values) that enable the template to be reused in different scenarios.") :arrow_upper_right:, [Workflow Templates](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/83523ab8b49245bcbc9f1bf0969e32d8.html "Here, you'll find a basic workflow example template. Feel free to adjust it to suit your workflow needs.") :arrow_upper_right:, and [Serving Templates](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/20a8667ef19e4de59a4469cb542a7457.html "You use serving templates to manage your serving instances at the level of the main tenant. Serving templates define how a model is to be deployed.") :arrow_upper_right:.
+For more information, see [List Executables](list-executables-80895a4.md), [Workflow Templates](workflow-templates-83523ab.md), and [Serving Templates](serving-templates-20a8667.md).
 
 </td>
 <td valign="top">
@@ -7209,7 +7209,7 @@ Bulk PATCH Endpoint to STOP or DELETE Multiple Executions or Deployments
 </td>
 <td valign="top">
 
-Executions and Deployments can now receive PATCH requests for bulk adjustments, provided `bulkUpdates` is enabled in the relevant template. For more information, see [Workflow Templates](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/83523ab8b49245bcbc9f1bf0969e32d8.html "Here, you'll find a basic workflow example template. Feel free to adjust it to suit your workflow needs.") :arrow_upper_right: and [Serving Templates](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/20a8667ef19e4de59a4469cb542a7457.html "You use serving templates to manage your serving instances at the level of the main tenant. Serving templates define how a model is to be deployed.") :arrow_upper_right:.
+Executions and Deployments can now receive PATCH requests for bulk adjustments, provided `bulkUpdates` is enabled in the relevant template. For more information, see [Workflow Templates](workflow-templates-83523ab.md) and [Serving Templates](serving-templates-20a8667.md).
 
 </td>
 <td valign="top">
@@ -7405,7 +7405,7 @@ Periodic Scheduling
 </td>
 <td valign="top">
 
-Executions can be run automatically, to a prepared schedule. For more information, see [Training Schedules](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/2b702f8b3d0746f685ac4eea4eeb1755.html "") :arrow_upper_right:.
+Executions can be run automatically, to a prepared schedule. For more information, see [Training Schedules](training-schedules-2b702f8.md).
 
 </td>
 <td valign="top">

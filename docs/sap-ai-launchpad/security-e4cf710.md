@@ -4266,6 +4266,1686 @@ Data containing “Read successful for workspace `workspaceName`”
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+GET `/metadata`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Metadata”. The attribute is a part of an object with type “Metadata read” and id consisting of: name <url\>. It belongs to a subject with type “Metadata”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/metadataV2`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Metadata”. The attribute is a part of an object with type “Metadata read” and id consisting of: name <url\>. It belongs to a subject with type “Metadata”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/modelDeployments`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Metadata”. The attribute is a part of an object with type “Metadata read” and id consisting of: name <url\>. It belongs to a subject with type “Metadata”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/completion`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Completion”. The attribute is a part of an object with type “Completion read” and id consisting of: name <url\>. It belongs to a subject with type “Completion Request”, role “READ”, and id consisting of: method “POST”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/completionV2`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Completion”. The attribute is a part of an object with type “Completion V2 read” and id consisting of: name <url\>. It belongs to a subject with type “Completion V2 Request”, role “READ”, and id consisting of: method “POST”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/prompts`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Prompts”. The attribute is a part of an object with type “Prompt read” and id consisting of: name <url\>. It belongs to a subject with type “Prompts”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/prompts/{id}`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Prompt ID ”. The attribute is a part of an object with type “Prompt read” and id consisting of: name <url\>. It belongs to a subject with type “Prompt”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/prompts/{id}/versions`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Prompt ID ”. The attribute is a part of an object with type “Prompt read” and id consisting of: promptId “<id\>”. It belongs to a subject with type “Prompt Versions”, role “READ”, and id consisting of: promptId “<id\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/prompts/{id}/versions/{version}`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Prompt ID ”. The attribute is a part of an object with type “Prompt read” and id consisting of: promptId “<id\>”. It belongs to a subject with type “Prompt Versions”, role “READ”, and id consisting of: versionId “<version\>”, method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/promptTemplates`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Prompt Templates”. The attribute is a part of an object with type “Prompt Template read” and id consisting of: name <url\>. It belongs to a subject with type “Prompt Templates”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/promptTemplates/{promptTemplateId}`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Prompt Template ID ”. The attribute is a part of an object with type “Prompt Template read” and id consisting of: promptTemplateId “<promptTermplateId\>”. It belongs to a subject with type “Prompt Template”, role “READ”, and id consisting of: promptTemplateId “<promptTermplateId\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/scenarios/{scenario}/promptTemplates/{name}/versions/{version}/history`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Prompt Template - ID ”. The attribute is a part of an object with type “Read Prompt Template Version History” and id consisting of: name <req.method\>. It belongs to a subject with type “Prompt Template Version History”, role “READ”, and id consisting of: name “<name\>”, scenario “<scenario\>”, version “<version\>”, method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/evaluationMetrics`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Evaluation Metric ID”. The attribute is a part of an object with type “Evaluation Metric read” and id consisting of: name <url\>. It belongs to a subject with type “Evaluation Metrics”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/evaluationMetrics/{evaluationMetricId}`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Evaluation Metric ID”. The attribute is a part of an object with type “Evaluation Metric read” and id consisting of: name <url\>. It belongs to a subject with type “Metric”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/scenarios/{scenario}/evaluationMetrics/{name}/versions/{version}/history`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Evaluation Metric Name”. The attribute is a part of an object with type “Read Evaluation Metric Version History” and id consisting of: name <req.method\>. It belongs to a subject with type “Evaluation Metric Version History”, role “READ”, and id consisting of: name “<name\>”, version “<version\>”, method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/orchestrationConfigs`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Orchestration Config”. The attribute is a part of an object with type “Orchestration Config read” and id consisting of: name <url\>. It belongs to a subject with type “Orchestration Config”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/orchestrationConfigs/{orchestrationConfigId}`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Orchestration Config- ID”. The attribute is a part of an object with type “Orchestration Config read” and id consisting of: name <url\>. It belongs to a subject with type “Orchestration Config ”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/orchestrationConfigs/{orchestrationConfigId}/export`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Export Orchestration Config ID”. The attribute is a part of an object with type “Orchestration Config exported” and id consisting of: name <url\>. It belongs to a subject with type “Orchestration Config Export”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/scenarios/{scenario}/orchestrationConfigs/{name}/versions/{version}/history`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Orchestration Config”. The attribute is a part of an object with type “Read Orchestration Config Version History” and id consisting of: name <req.method\>. It belongs to a subject with type “Orchestration Config Version History”, role “READ”, and id consisting of: name “<name\>”, version “<version\>”, scenario “<scenario\>”, method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/pipelines`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Pipeline ID”. The attribute is a part of an object with type “Pipeline read” and id consisting of: name <url\>. It belongs to a subject with type “Pipeline”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/pipelines/{pipelineId}`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Pipeline ID”. The attribute is a part of an object with type “Pipeline read” and id consisting of: name <url\>. It belongs to a subject with type “Pipeline ”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/pipelines/search`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Pipeline Search”. The attribute is a part of an object with type “Pipeline read” and id consisting of: name <url\>. It belongs to a subject with type “Pipeline”, role “READ”, and id consisting of: method “POST”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/pipelines/{pipelineId}/status`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Pipeline ID ”. The attribute is a part of an object with type “Pipeline read” and id consisting of: name “Status”. It belongs to a subject with type “Pipeline Status”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/pipelines/{pipelineId}/documents`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Pipeline ID ”. The attribute is a part of an object with type “Pipeline documents read” and id consisting of: name <url\>. It belongs to a subject with type “Pipeline Documents”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/pipelines/{pipelineId}/documents/{documentId}`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Pipeline ID ”. The attribute is a part of an object with type “Pipeline documents read” and id consisting of: name <url\>. It belongs to a subject with type “Pipeline Execution Document”, role “READ”, and id consisting of: documentId “<documentId\>”, method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/pipelines/{pipelineId}/executions`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Pipeline - ID ”. The attribute is a part of an object with type “Pipeline execution read” and id consisting of: name <url\>. It belongs to a subject with type “Pipeline Execution”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/pipelines/{pipelineId}/executions/{executionId}`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Pipeline - ID ”. The attribute is a part of an object with type “Pipeline execution read” and id consisting of: name <url\>. It belongs to a subject with type “Pipeline Execution”, role “READ”, and id consisting of: executionId “<executionId\>”, method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/pipelines/{pipelineId}/executions/{executionId}/documents`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Pipeline - ID ”. The attribute is a part of an object with type “Pipeline execution document read” and id consisting of: name <url\>. It belongs to a subject with type “Pipeline execution documents”, role “READ”, and id consisting of: executionId “<executionId\>”, method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/pipelines/{pipelineId}/executions/{executionId}/documents/{documentId}`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Pipeline ID ”. The attribute is a part of an object with type “Pipeline documents read” and id consisting of: name <url\>. It belongs to a subject with type “Pipeline Execution Document”, role “READ”, and id consisting of: documentId “<documentId\>”, executionId “<executionId\>”, method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/retrieval/datarepositories`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Data Repositories ”. The attribute is a part of an object with type “Data Repositories read” and id consisting of: name <url\>. It belongs to a subject with type “Data Repositories”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/retrieval/datarepositories/{repositoryId}`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Data Repositories ”. The attribute is a part of an object with type “Data Repositories read” and id consisting of: name <url\>. It belongs to a subject with type “Data Repository”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/retrieval/search`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Data Repositories Search”. The attribute is a part of an object with type “Data Repository retrival search executed” and id consisting of: name <url\>. It belongs to a subject with type “Data Repositories”, role “READ”, and id consisting of: method “POST”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/vector/collections`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Vector Collections”. The attribute is a part of an object with type “Vector Collections read” and id consisting of: name <url\>. It belongs to a subject with type “Vector Collections”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/vector/collections/{collectionId}`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Vector Collection Id”. The attribute is a part of an object with type “Vector Collections read” and id consisting of: name <url\>. It belongs to a subject with type “Vector Collections”, role “READ”, and id consisting of: collectionId “<collectionId\>”, method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/vector/collections/{id}/creationStatus`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Vector Collection Id”. The attribute is a part of an object with type “Vector Collections read - Creation Status” and id consisting of: name <req.method\>. It belongs to a subject with type “Vector Collection Creation Status”, role “READ”, and id consisting of: collectionId “<id\>”, method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/vector/collections/{id}/deletionStatus`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Vector Collection Id”. The attribute is a part of an object with type “Vector Collections read - Deletion Status” and id consisting of: name <url\>. It belongs to a subject with type “Vector Collection Deletion Status”, role “READ”, and id consisting of: collectionId “<id\>”, method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/vector/search`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Vector Collections Search”. The attribute is a part of an object with type “Vector Collections read” and id consisting of: name <url\>. It belongs to a subject with type “Vector Collections”, role “READ”, and id consisting of: method “POST”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/vector/collections/{collectionId}/documents`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Vector Collection Id”. The attribute is a part of an object with type “Vector Collection document read” and id consisting of: name <url\>. It belongs to a subject with type “Vector Collection Documents”, role “READ”, and id consisting of: collectionId “<collectionId\>”, method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/vector/collections/{collectionId}/documents/{documentId}`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Vector Collection Id”. The attribute is a part of an object with type “Vector Collection document read” and id consisting of: name <req.method\>. It belongs to a subject with type “Vector Collection Document Id”, role “READ”, and id consisting of: collectionId “<collectionId\>”, documentId “<documentId\>”, method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/admin/disclaimerMessage`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Disclaimer Messages”. The attribute is a part of an object with type “Read disclaimer message” and id consisting of: name <url\>. It belongs to a subject with type “Disclaimer Message”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/admin/prompts`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Admin Prompts”. The attribute is a part of an object with type “Read Admin Prompts” and id consisting of: name <url\>. It belongs to a subject with type “Prompts”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/admin/usage`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “User Storage Info”. The attribute is a part of an object with type “User storage information retrieved” and id consisting of: name <url\>. It belongs to a subject with type “User Storage”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PATCH `/prompts/{id}`. Category: audit.data-modification
+
+</td>
+<td valign="top">
+
+Data modification message. Changes to attribute “content” from value “EXISTS” to value “UPDATED”. The attribute is a part of an object with type “Prompt updated” and id consisting of: promptId “<id\>”. It belongs to a subject with type “Prompt”, role “WRITE”, and id consisting of: promptId “<id\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/prompts/{id}`. Category: audit.data-modification
+
+</td>
+<td valign="top">
+
+Data modification message. Changes to attribute “content” from value “EXISTS” to value “DELETED”. The attribute is a part of an object with type “Prompt deleted” and id consisting of: promptId “<id\>”. It belongs to a subject with type “Prompt”, role “WRITE”, and id consisting of: promptId “<id\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/prompts`. Category: audit.data-modification
+
+</td>
+<td valign="top">
+
+Data modification message. Changes to attribute “content” from value “EXISTING” to value “DELETED”. The attribute is a part of an object with type “Prompt Data Deleted - Tenant ID: <tenantId\>, Resource Group ID: <resourceGroupId\>, Prompt IDs: <ids\>” and id consisting of: name “Prompts”. It belongs to a subject with type “Prompts”, role “WRITE”, and id consisting of: method “DELETE”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/prompts/{id}/versions`. Category: audit.data-modification
+
+</td>
+<td valign="top">
+
+Data modification message. Changes to attribute “content” from value “-” to value “CREATED”. The attribute is a part of an object with type “Prompt version created” and id consisting of: promptId “<id\>”. It belongs to a subject with type “Prompt”, role “WRITE”, and id consisting of: promptId “<id\>”, version “<version\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PATCH `/prompts/{id}/versions/{version}`. Category: audit.data-modification
+
+</td>
+<td valign="top">
+
+Data modification message. Changes to attribute “content” from value “EXISTS” to value “UPDATED”. The attribute is a part of an object with type “Prompt version updated” and id consisting of: promptId “<id\>”. It belongs to a subject with type “Prompt”, role “WRITE”, and id consisting of: promptId “<id\>”, version “<version\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/prompts/{id}/versions/{version}`. Category: audit.data-modification
+
+</td>
+<td valign="top">
+
+Data modification message. Changes to attribute “content” from value “EXISTING” to value “DELETED”. The attribute is a part of an object with type “Prompt Data Deleted - Tenant ID: <tenantId\>, Resource Group ID: <resourceGroupId\>, Prompt ID: <id\>, Prompt Version: <version\>” and id consisting of: promptId “<id\>”. It belongs to a subject with type “Prompt”, role “WRITE”, and id consisting of: promptId “<id\>”, version “<version\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/prompts/{id}/versions`. Category: audit.data-modification
+
+</td>
+<td valign="top">
+
+Data modification message. Changes to attribute “content” from value “EXISTING” to value “DELETED”. The attribute is a part of an object with type “Prompt version deleted - Tenant ID: <tenantId\>, Resource Group ID: <resourceGroupId\>, Prompt ID: <id\>, Prompt Versions: <versions\>” and id consisting of: promptId “<id\>”. It belongs to a subject with type “Prompt”, role “WRITE”, and id consisting of: promptId “<id\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/promptTemplates`. Category: audit.data-modification
+
+</td>
+<td valign="top">
+
+Data modification message. Changes to attribute “Content ” from value “-” to value “CREATED”. The attribute is a part of an object with type “Prompt Template created” and id consisting of: promptTemplateId “<id\>”. It belongs to a subject with type “Prompt Template”, role “WRITE”, and id consisting of: promptTemplateId “<id\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/promptTemplates/{promptTemplateId}`. Category: audit.data-modification
+
+</td>
+<td valign="top">
+
+Data modification message. Changes to attribute “content” from value “EXISTING” to value “DELETED”. The attribute is a part of an object with type “Prompt Template deleted” and id consisting of: promptTemplateId “<promptTermplateId\>”. It belongs to a subject with type “Prompt Template”, role “WRITE”, and id consisting of: promptTemplateId “<promptTermplateId\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/promptTemplates/{promptTemplateId}/substitution`. Category: audit.data-modification
+
+</td>
+<td valign="top">
+
+Data modification message. Changes to attribute “filledPlaceholders” from value “-” to value “UPDATE”. The attribute is a part of an object with type “Prompt Template placeholder values resolved” and id consisting of: type “Prompt Template”, id promptTemplateId “<promptTermplateId\>”. It belongs to a subject with type “Prompt Template”, role “WRITE”, and id consisting of: promptTemplateId “<promptTermplateId\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/pipelines/trigger`. Category: audit.data-modification
+
+</td>
+<td valign="top">
+
+Data modification message. Changes to attribute “action” from value “-” to value “TRIGGERED”. The attribute is a part of an object with type “Pipelines triggered” and id consisting of: type “Pipeline Execution”. It belongs to a subject with type “Pipeline”, role “WRITE”, and id consisting of: pipelineId “<pipelineId\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/vector/collections`. Category: audit.data-modification
+
+</td>
+<td valign="top">
+
+Data modification message. Changes to attribute “content” from value “-” to value “CREATED”. The attribute is a part of an object with type “Vector Collection created” and id consisting of: name “Added Collections”. It belongs to a subject with type “Collection”, role “WRITE”, and id consisting of: method “POST”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/vector/collections/{collectionId}`. Category: audit.data-modification
+
+</td>
+<td valign="top">
+
+Data modification message. Changes to attribute “content” from value “EXISTING” to value “DELETED”. The attribute is a part of an object with type “Vector Collection deleted - Collection ID: <collectionId\>” and id consisting of: collectionId “<collectionId\>”. It belongs to a subject with type “Collection”, role “WRITE”, and id consisting of: collectionId “<collectionId\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/vector/collections/{collectionId}/documents`. Category: audit.data-modification
+
+</td>
+<td valign="top">
+
+Data modification message. Changes to attribute “content” from value “-” to value “CREATED”. The attribute is a part of an object with type “Vector Collection documents added” and id consisting of: collectionId “<collectionId\>”. It belongs to a subject with type “Vector Collection Document”, role “WRITE”, and id consisting of: collectionId “<collectionId\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PATCH `/vector/collections/{collectionId}/documents`. Category: audit.data-modification
+
+</td>
+<td valign="top">
+
+Data modification message. Changes to attribute “content” from value “EXISTS” to value “UPDATED”. The attribute is a part of an object with type “Vector Collection documents updated” and id consisting of: collectionId “<collectionId\>”. It belongs to a subject with type “Vector Collection Document”, role “WRITE”, and id consisting of: collectionId “<collectionId\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/vector/collections/{collectionId}/documents/{documentId}`. Category: audit.data-modification
+
+</td>
+<td valign="top">
+
+Data modification message. Changes to attribute “content” from value “EXISTING” to value “DELETED”. The attribute is a part of an object with type “Vector Collection documents deleted - Collection ID: <collectionId\>” and id consisting of: collectionId “<collectionId\>”. It belongs to a subject with type “Vector Collection Document”, role “WRITE”, and id consisting of: collectionId “<collectionId\>”, documentId “<documentId\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/pipelines`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “content” from value “-” to value “<pipelineId\>”. The attribute is a part of an object with type “json” and id consisting of: key “ Pipeline created - Pipeline ID: <pipelineId\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PATCH `/pipelines/{pipelineId}`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “content” from value “EXISTS” to value “UPDATED”. The attribute is a part of an object with type “json” and id consisting of: key “ Pipeline updated - Pipeline ID: <pipelineId\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/pipelines/{pipelineId}`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “status” from value “EXISTING” to value “DELETED”. The attribute is a part of an object with type “json” and id consisting of: key “ Pipeline deleted - Pipeline ID: <pipelineId\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/evaluationMetrics`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “content” from value “-” to value “<id\>”. The attribute is a part of an object with type “json” and id consisting of: key “Evaluation Metric created”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/evaluationMetrics/{evaluationMetricId}`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “status” from value “EXISTING” to value “DELETED”. The attribute is a part of an object with type “json” and id consisting of: key “Evaluation Metric deleted - Evaluation Metric ID: <evaluationMetricId\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/orchestrationConfigs`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “status” from value “-” to value “<id\>”. The attribute is a part of an object with type “json” and id consisting of: key “Orchestration Config created”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/orchestrationConfigs/import`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “status” from value “-” to value “<id\>”. The attribute is a part of an object with type “json” and id consisting of: key “Orchestration Config created”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/orchestrationConfigs/{orchestrationConfigId}`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “status” from value “EXISTING” to value “DELETED”. The attribute is a part of an object with type “json” and id consisting of: key “Orchestration Config deleted - Orchestration Config - ID: <orchestrationConfigId\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/admin/disclaimerMessage`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “status” from value “-” to value “CREATED”. The attribute is a part of an object with type “json” and id consisting of: key “Disclaimer message added successfully”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PATCH `/admin/disclaimerMessage`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “content” from value “EXISTS” to value “UPDATED”. The attribute is a part of an object with type “json” and id consisting of: key “The Disclaimer Message has been updated successfully”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/admin/disclaimerMessage`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “status” from value “EXISTING” to value “DELETED”. The attribute is a part of an object with type “json” and id consisting of: key “The Disclaimer Message has been deleted successfully - aiAPITenantId: <aiAPITenantId\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/admin/prompts`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “status” from value “EXISTING” to value “DELETED”. The attribute is a part of an object with type “json” and id consisting of: key “Data Schema Deleted - Tenant ID: <tenantId\>, Resource Group ID: <resourceGroupId\>, UserIdHash: <userIdHash\>,”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ANY all protected endpoints. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+Authorization check failed for disclaimerMessage.read
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ANY all protected endpoints. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+Authorization failed for <scopeName\>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/admin/disclaimerMessage (error)`. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+Failed to create the disclaimer Message at AI Core tenant
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/admin/disclaimerMessage (error)`. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+Failed to retrieve the disclaimer message stored at AI Core tenant
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PATCH `/admin/disclaimerMessage (error)`. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+Failed to update the disclaimer Message stored at AI Core tenant
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/admin/disclaimerMessage (error)`. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+Failed to delete the disclaimer Message stored at AI Core tenant
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/api/v1/workspaces`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Workspaces List”. The attribute is a part of an object with type “Read for all workspaces successful” and id consisting of: name <url\>. It belongs to a subject with type “Workspaces”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/api/v1/workspaces/{workspaceName}`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Workspace ID”. The attribute is a part of an object with type “Read for workspace successful” and id consisting of: name <url\>. It belongs to a subject with type “Workspace”, role “READ”, and id consisting of: workspaceName “<workspaceName\>”, method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/api/v1/workspaces/{workspaceName}/meta`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Workspace Meta”. The attribute is a part of an object with type “Read for workspace meta successful” and id consisting of: name <url\>. It belongs to a subject with type “Workspace Meta”, role “READ”, and id consisting of: workspaceName “<workspaceName\>”, method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/api/v1/workspaces/{workspaceName}/resourceGroups`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Workspace Resource Group”. The attribute is a part of an object with type “Read for workspace resource groups successful” and id consisting of: name <url\>. It belongs to a subject with type “Resource Group”, role “READ”, and id consisting of: workspaceName “<workspaceName\>”, method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PUT `/api/v1/workspaces/{workspaceName}`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “Name” from value “” to value “<reqBody.name\>”. The attribute is a part of an object with type “json” and id consisting of: key “<reqBody.name\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PUT `/api/v1/workspaces/{workspaceName}`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “Url” from value “” to value “<reqBody.url\>”. The attribute is a part of an object with type “json” and id consisting of: key “<reqBody.name\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/api/v1/workspaces`. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+Read for all workspaces successful
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/api/v1/workspaces`. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+Tenant having free tier plan is trying to create more than one connection
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/api/v1/workspaces`. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+Read AI Core access token
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/api/v1/workspaces`. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+Created workspace <workspaceName\>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/api/v1/workspaces`. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+Soft deleted all workspaces
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/api/v1/workspaces/{workspaceName}`. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+deleted workspace <workspaceName\>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PUT `/api/v1/workspaces/{workspaceName}`. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+Read AI Core access token
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ANY all workspace routes. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+Authorization check failed for workspaces.read
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ANY all workspace routes. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+Authorization check failed for workspaces.delete
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/scenarios`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “List Scenarios”. The attribute is a part of an object with type “Read scenarios” and id consisting of: name <url\>. It belongs to a subject with type “Scenarios”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/configurations`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Configurations”. The attribute is a part of an object with type “Read configurations” and id consisting of: name <url\>. It belongs to a subject with type “Configurations”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/configurations/{configurationId}`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Configuration”. The attribute is a part of an object with type “Read configurations” and id consisting of: name <url\>. It belongs to a subject with type “Configuration”, role “READ”, and id consisting of: configurationId “<configurationId\>”, method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/executions`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Execution Id”. The attribute is a part of an object with type “Read executions” and id consisting of: name <url\>. It belongs to a subject with type “Executions”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/executions/count`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Executions Count”. The attribute is a part of an object with type “Read executions” and id consisting of: name <url\>. It belongs to a subject with type “Executions”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/deployments`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Deploments”. The attribute is a part of an object with type “Read deployments” and id consisting of: name <url\>. It belongs to a subject with type “Deployments”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/deployments/{deploymentId}`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Deployment Id”. The attribute is a part of an object with type “Read deployments” and id consisting of: name <url\>. It belongs to a subject with type “Deployment”, role “READ”, and id consisting of: deploymentId “<deploymentId\>”, method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/deployments/count`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Deployments Count”. The attribute is a part of an object with type “Read deployments” and id consisting of: name <url\>. It belongs to a subject with type “Deployment”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/artifacts`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Artifacts”. The attribute is a part of an object with type “Read artifacts” and id consisting of: name <url\>. It belongs to a subject with type “Artifacts”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/artifacts/{artifactId}`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Artifacts Id”. The attribute is a part of an object with type “Read artifacts” and id consisting of: name <url\>. It belongs to a subject with type “Artifacts”, role “READ”, and id consisting of: artifactId “<artifactId\>”, method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/artifacts/count`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Artifacts Count”. The attribute is a part of an object with type “Read artifacts” and id consisting of: name <url\>. It belongs to a subject with type “Artifacts”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/executionSchedules`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Execution Schedules”. The attribute is a part of an object with type “Read execution schedules” and id consisting of: name <url\>. It belongs to a subject with type “Execution Schedule”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/executionSchedules/{executionScheduleId}`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Execution Schedules Id”. The attribute is a part of an object with type “Read execution schedules” and id consisting of: name <url\>. It belongs to a subject with type “Execution Schedule”, role “READ”, and id consisting of: executionScheduleId “<executionScheduleId\>”, method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/executionSchedules/count`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Execution Schedules Count”. The attribute is a part of an object with type “Read execution schedules” and id consisting of: name <url\>. It belongs to a subject with type “Execution Schedule Count”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/metrics`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Metrics”. The attribute is a part of an object with type “Read metrics” and id consisting of: name <url\>. It belongs to a subject with type “Metrics”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/metricsComparison`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Metrics Comparisons”. The attribute is a part of an object with type “Read metrics comparison” and id consisting of: name <url\>. It belongs to a subject with type “Metrics Comparison”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/resourceGroups`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Resource Groups”. The attribute is a part of an object with type “Read resource groups” and id consisting of: name <url\>. It belongs to a subject with type “Resource Group”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/kpis`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Kpis”. The attribute is a part of an object with type “Read Kpis” and id consisting of: name <url\>. It belongs to a subject with type “Kpi”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/dataset/files/{path}`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Dataset Path”. The attribute is a part of an object with type “Read datasets” and id consisting of: name <url\>. It belongs to a subject with type “Dataset”, role “READ”, and id consisting of: filePath “<filePath\>”, method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/configurations`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “id” from value “” to value “<id\>”. The attribute is a part of an object with type “json” and id consisting of: key “Create new configuration”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/deployments`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “id” from value “” to value “<id\>”. The attribute is a part of an object with type “json” and id consisting of: key “Create new deployment”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PATCH `/deployments`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “targetStatus” from value “” to value “STOPPED”. The attribute is a part of an object with type “json” and id consisting of: key “Update bulk deployment<ids\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PATCH `/deployments/{deploymentId}`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “targetStatus” or “configurationId” from value “” to value “<value\>”. The attribute is a part of an object with type “json” and id consisting of: key “Update deployment <deploymentId\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/deployments/{deploymentId}`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. The attribute is a part of an object with type “json” and id consisting of: key “Delete deployment <deploymentId\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/executions`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “id” from value “” to value “<id\>”. The attribute is a part of an object with type “json” and id consisting of: key “Create new execution”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PATCH `/executions`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “targetStatus” from value “” to value “STOPPED”. The attribute is a part of an object with type “json” and id consisting of: key “Update bulk execution<ids\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PATCH `/executions/{executionId}`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “targetStatus” from value “” to value “<targetStatus\>”. The attribute is a part of an object with type “json” and id consisting of: key “Update execution <executionId\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/executions/{executionId}`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. The attribute is a part of an object with type “json” and id consisting of: key “Delete execution <executionId\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/artifacts`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “id” from value “” to value “<id\>”. The attribute is a part of an object with type “json” and id consisting of: key “Register new Artifacts”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/executionSchedules`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “id” from value “” to value “<id\>”. The attribute is a part of an object with type “json” and id consisting of: key “Create new execution schedule”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PATCH `/executionSchedules/{executionScheduleId}`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “RequestBody” from value “” to value “<JSON body\>”. The attribute is a part of an object with type “json” and id consisting of: key “Update execution schedule<executionScheduleId\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/executionSchedules/{executionScheduleId}`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. The attribute is a part of an object with type “json” and id consisting of: key “Delete execution schedule<executionScheduleId\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PATCH `/metrics`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “content” from value “EXISTS” to value “UPDATED”. The attribute is a part of an object with type “json” and id consisting of: key “Updating metric ”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/metrics`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute “status” from value “EXISTING” to value “DELETED”. The attribute is a part of an object with type “json” and id consisting of: key “Deleting metric ”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PUT `/dataset/files/{path}`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. The attribute is a part of an object with type “json” and id consisting of: key “Uploading file<filePath\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/dataset/files/{path}`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. The attribute is a part of an object with type “json” and id consisting of: key “Deleting file <filePath\>”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ANY all protected endpoints. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+Authorization failed for <scopeName\>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/user`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “User Info”. The attribute is a part of an object with type “Read for user info successful” and id consisting of: name <url\>. It belongs to a subject with type “User Info”, role “READ”, and id consisting of: userName “<userName\>”, method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/user/navigationItems`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name “Navigation Items”. The attribute is a part of an object with type “Read for navigation items successful” and id consisting of: name <url\>. It belongs to a subject with type “Navigation Item”, role “READ”, and id consisting of: method “GET”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/user`. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+Authorization check failed for scope Viewer for path: <path\>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/user/navigationItems`. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+Authorization check failed for scope Viewer for path: <path\>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PUT `/callback/v1.0/tenants/{tenantId}`. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+Authorization check failed for scope Callback for path: <path\>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PUT `/callback/v1.0/tenants/{tenantId}`. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+Successful onboarding of tenant: <tenantId\>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PUT `/callback/v1.0/tenants/{tenantId}`. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+Failed onboarding of tenant: <tenantId\>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/callback/v1.0/tenants/{tenantId}`. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+Authorization check failed for scope Callback for path: <path\>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/callback/v1.0/tenants/{tenantId}`. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+Successful offboarding of tenant: <tenantId\>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/callback/v1.0/tenants/{tenantId}`. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+Failed offboarding of tenant: <tenantId\>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ANY all proxied routes. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+Read AI Core access token
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ANY all proxied routes. Category: audit.security-event
+
+</td>
+<td valign="top">
+
+Authorization check failed for resource group access for path: <path\>
+
+</td>
+</tr>
 </table>
 
 
