@@ -44,6 +44,8 @@ Your cloud storage credentials are managed using secrets. Secrets are a means of
 
     -   SAP HANA Cloud, Data Lake
 
+    -   Ceph Object Store S3-compatible
+
 
 
 
@@ -166,6 +168,30 @@ Register your object store secret details using the endpoint `/v2/admin/objectSt
         }'
     ```
 
+-   For Ceph Object Store \(S3-compatible\)
+
+    ```
+      curl --location --request POST "$AI_API_URL/v2/admin/objectStoreSecrets" \
+        --header "Authorization: Bearer $TOKEN" \
+        --header 'Content-Type: application/json' \
+        --header 'AI-Resource-Group: <Resource group>' \
+        --data-raw '{
+                "name": "default",
+                "type": "S3",
+                "bucket": "<container-name>",                                  //required
+                "endpoint": "<RGW host, e.g. rgw.example.com>",                //required
+                "pathPrefix": "<A path prefix that follows the bucket name>",
+                "region": "<region>",
+                "data": {
+                      "AWS_ACCESS_KEY_ID": "<access_key_id>",
+                      "AWS_SECRET_ACCESS_KEY": "<secret_access_key>"
+                }
+            }'
+    ```
+
+    > ### Restriction:  
+    > The `endpoint` field must be a bare hostname \\\(or `host:port`\\\), without the `https://` scheme.
+
 
 > ### Tip:  
 > The `pathPrefix` is useful if you share the same bucket for different projects. You can set the name of your project folder to `my-ml-project1`, for example. All data is then stored in that folder.
@@ -214,6 +240,8 @@ You have access to a public-facing Docker registry over the internet. It isn't p
     -   OSS \(Alibaba Cloud Object Storage Service\)
 
     -   SAP HANA Cloud, Data Lake
+
+    -   Ceph Object Store S3-compatible
 
 
 
@@ -317,6 +345,30 @@ You have access to a public-facing Docker registry over the internet. It isn't p
             	    }
                 }
         ```
+
+    -   For Ceph Object Store \(S3-compatible\)
+
+        ```
+          curl --location --request POST "$AI_API_URL/v2/admin/objectStoreSecrets" \
+            --header "Authorization: Bearer $TOKEN" \
+            --header 'Content-Type: application/json' \
+            --header 'AI-Resource-Group: <Resource group>' \
+            --data-raw '{
+                    "name": "default",
+                    "type": "S3",
+                    "bucket": "<container-name>",                                  //required
+                    "endpoint": "<RGW host, e.g. rgw.example.com>",                //required
+                    "pathPrefix": "<A path prefix that follows the bucket name>",
+                    "region": "<region>",
+                    "data": {
+                          "AWS_ACCESS_KEY_ID": "<access_key_id>",
+                          "AWS_SECRET_ACCESS_KEY": "<secret_access_key>"
+                    }
+                }'
+        ```
+
+        > ### Restriction:  
+        > The `endpoint` field must be a bare hostname \\\(or `host:port`\\\), without the `https://` scheme.
 
 
     > ### Tip:  

@@ -18,6 +18,9 @@ All model execution, resource management, and operational control are handled by
 
 For a general overview of the service architecture and runtime capabilities, see [What Is SAP AI Core?](what-is-sap-ai-core-d029a32.md).
 
+-   **[Administration](administration-7937fc1.md "Creating secrets for external programs and tools, that are used with SAP AI Core means that you can connect them without compromising your
+		credentials.")**  
+Creating secrets for external programs and tools, that are used with SAP AI Core means that you can connect them without compromising your credentials.
 -   **[ML Operations](ml-operations-7f5aa9b.md "ML Operations (MLOps) in SAP AI Core covers the
 		end-to-end lifecycle of machine learning models: from connecting data, through training, to
 		deployment and monitoring.")**  

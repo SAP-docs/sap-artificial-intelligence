@@ -30,6 +30,8 @@ Edit an object store secret to update your cloud storage credentials and setting
 
     -   SAP HANA Cloud, Data Lake
 
+    -   Ceph Object Store S3-compatible
+
 
 
 
@@ -186,6 +188,8 @@ SAP AI Core supports multiple hyperscaler object stores, including the following
 -   OSS \(Alibaba Cloud Object Storage Service\)
 
 -   SAP HANA Cloud, Data Lake
+
+-   Ceph Object Store S3-compatible
 
 
 

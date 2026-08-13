@@ -40,18 +40,28 @@
 
     5.  Choose a dataset artifact
 
-    6.  Provide the subpath to your test dataset, relative to your selected test dataset artifact URL
+    6.  Use the switch to specify the file type
 
-    7.  Choose *Next*
+    7.  Provide the subpath to your test dataset, relative to your selected test dataset artifact URL
+
+    8.  Choose *Next*
 
 
 5.  Choose a metric from the available metrics:
 
     You can refine the selection by applying the filters
 
-6.  **Optional:** Add additional configuration such as prompt template name and version and configuration of advanced settings.
+    To search for a metric by name, use the search bar
 
-    You can auto generate the name and version by choosing *Auto Generate*.
+    To view the details of a metric, see [View Metric Details](view-metric-details-db90bc4.md).
+
+6.  **Optional:** Add additional configurations such as prompt template name and version, variable mapping and configuration of advanced settings.
+
+    Variable mapping enables you to align variable names between prompts and test datasets, ensuring correct data flow even when attribute names differ. Use this feature to resolve naming mismatches and maintain consistency in automated prompt optimization workflows.
+
+    Variable mappings can be added in JSON format by using *JSON* switch, or through form filling, by using the *List* switch.
+
+    For more information, see [Variable Mapping in SAP AI Core](https://help.sap.com/docs/AI_CORE/b9f48eb4a993445b863a55dd4d38f64d/bb3d4f87034e4995b5f17d3f2acc090e.html).
 
 7.  Review the details of your prompt optimization, and choose *Create*.
 

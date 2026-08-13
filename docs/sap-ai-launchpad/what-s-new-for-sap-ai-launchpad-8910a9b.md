@@ -94,6 +94,140 @@ Generative AI hub
 </td>
 <td valign="top">
 
+New models are supported, including GPT-5.6-Sol, Terra and Luna.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-08-13
+
+</td>
+<td valign="top">
+
+2026-08-13
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Prompt optimization workflows support variable mappings.
+
+Variable mapping enables you to align variable names between prompts and test datasets, ensuring correct data flow even when attribute names differ. Use this feature to resolve naming mismatches and maintain consistency in automated prompt optimization workflows.
+
+For more information, see [Create a Prompt Optimization](create-a-prompt-optimization-0b920f6.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-08-13
+
+</td>
+<td valign="top">
+
+2026-08-13
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Launchpad 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
 The Prompt Optimizations Run Details view now shows metric and token consumption information.
 
 For more information, see [View Prompt Optimization Run Details](view-prompt-optimization-run-details-acfce87.md).

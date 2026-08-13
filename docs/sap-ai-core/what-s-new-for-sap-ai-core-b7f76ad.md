@@ -92,6 +92,336 @@ Generative AI hub
 </td>
 <td valign="top">
 
+Users with SFTP pipelines configured with `ssh-dss` keys must update their configuration with another key type. Key type `ED25519` is recommended.
+
+For more information, see [Grounding Generic Secrets for SFTP](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/40859524f19f4f999010790aff9021a7.html "Your cloud storage credentials are managed using secrets. Secrets are a means of allowing and controlling connections across directories and tools, without compromising your credentials.") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-08-13
+
+</td>
+<td valign="top">
+
+2026-08-13
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+New models are supported, including Gemini Text Embedding 2 and GPT-5.6-Sol, Terra and Luna.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-08-13
+
+</td>
+<td valign="top">
+
+2026-08-13
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+The orchestration content filtering module no longer includes the content of `system` and `developer` messages when sending requests to Azure Prompt Shield \(prompt attack detection\). As a result, requests that were previously filtered only because of prompt-attack-like text in a `system` or `developer` message are no longer filtered. Other content filters are unaffected.
+
+For more information, see [Content Filtering](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/f80417519ea04adb86f7169ae871f884.html "") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Changed
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-08-13
+
+</td>
+<td valign="top">
+
+2026-08-13
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Prompt templates and orchestration configs support pagination. This is useful when you have large numbers of templates and configs, and want to retrieve them in pages.
+
+For more information, see [Get a Prompt Template](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/bc8ceadd9e08423586994b1e30f0d117.html "") :arrow_upper_right:, [Get Prompt Template History](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/dc204cfa3dab48a18102192b342600bc.html "") :arrow_upper_right:, [Get Orchestration Configs](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/e8310f5318564eb588edd6a481f3f78b.html "") :arrow_upper_right:and [Get Orchestration Config History](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/743e913924a54fbd84198b3bcb695898.html "") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-08-13
+
+</td>
+<td valign="top">
+
+2026-08-13
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Dataset API
+
+</td>
+<td valign="top">
+
+Alicloud OSS and OpenStack Ceph object stores are now supported by the Dataset API .
+
+For more information, see [Register an Object Store Secret](register-an-object-store-secret-b083d73.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-08-13
+
+</td>
+<td valign="top">
+
+2026-08-13
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
 New models are supported, including Mistral Medium 3.5.
 
 For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
