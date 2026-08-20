@@ -1,6 +1,6 @@
 <!-- loio7f93e8f3f385454e9a69178183a8ecc5 -->
 
-# Use Your Model
+# Deploy Your Model
 
 You deploy your AI learning model to run inferences against it.
 

@@ -13,7 +13,7 @@
 <tr>
 <th valign="top">
 
-Technical Component
+Component
 
 </th>
 <th valign="top">
@@ -69,6 +69,16 @@ Latest Revision
 <th valign="top">
 
 Available as of
+
+</th>
+<th valign="top">
+
+Version
+
+</th>
+<th valign="top">
+
+Scope
 
 </th>
 </tr>
@@ -137,6 +147,16 @@ SAP Business Technology Platform
 2026-08-13
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -201,6 +221,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2026-08-13
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -269,6 +299,16 @@ SAP Business Technology Platform
 2026-08-13
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -335,6 +375,16 @@ SAP Business Technology Platform
 2026-08-13
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -356,7 +406,7 @@ Dataset API
 </td>
 <td valign="top">
 
-Alicloud OSS and OpenStack Ceph object stores are now supported by the Dataset API .
+Alicloud OSS and OpenStack Ceph object stores are now supported by the Dataset API.
 
 For more information, see [Register an Object Store Secret](register-an-object-store-secret-b083d73.md).
 
@@ -399,6 +449,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2026-08-13
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -465,6 +525,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2026-07-27
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -534,6 +604,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2026-07-27
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -606,6 +686,16 @@ SAP Business Technology Platform
 2026-07-27
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -670,6 +760,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2026-06-11
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -738,6 +838,16 @@ SAP Business Technology Platform
 2026-07-01
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -802,6 +912,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2026-06-11
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -870,6 +990,16 @@ SAP Business Technology Platform
 2026-06-03
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -934,6 +1064,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2026-06-03
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -1004,6 +1144,16 @@ SAP Business Technology Platform
 2026-05-22
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1072,6 +1222,16 @@ SAP Business Technology Platform
 2026-05-19
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1136,6 +1296,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2026-05-12
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -1204,6 +1374,16 @@ SAP Business Technology Platform
 2026-05-08
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1268,6 +1448,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2026-05-08
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -1338,6 +1528,16 @@ SAP Business Technology Platform
 2026-05-08
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1404,6 +1604,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2026-05-08
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -1474,6 +1684,16 @@ SAP Business Technology Platform
 2026-05-08
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1538,6 +1758,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2026-05-08
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -1606,6 +1836,16 @@ SAP Business Technology Platform
 2026-04-27
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1672,6 +1912,16 @@ SAP Business Technology Platform
 2026-04-27
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1688,7 +1938,7 @@ SAP AI Core
 </td>
 <td valign="top">
 
-Predictive AI Executions
+Custom AI Executions
 
 </td>
 <td valign="top">
@@ -1736,6 +1986,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2026-04-27
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -1804,6 +2064,16 @@ SAP Business Technology Platform
 2026-04-27
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1868,6 +2138,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2026-04-27
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -1938,6 +2218,16 @@ SAP Business Technology Platform
 2026-03-01
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2002,6 +2292,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2026-03-16
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -2070,6 +2370,16 @@ SAP Business Technology Platform
 2026-03-16
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2134,6 +2444,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2026-03-01
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -2202,6 +2522,16 @@ SAP Business Technology Platform
 2026-03-01
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2266,6 +2596,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2026-03-01
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -2334,6 +2674,16 @@ SAP Business Technology Platform
 2026-02-16
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2398,6 +2748,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2026-02-16
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -2466,6 +2826,16 @@ SAP Business Technology Platform
 2026-02-16
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2530,6 +2900,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2026-02-16
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -2598,6 +2978,16 @@ SAP Business Technology Platform
 2026-02-16
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2662,6 +3052,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2026-02-16
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -2730,6 +3130,16 @@ SAP Business Technology Platform
 2026-02-16
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2794,6 +3204,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2026-01-30
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -2862,6 +3282,16 @@ SAP Business Technology Platform
 2026-01-19
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2926,6 +3356,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2026-01-19
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -2994,6 +3434,16 @@ SAP Business Technology Platform
 2026-01-19
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3058,6 +3508,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2025-12-22
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -3130,6 +3590,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2025-12-08
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -3209,6 +3679,16 @@ SAP Business Technology Platform
 2025-12-08
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3277,6 +3757,16 @@ SAP Business Technology Platform
 2025-12-08
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3341,6 +3831,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2025-12-08
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -3409,6 +3909,16 @@ SAP Business Technology Platform
 2025-12-01
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3473,6 +3983,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2025-11-17
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -3541,6 +4061,16 @@ SAP Business Technology Platform
 2025-11-17
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3605,6 +4135,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2025-10-20
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -3673,6 +4213,16 @@ SAP Business Technology Platform
 2025-10-20
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3737,6 +4287,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2025-10-20
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -3805,6 +4365,16 @@ SAP Business Technology Platform
 2025-10-06
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -3869,6 +4439,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2025-09-01
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -3937,6 +4517,16 @@ SAP Business Technology Platform
 2025-09-01
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4001,6 +4591,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2025-08-18
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -4069,6 +4669,16 @@ SAP Business Technology Platform
 2025-08-06
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4131,6 +4741,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2025-07-21
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -4199,6 +4819,16 @@ SAP Business Technology Platform
 2025-07-21
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4263,6 +4893,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2025-06-23
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -4333,6 +4973,16 @@ SAP Business Technology Platform
 2025-06-02
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4399,6 +5049,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2025-06-02
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -4469,6 +5129,16 @@ SAP Business Technology Platform
 2025-06-02
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4533,6 +5203,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2025-05-19
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -4605,6 +5285,16 @@ SAP Business Technology Platform
 2025-04-24
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4669,6 +5359,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2025-04-14
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -4737,6 +5437,16 @@ SAP Business Technology Platform
 2025-04-14
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4801,6 +5511,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2025-06-23
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -4869,6 +5589,16 @@ SAP Business Technology Platform
 2025-02-03
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4935,6 +5665,16 @@ SAP Business Technology Platform
 2025-02-03
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -4999,6 +5739,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2025-03-03
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -5069,6 +5819,16 @@ SAP Business Technology Platform
 2025-01-19
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -5135,6 +5895,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2024-12-02
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -5207,6 +5977,16 @@ SAP Business Technology Platform
 2024-12-02
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -5271,6 +6051,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2024-12-02
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -5339,6 +6129,16 @@ SAP Business Technology Platform
 2024-12-02
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -5405,6 +6205,16 @@ SAP Business Technology Platform
 2024-12-02
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -5469,6 +6279,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2024-12-02
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -5539,6 +6359,16 @@ SAP Business Technology Platform
 2024-11-04
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -5603,6 +6433,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2024-11-04
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -5671,6 +6511,16 @@ SAP Business Technology Platform
 2024-10-07
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -5735,6 +6585,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2024-10-07
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -5803,6 +6663,16 @@ SAP Business Technology Platform
 2024-10-07
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -5867,6 +6737,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2024-09-16
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -5937,6 +6817,16 @@ SAP Business Technology Platform
 2024-09-16
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -6001,6 +6891,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2024-09-16
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -6069,6 +6969,16 @@ SAP Business Technology Platform
 2024-09-01
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -6133,6 +7043,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2024-09-02
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -6201,6 +7121,16 @@ Not applicable
 2024-05-20
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -6265,6 +7195,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2024-08-05
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -6333,6 +7273,16 @@ SAP Business Technology Platform
 2024-07-08
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -6395,6 +7345,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2024-06-24
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -6463,6 +7423,16 @@ SAP Business Technology Platform
 2024-06-24
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -6527,6 +7497,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2024-06-03
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -6595,6 +7575,16 @@ SAP Business Technology Platform
 2024-06-03
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -6659,6 +7649,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2024-05-20
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -6727,6 +7727,16 @@ SAP Business Technology Platform
 2024-05-20
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -6791,6 +7801,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2024-04-08
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -6859,6 +7879,16 @@ SAP Business Technology Platform
 2024-03-08
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -6923,6 +7953,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2024-02-18
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -6991,6 +8031,16 @@ SAP Business Technology Platform
 2024-02-18
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7055,6 +8105,16 @@ SAP Business Technology Platform
 2023-12-20
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7117,6 +8177,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2023-07-31
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -7185,6 +8255,16 @@ SAP Business Technology Platform
 2023-08-04
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7249,6 +8329,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2023-08-04
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -7317,6 +8407,16 @@ SAP Business Technology Platform
 2023-05-31
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7379,6 +8479,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2023-05-02
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -7445,6 +8555,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2023-04-02
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -7518,6 +8638,16 @@ SAP Business Technology Platform
 2023-03-13
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7582,6 +8712,16 @@ SAP Business Technology Platform
 2023-02-09
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7605,7 +8745,7 @@ Sync Endpoint for ArgoCD
 
 In addition to automatically syncing applications, you can request a sync manually by using an API endpoint.
 
-For more information on syncing applications, see [Create an Application](create-an-application-80dbecf.md) .
+For more information on syncing applications, see [Create an Application](create-an-application-80dbecf.md).
 
 </td>
 <td valign="top">
@@ -7646,6 +8786,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2023-02-09
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -7714,6 +8864,16 @@ SAP Business Technology Platform
 2023-02-09
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7776,6 +8936,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2023-02-09
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -7842,6 +9012,16 @@ SAP Business Technology Platform
 2022-11-20
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7906,6 +9086,16 @@ SAP Business Technology Platform
 2022-11-20
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -7968,6 +9158,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2022-10-18
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -8036,6 +9236,16 @@ SAP Business Technology Platform
 2022-10-18
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8098,6 +9308,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2022-10-04
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -8166,6 +9386,16 @@ Not applicable
 2022-09-19
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8230,6 +9460,16 @@ SAP Business Technology Platform
 2022-09-19
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8292,6 +9532,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2022-09-05
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -8360,6 +9610,16 @@ SAP Business Technology Platform
 2022-08-22
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8426,6 +9686,16 @@ SAP Business Technology Platform
 2022-06-30
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8488,6 +9758,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2022-06-18
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -8554,6 +9834,16 @@ SAP Business Technology Platform
 2022-06-18
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8616,6 +9906,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2022-06-07
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -8682,6 +9982,16 @@ SAP Business Technology Platform
 2022-06-07
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8744,6 +10054,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2022-05-05
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -8810,6 +10130,16 @@ SAP Business Technology Platform
 2022-04-09
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -8872,6 +10202,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2022-04-09
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>
@@ -8938,6 +10278,16 @@ SAP Business Technology Platform
 2022-02-19
 
 </td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -9000,6 +10350,16 @@ SAP Business Technology Platform
 <td valign="top">
 
 2022-02-19
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
 
 </td>
 </tr>

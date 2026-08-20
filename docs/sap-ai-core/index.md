@@ -86,7 +86,7 @@
                     -   [Stop or Resume a Schedule](stop-or-resume-a-schedule-d6ab976.md)
                     -   [Change an Existing Training Schedule](change-an-existing-training-schedule-18caf4b.md)
                     -   [Delete a Training Schedule](delete-a-training-schedule-9dc25e1.md)
-            -   [Use Your Model](use-your-model-7f93e8f.md)
+            -   [Deploy Your Model](deploy-your-model-7f93e8f.md)
                 -   [Choose an Instance](choose-an-instance-abd672f.md)
                 -   [Serving Templates](serving-templates-20a8667.md)
                     -   [Template Synchronization](template-synchronization-298d392.md)
