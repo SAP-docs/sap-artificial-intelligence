@@ -78,19 +78,19 @@ Explore foundation large language models that are part of SAP AI Core in a numbe
 <td valign="top">
 
 -   Getting Started
--   Predictive AI
+-   Custom AI
 
 
 
 </td>
 <td valign="top">
 
-[Predictive AI with SAP AI Core](https://developers.sap.com/group.ai-core-get-started-basics.html) 
+[Custom AI with SAP AI Core](https://developers.sap.com/group.ai-core-get-started-basics.html) 
 
 </td>
 <td valign="top">
 
-Get started with SAP AI Core, learn the fundamentals, create your first predictive AI workflow, and move your machine learning code to a production cloud.
+Get started with SAP AI Core, learn the fundamentals, create your first custom AI workflow, and move your machine learning code to a production cloud.
 
 </td>
 </tr>
