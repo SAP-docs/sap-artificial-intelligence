@@ -39,6 +39,8 @@ Click the following tiles to find out more about the generative AI hub.
 This section walks you through the essential steps for getting started with the generative AI hub in SAP AI Core. You'll authenticate, retrieve your orchestration deployment URL, and make your first model call using the Harmonized API.
 -   **[Models](models-6440777.md "")**  
 
+-   **[Optimizations](optimizations-e50489d.md "Optimizations lets you evaluate and refine your generative AI workflows and prompts.")**  
+Optimizations lets you evaluate and refine your generative AI workflows and prompts.
 
 **Related Information**  
 

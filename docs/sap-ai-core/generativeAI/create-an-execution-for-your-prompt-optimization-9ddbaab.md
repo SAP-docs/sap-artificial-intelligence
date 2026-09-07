@@ -101,7 +101,7 @@ After the execution has reaches `COMPLETED` status, you can check your results.
 
 The prompt optimization execution outputs the following:
 
--   A set or metrics that are stored in the tracking service. Post execution completion the metrics can be seen by calling the tracking api. For more information, see [Get Metrics](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/f7eaf286c67249ef8a2ba1ba67a78d01.html "") :arrow_upper_right:.
+-   A set or metrics that are stored in the tracking service. Post execution completion the metrics can be seen by calling the tracking api. For more information, see [Get Metrics](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/f7eaf286c67249ef8a2ba1ba67a78d01.html "") :arrow_upper_right:.
 
 -   A set of optimized prompt templates in the prompt registry, one per model. In case the optimization didn’t give better results than the original prompt, no prompt template is stored. You can review the optimized template in the prompt registry. For more information, see [Get a Prompt Template](get-a-prompt-template-bc8cead.md).
 

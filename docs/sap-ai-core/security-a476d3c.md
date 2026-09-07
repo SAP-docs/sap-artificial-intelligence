@@ -8,6 +8,8 @@ Here, we'll explain some of the security aspects of SAP AI Core.
 
 -   **[Encryption in Transit](encryption-in-transit-42a8f0f.md "")**  
 
+-   **[Encryption of Data](encryption-of-data-9572098.md "SAP AI Core encrypts customer data using tenant-specific encryption keys and integrates with SAP Data Custodian Key Management Service (KMS) to support customer-managed root encryption keys.")**  
+SAP AI Core encrypts customer data using tenant-specific encryption keys and integrates with SAP Data Custodian Key Management Service \(KMS\) to support customer-managed root encryption keys.
 -   **[Authentication and Administration](authentication-and-administration-b0d21d5.md "")**  
 
 -   **[Docker Images](docker-images-8cb3c18.md "SAP AI Core

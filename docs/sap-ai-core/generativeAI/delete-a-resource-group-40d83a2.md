@@ -22,7 +22,7 @@ Deletes a resource group that is invalid, contains errors, or is no longer requi
 ## Context
 
 > ### Remember:  
-> When you delete a resource group, [Manage mTLS Certificate Secrets](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/200810f61be6465ea79be0dc98615dd5.html "") :arrow_upper_right: in that group are deleted. Certificates that were issued before the deletion may remain valid until they expire. You are responsible for removing or revoking trust on any external services that rely on those certificates.
+> When you delete a resource group, [Manage mTLS Certificate Secrets](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/200810f61be6465ea79be0dc98615dd5.html "") :arrow_upper_right: in that group are deleted. Certificates that were issued before the deletion may remain valid until they expire. You are responsible for removing or revoking trust on any external services that rely on those certificates.
 
 
 
@@ -59,7 +59,7 @@ Successful responses return code **202** and include a success message.
 ## Context
 
 > ### Remember:  
-> When you delete a resource group, [Manage mTLS Certificate Secrets](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/200810f61be6465ea79be0dc98615dd5.html "") :arrow_upper_right: in that group are deleted. Certificates that were issued before the deletion may remain valid until they expire. You are responsible for removing or revoking trust on any external services that rely on those certificates.
+> When you delete a resource group, [Manage mTLS Certificate Secrets](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/200810f61be6465ea79be0dc98615dd5.html "") :arrow_upper_right: in that group are deleted. Certificates that were issued before the deletion may remain valid until they expire. You are responsible for removing or revoking trust on any external services that rely on those certificates.
 
 
 

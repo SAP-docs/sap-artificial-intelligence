@@ -220,13 +220,13 @@ Alternatively, you can request an increase to your quota by creating a ticket on
 > ### Restriction:  
 > The maximum number of resource groups is limited at tenant level to 50. If you reach this limit, you receive an error message. To free up space, delete some resource groups. Alternatively, raise a ticket to increase your quota.
 > 
-> For more information, see [Delete a Resource Group](delete-a-resource-group-40d83a2.md).
+> For more information, see [Delete a Resource Group](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/40d83a2716894174b4b9b407396a0708.html "Deletes a resource group that is invalid, contains errors, or is no longer required.") :arrow_upper_right:.
 
 
 
 ### Tenant-Wide Generic Secrets Quotas
 
-Each tenant can have a maximum of five tenant-wide secrets. If you reach this limit, you receive an error message. To free up space, delete tenant-wide secrets as described at [Delete a Generic Secret](delete-a-generic-secret-d5d5187.md). Alternatively, submit a ticket to request an increase in your quota.
+Each tenant can have a maximum of five tenant-wide secrets. If you reach this limit, you receive an error message. To free up space, delete tenant-wide secrets as described at [Delete a Generic Secret](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/d5d5187da4d2483baa6a203f1bcbe33a.html "") :arrow_upper_right:. Alternatively, submit a ticket to request an increase in your quota.
 
 -   **[Update a Service Plan](update-a-service-plan-924f892.md "Update your SAP AI Core service instance from the standard plan to
 		the extended plan while keeping your data and models.")**  
@@ -239,5 +239,5 @@ Update your SAP AI Core service instance from the standard plan to the extended 
 
 [SAP BTP Service Description Guide](https://www.sap.com/about/agreements/policies/cloud-platform.html)
 
-[Choose an Instance](choose-an-instance-57f4f19.md "You can configure SAP AI Core to use different infrastructure instances for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called “instance types” and “resource plans” for this purpose.")
+[Choose an Instance](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/57f4f19d9b3b46208ee1d72017d0eab6.html "You can configure SAP AI Core to use different infrastructure instances for different tasks, based on demand. SAP AI Core provides several preconfigured infrastructure bundles called "instance types" and "resource plans" for this purpose.") :arrow_upper_right:
 

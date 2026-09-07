@@ -10,7 +10,7 @@ Workloads can access network resources other than object stores by using credent
 
 -   For **mTLS authentication**scenarios:
 
-    SAP AI Core provides mTLS certificate secrets. These secrets use managed certificates issued by the SAP BTP Certificate Service. Unlike generic secrets, you do not supply the credential payload, SAP AI Core generates the certificate and private key for you. For more information, see [Manage mTLS Certificate Secrets](manage-mtls-certificate-secrets-200810f.md).
+    SAP AI Core provides mTLS certificate secrets. These secrets use managed certificates issued by the SAP BTP Certificate Service. Unlike generic secrets, you do not supply the credential payload, SAP AI Core generates the certificate and private key for you. For more information, see [Manage mTLS Certificate Secrets](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/200810f61be6465ea79be0dc98615dd5.html "") :arrow_upper_right:.
 
 -   For **non-sensitive** information:
 

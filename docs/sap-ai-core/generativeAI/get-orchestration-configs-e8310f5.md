@@ -6,7 +6,7 @@
 
 ## Prerequisites
 
-You have created an orchestration config. For more information, see [Create an Orchestration Config \(Imperative\)](create-an-orchestration-config-imperative-2f27317.md)and [Create an Orchestration Config \(Declarative\)](create-an-orchestration-config-declarative-508e66f.md).
+You've created an orchestration config. For more information, see [Create an Orchestration Config \(Imperative\)](create-an-orchestration-config-imperative-2f27317.md)and [Create an Orchestration Config \(Declarative\)](create-an-orchestration-config-declarative-508e66f.md).
 
 
 
@@ -14,14 +14,14 @@ You have created an orchestration config. For more information, see [Create an O
 
 You can list all orchestration configs or retrieve a specific orchestration config by ID, or by the combination of name, scenario, and version.
 
-Orchestration configs can also be retrieved and consumed in orchestration completion requests. For more information, see [Use an Orchestration Config in LLM Orchestration](use-an-orchestration-config-in-llm-orchestration-97e4cd2.md).
+You can also retrieve and consume orchestration configs in orchestration completion requests. For more information, see [Use an Orchestration Config in LLM Orchestration](use-an-orchestration-config-in-llm-orchestration-97e4cd2.md).
 
 > ### Note:  
-> Retrieval by ID offers immutability; guaranteeing that the orchestration config behind the ID will not change.
+> When you retrieve a configuration by ID, the result is immutable. The configuration associated with that ID doesn't change.
 > 
-> Retrieval by name, scenario, and version are not immutable, and the latest iteration of the orchestration config is retrieved.
+> When you retrieve a configuration by name, scenario, and version, the result isn't immutable. The system returns the latest available iteration of the matching orchestration configuration, which can change over time.
 > 
-> Orchestration configs are handled at the tenant level and do not require resource group headers.
+> Orchestration configurations are handled at tenant level so you don't need to specify resource group headers when accessing them.
 
 
 
@@ -111,7 +111,7 @@ Set the following in the headers:
 
 ## Pagination
 
-The list endpoint supports pagination using the `$top` and `$skip` query parameters. This is useful when you have a large number of prompt templates and want to retrieve them in pages.
+The list endpoint supports pagination using the `$top` and `$skip` query parameters. These parameters are useful when you have a large number of prompt templates and want to retrieve them in pages.
 
 > ### Note:  
 > If the result set is too large and no pagination parameters are supplied, the API returns a `413 Payload Too Large` error. Use `$top` and `$skip` to paginate through the results.

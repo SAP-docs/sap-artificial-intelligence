@@ -102,6 +102,390 @@ Generative AI hub
 </td>
 <td valign="top">
 
+`SAP-RPT-1.6` launched.
+
+SAP-RPT-1.6 is SAP's relational pre-trained transformer model for tabular enterprise data that delivers accurate predictions using in-context learning without requiring model training. It supports classification and regression use cases with built-in explainability, governance, and enterprise-grade orchestration capabilities.
+
+RPT-1.6 supports Explainability feature.
+
+For more information, see [SAP-RPT-1.6](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/cabd1cd5bb1e4426a915b7646ca38259.html "SAP-RPT-1.6 is a relational pre-trained transformer for prediction tasks on structured and relational data. It supports classification and regression tasks and is developed and maintained by SAP.") :arrow_upper_right: and [SAP RPT 1.6 Explainability](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/92a0ffe903ef4554adb44849e979fad4.html "") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-09-07
+
+</td>
+<td valign="top">
+
+2026-09-07
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Added support for data encryption to help protect sensitive information at rest and in transit, enhancing data security and compliance.
+
+For more information, see [Encryption of Data](encryption-of-data-9572098.md).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-09-07
+
+</td>
+<td valign="top">
+
+2026-09-07
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+New models are supported, including Gemini 3.5 Flash Lite.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-09-07
+
+</td>
+<td valign="top">
+
+2026-09-07
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Azure OpenAI models use a global content filter that blocks content classified as medium or high severity.
+
+Improved descriptions of safety capabilities, and a more streamlined content structure.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-09-07
+
+</td>
+<td valign="top">
+
+2026-09-07
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Tabular AI Orchestration enables the consumption of tabular AI models through a unified prediction endpoint.
+
+For more information, see [Consume Tabular Orchestration](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/1cdac2032c124408bacc9b488bc356b5.html "The Tabular AI Orchestration service manages the end-to-end prediction workflow, from context retrieval to model inference.") :arrow_upper_right:
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-09-07
+
+</td>
+<td valign="top">
+
+2026-09-07
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
 Users with SFTP pipelines configured with `ssh-dss` keys must update their configuration with another key type. Key type `ED25519` is recommended.
 
 For more information, see [Grounding Generic Secrets for SFTP](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/40859524f19f4f999010790aff9021a7.html "Your cloud storage credentials are managed using secrets. Secrets are a means of allowing and controlling connections across directories and tools, without compromising your credentials.") :arrow_upper_right:.
@@ -408,7 +792,7 @@ Dataset API
 
 Alicloud OSS and OpenStack Ceph object stores are now supported by the Dataset API.
 
-For more information, see [Register an Object Store Secret](register-an-object-store-secret-b083d73.md).
+For more information, see [Register an Object Store Secret](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/b083d73f672c428faac3048b74733546.html "Connect SAP AI Core to a cloud object store and manage access using an object store secret. The connected storage stores your dataset, models, and other cache files of the Metaflow Library for SAP AI Core.") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -560,7 +944,7 @@ Incremental improvements
 
 We've made the following improvements
 
--   IP adresses cannot be used as Git repository URLs.
+-   IP addresses cannot be used as Git repository URLs.
 -   We've harmonized the error messages across orchestration.
 
 
@@ -639,11 +1023,11 @@ Generative AI hub
 
 `SAP-RPT-1.5` launched.
 
-SAP-RPT-1.5 is a relational pretrained transformer for prediction tasks on structured and relational data. It's developed and maintained by SAP.
+SAP-RPT-1.5 is a relational pre-trained transformer for prediction tasks on structured and relational data. It's developed and maintained by SAP.
 
 RPT-1.5 performs predictive tasks such as classification and regression out of the box through in-context learning, without requiring model training or fine-tuning. Its table-native architecture is designed to deliver high-quality predictions on enterprise tabular data.
 
-For more information, see [SAP-RPT-1.5](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/76b292cf8ea44e369de3a9fdc2751a1c.html "SAP-RPT-1.5 is a relational pretrained transformer for prediction tasks on structured and relational data. It's developed and maintained by SAP.") :arrow_upper_right:.
+For more information, see [SAP-RPT-1.5](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/76b292cf8ea44e369de3a9fdc2751a1c.html "SAP-RPT-1.5 is a relational pre-trained transformer for prediction tasks on structured and relational data. It's developed and maintained by SAP.") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -1945,7 +2329,7 @@ Custom AI Executions
 
 You can now track the progress of long-running executions in real-time. When viewing execution status, progress details are automatically displayed in a normalized format.
 
-For more information, see [Start Training](start-training-54b44e4.md).
+For more information, see [Start Training](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/54b44e4099c3436db1c02242489435d8.html "") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -2021,7 +2405,7 @@ Administration
 
 mTLS certificate secrets are supported, enabling your AI workloads to securely authenticate to external services using mutual TLS \(mTLS\) without manual certificate management.
 
-For more information, see [Manage mTLS Certificate Secrets](manage-mtls-certificate-secrets-200810f.md).
+For more information, see [Manage mTLS Certificate Secrets](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/200810f61be6465ea79be0dc98615dd5.html "") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -6238,7 +6622,7 @@ Generic Secrets
 
 Generic secrets are now available at the tenant-wide level.
 
-For more information, see [Create a Generic Secret](create-a-generic-secret-1831845.md).
+For more information, see [Create a Generic Secret](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/1831845910364e97b3a7c6644a9e1f4b.html "A generic secret authorizes SAP AI Core to use your resource group without exposing your credentials.") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -7684,7 +8068,7 @@ Deployments
 
 When deployments are submitted, configurations are checked for errors, synchronously.
 
-For more information, see [Deploy Models](deploy-models-dd16e8e.md).
+For more information, see [Deploy Models](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/dd16e8ef75654dde831e7b812688e4fa.html "") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -7836,7 +8220,7 @@ Resource groups limit per tenant
 
 The maximum number of resource groups is limited at tenant level to 50. If you reach this limit, you receive an error message. To free up space, delete some resource groups. Alternatively, raise a ticket to increase your quota.
 
-For more information, see [Delete a Resource Group](delete-a-resource-group-40d83a2.md).
+For more information, see [Delete a Resource Group](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/40d83a2716894174b4b9b407396a0708.html "Deletes a resource group that is invalid, contains errors, or is no longer required.") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -8136,7 +8520,7 @@ Artifact signatures for artifact outputs from executions
 </td>
 <td valign="top">
 
-Artifact signatures \(hashes\) can be generated and made available to other executions and deployments to verify the integrity of an artifact. For more information, see [Using Artifact Signatures](using-artifact-signatures-2f02a1d.md).
+Artifact signatures \(hashes\) can be generated and made available to other executions and deployments to verify the integrity of an artifact. For more information, see [Using Artifact Signatures](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/2f02a1d6e3974464a4dcf7bd85fcdcac.html "Artifact signatures in the form of a hash can be added to output artifacts from executions.") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -8514,7 +8898,7 @@ Metadata in Response to List Executables
 
 When you use the endpoint to list executables, the response body now contains metadata about the parameters and artifacts. For parameters, the `description` and `default` values are returned. For artifacts, the `kind`, `description`, and `labels` can be added using annotations.
 
-For more information, see [List Executables](list-executables-80895a4.md), [Workflow Templates](workflow-templates-83523ab.md), and [Serving Templates](serving-templates-20a8667.md).
+For more information, see [List Executables](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/80895a495b4a466b8976735995e23753.html "An executable is a reusable template that defines a workflow or pipeline for tasks such as training a machine learning model or creating a deployment. It contains placeholders for input artifacts (datasets or models) and parameters (custom key-pair values) that enable the template to be reused in different scenarios.") :arrow_upper_right:, [Workflow Templates](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/83523ab8b49245bcbc9f1bf0969e32d8.html "Here, you'll find a basic workflow example template. Feel free to adjust it to suit your workflow needs.") :arrow_upper_right:, and [Serving Templates](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/20a8667ef19e4de59a4469cb542a7457.html "You use serving templates to manage your serving instances at the level of the main tenant. Serving templates define how a model is to be deployed.") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -8669,7 +9053,7 @@ Bulk PATCH Endpoint to STOP or DELETE Multiple Executions or Deployments
 </td>
 <td valign="top">
 
-Executions and Deployments can now receive PATCH requests for bulk adjustments, provided `bulkUpdates` is enabled in the relevant template. For more information, see [Workflow Templates](workflow-templates-83523ab.md) and [Serving Templates](serving-templates-20a8667.md).
+Executions and Deployments can now receive PATCH requests for bulk adjustments, provided `bulkUpdates` is enabled in the relevant template. For more information, see [Workflow Templates](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/83523ab8b49245bcbc9f1bf0969e32d8.html "Here, you'll find a basic workflow example template. Feel free to adjust it to suit your workflow needs.") :arrow_upper_right: and [Serving Templates](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/20a8667ef19e4de59a4469cb542a7457.html "You use serving templates to manage your serving instances at the level of the main tenant. Serving templates define how a model is to be deployed.") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -8745,7 +9129,7 @@ Sync Endpoint for ArgoCD
 
 In addition to automatically syncing applications, you can request a sync manually by using an API endpoint.
 
-For more information on syncing applications, see [Create an Application](create-an-application-80dbecf.md).
+For more information on syncing applications, see [Create an Application](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/80dbecf3bc224ef5a300ba214de07973.html "") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -8821,7 +9205,7 @@ WebHDFS Artifacts
 
 WebHDFS artifacts are now supported.
 
-For more information about WebHDFS artifacts on SAP AI Launchpad, see [Register an Object Store Secret](register-an-object-store-secret-b083d73.md).
+For more information about WebHDFS artifacts on SAP AI Launchpad, see [Register an Object Store Secret](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/b083d73f672c428faac3048b74733546.html "Connect SAP AI Core to a cloud object store and manage access using an object store secret. The connected storage stores your dataset, models, and other cache files of the Metaflow Library for SAP AI Core.") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -8895,7 +9279,7 @@ Periodic Scheduling
 </td>
 <td valign="top">
 
-Executions can be run automatically, to a prepared schedule. For more information, see [Training Schedules](training-schedules-2b702f8.md).
+Executions can be run automatically, to a prepared schedule. For more information, see [Training Schedules](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/2b702f8b3d0746f685ac4eea4eeb1755.html "") :arrow_upper_right:.
 
 </td>
 <td valign="top">
@@ -9193,7 +9577,7 @@ Azure Blob Storage Supported
 
 You can now register Azure Blob Storage secrets and use them for Model Serving.
 
-For more information about registering secret, see [Register an Object Store Secret](register-an-object-store-secret-b083d73.md)
+For more information about registering secret, see [Register an Object Store Secret](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/b083d73f672c428faac3048b74733546.html "Connect SAP AI Core to a cloud object store and manage access using an object store secret. The connected storage stores your dataset, models, and other cache files of the Metaflow Library for SAP AI Core.") :arrow_upper_right:
 
 </td>
 <td valign="top">
@@ -9643,7 +10027,7 @@ Supported Object Stores
 
 SAP AI Core supports multiple hyperscaler object stores, such as Amazon S3, OSS, and HANA Data Lake \(HDL\).
 
-For more information about registering secret, see [Register an Object Store Secret](register-an-object-store-secret-b083d73.md)
+For more information about registering secret, see [Register an Object Store Secret](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/b083d73f672c428faac3048b74733546.html "Connect SAP AI Core to a cloud object store and manage access using an object store secret. The connected storage stores your dataset, models, and other cache files of the Metaflow Library for SAP AI Core.") :arrow_upper_right:
 
 </td>
 <td valign="top">

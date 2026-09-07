@@ -48,6 +48,8 @@ Explore the concepts around SAP AI Launchpad and learn how to provision the serv
             -   [Build Your Orchestration Workflow](build-your-orchestration-workflow-b7dc8b4.md)
                 -   [Grounding](grounding-2d495d3.md)
                 -   [Templating](templating-11d44e6.md)
+                -   [Tool Calling](tool-calling-79c5b13.md)
+                -   [Response Format](response-format-9be70e1.md)
                 -   [Input Translation](input-translation-7ff3489.md)
                 -   [Data Masking](data-masking-79911bd.md)
                 -   [Input Filtering](input-filtering-f5c7223.md)

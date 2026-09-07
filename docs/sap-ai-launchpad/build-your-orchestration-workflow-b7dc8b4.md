@@ -127,6 +127,10 @@ You can upload your own orchestration workflow in JSON format. The workflow stru
 
 -   **[Templating](templating-11d44e6.md "")**  
 
+-   **[Tool Calling](tool-calling-79c5b13.md "")**  
+
+-   **[Response Format](response-format-9be70e1.md "")**  
+
 -   **[Input Translation](input-translation-7ff3489.md "")**  
 
 -   **[Data Masking](data-masking-79911bd.md "The data masking module is optional and serves to anonymize or pseudonymize personally

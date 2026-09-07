@@ -21,7 +21,7 @@ As a service provider, you publish your AI content to the SAP BTP *Service Marke
 
 1.  Create consumer-ready AI content \(for example, a workflow, serving template, or Docker image\).
 
-2.  Create a generic secret for broker registration. For more information, see [Create a Generic Secret](create-a-generic-secret-1831845.md).
+2.  Create a generic secret for broker registration. For more information, see [Create a Generic Secret](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/1831845910364e97b3a7c6644a9e1f4b.html "A generic secret authorizes SAP AI Core to use your resource group without exposing your credentials.") :arrow_upper_right:.
 
 3.  Provide a service custom resource YAML in a registered git repository.
 

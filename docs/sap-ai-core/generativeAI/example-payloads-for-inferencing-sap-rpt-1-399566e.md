@@ -275,17 +275,17 @@ true
 <tr>
 <th valign="top">
 
-Name
+**Name** 
 
 </th>
 <th valign="top">
 
-Type
+**Type**
 
 </th>
 <th valign="top">
 
-Description
+**Description**
 
 </th>
 </tr>
@@ -532,17 +532,17 @@ If `task_type` is omitted, the model attempts to determine whether `classificati
 <tr>
 <th valign="top">
 
-Name
+**Name** 
 
 </th>
 <th valign="top">
 
-Type
+**Type**
 
 </th>
 <th valign="top">
 
-Description
+**Description**
 
 </th>
 </tr>
@@ -1078,7 +1078,7 @@ This example shows an output where the request to perform a regression contains 
     "id": "bf9018c4-f903-4035-a433-7058cb289447",
     "status": {
         "code": 1,
-        "message": "Warning: At least one target column had invalid values in some context rows (expected float-like values for regression). These rows where dropped. Double-check your data, prediction accuracy may be impacted."
+        "message": "Warning: At least one target column had invalid values in some context rows (expected float-like values for regression). These rows were dropped. Double-check your data, prediction accuracy may be impacted."
     },
     "predictions": [
         {
@@ -1113,7 +1113,7 @@ This example shows an output where the request to perform a regression contains 
     "detail": [
         {
             "loc": [],
-            "msg": "Too many query rows provided. Maximum is 128.",
+            "msg": "Too many query rows provided. Maximum is 512.",
             "type": "value_error"
         }
     ]

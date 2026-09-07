@@ -10,5 +10,5 @@ Cached Docker images are not deleted immediately upon tenant offboarding but are
 
 With every service that you consume, there is a shared security responsibility between you and SAP. Because the creation of a Docker image is the responsibility of the tenant, we strongly recommend that you do not embed or hard-code personal data, sensitive data, or machine learning models inside your Docker images.
 
-For security reasons, Docker containers in SAP AI Core are run as non-root only. For more information, see [Workflow Templates](workflow-templates-83523ab.md).
+For security reasons, Docker containers in SAP AI Core are run as non-root only. For more information, see [Workflow Templates](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/83523ab8b49245bcbc9f1bf0969e32d8.html "Here, you'll find a basic workflow example template. Feel free to adjust it to suit your workflow needs.") :arrow_upper_right:.
 

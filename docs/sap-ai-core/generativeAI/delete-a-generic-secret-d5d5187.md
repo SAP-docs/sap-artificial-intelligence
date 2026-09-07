@@ -2,7 +2,7 @@
 
 # Delete a Generic Secret
 
-To get a secret name, see [Get Generic Secrets](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/05a3713aa6a94356b08e09e86260b16d.html "Generic secrets can either be retrieved as a single secret, or you can list all existing secrets.") :arrow_upper_right:.
+To get a secret name, see [Get Generic Secrets](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/05a3713aa6a94356b08e09e86260b16d.html "Generic secrets can either be retrieved as a single secret, or you can list all existing secrets.") :arrow_upper_right:.
 
 <a name="task_i3h_n13_tcc"/>
 

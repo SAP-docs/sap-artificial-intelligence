@@ -53,7 +53,7 @@
 
 ### Check the following:
 
-1.  Check that an object secret with the name `default` exists in the current resource group. For more information, see [Register an Object Store Secret](register-an-object-store-secret-b083d73.md) 
+1.  Check that an object secret with the name `default` exists in the current resource group. For more information, see [Register an Object Store Secret](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/b083d73f672c428faac3048b74733546.html "Connect SAP AI Core to a cloud object store and manage access using an object store secret. The connected storage stores your dataset, models, and other cache files of the Metaflow Library for SAP AI Core.") :arrow_upper_right: 
 2.  Check that you have created the Docker Registry secrets required to pull your Docker Images. Logs will be available only after the execution has started.
 
 
@@ -66,7 +66,7 @@
 
 ### Check the following:
 
-1.  Check if an object secret with the name `default` exists in the current resource group. For more information, see [Register an Object Store Secret](register-an-object-store-secret-b083d73.md) 
+1.  Check if an object secret with the name `default` exists in the current resource group. For more information, see [Register an Object Store Secret](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/b083d73f672c428faac3048b74733546.html "Connect SAP AI Core to a cloud object store and manage access using an object store secret. The connected storage stores your dataset, models, and other cache files of the Metaflow Library for SAP AI Core.") :arrow_upper_right: 
 2.  Check that you have created the Docker Registry secrets required to pull your Docker Images. Logs will be available only after the execution has started.
 
 

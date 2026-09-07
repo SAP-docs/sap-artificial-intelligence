@@ -12,17 +12,24 @@ The module supports two services:
 The content filtering module allows you to configure multiple distinct filters for a single request. However, each filter type \(such as Azure Content Safety or Llama Guard\) can be configured only once, meaning that you can't set up two filters of the same type but with different settings. However, different filter types \(such as one Azure and one Llama Guard filter\) can be applied concurrently. The orchestration service waits for all content filters to complete before returning the results.
 
 > ### Note:  
+> Do not add explicit content filtering rules to prompts when using the content filtering module. Including examples of restricted content can affect content classification and may cause false positives.
+
+> ### Note:  
 > For all Azure OpenAI models, a global content filter is configured on the Azure AI platform. This global filter removes all input and output that is classified as medium \(4\) or high \(6\) in any of the categories.
 
 
 
-<a name="loiof80417519ea04adb86f7169ae871f884__section_jqr_v5h_tdc"/>
-
 ## Azure Content Safety
 
+The Azure Content Safety service provides the following content filtering capabilities:
+
+-   Harm Classification
+-   Prompt Attack Detection
+-   Protected Material Detection for Code
 
 
-### Harm Categories
+
+### Harm Classification
 
 The Azure Content Safety classification service recognizes the following distinct content categories: `Hate`, `Violence`, `Sexual`, and `SelfHarm`. For more information, see [Harm categories in Azure AI Content Safety](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/concepts/harm-categories?tabs=warning). Text can have more than one label \(for example, a text sample can be classified as both `Hate` and `Violence`\). The returned content categories include a severity level rating of 0, 2, 4, or 6. The value increases with the severity of the content.
 

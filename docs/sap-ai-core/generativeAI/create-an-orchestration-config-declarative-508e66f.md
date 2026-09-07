@@ -10,7 +10,7 @@
 
 -   You've created and synced a git repository. For more information, see [Add a Git Repository](add-a-git-repository-b668176.md).
 
--   You've created an application that points to the orchestration configs in your git repository. For more information, see [Create an Application](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/80dbecf3bc224ef5a300ba214de07973.html "") :arrow_upper_right:.
+-   You've created an application that points to the orchestration configs in your git repository. For more information, see [Create an Application](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/80dbecf3bc224ef5a300ba214de07973.html "") :arrow_upper_right:.
 
 
 
