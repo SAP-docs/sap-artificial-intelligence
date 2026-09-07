@@ -152,8 +152,7 @@ The LLMs in the generative AI hub can be accessed from LiteLLM.
 LiteLLM is an open-source library that supports over 100 LLMs from various providers. It lets you connect LLM and agentic frameworks to the generative AI hub.
 
 > ### Caution:  
-> Do not use LiteLLM Versions 1.82.7 and 1.82.8. These versions have vulnerabilities. Versions 1.82.6 and below are safe to install.
-
+> LiteLLM versions 1.82.7 and 1.82.8 were compromised in a supply chain attack on 24 March 2026 and have been removed from PyPI. If you installed either version, rotate all credentials that were reachable from that environment and delete any litellm_init.pth file. Do not pin to 1.82.6 or earlier: those releases are affected by CVE-2026-42208, a critical SQL injection in the LiteLLM proxy, fixed in 1.83.7. Use LiteLLM 1.83.7 or later.
 
 
 </td>
