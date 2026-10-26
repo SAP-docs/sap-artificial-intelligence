@@ -2,7 +2,7 @@
 
 # Create a Subaccount
 
-Create a subsaccount in your global account using the SAP BTP cockpit.
+Create a subaccount in your global account using the SAP BTP cockpit.
 
 
 

@@ -21,7 +21,7 @@ You have either the `genai_manager` or `prompt_manager` role, or you are assigne
 This procedure explains how to delete templates in the generative AI hub. You can also delete templates through the *Scenarios* view in the *ML Ops* app. For more information, see [View a Scenario](view-a-scenario-6ef1b9a.md).
 
 > ### Note:  
-> Prompts and templates are saved in one region only and can only be retrieved or deleted by an instance of AI launchpad in that region.
+> Templates are saved in one region only and can only be retrieved or deleted by an instance of AI launchpad in that region.
 
 > ### Restriction:  
 > Only imperative templates can be deleted.
@@ -46,6 +46,6 @@ This procedure explains how to delete templates in the generative AI hub. You ca
 
     To delete a template, delete all of its revisions.
 
-    ![Screenshot of the SAP AI Launchpad user interface](images/Delete_template_4b_20f8ee5.png)
+    ![](images/Delete_Template_8f48b87.png)
 
 

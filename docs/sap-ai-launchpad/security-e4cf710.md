@@ -3775,344 +3775,6 @@ Message containing a time stamp, tenant, and user IDs; data containing event det
 <tr>
 <td valign="top">
 
-Scope check failed
-
-</td>
-<td valign="top">
-
-Message containing a time stamp, tenant, and user IDs; data containing “User not authorized” and event details.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Ops Backend
-
-</td>
-<td valign="top">
-
-Message containing a time stamp, tenant, and user IDs; data containing “Accessing secrets”.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Scope check failed
-
-</td>
-<td valign="top">
-
-Message containing a time stamp, tenant, and user IDs; data containing “Authorization failed for *<scope\>*”.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Scope check failed
-
-</td>
-<td valign="top">
-
-Message containing a time stamp, tenant, and user IDs; data containing “Authorization failed for *<scope\>*”.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Successful onboarding
-
-</td>
-<td valign="top">
-
-Message containing a time stamp, tenant, and user IDs; data containing “Successful onboarding of tenant: *<tenant subdomain\>*”.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Failed Onboarding
-
-</td>
-<td valign="top">
-
-Message containing a time stamp, tenant, and user IDs; data containing “Failed onboarding of tenant: *<tenant subdomain\>*”.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Successful Offboarding
-
-</td>
-<td valign="top">
-
-Message containing a time stamp, tenant, and user IDs; data containing “Successful offboarding of tenant: *<tenant subdomain\>*”.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Failed Offboarding
-
-</td>
-<td valign="top">
-
-Message containing a time stamp, tenant, and user IDs; data containing “Failed offboarding of tenant: *<tenant subdomain\>*”.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Scope check failed
-
-</td>
-<td valign="top">
-
-Message containing a time stamp, tenant, and user IDs; data containing “Authorization failed for <scope\>”.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Read Connections Successful
-
-</td>
-<td valign="top">
-
-Message containing a time stamp, tenant, and user IDs; data containing “Read for all connections successful”.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Read Connections Failed
-
-</td>
-<td valign="top">
-
-Message containing a time stamp, tenant, and user IDs; data containing “Failed to read for all connections”.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Create Connection Successful
-
-</td>
-<td valign="top">
-
-Message containing a time stamp, tenant, and user IDs; data containing “Created connection <name\>”.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Create Connection Successful
-
-</td>
-<td valign="top">
-
-Message containing a time stamp, tenant, and user IDs; data containing “Failed to create connection <name\>”.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Delete Connection Successful
-
-</td>
-<td valign="top">
-
-Message containing a time stamp, tenant, and user IDs; data containing “Deleted connection *<name\>*”.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Delete Connection Failed
-
-</td>
-<td valign="top">
-
-Message containing a time stamp, tenant, and user IDs; data containing “Failed to delete connection *<name\>*”.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Modify Connection
-
-</td>
-<td valign="top">
-
-Message containing a time stamp, tenant, and user IDs; attributes containing the updated connection properties.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Failed read resource group
-
-</td>
-<td valign="top">
-
-Data containing “Failed to read resource groups” or “Failed to read access Token for retrieving the resource groups”
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Failed Create Disclaimer message
-
-</td>
-<td valign="top">
-
-Data containing “Failed to create the disclaimer Message at AI Core tenant”
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Failed Get Disclaimer Message
-
-</td>
-<td valign="top">
-
-Data containing “Failed to retrieve the disclaimer message stored at AI Core tenant”
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Failed Update Disclaimer Message
-
-</td>
-<td valign="top">
-
-Data containing “Failed to update the disclaimer Message stored at AI Core tenant”
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Failed Delete Disclaimer Message
-
-</td>
-<td valign="top">
-
-Data containing “Failed to delete the disclaimer Message stored at AI Core tenant”
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Delete Disclaimer Message
-
-</td>
-<td valign="top">
-
-Message containing a time stamp, tenant id.
-
-Data containing “Disclaimer message Deleted”
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Delete Admin Prompts
-
-</td>
-<td valign="top">
-
-Message containing a time stamp, tenant, resource group, user prompt IDs; data containing “Prompt Schema Deleted”
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Delete Prompt
-
-</td>
-<td valign="top">
-
-Message containing a time stamp, tenant, resource group and prompt IDs; data containing “Prompt Data Deleted”
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Delete Prompt Versions
-
-</td>
-<td valign="top">
-
-Message containing a time stamp, tenant, resource group and prompt IDs, will also contain prompt versions if exists; data containing “Prompt Data Deleted”
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Delete Prompt’s Version
-
-</td>
-<td valign="top">
-
-Message containing a time stamp, tenant, resource group and prompt IDs and prompt version data containing “Prompt Data Deleted”
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Accessing Secrets
-
-</td>
-<td valign="top">
-
-Data containing “Accessing secrets”
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Deleting AI API Tenant Data
-
-</td>
-<td valign="top">
-
-Message containing a time stamp, tenant, sub account and user IDs; data containing “Ai Api Tenant Data Deleted”
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Clean Resource Groups
 
 </td>
@@ -4125,60 +3787,12 @@ Message containing a time stamp, tenant, sub account and user IDs; data containi
 <tr>
 <td valign="top">
 
-Delete Workspace
-
-</td>
-<td valign="top">
-
-Message containing a time stamp, tenant, sub account and user IDs; data containing “Workspace Secret Deleted: `name`”
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Read Workspaces
-
-</td>
-<td valign="top">
-
-Data containing “Read for all workspaces successful”
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Failed Read Workspaces
 
 </td>
 <td valign="top">
 
 Data containing “Failed to read for all workspaces”
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Successful Create Workspace
-
-</td>
-<td valign="top">
-
-Data containing “Created workspace `workspaceName`”
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Soft Delete all Workspaces
-
-</td>
-<td valign="top">
-
-Data containing “Soft deleted all workspaces”
 
 </td>
 </tr>
@@ -4203,66 +3817,6 @@ Failed Read specific Workspace
 <td valign="top">
 
 Data containing “Failed to read workspace `workspaceName`”
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Delete specific workspace
-
-</td>
-<td valign="top">
-
-Data containing “deleted workspace `workspaceName`”
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Failed Delete specific workspace
-
-</td>
-<td valign="top">
-
-Data containing “Failed to delete workspace `workspaceName`”
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Failed to read meta api
-
-</td>
-<td valign="top">
-
-Data containing “Failed to read meta api response”
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Failed to fetch navigation items
-
-</td>
-<td valign="top">
-
-Data containing “Failed to fetch navigation items”
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Read specific workspace
-
-</td>
-<td valign="top">
-
-Data containing “Read successful for workspace `workspaceName`”
 
 </td>
 </tr>
@@ -5133,7 +4687,7 @@ Authorization failed for <scopeName\>
 <tr>
 <td valign="top">
 
-POST `/admin/disclaimerMessage (error)`. Category: audit.security-event
+POST `/admin/disclaimerMessage` \(error\). Category: audit.security-event
 
 </td>
 <td valign="top">
@@ -5145,7 +4699,7 @@ Failed to create the disclaimer Message at AI Core tenant
 <tr>
 <td valign="top">
 
-GET `/admin/disclaimerMessage (error)`. Category: audit.security-event
+GET `/admin/disclaimerMessage` \(error\). Category: audit.security-event
 
 </td>
 <td valign="top">
@@ -5157,7 +4711,7 @@ Failed to retrieve the disclaimer message stored at AI Core tenant
 <tr>
 <td valign="top">
 
-PATCH `/admin/disclaimerMessage (error)`. Category: audit.security-event
+PATCH `/admin/disclaimerMessage` \(error\). Category: audit.security-event
 
 </td>
 <td valign="top">
@@ -5169,7 +4723,7 @@ Failed to update the disclaimer Message stored at AI Core tenant
 <tr>
 <td valign="top">
 
-DELETE `/admin/disclaimerMessage (error)`. Category: audit.security-event
+DELETE `/admin/disclaimerMessage`. \(error\) Category: audit.security-event
 
 </td>
 <td valign="top">
@@ -5259,18 +4813,6 @@ POST `/api/v1/workspaces`. Category: audit.security-event
 <td valign="top">
 
 Read for all workspaces successful
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-POST `/api/v1/workspaces`. Category: audit.security-event
-
-</td>
-<td valign="top">
-
-Tenant having free tier plan is trying to create more than one connection
 
 </td>
 </tr>
@@ -5943,6 +5485,426 @@ ANY all proxied routes. Category: audit.security-event
 <td valign="top">
 
 Authorization check failed for resource group access for path: <path\>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/admin/repositories?workspace=<w>`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name "/admin/repositories". The attribute is a part of an object with type "Read Event" and id consisting of: name /admin/repositories?workspace=<w\>. It belongs to a subject with type "/admin/repositories?workspace=<w\>", role "READ", and id consisting of: method "GET".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/admin/repositories?workspace=<w>`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute "id" from value "New" to value "<id|name|Succeeded\>". The attribute is a part of an object with type "json" and id consisting of: key "Configuration change on POST /admin/repositories?workspace=<w\> ".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/admin/repositories/{repositoryName}?workspace=<w>`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name "/admin/repositories/<repositoryName\>". The attribute is a part of an object with type "Read Event" and id consisting of: name /admin/repositories/<repositoryName\>?workspace=<w\>. It belongs to a subject with type "/admin/repositories/<repositoryName\>?workspace=<w\>", role "READ", and id consisting of: method "GET".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PATCH `/admin/repositories/{repositoryName}?workspace=<w>`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute "content" from value "Exists" to value "Succeeded". The attribute is a part of an object with type "json" and id consisting of: key "Configuration change on PATCH /admin/repositories/<repositoryName\>?workspace=<w\>".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/admin/repositories/{repositoryName}?workspace=<w>`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute "content" from value "Exists" to value "Succeeded". The attribute is a part of an object with type "json" and id consisting of: key "Configuration change on DELETE /admin/repositories/<repositoryName\>?workspace=<w\>".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/admin/applications?workspace=<w>`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name "/admin/applications". The attribute is a part of an object with type "Read Event" and id consisting of: name /admin/applications?workspace=<w\>. It belongs to a subject with type "/admin/applications?workspace=<w\>", role "READ", and id consisting of: method "GET".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/admin/applications?workspace=<w>`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute "id" from value "New" to value "<id|name|Succeeded\>". The attribute is a part of an object with type "json" and id consisting of: key "Configuration change on POST /admin/applications?workspace=<w\> ".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/admin/applications/{applicationName}?workspace=<w>`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name "/admin/applications/<applicationName\>". The attribute is a part of an object with type "Read Event" and id consisting of: name /admin/applications/<applicationName\>?workspace=<w\>. It belongs to a subject with type "/admin/applications/<applicationName\>?workspace=<w\>", role "READ", and id consisting of: method "GET".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PATCH `/admin/applications/{applicationName}?workspace=<w>`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute "content" from value "Exists" to value "Succeeded". The attribute is a part of an object with type "json" and id consisting of: key "Configuration change on PATCH /admin/applications/<applicationName\>?workspace=<w\>".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/admin/applications/{applicationName}?workspace=<w>`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute "content" from value "Exists" to value "Succeeded". The attribute is a part of an object with type "json" and id consisting of: key "Configuration change on DELETE /admin/applications/<applicationName\>?workspace=<w\>".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/admin/applications/{applicationName}/status?workspace=<w>`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name "/admin/applications/<applicationName\>/status". The attribute is a part of an object with type "Read Event" and id consisting of: name /admin/applications/<applicationName\>/status?workspace=<w\>. It belongs to a subject with type "/admin/applications/<applicationName\>/status?workspace=<w\>", role "READ", and id consisting of: method "GET".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/admin/applications/{applicationName}/refresh?workspace=<w>`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute "id" from value "New" to value "<id|name|Succeeded\>". The attribute is a part of an object with type "json" and id consisting of: key "Configuration change on POST /admin/applications/<applicationName\>/refresh?workspace=<w\> ".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/admin/dockerRegistrySecrets?workspace=<w>`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name "/admin/dockerRegistrySecrets". The attribute is a part of an object with type "Read Event" and id consisting of: name /admin/dockerRegistrySecrets?workspace=<w\>. It belongs to a subject with type "/admin/dockerRegistrySecrets?workspace=<w\>", role "READ", and id consisting of: method "GET".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/admin/dockerRegistrySecrets?workspace=<w>`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute "id" from value "New" to value "<id|name|Succeeded\>". The attribute is a part of an object with type "json" and id consisting of: key "Configuration change on POST /admin/dockerRegistrySecrets?workspace=<w\> ".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/admin/dockerRegistrySecrets/{dockerRegistryName}?workspace=<w>`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name "/admin/dockerRegistrySecrets/<dockerRegistryName\>". The attribute is a part of an object with type "Read Event" and id consisting of: name /admin/dockerRegistrySecrets/<dockerRegistryName\>?workspace=<w\>. It belongs to a subject with type "/admin/dockerRegistrySecrets/<dockerRegistryName\>?workspace=<w\>", role "READ", and id consisting of: method "GET".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PATCH `/admin/dockerRegistrySecrets/{dockerRegistryName}?workspace=<w>`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute "content" from value "Exists" to value "Succeeded". The attribute is a part of an object with type "json" and id consisting of: key "Configuration change on PATCH /admin/dockerRegistrySecrets/<dockerRegistryName\>?workspace=<w\>".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/admin/dockerRegistrySecrets/{dockerRegistryName}?workspace=<w>`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute "content" from value "Exists" to value "Succeeded". The attribute is a part of an object with type "json" and id consisting of: key "Configuration change on DELETE /admin/dockerRegistrySecrets/<dockerRegistryName\>?workspace=<w\>".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/admin/objectStoreSecrets?workspace=<w>`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name "/admin/objectStoreSecrets". The attribute is a part of an object with type "Read Event" and id consisting of: name /admin/objectStoreSecrets?workspace=<w\>. It belongs to a subject with type "/admin/objectStoreSecrets?workspace=<w\>", role "READ", and id consisting of: method "GET".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/admin/objectStoreSecrets?workspace=<w>`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute "id" from value "New" to value "<id|name|Succeeded\>". The attribute is a part of an object with type "json" and id consisting of: key "Configuration change on POST /admin/objectStoreSecrets?workspace=<w\> ".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/admin/objectStoreSecrets/{objectStoreName}?workspace=<w>`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name "/admin/objectStoreSecrets/<objectStoreName\>". The attribute is a part of an object with type "Read Event" and id consisting of: name /admin/objectStoreSecrets/<objectStoreName\>?workspace=<w\>. It belongs to a subject with type "/admin/objectStoreSecrets/<objectStoreName\>?workspace=<w\>", role "READ", and id consisting of: method "GET".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PATCH `/admin/objectStoreSecrets/{objectStoreName}?workspace=<w>`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute "content" from value "Exists" to value "Succeeded". The attribute is a part of an object with type "json" and id consisting of: key "Configuration change on PATCH /admin/objectStoreSecrets/<objectStoreName\>?workspace=<w\>".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/admin/objectStoreSecrets/{objectStoreName}?workspace=<w>`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute "content" from value "Exists" to value "Succeeded". The attribute is a part of an object with type "json" and id consisting of: key "Configuration change on DELETE /admin/objectStoreSecrets/<objectStoreName\>?workspace=<w\>".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/admin/resourceGroups?workspace=<w>`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name "/admin/resourceGroups". The attribute is a part of an object with type "Read Event" and id consisting of: name /admin/resourceGroups?workspace=<w\>. It belongs to a subject with type "/admin/resourceGroups?workspace=<w\>", role "READ", and id consisting of: method "GET".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/admin/resourceGroups?workspace=<w>`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute "id" from value "New" to value "<id|name|Succeeded\>". The attribute is a part of an object with type "json" and id consisting of: key "Configuration change on POST /admin/resourceGroups?workspace=<w\> ".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/admin/resourceGroups/{resourceGroupId}?workspace=<w>`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name "/admin/resourceGroups/<resourceGroupId\>". The attribute is a part of an object with type "Read Event" and id consisting of: name /admin/resourceGroups/<resourceGroupId\>?workspace=<w\>. It belongs to a subject with type "/admin/resourceGroups/<resourceGroupId\>?workspace=<w\>", role "READ", and id consisting of: method "GET".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PATCH `/admin/resourceGroups/{resourceGroupId}?workspace=<w>`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute "content" from value "Exists" to value "Succeeded". The attribute is a part of an object with type "json" and id consisting of: key "Configuration change on PATCH /admin/resourceGroups/<resourceGroupId\>?workspace=<w\>".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/admin/resourceGroups/{resourceGroupId}?workspace=<w>`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute "content" from value "Exists" to value "Succeeded". The attribute is a part of an object with type "json" and id consisting of: key "Configuration change on DELETE /admin/resourceGroups/<resourceGroupId\>?workspace=<w\>".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/admin/secrets?workspace=<w>`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name "/admin/secrets". The attribute is a part of an object with type "Read Event" and id consisting of: name /admin/secrets?workspace=<w\>. It belongs to a subject with type "/admin/secrets?workspace=<w\>", role "READ", and id consisting of: method "GET".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/admin/secrets?workspace=<w>`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute "id" from value "New" to value "<id|name|Succeeded\>". The attribute is a part of an object with type "json" and id consisting of: key "Configuration change on POST /admin/secrets?workspace=<w\> ".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PATCH `/admin/secrets/{secretName}?workspace=<w>`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute "content" from value "Exists" to value "Succeeded". The attribute is a part of an object with type "json" and id consisting of: key "Configuration change on PATCH /admin/secrets/<secretName\>?workspace=<w\>".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE `/admin/secrets/{secretName}?workspace=<w>`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute "content" from value "Exists" to value "Succeeded". The attribute is a part of an object with type "json" and id consisting of: key "Configuration change on DELETE /admin/secrets/<secretName\>?workspace=<w\>".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/admin/quota/requests?workspace=<w>`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name "/admin/quota/requests". The attribute is a part of an object with type "Read Event" and id consisting of: name /admin/quota/requests?workspace=<w\>. It belongs to a subject with type "/admin/quota/requests?workspace=<w\>", role "READ", and id consisting of: method "GET".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST `/admin/quota/requests?workspace=<w>`. Category: audit.configuration
+
+</td>
+<td valign="top">
+
+Configuration modification message. Changes to attribute "id" from value "New" to value "<id|name|Succeeded\>". The attribute is a part of an object with type "json" and id consisting of: key "Configuration change on POST /admin/quota/requests?workspace=<w\> ".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/admin/quota/{resource_type}?workspace=<w>`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name "/admin/quota/<resource\_type\>". The attribute is a part of an object with type "Read Event" and id consisting of: name /admin/quota/<resource\_type\>?workspace=<w\>. It belongs to a subject with type "/admin/quota/<resource\_type\>?workspace=<w\>", role "READ", and id consisting of: method "GET".
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET `/admin/tenantInfo?workspace=<w>`. Category: audit.data-access
+
+</td>
+<td valign="top">
+
+Data Access message. Reading attribute with name "/admin/tenantInfo". The attribute is a part of an object with type "Read Event" and id consisting of: name /admin/tenantInfo?workspace=<w\>. It belongs to a subject with type "/admin/tenantInfo?workspace=<w\>", role "READ", and id consisting of: method "GET".
 
 </td>
 </tr>

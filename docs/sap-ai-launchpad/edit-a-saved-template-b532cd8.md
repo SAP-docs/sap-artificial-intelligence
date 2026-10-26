@@ -14,7 +14,7 @@
 
 
 > ### Note:  
-> Prompts and templates are saved in one region only and can only be retrieved or deleted by an instance of AI launchpad in that region.
+> Templates are saved in one region only and can only be retrieved or deleted by an instance of AI launchpad in that region.
 
 
 
@@ -29,7 +29,7 @@
 3.  Choose *Open in Prompt Editor*. Make your changes.
 
     > ### Note:  
-    > If you change the access level of your template, you'll create a separate template item. Both templates can be updated and saved independently of each other
+    > If you change the access level of your template, you'll create a separate template item. Both templates can be updated and saved independently of each other.
 
     > ### Note:  
     > If the model used for your prompt is no longer available you will be notified when you open the prompt in the editor and you must choose another model.

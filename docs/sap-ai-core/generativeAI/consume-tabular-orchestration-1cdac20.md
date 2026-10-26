@@ -18,9 +18,9 @@ For more information, see the following topics:
 -   [Prediction Examples for Tabular AI Orchestration](prediction-examples-for-tabular-ai-orchestration-2577090.md)
 
 -   **[API Specification](api-specification-e7f9915.md "Use the Tabular AI Orchestration Prediction API to submit inference requests, configure
-        context selection strategies and generate classification or regression predictions with
+        context selection strategies, and generate classification or regression predictions with
         supported tabular foundation models.")**  
-Use the Tabular AI Orchestration Prediction API to submit inference requests, configure context selection strategies and generate classification or regression predictions with supported tabular foundation models.
+Use the Tabular AI Orchestration Prediction API to submit inference requests, configure context selection strategies, and generate classification or regression predictions with supported tabular foundation models.
 -   **[Prediction Examples for Tabular AI Orchestration](prediction-examples-for-tabular-ai-orchestration-2577090.md)**  
 
 -   **[Troubleshooting](troubleshooting-46af3f9.md "Use the following troubleshooting information to identify and resolve common validation,

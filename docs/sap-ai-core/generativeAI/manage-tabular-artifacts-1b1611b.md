@@ -2,6 +2,99 @@
 
 # Manage Tabular Artifacts
 
+Manage tabular artifacts for use in scenario configurations.
+
+**Endpoints**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Method
+
+</th>
+<th valign="top">
+
+Path
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+GET
+
+</td>
+<td valign="top">
+
+`/tabularArtifacts`
+
+</td>
+<td valign="top">
+
+List all tabular artifacts
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET
+
+</td>
+<td valign="top">
+
+`/tabularArtifacts/{name}`
+
+</td>
+<td valign="top">
+
+Get details and full schema metadata
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE
+
+</td>
+<td valign="top">
+
+`/tabularArtifacts/{name}`
+
+</td>
+<td valign="top">
+
+Delete \(async soft-delete, returns 202\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET
+
+</td>
+<td valign="top">
+
+`/tabularArtifacts/{name}/data`
+
+</td>
+<td valign="top">
+
+Preview first 10 rows from the virtual table
+
+</td>
+</tr>
+</table>
+
 
 
 ## List Tabular Artifacts
@@ -9,7 +102,7 @@
 To list tabular artifacts, send a GET request to the endpoint:
 
 ```
-curl -X GET "$BASE_URL/tabularArtifacts?\$top=20&\$count=true" \
+curl -X GET "$AI_API_URL/v2/tcr/tabularArtifacts?\$top=20&\$count=true" \
   -H "Authorization: Bearer $TOKEN" \
   -H "AI-Resource-Group: $RESOURCE_GROUP"
 ```
@@ -30,7 +123,7 @@ Successful responses return code **200** and item details.
       "remoteSourceName": "RS_S3_TRAINING_DATA",
       "path": "/data/customers/customers_2024.csv",
       "type": "CSV",
-      "status": "READY",
+      "status": "ACTIVE",
       "createdAt": "2024-03-12T08:00:00.000Z",
       "updatedAt": "2024-03-12T08:02:30.000Z"
     },
@@ -54,19 +147,19 @@ Successful responses return code **200** and item details.
 
 
 
-## Retrieve A Tabular Artifact
+## Retrieve a Tabular Artifact
 
 To retrieve a tabular artifact, send a GET request to the endpoint:
 
 ```
-curl -X GET "$BASE_URL/tabularArtifacts/customer-data-ta" \
+curl -X GET "$AI_API_URL/v2/tcr/tabularArtifacts/customer-data-ta" \
   -H "Authorization: Bearer $TOKEN" \
   -H "AI-Resource-Group: $RESOURCE_GROUP"
 ```
 
 Successful responses return code **200** and item details.
 
-The response includes `status` details. If your `status` is `READY`, you'll receive the response below:
+The response includes `status` details. If your `status` is `ACTIVE`, you'll receive the response below:
 
 ```
 {
@@ -79,7 +172,7 @@ The response includes `status` details. If your `status` is `READY`, you'll rece
   "remoteSourceName": "RS_S3_TRAINING_DATA",
   "path": "/data/customers/customers_2024.csv",
   "type": "CSV",
-  "status": "READY",
+  "status": "ACTIVE",
   "csnMetadata": {
     "entityName": "CustomerEntity",
     "selectedColumns": ["customer_id", "name", "purchase_amount", "region"],
@@ -134,7 +227,7 @@ Error responses return code **404**: Artifact not found.
 This endpoint soft-deletes the artifact. The virtual table and remote source are dropped asynchronously.
 
 ```
-curl -X DELETE "$BASE_URL/tabularArtifacts/sales-data-ta" \
+curl -X DELETE "$AI_API_URL/v2/tcr/tabularArtifacts/sales-data-ta" \
   -H "Authorization: Bearer $TOKEN" \
   -H "AI-Resource-Group: $RESOURCE_GROUP"
 ```
@@ -152,10 +245,10 @@ Successful responses return code **202**.
 
 ## Preview Data from a Tabular AI Artifact
 
-Returns the first 10 rows from the virtual table. The artifact must have `status`: `READY`.
+Returns the first 10 rows from the virtual table. The artifact must have `status`: `ACTIVE`.
 
 ```
-curl -X GET "$BASE_URL/tabularArtifacts/customer-data-ta/data" \
+curl -X GET "$AI_API_URL/v2/tcr/tabularArtifacts/customer-data-ta/data" \
   -H "Authorization: Bearer $TOKEN" \
   -H "AI-Resource-Group: $RESOURCE_GROUP"
 ```

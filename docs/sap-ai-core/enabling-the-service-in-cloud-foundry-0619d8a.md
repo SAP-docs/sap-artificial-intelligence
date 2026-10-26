@@ -13,9 +13,9 @@ SAP AI Core is a tenant-aware reuse service that isolates tenants based on the z
 
 ![Architecture diagram showing system components and workflow](images/Multitenancy_diagram_29a8dde.png)
 
--   **[Create a Subaccount](create-a-subaccount-3e3ae83.md "Create a subsaccount in your global account using the SAP BTP
+-   **[Create a Subaccount](create-a-subaccount-3e3ae83.md "Create a subaccount in your global account using the SAP BTP
                                     cockpit.")**  
-Create a subsaccount in your global account using the SAP BTP cockpit.
+Create a subaccount in your global account using the SAP BTP cockpit.
 -   **[Enable Cloud Foundry](enable-cloud-foundry-cf0d5d2.md "")**  
 
 -   **[Create a Space](create-a-space-4c1190c.md "")**  

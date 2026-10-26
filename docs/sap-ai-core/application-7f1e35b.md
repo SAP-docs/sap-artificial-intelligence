@@ -59,7 +59,7 @@ After you have deleted or created an application, templates are not synced.
 
     `GET``{{apiurl}}/v2/admin/applications/{{appName}}/status`
 
-    The status will any return errors in your templates. When your templates are updated, the application will resync automatically after approximately three minutes.
+    The status will return any errors in your templates. When your templates are updated, the application will resync automatically after approximately three minutes.
 
 
 
@@ -117,7 +117,7 @@ After you have deleted or created an application, templates are not synced.
 
     `GET``{{apiurl}}/v2/admin/applications/{{appName}}/status`
 
-    The status will any return errors in your templates. When your templates are updated, the application will resync automatically after approximately three minutes.
+    The status will return any errors in your templates. When your templates are updated, the application will resync automatically after approximately three minutes.
 
 
 
@@ -177,7 +177,7 @@ After you have deleted or created an application, templates are not synced.
 
     `GET``{{apiurl}}/v2/admin/applications/{{appName}}/status`
 
-    The status will any return errors in your templates. When your templates are updated, the application will resync automatically after approximately three minutes.
+    The status will return any errors in your templates. When your templates are updated, the application will resync automatically after approximately three minutes.
 
 
 
@@ -228,7 +228,7 @@ Alternatively, enter `HEAD` to refer to the latest commit.
 
 <a name="loio7f1e35be58fb4f909e43d44d994ab77d__section_xzt_wnr_2tb"/>
 
-## Application status message: ***rpc error: code = FailedPrecondition desc = Failed to unmarshal \\"worklflow.yaml\\": failed to unmarshal manifest: error converting YAML to JSON: yaml: line 7: mapping values are not allowed in this context***
+## Application status message: ***rpc error: code = FailedPrecondition desc = Failed to unmarshal \\"workflow.yaml\\": failed to unmarshal manifest: error converting YAML to JSON: yaml: line 7: mapping values are not allowed in this context***
 
 You have a syntax error in your workflow template.
 
@@ -242,7 +242,7 @@ Use Argo Lint to identify syntax errors in your workflow template. To set up the
 
 <a name="loio7f1e35be58fb4f909e43d44d994ab77d__section_y41_dpr_2tb"/>
 
-## Application status message: ***spec.source.repoURL and spec.source.path either spec.source.chart are required***
+## Application status message: ***spec.source.repoURL and either spec.source.path or spec.source.chart are required***
 
 You specified an empty path in your application.
 
@@ -257,7 +257,7 @@ You specified an empty path in your application.
         "revision": "Unknown"
     },
     "syncFinishedAt": "Unknown",
-    "syncRessourcesStatus": [],
+    "syncResourcesStatus": [],
     "syncStartedAt": "Unknown",
     "syncStatus": "Unknown"
 }

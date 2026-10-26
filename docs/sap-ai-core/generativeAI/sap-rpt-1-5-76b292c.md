@@ -10,6 +10,8 @@ For general information about the SAP-RPT model family, including key features, 
 
 ## SAP RPT Models
 
+For more information about `SAP-RPT-1.5`, see [SAP 1.5 Model Card](https://www.sap.com/documents/2026/07/b8cb2cd1-5d7f-0010-bca6-c68f7e60039b.html)
+
 `SAP-RPT-1.5` is available in the following model versions:
 
 -   `sap-rpt-1.5` supports medium-complexity prediction scenarios. It is optimized for low latency and high prediction throughput.

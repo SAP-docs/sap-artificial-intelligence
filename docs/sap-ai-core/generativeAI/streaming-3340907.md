@@ -364,6 +364,11 @@ The following example shows a streaming configuration with an overlap of 10 char
 > }
 > ```
 
+> ### Note:  
+> If you enable Azure Content Safety Protected Material Code detection \(`protected_material_code`\) in a streaming request, both `chunk_size` and the output filtering `overlap` fields must be set to values of at least 111. Otherwise the request is rejected with a HTTP `400 Bad Request` response. This ensures the content sent for scanning always meets the service's minimum character requirement. For more information, see [Content Filtering](content-filtering-f804175.md).
+> 
+> Setting both values to at least 111 doesn't guarantee that every chunk clears the minimum. If you also configure `delimiters`, a chunk can be split at a delimiter and fall below 111 characters, which is rejected mid-stream with a `400`-coded error event.
+
 
 
 <a name="loio33409072eac14f0d96b23e21a0d85bff__section_e5n_skf_xcc"/>

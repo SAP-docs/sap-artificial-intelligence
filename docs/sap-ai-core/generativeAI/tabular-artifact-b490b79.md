@@ -6,82 +6,9 @@ A tabular artifact represents a specific file on a Data Destination that has bee
 
 Onboarding a tabular artifact consists of the following:
 
-1.  Reads the CSN schema definition \(inline, by file reference, or auto-derived\)
-2.  Creates a **virtual table** in SAP HANA pointing to the file
-3.  Makes the data queryable at runtime for context selection
-
-> ### Note:  
-> Creation is **asynchronous**. The API returns `202 Accepted` immediately. Poll `GET /tabularArtifacts/{name}` until `status` is `READY` before using the artifact in a Scenario Configuration.
-
-
-
-## Artifact Status Lifecycle
-
-The artifact lifecycle consists of the following stages:
-
-
-<table>
-<tr>
-<th valign="top">
-
-Status
-
-</th>
-<th valign="top">
-
-Description
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-`PROCESSING`
-
-</td>
-<td valign="top">
-
-Asynchronous creation in progress
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`READY`
-
-</td>
-<td valign="top">
-
-Fully available — safe to reference in a Scenario Configuration
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`ERROR`
-
-</td>
-<td valign="top">
-
-Creation failed — check the artifact details
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`DELETING`
-
-</td>
-<td valign="top">
-
-Soft-deleted, awaiting async cleanup
-
-</td>
-</tr>
-</table>
+1.  Reads the Core Schema Notation \(CSN\) schema definition \(inline, by file reference, or auto-derived\).
+2.  Creates a **virtual table** in SAP HANA pointing to the file.
+3.  Makes the data queryable at runtime for context selection.
 
 
 
@@ -143,22 +70,144 @@ Let the system derive the schema from the file
 
 
 
+## Artifact Status Lifecycle
+
+The artifact lifecycle consists of the following stages:
+
+
+<table>
+<tr>
+<th valign="top">
+
+Status
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`PROCESSING`
+
+</td>
+<td valign="top">
+
+Asynchronous creation in progress
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`ACTIVE`
+
+</td>
+<td valign="top">
+
+Fully available — safe to reference in a Scenario Configuration
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`ERROR`
+
+</td>
+<td valign="top">
+
+Creation failed — check the artifact details
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`DELETING`
+
+</td>
+<td valign="top">
+
+Soft-deleted, awaiting async cleanup
+
+</td>
+</tr>
+</table>
+
+
+
+## Create a Tabular Artifact
+
+> ### Note:  
+> Tabular artifact creation is asynchronous. The request is accepted immediately and returns `202 Accepted`, while schema validation and resource creation run in a separate task.
+> 
+> Before you use the artifact in a scenario configuration, poll `GET /tabularArtifacts/{name}` until the artifact status is `ACTIVE`.
+> 
+> If creation fails, the artifact status is `ERROR` and the response includes an `errorMessage` field. To retry the operation, send another `PUT` request with the same artifact name.
+> 
+> Specify the artifact name in the request path. Do not include the name in the request body.
+
+**Endpoint**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Method
+
+</th>
+<th valign="top">
+
+Path
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+PUT
+
+</td>
+<td valign="top">
+
+`/tabularArtifacts/{name}`
+
+</td>
+<td valign="top">
+
+Create a new tabular artifact asynchronously \(returns 202\)
+
+</td>
+</tr>
+</table>
+
+
+
 ## Examples
 
 
 
 ### DOCUMENT Method
 
-Use the DOCUMENT method to embed the Core Schema Notation \(CSN\) JSON directly in the request.
+Use the DOCUMENT method to embed the CSN JSON directly in the request.
 
 ```
 
-curl -X POST "$BASE_URL/tabularArtifacts" \
+curl -X PUT "$AI_API_URL/v2/tcr/tabularArtifacts/customer-data-ta" \
   -H "Authorization: Bearer $TOKEN" \
   -H "AI-Resource-Group: $RESOURCE_GROUP" \
   -H "Content-Type: application/json" \
   -d '{
-    "name": "customer-data-ta",
     "dataDestinationName": "s3-training-data",
     "type": "CSV",
     "path": "/data/customers/customers_2024.csv",
@@ -201,12 +250,11 @@ curl -X POST "$BASE_URL/tabularArtifacts" \
 Use the REFERENCE method to reference a CSN file stored in the data source.
 
 ```
-curl -X POST "$BASE_URL/tabularArtifacts" \
+curl -X PUT "$AI_API_URL/v2/tcr/tabularArtifacts/orders-parquet-ta" \
   -H "Authorization: Bearer $TOKEN" \
   -H "AI-Resource-Group: $RESOURCE_GROUP" \
   -H "Content-Type: application/json" \
   -d '{
-    "name": "orders-parquet-ta",
     "dataDestinationName": "s3-training-data",
     "type": "PARQUET",
     "path": "/data/orders/orders_2024.parquet",
@@ -237,12 +285,11 @@ curl -X POST "$BASE_URL/tabularArtifacts" \
 Use the AUTO method to automatically discover schema metadata from the source.
 
 ```
-curl -X POST "$BASE_URL/tabularArtifacts" \
+curl -X PUT "$AI_API_URL/v2/tcr/tabularArtifacts/sales-data-ta" \
   -H "Authorization: Bearer $TOKEN" \
   -H "AI-Resource-Group: $RESOURCE_GROUP" \
   -H "Content-Type: application/json" \
   -d '{
-    "name": "sales-data-ta",
     "dataDestinationName": "hdl-production",
     "type": "CSV",
     "path": "/data/sales/sales_q1.csv",
@@ -311,6 +358,12 @@ A tabular artifact with this name already exists
 </td>
 </tr>
 </table>
+
+
+
+## Next Step
+
+For more information about tabular artifact status, see [Retrieve a tabular artifact](https://help.sap.com/docs/AI_CORE/b9f48eb4a993445b863a55dd4d38f64d/1b1611b26e0945a4902e8dd3b54470b6.html?locale=en-US&state=DRAFT&version=CLOUD).
 
 -   **[Manage Tabular Artifacts](manage-tabular-artifacts-1b1611b.md)**  
 

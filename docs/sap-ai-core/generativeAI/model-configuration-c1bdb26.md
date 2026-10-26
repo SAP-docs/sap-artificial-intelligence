@@ -12,7 +12,7 @@ The model configuration module is mandatory. It lets you inference the large lan
 
 -   Model Version \(parameter `model_version`\): The model version is optional and defaults to “latest”.
 
--   Timeout \(parameter `timeout`\): is optional and is specified in seconds. Min: 1, max 600, default: 600.
+-   Timeout \(parameter `timeout`\): is optional and is specified in seconds. Min: 1, max: 1200, default: 600.
 
     You can use timeout to configure a timeout limit for LLM calls. 
 
@@ -22,7 +22,7 @@ The model configuration module is mandatory. It lets you inference the large lan
 
     This parameter is ignored by Vertex AI models.
 
--   Max retries \(parameter `max_retries`\): is optional and is specified in number of retries. Min: 0, max 5, default: 2.
+-   Max retries \(parameter `max_retries`\): is optional and is specified in number of retries. Min: 0, max: 5, default: 2.
 
     You can use max\_retries to configure a number of retries for LLM calls. Retries are attempted in case of errors related to connection, network and read timeouts, for example.
 

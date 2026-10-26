@@ -159,6 +159,11 @@ This is translated internally back into the OpenAI format, returning the followi
 }
 ```
 
+For information about provider-specific request and response fields, see [Provider-Specific Fields](provider-specific-fields-3ea6e70.md).
+
+-   **[Provider-Specific Fields](provider-specific-fields-3ea6e70.md)**  
+
+
 **Related Information**  
 
 

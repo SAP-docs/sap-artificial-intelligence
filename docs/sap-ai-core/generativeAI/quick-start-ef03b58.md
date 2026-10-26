@@ -5,7 +5,7 @@
 This section walks you through the essential steps for getting started with the generative AI hub in SAP AI Core. You'll authenticate, retrieve your orchestration deployment URL, and make your first model call using the Harmonized API.
 
 > ### Tip:  
-> If you want a guided, hands-on environment, you can explore the generative AI hub using the 30-day free trial. For more information, see [Try now: 30-Day Basic Trial](https://www.sap.com/products/artificial-intelligence/generative-ai-hub-trial.html).
+> If you want a guided, hands-on environment, you can explore the generative AI hub using the 30-day free trial. For more information, see [Try now: 30-Day Basic Trial](https://www.sap.com/products/artificial-intelligence/core-ai-trial.html).
 
 
 

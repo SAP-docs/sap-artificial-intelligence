@@ -8,7 +8,7 @@
 
 When a consumer creates a service instance of the custom resource, a resource group is automatically created with the ID of the service instance ID. A consumer’s access to resources is restricted to this resource group.
 
-A shared resource group can be used i a service provider wants to manage a central deployment and make it available to all of the service consumers
+A shared resource group can be used if a service provider wants to manage a central deployment and make it available to all of the service consumers.
 
 > ### Restriction:  
 > Shared resource groups only allow deployment creation for models available in the `foundation-models` scenario, in generative AI hub.
@@ -17,7 +17,7 @@ A shared resource group can be used i a service provider wants to manage a centr
 
 ## Procedure
 
-1.  To enable shared resource group, set `enableSharedResourceGroup` to `true` in the service custom resource.
+1.  To enable shared resource group, set <code><code>enableSharedResourceGroup</code></code> to `true` in the service custom resource.
 
     > ### Sample Code:  
     > ```
@@ -27,7 +27,7 @@ A shared resource group can be used i a service provider wants to manage a centr
     >     ...
     > ```
 
-    Tenants cannot create, modify or delete a shared resource group using the API. Onboarding for shared resource groups is only possible through the service custom resource..
+    Tenants cannot create, modify or delete a shared resource group using the API. Onboarding for shared resource groups is only possible through the service custom resource.
 
 2.  Check the status of your shared resource group by sending a GET request to the endpoint `{{apiurl}}/v2/admin/services/<service-name>`.
 
@@ -106,7 +106,7 @@ A shared resource group can be used i a service provider wants to manage a centr
 
 ## Results
 
-If the `sharedResourceGroupStatus` is `Provisioned`, your shared resource group is provisioned successfully.
+If the <code><code>sharedResourceGroupStatus</code></code> is `Provisioned`, your shared resource group is provisioned successfully.
 
 
 
@@ -114,5 +114,5 @@ If the `sharedResourceGroupStatus` is `Provisioned`, your shared resource group 
 
 ## Next Steps
 
-To add resources to your shared resource group. include the header `AI-Resource-Group: shared`. Consumers accessing service must also use the header `AI-Resource-Group: shared` to access the shared resource group.
+To add resources to your shared resource group, include the header `AI-Resource-Group: shared`. Consumers accessing the service must also use the header `AI-Resource-Group: shared` to access the shared resource group.
 

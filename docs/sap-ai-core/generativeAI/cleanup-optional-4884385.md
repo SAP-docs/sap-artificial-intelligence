@@ -31,7 +31,7 @@ Scenario Configuration
 </td>
 <td valign="top">
 
-`DELETE /v2/admin/tcr/scenarioConfigurations/{name}`
+`DELETE /v2/tcr/scenarioConfigurations/{name}`
 
 </td>
 <td valign="top">
@@ -48,7 +48,7 @@ Tabular Artifact
 </td>
 <td valign="top">
 
-`DELETE /v2/admin/tcr/tabularArtifacts/{name}`
+`DELETE /v2/tcr/tabularArtifacts/{name}`
 
 </td>
 <td valign="top">
@@ -65,7 +65,7 @@ Data Destination
 </td>
 <td valign="top">
 
-`DELETE /v2/admin/tcr/dataDestinations/{name}`
+`DELETE /v2/tcr/dataDestinations/{name}`
 
 </td>
 <td valign="top">

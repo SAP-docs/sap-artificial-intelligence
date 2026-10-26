@@ -38,7 +38,6 @@ Explore the concepts around SAP AI Launchpad and learn how to provision the serv
         -   [Chat](chat-d84b5a1.md)
         -   Prompt Editor
             -   [Prompt Experimentation](prompt-experimentation-384cc0c.md)
-            -   [Save a Prompt](save-a-prompt-e8c656f.md)
             -   [Save a Template](save-a-template-49d4248.md)
         -   [Orchestration](orchestration-4953dc1.md)
             -   [Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4344c5b.md)
@@ -83,7 +82,6 @@ Explore the concepts around SAP AI Launchpad and learn how to provision the serv
                 -   [View Metric Details](view-metric-details-db90bc4.md)
         -   Prompt Management
             -   [View a Saved Prompt](view-a-saved-prompt-d07a272.md)
-            -   [Edit a Saved Prompt](edit-a-saved-prompt-5f53a57.md)
             -   [Delete Prompts](delete-prompts-ee44055.md)
             -   [View a Saved Template](view-a-saved-template-cfe6c8b.md)
             -   [Edit a Saved Template](edit-a-saved-template-b532cd8.md)

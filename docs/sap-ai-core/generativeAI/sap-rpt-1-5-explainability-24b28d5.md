@@ -9,7 +9,7 @@
 Enable explainability by adding an `explanations` configuration to `prediction_config` in the request.
 
 > ### Note:  
-> Column scores and relevant context rows are derived from model internals and do not indicate causality. Results can be less accurate for small datasets. For strongly correlated features, the model can distribute scores across multiple feature columns instead of assigning a high score to a single column.
+> Column scores and relevant context rows are derived from model internals and don't indicate causality. Results can be less accurate for small datasets. For correlated features, the model can distribute scores across multiple feature columns instead of assigning a high score to a single column.
 
 **Request Parameters**
 

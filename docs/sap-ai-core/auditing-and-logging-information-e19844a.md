@@ -208,7 +208,7 @@ Provisioning of tenant
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant IDs, and attributes containing `"name": "state",`, `"new": "PENDING"` and `"name": "cfAccountState`, `"new": "ACTIVE"` and success value `true` 
+Message containing a time stamp, tenant IDs, and attributes containing `"name": "state"`, `"new": "PENDING"` and `"name": "cfAccountState"`, `"new": "ACTIVE"`, and success value `true` 
 
 </td>
 </tr>
@@ -232,7 +232,7 @@ Deprovisioning of tenant
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant IDs, and attributes containing `"name": "state",`, `"new": "PENDING"` and `"name": "cfAccountState`, `"new": "DELETED"` and success value `true`.
+Message containing a time stamp, tenant IDs, and attributes containing `"name": "state"`, `"new": "PENDING"` and `"name": "cfAccountState"`, `"new": "DELETED"`, and success value `true`.
 
 </td>
 </tr>
@@ -276,7 +276,7 @@ Delete
 </td>
 <td valign="top">
 
-Message containing a time stamp, tenant IDs, source IPs, the request URI, the level, the and response object.
+Message containing a time stamp, tenant IDs, source IPs, the request URI, the level, and the response object.
 
 </td>
 </tr>

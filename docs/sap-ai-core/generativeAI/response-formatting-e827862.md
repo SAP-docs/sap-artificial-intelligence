@@ -175,7 +175,7 @@ For example:
 
 ## Evaluating Response Formatting
 
-You can specify which evalution metric should be used for each field in your response by including the optional parameter `field_evaluation_metrics` in your request. This is useful when you have multiple fields with differing response types, where a one size fits all approach does not apply. For example:
+You can specify which evaluation metric should be used for each field in your response by including the optional parameter `field_evaluation_metrics` in your prompt optimization configuration. This is useful when you have multiple fields with differing response types, where a one size fits all approach does not apply. For example:
 
 > ### Sample Code:  
 > ```

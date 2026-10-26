@@ -206,7 +206,7 @@ secrets
 </td>
 <td valign="top">
 
-Consumers can access to create and read generic secret \(default: false\)
+Consumers can create and read generic secrets \(default: false\)
 
 </td>
 </tr>
@@ -294,7 +294,7 @@ enableSharedResourceGroup
 </td>
 <td valign="top">
 
-Flag used to enable or disable share resource group. For more information, see [Shared Resource Group](shared-resource-group-dc1e577.md).
+Flag used to enable or disable shared resource group. For more information, see [Shared Resource Group](shared-resource-group-dc1e577.md).
 
 </td>
 </tr>

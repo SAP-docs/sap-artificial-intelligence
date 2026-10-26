@@ -4,6 +4,198 @@
 
 The service provides APIs to **retrieve**, **list**, **update**, and **search** data destinations.
 
+**Endpoints**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Method
+
+</th>
+<th valign="top">
+
+Path
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+GET
+
+</td>
+<td valign="top">
+
+`/dataDestinations`
+
+</td>
+<td valign="top">
+
+List all data destinations
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET
+
+</td>
+<td valign="top">
+
+`/dataDestinations/{name}`
+
+</td>
+<td valign="top">
+
+Get details \(credentials excluded\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PATCH
+
+</td>
+<td valign="top">
+
+`/dataDestinations/{name}`
+
+</td>
+<td valign="top">
+
+Update labels, description, or credentials
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE
+
+</td>
+<td valign="top">
+
+`/dataDestinations/{name}`
+
+</td>
+<td valign="top">
+
+Mark for asynchronous deletion
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST
+
+</td>
+<td valign="top">
+
+`/dataDestinations/search`
+
+</td>
+<td valign="top">
+
+Search by label key-value pairs
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST
+
+</td>
+<td valign="top">
+
+`/dataDestinations/validate`
+
+</td>
+<td valign="top">
+
+Test connectivity before creating
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST
+
+</td>
+<td valign="top">
+
+`/dataDestinations/{name}/validate`
+
+</td>
+<td valign="top">
+
+Re-verify an existing destination
+
+</td>
+</tr>
+</table>
+
+**Query Parameters**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Parameter
+
+</th>
+<th valign="top">
+
+Type
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+<th valign="top">
+
+Applicable To
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`namedSp`
+
+</td>
+<td valign="top">
+
+boolean
+
+</td>
+<td valign="top">
+
+When set to `true`, returns HDL subject patterns in the `namedSubjectPatterns` object in addition to `subjectPatterns`.
+
+</td>
+<td valign="top">
+
+HDL data destinations \(GET endpoints\)
+
+</td>
+</tr>
+</table>
+
 
 
 ## List Data Destinations
@@ -11,7 +203,7 @@ The service provides APIs to **retrieve**, **list**, **update**, and **search** 
 Send a GET request to list all data destinations:
 
 ```
-curl GET "$AI_API_URL/v2/tcr/dataDestinations" \
+curl GET "$AI_API_URL/v2/tcr/dataDestinations?\$top=10&\$count=true" \
   --header "AI-Resource-Group: $RESOURCE_GROUP_ID" \
   --header "Authorization: Bearer $TOKEN"
 ```
@@ -27,6 +219,7 @@ Successful responses return code **200** and item details.
       "type": "HDL",
       "description": "Production HANA Data Lake file container",
       "adapterType": "File",
+      "status": "ACTIVE",
       "labels": [
         { "key": "ext.ai.sap.com/environment", "value": "production" }
       ],
@@ -38,10 +231,13 @@ Successful responses return code **200** and item details.
       "type": "S3",
       "description": "S3 bucket for training datasets",
       "adapterType": "File",
+      "status": "ACTIVE",
       "labels": [],
       "createdAt": "2024-03-11T11:30:00.000Z",
       "updatedAt": "2024-03-11T11:30:00.000Z"
     }
+  ]
+}
   ]
 }
 ```
@@ -53,12 +249,14 @@ Successful responses return code **200** and item details.
 Retrieve details of a specific data destination by sending a GET request to the following endpoint:
 
 ```
-curl GET "$AI_API_URL/v2/tcr/dataDestinations /{dataDestinationName}" \
+curl GET "$AI_API_URL/v2/tcr/dataDestinations/hdl-production" \
   --header "AI-Resource-Group: $RESOURCE_GROUP_ID" \
   --header "Authorization: Bearer $TOKEN"
 ```
 
 Successful responses return code **200** and item details.
+
+The destination status can be ACTIVE, PROCESSING, or ERROR.
 
 ```
 {
@@ -66,12 +264,81 @@ Successful responses return code **200** and item details.
   "type": "HDL",
   "description": "Production HANA Data Lake file container",
   "adapterType": "File",
+  "status": "ACTIVE",
   "labels": [
     { "key": "ext.ai.sap.com/environment", "value": "production" }
   ],
   "createdAt": "2024-03-10T09:00:00.000Z",
   "updatedAt": "2024-03-10T09:00:00.000Z"
 }
+```
+
+```
+{
+  "name": "hdl-production",
+  "type": "HDL",
+  "description": "Production HANA Data Lake file container",
+  "adapterType": "File",
+  "status": "PROCESSING",
+  "labels": [
+    { "key": "ext.ai.sap.com/environment", "value": "production" }
+  ],
+  "createdAt": "2024-03-10T09:00:00.000Z",
+  "updatedAt": "2024-03-10T09:00:00.000Z"
+}
+```
+
+```
+{
+  "name": "hdl-production",
+  "type": "HDL",
+  "description": "Production HANA Data Lake file container",
+  "adapterType": "File",
+  "status": "ERROR",
+  "errorMessage": "Failed to validate credentials: Access denied to HDL endpoint",
+  "labels": [
+    { "key": "ext.ai.sap.com/environment", "value": "production" }
+  ],
+  "createdAt": "2024-03-10T09:00:00.000Z",
+  "updatedAt": "2024-03-10T09:00:00.000Z"
+}
+```
+
+Successful responses return code **200** and item details.
+
+
+
+### Retrieve Named Subject Patterns
+
+To include named subject patterns in the response, set the `namedSp` query parameter to `true`.
+
+```
+
+curl -X GET "$AI_API_URL/v2/tcr/dataDestinations/hdl-production?namedSp=true" \
+  -H "Authorization: Bearer $TOKEN" \
+  -H "AI-Resource-Group: $RESOURCE_GROUP"
+
+```
+
+The response contains the `subjectPatterns` array and the `namedSubjectPatterns` object.
+
+```
+
+{
+  "name": "hdl-production",
+  "type": "HDL",
+  "status": "ACTIVE",
+  "subjectPatterns": [
+    "sap.ai.core:resourceGroup:my-resource-group:dataDestination:hdl-production"
+  ],
+  "namedSubjectPatterns": {
+    "hanaSubjectPattern": "sap.ai.core:resourceGroup:my-resource-group:dataDestination:hdl-production",
+    "aciorePklSubjectPattern": "sap.ai.core:resourceGroup:my-resource-group:dataDestination:hdl-production"
+  },
+  "createdAt": "2024-03-10T09:00:00.000Z",
+  "updatedAt": "2024-03-10T09:00:00.000Z"
+}
+
 ```
 
 
@@ -149,7 +416,7 @@ Not patchable
 Send a PATCH request to update metadata labels for a data destination:
 
 ```
-curl -X PATCH "$BASE_URL/dataDestinations/s3-training-data" \
+curl -X PATCH "$AI_API_URL/v2/tcr/dataDestinations/s3-training-data" \
   -H "Authorization: Bearer $TOKEN" \
   -H "AI-Resource-Group: $RESOURCE_GROUP" \
   -H "Content-Type: application/json" \
@@ -181,7 +448,7 @@ Successful responses return code **204**.
 Send a DELETE request to the following endpoint:
 
 ```
-curl -X DELETE "$BASE_URL/dataDestinations/s3-training-data" \
+curl -X DELETE "$AI_API_URL/v2/tcr/dataDestinations/s3-training-data" \
   -H "Authorization: Bearer $TOKEN" \
   -H "AI-Resource-Group: $RESOURCE_GROUP"
 ```
@@ -202,7 +469,7 @@ Successful responses return code **204**.
 To filter destinations by metadata labels, use the search API:
 
 ```
-curl -X POST "$BASE_URL/dataDestinations/search" \
+curl -X POST "$AI_API_URL/v2/tcr/dataDestinations/search" \
   -H "Authorization: Bearer $TOKEN" \
   -H "AI-Resource-Group: $RESOURCE_GROUP" \
   -H "Content-Type: application/json" \
@@ -243,7 +510,7 @@ Entries are returned if they match all specified labels \(AND logic\).
 You can test provider connectivity without persisting anything, to verify credentials and access before creation.
 
 ```
-curl -X POST "$BASE_URL/dataDestinations/validate" \
+curl -X POST "$AI_API_URL/v2/tcr/dataDestinations/validate" \
   -H "Authorization: Bearer $TOKEN" \
   -H "AI-Resource-Group: $RESOURCE_GROUP" \
   -H "Content-Type: application/json" \
@@ -269,7 +536,7 @@ Unsuccessful responses return code **200** and `status`: `FAILED`, as well as a 
 You can retest provider connectivity, for example after patching your credentials.
 
 ```
-curl -X POST "$BASE_URL/dataDestinations/s3-training-data/validate" \
+curl -X POST "$AI_API_URL/v2/tcr/dataDestinations/s3-training-data/validate" \
   -H "Authorization: Bearer $TOKEN" \
   -H "AI-Resource-Group: $RESOURCE_GROUP"
 ```

@@ -42,4 +42,8 @@ The orchestration config endpoints are imperative API operations that support fu
 
 -   **[Delete an Orchestration Config](delete-an-orchestration-config-d843b44.md "")**  
 
+-   **[Delete Orchestration Config History](delete-orchestration-config-history-44f224b.md "")**  
+
+-   **[Delete All Orchestration Configs under a specific Scenario](delete-all-orchestration-configs-under-a-specific-scenario-6c566dd.md "")**  
+
 

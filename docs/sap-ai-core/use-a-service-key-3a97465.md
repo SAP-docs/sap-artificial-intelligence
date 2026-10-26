@@ -54,7 +54,7 @@ After you have created your service key, it can be used by local clients, apps i
 
 6.  Choose *Save*.
 
-7.  In the *Authorization* tab, choose *Get New Access Token*. and wait for the authentication process.
+7.  On the *Authorization* tab, choose *Get New Access Token* and wait for the authentication process.
 
     When the authentication process is complete, select *Use Token* to finish. Check that the token is stored in your environment variables. If it is not stored automatically, you can copy and paste it to the *Token* field manually.
 
@@ -179,7 +179,7 @@ curl is likely to be installed on your operating system by default. To check, op
 
 ## Next Steps
 
-To train and deploy your own AI models, follow the procedure in [Administration](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/7937fc19a06a46db96912017aef4737c.html "Creating secrets for external programs and tools, that are used with SAP AI Core means that you can connect them without compromising your credentials.") :arrow_upper_right:.
+To train and deploy your own AI models, follow the procedure in [Predictive AI](https://help.sap.com/viewer/db13d59d17204c01b3b79c24fb82a19a/CLOUD/en-US/6c3b730e5e514cf9aad410fd2a4c637f.html "Predictive AI is a capability of SAP AI Core that handles large volumes of data and offers scalable machine learning capabilities within a governed, enterprise-ready runtime environment.") :arrow_upper_right:.
 
 To use generative AI models provided in the generative AI hub, see [Generative AI Hub](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/7db524ee75e74bf8b50c167951fe34a5.html "The generative AI hub is a capability of SAP AI Core and SAP AI Launchpad that enables access to and orchestration of generative AI models within a governed, enterprise-ready runtime environment.") :arrow_upper_right:.
 

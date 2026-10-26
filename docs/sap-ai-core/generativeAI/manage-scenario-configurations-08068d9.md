@@ -2,6 +2,116 @@
 
 # Manage Scenario Configurations
 
+Manage scenario configurations that define the settings and parameters required for AI scenarios.
+
+**Endpoints**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Method
+
+</th>
+<th valign="top">
+
+Path
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+GET
+
+</td>
+<td valign="top">
+
+`/scenarioConfigurations`
+
+</td>
+<td valign="top">
+
+List all scenario configurations
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET
+
+</td>
+<td valign="top">
+
+`/scenarioConfigurations/{name}`
+
+</td>
+<td valign="top">
+
+Get details of a specific configuration
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+PATCH
+
+</td>
+<td valign="top">
+
+`/scenarioConfigurations/{name}`
+
+</td>
+<td valign="top">
+
+Update strategy, artifacts, labels, or description
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DELETE
+
+</td>
+<td valign="top">
+
+`/scenarioConfigurations/{name}`
+
+</td>
+<td valign="top">
+
+Delete the configuration
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+POST
+
+</td>
+<td valign="top">
+
+`/scenarioConfigurations/search`
+
+</td>
+<td valign="top">
+
+Search by label key-value pairs
+
+</td>
+</tr>
+</table>
+
 
 
 ## List Scenario Configurations
@@ -9,7 +119,7 @@
 To list all scenario configurations in your resource group, send a GET request to the following endpoint:
 
 ```
-curl GET "$AI_API_URL/v2/admin/tcr/scenarioConfigurations" \
+curl GET "$AI_API_URL/v2/tcr/scenarioConfigurations"?\$top=10&\$count=true" \
   --header "AI-Resource-Group: $RESOURCE_GROUP_ID" \
   --header "Authorization: Bearer $TOKEN"
 
@@ -31,6 +141,7 @@ Successful responses return code **200** and item details.
       "labels": [
         { "key": "ext.ai.sap.com/environment", "value": "production" }
       ],
+      "status": "ACTIVE",
       "createdAt": "2024-03-13T10:00:00.000Z",
       "updatedAt": "2024-03-13T10:00:00.000Z"
     },
@@ -43,14 +154,13 @@ Successful responses return code **200** and item details.
         { "name": "orders-parquet-ta" }
       ],
       "labels": [],
+      "status": "ACTIVE",
       "createdAt": "2024-03-13T11:00:00.000Z",
       "updatedAt": "2024-03-13T11:00:00.000Z"
     }
   ]
 }
 ```
-
-Error Responses return code **404**: Data destination not found
 
 
 
@@ -59,7 +169,7 @@ Error Responses return code **404**: Data destination not found
 To retrieve a single scenario configuration, send a GET request to the following endpoint:
 
 ```
-curl -X GET "$BASE_URL/scenarioConfigurations/customer-churn-scenario" \
+curl -X GET "$AI_API_URL/v2/tcr/scenarioConfigurations/customer-churn-scenario" \
   -H "Authorization: Bearer $TOKEN" \
   -H "AI-Resource-Group: $RESOURCE_GROUP"
 ```
@@ -78,12 +188,11 @@ Successful responses return code **200** and item details.
     { "key": "ext.ai.sap.com/environment", "value": "production" },
     { "key": "ext.ai.sap.com/usecase", "value": "churn-prediction" }
   ],
+  "status": "ACTIVE",
   "createdAt": "2024-03-13T10:00:00.000Z",
   "updatedAt": "2024-03-13T10:00:00.000Z"
 }
 ```
-
-Error Responses return code **404**: Scenario configuration not found
 
 
 
@@ -94,7 +203,7 @@ You can update any combination of the following: `contextSelectionStrategy`, `ta
 ****Update Strategy****
 
 ```
-curl -X PATCH "$BASE_URL/scenarioConfigurations/customer-churn-scenario" \
+curl -X PATCH "$AI_API_URL/v2/tcr/scenarioConfigurations/customer-churn-scenario" \
   -H "Authorization: Bearer $TOKEN" \
   -H "AI-Resource-Group: $RESOURCE_GROUP" \
   -H "Content-Type: application/json" \
@@ -106,7 +215,7 @@ curl -X PATCH "$BASE_URL/scenarioConfigurations/customer-churn-scenario" \
 **Replace Tabular Artifacts**
 
 ```
-curl -X PATCH "$BASE_URL/scenarioConfigurations/customer-churn-scenario" \
+curl -X PATCH "$AI_API_URL/v2/tcr/scenarioConfigurations/customer-churn-scenario" \
   -H "Authorization: Bearer $TOKEN" \
   -H "AI-Resource-Group: $RESOURCE_GROUP" \
   -H "Content-Type: application/json" \
@@ -134,7 +243,7 @@ Successful responses return code **204**.
 Send a DELETE request to the endpoint:
 
 ```
-curl -X DELETE "$BASE_URL/scenarioConfigurations/customer-churn-scenario" \
+curl -X DELETE "$AI_API_URL/v2/tcr/scenarioConfigurations/customer-churn-scenario" \
   -H "Authorization: Bearer $TOKEN" \
   -H "AI-Resource-Group: $RESOURCE_GROUP"
 ```
@@ -150,7 +259,7 @@ Error responses return code **404**: Scenario configuration not found
 Returns scenario configurations matching all specified labels \(AND logic\).
 
 ```
-curl -X POST "$BASE_URL/scenarioConfigurations/search" \
+curl -X POST "$AI_API_URL/v2/tcr/scenarioConfigurations/search" \
   -H "Authorization: Bearer $TOKEN" \
   -H "AI-Resource-Group: $RESOURCE_GROUP" \
   -H "Content-Type: application/json" \

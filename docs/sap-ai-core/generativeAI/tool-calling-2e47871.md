@@ -352,3 +352,7 @@ The model answers the query, incorporating the result of the function call into 
 
 [Access the Tool Calling using the SAP AI SDK for JavaScript](https://sap.github.io/ai-sdk/docs/js/orchestration/chat-completion#tool-calling)
 
+[Access Tool Calling for Azure OpenAI](https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/function-calling?tabs=python-secure#function-calling-support)
+
+[Access Tool Calling for OpenAI](https://developers.openai.com/api/docs/guides/function-calling?api-mode=cha)
+

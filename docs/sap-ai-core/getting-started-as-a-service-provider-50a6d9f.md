@@ -4,9 +4,9 @@
 
 To onboard a service, complete the following:
 
-1.  Create a brokerSecret to be used as credentials when registering the service broker.
+1.  Create a `brokerSecret` to be used as credentials when registering the service broker.
     1.  Use a new POST request to URL `{{apiurl}}/v2/admin/secrets`
-    2.  Provide credentials \(base64 encoded\) in the request body in JSON format:
+    2.  Provide credentials \(base64-encoded\) in the request body in JSON format:
 
         ```
         {
@@ -21,7 +21,7 @@ To onboard a service, complete the following:
     3.  Specify the scope of the request in the header: AI-Tenant-Scope: true
     4.  Send the request.
 
-2.  Modify the brokerSecret specification section using these details:
+2.  Modify the `brokerSecret` specification section using these details:
 
     ```
     
@@ -70,14 +70,14 @@ To onboard a service, complete the following:
     > ### Note:  
     > The username and password are key names from the broker credentials in the previous step.
 
-3.  Update the spec.serviceCatalog\[\].extendCredentials with the service URL you want to provide to the consumer, which will be part of the service key. Provide catalog details under spec.serviceCatalog\[\].extendCatalog.
+3.  Update `spec.serviceCatalog[].extendCredentials` with the service URL you want to provide to the consumer, which will be part of the service key. Provide catalog details under `spec.serviceCatalog[].extendCatalog`.
 4.  Push your service custom resource to your registered GitHub repository, and wait for the sync to be successful.
-5.  Once it has synced, Check the service details by sending a GET request to URL `{{apiurl}}/v2/admin/services`.
+5.  After the repository has synced, check the service details by sending a GET request to URL `{{apiurl}}/v2/admin/services`.
 
     ```
     
     {
-    	"count": 1
+    	"count": 1,
     	"resources": [
     		{
     		"name": "sample-service",
@@ -87,15 +87,14 @@ To onboard a service, complete the following:
     		}
     	]
     }
-    
     ```
 
     Take note of the service broker URL.
 
-6.  Register the service broker using smctl as subaccount-scoped.
-    1.  Test the registration of the service broker first as subaccount-scoped, before you register it globally. Subaccount-scoped means that your service is automatically visible in the catalog of environments where it's registered.
+6.  Register the service broker using `smctl` as `subaccount-scoped`.
+    1.  Test the registration of the service broker first as `subaccount-scoped`, before you register it globally. `subaccount-scoped` means that your service is automatically visible in the catalog of environments where it's registered.
 
-        Once smctl is installed, login as shown:
+        Once `smctl` is installed, login as shown:
 
         ```
         
@@ -114,7 +113,7 @@ To onboard a service, complete the following:
         	-p=$SVC_SUBACCOUNT_PWD
         ```
 
-    2.  Register your service-broker by providing the broker-name, URL, and credentials.
+    2.  Register your service broker by providing the broker name, URL, and credentials.
 
         ```
         
@@ -125,7 +124,7 @@ To onboard a service, complete the following:
         
         ```
 
-        With the service-broker registered successfully, the service is available in the *Service Marketplace*.
+        With the service broker registered successfully, the service is available in the *Service Marketplace*.
 
         ```
         

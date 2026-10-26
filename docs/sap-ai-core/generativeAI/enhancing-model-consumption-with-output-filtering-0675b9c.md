@@ -16,7 +16,7 @@ You have a running an orchestration deployment and you have retrieved your orche
 
 ## Process
 
-The following example shows an output content filter for multiple harm categories,and for `protected_material_code`. The output from the LLM is filtered by both `azure_content_safety` and `llama_guard_3_8b` before the response is returned.
+The following example shows an output content filter for multiple harm categories, and for `protected_material_code`. The output from the LLM is filtered by both `azure_content_safety`, `llama_guard_3_8b`, and `granite_guardian_4_1` before the response is returned.
 
 ```
 curl --request POST $ORCH_DEPLOYMENT_URL/v2/completion \  
@@ -53,23 +53,11 @@ curl --request POST $ORCH_DEPLOYMENT_URL/v2/completion \
                         }
                     },
                     {
-                        "type": "llama_guard_3_8b",
+                        "type": "granite_guardian_4_1",
                         "config": {
-                            "violent_crimes": true,
-                            "non_violent_crimes": true,
-                            "sex_crimes": true,
-                            "child_exploitation": true,
-                            "defamation": true,
-                            "specialized_advice": true,
-                            "privacy": true,
-                            "intellectual_property": true,
-                            "indiscriminate_weapons": true,
-                            "hate": true,
-                            "self_harm": true,
-                            "sexual_content": true,
-                            "elections": true,
-                            "code_interpreter_abuse": true
-                        }
+                            "categories": {
+                                "harm": true
+                            }
                     }
                 ]
             }
@@ -78,7 +66,7 @@ curl --request POST $ORCH_DEPLOYMENT_URL/v2/completion \
 }'
 ```
 
-The response indicates that the output is filtered because it has severity ratings of 2 in both the `sexual` and `violence` categories. However, it doesn't violate the `llama_guard_3_8b` hate category. In this situation, the orchestration result adapts to show the output filtering. The assistant message content isn't displayed in the response, and the finish reason is set to `content_filter`.
+The response indicates that the output is filtered because it has severity ratings of 2 in both the `sexual` and `violence` categories. However, it doesn't violate the `granite_guardian_4_1` harm category. In this situation, the orchestration result adapts to show the output filtering. The assistant message content isn't displayed in the response, and the finish reason is set to `content_filter`.
 
 ```
 {
@@ -101,6 +89,11 @@ The response indicates that the output is filtered because it has severity ratin
               "SelfHarm": 0,
               "Sexual": 2,
               "Violence": 0
+          },
+            "granite_guardian_4_1": {
+              "social_bias": {
+                "verdict": false
+              }
             }
           }
         ]

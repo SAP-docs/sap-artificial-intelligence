@@ -8,8 +8,9 @@ The module supports two services:
 
 -   Azure Content Safety
 -   Llama Guard 3
+-   Granite Guardian 4
 
-The content filtering module allows you to configure multiple distinct filters for a single request. However, each filter type \(such as Azure Content Safety or Llama Guard\) can be configured only once, meaning that you can't set up two filters of the same type but with different settings. However, different filter types \(such as one Azure and one Llama Guard filter\) can be applied concurrently. The orchestration service waits for all content filters to complete before returning the results.
+The content filtering module allows you to configure multiple distinct filters for a single request. However, each filter type \(such as Azure Content Safety, Llama Guard,\) can be configured only once, meaning that you can't set up two filters of the same type but with different settings. However, different filter types can be applied concurrently. The orchestration service waits for all content filters to complete before returning the results.
 
 > ### Note:  
 > Do not add explicit content filtering rules to prompts when using the content filtering module. Including examples of restricted content can affect content classification and may cause false positives.
@@ -54,7 +55,9 @@ The Azure Content Safety service includes an output content filter that identifi
 
 The filter scans publicly available code, and has a knowledge cutoff date. Only code matching publicly available code added to GitHub after the knowledge cutoff date can be detected.
 
-For more information, see [Protected Material Detection for Code in Azure AI Content Safety](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/quickstart-protected-material-code?pivots=programming-language-rest).
+The filter requires input text longer than 110 characters \(minimum 111 characters\). This limitation is defined by Azure and cannot be modified. Requests containing 110 characters or fewer return an HTTP `400 Bad Request` response. For streaming requests, configure both `chunk_size` and `overlap` so that the minimum character requirement is met.
+
+For more information, see [Streaming](streaming-3340907.md) and [Protected Material Detection for Code in Azure AI Content Safety](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/quickstart-protected-material-code?pivots=programming-language-rest).
 
 > ### Remember:  
 > When multiple content filtering types are configured together, each type is processed as a separate request. Costs are incurred for each filtering type applied.
@@ -92,6 +95,24 @@ For more information, see [Hazard Taxonomy and Policy in Llama Guard 3 8B](https
 > 
 > The orchestration service doesn't consider these violations when processing Llama Guard responses, and only filters violations in categories that have been requested by the user.
 
+
+
+## Granite Guardian 4
+
+Granite Guardian 4 recognizes the following content categories:
+
+-   `harm`
+-   `social_bias`
+-   `jailbreak`
+-   `violence`
+-   `profanity`
+-   `sexual_content`
+-   `unethical_behavior`
+
+Granite Guardian 4 also includes a reasoning mode that provides a rationale for the classification decision. For more information, see [Granite Guardian 4 Prompting Guide](https://www.ibm.com/granite/docs/models/guardian#prompting-guide).
+
+The returned content categories include a Boolean value that shows whether or not the text contains content triggering the filter for each respective category. If reasoning mode is enabled, the response also includes reasoning content.
+
 -   **[Enhancing Model Consumption with Input Filtering](enhancing-model-consumption-with-input-filtering-75c6d42.md "")**  
 
 -   **[Enhancing Model Consumption with Output Filtering](enhancing-model-consumption-with-output-filtering-0675b9c.md "")**  
@@ -100,7 +121,7 @@ For more information, see [Hazard Taxonomy and Policy in Llama Guard 3 8B](https
 **Related Information**  
 
 
-[Enhancing Model Consumption with Input Filtering](enhancing-model-consumption-with-input-filtering-04e7c5a.md "")
+[Enhancing Model Consumption with Input Filtering](enhancing-model-consumption-with-input-filtering-75c6d42.md "")
 
 [Enhancing Model Consumption with Output Filtering](enhancing-model-consumption-with-output-filtering-0675b9c.md "")
 

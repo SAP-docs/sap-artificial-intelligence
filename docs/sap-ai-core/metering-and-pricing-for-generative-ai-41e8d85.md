@@ -174,7 +174,7 @@ Here's an example estimation, using fictitious values:
 > 
 >     In this formula, “Requests” is the number of requests to be handled \(in this case, 25,000\) and “capacity units per request” is the value calculated in the previous step.
 > 
->     Values: Total capacity units = 25,000 × 0.00929 = $232.25
+>     Values: Total capacity units = 25,000 × 0.00929 = 232.25 CU
 > 
 > 
 > **Calculate Grounding Module Costs:**

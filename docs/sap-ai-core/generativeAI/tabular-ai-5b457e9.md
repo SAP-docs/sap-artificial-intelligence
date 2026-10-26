@@ -75,4 +75,7 @@ After setup, you can consume tabular AI. For more information, see [Consume Tabu
 
 -   **[Runtime Setup](runtime-setup-4562e3d.md "")**  
 
+-   **[Integrating SAP Business Data Cloud with SAP AI Core](integrating-sap-business-data-cloud-with-sap-ai-core-30afaf5.md "Set up your embedded SAP Business Data Cloud Connect so that the SAP AI Core instance
+		owned by your line of business can access data products directly.")**  
+Set up your embedded SAP Business Data Cloud Connect so that the SAP AI Core instance owned by your line of business can access data products directly.
 

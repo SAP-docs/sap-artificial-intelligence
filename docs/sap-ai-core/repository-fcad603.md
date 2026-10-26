@@ -12,18 +12,18 @@ You get the result:
 
 ```
 {
-	"error":{
-		"code": "500",
-		"details": [
-			{
-				"code": null,
-				"message": " "Repository ra-aicore-test not found for tenant b82a8318"
-			}
-		],
-		"message": "Repository ra-aicore-test not found for tenant b82a8318"
-		"request_id": null,
-		"target": "/api/v4alpha/repositories"
-	}
+  "error": {
+    "code": "500",
+    "details": [
+      {
+        "code": null,
+        "message": "Repository ra-aicore-test not found for tenant b82a8318"
+      }
+    ],
+    "message": "Repository ra-aicore-test not found for tenant b82a8318",
+    "request_id": null,
+    "target": "/api/v4alpha/repositories"
+  }
 }
 ```
 

@@ -27,6 +27,9 @@
 
 ## Context
 
+> ### Note:  
+> Prompt data will be retired on 29 November 2026. Download your prompts and migrate them to templates before this date to ensure uninterrupted access. You can use the downloaded prompt data to create templates in the prompt editor. Templates also support additional capabilities, such as orchestration.
+
 > ### Caution:  
 > SAP doesn't take any responsibility for the quality of the content in the input to or output of the underlying generative AI models. This includes but isn't limited to bias, hallucinations, or inaccuracies. The user is responsible for verifying the content.
 
@@ -48,9 +51,11 @@
 
         Not available to the `genai_experimenter` or `prompt_experimenter` roles.
 
-    3.  You can open a saved template using the <span class="SAP-icons-V5"></span> \(select template\) icon, or create a new template by entering your input data in the *Message* boxand assign a role to your messge using the tabs. You can add more message blocks using the :heavy_plus_sign:.
+    3.  You can open a saved template using the :open_file_folder: icon, or create a new template by entering your input data in the *Message* boxand assign a role to your message using the tabs. You can add more message blocks using the :heavy_plus_sign:.
 
         For selected models, image and pdf inputs are supported, and can be added using the <span class="SAP-icons-V5"></span> \(add document\)icon or copy and paste.
+
+        You can use **Reset icon** to reset the message.
 
         Prompt messages are limited to 5.00mb across all inputs.
 
@@ -181,15 +186,11 @@ The response to your prompt will be generated.
 ## Next Steps
 
 -   You can run your prompt again, make changes to the prompt, model, and parameters to change the outcome.
--   You can save your prompt. For more information, see [Save a Prompt](save-a-prompt-e8c656f.md).
-
-    Not available to the `genai_experimenter` or `prompt_experimenter` roles.
-
 -   You can save your template. For more information, see [Save a Template](save-a-template-49d4248.md).
 
     Not available to the `genai_experimenter` or `prompt_experimenter` roles.
 
 -   You can copy text data from an individual chat message or response using the *copy* icon. Images will not be copied.
 
--   You can expand the *Message* field using the expand button.
+-   You can expand the *Message* field.
 

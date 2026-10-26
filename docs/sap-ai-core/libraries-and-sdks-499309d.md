@@ -43,7 +43,7 @@ You can use SAP Cloud SDK for AI to:
 
 -   Leverage the generative AI hub capabilities of SAP AI Core such as templating, grounding, data masking, content filtering. For more information, see [SAP AI Core](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/d029a32c22fb45fbb607e6a2c48c8a0e.html).
 
--   Setup your SAP AI Core instance with SAP Cloud SDK for AI.
+-   Set up your SAP AI Core instance with SAP Cloud SDK for AI.
 
 
 
@@ -80,7 +80,7 @@ You can use SAP Cloud SDK for AI to:
 
 -   Leverage the generative AI hub capabilities of SAP AI Core such as templating, grounding, data masking, content filtering. For more information, see [SAP AI Core](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/d029a32c22fb45fbb607e6a2c48c8a0e.html).
 
--   Setup your SAP AI Core instance with SAP Cloud SDK for AI.
+-   Set up your SAP AI Core instance with SAP Cloud SDK for AI.
 
 
 
@@ -111,13 +111,13 @@ SAP Cloud SDK for AI : Python
 
 SAP Cloud SDK for AI is the official SDK for SAP AI Core, generative AI hub, and orchestration. The SDK is composed of three python distributions:
 
-You can use sap-ai-sdk-base to access the AI API using Python methods and data structures.
+You can use sap-ai-sdk-base to access the AI API via Python methods and data structures.
 
 You can use sap-ai-sdk-core to interact with SAP AI Core for administration and public lifecycle management.
 
 You can use sap-ai-sdk-gen to:
 
--   Integrate native SDK libraries and langchain for accessing models on generative AI hub in SAP AI Core.
+-   Integrate native SDK libraries and LangChain for accessing models on generative AI hub in SAP AI Core.
 
 -   Leverage the orchestration service of generative AI hub with capabilities such as templating, grounding, data masking, and content filtering. For more information, see [Generative AI Hub](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/generative-ai-hub-in-sap-ai-core-7db524ee75e74bf8b50c167951fe34a5).
 
@@ -150,11 +150,6 @@ LiteLLM
 The LLMs in the generative AI hub can be accessed from LiteLLM.
 
 LiteLLM is an open-source library that supports over 100 LLMs from various providers. It lets you connect LLM and agentic frameworks to the generative AI hub.
-
-> ### Caution:  
-> Do not use LiteLLM Versions 1.82.7 and 1.82.8. These versions have vulnerabilities. Versions 1.82.6 and below are safe to install.
-
-
 
 </td>
 <td valign="top">

@@ -2,11 +2,13 @@
 
 # Edit a Git Repository
 
+You can edit a Git repository using its name to update your authentication details. This lets you maintain secure access and keep workflows synced with the latest code.
+
 <a name="task_i3h_n13_tcc"/>
 
 <!-- task\_i3h\_n13\_tcc -->
 
-## Using Curl
+## Using the API
 
 
 
@@ -14,63 +16,77 @@
 
 ## Procedure
 
-Submit a PATCH request to the endpoint <code><code>{{apiurl}}/v2/admin/repositories</code></code> and include your changes:
+Submit a PATCH request to the endpoint <code><code>$AI_API_URL/v2/admin/repositories/$REPOSITORY_NAME</code></code> and include your changes.
+
+Make sure that you've set the following headers:
+
+
+<table>
+<tr>
+<th valign="top">
+
+Header
+
+</th>
+<th valign="top">
+
+Value
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Authorization
+
+</td>
+<td valign="top">
+
+Bearer $AUTH\_TOKEN
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+$AI\_API\_URL
+
+</td>
+<td valign="top">
+
+The base URL of your SAP AI Core environment. You can set the URL as an environment variable.
+
+</td>
+</tr>
+</table>
+
+Populate your request with the following:
+
+-   Repository name
+-   Updates to your credentials
 
 ```
-curl --location --request PATCH "$AI_API_URL/v2/admin/repositories" \
+curl --location --request PATCH "$AI_API_URL/v2/admin/repositories/$REPOSITORY_NAME" \
 --header "Authorization: Bearer $TOKEN" \
 --header 'Content-Type: application/json' \
 --data-raw '{
-        "url": "https://github.com/john/examplerepo",
         "username": "john",
         "password": "<GIT_PAT_USER_TOKEN>"
     }'
 
 ```
 
-You specify your unique git repository details as follows:
-
--   `url`: URL of the git repository
-
-    > ### Restriction:  
-    > -   Only ASCII alphanumerics, digits, and the characters “.”, “ -”, “\_” and “%” are allowed.
-    > -   Do not use IP addresses as repository URLs.
-
--   `username`: \(Service\) user that’s accessing the git repository
-
--   `password`: git personal access token. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 
 
-> ### Tip:  
-> To share a repository between two tenants, add the repository in SAP AI Core separately for each tenant and provide the **same** `username` and `password`.
+## Results
 
-<a name="task_cxf_n13_tcc"/>
+Successful responses return code **200** and include a success message and ID.
 
-<!-- task\_cxf\_n13\_tcc -->
-
-## Using a Third-Party API Platform
-
-
-
-<a name="task_cxf_n13_tcc__steps_amc_24b_wcc"/>
-
-## Procedure
-
-Send a PATCH request to the endpoint `{{apiurl}}/v2/admin/repositories/{{repositoryName}}` and include your changes in the body.
-
-You specify your unique git repository details as follows:
-
--   `url`: URL of the git repository
-
-    > ### Restriction:  
-    > -   Only ASCII alphanumerics, digits, and the characters “.”, “ -”, “\_” and “%” are allowed.
-    > -   Do not use IP addresses as repository URLs.
-
--   `username`: \(Service\) user that’s accessing the git repository
-
--   `password`: git personal access token. For more information, see [Create a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
-
-
-> ### Tip:  
-> To share a repository between two tenants, add the repository in SAP AI Core separately for each tenant and provide the **same** `username` and `password`.
+> ### Output Code:  
+> ```
+> {
+>   "id": "<yourRepositoryId>",
+>   "message": "The repository credentials have been updated and will eventually be synced"
+> }
+> ```
 

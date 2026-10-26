@@ -14,7 +14,7 @@ To use a model through the `orchestration` scenario, using the harmonized API, s
 
 
 
-## Accessing Models through Orchestration
+## Accessing Models Through Orchestration
 
 Orchestration offers a harmonized API that allows you to use different models without changing the client code. You likely have an orchestration deployment running in your default resource group. If you want to access models through orchestration in a different resource group, create an orchestration deployment for your chosen resource group. For more information, see .[Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4387aa7.md).
 

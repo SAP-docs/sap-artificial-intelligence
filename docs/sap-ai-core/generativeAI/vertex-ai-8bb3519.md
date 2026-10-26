@@ -14,7 +14,7 @@ To use a model through the `orchestration` scenario, using the harmonized API, s
 
 
 
-## Accessing Models through Orchestration
+## Accessing Models Through Orchestration
 
 Orchestration offers a harmonized API that allows you to use different models without changing the client code. You likely have an orchestration deployment running in your default resource group. If you want to access models through orchestration in a different resource group, create an orchestration deployment for your chosen resource group. For more information, see .[Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4387aa7.md).
 
@@ -130,7 +130,7 @@ For more information from the model provider, see [Vertex AI Gemini](https://clo
 
 
 
-### Gemini 2.0 Flash | Gemini 2.0 Flash Lite | Gemini 2.5 Flash | Gemini 2.5 Flash Lite | Gemini 2.5 Pro | Gemini 3.1 Flash Lite | Gemini 3.5 Flash | Gemini-3.1 Flash Image | Gemini 3 Pro Image| Gemini 3.5 Flash Lite
+### Gemini 2.0 Flash | Gemini 2.0 Flash Lite | Gemini 2.5 Flash | Gemini 2.5 Flash Lite | Gemini 2.5 Pro | Gemini 3.1 Flash Lite | Gemini 3.5 Flash | Gemini-3.1 Flash Image | Gemini 3 Pro Image| Gemini 3.5 Flash Lite | Gemini 3.8 Flash
 
 **Text Input**
 

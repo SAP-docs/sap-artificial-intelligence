@@ -8,10 +8,15 @@ A cloud object store enables you to store files that you use in your launchpad p
 
 Cloud storage credentials are managed using secrets. Secrets are a means of allowing and controlling connections across directories and tools, without compromising your credentials.
 
-Various hyperscaler object stores are supported, including Amazon S3, Alicloud Object Storage Service \(OSS\), Azure and SAP HANA Cloud, data lake \(WebHDFS\).
+The following cloud object stores are supported:
+
+-   Amazon S3 \(S3\)
+-   Alibaba Cloud Object Storage Service \(OSS\)
+-   Azure
+-   SAP HANA Cloud data lake \(WebHDFS\)
 
 > ### Tip:  
-> You can access Google Drive and other latest object stores that are supported by SAP AI Core but are **not** supported by SAP AI Launchpad, through the AI API or SDK.
+> You can access **Google Drive** and other latest object stores that are supported by SAP AI Core but are **not** supported by SAP AI Launchpad, through the AI API or SDK.
 > 
 > For more information, see [Libraries and SDKs in SAP AI Core](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/499309d6e371419fb7a88b7d68c20a31.html).
 

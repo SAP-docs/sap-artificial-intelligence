@@ -53,7 +53,7 @@ Generative AI
 </td>
 <td valign="top">
 
-Get started with generative AI workflows with different vendors of Large language models in SAP AI Core and learn the fundamentals of promoting and embedding with generative AI SDK in SAP AI Core.
+Get started with generative AI workflows with different vendors of large language models in SAP AI Core and learn the fundamentals of prompting and embedding with generative AI SDK in SAP AI Core.
 
 </td>
 </tr>

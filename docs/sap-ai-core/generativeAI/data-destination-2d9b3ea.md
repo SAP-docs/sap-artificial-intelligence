@@ -72,9 +72,110 @@ Azure Blob Storage \(ADLS Gen2\)
 </tr>
 </table>
 
-For more information on configuring SAP HANA Data Lake connectivity, see [HANA Data Connectivity GitHub](https://github.tools.sap/AI/context-registry/blob/main/docs/blog/subject_pattern_hdl.md).
 
-Use the following API to register your data destination by sending a PUT request to the endpoint: `$BASE_URL/dataDestinations/``<name>`
+
+## Create a Data Destination
+
+> ### Note:  
+> Data destination creation is asynchronous. The service immediately accepts the request and returns `202 Accepted` while credential validation and secret storage are processed in the background. Credentials are stored securely and are not returned in `GET` or `LIST` responses.
+> 
+> Before creating a tabular artifact, retrieve the data destination and verify that its status is `ACTIVE`. If creation fails, the destination status is `ERROR`, and the `errorMessage` field provides details about the failure. To retry the operation, send another `PUT` request with the same destination name.
+> 
+> Specify the destination name in the request path, not in the request body.
+
+**Query Parameters**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Parameter
+
+</th>
+<th valign="top">
+
+Type
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+<th valign="top">
+
+Applicable To
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`namedSp`
+
+</td>
+<td valign="top">
+
+boolean
+
+</td>
+<td valign="top">
+
+When set to `true`, returns HDL subject patterns in the `namedSubjectPatterns` object in addition to `subjectPatterns`.
+
+</td>
+<td valign="top">
+
+HDL data destinations \(PUT endpoints\)
+
+</td>
+</tr>
+</table>
+
+Use the `subjectPatterns` values returned in the HDL response to configure mTLS trust on the SAP HANA Data Lake side.
+
+Use the following API to register your data destination by sending a PUT request to the endpoint: `$AI_API_URL/v2/tcr/dataDestinations/``<name>`
+
+**Endpoint**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Method
+
+</th>
+<th valign="top">
+
+Path
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+PUT
+
+</td>
+<td valign="top">
+
+`/dataDestinations/{name}`
+
+</td>
+<td valign="top">
+
+Create or retry a data destination asynchronously
+
+</td>
+</tr>
+</table>
 
 
 
@@ -83,12 +184,11 @@ Use the following API to register your data destination by sending a PUT request
 Populate the following with your details:
 
 ```
-curl PUT -X "$BASE_URL/dataDestinations/hdl-production" \
+curl PUT -X "$AI_API_URL/v2/tcr/dataDestinations/hdl-production" \
   --header "AI-Resource-Group: $RESOURCE_GROUP_ID" \
   --header "Authorization: Bearer $TOKEN" \
   --header "Content-Type: application/json" \
   --data '{
-  "name": "my-hdl-destination",
   "type": "HDL",
   "description": "HDL data destination for payment prediction use case",
   "adapterType": "File",
@@ -105,7 +205,7 @@ curl PUT -X "$BASE_URL/dataDestinations/hdl-production" \
 
 ### Results
 
-A successful request returns HTTP status code `201 Created` along with the generated mTLS subject patterns.
+A successful request returns HTTP status code `202 Accepted` along with the generated mTLS subject patterns.
 
 > ### Output Code:  
 > ```
@@ -124,12 +224,11 @@ A successful request returns HTTP status code `201 Created` along with the gener
 Populate the following with your details:
 
 ```
-curl PUT -X "$BASE_URL/dataDestinations/s3-training-data" \
+curl PUT -X "$AI_API_URL/v2/tcr/dataDestinations/s3-training-data" \
   --header "AI-Resource-Group: $RESOURCE_GROUP_ID" \
   --header "Authorization: Bearer $TOKEN" \
   --header "Content-Type: application/json" \
   --data '{
-    "name": "s3-training-data",
     "type": "S3",
     "description": "S3 bucket for training datasets",
     "config": {
@@ -141,14 +240,9 @@ curl PUT -X "$BASE_URL/dataDestinations/s3-training-data" \
   }'
 ```
 
-
-
-### Results
-
-A successful request returns HTTP status code `201 Created`.
-
 > ### Output Code:  
 > ```
+> Response — 202 Accepted:
 > {
 >   "name": "s3-training-data"
 > }
@@ -160,15 +254,14 @@ A successful request returns HTTP status code `201 Created`.
 
 Populate the following with your details.
 
-The `base64_encoded_private_key_data` is the full service account JSON key, base64-encoded, which is the same value provided by the BTP Object Store service key.:
+The `base64_encoded_private_key_data` is the full service account JSON key, base64-encoded, which is the same value provided by the BTP Object Store service key:
 
 ```
-curl PUT -X "$BASE_URL/dataDestinations/gcs-analytics" \
+curl PUT -X "$AI_API_URL/v2/tcr/dataDestinations/gcs-analytics" \
   --header "AI-Resource-Group: $RESOURCE_GROUP_ID" \
   --header "Authorization: Bearer $TOKEN" \
   --header "Content-Type: application/json" \
   --data '{
-    "name": "gcs-analytics",
     "type": "GCS",
     "config": {
       "bucket": "my-gcs-analytics-bucket",
@@ -177,14 +270,9 @@ curl PUT -X "$BASE_URL/dataDestinations/gcs-analytics" \
   }'
 ```
 
-
-
-### Results
-
-A successful request returns HTTP status code `201 Created`.
-
 > ### Output Code:  
 > ```
+> Response — 202 Accepted:
 > {
 >   "name": "gcs-analytics"
 > }
@@ -197,12 +285,11 @@ A successful request returns HTTP status code `201 Created`.
 Populate the following with your details:
 
 ```
-curl PUT -X "$BASE_URL/dataDestinations/azure-blob-store" \
+curl PUT -X "$AI_API_URL/v2/tcr/dataDestinations/azure-blob-store" \
   --header "AI-Resource-Group: $RESOURCE_GROUP_ID" \
   --header "Authorization: Bearer $TOKEN" \
   --header "Content-Type: application/json" \
   --data '{
-    "name": "azure-blob-store",
     "type": "AZURE",
     "config": {
       "account_name": "mystorageaccount",
@@ -212,14 +299,9 @@ curl PUT -X "$BASE_URL/dataDestinations/azure-blob-store" \
   }'
 ```
 
-
-
-### Results
-
-A successful request returns HTTP status code `201 Created`.
-
 > ### Output Code:  
 > ```
+> Response — 202 Accepted:
 > {
 >   "name": "azure-blob-store"
 > }
@@ -282,6 +364,21 @@ Connectivity validation failed or internal error
 </td>
 </tr>
 </table>
+
+
+
+## Next Step
+
+> ### Note:  
+> Creating a data destination is an asynchronous operation. The service immediately accepts the request and returns `202 Accepted`, while credential validation and secret storage are processed in the background. Credentials are stored securely and aren't included in GET or LIST responses.
+
+Before creating a tabular artifact, poll `GET /dataDestinations/{name}` until the data destination status changes to `ACTIVE`.
+
+If the operation fails, the data destination status changes to `ERROR`. The response includes an `errorMessage` field that describes the reason for the failure.
+
+To retry the operation, send another PUT request with the same data destination name.
+
+For more information about retrieving a data destination status, see [Retrieve Destination](https://help.sap.com/docs/AI_CORE/7d01240443d84db6890f318fe5d1123f/1bd485eb10354753a8071b4f3d8f6ac3.html?locale=en-US&state=DRAFT&version=DEV).
 
 -   **[Manage Data Destinations](manage-data-destinations-1bd485e.md)**  
 

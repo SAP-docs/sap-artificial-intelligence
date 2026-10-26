@@ -11,7 +11,12 @@
 You have either the `genai_manager` or `prompt_manager` role, or you are assigned a role collection that contains one of these roles. For more information, see [Roles and Authorizations](security-e4cf710.md#loio4ef8499d7a4945ec854e3b4590830bcc).
 
 > ### Note:  
-> Prompts and templates are saved in one region only and can only be retrieved or deleted by an instance of AI launchpad in that region.
+> Templates are saved in one region only and can only be retrieved or deleted by an instance of AI launchpad in that region.
+
+> ### Note:  
+> To ensure an uninterrupted user experience, migrate your data from prompts to templates.
+> 
+> By 29 November 2026, use *Download All* to download your prompts locally. You can then use the downloaded prompt data to create templates in the Prompt Editor. Templates also support additional capabilities such as Prompt Editor and Orchestration.
 
 
 
@@ -21,13 +26,20 @@ You have either the `genai_manager` or `prompt_manager` role, or you are assigne
 
 1.  Select the connection to your SAP AI Core runtime in the *Workspaces* app and choose the resource group that was used for your *Generative AI Hub* deployment.
 
-2.  In the *Workspaces* app, expand the *Generative AI Hub* and choose *Prompt Management*. Select the *Prompts* tab.
+2.  In the *Workspaces* app, expand the *Generative AI Hub* and choose *Prompt Management*.
 
-    ![Screenshot of the SAP AI Launchpad user interface](images/view_prompt_5d69440.png)
+    To download all prompts, click *Download All* in the information notice dialog box. After the download is complete, click *Dismiss* to close the dialog box.
 
-    Your prompts will be listed. Use the filters to navigate to your desired prompt.
+    ![](images/Prompt_Management_1_60e7581.png)
 
-3.  **Optional:** You can
+3.  Select the *Prompts* tab.
+
+    ![](images/Prompt_Management_2_d1cb45d.png)
+
+    > ### Note:  
+    > You can also download the selected prompt by clicking the *Download* button.
+
+4.  **Optional:** You can
 
     -   Mark a prompt as favorite using the star icon.
 

@@ -15,13 +15,13 @@ With the generative AI hub, you can:
 
 The generative AI hub doesn't replace SAP AI Core; it extends it. All model execution, resource management, and operational control are handled by SAP AI Core.
 
-> ### Restriction:  
+> ### Note:  
 > SAP AI Core, including generative AI hub must **not** be used to generate synthetic data for training or fine-tuning models. Any exceptions must be explicitly approved and documented.
 
 For a general overview of the service architecture and runtime capabilities, see [What Is SAP AI Core?](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/d029a32c22fb45fbb607e6a2c48c8a0e.html "Learn more about the SAP AI Core service on SAP Business Technology Platform (SAP BTP). Build a platform for your artificial intelligence solutions.") :arrow_upper_right:.
 
 > ### Tip:  
-> If you want a guided, hands-on environment, you can explore the generative AI hub using the 30-day free trial. For more information, see [Try now: 30-Day Basic Trial](https://www.sap.com/products/artificial-intelligence/generative-ai-hub-trial.html).
+> If you want a guided, hands-on environment, you can explore the generative AI hub using the 30-day free trial. For more information, see [Try now: 30-Day Basic Trial](https://www.sap.com/products/artificial-intelligence/core-ai-trial.html).
 
 
 

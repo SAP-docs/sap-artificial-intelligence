@@ -14,7 +14,7 @@ To use a model through the `orchestration` scenario, using the harmonized API, s
 
 
 
-## Accessing Models through Orchestration
+## Accessing Models Through Orchestration
 
 Orchestration offers a harmonized API that allows you to use different models without changing the client code. You likely have an orchestration deployment running in your default resource group. If you want to access models through orchestration in a different resource group, create an orchestration deployment for your chosen resource group. For more information, see .[Create a Deployment for Orchestration](create-a-deployment-for-orchestration-4387aa7.md).
 
@@ -128,7 +128,7 @@ For more information from the model provider, see [Microsoft Azure Open AI Chat 
 
 
 
-### o4-mini | o3 | gpt-4.1 | gpt-4.1-mini | gpt-4.1-nano | gpt-5 | gpt-5-mini | gpt-5-nano | gpt-5.1 | gpt-5.2 | gpt-5.4 | gpt-5.4-nano | gpt-5.5 | GPT-5.6-Sol | GPT-5.6-Terra | GPT-5.6-Luna
+### o4-mini | o3 | gpt-4.1 | gpt-4.1-mini | gpt-4.1-nano | gpt-5 | gpt-5-mini | gpt-5-nano | gpt-5.1 | gpt-5.2 | gpt-5.4 | gpt-5.4-nano | gpt-5.5 | gpt-5.6-sol | gpt-5.6-terra | gpt-5.6-luna | gpt-6.1-sol | gpt-6-astra | gpt-6-luna
 
 **Text Input**
 

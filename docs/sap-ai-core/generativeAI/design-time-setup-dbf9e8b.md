@@ -28,14 +28,14 @@ Design-time setup is a one-time process that must be completed before you make p
 
 ## Common Conventions
 
-Make sure that you've set the following headers:
+Make sure that you've set the following **headers**:
 
 
 <table>
 <tr>
 <th valign="top">
 
-Header
+Key
 
 </th>
 <th valign="top">
@@ -68,19 +68,11 @@ The resource group used in the activation steps
 
 </td>
 </tr>
-<tr>
-<td valign="top">
-
-$AI\_API\_URL
-
-</td>
-<td valign="top">
-
-The base URL of your SAP AI Core environment. You can set the URL as an environment variable.
-
-</td>
-</tr>
 </table>
+
+Make sure you have set the following variable:
+
+-   **$AI\_API\_URL**: The base URL of your SAP AI Core environment. You can set this URL as an environment variable.
 
 
 

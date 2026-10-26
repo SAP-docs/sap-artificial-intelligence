@@ -33,4 +33,8 @@ The interfaces can all be consumed either directly via the API or through Orches
 
 -   **[Delete a Prompt Template](delete-a-prompt-template-f7566e3.md "")**  
 
+-   **[Delete Prompt Template History](delete-prompt-template-history-fb3f449.md "")**  
+
+-   **[Delete All Prompt Templates under a specific Scenario](delete-all-prompt-templates-under-a-specific-scenario-3dea3c1.md "")**  
+
 

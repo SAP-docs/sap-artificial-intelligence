@@ -73,7 +73,7 @@ Returns multiple ranked prediction candidates for classification tasks.
 ## Example 1: Prediction with Context Selection
 
 ```
-curl -X POST "$DEPLOYMENT_URL/v1/predict" \
+curl -X POST "$DEPLOYMENT_URL/predict" \
   -H "Content-Type: application/json" \
   -H "ai-main-tenant: <your-tenant-uuid>" \
   -H "ai-resource-group: <your-resource-group>" \
@@ -158,7 +158,7 @@ curl -X POST "$DEPLOYMENT_URL/v1/predict" \
 ## Example 2: Predictions with context selection and user-provided context
 
 ```
-curl -X POST "$DEPLOYMENT_URL/v1/predict" \
+curl -X POST "$DEPLOYMENT_URL/predict" \
   -H "Content-Type: application/json" \
   -H "ai-main-tenant: <your-tenant-uuid>" \
   -H "ai-resource-group: <your-resource-group>" \
@@ -250,7 +250,7 @@ curl -X POST "$DEPLOYMENT_URL/v1/predict" \
 ## Example 3: Multi-target Prediction with context selection
 
 ```
-curl -X POST "$DEPLOYMENT_URL/v1/predict" \
+curl -X POST "$DEPLOYMENT_URL/predict" \
   -H "Content-Type: application/json" \
   -H "ai-main-tenant: <your-tenant-uuid>" \
   -H "ai-resource-group: <your-resource-group>" \
@@ -361,7 +361,7 @@ curl -X POST "$DEPLOYMENT_URL/v1/predict" \
 ## Example 4: Classification with Top-K Predictions
 
 ```
-curl -X POST "$DEPLOYMENT_URL/v1/predict" \
+curl -X POST "$DEPLOYMENT_URL/predict" \
   -H "Content-Type: application/json" \
   -H "ai-main-tenant: <your-tenant-uuid>" \
   -H "ai-resource-group: <your-resource-group>" \

@@ -10,7 +10,8 @@ The module supports the following filters:
     -   This service recognizes four distinct content categories: `Hate`, `Violence`, `Sexual`, and `SelfHarm`. For more information, see [Harm categories in Azure AI Content Safety](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/concepts/harm-categories?tabs=warning). Text can have more than one label \(for example, a text sample can be classified as both `Hate` and `Violence`\). The returned content categories include a severity level rating of 0, 2, 4, or 6. The value increases with the severity of the content.
 
 
--   **Llama Guard 3:** This service reognizes a range of categories inclduing `Hate`, `Specialized Advice`, `Defamation` and `Sexual Content`. For more information, see [Llama Guard 3](https://www.llama.com/docs/model-cards-and-prompt-formats/llama-guard-3/). Harm categories are Boolean values.
+-   **Llama Guard 3:** This service recognizes a range of categories including `Hate`, `Specialized Advice`, `Defamation` and `Sexual Content`. For more information, see [Llama Guard 3](https://www.llama.com/docs/model-cards-and-prompt-formats/llama-guard-3/). Harm categories are Boolean values.
+-   Additionally, Granite Guardian 4 is available through SAP AI Core Orchestration V2 only. For more information, see [Content Filtering in SAP AI Core](https://help.sap.com/docs/AI_CORE/b9f48eb4a993445b863a55dd4d38f64d/f80417519ea04adb86f7169ae871f884.html).
 
 > ### Restriction:  
 > For DeepSeek and Aleph Alpha Pharia models, output filtering is mandatory and cannot be disabled. All available content categories are selected by default, and content categories cannot be deselected individually. If all content categories for all content filters are manually deselected, all content categories for at least one filter will be selected automatically.

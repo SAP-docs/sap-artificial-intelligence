@@ -11,14 +11,14 @@ Create a configuration and deployment in SAP AI Core to access tabular orchestra
 -   You have an SAP AI Core service instance and service key. For more information, see [SAP AI Core Initial Setup Documentation](https://help.sap.com/docs/AI_CORE/2d6c5984063c40a59eda62f4a9135bee/38c4599432d74c1d94e70f7c955a717d.html?locale=en-US&state=PRODUCTION&version=CLOUD).
 -   You're using the `extended` service plan. For more information, see [Service Plans](https://help.sap.com/viewer/2d6c5984063c40a59eda62f4a9135bee/CLOUD/en-US/c7244c6a7e3b4ffc928a2564c216e7c7.html "The SAP AI Core service plan you choose determines pricing, conditions of use, resources, available services, and hosts.") :arrow_upper_right:.
 -   You have created a resource group. For more information, see[Create a Resource Group for Grounding](create-a-resource-group-for-grounding-e32efa5.md).
--   Make sure that you've set the following headers:
+-   Make sure that you've set the following **headers**:
 
 
     <table>
     <tr>
     <th valign="top">
 
-    Header
+    Key
     
     </th>
     <th valign="top">
@@ -51,20 +51,12 @@ Create a configuration and deployment in SAP AI Core to access tabular orchestra
     
     </td>
     </tr>
-    <tr>
-    <td valign="top">
-    
-    $AI\_API\_URL
-    
-    </td>
-    <td valign="top">
-    
-    The base URL of your SAP AI Core environment. You can set the URL as an environment variable.
-    
-    </td>
-    </tr>
     </table>
     
+    Make sure you have set the following variable:
+
+    -   **$AI\_API\_URL**: The base URL of your SAP AI Core environment. You can set this URL as an environment variable.
+
 
 > ### Note:  
 > Use the same resource group for all generative AI activities. To use a different resource group, repeat these steps for each resource group.

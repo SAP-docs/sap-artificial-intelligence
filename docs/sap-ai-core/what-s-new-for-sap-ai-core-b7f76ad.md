@@ -102,6 +102,388 @@ Generative AI hub
 </td>
 <td valign="top">
 
+Prompt and orchestration management through prompt registry has been updated. You can now delete prompt template and orchestration config history, and delete all prompt templates or orchestration configs under a specific scenario.
+
+For more information, see [Delete Prompt Template History](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/fb3f449c95774ac4a9b0d7e2c8fcc051.html "") :arrow_upper_right:, [Delete All Prompt Templates under a specific Scenario](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/3dea3c16dec347db9382aed5b16320e8.html "") :arrow_upper_right:, [Delete Orchestration Config History](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/44f224b5dd854390b4c38f617c9fa952.html "") :arrow_upper_right: and [Delete All Orchestration Configs under a specific Scenario](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/6c566dd77a6340c0b7b1cb3bbe4ab42f.html "") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-10-22
+
+</td>
+<td valign="top">
+
+2026-10-22
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+`SAP-RPT-TS` launched.
+
+SAP-RPT-TS is a pretrained time series foundation model that generates high-quality forecasts for business time series data without requiring training or fine-tuning. It uses historical data to produce probabilistic forecasts with uncertainty estimates through a single API call.
+
+For more information, see [SAP-RPT-TS](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/17b4b4493eb74e7c9f7142f784eae6dd.html "SAP-RPT-TS is a pretrained time series foundation model from SAP that provides high-quality forecasts for business time series data such as demand, sales, and operational metrics without requiring training or fine-tuning.") :arrow_upper_right:,[Inference Request Overview](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/97e58a1ce4234f9bb494b3999e9dae7f.html "") :arrow_upper_right: and [Sample Inference Requests and Responses](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/c32103c6218141d18e2432db6cec1e08.html "The following examples demonstrate common forecasting scenarios and show how different request parameters affect the response returned by the inference service.") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-10-22
+
+</td>
+<td valign="top">
+
+2026-10-22
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+New models are supported, including gpt-6.1-sol, gpt-6-astra and gpt-6-luna.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-10-22
+
+</td>
+<td valign="top">
+
+2026-10-22
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+The Content Filtering capability in Orchestration V2 has been updated to include Granite Guardian 4.1.
+
+For more information, see [Content Filtering](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/f80417519ea04adb86f7169ae871f884.html "") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-10-22
+
+</td>
+<td valign="top">
+
+2026-10-22
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+New models are supported, including Gemini 3.8 Flash.
+
+For more information, see SAP Note [3437766](https://me.sap.com/notes/3437766).
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-09-29
+
+</td>
+<td valign="top">
+
+2026-09-29
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
 `SAP-RPT-1.6` launched.
 
 SAP-RPT-1.6 is SAP's relational pre-trained transformer model for tabular enterprise data that delivers accurate predictions using in-context learning without requiring model training. It supports classification and regression use cases with built-in explainability, governance, and enterprise-grade orchestration capabilities.
@@ -149,6 +531,162 @@ SAP Business Technology Platform
 <td valign="top">
 
 2026-09-07
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+Azure Content Safety Protected Material Detection for Code has a minimum input length requirement. This limitation is defined by Azure and cannot be modified.
+
+For more information, see [Content Filtering](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/f80417519ea04adb86f7169ae871f884.html "") :arrow_upper_right: and [Streaming](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/33409072eac14f0d96b23e21a0d85bff.html "") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-09-29
+
+</td>
+<td valign="top">
+
+2026-09-29
+
+</td>
+<td valign="top">
+
+Unavailable
+
+</td>
+<td valign="top">
+
+Not for sovereign cloud offerings
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP AI Core 
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+Generative AI hub 
+
+</td>
+<td valign="top">
+
+The following updates have been made to the V2 orchestration workflow:
+
+-   The `provider_specific_fields` field includes information returned by providers that has no direct equivalent in the OpenAI Chat Completions schema.
+-   You can use the `model.param.tools` field to implement dynamic tool assembly at runtime without requiring tools to be predefined in a prompt template.
+
+
+For more information, see [Provider-Specific Fields](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/3ea6e7027e9f486d8c7502c8c3e5d3b3.html "") :arrow_upper_right: and [Defining Tools through Model Parameters](https://help.sap.com/viewer/b9f48eb4a993445b863a55dd4d38f64d/CLOUD/en-US/fc3c5d414bd74564bff0dd9244fb981a.html "") :arrow_upper_right:.
+
+</td>
+<td valign="top">
+
+Info only
+
+</td>
+<td valign="top">
+
+General Availability
+
+</td>
+<td valign="top">
+
+Announcement
+
+</td>
+<td valign="top">
+
+Technology
+
+</td>
+<td valign="top">
+
+Not applicable
+
+</td>
+<td valign="top">
+
+SAP Business Technology Platform
+
+</td>
+<td valign="top">
+
+2026-09-29
+
+</td>
+<td valign="top">
+
+2026-09-29
 
 </td>
 <td valign="top">
