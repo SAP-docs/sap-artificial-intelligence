@@ -25,7 +25,7 @@ If you use foundation models and grounding, the platform waives compute, storage
 
 For more information about the potential costs associated with using foundation models and grounding in SAP AI Core, including metering information, example pricing calculations, and typical consumption patterns, see [Metering and Pricing for Generative AI](metering-and-pricing-for-generative-ai-41e8d85.md).
 
-For more information about the potential costs associated with using custom AI models in SAP AI Core, including metering information, example pricing calculations, and typical consumption patterns, see [Metering and Pricing for Predictive AI](metering-and-pricing-for-predictive-ai-32f8775.md).
+For more information about the potential costs associated with using custom AI models in SAP AI Core, including metering information, example pricing calculations, and typical consumption patterns, see [Metering and Pricing for Custom AI](metering-and-pricing-for-custom-ai-32f8775.md).
 
 
 
@@ -42,6 +42,6 @@ For more information, see [Monitoring Usage and Consumption Costs in Your Global
 		Billing is calculated according to these capacity units and varies by model type and usage
 		pattern.")**  
 The use of generative AI in SAP AI Core is measured using tokens, which are converted into capacity units based on input and output volume. Billing is calculated according to these capacity units and varies by model type and usage pattern.
--   **[Metering and Pricing for Predictive AI](metering-and-pricing-for-predictive-ai-32f8775.md "")**  
+-   **[Metering and Pricing for Custom AI](metering-and-pricing-for-custom-ai-32f8775.md "")**  
 
 

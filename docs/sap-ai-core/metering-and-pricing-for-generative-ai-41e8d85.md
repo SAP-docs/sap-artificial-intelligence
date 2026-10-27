@@ -608,7 +608,7 @@ The generative AI hub provides additional modules through the Orchestration API,
 -   Content Filtering
 -   Data Masking
 
-Charges associated with the use of other SAP AI Core components can also apply. For more information, see [Metering and Pricing for Predictive AI](metering-and-pricing-for-predictive-ai-32f8775.md).
+Charges associated with the use of other SAP AI Core components can also apply. For more information, see [Metering and Pricing for Custom AI](metering-and-pricing-for-custom-ai-32f8775.md).
 
 > ### Recommendation:  
 > For an estimate of projected costs, use the [SAP AI Core Cost Calculator](https://ai-core-calculator.cfapps.eu10.hana.ondemand.com/uimodule/index.html).

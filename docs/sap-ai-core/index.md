@@ -3,7 +3,7 @@
 -   [What Is SAP AI Core?](what-is-sap-ai-core-d029a32.md)
     -   [Metering and Pricing for SAP AI Core](metering-and-pricing-for-sap-ai-core-1e6cbac.md)
         -   [Metering and Pricing for Generative AI](metering-and-pricing-for-generative-ai-41e8d85.md)
-        -   [Metering and Pricing for Predictive AI](metering-and-pricing-for-predictive-ai-32f8775.md)
+        -   [Metering and Pricing for Custom AI](metering-and-pricing-for-custom-ai-32f8775.md)
 -   [What's New for SAP AI Core](what-s-new-for-sap-ai-core-b7f76ad.md)
 -   [Concepts](concepts-4c6b2da.md)
     -   [AI API Overview](ai-api-overview-716d4c3.md)

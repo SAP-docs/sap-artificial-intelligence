@@ -1,16 +1,16 @@
 <!-- loio32f87752baed40368f49d38e49a09a2f -->
 
-# Metering and Pricing for Predictive AI
+# Metering and Pricing for Custom AI
 
 
 
 <a name="loio32f87752baed40368f49d38e49a09a2f__section_jm4_zb4_jfc"/>
 
-## Metering for Predictive AI
+## Metering for Custom AI
 
 Custom AI workloads involve diverse resource types, each with varying performance and efficiency levels. Measuring key resources like compute power, storage, and baseline costs is crucial. Non-billable units of measure \(UoM\) are used to represent the consumption of these resources.
 
-or example, compute-heavy AI models on high-performance instances consume more resources per hour than smaller, less demanding workloads. This results in proportionally higher costs. Pricing reflects true resource consumption.
+For example, compute-heavy AI models on high-performance instances consume more resources per hour than smaller, less demanding workloads. This results in proportionally higher costs. Pricing reflects true resource consumption.
 
 Custom AI development requirements vary significantly based on the use case. A range of compute infrastructure resources is available, differing in CPU cores, memory \(GB\), and GPU presence for GPU-powered workloads like model training. Available resources are shown in the table.
 
@@ -157,7 +157,7 @@ Custom AI models can incur compute, storage, and baseline costs. You have the fl
 
 <a name="loio32f87752baed40368f49d38e49a09a2f__section_sr2_qkl_kfc"/>
 
-## Pricing for Predictive AI
+## Pricing for Custom AI
 
 The billing metric for SAP BTP is referred to as “capacity units”. Capacity units are calculated using conversion factors applied to compute, storage, and baseline intermediary UoM values. This allows you to calculate a specific price for the infrastructure used based on your compute and storage requirements.
 
@@ -276,7 +276,7 @@ Here's an example calculation, using fictitious values:
 > </td>
 > <td valign="top">
 > 
-> 0.0003\*5,000 = 1.5 CU
+> 0.0003\*10.000 = 1.5 CU
 > 
 > </td>
 > </tr>
@@ -311,7 +311,7 @@ Here's an example calculation, using fictitious values:
 
 Infrastructure specifications are combined minimum values; actual numbers vary by deployed hyperscaler and may be higher.
 
-The CUs can be converted to monetary values in the BTP Discovery Center Estimator. For more information, see [BTP Discovery Center Estimator](https://discovery-center.cloud.sap/estimator/?commercialModel=btpea).
+The CUs can be converted to monetary values in the SAP BTP Discovery Center Estimator. For more information, see [SAP BTP Discovery Center Estimator](https://discovery-center.cloud.sap/estimator/?commercialModel=btpea).
 
 > ### Recommendation:  
 > For an estimate of projected costs, use the [SAP AI Core Cost Calculator](https://ai-core-calculator.cfapps.eu10.hana.ondemand.com/uimodule/index.html).

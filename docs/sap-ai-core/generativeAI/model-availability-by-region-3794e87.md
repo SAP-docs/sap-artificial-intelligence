@@ -671,68 +671,6 @@ aws-bedrock \(AWS\)
 </td>
 <td valign="top">
 
-anthropic--claude-3-haiku
-
-</td>
-<td valign="top">
-
-1 \(latest\)
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-Yes\*
-
-</td>
-<td valign="top">
-
-Yes\*
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-aws-bedrock \(AWS\)
-
-</td>
-<td valign="top">
-
 anthropic--claude-4.5-haiku
 
 </td>
@@ -1156,68 +1094,6 @@ Yes
 <td valign="top">
 
 Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-aws-bedrock \(AWS\)
-
-</td>
-<td valign="top">
-
-anthropic--claude-4-sonnet
-
-</td>
-<td valign="top">
-
-1 \(latest\)
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes\*
 
 </td>
 </tr>
@@ -4817,6 +4693,378 @@ Yes
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+azure-openai \(Azure\)
+
+</td>
+<td valign="top">
+
+gpt-6-astra
+
+</td>
+<td valign="top">
+
+2026-09-03
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+azure-openai \(Azure\)
+
+</td>
+<td valign="top">
+
+gpt-6-luna
+
+</td>
+<td valign="top">
+
+2026-09-22
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+azure-openai \(Azure\)
+
+</td>
+<td valign="top">
+
+gpt-6.1-sol
+
+</td>
+<td valign="top">
+
+2026-09-22
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+aicore-sap \(SAP-hosted\)
+
+</td>
+<td valign="top">
+
+sap-rpt-ts
+
+</td>
+<td valign="top">
+
+version
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+aicore-opensource
+
+</td>
+<td valign="top">
+
+meta--llama-guard-3-8b
+
+</td>
+<td valign="top">
+
+202407
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+aicore-opensource
+
+</td>
+<td valign="top">
+
+ibm--granite-guardian-8b
+
+</td>
+<td valign="top">
+
+4.1
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
 </table>
 
 
@@ -5369,63 +5617,6 @@ aws-bedrock \(AWS\)
 </td>
 <td valign="top">
 
-anthropic--claude-3-haiku
-
-</td>
-<td valign="top">
-
-1 \(latest\)
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-Yes\*
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes\*
-
-</td>
-<td valign="top">
-
-Yes\*
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-aws-bedrock \(AWS\)
-
-</td>
-<td valign="top">
-
 anthropic--claude-4.5-haiku
 
 </td>
@@ -5774,63 +5965,6 @@ anthropic--claude-4.8-opus
 <td valign="top">
 
 1
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-aws-bedrock \(AWS\)
-
-</td>
-<td valign="top">
-
-anthropic--claude-4-sonnet
-
-</td>
-<td valign="top">
-
-1 \(latest\)
 
 </td>
 <td valign="top">
@@ -7716,7 +7850,7 @@ gpt-5-mini
 </td>
 <td valign="top">
 
-No
+Yes
 
 </td>
 <td valign="top">
@@ -9177,6 +9311,348 @@ Yes
 <td valign="top">
 
 Yes\*
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+azure-openai \(Azure\)
+
+</td>
+<td valign="top">
+
+gpt-6-astra
+
+</td>
+<td valign="top">
+
+2026-09-03
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+azure-openai \(Azure\)
+
+</td>
+<td valign="top">
+
+gpt-6-luna
+
+</td>
+<td valign="top">
+
+2026-09-22
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+azure-openai \(Azure\)
+
+</td>
+<td valign="top">
+
+gpt-6.1-sol
+
+</td>
+<td valign="top">
+
+2026-09-22
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+aicore-sap \(SAP-hosted\)
+
+</td>
+<td valign="top">
+
+sap-rpt-ts
+
+</td>
+<td valign="top">
+
+version
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+aicore-opensource
+
+</td>
+<td valign="top">
+
+meta--llama-guard-3-8b
+
+</td>
+<td valign="top">
+
+202407
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+aicore-opensource
+
+</td>
+<td valign="top">
+
+ibm--granite-guardian-8b
+
+</td>
+<td valign="top">
+
+4.1
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 </tr>
@@ -9638,53 +10114,6 @@ aws-bedrock \(AWS\)
 </td>
 <td valign="top">
 
-anthropic--claude-3-haiku
-
-</td>
-<td valign="top">
-
-1 \(latest\)
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-aws-bedrock \(AWS\)
-
-</td>
-<td valign="top">
-
 anthropic--claude-4.5-haiku
 
 </td>
@@ -9973,53 +10402,6 @@ anthropic--claude-4.8-opus
 <td valign="top">
 
 1
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-No
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-aws-bedrock \(AWS\)
-
-</td>
-<td valign="top">
-
-anthropic--claude-4-sonnet
-
-</td>
-<td valign="top">
-
-1 \(latest\)
 
 </td>
 <td valign="top">
@@ -12766,6 +13148,288 @@ Yes
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+azure-openai \(Azure\)
+
+</td>
+<td valign="top">
+
+gpt-6-astra
+
+</td>
+<td valign="top">
+
+2026-09-03
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+azure-openai \(Azure\)
+
+</td>
+<td valign="top">
+
+gpt-6-luna
+
+</td>
+<td valign="top">
+
+2026-09-22
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+azure-openai \(Azure\)
+
+</td>
+<td valign="top">
+
+gpt-6.1-sol
+
+</td>
+<td valign="top">
+
+2026-09-22
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+aicore-sap \(SAP-hosted\)
+
+</td>
+<td valign="top">
+
+sap-rpt-ts
+
+</td>
+<td valign="top">
+
+version
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+aicore-opensource
+
+</td>
+<td valign="top">
+
+meta--llama-guard-3-8b
+
+</td>
+<td valign="top">
+
+202407
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+aicore-opensource
+
+</td>
+<td valign="top">
+
+ibm--granite-guardian-8b
+
+</td>
+<td valign="top">
+
+4.1
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes\*
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">
